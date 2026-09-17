@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T20:38:02.334896714Z",
+  "generated_at": "2026-09-17T00:54:19.240909131Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -357,7 +357,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-08T12:07:01Z",
-      "updated_at": "2026-09-16T19:48:53Z",
+      "updated_at": "2026-09-17T00:37:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -381,7 +381,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-09-09T19:21:10Z",
-      "updated_at": "2026-09-16T19:55:23Z",
+      "updated_at": "2026-09-17T00:34:41Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -500,7 +500,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-16T13:21:14Z",
-      "updated_at": "2026-09-16T20:27:48Z",
+      "updated_at": "2026-09-17T00:25:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -522,13 +522,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
       },
       "created_at": "2026-09-16T15:02:40Z",
-      "updated_at": "2026-09-16T20:20:53Z",
+      "updated_at": "2026-09-16T23:12:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -781,7 +781,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-18T20:36:20Z",
+    "since": "2026-06-19T00:52:44Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -1359,8 +1359,16 @@
       },
       {
         "login": "jannfis",
-        "reviews": 63,
+        "reviews": 64,
         "prs": [
+          {
+            "title": "feat: secure HA admin endpoints with mTLS authentication",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1076",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1076,
+            "author": "jparsai",
+            "engaged_at": "2026-09-16T23:49:15Z"
+          },
           {
             "title": "feat: add option to enable tracking annotation/label for CRDs",
             "url": "https://github.com/argoproj/argo-cd/pull/27907",
@@ -3387,8 +3395,16 @@
       },
       {
         "login": "jgwest",
-        "reviews": 20,
+        "reviews": 21,
         "prs": [
+          {
+            "title": "fix: add guard for deletion depending on if CR owns APIService for promoter",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1298",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1298,
+            "author": "cjcocokrisp",
+            "engaged_at": "2026-09-16T23:12:11Z"
+          },
           {
             "title": "feat: secure HA admin endpoints with mTLS authentication",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1076",
