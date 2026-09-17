@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T08:30:27.606119549Z",
+  "generated_at": "2026-09-17T12:32:18.573194787Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -144,16 +144,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-07-09T07:23:23Z",
-      "updated_at": "2026-09-16T16:40:34Z",
+      "updated_at": "2026-09-17T09:52:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "approved"
       ]
@@ -192,7 +192,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-08-13T09:26:08Z",
-      "updated_at": "2026-09-17T08:19:09Z",
+      "updated_at": "2026-09-17T12:05:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -216,7 +216,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-08-30T03:58:57Z",
-      "updated_at": "2026-09-16T09:47:23Z",
+      "updated_at": "2026-09-17T11:20:19Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -265,7 +265,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-06T05:25:51Z",
-      "updated_at": "2026-09-16T18:53:32Z",
+      "updated_at": "2026-09-17T09:10:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -275,7 +275,9 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
-      "labels": []
+      "labels": [
+        "lgtm"
+      ]
     },
     {
       "title": "chore(test): Avoid printing test-credentials",
@@ -311,7 +313,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-08T12:07:01Z",
-      "updated_at": "2026-09-17T06:44:15Z",
+      "updated_at": "2026-09-17T12:11:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -381,17 +383,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-15T13:25:44Z",
-      "updated_at": "2026-09-15T14:10:24Z",
+      "updated_at": "2026-09-17T12:19:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 5,
-      "labels": []
+      "labels": [
+        "lgtm",
+        "approved"
+      ]
     },
     {
       "title": "chore: add AGENTS.md with E2E test rules",
@@ -403,7 +408,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-09-15T21:11:17Z",
-      "updated_at": "2026-09-16T12:28:16Z",
+      "updated_at": "2026-09-17T11:53:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -687,12 +692,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-19T08:28:39Z",
+    "since": "2026-06-19T12:30:26Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 71,
+        "reviews": 72,
         "prs": [
+          {
+            "title": "Docs publishing on readthedocs.org",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1294",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1294,
+            "author": "olivergondza",
+            "engaged_at": "2026-09-17T12:19:38Z"
+          },
           {
             "title": "feat: create alert rules for constantly syncing GitOps applications",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1288",
@@ -2288,6 +2301,14 @@
         "reviews": 54,
         "prs": [
           {
+            "title": "chore: add AGENTS.md with E2E test rules",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1296",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1296,
+            "author": "jgwest",
+            "engaged_at": "2026-09-17T11:53:34Z"
+          },
+          {
             "title": "feat: create alert rules for constantly syncing GitOps applications",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1288",
             "repo": "redhat-developer/gitops-operator",
@@ -2310,14 +2331,6 @@
             "number": 1285,
             "author": "dependabot",
             "engaged_at": "2026-09-16T08:24:01Z"
-          },
-          {
-            "title": "chore: add AGENTS.md with E2E test rules",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1296",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1296,
-            "author": "jgwest",
-            "engaged_at": "2026-09-16T08:22:17Z"
           },
           {
             "title": "fix: fail fast for GPG strict mode and shallow repo clone",
@@ -4002,6 +4015,68 @@
         ]
       },
       {
+        "login": "anandrkskd",
+        "reviews": 7,
+        "prs": [
+          {
+            "title": "fix: omit nonResourceURLs from namespaced Roles",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1278",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1278,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-17T09:10:23Z"
+          },
+          {
+            "title": "fix: replace non-expiring metrics monitor SA token with TokenRequest",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1215",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1215,
+            "author": "tzprograms",
+            "engaged_at": "2026-09-17T08:37:24Z"
+          },
+          {
+            "title": "Added E2E tests for role ownership validation",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1208",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1208,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-17T08:35:01Z"
+          },
+          {
+            "title": "Added E2E for role ownership validation",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1209",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1209,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-16T10:17:46Z"
+          },
+          {
+            "title": "fix: updated otel version to v1.44.0 for fixing CVE-2026-41178",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1283",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1283,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-09T03:54:13Z"
+          },
+          {
+            "title": "feat: decouple console plugin from default ArgoCD instance ",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1231",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1231,
+            "author": "Rizwana777",
+            "engaged_at": "2026-08-19T11:37:04Z"
+          },
+          {
+            "title": "feat: Configuring TLS options from Central TLS Profile",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1184",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1184,
+            "author": "akhilnittala",
+            "engaged_at": "2026-06-24T04:56:49Z"
+          }
+        ]
+      },
+      {
         "login": "akhilnittala",
         "reviews": 5,
         "prs": [
@@ -4048,52 +4123,6 @@
         ]
       },
       {
-        "login": "anandrkskd",
-        "reviews": 5,
-        "prs": [
-          {
-            "title": "Added E2E for role ownership validation",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1209",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1209,
-            "author": "alkakumari016",
-            "engaged_at": "2026-09-16T10:17:46Z"
-          },
-          {
-            "title": "fix: omit nonResourceURLs from namespaced Roles",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1278",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1278,
-            "author": "alkakumari016",
-            "engaged_at": "2026-09-16T10:16:31Z"
-          },
-          {
-            "title": "fix: updated otel version to v1.44.0 for fixing CVE-2026-41178",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1283",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1283,
-            "author": "alkakumari016",
-            "engaged_at": "2026-09-09T03:54:13Z"
-          },
-          {
-            "title": "feat: decouple console plugin from default ArgoCD instance ",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1231",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1231,
-            "author": "Rizwana777",
-            "engaged_at": "2026-08-19T11:37:04Z"
-          },
-          {
-            "title": "feat: Configuring TLS options from Central TLS Profile",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1184",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1184,
-            "author": "akhilnittala",
-            "engaged_at": "2026-06-24T04:56:49Z"
-          }
-        ]
-      },
-      {
         "login": "AdamSaleh",
         "reviews": 1,
         "prs": [
@@ -4131,7 +4160,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1215,
             "author": "tzprograms",
-            "engaged_at": "2026-09-16T05:27:49Z"
+            "engaged_at": "2026-09-17T11:24:08Z"
           }
         ]
       },
