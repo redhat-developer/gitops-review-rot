@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T16:24:15.617058142Z",
+  "generated_at": "2026-09-17T20:22:27.640209749Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -144,10 +144,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-07-09T07:23:23Z",
-      "updated_at": "2026-09-17T09:52:06Z",
+      "updated_at": "2026-09-17T20:02:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -454,10 +454,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
       },
       "created_at": "2026-09-16T15:02:40Z",
-      "updated_at": "2026-09-17T14:33:11Z",
+      "updated_at": "2026-09-17T20:16:36Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -465,30 +465,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "chore: bring apiservice fix downstream",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1301",
-      "number": 1301,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "cjcocokrisp",
-        "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
-      },
-      "created_at": "2026-09-17T13:18:15Z",
-      "updated_at": "2026-09-17T13:26:05Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/bug"
-      ]
     },
     {
       "title": "build(container): Build multi-arch images for release",
@@ -715,7 +691,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-19T16:22:34Z",
+    "since": "2026-06-19T20:20:42Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -1301,7 +1277,7 @@
       },
       {
         "login": "jannfis",
-        "reviews": 69,
+        "reviews": 68,
         "prs": [
           {
             "title": "build(deps): Bump golang.org/x/crypto from 0.55.0 to 0.57.0",
@@ -1846,14 +1822,6 @@
             "number": 28266,
             "author": "akhilnittala",
             "engaged_at": "2026-06-23T12:13:55Z"
-          },
-          {
-            "title": "chore: Enable data race detection in argocd-agent 'dev-env' and E2E tests",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/793",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 793,
-            "author": "jgwest",
-            "engaged_at": "2026-06-19T20:11:12Z"
           }
         ]
       },
@@ -2476,7 +2444,7 @@
             "engaged_at": "2026-09-01T11:23:28Z"
           },
           {
-            "title": "feat(source-integrity): extend sourceIntegrity for traditional helm repos",
+            "title": "feat(source-integrity): extend sourceIntegrity for traditional helm and OCI helm repos",
             "url": "https://github.com/argoproj/argo-cd/pull/27741",
             "repo": "argoproj/argo-cd",
             "number": 27741,
@@ -3377,7 +3345,7 @@
       },
       {
         "login": "jgwest",
-        "reviews": 20,
+        "reviews": 21,
         "prs": [
           {
             "title": "fix: add guard for deletion depending on if CR owns APIService for promoter",
@@ -3385,7 +3353,15 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1298,
             "author": "cjcocokrisp",
-            "engaged_at": "2026-09-16T23:12:11Z"
+            "engaged_at": "2026-09-17T20:16:36Z"
+          },
+          {
+            "title": "chore: bring apiservice fix downstream",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1301",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1301,
+            "author": "cjcocokrisp",
+            "engaged_at": "2026-09-17T20:15:59Z"
           },
           {
             "title": "feat: secure HA admin endpoints with mTLS authentication",
