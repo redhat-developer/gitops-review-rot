@@ -1,29 +1,16 @@
 # GitHub App credentials for API access
 github:
-  app_id: 245286
-  installation_id: 59973090
+  app_id: 4968234
+  installation_id: 162260382
 
 sources:
-  # All repos under these orgs are included automatically
-  orgs:
-    - name: conforma
-    - name: enterprise-contract
-
   # Additional repos outside the orgs above
   repos:
-    - konflux-ci/build-definitions
-    - konflux-ci/build-trusted-artifacts
-    - konflux-ci/docs
-    - konflux-ci/e2e-tests
-    - konflux-ci/konflux-ci.github.io
-    - konflux-ci/konflux-test
-    - konflux-ci/release-service-catalog
-    - konflux-ci/tektor
-    - redhat-appstudio/infra-deployments
-    - redhat-appstudio/tssc-dev-multi-ci
-    - redhat-appstudio/tssc-sample-templates
-    - tektoncd/chains
-    - release-engineering/rhtap-ec-policy
+    - redhat-developer/gitops-operator
+    - argoproj/argo-cd
+    - argoproj/argo-rollouts
+    - argoproj-labs/argocd-agent
+    - argoproj-labs/argocd-image-updater
 
 # Reviewer leaderboard settings
 leaderboard:
@@ -32,19 +19,6 @@ leaderboard:
   # narrows it further client-side. Defaults to 90 if omitted.
   window_days: 90
 
-# Team members — PRs from these authors are always shown,
-# even in repos outside the orgs above.
-#
-# Expanding groups is supported using "@orgname/teamname" syntax. The app 
-# will need permissions to read the org's members in order to read your
-# teams.
+# The GitHub App must have 'Organization members: Read' permission to expand teams.
 authors:
-  - Acepresso
-  - cuipinghuo
-  - dheerajodha
-  - joejstuart
-  - robnester-rh
-  - simonbaird
-  - st3penta
-  - jsmid1
-  - BohdanMar
+- "@redhat-developer/gitops"

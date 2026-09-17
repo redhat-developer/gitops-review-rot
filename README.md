@@ -1,3 +1,12 @@
+# Read me first
+
+This is a fork & clone of [review-rot](https://github.com/conforma/review-rot)
+used to generate the review-rot for the OpenShift GitOps team.
+
+We track the upstream's main branch in `main`. The default branch in this
+repository is `gitops-review-rot`, where we have local changes to the config
+and UI settings.
+
 # review-rot
 
 PR dashboard that shows open pull requests across monitored GitHub repositories
