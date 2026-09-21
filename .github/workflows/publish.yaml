@@ -5,8 +5,8 @@ on:
     branches:
       - main
   schedule:
-    # Every 4 hours, Monday through Friday
-    - cron: '0 */4 * * 1-5'
+    # Every hour, Monday through Friday
+    - cron: '0 */1 * * 1-5'
   workflow_dispatch:
 
 permissions:
