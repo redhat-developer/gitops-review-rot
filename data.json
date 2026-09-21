@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T22:07:33.798840675Z",
+  "generated_at": "2026-09-21T23:07:05.318056126Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1521,7 +1521,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-08-30T03:58:57Z",
-      "updated_at": "2026-09-21T21:47:17Z",
+      "updated_at": "2026-09-21T22:39:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1857,13 +1857,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/212037117?u=465f916b6044afc59981c9146f00ba8ee5500e2f\u0026v=4"
       },
       "created_at": "2026-09-17T14:57:52Z",
-      "updated_at": "2026-09-21T17:28:27Z",
+      "updated_at": "2026-09-21T22:47:14Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 2,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 3,
@@ -2444,7 +2444,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/42912207?u=c6c8d3a1ea8cce3b5e9533cd28aa8dcf14b05864\u0026v=4"
       },
       "created_at": "2026-09-09T07:25:06Z",
-      "updated_at": "2026-09-19T05:07:17Z",
+      "updated_at": "2026-09-21T22:18:13Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -4150,16 +4150,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
       },
       "created_at": "2026-07-13T19:06:59Z",
-      "updated_at": "2026-08-15T19:42:35Z",
+      "updated_at": "2026-09-21T22:34:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 3,
       "labels": []
     },
     {
@@ -4282,13 +4282,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3942683?u=038f901f9541001e86f098745d541daaaf7f2974\u0026v=4"
       },
       "created_at": "2026-09-21T19:32:53Z",
-      "updated_at": "2026-09-21T19:48:37Z",
+      "updated_at": "2026-09-21T22:41:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4299,7 +4299,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-23T22:05:41Z",
+    "since": "2026-06-23T23:05:14Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -4893,8 +4893,16 @@
       },
       {
         "login": "jannfis",
-        "reviews": 72,
+        "reviews": 73,
         "prs": [
+          {
+            "title": "feat(apps-in-any-namespace): source-namespace label for deploying applications to labeled namespaces (#28594)",
+            "url": "https://github.com/argoproj/argo-cd/pull/28702",
+            "repo": "argoproj/argo-cd",
+            "number": 28702,
+            "author": "cjcocokrisp",
+            "engaged_at": "2026-09-21T22:34:31Z"
+          },
           {
             "title": "build(deps): Bump github.com/alicebob/miniredis/v2 from 2.38.0 to 2.39.0",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1115",
@@ -7011,8 +7019,16 @@
       },
       {
         "login": "jgwest",
-        "reviews": 25,
+        "reviews": 26,
         "prs": [
+          {
+            "title": "fix(promoter): mount writable temporary storage for the controller",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1302",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1302,
+            "author": "jsell-rh",
+            "engaged_at": "2026-09-21T22:26:50Z"
+          },
           {
             "title": "feat: support custom annotations in principal's service",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1299",
