@@ -8,11 +8,11 @@ sources:
   # Prefix a repo with + to watch ALL authors (like an org repo)
   # Without +, only PRs from team members in 'authors' are shown
   repos:
-    - redhat-developer/gitops-operator
+    - +redhat-developer/gitops-operator
     - argoproj/argo-cd
     - argoproj/argo-rollouts
-    - argoproj-labs/argocd-agent
-    - argoproj-labs/argocd-image-updater
+    - +argoproj-labs/argocd-agent
+    - +argoproj-labs/argocd-image-updater
 
 # Reviewer leaderboard settings
 leaderboard:
