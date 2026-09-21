@@ -5,6 +5,8 @@ github:
 
 sources:
   # Additional repos outside the orgs above
+  # Prefix a repo with + to watch ALL authors (like an org repo)
+  # Without +, only PRs from team members in 'authors' are shown
   repos:
     - redhat-developer/gitops-operator
     - argoproj/argo-cd
