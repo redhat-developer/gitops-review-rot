@@ -8,6 +8,9 @@ sources:
   # Prefix a repo with + to watch ALL authors (like an org repo)
   # Without +, only PRs from team members in 'authors' are shown
   repos:
+    - +redhat-developer/gitops-backend
+    - +redhat-developer/gitops-console-plugin
+    - +redhat-developer/gitops-must-gather
     - +redhat-developer/gitops-operator
     - argoproj/argo-cd
     - argoproj/argo-rollouts
