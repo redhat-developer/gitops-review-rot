@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T20:11:07.870626125Z",
+  "generated_at": "2026-09-21T21:06:30.687925038Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1423,7 +1423,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-07-09T07:23:23Z",
-      "updated_at": "2026-09-21T19:44:59Z",
+      "updated_at": "2026-09-21T20:44:46Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4299,7 +4299,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-23T20:09:05Z",
+    "since": "2026-06-23T21:04:48Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7621,7 +7621,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1208,
             "author": "alkakumari016",
-            "engaged_at": "2026-09-21T19:44:58Z"
+            "engaged_at": "2026-09-21T20:44:46Z"
           },
           {
             "title": "fix(pkg): provide correct logs on gRPC-Web fallback failure",
