@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T03:07:36.821695006Z",
+  "generated_at": "2026-09-22T04:07:17.778866914Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -457,7 +457,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-19T02:32:22Z",
-      "updated_at": "2026-09-19T07:23:40Z",
+      "updated_at": "2026-09-22T03:56:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -501,10 +501,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-19T05:50:50Z",
-      "updated_at": "2026-09-08T03:37:06Z",
+      "updated_at": "2026-09-22T03:54:42Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5231,13 +5231,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3942683?u=038f901f9541001e86f098745d541daaaf7f2974\u0026v=4"
       },
       "created_at": "2026-09-21T19:32:53Z",
-      "updated_at": "2026-09-21T22:41:39Z",
+      "updated_at": "2026-09-22T03:53:24Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5248,7 +5248,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-24T03:05:55Z",
+    "since": "2026-06-24T04:05:40Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6755,6 +6755,14 @@
         "reviews": 92,
         "prs": [
           {
+            "title": "docs(security): Update reporting guidelines in security policy",
+            "url": "https://github.com/argoproj/argo-cd/pull/29815",
+            "repo": "argoproj/argo-cd",
+            "number": 29815,
+            "author": "jannfis",
+            "engaged_at": "2026-09-22T03:32:24Z"
+          },
+          {
             "title": "fix(dex): fetching changes for mounting dex sa token as projected volume mount",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1305",
             "repo": "redhat-developer/gitops-operator",
@@ -7481,14 +7489,6 @@
             "number": 1191,
             "author": "alkakumari016",
             "engaged_at": "2026-06-24T04:42:03Z"
-          },
-          {
-            "title": "chore(deps): bump image-updater from 1.1.2 to 1.1.3; bump argocd from 3.3.10 to 3.3.12",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2251",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2251,
-            "author": "chengfang",
-            "engaged_at": "2026-06-24T03:23:39Z"
           }
         ]
       },
