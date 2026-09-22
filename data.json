@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T06:09:24.632789766Z",
+  "generated_at": "2026-09-22T07:09:53.070307213Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1832,7 +1832,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/212037117?u=465f916b6044afc59981c9146f00ba8ee5500e2f\u0026v=4"
       },
       "created_at": "2026-09-17T14:57:52Z",
-      "updated_at": "2026-09-22T02:23:11Z",
+      "updated_at": "2026-09-22T06:07:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1858,10 +1858,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-21T11:28:41Z",
-      "updated_at": "2026-09-22T05:33:33Z",
+      "updated_at": "2026-09-22T06:25:46Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5271,7 +5271,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-24T06:07:44Z",
+    "since": "2026-06-24T07:07:52Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6775,7 +6775,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 91,
+        "reviews": 90,
         "prs": [
           {
             "title": "fix: Add `.cluster.local` to `no_proxy` environment variable",
@@ -7496,14 +7496,6 @@
             "number": 1192,
             "author": "alkakumari016",
             "engaged_at": "2026-06-25T04:59:56Z"
-          },
-          {
-            "title": "update argocd-operator ref",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1193",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1193,
-            "author": "alkakumari016",
-            "engaged_at": "2026-06-24T06:33:10Z"
           }
         ]
       },
