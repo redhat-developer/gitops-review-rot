@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T20:06:37.056385695Z",
+  "generated_at": "2026-09-22T21:07:28.855274724Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1520,7 +1520,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-08-30T03:58:57Z",
-      "updated_at": "2026-09-22T16:47:32Z",
+      "updated_at": "2026-09-22T20:30:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1906,10 +1906,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-09-21T19:17:34Z",
-      "updated_at": "2026-09-22T19:03:31Z",
+      "updated_at": "2026-09-22T20:58:43Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1980,10 +1980,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-09-22T17:06:54Z",
-      "updated_at": "2026-09-22T17:11:37Z",
+      "updated_at": "2026-09-22T20:58:54Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3562,14 +3562,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/19982018?v=4"
       },
       "created_at": "2026-09-17T10:44:41Z",
-      "updated_at": "2026-09-22T19:49:02Z",
+      "updated_at": "2026-09-22T20:21:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -5151,7 +5151,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
       },
       "created_at": "2026-07-13T19:06:59Z",
-      "updated_at": "2026-09-21T22:34:31Z",
+      "updated_at": "2026-09-22T20:36:30Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5325,12 +5325,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-24T20:04:46Z",
+    "since": "2026-06-24T21:05:38Z",
     "reviewers": [
       {
         "login": "chengfang",
         "reviews": 95,
         "prs": [
+          {
+            "title": "feat(pr): support Azure DevOps pull requests",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1808",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1808,
+            "author": "stefanm8",
+            "engaged_at": "2026-09-22T20:21:05Z"
+          },
           {
             "title": "add e2e and docs for operand priorityClassName",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1306",
@@ -5354,14 +5362,6 @@
             "number": 1297,
             "author": "olivergondza",
             "engaged_at": "2026-09-22T15:49:40Z"
-          },
-          {
-            "title": "feat(pr): support Azure DevOps pull requests",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1808",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1808,
-            "author": "stefanm8",
-            "engaged_at": "2026-09-22T02:07:59Z"
           },
           {
             "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart",
