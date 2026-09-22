@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T08:09:35.487983796Z",
+  "generated_at": "2026-09-22T09:07:48.216199872Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1399,7 +1399,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-07-08T12:30:58Z",
-      "updated_at": "2026-09-22T07:34:27Z",
+      "updated_at": "2026-09-22T08:29:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1408,7 +1408,7 @@
         "count": 3,
         "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement"
       ]
@@ -1784,10 +1784,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-09-17T08:26:05Z",
-      "updated_at": "2026-09-19T03:01:34Z",
+      "updated_at": "2026-09-22T08:19:17Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1942,6 +1942,30 @@
       "unresolved_conversations": 3,
       "labels": [
         "kind/enhancement"
+      ]
+    },
+    {
+      "title": "fix(redis): Fallback to old AUTH var for the purposes of smooth migration",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1307",
+      "number": 1307,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-09-22T08:11:43Z",
+      "updated_at": "2026-09-22T08:20:30Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "kind/bug"
       ]
     },
     {
@@ -4616,6 +4640,31 @@
       ]
     },
     {
+      "title": "chore(deps): bump github.com/onsi/gomega from 1.43.0 to 1.43.1",
+      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2394",
+      "number": 2394,
+      "repo": "argoproj-labs/argocd-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-09-22T08:43:06Z",
+      "updated_at": "2026-09-22T08:43:12Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go"
+      ]
+    },
+    {
       "title": "docs: Proposal for multi-tenant repository servers",
       "url": "https://github.com/argoproj/argo-cd/pull/12123",
       "number": 12123,
@@ -5270,7 +5319,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-24T08:07:33Z",
+    "since": "2026-06-24T09:05:51Z",
     "reviewers": [
       {
         "login": "chengfang",
