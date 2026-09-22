@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T02:08:00.872821518Z",
+  "generated_at": "2026-09-22T03:07:36.821695006Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1753,31 +1753,6 @@
       ]
     },
     {
-      "title": "chore: add AGENTS.md with E2E test rules",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1296",
-      "number": 1296,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "jgwest",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
-      },
-      "created_at": "2026-09-15T21:11:17Z",
-      "updated_at": "2026-09-22T00:40:49Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "lgtm",
-        "approved"
-      ]
-    },
-    {
       "title": "chore: Delete now unused argocd-operator manifests and the make goals using/producing them",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1297",
       "number": 1297,
@@ -1857,7 +1832,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/212037117?u=465f916b6044afc59981c9146f00ba8ee5500e2f\u0026v=4"
       },
       "created_at": "2026-09-17T14:57:52Z",
-      "updated_at": "2026-09-22T01:58:40Z",
+      "updated_at": "2026-09-22T02:23:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3560,7 +3535,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/19982018?v=4"
       },
       "created_at": "2026-09-17T10:44:41Z",
-      "updated_at": "2026-09-22T02:03:57Z",
+      "updated_at": "2026-09-22T02:08:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5273,7 +5248,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-24T02:06:25Z",
+    "since": "2026-06-24T03:05:55Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -5285,7 +5260,7 @@
             "repo": "argoproj-labs/argocd-image-updater",
             "number": 1808,
             "author": "stefanm8",
-            "engaged_at": "2026-09-22T02:03:57Z"
+            "engaged_at": "2026-09-22T02:07:59Z"
           },
           {
             "title": "add e2e and docs for operand priorityClassName",
