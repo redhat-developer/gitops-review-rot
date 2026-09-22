@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T05:06:42.313852928Z",
+  "generated_at": "2026-09-22T06:09:24.632789766Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1521,10 +1521,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-08-30T03:58:57Z",
-      "updated_at": "2026-09-21T22:39:43Z",
+      "updated_at": "2026-09-22T05:18:42Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1858,18 +1858,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-21T11:28:41Z",
-      "updated_at": "2026-09-21T19:30:58Z",
+      "updated_at": "2026-09-22T05:33:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/bug"
+        "kind/bug",
+        "lgtm"
       ]
     },
     {
@@ -1904,18 +1905,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
       },
       "created_at": "2026-09-21T12:50:46Z",
-      "updated_at": "2026-09-22T04:30:47Z",
+      "updated_at": "2026-09-22T05:31:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
         "kind/bug",
+        "lgtm",
         "approved"
       ]
     },
@@ -2567,6 +2569,28 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "chore: move SPIRE below cert-manager in TLS doc",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1120",
+      "number": 1120,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-09-22T05:07:01Z",
+      "updated_at": "2026-09-22T05:11:58Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "Add OAuth support. It is need for access to Azure CR",
@@ -3444,7 +3468,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-09-10T01:40:17Z",
-      "updated_at": "2026-09-22T01:23:09Z",
+      "updated_at": "2026-09-22T05:03:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3556,16 +3580,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/10557236?u=9abde84595a4d3487fe5d23bc17eeb36bdbb0b6b\u0026v=4"
       },
       "created_at": "2026-09-17T18:54:58Z",
-      "updated_at": "2026-09-17T19:01:02Z",
+      "updated_at": "2026-09-22T05:35:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": []
     },
     {
@@ -5247,7 +5271,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-24T05:05:01Z",
+    "since": "2026-06-24T06:07:44Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6754,12 +6778,12 @@
         "reviews": 91,
         "prs": [
           {
-            "title": "docs(security): Update reporting guidelines in security policy",
-            "url": "https://github.com/argoproj/argo-cd/pull/29815",
-            "repo": "argoproj/argo-cd",
-            "number": 29815,
-            "author": "jannfis",
-            "engaged_at": "2026-09-22T03:32:24Z"
+            "title": "fix: Add `.cluster.local` to `no_proxy` environment variable",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1303",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1303,
+            "author": "olivergondza",
+            "engaged_at": "2026-09-22T05:33:28Z"
           },
           {
             "title": "fix(dex): fetching changes for mounting dex sa token as projected volume mount",
@@ -6767,7 +6791,15 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1305,
             "author": "anandf",
-            "engaged_at": "2026-09-21T13:17:53Z"
+            "engaged_at": "2026-09-22T05:31:12Z"
+          },
+          {
+            "title": "docs(security): Update reporting guidelines in security policy",
+            "url": "https://github.com/argoproj/argo-cd/pull/29815",
+            "repo": "argoproj/argo-cd",
+            "number": 29815,
+            "author": "jannfis",
+            "engaged_at": "2026-09-22T03:32:24Z"
           },
           {
             "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart (#2377)",
@@ -7472,14 +7504,6 @@
             "number": 1193,
             "author": "alkakumari016",
             "engaged_at": "2026-06-24T06:33:10Z"
-          },
-          {
-            "title": "feat: Configuring TLS options from Central TLS Profile",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1184",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1184,
-            "author": "akhilnittala",
-            "engaged_at": "2026-06-24T05:07:17Z"
           }
         ]
       },
