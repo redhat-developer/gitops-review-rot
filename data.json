@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T06:09:17.92776166Z",
+  "generated_at": "2026-09-23T07:09:41.046259748Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1399,16 +1399,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-07-08T12:30:58Z",
-      "updated_at": "2026-09-22T14:03:51Z",
+      "updated_at": "2026-09-23T06:46:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 3,
-        "has_new_commits": true
+        "count": 4,
+        "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": [
         "kind/enhancement"
       ]
@@ -1786,7 +1786,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-09-17T08:26:05Z",
-      "updated_at": "2026-09-23T04:35:20Z",
+      "updated_at": "2026-09-23T06:24:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1808,7 +1808,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-09-17T11:37:16Z",
-      "updated_at": "2026-09-23T05:57:43Z",
+      "updated_at": "2026-09-23T06:18:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2465,16 +2465,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/42912207?u=c6c8d3a1ea8cce3b5e9533cd28aa8dcf14b05864\u0026v=4"
       },
       "created_at": "2026-09-09T07:25:06Z",
-      "updated_at": "2026-09-22T13:10:02Z",
+      "updated_at": "2026-09-23T06:10:14Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 3,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -2542,6 +2542,31 @@
       },
       "unresolved_conversations": 1,
       "labels": []
+    },
+    {
+      "title": "build(deps): Bump google.golang.org/grpc from 1.79.3 to 1.83.2 in /hack/sync-consistency-util",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1123",
+      "number": 1123,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-09-23T06:44:19Z",
+      "updated_at": "2026-09-23T06:44:25Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go"
+      ]
     },
     {
       "title": "Add OAuth support. It is need for access to Azure CR",
@@ -4619,28 +4644,6 @@
       ]
     },
     {
-      "title": "fix: tmp not writable for promoter controller deployment",
-      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2395",
-      "number": 2395,
-      "repo": "argoproj-labs/argocd-operator",
-      "author": {
-        "login": "cjcocokrisp",
-        "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
-      },
-      "created_at": "2026-09-22T13:31:33Z",
-      "updated_at": "2026-09-22T15:43:16Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "docs: Proposal for multi-tenant repository servers",
       "url": "https://github.com/argoproj/argo-cd/pull/12123",
       "number": 12123,
@@ -5320,7 +5323,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T06:07:31Z",
+    "since": "2026-06-25T07:07:53Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8180,15 +8183,15 @@
       },
       {
         "login": "jgwest",
-        "reviews": 45,
+        "reviews": 47,
         "prs": [
           {
-            "title": "fix(promoter): mount writable temporary storage for the controller",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1302",
+            "title": "feat: prevent openshift-gitops namespace creation when DISABLE_DEFAULT_ARGOCD_INSTANCE=true",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1206",
             "repo": "redhat-developer/gitops-operator",
-            "number": 1302,
-            "author": "jsell-rh",
-            "engaged_at": "2026-09-22T01:58:17Z"
+            "number": 1206,
+            "author": "Rizwana777",
+            "engaged_at": "2026-09-23T06:46:06Z"
           },
           {
             "title": "feat: support custom annotations in principal's service",
@@ -8196,7 +8199,15 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1299,
             "author": "jparsai",
-            "engaged_at": "2026-09-18T21:25:19Z"
+            "engaged_at": "2026-09-23T06:24:56Z"
+          },
+          {
+            "title": "fix: tmp not writable for promoter controller deployment",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2395",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2395,
+            "author": "cjcocokrisp",
+            "engaged_at": "2026-09-23T06:12:12Z"
           },
           {
             "title": "fix: process Delete event for app already deleted on the agent",
@@ -8204,7 +8215,15 @@
             "repo": "argoproj-labs/argocd-agent",
             "number": 1101,
             "author": "KR-Ravindra",
-            "engaged_at": "2026-09-18T21:19:44Z"
+            "engaged_at": "2026-09-23T06:10:14Z"
+          },
+          {
+            "title": "fix(promoter): mount writable temporary storage for the controller",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1302",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1302,
+            "author": "jsell-rh",
+            "engaged_at": "2026-09-22T01:58:17Z"
           },
           {
             "title": "feat: secure HA admin endpoints with mTLS authentication",
