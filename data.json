@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T13:08:37.169470676Z",
+  "generated_at": "2026-09-23T14:09:46.997547535Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1856,7 +1856,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-21T12:36:38Z",
-      "updated_at": "2026-09-23T11:40:40Z",
+      "updated_at": "2026-09-23T13:34:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1979,7 +1979,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-23T10:26:39Z",
-      "updated_at": "2026-09-23T13:00:32Z",
+      "updated_at": "2026-09-23T13:24:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -3606,14 +3606,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/10557236?u=9abde84595a4d3487fe5d23bc17eeb36bdbb0b6b\u0026v=4"
       },
       "created_at": "2026-09-17T18:54:58Z",
-      "updated_at": "2026-09-22T22:37:17Z",
+      "updated_at": "2026-09-23T13:22:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 3,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 2,
       "labels": [
@@ -5256,6 +5256,30 @@
       "labels": []
     },
     {
+      "title": "fix: fix untar inbound check if dstPath is symlinked",
+      "url": "https://github.com/argoproj/argo-cd/pull/28881",
+      "number": 28881,
+      "repo": "argoproj/argo-cd",
+      "author": {
+        "login": "kuci-JK",
+        "avatar_url": "https://avatars.githubusercontent.com/u/81048645?v=4"
+      },
+      "created_at": "2026-07-23T15:13:21Z",
+      "updated_at": "2026-09-23T13:20:07Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 4,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 4,
+      "labels": [
+        "ready-for-review"
+      ]
+    },
+    {
       "title": "feat(controller): add FailedError condition for failed PostSync hooks",
       "url": "https://github.com/argoproj/argo-cd/pull/28893",
       "number": 28893,
@@ -5278,6 +5302,30 @@
       "labels": []
     },
     {
+      "title": "fix: fail fast for GPG strict mode and shallow repo clone",
+      "url": "https://github.com/argoproj/argo-cd/pull/29030",
+      "number": 29030,
+      "repo": "argoproj/argo-cd",
+      "author": {
+        "login": "kuci-JK",
+        "avatar_url": "https://avatars.githubusercontent.com/u/81048645?v=4"
+      },
+      "created_at": "2026-08-03T11:33:34Z",
+      "updated_at": "2026-09-15T11:02:15Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 4,
+      "labels": [
+        "ready-for-review"
+      ]
+    },
+    {
       "title": "feat(cli): implement OAuth 2.0 Device Authorization Grant (Beta)",
       "url": "https://github.com/argoproj/argo-cd/pull/29198",
       "number": 29198,
@@ -5297,6 +5345,28 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 8,
+      "labels": []
+    },
+    {
+      "title": "feat: add seal signing inspection command",
+      "url": "https://github.com/argoproj/argo-cd/pull/29236",
+      "number": 29236,
+      "repo": "argoproj/argo-cd",
+      "author": {
+        "login": "kuci-JK",
+        "avatar_url": "https://avatars.githubusercontent.com/u/81048645?v=4"
+      },
+      "created_at": "2026-08-18T09:03:39Z",
+      "updated_at": "2026-09-22T15:03:22Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 9,
       "labels": []
     },
     {
@@ -5322,6 +5392,53 @@
       "labels": []
     },
     {
+      "title": "feat(ui): add source integrity to project settings",
+      "url": "https://github.com/argoproj/argo-cd/pull/29411",
+      "number": 29411,
+      "repo": "argoproj/argo-cd",
+      "author": {
+        "login": "kuci-JK",
+        "avatar_url": "https://avatars.githubusercontent.com/u/81048645?v=4"
+      },
+      "created_at": "2026-08-27T12:38:45Z",
+      "updated_at": "2026-09-14T07:56:42Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "test: fix Test_SSHCreds_Environ_TempFileCleanupOnInvalidProxyURL shared tmp dir file count flake",
+      "url": "https://github.com/argoproj/argo-cd/pull/29653",
+      "number": 29653,
+      "repo": "argoproj/argo-cd",
+      "author": {
+        "login": "kuci-JK",
+        "avatar_url": "https://avatars.githubusercontent.com/u/81048645?v=4"
+      },
+      "created_at": "2026-09-10T12:11:43Z",
+      "updated_at": "2026-09-17T08:12:30Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "🟡 Small blast radius",
+        "🕐 Less than 10 minutes"
+      ]
+    },
+    {
       "title": "feat(dex): Configure Dex TLS Cipher Suites and Curve Preferences",
       "url": "https://github.com/argoproj/argo-cd/pull/29658",
       "number": 29658,
@@ -5344,39 +5461,69 @@
       "labels": []
     },
     {
-      "title": "chore(deps): bump golang.org/x/crypto to 0.55.0 (release-3.3)",
-      "url": "https://github.com/argoproj/argo-cd/pull/29824",
-      "number": 29824,
+      "title": "fix(pkg): provide correct logs on gRPC-Web fallback failure",
+      "url": "https://github.com/argoproj/argo-cd/pull/29688",
+      "number": 29688,
       "repo": "argoproj/argo-cd",
       "author": {
-        "login": "akhilnittala",
-        "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
+        "login": "nodari-dev",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
-      "created_at": "2026-09-22T13:23:34Z",
-      "updated_at": "2026-09-23T13:05:26Z",
+      "created_at": "2026-09-12T18:58:04Z",
+      "updated_at": "2026-09-18T10:02:38Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
-        "has_new_commits": true
+        "count": 2,
+        "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": [
         "🕐 10-20 Minutes",
-        "🟠 Medium blast radius"
+        "🟡 Small blast radius"
       ]
+    },
+    {
+      "title": "feat: add exit error abstraction for better unit testability of cli commands (#29533)",
+      "url": "https://github.com/argoproj/argo-cd/pull/29842",
+      "number": 29842,
+      "repo": "argoproj/argo-cd",
+      "author": {
+        "login": "kuci-JK",
+        "avatar_url": "https://avatars.githubusercontent.com/u/81048645?v=4"
+      },
+      "created_at": "2026-09-23T13:02:54Z",
+      "updated_at": "2026-09-23T13:21:15Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T13:06:21Z",
+    "since": "2026-06-25T14:07:27Z",
     "reviewers": [
       {
         "login": "chengfang",
         "reviews": 97,
         "prs": [
+          {
+            "title": "fix(argocd): persist Helm/Kustomize/Plugin merges for SourceHydrator apps",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1810",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1810,
+            "author": "pujitha24",
+            "engaged_at": "2026-09-23T13:10:28Z"
+          },
           {
             "title": "feat: implement wildcard support for IMAGE_UPDATER_WATCH_NAMESPACES",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1309",
@@ -5384,14 +5531,6 @@
             "number": 1309,
             "author": "dkarpele",
             "engaged_at": "2026-09-23T13:02:38Z"
-          },
-          {
-            "title": "fix(argocd): persist Helm/Kustomize/Plugin merges for SourceHydrator apps",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1810",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1810,
-            "author": "pujitha24",
-            "engaged_at": "2026-09-22T22:21:25Z"
           },
           {
             "title": "feat(pr): support Azure DevOps pull requests",
@@ -10524,6 +10663,44 @@
             "number": 2308,
             "author": "chetan-rns",
             "engaged_at": "2026-08-03T13:45:41Z"
+          }
+        ]
+      },
+      {
+        "login": "kuci-JK",
+        "reviews": 4,
+        "prs": [
+          {
+            "title": "docs: update argo cd local setup for windows wsl",
+            "url": "https://github.com/argoproj/argo-cd/pull/29450",
+            "repo": "argoproj/argo-cd",
+            "number": 29450,
+            "author": "Hyma200",
+            "engaged_at": "2026-09-21T11:48:03Z"
+          },
+          {
+            "title": "fix: remove duplicated word in Azure Service Principal credential error",
+            "url": "https://github.com/argoproj/argo-cd/pull/29751",
+            "repo": "argoproj/argo-cd",
+            "number": 29751,
+            "author": "simpleqt",
+            "engaged_at": "2026-09-21T11:14:26Z"
+          },
+          {
+            "title": "test: fix build error",
+            "url": "https://github.com/argoproj/argo-cd/pull/29398",
+            "repo": "argoproj/argo-cd",
+            "number": 29398,
+            "author": "blakepettersson",
+            "engaged_at": "2026-08-26T12:09:32Z"
+          },
+          {
+            "title": "test: fix glob test flake",
+            "url": "https://github.com/argoproj/argo-cd/pull/27276",
+            "repo": "argoproj/argo-cd",
+            "number": 27276,
+            "author": "blakepettersson",
+            "engaged_at": "2026-08-05T13:27:03Z"
           }
         ]
       },
