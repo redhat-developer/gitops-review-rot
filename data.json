@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T09:08:15.387270091Z",
+  "generated_at": "2026-09-23T10:07:58.55781339Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1808,7 +1808,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-09-17T11:37:16Z",
-      "updated_at": "2026-09-23T06:18:26Z",
+      "updated_at": "2026-09-23T09:45:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1844,32 +1844,6 @@
         "kind/bug",
         "lgtm",
         "ok-to-test"
-      ]
-    },
-    {
-      "title": "fix: Add `.cluster.local` to `no_proxy` environment variable",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1303",
-      "number": 1303,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "olivergondza",
-        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
-      },
-      "created_at": "2026-09-21T11:28:41Z",
-      "updated_at": "2026-09-23T04:12:31Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/bug",
-        "lgtm",
-        "approved"
       ]
     },
     {
@@ -1928,18 +1902,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-09-22T16:47:42Z",
-      "updated_at": "2026-09-22T19:24:47Z",
+      "updated_at": "2026-09-23T09:32:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/bug"
+        "kind/bug",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -1952,18 +1928,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-09-22T17:06:54Z",
-      "updated_at": "2026-09-22T20:58:54Z",
+      "updated_at": "2026-09-23T09:27:50Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "lgtm",
+        "ok-to-test"
       ]
     },
     {
@@ -2465,7 +2443,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/42912207?u=c6c8d3a1ea8cce3b5e9533cd28aa8dcf14b05864\u0026v=4"
       },
       "created_at": "2026-09-09T07:25:06Z",
-      "updated_at": "2026-09-23T06:10:14Z",
+      "updated_at": "2026-09-23T09:42:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2567,6 +2545,28 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "feat: support custom labels in self-registration cluster secret",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1124",
+      "number": 1124,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "jparsai",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
+      },
+      "created_at": "2026-09-23T09:30:34Z",
+      "updated_at": "2026-09-23T09:45:38Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": []
     },
     {
       "title": "Add OAuth support. It is need for access to Azure CR",
@@ -3655,13 +3655,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-09-22T21:19:07Z",
-      "updated_at": "2026-09-22T21:23:54Z",
+      "updated_at": "2026-09-23T09:37:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4653,13 +4653,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-23T07:53:14Z",
-      "updated_at": "2026-09-23T08:33:31Z",
+      "updated_at": "2026-09-23T09:40:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 2,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5321,7 +5321,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T09:06:17Z",
+    "since": "2026-06-25T10:05:58Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6099,8 +6099,24 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 93,
+        "reviews": 95,
         "prs": [
+          {
+            "title": "fix: implement the defined but unconsumed `spec.tls.ca.secretName` field",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1308",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1308,
+            "author": "dkarpele",
+            "engaged_at": "2026-09-23T09:31:59Z"
+          },
+          {
+            "title": "feat: implement wildcard support for IMAGE_UPDATER_WATCH_NAMESPACES",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1309",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1309,
+            "author": "dkarpele",
+            "engaged_at": "2026-09-23T09:27:44Z"
+          },
           {
             "title": "fix(promoter): mount writable temporary storage for the controller",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1302",
@@ -9215,8 +9231,16 @@
       },
       {
         "login": "anandf",
-        "reviews": 30,
+        "reviews": 31,
         "prs": [
+          {
+            "title": "fix: Add `.cluster.local` to `no_proxy` environment variable",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2396",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2396,
+            "author": "olivergondza",
+            "engaged_at": "2026-09-23T09:40:07Z"
+          },
           {
             "title": "fix: tmp not writable for promoter controller deployment",
             "url": "https://github.com/argoproj-labs/argocd-operator/pull/2395",
@@ -9469,7 +9493,7 @@
             "repo": "argoproj-labs/argocd-agent",
             "number": 1101,
             "author": "KR-Ravindra",
-            "engaged_at": "2026-09-22T11:15:10Z"
+            "engaged_at": "2026-09-23T09:42:34Z"
           },
           {
             "title": "build(deps): Bump oras.land/oras-go/v2 from 2.6.0 to 2.6.2 in /hack/sync-consistency-util",
@@ -9691,8 +9715,16 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 25,
+        "reviews": 26,
         "prs": [
+          {
+            "title": "fix: report images whose manifest target does not match the app type",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1814",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1814,
+            "author": "chengfang",
+            "engaged_at": "2026-09-23T09:37:21Z"
+          },
           {
             "title": "chore(deps): bump argocd from 3.4.7 to 3.4.8",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1792",
