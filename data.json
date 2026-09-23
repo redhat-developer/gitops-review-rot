@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T15:07:54.523954562Z",
+  "generated_at": "2026-09-23T16:08:07.598072239Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1399,10 +1399,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-07-08T12:30:58Z",
-      "updated_at": "2026-09-23T12:43:25Z",
+      "updated_at": "2026-09-23T15:18:17Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 4,
@@ -1497,10 +1497,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-08-13T09:26:08Z",
-      "updated_at": "2026-09-17T14:53:26Z",
+      "updated_at": "2026-09-23T15:47:54Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1618,17 +1618,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-07T12:19:17Z",
-      "updated_at": "2026-09-22T14:01:04Z",
+      "updated_at": "2026-09-23T15:38:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": [
+        "lgtm",
+        "approved",
         "kind/failing-test"
       ]
     },
@@ -1903,7 +1905,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-09-22T16:47:42Z",
-      "updated_at": "2026-09-23T09:32:09Z",
+      "updated_at": "2026-09-23T15:03:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1929,7 +1931,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-09-22T17:06:54Z",
-      "updated_at": "2026-09-23T13:02:49Z",
+      "updated_at": "2026-09-23T15:48:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1956,18 +1958,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-09-22T19:38:07Z",
-      "updated_at": "2026-09-22T19:48:43Z",
+      "updated_at": "2026-09-23T15:57:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -1983,7 +1987,7 @@
       "updated_at": "2026-09-23T13:24:52Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5486,12 +5490,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T15:05:44Z",
+    "since": "2026-06-25T16:06:08Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 97,
+        "reviews": 98,
         "prs": [
+          {
+            "title": "feat: allow image to be overridden for the Image Updater integration",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1310",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1310,
+            "author": "dkarpele",
+            "engaged_at": "2026-09-23T15:57:46Z"
+          },
           {
             "title": "feat: Migrate from manifest v0 to v1 format",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1239",
@@ -10712,8 +10724,16 @@
       },
       {
         "login": "trdoyle81",
-        "reviews": 2,
+        "reviews": 3,
         "prs": [
+          {
+            "title": "chore(test): Avoid printing test-credentials",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1282",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1282,
+            "author": "olivergondza",
+            "engaged_at": "2026-09-23T15:38:04Z"
+          },
           {
             "title": "fix: getAppSetStatus incorrectly treats ApplicationSetUpToDate=True as Error",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/284",
