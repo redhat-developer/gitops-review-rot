@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T20:07:30.111076373Z",
+  "generated_at": "2026-09-23T21:07:16.47782664Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1053,14 +1053,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-09-23T18:54:57Z",
-      "updated_at": "2026-09-23T19:01:22Z",
+      "updated_at": "2026-09-23T20:36:30Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 2,
       "labels": [
@@ -1545,10 +1545,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-08-30T03:58:57Z",
-      "updated_at": "2026-09-23T18:58:37Z",
+      "updated_at": "2026-09-23T21:01:57Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3609,7 +3609,7 @@
       "updated_at": "2026-09-23T19:59:42Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5396,7 +5396,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-09-23T19:45:43Z",
-      "updated_at": "2026-09-23T19:59:51Z",
+      "updated_at": "2026-09-23T20:13:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -5405,7 +5405,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "🕐 20-40 Minutes"
       ]
@@ -5413,7 +5413,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T20:05:36Z",
+    "since": "2026-06-25T21:05:25Z",
     "reviewers": [
       {
         "login": "chengfang",
