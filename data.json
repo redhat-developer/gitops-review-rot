@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T08:08:10.041136986Z",
+  "generated_at": "2026-09-23T09:08:15.387270091Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -3534,7 +3534,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/19982018?v=4"
       },
       "created_at": "2026-09-17T10:44:41Z",
-      "updated_at": "2026-09-22T20:21:05Z",
+      "updated_at": "2026-09-23T08:54:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4653,13 +4653,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-23T07:53:14Z",
-      "updated_at": "2026-09-23T07:59:10Z",
+      "updated_at": "2026-09-23T08:33:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5294,30 +5294,6 @@
       "labels": []
     },
     {
-      "title": "docs(security): Update reporting guidelines in security policy",
-      "url": "https://github.com/argoproj/argo-cd/pull/29815",
-      "number": 29815,
-      "repo": "argoproj/argo-cd",
-      "author": {
-        "login": "jannfis",
-        "avatar_url": "https://avatars.githubusercontent.com/u/3942683?u=038f901f9541001e86f098745d541daaaf7f2974\u0026v=4"
-      },
-      "created_at": "2026-09-21T19:32:53Z",
-      "updated_at": "2026-09-22T21:16:03Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 4,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "🕐 Less than 5 minutes"
-      ]
-    },
-    {
       "title": "chore(deps): bump golang.org/x/crypto to 0.57.0 (release-3.3)",
       "url": "https://github.com/argoproj/argo-cd/pull/29824",
       "number": 29824,
@@ -5345,7 +5321,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T08:06:24Z",
+    "since": "2026-06-25T09:06:17Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6873,8 +6849,16 @@
       },
       {
         "login": "svghadi",
-        "reviews": 89,
+        "reviews": 90,
         "prs": [
+          {
+            "title": "fix: Add `.cluster.local` to `no_proxy` environment variable",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2396",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2396,
+            "author": "olivergondza",
+            "engaged_at": "2026-09-23T08:33:31Z"
+          },
           {
             "title": "fix: Add `.cluster.local` to `no_proxy` environment variable",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1303",
