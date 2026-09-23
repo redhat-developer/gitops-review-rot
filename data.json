@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T18:07:40.043466717Z",
+  "generated_at": "2026-09-23T19:06:35.603242175Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1044,6 +1044,30 @@
       "labels": []
     },
     {
+      "title": "feat: Convert all tables to use the Column management model",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/306",
+      "number": 306,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "aali309",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
+      },
+      "created_at": "2026-09-23T18:54:57Z",
+      "updated_at": "2026-09-23T19:01:22Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "do-not-merge/work-in-progress"
+      ]
+    },
+    {
       "title": "Openshift ci deduplicate containerfile",
       "url": "https://github.com/redhat-developer/gitops-must-gather/pull/48",
       "number": 48,
@@ -1399,7 +1423,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-07-08T12:30:58Z",
-      "updated_at": "2026-09-23T15:18:17Z",
+      "updated_at": "2026-09-23T18:47:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1497,10 +1521,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-08-13T09:26:08Z",
-      "updated_at": "2026-09-23T17:46:17Z",
+      "updated_at": "2026-09-23T18:07:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1521,10 +1545,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-08-30T03:58:57Z",
-      "updated_at": "2026-09-23T00:12:56Z",
+      "updated_at": "2026-09-23T18:58:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1958,10 +1982,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-23T10:26:39Z",
-      "updated_at": "2026-09-23T13:24:52Z",
+      "updated_at": "2026-09-23T18:59:53Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2563,7 +2587,7 @@
       "updated_at": "2026-09-23T17:13:17Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -3529,52 +3553,6 @@
       "labels": []
     },
     {
-      "title": "feat(pr): support Azure DevOps pull requests",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1808",
-      "number": 1808,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "stefanm8",
-        "avatar_url": "https://avatars.githubusercontent.com/u/19982018?v=4"
-      },
-      "created_at": "2026-09-17T10:44:41Z",
-      "updated_at": "2026-09-23T08:54:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix(argocd): persist Helm/Kustomize/Plugin merges for SourceHydrator apps",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1810",
-      "number": 1810,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "pujitha24",
-        "avatar_url": "https://avatars.githubusercontent.com/u/10557236?u=9abde84595a4d3487fe5d23bc17eeb36bdbb0b6b\u0026v=4"
-      },
-      "created_at": "2026-09-17T18:54:58Z",
-      "updated_at": "2026-09-23T13:22:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "ok-to-test"
-      ]
-    },
-    {
       "title": "chore(deps): bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc from 1.44.0 to 1.45.0",
       "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1811",
       "number": 1811,
@@ -3647,30 +3625,6 @@
       "labels": [
         "dependencies",
         "go"
-      ]
-    },
-    {
-      "title": "fix: report images whose manifest target does not match the app type",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1814",
-      "number": 1814,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-09-22T21:19:07Z",
-      "updated_at": "2026-09-23T09:37:21Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
       ]
     },
     {
@@ -4672,12 +4626,28 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T18:05:30Z",
+    "since": "2026-06-25T19:04:38Z",
     "reviewers": [
       {
         "login": "chengfang",
         "reviews": 98,
         "prs": [
+          {
+            "title": "feat(pr): support Azure DevOps pull requests",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1808",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1808,
+            "author": "stefanm8",
+            "engaged_at": "2026-09-23T18:26:38Z"
+          },
+          {
+            "title": "fix(argocd): persist Helm/Kustomize/Plugin merges for SourceHydrator apps",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1810",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1810,
+            "author": "pujitha24",
+            "engaged_at": "2026-09-23T18:18:53Z"
+          },
           {
             "title": "feat: allow image to be overridden for the Image Updater integration",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1310",
@@ -4695,28 +4665,12 @@
             "engaged_at": "2026-09-23T14:19:14Z"
           },
           {
-            "title": "fix(argocd): persist Helm/Kustomize/Plugin merges for SourceHydrator apps",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1810",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1810,
-            "author": "pujitha24",
-            "engaged_at": "2026-09-23T13:10:28Z"
-          },
-          {
             "title": "feat: implement wildcard support for IMAGE_UPDATER_WATCH_NAMESPACES",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1309",
             "repo": "redhat-developer/gitops-operator",
             "number": 1309,
             "author": "dkarpele",
             "engaged_at": "2026-09-23T13:02:38Z"
-          },
-          {
-            "title": "feat(pr): support Azure DevOps pull requests",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1808",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1808,
-            "author": "stefanm8",
-            "engaged_at": "2026-09-22T20:21:05Z"
           },
           {
             "title": "add e2e and docs for operand priorityClassName",
