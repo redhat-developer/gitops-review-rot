@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T07:09:41.046259748Z",
+  "generated_at": "2026-09-23T08:08:10.041136986Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1761,10 +1761,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-16T13:21:14Z",
-      "updated_at": "2026-09-22T21:41:07Z",
+      "updated_at": "2026-09-23T07:59:25Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2556,7 +2556,7 @@
       "updated_at": "2026-09-23T06:44:25Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -4644,6 +4644,28 @@
       ]
     },
     {
+      "title": "fix: Add `.cluster.local` to `no_proxy` environment variable",
+      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2396",
+      "number": 2396,
+      "repo": "argoproj-labs/argocd-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-09-23T07:53:14Z",
+      "updated_at": "2026-09-23T07:59:10Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "docs: Proposal for multi-tenant repository servers",
       "url": "https://github.com/argoproj/argo-cd/pull/12123",
       "number": 12123,
@@ -5323,7 +5345,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T07:07:53Z",
+    "since": "2026-06-25T08:06:24Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8183,7 +8205,7 @@
       },
       {
         "login": "jgwest",
-        "reviews": 47,
+        "reviews": 46,
         "prs": [
           {
             "title": "feat: prevent openshift-gitops namespace creation when DISABLE_DEFAULT_ARGOCD_INSTANCE=true",
@@ -8552,14 +8574,6 @@
             "number": 1180,
             "author": "openshift-cherrypick-robot",
             "engaged_at": "2026-06-26T08:56:47Z"
-          },
-          {
-            "title": "feat: enhance informer/event/action logging",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/991",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 991,
-            "author": "jparsai",
-            "engaged_at": "2026-06-25T07:51:12Z"
           }
         ]
       },
