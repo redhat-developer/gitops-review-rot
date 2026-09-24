@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T05:07:12.466364914Z",
+  "generated_at": "2026-09-24T06:09:13.929744556Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -457,7 +457,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-19T02:32:22Z",
-      "updated_at": "2026-09-22T03:56:20Z",
+      "updated_at": "2026-09-24T05:46:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1800,28 +1800,6 @@
       "labels": []
     },
     {
-      "title": "feat: support argocd-agent self registration",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1300",
-      "number": 1300,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "jparsai",
-        "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
-      },
-      "created_at": "2026-09-17T11:37:16Z",
-      "updated_at": "2026-09-23T11:22:13Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": []
-    },
-    {
       "title": "fix(promoter): mount writable temporary storage for the controller",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1302",
       "number": 1302,
@@ -1929,7 +1907,31 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-23T19:35:51Z",
-      "updated_at": "2026-09-23T19:36:55Z",
+      "updated_at": "2026-09-24T05:48:40Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "kind/failing-test"
+      ]
+    },
+    {
+      "title": "chore: use port-forward to login to argocd server in E2E Tests",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1315",
+      "number": 1315,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-09-24T05:41:32Z",
+      "updated_at": "2026-09-24T05:44:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1938,7 +1940,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "kind/failing-test"
       ]
@@ -2409,28 +2411,6 @@
       "labels": []
     },
     {
-      "title": "fix: process Delete event for app already deleted on the agent",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1101",
-      "number": 1101,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "KR-Ravindra",
-        "avatar_url": "https://avatars.githubusercontent.com/u/42912207?u=c6c8d3a1ea8cce3b5e9533cd28aa8dcf14b05864\u0026v=4"
-      },
-      "created_at": "2026-09-09T07:25:06Z",
-      "updated_at": "2026-09-23T09:42:34Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": []
-    },
-    {
       "title": "fix(redisproxy): send RESP null bulk string on cache miss",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1108",
       "number": 1108,
@@ -2534,7 +2514,7 @@
       "updated_at": "2026-09-24T04:36:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5382,7 +5362,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-26T05:05:22Z",
+    "since": "2026-06-26T06:07:34Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8298,8 +8278,24 @@
       },
       {
         "login": "jgwest",
-        "reviews": 46,
+        "reviews": 47,
         "prs": [
+          {
+            "title": "fix: process Delete event for app already deleted on the agent",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1101",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1101,
+            "author": "KR-Ravindra",
+            "engaged_at": "2026-09-24T06:03:49Z"
+          },
+          {
+            "title": "feat: support argocd-agent self registration",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1300",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1300,
+            "author": "jparsai",
+            "engaged_at": "2026-09-24T06:02:48Z"
+          },
           {
             "title": "feat: prevent openshift-gitops namespace creation when DISABLE_DEFAULT_ARGOCD_INSTANCE=true",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1206",
@@ -8323,14 +8319,6 @@
             "number": 2395,
             "author": "cjcocokrisp",
             "engaged_at": "2026-09-23T06:12:12Z"
-          },
-          {
-            "title": "fix: process Delete event for app already deleted on the agent",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1101",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1101,
-            "author": "KR-Ravindra",
-            "engaged_at": "2026-09-23T06:10:14Z"
           },
           {
             "title": "fix(promoter): mount writable temporary storage for the controller",
@@ -10196,8 +10184,16 @@
       },
       {
         "login": "varshab1210",
-        "reviews": 16,
+        "reviews": 17,
         "prs": [
+          {
+            "title": "Update E2E tests for v1.22.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1314",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1314,
+            "author": "trdoyle81",
+            "engaged_at": "2026-09-24T05:48:40Z"
+          },
           {
             "title": "docs: Document how to access redacted CI logs",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1290",
