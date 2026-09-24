@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T19:07:55.311120517Z",
+  "generated_at": "2026-09-24T20:08:21.411354712Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1948,33 +1948,6 @@
       ]
     },
     {
-      "title": "feat: allow image to be overridden for the Image Updater integration",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1310",
-      "number": 1310,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dkarpele",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
-      },
-      "created_at": "2026-09-22T19:38:07Z",
-      "updated_at": "2026-09-24T13:35:24Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 3,
-      "labels": [
-        "kind/enhancement",
-        "lgtm",
-        "approved"
-      ]
-    },
-    {
       "title": "chore: use port-forward to login to argocd server in E2E Tests",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1315",
       "number": 1315,
@@ -2057,10 +2030,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-09-24T17:56:46Z",
+      "updated_at": "2026-09-24T20:01:19Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5521,31 +5494,6 @@
       ]
     },
     {
-      "title": "feat(health_checks): add health check for Argo CD Image Updater",
-      "url": "https://github.com/argoproj/argo-cd/pull/29851",
-      "number": 29851,
-      "repo": "argoproj/argo-cd",
-      "author": {
-        "login": "dkarpele",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
-      },
-      "created_at": "2026-09-23T19:45:43Z",
-      "updated_at": "2026-09-24T16:52:43Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "🕐 20-40 Minutes"
-      ]
-    },
-    {
       "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
       "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
       "number": 4763,
@@ -5571,7 +5519,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-26T19:05:50Z",
+    "since": "2026-06-26T20:06:10Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8885,7 +8833,7 @@
       },
       {
         "login": "keithchong",
-        "reviews": 41,
+        "reviews": 40,
         "prs": [
           {
             "title": "feat(ui): Implement virtual scrolling for Apps list/tiles view when `all` is selected",
@@ -9206,14 +9154,6 @@
             "number": 28098,
             "author": "agaudreault",
             "engaged_at": "2026-06-26T22:13:45Z"
-          },
-          {
-            "title": "fix(ui): show warning in appset-status display",
-            "url": "https://github.com/argoproj/argo-cd/pull/28445",
-            "repo": "argoproj/argo-cd",
-            "number": 28445,
-            "author": "ranakan19",
-            "engaged_at": "2026-06-26T20:05:06Z"
           }
         ]
       },
