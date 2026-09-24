@@ -16,6 +16,7 @@ sources:
     - argoproj/argo-rollouts
     - +argoproj-labs/argocd-agent
     - +argoproj-labs/argocd-image-updater
+    - +argoproj-labs/argocd-operator
 
 # Reviewer leaderboard settings
 leaderboard:
