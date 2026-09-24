@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T07:10:18.584154981Z",
+  "generated_at": "2026-09-24T08:08:38.392079516Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1521,18 +1521,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-08-13T09:26:08Z",
-      "updated_at": "2026-09-23T23:35:40Z",
+      "updated_at": "2026-09-24T07:47:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -1930,10 +1932,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-09-24T05:41:32Z",
-      "updated_at": "2026-09-24T05:44:17Z",
+      "updated_at": "2026-09-24T08:02:42Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5322,7 +5324,7 @@
       "updated_at": "2026-09-23T20:13:50Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5336,7 +5338,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-26T07:08:30Z",
+    "since": "2026-06-26T08:06:37Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10166,8 +10168,16 @@
       },
       {
         "login": "varshab1210",
-        "reviews": 17,
+        "reviews": 18,
         "prs": [
+          {
+            "title": "Gitops 9684 gitops 9683 auto sync self healing and private repo",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1255",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1255,
+            "author": "trdoyle81",
+            "engaged_at": "2026-09-24T07:46:56Z"
+          },
           {
             "title": "Update E2E tests for v1.22.0",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1314",
