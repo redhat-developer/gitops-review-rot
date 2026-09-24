@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T22:07:01.124449127Z",
+  "generated_at": "2026-09-24T23:07:26.180265429Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -5508,7 +5508,7 @@
       "updated_at": "2026-09-24T21:44:38Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5547,7 +5547,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-26T22:05:09Z",
+    "since": "2026-06-26T23:05:31Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7873,7 +7873,7 @@
       },
       {
         "login": "jannfis",
-        "reviews": 75,
+        "reviews": 74,
         "prs": [
           {
             "title": "build(deps): Bump github.com/spiffe/go-spiffe/v2 from 2.8.1 to 2.8.2",
@@ -8466,14 +8466,6 @@
             "number": 988,
             "author": "dependabot",
             "engaged_at": "2026-06-27T14:39:01Z"
-          },
-          {
-            "title": "feat(helm): add heartbeatInterval to argocd-agent-agent Helm chart",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1005",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1005,
-            "author": "NisaargPendal",
-            "engaged_at": "2026-06-26T22:54:26Z"
           }
         ]
       },
@@ -8861,7 +8853,7 @@
       },
       {
         "login": "keithchong",
-        "reviews": 40,
+        "reviews": 39,
         "prs": [
           {
             "title": "feat(ui): Implement virtual scrolling for Apps list/tiles view when `all` is selected",
@@ -9174,14 +9166,6 @@
             "number": 246,
             "author": "aali309",
             "engaged_at": "2026-07-03T16:41:20Z"
-          },
-          {
-            "title": "feat(ui): add resources explorer view",
-            "url": "https://github.com/argoproj/argo-cd/pull/28098",
-            "repo": "argoproj/argo-cd",
-            "number": 28098,
-            "author": "agaudreault",
-            "engaged_at": "2026-06-26T22:13:45Z"
           }
         ]
       },
