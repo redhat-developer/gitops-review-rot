@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T06:09:13.929744556Z",
+  "generated_at": "2026-09-24T07:10:18.584154981Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1762,18 +1762,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-16T13:21:14Z",
-      "updated_at": "2026-09-23T22:55:40Z",
+      "updated_at": "2026-09-24T06:42:10Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": [
-        "lgtm",
         "approved"
       ]
     },
@@ -1809,7 +1808,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/212037117?u=465f916b6044afc59981c9146f00ba8ee5500e2f\u0026v=4"
       },
       "created_at": "2026-09-17T14:57:52Z",
-      "updated_at": "2026-09-22T06:07:48Z",
+      "updated_at": "2026-09-24T07:04:02Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2475,31 +2474,6 @@
       },
       "unresolved_conversations": 1,
       "labels": []
-    },
-    {
-      "title": "build(deps): Bump google.golang.org/grpc from 1.79.3 to 1.83.2 in /hack/sync-consistency-util",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1123",
-      "number": 1123,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-09-23T06:44:19Z",
-      "updated_at": "2026-09-23T06:44:25Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
     },
     {
       "title": "feat: support custom labels in self-registration cluster secret",
@@ -5362,7 +5336,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-26T06:07:34Z",
+    "since": "2026-06-26T07:08:30Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6183,6 +6157,14 @@
         "reviews": 95,
         "prs": [
           {
+            "title": "fix(promoter): mount writable temporary storage for the controller",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1302",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1302,
+            "author": "jsell-rh",
+            "engaged_at": "2026-09-24T07:04:02Z"
+          },
+          {
             "title": "fix: implement the defined but unconsumed `spec.tls.ca.secretName` field",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1308",
             "repo": "redhat-developer/gitops-operator",
@@ -6197,14 +6179,6 @@
             "number": 1309,
             "author": "dkarpele",
             "engaged_at": "2026-09-23T09:27:44Z"
-          },
-          {
-            "title": "fix(promoter): mount writable temporary storage for the controller",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1302",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1302,
-            "author": "jsell-rh",
-            "engaged_at": "2026-09-21T14:00:58Z"
           },
           {
             "title": "chore: add AGENTS.md with E2E test rules",
@@ -8278,8 +8252,16 @@
       },
       {
         "login": "jgwest",
-        "reviews": 47,
+        "reviews": 48,
         "prs": [
+          {
+            "title": "build(deps): Bump google.golang.org/grpc from 1.79.3 to 1.83.2 in /hack/sync-consistency-util",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1123",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1123,
+            "author": "dependabot",
+            "engaged_at": "2026-09-24T06:27:13Z"
+          },
           {
             "title": "fix: process Delete event for app already deleted on the agent",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1101",
