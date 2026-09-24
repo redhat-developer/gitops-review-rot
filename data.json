@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T21:08:01.052656898Z",
+  "generated_at": "2026-09-24T22:07:01.124449127Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -3589,7 +3589,7 @@
       "updated_at": "2026-09-24T21:01:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5496,6 +5496,32 @@
       ]
     },
     {
+      "title": "fix(repo-server): health check timeout resulting in CrashLoopBackOff",
+      "url": "https://github.com/argoproj/argo-cd/pull/29863",
+      "number": 29863,
+      "repo": "argoproj/argo-cd",
+      "author": {
+        "login": "aali309",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
+      },
+      "created_at": "2026-09-24T21:26:25Z",
+      "updated_at": "2026-09-24T21:44:38Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "🟠 Medium blast radius",
+        "🕐 20-40 Minutes"
+      ]
+    },
+    {
       "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
       "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
       "number": 4763,
@@ -5521,7 +5547,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-26T21:06:00Z",
+    "since": "2026-06-26T22:05:09Z",
     "reviewers": [
       {
         "login": "chengfang",
