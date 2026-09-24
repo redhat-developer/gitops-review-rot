@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T10:08:36.668938516Z",
+  "generated_at": "2026-09-24T11:07:23.40225303Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1423,10 +1423,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-07-08T12:30:58Z",
-      "updated_at": "2026-09-23T18:47:26Z",
+      "updated_at": "2026-09-24T10:27:26Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 4,
@@ -1882,7 +1882,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-09-22T19:38:07Z",
-      "updated_at": "2026-09-24T09:53:33Z",
+      "updated_at": "2026-09-24T10:31:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1895,30 +1895,6 @@
       "labels": [
         "kind/enhancement",
         "approved"
-      ]
-    },
-    {
-      "title": "Update E2E tests for v1.22.0",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1314",
-      "number": 1314,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "trdoyle81",
-        "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
-      },
-      "created_at": "2026-09-23T19:35:51Z",
-      "updated_at": "2026-09-24T09:50:53Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "kind/failing-test"
       ]
     },
     {
@@ -5298,17 +5274,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/81048645?v=4"
       },
       "created_at": "2026-09-23T13:02:54Z",
-      "updated_at": "2026-09-24T09:31:00Z",
-      "is_draft": true,
+      "updated_at": "2026-09-24T10:40:49Z",
+      "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
-      "labels": []
+      "unresolved_conversations": 2,
+      "labels": [
+        "🟠 Medium blast radius",
+        "🕐 40+ Minutes"
+      ]
     },
     {
       "title": "feat(health_checks): add health check for Argo CD Image Updater",
@@ -5337,7 +5316,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-26T10:06:26Z",
+    "since": "2026-06-26T11:05:19Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10162,20 +10141,20 @@
         "reviews": 18,
         "prs": [
           {
+            "title": "Update E2E tests for v1.22.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1314",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1314,
+            "author": "trdoyle81",
+            "engaged_at": "2026-09-24T10:25:38Z"
+          },
+          {
             "title": "Gitops 9684 gitops 9683 auto sync self healing and private repo",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1255",
             "repo": "redhat-developer/gitops-operator",
             "number": 1255,
             "author": "trdoyle81",
             "engaged_at": "2026-09-24T07:46:56Z"
-          },
-          {
-            "title": "Update E2E tests for v1.22.0",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1314",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1314,
-            "author": "trdoyle81",
-            "engaged_at": "2026-09-24T05:48:40Z"
           },
           {
             "title": "docs: Document how to access redacted CI logs",
