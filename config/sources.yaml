@@ -24,6 +24,14 @@ leaderboard:
   # narrows it further client-side. Defaults to 90 if omitted.
   window_days: 90
 
-# The GitHub App must have 'Organization members: Read' permission to expand teams.
+# Approvals needed for "Ready for review" to hide a PR. Defaults to 2.
+# required_approvals: 2
+
+# Team members — PRs from these authors are always shown,
+# even in repos outside the orgs above.
+#
+# Expanding groups is supported using "@orgname/teamname" syntax. The app 
+# will need permissions to read the org's members in order to read your
+# teams.
 authors:
 - "@redhat-developer/gitops"
