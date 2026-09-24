@@ -7,6 +7,51 @@ We track the upstream's main branch in `main`. The default branch in this
 repository is `gitops-review-rot`, where we have local changes to the config
 and UI settings.
 
+## How to update this fork
+
+1. Clone the repository
+
+```
+git clone https://github.com/redhat-developer/gitops-review-rot
+```
+
+2. Set up the upstream remote
+
+```
+git remote add upstream https://github.com/conforma/review-rot
+```
+
+3. Pull latest changes from upstream
+
+Note: Upstream's primary branch is `main`, while ours is `gitops-review-rot`.
+
+```
+git checkout main
+git pull upstream main
+```
+
+4. Merge new changes into our branch
+
+```
+git checkout gitops-review-rot
+git merge main
+```
+
+5. Resolve merge conflicts
+
+Some merge conflicts are anticipated, which needs to be resolved and commited.
+
+Major candidates are:
+
+* GitHub workflows (we only use the one defined in `publish.yaml`, other workflows can be deleted using `git rm`)
+* `config/sources.yaml` and `config/ui.yaml` may have competing changes. Use common sense judgement in the merge, be careful not to remove our own required configuration
+  
+6. Perform merge commit and push to `origin`
+
+```
+git push origin gitops-review-rot
+```
+
 # review-rot
 
 PR dashboard that shows open pull requests across monitored GitHub repositories
