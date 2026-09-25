@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T12:09:26.196230392Z",
+  "generated_at": "2026-09-25T13:08:58.271921381Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1885,19 +1885,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/212037117?u=465f916b6044afc59981c9146f00ba8ee5500e2f\u0026v=4"
       },
       "created_at": "2026-09-17T14:57:52Z",
-      "updated_at": "2026-09-24T17:56:32Z",
+      "updated_at": "2026-09-25T12:10:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 3,
-        "approved_count": 1,
-        "has_new_commits": true
+        "approved_count": 2,
+        "has_new_commits": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 1,
       "labels": [
         "kind/bug",
+        "lgtm",
+        "approved",
         "ok-to-test"
       ]
     },
@@ -2070,6 +2072,31 @@
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement"
+      ]
+    },
+    {
+      "title": "use argocd-redis secret by default",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1320",
+      "number": 1320,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "nodari-dev",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
+      },
+      "created_at": "2026-09-25T12:48:59Z",
+      "updated_at": "2026-09-25T12:50:43Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "do-not-merge/work-in-progress"
       ]
     },
     {
@@ -5494,32 +5521,6 @@
       "labels": []
     },
     {
-      "title": "fix(pkg): provide correct logs on gRPC-Web fallback failure",
-      "url": "https://github.com/argoproj/argo-cd/pull/29688",
-      "number": 29688,
-      "repo": "argoproj/argo-cd",
-      "author": {
-        "login": "nodari-dev",
-        "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
-      },
-      "created_at": "2026-09-12T18:58:04Z",
-      "updated_at": "2026-09-18T10:02:38Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "🕐 10-20 Minutes",
-        "🟡 Small blast radius"
-      ]
-    },
-    {
       "title": "feat: add exit error abstraction for better unit testability of cli commands (#29533)",
       "url": "https://github.com/argoproj/argo-cd/pull/29842",
       "number": 29842,
@@ -5597,7 +5598,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-27T12:07:25Z",
+    "since": "2026-06-27T13:06:53Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6439,7 +6440,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1302,
             "author": "jsell-rh",
-            "engaged_at": "2026-09-24T07:04:02Z"
+            "engaged_at": "2026-09-25T12:08:07Z"
           },
           {
             "title": "fix: implement the defined but unconsumed `spec.tls.ca.secretName` field",
@@ -7923,8 +7924,16 @@
       },
       {
         "login": "jannfis",
-        "reviews": 74,
+        "reviews": 75,
         "prs": [
+          {
+            "title": "fix(pkg): provide correct logs on gRPC-Web fallback failure",
+            "url": "https://github.com/argoproj/argo-cd/pull/29688",
+            "repo": "argoproj/argo-cd",
+            "number": 29688,
+            "author": "nodari-dev",
+            "engaged_at": "2026-09-25T12:14:45Z"
+          },
           {
             "title": "build(deps): Bump github.com/spiffe/go-spiffe/v2 from 2.8.1 to 2.8.2",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1122",
