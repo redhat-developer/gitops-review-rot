@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T11:07:53.062288423Z",
+  "generated_at": "2026-09-25T12:09:26.196230392Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1172,7 +1172,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/11461972?v=4"
       },
       "created_at": "2026-09-24T17:52:16Z",
-      "updated_at": "2026-09-24T18:11:12Z",
+      "updated_at": "2026-09-25T12:05:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1507,7 +1507,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-07-08T12:30:58Z",
-      "updated_at": "2026-09-25T07:49:22Z",
+      "updated_at": "2026-09-25T12:04:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2032,7 +2032,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-09-25T10:38:31Z",
+      "updated_at": "2026-09-25T11:29:45Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4702,15 +4702,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
       },
       "created_at": "2026-09-25T06:13:58Z",
-      "updated_at": "2026-09-25T06:34:24Z",
+      "updated_at": "2026-09-25T11:09:04Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 1,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -5597,7 +5597,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-27T11:05:54Z",
+    "since": "2026-06-27T12:07:25Z",
     "reviewers": [
       {
         "login": "chengfang",
