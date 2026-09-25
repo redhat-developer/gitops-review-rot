@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T06:10:06.532869527Z",
+  "generated_at": "2026-09-25T07:10:47.919034196Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2030,17 +2030,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-09-24T20:01:19Z",
+      "updated_at": "2026-09-25T06:35:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "kind/bug"
       ]
@@ -4666,6 +4666,29 @@
       ]
     },
     {
+      "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart (#2377) (#2386)",
+      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2398",
+      "number": 2398,
+      "repo": "argoproj-labs/argocd-operator",
+      "author": {
+        "login": "anandf",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
+      },
+      "created_at": "2026-09-25T06:13:58Z",
+      "updated_at": "2026-09-25T06:34:24Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "docs: Proposal for multi-tenant repository servers",
       "url": "https://github.com/argoproj/argo-cd/pull/12123",
       "number": 12123,
@@ -5547,7 +5570,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-27T06:08:09Z",
+    "since": "2026-06-27T07:08:58Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10637,8 +10660,16 @@
       },
       {
         "login": "akhilnittala",
-        "reviews": 12,
+        "reviews": 13,
         "prs": [
+          {
+            "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart (#2377) (#2386)",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2398",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2398,
+            "author": "anandf",
+            "engaged_at": "2026-09-25T06:34:24Z"
+          },
           {
             "title": "fix(dex): fetching changes for mounting dex sa token as projected volume mount",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1305",
