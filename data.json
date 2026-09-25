@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T08:09:12.939033382Z",
+  "generated_at": "2026-09-25T09:07:28.958333765Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1957,10 +1957,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-09-24T05:41:32Z",
-      "updated_at": "2026-09-24T08:02:42Z",
+      "updated_at": "2026-09-25T08:22:57Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2030,10 +2030,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-09-25T06:35:29Z",
+      "updated_at": "2026-09-25T08:28:04Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2043,6 +2043,31 @@
       "unresolved_conversations": 2,
       "labels": [
         "kind/bug"
+      ]
+    },
+    {
+      "title": "feat: harden image-updater cluster-scoped ArgoCD check",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1319",
+      "number": 1319,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-09-25T09:00:52Z",
+      "updated_at": "2026-09-25T09:01:13Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/enhancement"
       ]
     },
     {
@@ -5570,7 +5595,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-27T08:07:10Z",
+    "since": "2026-06-27T09:05:36Z",
     "reviewers": [
       {
         "login": "chengfang",
