@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:07:19.629709642Z",
+  "generated_at": "2026-09-25T18:08:17.997415448Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1507,10 +1507,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-07-08T12:30:58Z",
-      "updated_at": "2026-09-25T12:04:52Z",
+      "updated_at": "2026-09-25T17:56:19Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 4,
@@ -1876,34 +1876,6 @@
       "labels": []
     },
     {
-      "title": "fix(promoter): mount writable temporary storage for the controller",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1302",
-      "number": 1302,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "jsell-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/212037117?u=465f916b6044afc59981c9146f00ba8ee5500e2f\u0026v=4"
-      },
-      "created_at": "2026-09-17T14:57:52Z",
-      "updated_at": "2026-09-25T12:10:36Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "approved_count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "kind/bug",
-        "lgtm",
-        "approved",
-        "ok-to-test"
-      ]
-    },
-    {
       "title": "chore: migrate deprecated patchesJson6902 to patches in kustomization",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1304",
       "number": 1304,
@@ -1986,10 +1958,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-09-25T15:33:58Z",
+      "updated_at": "2026-09-25T18:01:12Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2664,17 +2636,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
       },
       "created_at": "2026-09-23T21:46:06Z",
-      "updated_at": "2026-09-24T14:58:40Z",
+      "updated_at": "2026-09-25T17:57:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 3,
       "labels": []
     },
     {
@@ -3592,7 +3564,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-09-10T01:40:17Z",
-      "updated_at": "2026-09-24T02:04:48Z",
+      "updated_at": "2026-09-25T17:16:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3602,7 +3574,7 @@
         "approved_count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 0,
       "labels": [
         "ok-to-test"
       ]
@@ -5525,7 +5497,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-27T17:05:12Z",
+    "since": "2026-06-27T18:06:22Z",
     "reviewers": [
       {
         "login": "chengfang",
