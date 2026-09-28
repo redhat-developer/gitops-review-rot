@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T04:08:19.018687666Z",
+  "generated_at": "2026-09-28T05:07:31.468241889Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -5545,7 +5545,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-30T04:06:37Z",
+    "since": "2026-06-30T05:05:49Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7097,7 +7097,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 87,
+        "reviews": 86,
         "prs": [
           {
             "title": "fix: Add `.cluster.local` to `no_proxy` environment variable (1.22)",
@@ -7786,14 +7786,6 @@
             "number": 2263,
             "author": "nmirasch",
             "engaged_at": "2026-06-30T09:50:02Z"
-          },
-          {
-            "title": "Missing permission for web-based terminal in Argocd UI",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2266",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2266,
-            "author": "akhilnittala",
-            "engaged_at": "2026-06-30T04:07:32Z"
           }
         ]
       },
@@ -9883,7 +9875,7 @@
       },
       {
         "login": "chetan-rns",
-        "reviews": 26,
+        "reviews": 25,
         "prs": [
           {
             "title": "fix: process Delete event for app already deleted on the agent",
@@ -10084,14 +10076,6 @@
             "number": 1021,
             "author": "jannfis",
             "engaged_at": "2026-07-01T06:36:42Z"
-          },
-          {
-            "title": "build(deps): Bump github.com/redis/go-redis/v9 from 9.20.0 to 9.21.0",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1018",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1018,
-            "author": "dependabot",
-            "engaged_at": "2026-06-30T04:07:29Z"
           }
         ]
       },
