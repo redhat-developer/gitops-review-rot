@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T23:06:30.442961097Z",
+  "generated_at": "2026-09-28T00:14:37.288955525Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -476,7 +476,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-19T02:32:22Z",
-      "updated_at": "2026-09-24T05:46:56Z",
+      "updated_at": "2026-09-26T03:15:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -660,7 +660,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-03-28T10:12:46Z",
-      "updated_at": "2026-09-19T03:40:35Z",
+      "updated_at": "2026-09-26T03:02:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1099,8 +1099,8 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-09-23T18:54:57Z",
-      "updated_at": "2026-09-25T00:03:08Z",
-      "is_draft": true,
+      "updated_at": "2026-09-26T17:28:42Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
@@ -1110,9 +1110,7 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 2,
-      "labels": [
-        "do-not-merge/work-in-progress"
-      ]
+      "labels": []
     },
     {
       "title": "Openshift ci deduplicate containerfile",
@@ -1149,7 +1147,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-09-05T08:36:07Z",
-      "updated_at": "2026-09-19T04:02:53Z",
+      "updated_at": "2026-09-26T03:21:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3566,7 +3564,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/10557236?u=9abde84595a4d3487fe5d23bc17eeb36bdbb0b6b\u0026v=4"
       },
       "created_at": "2026-08-12T16:41:24Z",
-      "updated_at": "2026-08-27T15:16:36Z",
+      "updated_at": "2026-09-27T13:54:46Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3589,18 +3587,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/27673665?u=dee7bca6cd9ed0ad26bd42dfcaefb214e2442747\u0026v=4"
       },
       "created_at": "2026-09-10T19:21:18Z",
-      "updated_at": "2026-09-11T19:50:52Z",
+      "updated_at": "2026-09-26T02:13:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": []
+      "labels": [
+        "ok-to-test"
+      ]
     },
     {
       "title": "fix(argocd-writeback): add application type inference in WriteBackConfig",
@@ -3621,6 +3621,52 @@
         "count": 1,
         "approved_count": 0,
         "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(git-writeback): release PR target reservation when nothing was pushed",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1825",
+      "number": 1825,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "pujitha24",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10557236?u=9abde84595a4d3487fe5d23bc17eeb36bdbb0b6b\u0026v=4"
+      },
+      "created_at": "2026-09-26T01:27:04Z",
+      "updated_at": "2026-09-26T01:33:12Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "feat(pr): support creating pull requests on Gitea",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1826",
+      "number": 1826,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "romain-rossi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4703157?u=b17cd57482dcf0e136161bd20d712e943ea26521\u0026v=4"
+      },
+      "created_at": "2026-09-26T10:39:43Z",
+      "updated_at": "2026-09-26T10:46:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -3826,7 +3872,7 @@
       "updated_at": "2025-08-08T22:41:44Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": null,
       "size": null,
       "reviews": {
         "count": 0,
@@ -4628,14 +4674,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
       },
       "created_at": "2026-09-25T06:13:58Z",
-      "updated_at": "2026-09-25T14:54:57Z",
+      "updated_at": "2026-09-27T19:39:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 2,
-        "approved_count": 2,
+        "count": 3,
+        "approved_count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5288,7 +5334,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-08-14T16:58:38Z",
-      "updated_at": "2026-09-24T14:33:14Z",
+      "updated_at": "2026-09-27T14:41:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5429,7 +5475,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/81048645?v=4"
       },
       "created_at": "2026-09-23T13:02:54Z",
-      "updated_at": "2026-09-24T15:32:58Z",
+      "updated_at": "2026-09-27T09:41:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5455,20 +5501,22 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-09-24T21:26:25Z",
-      "updated_at": "2026-09-25T04:31:13Z",
+      "updated_at": "2026-09-27T05:47:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
+        "cherry-pick/3.5",
         "🟠 Medium blast radius",
-        "🕐 20-40 Minutes"
+        "🕐 20-40 Minutes",
+        "cherry-pick/3.6"
       ]
     },
     {
@@ -5497,12 +5545,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-27T23:04:41Z",
+    "since": "2026-06-30T00:12:44Z",
     "reviewers": [
       {
         "login": "chengfang",
         "reviews": 104,
         "prs": [
+          {
+            "title": "fix: recognize bare registry auth error codes",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1803",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1803,
+            "author": "LouisDeconinck",
+            "engaged_at": "2026-09-26T02:10:59Z"
+          },
           {
             "title": "fix(git-writeback): skip PR/MR creation when write-back produces no changes",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1806",
@@ -6326,20 +6382,12 @@
             "number": 1702,
             "author": "rvandernoort",
             "engaged_at": "2026-06-30T19:54:45Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/argoproj-labs/argocd-image-updater from 1.2.1 to 1.2.2",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2257",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2257,
-            "author": "dependabot",
-            "engaged_at": "2026-06-29T03:42:04Z"
           }
         ]
       },
       {
         "login": "olivergondza",
-        "reviews": 95,
+        "reviews": 87,
         "prs": [
           {
             "title": "fix(promoter): mount writable temporary storage for the controller",
@@ -7036,76 +7084,12 @@
             "number": 1183,
             "author": "smahadik-27",
             "engaged_at": "2026-06-30T10:14:54Z"
-          },
-          {
-            "title": "feat: add per-component priorityClassName to ArgoCD CRD (RFE-8802)",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1189",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1189,
-            "author": "aradhanay621",
-            "engaged_at": "2026-06-29T11:17:48Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/onsi/gomega from 1.42.0 to 1.42.1",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2253",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2253,
-            "author": "dependabot",
-            "engaged_at": "2026-06-29T10:59:24Z"
-          },
-          {
-            "title": "chore(deps): bump codecov/codecov-action from 6.0.0 to 7.0.0",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2234",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2234,
-            "author": "dependabot",
-            "engaged_at": "2026-06-29T08:14:44Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/argoproj-labs/argocd-image-updater from 1.2.1 to 1.2.2",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2257",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2257,
-            "author": "dependabot",
-            "engaged_at": "2026-06-29T08:13:43Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/cert-manager/cert-manager from 1.20.2 to 1.20.3",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2256",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2256,
-            "author": "dependabot",
-            "engaged_at": "2026-06-29T08:12:19Z"
-          },
-          {
-            "title": "fix(hack): improve update-dependencies scripts to always inspect images on linux/amd64 platform; optimize git clone",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2258",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2258,
-            "author": "chengfang",
-            "engaged_at": "2026-06-29T08:11:32Z"
-          },
-          {
-            "title": "chore(deps): bump ImageUpdater from 1.2.1 to 1.2.2; bump argocd from 3.4.2 to 3.4.4 (#2255)",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2259",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2259,
-            "author": "chengfang",
-            "engaged_at": "2026-06-29T08:05:50Z"
-          },
-          {
-            "title": "fix(redis): fix Redis HA NOAUTH regression by restoring masterauth",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2260",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2260,
-            "author": "akhilnittala",
-            "engaged_at": "2026-06-29T08:03:17Z"
           }
         ]
       },
       {
         "login": "svghadi",
-        "reviews": 90,
+        "reviews": 87,
         "prs": [
           {
             "title": "fix: Add `.cluster.local` to `no_proxy` environment variable (1.22)",
@@ -7802,37 +7786,29 @@
             "number": 2266,
             "author": "akhilnittala",
             "engaged_at": "2026-06-30T04:07:32Z"
-          },
-          {
-            "title": "Missing permission for web-based terminal in Argo CD UI.",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2249",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2249,
-            "author": "akhilnittala",
-            "engaged_at": "2026-06-29T14:37:23Z"
-          },
-          {
-            "title": "fix(redis): fix Redis HA NOAUTH regression by restoring masterauth",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2262",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2262,
-            "author": "akhilnittala",
-            "engaged_at": "2026-06-29T12:07:40Z"
-          },
-          {
-            "title": "fix(redis): fix Redis HA NOAUTH regression by restoring masterauth",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2260",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2260,
-            "author": "akhilnittala",
-            "engaged_at": "2026-06-29T11:54:22Z"
           }
         ]
       },
       {
         "login": "jannfis",
-        "reviews": 73,
+        "reviews": 74,
         "prs": [
+          {
+            "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart (#2377) (#2386)",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2398",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2398,
+            "author": "anandf",
+            "engaged_at": "2026-09-27T19:39:56Z"
+          },
+          {
+            "title": "fix(helm): merge repository CA with system trust for helm pulls (#29821)",
+            "url": "https://github.com/argoproj/argo-cd/pull/29822",
+            "repo": "argoproj/argo-cd",
+            "number": 29822,
+            "author": "leilei3167",
+            "engaged_at": "2026-09-27T19:09:22Z"
+          },
           {
             "title": "GITOPS-11466: Detect Route API before Config API gate in InspectCluster",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1321",
@@ -8408,14 +8384,6 @@
             "number": 1022,
             "author": "dependabot",
             "engaged_at": "2026-06-30T19:52:25Z"
-          },
-          {
-            "title": "fix(test): fix intermittent Test_ApplicationManagementAPI failure",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1015",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1015,
-            "author": "chetan-rns",
-            "engaged_at": "2026-06-29T15:09:29Z"
           }
         ]
       },
@@ -9431,7 +9399,7 @@
       },
       {
         "login": "anandf",
-        "reviews": 31,
+        "reviews": 29,
         "prs": [
           {
             "title": "fix: Add `.cluster.local` to `no_proxy` environment variable",
@@ -9664,22 +9632,6 @@
             "number": 1195,
             "author": "akhilnittala",
             "engaged_at": "2026-06-30T06:25:20Z"
-          },
-          {
-            "title": "fix(redis): fix Redis HA NOAUTH regression by restoring masterauth",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2262",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2262,
-            "author": "akhilnittala",
-            "engaged_at": "2026-06-29T13:27:30Z"
-          },
-          {
-            "title": "fix(redis): fix Redis HA NOAUTH regression by restoring masterauth",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2260",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2260,
-            "author": "akhilnittala",
-            "engaged_at": "2026-06-29T06:19:25Z"
           }
         ]
       },
