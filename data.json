@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T22:07:55.503707291Z",
+  "generated_at": "2026-09-28T23:07:10.547914278Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -5527,7 +5527,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-30T22:05:49Z",
+    "since": "2026-06-30T23:05:15Z",
     "reviewers": [
       {
         "login": "chengfang",
