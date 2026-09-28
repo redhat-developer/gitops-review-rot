@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T01:29:11.832333132Z",
+  "generated_at": "2026-09-28T02:16:25.800197227Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -433,7 +433,7 @@
       "updated_at": "2026-09-28T01:08:32Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -686,7 +686,7 @@
       "updated_at": "2026-09-28T01:18:47Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -709,7 +709,7 @@
       "updated_at": "2026-09-28T01:23:12Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -729,7 +729,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-06T02:32:20Z",
-      "updated_at": "2026-09-24T02:21:25Z",
+      "updated_at": "2026-09-28T01:29:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -755,7 +755,7 @@
       "updated_at": "2026-09-28T01:12:37Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -778,7 +778,7 @@
       "updated_at": "2026-09-28T01:13:11Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -847,7 +847,7 @@
       "updated_at": "2026-09-28T01:06:08Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -870,7 +870,7 @@
       "updated_at": "2026-09-28T01:07:18Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5501,14 +5501,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-09-24T21:26:25Z",
-      "updated_at": "2026-09-27T05:47:12Z",
+      "updated_at": "2026-09-28T02:04:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 1,
+        "count": 2,
+        "approved_count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5545,12 +5545,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-30T01:27:25Z",
+    "since": "2026-06-30T02:14:43Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 104,
+        "reviews": 105,
         "prs": [
+          {
+            "title": "fix(repo-server): health check timeout resulting in CrashLoopBackOff",
+            "url": "https://github.com/argoproj/argo-cd/pull/29863",
+            "repo": "argoproj/argo-cd",
+            "number": 29863,
+            "author": "aali309",
+            "engaged_at": "2026-09-28T02:04:29Z"
+          },
           {
             "title": "fix: recognize bare registry auth error codes",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1803",
