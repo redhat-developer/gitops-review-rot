@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T19:07:49.26517004Z",
+  "generated_at": "2026-09-28T20:08:32.745964372Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2106,7 +2106,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-28T16:06:33Z",
-      "updated_at": "2026-09-28T18:16:54Z",
+      "updated_at": "2026-09-28T19:32:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2548,15 +2548,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/100806254?u=bb6c108fc6bdd74b4353254ab4cedea3a727cf96\u0026v=4"
       },
       "created_at": "2026-07-15T11:38:01Z",
-      "updated_at": "2026-09-28T09:36:42Z",
+      "updated_at": "2026-09-28T20:02:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 3,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": []
@@ -5527,11 +5527,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-30T19:05:33Z",
+    "since": "2026-06-30T20:06:27Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 105,
+        "reviews": 104,
         "prs": [
           {
             "title": "fix(repo-server): health check timeout resulting in CrashLoopBackOff",
@@ -6364,14 +6364,6 @@
             "number": 1703,
             "author": "rvandernoort",
             "engaged_at": "2026-06-30T21:23:25Z"
-          },
-          {
-            "title": "Add blank lines preservation on git writeback",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1702",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1702,
-            "author": "rvandernoort",
-            "engaged_at": "2026-06-30T19:54:45Z"
           }
         ]
       },
@@ -7749,7 +7741,7 @@
       },
       {
         "login": "jannfis",
-        "reviews": 74,
+        "reviews": 73,
         "prs": [
           {
             "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart (#2377) (#2386)",
@@ -8334,14 +8326,6 @@
             "number": 1008,
             "author": "anandrkskd",
             "engaged_at": "2026-07-06T14:45:59Z"
-          },
-          {
-            "title": "build(deps): Bump google.golang.org/grpc from 1.81.1 to 1.82.0",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1022",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1022,
-            "author": "dependabot",
-            "engaged_at": "2026-06-30T19:52:25Z"
           }
         ]
       },
@@ -9595,7 +9579,7 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 29,
+        "reviews": 27,
         "prs": [
           {
             "title": "fix(registry): controller sends unauthenticated registry requests — registries.conf credentials AND per-image pullSecret never reach the wire",
@@ -9812,22 +9796,6 @@
             "number": 1719,
             "author": "chengfang",
             "engaged_at": "2026-07-01T20:21:38Z"
-          },
-          {
-            "title": "chore(deps): bump ImageUpdater from 1.2.1 to 1.2.2; argocd-operator from 0.17 to 0.18",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1704",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1704,
-            "author": "chengfang",
-            "engaged_at": "2026-06-30T19:39:21Z"
-          },
-          {
-            "title": "chore(deps): bump ImageUpdater from 1.2.1 to 1.2.2",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1705",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1705,
-            "author": "chengfang",
-            "engaged_at": "2026-06-30T19:39:01Z"
           }
         ]
       },
