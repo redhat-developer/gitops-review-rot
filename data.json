@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T15:08:16.555712672Z",
+  "generated_at": "2026-09-28T16:08:49.554395716Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1933,7 +1933,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-09-28T12:24:06Z",
+      "updated_at": "2026-09-28T15:42:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2056,7 +2056,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/273475629?u=5bbc0cf2481fafd1d8dab028b432443effd05caf\u0026v=4"
       },
       "created_at": "2026-09-25T19:45:51Z",
-      "updated_at": "2026-09-28T11:44:09Z",
+      "updated_at": "2026-09-28T15:17:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2069,6 +2069,31 @@
       "unresolved_conversations": 1,
       "labels": [
         "ok-to-test"
+      ]
+    },
+    {
+      "title": "fix(dex): fetching changes for mounting dex sa token as projected volume mount",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1322",
+      "number": 1322,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "anandf",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
+      },
+      "created_at": "2026-09-28T15:45:37Z",
+      "updated_at": "2026-09-28T15:54:14Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/bug"
       ]
     },
     {
@@ -4669,7 +4694,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-30T15:05:44Z",
+    "since": "2026-06-30T16:06:27Z",
     "reviewers": [
       {
         "login": "chengfang",
