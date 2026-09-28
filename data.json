@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T03:10:52.894555547Z",
+  "generated_at": "2026-09-28T04:08:19.018687666Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -5545,7 +5545,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-30T03:09:01Z",
+    "since": "2026-06-30T04:06:37Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9883,7 +9883,7 @@
       },
       {
         "login": "chetan-rns",
-        "reviews": 27,
+        "reviews": 26,
         "prs": [
           {
             "title": "fix: process Delete event for app already deleted on the agent",
@@ -10092,14 +10092,6 @@
             "number": 1018,
             "author": "dependabot",
             "engaged_at": "2026-06-30T04:07:29Z"
-          },
-          {
-            "title": "build(deps): Bump go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc from 0.67.0 to 0.69.0",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1020",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1020,
-            "author": "dependabot",
-            "engaged_at": "2026-06-30T04:04:44Z"
           }
         ]
       },
