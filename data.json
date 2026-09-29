@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:10:10.24471101Z",
+  "generated_at": "2026-09-29T07:15:21.740254241Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1683,14 +1683,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-06T05:25:51Z",
-      "updated_at": "2026-09-17T09:10:31Z",
+      "updated_at": "2026-09-29T06:39:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 3,
-        "approved_count": 2,
+        "approved_count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
@@ -2081,14 +2081,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
       },
       "created_at": "2026-09-28T15:45:37Z",
-      "updated_at": "2026-09-29T04:34:23Z",
+      "updated_at": "2026-09-29T06:37:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5527,7 +5527,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T06:08:09Z",
+    "since": "2026-07-01T07:13:13Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9793,7 +9793,7 @@
       },
       {
         "login": "chetan-rns",
-        "reviews": 25,
+        "reviews": 23,
         "prs": [
           {
             "title": "fix: process Delete event for app already deleted on the agent",
@@ -9978,22 +9978,6 @@
             "number": 1035,
             "author": "jgwest",
             "engaged_at": "2026-07-15T11:49:23Z"
-          },
-          {
-            "title": "build(deps): Bump github.com/argoproj/argo-cd/v3 from 3.4.3 to 3.4.4",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1023",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1023,
-            "author": "jannfis",
-            "engaged_at": "2026-07-01T06:38:38Z"
-          },
-          {
-            "title": "fix(resource-proxy): Correctly resolve OLM relationships",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1021",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1021,
-            "author": "jannfis",
-            "engaged_at": "2026-07-01T06:36:42Z"
           }
         ]
       },
@@ -10473,8 +10457,24 @@
       },
       {
         "login": "akhilnittala",
-        "reviews": 13,
+        "reviews": 14,
         "prs": [
+          {
+            "title": "fix: omit nonResourceURLs from namespaced Roles",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1278",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1278,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-29T06:39:16Z"
+          },
+          {
+            "title": "fix(dex): fetching changes for mounting dex sa token as projected volume mount",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1322",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1322,
+            "author": "anandf",
+            "engaged_at": "2026-09-29T06:37:34Z"
+          },
           {
             "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart (#2377) (#2386)",
             "url": "https://github.com/argoproj-labs/argocd-operator/pull/2398",
@@ -10514,14 +10514,6 @@
             "number": 1215,
             "author": "tzprograms",
             "engaged_at": "2026-09-08T11:30:32Z"
-          },
-          {
-            "title": "fix: omit nonResourceURLs from namespaced Roles",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1278",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1278,
-            "author": "alkakumari016",
-            "engaged_at": "2026-09-07T06:37:24Z"
           },
           {
             "title": "fix: remove Redis-related NetworkPolicies when networkPolicy disabled",
