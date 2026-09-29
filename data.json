@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T13:12:23.577084518Z",
+  "generated_at": "2026-09-29T14:08:34.624094189Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1210,32 +1210,6 @@
       ]
     },
     {
-      "title": "Change TLS termination to Reencrypt and Redirect on Insecure",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/644",
-      "number": 644,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "supernovae",
-        "avatar_url": "https://avatars.githubusercontent.com/u/1461719?u=eb10b1c0725f22269cf6ed0b7284228ba5181713\u0026v=4"
-      },
-      "created_at": "2024-01-19T17:21:10Z",
-      "updated_at": "2026-06-01T10:52:20Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-rebase",
-        "ok-to-test"
-      ]
-    },
-    {
       "title": "Run argo-rollouts-manager/plugin E2E tests as part of gitops-operator E2E tests",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/653",
       "number": 653,
@@ -1245,15 +1219,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2024-02-21T09:30:14Z",
-      "updated_at": "2026-05-09T15:54:06Z",
+      "updated_at": "2026-09-29T13:56:55Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -1530,18 +1504,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-07-09T07:23:23Z",
-      "updated_at": "2026-09-21T20:44:46Z",
+      "updated_at": "2026-09-29T13:53:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 3,
+        "count": 4,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 4,
       "labels": [
+        "do-not-merge/work-in-progress",
         "approved"
       ]
     },
@@ -1781,19 +1756,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-09-15T07:07:55Z",
-      "updated_at": "2026-09-16T13:53:44Z",
+      "updated_at": "2026-09-29T13:47:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "go"
       ]
@@ -1808,7 +1783,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-15T13:25:44Z",
-      "updated_at": "2026-09-29T10:24:07Z",
+      "updated_at": "2026-09-29T13:59:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1833,7 +1808,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-16T13:21:14Z",
-      "updated_at": "2026-09-29T12:33:48Z",
+      "updated_at": "2026-09-29T13:57:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1932,13 +1907,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1478202?v=4"
       },
       "created_at": "2026-09-24T15:35:45Z",
-      "updated_at": "2026-09-24T20:21:49Z",
+      "updated_at": "2026-09-29T13:33:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -2005,8 +1980,8 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-09-29T12:35:36Z",
-      "is_draft": true,
+      "updated_at": "2026-09-29T13:56:19Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
@@ -2015,10 +1990,8 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
-      "labels": [
-        "do-not-merge/work-in-progress"
-      ]
+      "unresolved_conversations": 2,
+      "labels": []
     },
     {
       "title": "GITOPS-11466: Detect Route API before Config API gate in InspectCluster",
@@ -2046,31 +2019,6 @@
       ]
     },
     {
-      "title": "fix(dex): fetching changes for mounting dex sa token as projected volume mount",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1322",
-      "number": 1322,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "anandf",
-        "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
-      },
-      "created_at": "2026-09-28T15:45:37Z",
-      "updated_at": "2026-09-29T13:05:51Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/bug"
-      ]
-    },
-    {
       "title": "Test updates for 1.22.0 release",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1323",
       "number": 1323,
@@ -2080,10 +2028,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-28T16:06:33Z",
-      "updated_at": "2026-09-29T12:51:06Z",
+      "updated_at": "2026-09-29T13:19:35Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2687,15 +2635,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-09-23T09:30:34Z",
-      "updated_at": "2026-09-29T07:50:18Z",
+      "updated_at": "2026-09-29T13:46:25Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 3,
       "labels": []
@@ -2759,7 +2707,7 @@
       "updated_at": "2026-09-29T11:16:36Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4750,7 +4698,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
       },
       "created_at": "2026-09-29T11:28:28Z",
-      "updated_at": "2026-09-29T13:03:54Z",
+      "updated_at": "2026-09-29T13:10:13Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -4766,7 +4714,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T13:10:09Z",
+    "since": "2026-07-01T14:06:03Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -5600,8 +5548,64 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 84,
+        "reviews": 91,
         "prs": [
+          {
+            "title": "Annotation example warns",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/836",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 836,
+            "author": "sarfarazgit",
+            "engaged_at": "2026-09-29T14:05:55Z"
+          },
+          {
+            "title": "Adding minikube version compatability code",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/835",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 835,
+            "author": "sarfarazgit",
+            "engaged_at": "2026-09-29T14:04:56Z"
+          },
+          {
+            "title": "Run argo-rollouts-manager/plugin E2E tests as part of gitops-operator E2E tests",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/653",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 653,
+            "author": "jgwest",
+            "engaged_at": "2026-09-29T13:56:55Z"
+          },
+          {
+            "title": "Change TLS termination to Reencrypt and Redirect on Insecure",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/644",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 644,
+            "author": "supernovae",
+            "engaged_at": "2026-09-29T13:55:10Z"
+          },
+          {
+            "title": "Added E2E tests for role ownership validation",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1208",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1208,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-29T13:53:55Z"
+          },
+          {
+            "title": "chore(deps): bump google.golang.org/grpc from 1.83.0 to 1.83.2 in /argocd-operator",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1293",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1293,
+            "author": "dependabot",
+            "engaged_at": "2026-09-29T13:47:45Z"
+          },
+          {
+            "title": "test: generate the Git server SSH key as ECDSA P-256, not Ed25519",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1317",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1317,
+            "author": "AdamSaleh",
+            "engaged_at": "2026-09-29T13:33:43Z"
+          },
           {
             "title": "fix(promoter): mount writable temporary storage for the controller",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1302",
@@ -9782,8 +9786,16 @@
       },
       {
         "login": "anandrkskd",
-        "reviews": 9,
+        "reviews": 10,
         "prs": [
+          {
+            "title": "fix(dex): fetching changes for mounting dex sa token as projected volume mount",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1322",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1322,
+            "author": "anandf",
+            "engaged_at": "2026-09-29T13:21:47Z"
+          },
           {
             "title": "chore: add AGENTS.md with E2E test rules",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1296",
