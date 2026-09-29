@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T10:09:18.545649134Z",
+  "generated_at": "2026-09-29T11:07:24.005029207Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1581,7 +1581,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-07-28T11:01:31Z",
-      "updated_at": "2026-09-29T09:10:21Z",
+      "updated_at": "2026-09-29T10:11:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1808,7 +1808,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-15T13:25:44Z",
-      "updated_at": "2026-09-29T09:54:04Z",
+      "updated_at": "2026-09-29T10:24:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1833,7 +1833,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-16T13:21:14Z",
-      "updated_at": "2026-09-29T08:57:16Z",
+      "updated_at": "2026-09-29T10:20:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2104,10 +2104,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-09-29T09:39:33Z",
-      "updated_at": "2026-09-29T09:41:22Z",
+      "updated_at": "2026-09-29T10:25:21Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2710,7 +2710,7 @@
       "updated_at": "2026-09-29T09:59:42Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5431,10 +5431,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-09-10T18:05:53Z",
-      "updated_at": "2026-09-29T09:30:04Z",
+      "updated_at": "2026-09-29T10:23:34Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5525,7 +5525,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T10:07:09Z",
+    "since": "2026-07-01T11:05:26Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7045,7 +7045,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 84,
+        "reviews": 83,
         "prs": [
           {
             "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart (#2377) (#2386)",
@@ -7710,14 +7710,6 @@
             "number": 1199,
             "author": "akhilnittala",
             "engaged_at": "2026-07-02T02:20:03Z"
-          },
-          {
-            "title": "fix(redis): Regression for masterauth field causing NOAUTH Authentication required error",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1200",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1200,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-01T10:10:47Z"
           }
         ]
       },
@@ -9323,7 +9315,7 @@
       },
       {
         "login": "anandf",
-        "reviews": 29,
+        "reviews": 27,
         "prs": [
           {
             "title": "GITOPS-11466: Detect Route API before Config API gate in InspectCluster",
@@ -9540,22 +9532,6 @@
             "number": 1194,
             "author": "anandrkskd",
             "engaged_at": "2026-07-06T09:25:14Z"
-          },
-          {
-            "title": "fix(redis): Regression for masterauth field causing NOAUTH Authentication required error",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1200",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1200,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-01T10:38:15Z"
-          },
-          {
-            "title": "fix(redis): Regression for masterauth field causing NOAUTH Authentication required error",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1199",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1199,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-01T10:37:32Z"
           }
         ]
       },
@@ -10171,7 +10147,7 @@
       },
       {
         "login": "varshab1210",
-        "reviews": 18,
+        "reviews": 17,
         "prs": [
           {
             "title": "Test updates for 1.22.0 release",
@@ -10308,14 +10284,6 @@
             "number": 1210,
             "author": "alkakumari016",
             "engaged_at": "2026-07-13T11:51:11Z"
-          },
-          {
-            "title": "fix(redis): Regression for masterauth field causing NOAUTH Authentication required error",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1200",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1200,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-01T10:07:15Z"
           }
         ]
       },
