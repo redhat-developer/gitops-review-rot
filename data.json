@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T14:08:34.624094189Z",
+  "generated_at": "2026-09-29T15:08:44.112023104Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1297,13 +1297,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/39793740?u=6fff3c991ff5c7ab990609492c52f54141a651bd\u0026v=4"
       },
       "created_at": "2025-02-10T10:45:39Z",
-      "updated_at": "2025-09-16T14:30:46Z",
+      "updated_at": "2026-09-29T14:04:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 3,
+        "count": 4,
         "approved_count": 1,
         "has_new_commits": false
       },
@@ -1323,13 +1323,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/39793740?u=6fff3c991ff5c7ab990609492c52f54141a651bd\u0026v=4"
       },
       "created_at": "2025-02-10T11:07:46Z",
-      "updated_at": "2025-09-16T14:30:40Z",
+      "updated_at": "2026-09-29T14:05:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 3,
+        "count": 4,
         "approved_count": 1,
         "has_new_commits": false
       },
@@ -1337,33 +1337,6 @@
       "labels": [
         "lgtm",
         "approved",
-        "needs-rebase",
-        "ok-to-test"
-      ]
-    },
-    {
-      "title": "fix(deps): update github.com/openshift/api digest to 3333746",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/849",
-      "number": 849,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2025-02-23T16:12:47Z",
-      "updated_at": "2026-07-02T08:42:09Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "lgtm",
         "needs-rebase",
         "ok-to-test"
       ]
@@ -1479,7 +1452,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-07-08T12:30:58Z",
-      "updated_at": "2026-09-29T09:51:59Z",
+      "updated_at": "2026-09-29T14:35:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1756,10 +1729,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-09-15T07:07:55Z",
-      "updated_at": "2026-09-29T13:47:48Z",
+      "updated_at": "2026-09-29T14:50:47Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1808,7 +1781,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-16T13:21:14Z",
-      "updated_at": "2026-09-29T13:57:50Z",
+      "updated_at": "2026-09-29T14:12:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1834,7 +1807,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-21T12:36:38Z",
-      "updated_at": "2026-09-29T12:53:09Z",
+      "updated_at": "2026-09-29T14:26:03Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1980,7 +1953,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-09-29T13:56:19Z",
+      "updated_at": "2026-09-29T14:56:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2638,7 +2611,7 @@
       "updated_at": "2026-09-29T13:46:25Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -4045,31 +4018,6 @@
       "labels": []
     },
     {
-      "title": "fix: apply managed-by label for namespaceManagement tenant namespaces…",
-      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2120",
-      "number": 2120,
-      "repo": "argoproj-labs/argocd-operator",
-      "author": {
-        "login": "nmirasch",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
-      },
-      "created_at": "2026-03-10T18:44:18Z",
-      "updated_at": "2026-04-23T11:29:58Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "approved_count": 3,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "do-not-merge"
-      ]
-    },
-    {
       "title": "Np for operator manager",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/2147",
       "number": 2147,
@@ -4710,11 +4658,34 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-07-16T14:24:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T14:06:03Z",
+    "since": "2026-07-01T15:06:20Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -5548,8 +5519,16 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 91,
+        "reviews": 92,
         "prs": [
+          {
+            "title": "fix(deps): update github.com/openshift/api digest to 3333746",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/849",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 849,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-29T14:07:38Z"
+          },
           {
             "title": "Annotation example warns",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/836",
