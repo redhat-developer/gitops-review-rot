@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:08:51.604851363Z",
+  "generated_at": "2026-09-29T21:07:39.787798593Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1927,10 +1927,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-09-29T19:25:59Z",
+      "updated_at": "2026-09-29T20:47:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -4692,7 +4692,7 @@
       "updated_at": "2026-09-29T19:17:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -4728,7 +4728,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T20:06:36Z",
+    "since": "2026-07-01T21:05:29Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8772,7 +8772,7 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 27,
+        "reviews": 26,
         "prs": [
           {
             "title": "fix(registry): controller sends unauthenticated registry requests — registries.conf credentials AND per-image pullSecret never reach the wire",
@@ -8981,14 +8981,6 @@
             "number": 1726,
             "author": "chengfang",
             "engaged_at": "2026-07-14T11:57:30Z"
-          },
-          {
-            "title": "chore(ci): add allow-unsafe-pr-checkout: true to actions/checkout@v7 to opt in to allow checkout of fork PRs",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1719",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1719,
-            "author": "chengfang",
-            "engaged_at": "2026-07-01T20:21:38Z"
           }
         ]
       },
