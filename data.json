@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T07:15:21.740254241Z",
+  "generated_at": "2026-09-29T08:10:15.694022305Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1505,10 +1505,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-07-08T12:30:58Z",
-      "updated_at": "2026-09-25T17:56:19Z",
+      "updated_at": "2026-09-29T07:24:11Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 4,
@@ -1581,7 +1581,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-07-28T11:01:31Z",
-      "updated_at": "2026-09-23T14:19:19Z",
+      "updated_at": "2026-09-29T08:01:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1808,20 +1808,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-15T13:25:44Z",
-      "updated_at": "2026-09-25T09:44:17Z",
+      "updated_at": "2026-09-29T08:00:18Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 5,
       "labels": [
-        "approved",
-        "needs-rebase"
+        "approved"
       ]
     },
     {
@@ -1834,10 +1833,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-16T13:21:14Z",
-      "updated_at": "2026-09-25T09:44:15Z",
+      "updated_at": "2026-09-29T08:05:58Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1846,8 +1845,7 @@
       },
       "unresolved_conversations": 1,
       "labels": [
-        "approved",
-        "needs-rebase"
+        "approved"
       ]
     },
     {
@@ -1860,10 +1858,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-21T12:36:38Z",
-      "updated_at": "2026-09-23T13:34:35Z",
+      "updated_at": "2026-09-29T07:59:33Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1872,31 +1870,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "fix(redis): Fallback to old AUTH var for the purposes of smooth migration",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1307",
-      "number": 1307,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "olivergondza",
-        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
-      },
-      "created_at": "2026-09-22T08:11:43Z",
-      "updated_at": "2026-09-22T14:52:12Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "kind/bug"
-      ]
     },
     {
       "title": "chore: use port-forward to login to argocd server in E2E Tests",
@@ -1933,7 +1906,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-09-28T15:42:59Z",
+      "updated_at": "2026-09-29T07:38:08Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1981,13 +1954,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-09-28T11:35:10Z",
+      "updated_at": "2026-09-29T08:03:14Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -2106,17 +2079,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-28T16:06:33Z",
-      "updated_at": "2026-09-29T04:53:47Z",
+      "updated_at": "2026-09-29T07:44:58Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": [
         "kind/failing-test"
       ]
@@ -2640,7 +2613,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-09-16T08:37:49Z",
-      "updated_at": "2026-09-24T15:14:03Z",
+      "updated_at": "2026-09-29T07:53:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2663,17 +2636,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-09-23T09:30:34Z",
-      "updated_at": "2026-09-24T04:36:29Z",
+      "updated_at": "2026-09-29T07:50:18Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 3,
       "labels": []
     },
     {
@@ -5527,7 +5500,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T07:13:13Z",
+    "since": "2026-07-01T08:08:02Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6361,7 +6334,7 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 86,
+        "reviews": 85,
         "prs": [
           {
             "title": "fix(promoter): mount writable temporary storage for the controller",
@@ -7042,14 +7015,6 @@
             "number": 2254,
             "author": "cjcocokrisp",
             "engaged_at": "2026-07-01T12:09:18Z"
-          },
-          {
-            "title": "fix(makefile): platform aware default, fixes start-local",
-            "url": "https://github.com/argoproj/argo-cd/pull/25978",
-            "repo": "argoproj/argo-cd",
-            "number": 25978,
-            "author": "ranakan19",
-            "engaged_at": "2026-07-01T07:57:39Z"
           }
         ]
       },
@@ -9793,8 +9758,16 @@
       },
       {
         "login": "chetan-rns",
-        "reviews": 23,
+        "reviews": 24,
         "prs": [
+          {
+            "title": "feat: support custom labels in self-registration cluster secret",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1124",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1124,
+            "author": "jparsai",
+            "engaged_at": "2026-09-29T07:50:17Z"
+          },
           {
             "title": "fix: process Delete event for app already deleted on the agent",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1101",
