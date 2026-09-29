@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:09:41.066597882Z",
+  "generated_at": "2026-09-29T13:12:23.577084518Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1833,7 +1833,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-16T13:21:14Z",
-      "updated_at": "2026-09-29T10:20:50Z",
+      "updated_at": "2026-09-29T12:33:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1841,10 +1841,11 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": [
+        "lgtm",
         "approved"
       ]
     },
@@ -1858,7 +1859,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-21T12:36:38Z",
-      "updated_at": "2026-09-29T09:28:21Z",
+      "updated_at": "2026-09-29T12:53:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2004,7 +2005,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-09-29T11:55:45Z",
+      "updated_at": "2026-09-29T12:35:36Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2054,14 +2055,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
       },
       "created_at": "2026-09-28T15:45:37Z",
-      "updated_at": "2026-09-29T06:37:34Z",
+      "updated_at": "2026-09-29T13:05:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 1,
+        "count": 2,
+        "approved_count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -2079,7 +2080,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-28T16:06:33Z",
-      "updated_at": "2026-09-29T11:13:31Z",
+      "updated_at": "2026-09-29T12:51:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2129,7 +2130,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-09-29T11:40:46Z",
-      "updated_at": "2026-09-29T12:03:16Z",
+      "updated_at": "2026-09-29T12:09:13Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2758,7 +2759,7 @@
       "updated_at": "2026-09-29T11:16:36Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -3754,10 +3755,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/4703157?u=b17cd57482dcf0e136161bd20d712e943ea26521\u0026v=4"
       },
       "created_at": "2026-09-26T10:39:43Z",
-      "updated_at": "2026-09-29T02:30:03Z",
+      "updated_at": "2026-09-29T12:26:38Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
@@ -4749,38 +4750,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
       },
       "created_at": "2026-09-29T11:28:28Z",
-      "updated_at": "2026-09-29T11:34:40Z",
+      "updated_at": "2026-09-29T13:03:54Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-07-16T14:24:23Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -4788,12 +4766,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T12:07:22Z",
+    "since": "2026-07-01T13:10:09Z",
     "reviewers": [
       {
         "login": "chengfang",
         "reviews": 103,
         "prs": [
+          {
+            "title": "chore: Delete now unused argocd-operator manifests and the make goals using/producing them",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1297",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1297,
+            "author": "olivergondza",
+            "engaged_at": "2026-09-29T12:33:41Z"
+          },
           {
             "title": "feat(pr): support creating pull requests on Gitea",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1826",
@@ -4913,14 +4899,6 @@
             "number": 1306,
             "author": "aali309",
             "engaged_at": "2026-09-22T18:59:19Z"
-          },
-          {
-            "title": "chore: Delete now unused argocd-operator manifests and the make goals using/producing them",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1297",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1297,
-            "author": "olivergondza",
-            "engaged_at": "2026-09-22T15:49:40Z"
           },
           {
             "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart",
@@ -5622,7 +5600,7 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 85,
+        "reviews": 84,
         "prs": [
           {
             "title": "fix(promoter): mount writable temporary storage for the controller",
@@ -6295,14 +6273,6 @@
             "number": 1187,
             "author": "jgwest",
             "engaged_at": "2026-07-02T08:16:56Z"
-          },
-          {
-            "title": "chore(e2e): sync sharding test with downstream",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2254",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2254,
-            "author": "cjcocokrisp",
-            "engaged_at": "2026-07-01T12:09:18Z"
           }
         ]
       },
@@ -9974,8 +9944,16 @@
       },
       {
         "login": "nmirasch",
-        "reviews": 3,
+        "reviews": 4,
         "prs": [
+          {
+            "title": "fix(dex): fetching changes for mounting dex sa token as projected volume mount",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1322",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1322,
+            "author": "anandf",
+            "engaged_at": "2026-09-29T13:05:50Z"
+          },
           {
             "title": "fix: omit nonResourceURLs from namespaced Roles",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1278",
