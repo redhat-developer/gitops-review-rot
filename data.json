@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T19:07:04.130562856Z",
+  "generated_at": "2026-09-29T20:08:51.604851363Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1772,32 +1772,6 @@
       ]
     },
     {
-      "title": "chore: Delete now unused argocd-operator manifests and the make goals using/producing them",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1297",
-      "number": 1297,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "olivergondza",
-        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
-      },
-      "created_at": "2026-09-16T13:21:14Z",
-      "updated_at": "2026-09-29T14:12:59Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "lgtm",
-        "approved"
-      ]
-    },
-    {
       "title": "chore: migrate deprecated patchesJson6902 to patches in kustomization",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1304",
       "number": 1304,
@@ -1944,7 +1918,7 @@
       ]
     },
     {
-      "title": "use argocd-redis secret by default",
+      "title": "GITOPS-11058 use argocd-redis secret by default",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1320",
       "number": 1320,
       "repo": "redhat-developer/gitops-operator",
@@ -1953,7 +1927,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-09-29T16:37:50Z",
+      "updated_at": "2026-09-29T19:25:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2001,10 +1975,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-28T16:06:33Z",
-      "updated_at": "2026-09-29T18:19:40Z",
+      "updated_at": "2026-09-29T19:35:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4173,7 +4147,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-09-08T02:45:26Z",
-      "updated_at": "2026-09-15T02:01:23Z",
+      "updated_at": "2026-09-29T19:20:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4660,7 +4634,7 @@
       "labels": []
     },
     {
-      "title": "fix: GITOPS-10904 ArgoCD removes unmanaged labels on resources, post upgrade to GitOps v1.21",
+      "title": "fix: GITOPS-10904 ArgoCD removes unmanaged labels on resources post upgrade",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/2402",
       "number": 2402,
       "repo": "argoproj-labs/argocd-operator",
@@ -4669,13 +4643,59 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-09-29T16:09:19Z",
-      "updated_at": "2026-09-29T16:15:44Z",
+      "updated_at": "2026-09-29T19:19:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: GITOPS-10904 ArgoCD removes unmanaged labels on resources post upgrade",
+      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2403",
+      "number": 2403,
+      "repo": "argoproj-labs/argocd-operator",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-09-29T19:06:53Z",
+      "updated_at": "2026-09-29T19:18:54Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: GITOPS-10904 document the tracking method default change on upgrade",
+      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2404",
+      "number": 2404,
+      "repo": "argoproj-labs/argocd-operator",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-09-29T19:17:47Z",
+      "updated_at": "2026-09-29T19:17:55Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -4708,7 +4728,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T19:04:46Z",
+    "since": "2026-07-01T20:06:36Z",
     "reviewers": [
       {
         "login": "chengfang",
