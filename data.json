@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T02:14:57.951778961Z",
+  "generated_at": "2026-09-30T03:09:30.183417081Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -5533,7 +5533,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-02T02:13:18Z",
+    "since": "2026-07-02T03:07:20Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7077,7 +7077,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 83,
+        "reviews": 82,
         "prs": [
           {
             "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart (#2377) (#2386)",
@@ -7734,14 +7734,6 @@
             "number": 1203,
             "author": "olivergondza",
             "engaged_at": "2026-07-03T02:07:04Z"
-          },
-          {
-            "title": "fix(redis): Regression for masterauth field causing NOAUTH Authentication required error",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1199",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1199,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-02T02:20:03Z"
           }
         ]
       },
