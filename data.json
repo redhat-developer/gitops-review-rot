@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T06:09:44.129857574Z",
+  "generated_at": "2026-09-30T07:15:07.999691956Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1452,7 +1452,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-07-08T12:30:58Z",
-      "updated_at": "2026-09-29T14:35:33Z",
+      "updated_at": "2026-09-30T07:05:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1756,18 +1756,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-15T13:25:44Z",
-      "updated_at": "2026-09-30T03:16:57Z",
+      "updated_at": "2026-09-30T06:38:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 5,
       "labels": [
+        "lgtm",
         "approved"
       ]
     },
@@ -5533,7 +5534,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-02T06:07:53Z",
+    "since": "2026-07-02T07:12:59Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9339,8 +9340,16 @@
       },
       {
         "login": "anandf",
-        "reviews": 28,
+        "reviews": 29,
         "prs": [
+          {
+            "title": "Docs publishing on readthedocs.org",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1294",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1294,
+            "author": "olivergondza",
+            "engaged_at": "2026-09-30T06:38:00Z"
+          },
           {
             "title": "test: Port tests to XKS",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1268",
