@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:09:04.831197812Z",
+  "generated_at": "2026-09-30T17:08:36.661953272Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1903,7 +1903,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-09-30T15:24:15Z",
+      "updated_at": "2026-09-30T16:40:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2583,7 +2583,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
       },
       "created_at": "2026-09-23T21:46:06Z",
-      "updated_at": "2026-09-30T15:56:37Z",
+      "updated_at": "2026-09-30T16:12:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5511,6 +5511,32 @@
       ]
     },
     {
+      "title": "fix(ui): reduce Applications virtual-scroll flicker on scroll",
+      "url": "https://github.com/argoproj/argo-cd/pull/29935",
+      "number": 29935,
+      "repo": "argoproj/argo-cd",
+      "author": {
+        "login": "aali309",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
+      },
+      "created_at": "2026-09-30T16:27:32Z",
+      "updated_at": "2026-09-30T16:51:34Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 3,
+      "labels": [
+        "🟠 Medium blast radius",
+        "🕐 20-40 Minutes"
+      ]
+    },
+    {
       "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
       "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
       "number": 4763,
@@ -5536,7 +5562,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-02T16:06:46Z",
+    "since": "2026-07-02T17:06:18Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10427,140 +10453,6 @@
         ]
       },
       {
-        "login": "jparsai",
-        "reviews": 16,
-        "prs": [
-          {
-            "title": "feat: toggle debug settings during runtime",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1111",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1111,
-            "author": "chetan-rns",
-            "engaged_at": "2026-09-29T09:34:47Z"
-          },
-          {
-            "title": "chore: additional E2E test reliability improvements",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1272",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1272,
-            "author": "jgwest",
-            "engaged_at": "2026-09-08T09:10:49Z"
-          },
-          {
-            "title": "chore: add test fixes and additional debugging",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1270",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1270,
-            "author": "jgwest",
-            "engaged_at": "2026-09-02T06:28:14Z"
-          },
-          {
-            "title": "feat: Gather namespace Roles and RoleBindings",
-            "url": "https://github.com/redhat-developer/gitops-must-gather/pull/43",
-            "repo": "redhat-developer/gitops-must-gather",
-            "number": 43,
-            "author": "olivergondza",
-            "engaged_at": "2026-08-24T12:13:26Z"
-          },
-          {
-            "title": "Upgrade dependencies to Argo Rollouts v1.6.6",
-            "url": "https://github.com/argoproj-labs/rollouts-plugin-trafficrouter-openshift/pull/17",
-            "repo": "argoproj-labs/rollouts-plugin-trafficrouter-openshift",
-            "number": 17,
-            "author": "jgwest",
-            "engaged_at": "2026-08-21T11:52:56Z"
-          },
-          {
-            "title": "chore: run 'go fix' and audit changes",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2312",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2312,
-            "author": "jgwest",
-            "engaged_at": "2026-08-04T14:35:16Z"
-          },
-          {
-            "title": "test(e2e): add e2e test to verify destination based mapping",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1241",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1241,
-            "author": "chetan-rns",
-            "engaged_at": "2026-08-03T13:38:05Z"
-          },
-          {
-            "title": "test(e2e): add e2e test to verify destination based mapping",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2308",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2308,
-            "author": "chetan-rns",
-            "engaged_at": "2026-08-03T13:32:17Z"
-          },
-          {
-            "title": "feat: translate AppProject roles in autonomous agent mode",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1041",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1041,
-            "author": "jgwest",
-            "engaged_at": "2026-07-31T13:16:53Z"
-          },
-          {
-            "title": "fix: cleanup agent resources after the deletion of the agent cluster secret",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1034",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1034,
-            "author": "chetan-rns",
-            "engaged_at": "2026-07-27T11:37:18Z"
-          },
-          {
-            "title": "chore(rbac): add examples for agent clusterroles that enhance permissions for the resource proxy",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1047",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1047,
-            "author": "cjcocokrisp",
-            "engaged_at": "2026-07-23T16:28:53Z"
-          },
-          {
-            "title": "feat: allow agents to periodically resync with the principal",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1037",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1037,
-            "author": "enbiyagoral",
-            "engaged_at": "2026-07-21T07:41:57Z"
-          },
-          {
-            "title": "feat: Allow buffering of Application events at informer to reduce event volume",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/937",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 937,
-            "author": "jgwest",
-            "engaged_at": "2026-07-07T08:43:10Z"
-          },
-          {
-            "title": "fix(helm): prevent resource name collisions on long release names",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1024",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1024,
-            "author": "chickenbeef",
-            "engaged_at": "2026-07-06T09:31:38Z"
-          },
-          {
-            "title": "ci(helm): add OCI chart release workflows for agent and principal",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1008",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1008,
-            "author": "anandrkskd",
-            "engaged_at": "2026-07-06T09:16:02Z"
-          },
-          {
-            "title": "docs(getting-started): use server-side apply for install manifests",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1016",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1016,
-            "author": "jonmosco",
-            "engaged_at": "2026-07-02T16:08:26Z"
-          }
-        ]
-      },
-      {
         "login": "akhilnittala",
         "reviews": 15,
         "prs": [
@@ -10683,6 +10575,132 @@
             "number": 1194,
             "author": "anandrkskd",
             "engaged_at": "2026-07-03T05:42:02Z"
+          }
+        ]
+      },
+      {
+        "login": "jparsai",
+        "reviews": 15,
+        "prs": [
+          {
+            "title": "feat: toggle debug settings during runtime",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1111",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1111,
+            "author": "chetan-rns",
+            "engaged_at": "2026-09-29T09:34:47Z"
+          },
+          {
+            "title": "chore: additional E2E test reliability improvements",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1272",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1272,
+            "author": "jgwest",
+            "engaged_at": "2026-09-08T09:10:49Z"
+          },
+          {
+            "title": "chore: add test fixes and additional debugging",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1270",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1270,
+            "author": "jgwest",
+            "engaged_at": "2026-09-02T06:28:14Z"
+          },
+          {
+            "title": "feat: Gather namespace Roles and RoleBindings",
+            "url": "https://github.com/redhat-developer/gitops-must-gather/pull/43",
+            "repo": "redhat-developer/gitops-must-gather",
+            "number": 43,
+            "author": "olivergondza",
+            "engaged_at": "2026-08-24T12:13:26Z"
+          },
+          {
+            "title": "Upgrade dependencies to Argo Rollouts v1.6.6",
+            "url": "https://github.com/argoproj-labs/rollouts-plugin-trafficrouter-openshift/pull/17",
+            "repo": "argoproj-labs/rollouts-plugin-trafficrouter-openshift",
+            "number": 17,
+            "author": "jgwest",
+            "engaged_at": "2026-08-21T11:52:56Z"
+          },
+          {
+            "title": "chore: run 'go fix' and audit changes",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2312",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2312,
+            "author": "jgwest",
+            "engaged_at": "2026-08-04T14:35:16Z"
+          },
+          {
+            "title": "test(e2e): add e2e test to verify destination based mapping",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1241",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1241,
+            "author": "chetan-rns",
+            "engaged_at": "2026-08-03T13:38:05Z"
+          },
+          {
+            "title": "test(e2e): add e2e test to verify destination based mapping",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2308",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2308,
+            "author": "chetan-rns",
+            "engaged_at": "2026-08-03T13:32:17Z"
+          },
+          {
+            "title": "feat: translate AppProject roles in autonomous agent mode",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1041",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1041,
+            "author": "jgwest",
+            "engaged_at": "2026-07-31T13:16:53Z"
+          },
+          {
+            "title": "fix: cleanup agent resources after the deletion of the agent cluster secret",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1034",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1034,
+            "author": "chetan-rns",
+            "engaged_at": "2026-07-27T11:37:18Z"
+          },
+          {
+            "title": "chore(rbac): add examples for agent clusterroles that enhance permissions for the resource proxy",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1047",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1047,
+            "author": "cjcocokrisp",
+            "engaged_at": "2026-07-23T16:28:53Z"
+          },
+          {
+            "title": "feat: allow agents to periodically resync with the principal",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1037",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1037,
+            "author": "enbiyagoral",
+            "engaged_at": "2026-07-21T07:41:57Z"
+          },
+          {
+            "title": "feat: Allow buffering of Application events at informer to reduce event volume",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/937",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 937,
+            "author": "jgwest",
+            "engaged_at": "2026-07-07T08:43:10Z"
+          },
+          {
+            "title": "fix(helm): prevent resource name collisions on long release names",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1024",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1024,
+            "author": "chickenbeef",
+            "engaged_at": "2026-07-06T09:31:38Z"
+          },
+          {
+            "title": "ci(helm): add OCI chart release workflows for agent and principal",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1008",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1008,
+            "author": "anandrkskd",
+            "engaged_at": "2026-07-06T09:16:02Z"
           }
         ]
       },
