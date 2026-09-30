@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:07:58.602736313Z",
+  "generated_at": "2026-09-30T12:10:00.666506095Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1729,7 +1729,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-09-15T07:07:55Z",
-      "updated_at": "2026-09-30T09:35:32Z",
+      "updated_at": "2026-09-30T11:43:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1804,10 +1804,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-09-30T09:46:44Z",
+      "updated_at": "2026-09-30T11:10:51Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1903,7 +1903,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-09-30T09:47:14Z",
+      "updated_at": "2026-09-30T12:04:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1913,7 +1913,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -1951,10 +1951,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-28T16:06:33Z",
-      "updated_at": "2026-09-30T09:27:41Z",
+      "updated_at": "2026-09-30T11:31:26Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2014,6 +2014,31 @@
       "unresolved_conversations": 0,
       "labels": [
         "kind/bug"
+      ]
+    },
+    {
+      "title": "chore: Add security reporting guidelines",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1326",
+      "number": 1326,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-09-30T11:49:35Z",
+      "updated_at": "2026-09-30T11:55:53Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/enhancement"
       ]
     },
     {
@@ -4725,32 +4750,6 @@
       "labels": []
     },
     {
-      "title": "build(deps): bump google.golang.org/grpc from 1.82.1 to 1.83.2",
-      "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/146",
-      "number": 146,
-      "repo": "argoproj-labs/argo-rollouts-manager",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-09-30T07:55:11Z",
-      "updated_at": "2026-09-30T07:55:19Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "docs: Proposal for multi-tenant repository servers",
       "url": "https://github.com/argoproj/argo-cd/pull/12123",
       "number": 12123,
@@ -5558,7 +5557,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-02T11:05:52Z",
+    "since": "2026-07-02T12:07:46Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8354,8 +8353,16 @@
       },
       {
         "login": "jgwest",
-        "reviews": 53,
+        "reviews": 54,
         "prs": [
+          {
+            "title": "build(deps): bump google.golang.org/grpc from 1.82.1 to 1.83.2",
+            "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/146",
+            "repo": "argoproj-labs/argo-rollouts-manager",
+            "number": 146,
+            "author": "dependabot",
+            "engaged_at": "2026-09-30T11:46:42Z"
+          },
           {
             "title": "feat(tls): add hot reloading for tls client cert and ca on principal",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1125",
