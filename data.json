@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T07:15:07.999691956Z",
+  "generated_at": "2026-09-30T08:10:11.088358636Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1452,10 +1452,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-07-08T12:30:58Z",
-      "updated_at": "2026-09-30T07:05:00Z",
+      "updated_at": "2026-09-30T07:14:31Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 4,
@@ -1878,10 +1878,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-09-29T10:01:04Z",
+      "updated_at": "2026-09-30T07:15:43Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2001,10 +2001,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-09-29T09:39:33Z",
-      "updated_at": "2026-09-29T11:40:41Z",
+      "updated_at": "2026-09-30T07:41:02Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2548,29 +2548,6 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "feat: toggle debug settings during runtime",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1111",
-      "number": 1111,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "chetan-rns",
-        "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
-      },
-      "created_at": "2026-09-16T08:37:49Z",
-      "updated_at": "2026-09-29T09:34:47Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -5507,34 +5484,11 @@
         "🟠 Medium blast radius",
         "🕐 40+ Minutes"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-07-16T14:24:23Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-02T07:12:59Z",
+    "since": "2026-07-02T08:08:00Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8330,8 +8284,16 @@
       },
       {
         "login": "jgwest",
-        "reviews": 47,
+        "reviews": 48,
         "prs": [
+          {
+            "title": "feat: toggle debug settings during runtime",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1111",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1111,
+            "author": "chetan-rns",
+            "engaged_at": "2026-09-30T07:45:34Z"
+          },
           {
             "title": "feat: support custom annotations in principal's service",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1299",
