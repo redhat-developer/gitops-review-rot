@@ -17,6 +17,8 @@ sources:
     - +argoproj-labs/argocd-agent
     - +argoproj-labs/argocd-image-updater
     - +argoproj-labs/argocd-operator
+    - +argoproj-labs/argo-rollouts-manager
+    - +argoproj-labs/rollouts-plugin-trafficrouter-openshift
 
 # Reviewer leaderboard settings
 leaderboard:
