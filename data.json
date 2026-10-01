@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:08:01.988574857Z",
+  "generated_at": "2026-10-01T23:07:04.630513888Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -3803,7 +3803,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32789220?u=85782001e3c1fbcff224be8ea13e6732df3502be\u0026v=4"
       },
       "created_at": "2026-09-16T21:54:34Z",
-      "updated_at": "2026-10-01T22:01:03Z",
+      "updated_at": "2026-10-01T22:16:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3813,7 +3813,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -3840,16 +3840,16 @@
       "labels": []
     },
     {
-      "title": "fix(controller): keep Argo CD client out of shared reconciler config",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1831",
-      "number": 1831,
+      "title": "fix(pr): use the Argo CD TLS certificate store for SCM API calls",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1832",
+      "number": 1832,
       "repo": "argoproj-labs/argocd-image-updater",
       "author": {
         "login": "rishabhvenu",
         "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
       },
-      "created_at": "2026-09-30T23:57:40Z",
-      "updated_at": "2026-10-01T21:01:25Z",
+      "created_at": "2026-10-01T00:21:41Z",
+      "updated_at": "2026-10-01T22:38:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3863,29 +3863,6 @@
       "labels": [
         "ok-to-test"
       ]
-    },
-    {
-      "title": "fix(pr): use the Argo CD TLS certificate store for SCM API calls",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1832",
-      "number": 1832,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "rishabhvenu",
-        "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
-      },
-      "created_at": "2026-10-01T00:21:41Z",
-      "updated_at": "2026-10-01T01:42:28Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     },
     {
       "title": "chore(deps): bump github.com/onsi/gomega from 1.42.1 to 1.44.0",
@@ -6001,7 +5978,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-03T22:06:01Z",
+    "since": "2026-07-03T23:05:08Z",
     "reviewers": [
       {
         "login": "olivergondza",
@@ -6787,8 +6764,16 @@
       },
       {
         "login": "chengfang",
-        "reviews": 94,
+        "reviews": 95,
         "prs": [
+          {
+            "title": "fix(controller): keep Argo CD client out of shared reconciler config",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1831",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1831,
+            "author": "rishabhvenu",
+            "engaged_at": "2026-10-01T22:26:59Z"
+          },
           {
             "title": "test(webhook): fix data race in TestWebhookServerRateLimit",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1830",
