@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:08:11.866103889Z",
+  "generated_at": "2026-10-01T17:07:38.729433169Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1729,7 +1729,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-09-15T07:07:55Z",
-      "updated_at": "2026-10-01T15:59:54Z",
+      "updated_at": "2026-10-01T16:31:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1953,10 +1953,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-28T16:06:33Z",
-      "updated_at": "2026-10-01T14:08:49Z",
+      "updated_at": "2026-10-01T16:24:53Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2053,10 +2053,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-09-30T21:13:57Z",
-      "updated_at": "2026-10-01T16:02:38Z",
+      "updated_at": "2026-10-01T16:24:21Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2203,17 +2203,40 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-01T16:00:01Z",
-      "updated_at": "2026-10-01T16:03:06Z",
+      "updated_at": "2026-10-01T16:56:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
+      "labels": []
+    },
+    {
+      "title": "fix: Rename inner module from argoproj-labs to redhat-developer",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1334",
+      "number": 1334,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-10-01T16:24:17Z",
+      "updated_at": "2026-10-01T16:57:10Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -3780,7 +3803,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32789220?u=85782001e3c1fbcff224be8ea13e6732df3502be\u0026v=4"
       },
       "created_at": "2026-09-16T21:54:34Z",
-      "updated_at": "2026-09-28T11:27:39Z",
+      "updated_at": "2026-10-01T16:18:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5163,16 +5186,47 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-07-16T14:24:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-03T16:05:52Z",
+    "since": "2026-07-03T17:05:24Z",
     "reviewers": [
       {
         "login": "olivergondza",
         "reviews": 97,
         "prs": [
+          {
+            "title": "chore(deps): bump google.golang.org/grpc from 1.83.0 to 1.83.2 in /argocd-operator",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1293",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1293,
+            "author": "dependabot",
+            "engaged_at": "2026-10-01T16:31:14Z"
+          },
           {
             "title": "feat(ui): add source integrity to project settings",
             "url": "https://github.com/argoproj/argo-cd/pull/29411",
@@ -5180,14 +5234,6 @@
             "number": 29411,
             "author": "kuci-JK",
             "engaged_at": "2026-10-01T16:03:40Z"
-          },
-          {
-            "title": "chore(deps): bump google.golang.org/grpc from 1.83.0 to 1.83.2 in /argocd-operator",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1293",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1293,
-            "author": "dependabot",
-            "engaged_at": "2026-10-01T15:59:47Z"
           },
           {
             "title": "fix: throw an error if openshiftOAuth is used in xKS env",
@@ -8336,324 +8382,6 @@
         ]
       },
       {
-        "login": "keithchong",
-        "reviews": 39,
-        "prs": [
-          {
-            "title": "feat(ui): Implement virtual scrolling for Apps list/tiles view when `all` is selected",
-            "url": "https://github.com/argoproj/argo-cd/pull/29542",
-            "repo": "argoproj/argo-cd",
-            "number": 29542,
-            "author": "aali309",
-            "engaged_at": "2026-09-15T15:27:29Z"
-          },
-          {
-            "title": "fix: enable Delete ApplicationSet for namespace-scoped users (GITOPS-10780)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/263",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 263,
-            "author": "npawarr",
-            "engaged_at": "2026-09-11T13:51:05Z"
-          },
-          {
-            "title": "GITOPS-11176: return null from rollout decorator so Topology URL links render",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/299",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 299,
-            "author": "dipakkarde",
-            "engaged_at": "2026-09-03T12:24:39Z"
-          },
-          {
-            "title": "cherry-pick Add unit tests for health \u0026 application set status to release-4.18 branch",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/298",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 298,
-            "author": "aali309",
-            "engaged_at": "2026-09-02T17:50:09Z"
-          },
-          {
-            "title": "Add unit tests for health \u0026 application set status",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/290",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 290,
-            "author": "trdoyle81",
-            "engaged_at": "2026-09-02T16:57:35Z"
-          },
-          {
-            "title": "Cherry-pick Comprehensive docs for gitops-console-plugin to release4.18",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/297",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 297,
-            "author": "aali309",
-            "engaged_at": "2026-09-02T16:39:18Z"
-          },
-          {
-            "title": "Comprehensive docs for gitops-console-plugin",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/271",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 271,
-            "author": "aali309",
-            "engaged_at": "2026-09-02T15:23:15Z"
-          },
-          {
-            "title": "fix: cherry-pick Label sorting inconsistency when object key order differs to release-4.18",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/295",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 295,
-            "author": "aali309",
-            "engaged_at": "2026-09-02T15:10:15Z"
-          },
-          {
-            "title": "fix: cherry-pick history tab throws runtime error for multi-source Applications to release-4.18",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/291",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 291,
-            "author": "aali309",
-            "engaged_at": "2026-09-02T14:11:49Z"
-          },
-          {
-            "title": "fix: history tab throws runtime error for multi-source Applications",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/282",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 282,
-            "author": "aali309",
-            "engaged_at": "2026-09-01T21:31:32Z"
-          },
-          {
-            "title": "fix: Label sorting inconsistency when object key order differs",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/281",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 281,
-            "author": "aali309",
-            "engaged_at": "2026-09-01T21:02:24Z"
-          },
-          {
-            "title": "fix: cherry-pick getAppSetStatus incorrectly treats ApplicationSetUpToDate=True ass Error to release-4.18 branch",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/285",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 285,
-            "author": "aali309",
-            "engaged_at": "2026-09-01T15:15:15Z"
-          },
-          {
-            "title": "fix: getAppSetStatus incorrectly treats ApplicationSetUpToDate=True as Error",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/284",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 284,
-            "author": "aali309",
-            "engaged_at": "2026-09-01T14:50:21Z"
-          },
-          {
-            "title": "fix(ui): bound how much of a large resource tree is drawn (#10253)",
-            "url": "https://github.com/argoproj/argo-cd/pull/29125",
-            "repo": "argoproj/argo-cd",
-            "number": 29125,
-            "author": "himeshp",
-            "engaged_at": "2026-08-27T15:47:04Z"
-          },
-          {
-            "title": "chore(deps): bump js-yaml to 4.3.1 in /ui for CVE-2026-59869 (release-3.3)",
-            "url": "https://github.com/argoproj/argo-cd/pull/29386",
-            "repo": "argoproj/argo-cd",
-            "number": 29386,
-            "author": "aali309",
-            "engaged_at": "2026-08-25T20:34:43Z"
-          },
-          {
-            "title": "chore(deps): bump js-yaml to fix CVE-2026-59869",
-            "url": "https://github.com/argoproj/argo-cd/pull/28946",
-            "repo": "argoproj/argo-cd",
-            "number": 28946,
-            "author": "aali309",
-            "engaged_at": "2026-08-25T19:45:58Z"
-          },
-          {
-            "title": "docs: Proposal: Virtual Scrolling",
-            "url": "https://github.com/argoproj/argo-cd/pull/28900",
-            "repo": "argoproj/argo-cd",
-            "number": 28900,
-            "author": "aali309",
-            "engaged_at": "2026-08-24T12:58:19Z"
-          },
-          {
-            "title": "release-4.18: horizontally align top and bottom pagination widgets",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/276",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 276,
-            "author": "aali309",
-            "engaged_at": "2026-08-21T18:02:49Z"
-          },
-          {
-            "title": "horizontally align top and bottom pagination widgets",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/275",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 275,
-            "author": "aali309",
-            "engaged_at": "2026-08-21T18:02:32Z"
-          },
-          {
-            "title": "Add pagination to the other tables under details tabs to release branch 4.18",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/274",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 274,
-            "author": "aali309",
-            "engaged_at": "2026-08-21T15:56:23Z"
-          },
-          {
-            "title": "Add Pagination in release branch 4.18",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/272",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 272,
-            "author": "aali309",
-            "engaged_at": "2026-08-20T21:06:48Z"
-          },
-          {
-            "title": "Add pagination to the other tables under details tabs",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/273",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 273,
-            "author": "aali309",
-            "engaged_at": "2026-08-20T20:40:14Z"
-          },
-          {
-            "title": "feat: add pagination to list pages",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/266",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 266,
-            "author": "aali309",
-            "engaged_at": "2026-08-20T06:56:06Z"
-          },
-          {
-            "title": "GITOPS-10535: add unit tests for core string and URL utilities",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/268",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 268,
-            "author": "trdoyle81",
-            "engaged_at": "2026-08-20T01:49:20Z"
-          },
-          {
-            "title": "GITOPS-10535: add unit tests for core string and URL utilities",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/264",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 264,
-            "author": "trdoyle81",
-            "engaged_at": "2026-08-19T03:49:29Z"
-          },
-          {
-            "title": "chore(deps): bump DOMPurify to 3.4.7 for CVE-2026-49978",
-            "url": "https://github.com/argoproj/argo-cd/pull/28966",
-            "repo": "argoproj/argo-cd",
-            "number": 28966,
-            "author": "aali309",
-            "engaged_at": "2026-08-18T12:29:39Z"
-          },
-          {
-            "title": "Update dependency http-server to 0.13.x",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/182",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 182,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-08-07T13:51:09Z"
-          },
-          {
-            "title": "chore(deps): bump js-yaml from 3.14.1 to 5.2.0 in /ui (#28509)",
-            "url": "https://github.com/argoproj/argo-cd/pull/28947",
-            "repo": "argoproj/argo-cd",
-            "number": 28947,
-            "author": "aali309",
-            "engaged_at": "2026-07-31T16:16:59Z"
-          },
-          {
-            "title": "fix: prevent disallowed NamespaceManagement from breaking OpenShift  GitOps login",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2296",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2296,
-            "author": "aali309",
-            "engaged_at": "2026-07-30T15:04:16Z"
-          },
-          {
-            "title": "feat(gitops-console-plugin): Configure SSL protocol and ciphersuites for plugin component",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1224",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1224,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-29T21:26:06Z"
-          },
-          {
-            "title": "feat: prevent openshift-gitops namespace creation when DISABLE_DEFAULT_ARGOCD_INSTANCE=true",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1206",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1206,
-            "author": "Rizwana777",
-            "engaged_at": "2026-07-29T19:38:32Z"
-          },
-          {
-            "title": "chore(deps): bump js-yaml from 4.3.0 to 5.2.2 in /ui",
-            "url": "https://github.com/argoproj/argo-cd/pull/28918",
-            "repo": "argoproj/argo-cd",
-            "number": 28918,
-            "author": "dependabot",
-            "engaged_at": "2026-07-28T13:23:59Z"
-          },
-          {
-            "title": "feat(appset): Adding annotations on apps to force reconciliation before proceeding with progressive sync",
-            "url": "https://github.com/argoproj/argo-cd/pull/27467",
-            "repo": "argoproj/argo-cd",
-            "number": 27467,
-            "author": "ranakan19",
-            "engaged_at": "2026-07-28T11:58:17Z"
-          },
-          {
-            "title": "chore(UI deps): bump js-yaml to 4.3.0 to fix CVE-2026-59869",
-            "url": "https://github.com/argoproj/argo-cd/pull/28839",
-            "repo": "argoproj/argo-cd",
-            "number": 28839,
-            "author": "aali309",
-            "engaged_at": "2026-07-24T05:19:09Z"
-          },
-          {
-            "title": "chore: migrate to pnpm",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/229",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 229,
-            "author": "dkarpele",
-            "engaged_at": "2026-07-22T15:30:38Z"
-          },
-          {
-            "title": "chore: bump CI container",
-            "url": "https://github.com/redhat-developer/gitops-backend/pull/70",
-            "repo": "redhat-developer/gitops-backend",
-            "number": 70,
-            "author": "olivergondza",
-            "engaged_at": "2026-07-22T14:46:41Z"
-          },
-          {
-            "title": "chore(deps): update dependency lodash-es to v4.18.1",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/241",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 241,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-07-03T17:29:29Z"
-          },
-          {
-            "title": "fix: AppProjects's description based filter",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/250",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 250,
-            "author": "aali309",
-            "engaged_at": "2026-07-03T17:28:41Z"
-          },
-          {
-            "title": "fix: AppProject navigation broken from from Application details page",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/246",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 246,
-            "author": "aali309",
-            "engaged_at": "2026-07-03T16:41:20Z"
-          }
-        ]
-      },
-      {
         "login": "aali309",
         "reviews": 38,
         "prs": [
@@ -8960,6 +8688,316 @@
             "number": 254,
             "author": "keithchong",
             "engaged_at": "2026-07-07T18:06:12Z"
+          }
+        ]
+      },
+      {
+        "login": "keithchong",
+        "reviews": 38,
+        "prs": [
+          {
+            "title": "feat(ui): Implement virtual scrolling for Apps list/tiles view when `all` is selected",
+            "url": "https://github.com/argoproj/argo-cd/pull/29542",
+            "repo": "argoproj/argo-cd",
+            "number": 29542,
+            "author": "aali309",
+            "engaged_at": "2026-09-15T15:27:29Z"
+          },
+          {
+            "title": "fix: enable Delete ApplicationSet for namespace-scoped users (GITOPS-10780)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/263",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 263,
+            "author": "npawarr",
+            "engaged_at": "2026-09-11T13:51:05Z"
+          },
+          {
+            "title": "GITOPS-11176: return null from rollout decorator so Topology URL links render",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/299",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 299,
+            "author": "dipakkarde",
+            "engaged_at": "2026-09-03T12:24:39Z"
+          },
+          {
+            "title": "cherry-pick Add unit tests for health \u0026 application set status to release-4.18 branch",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/298",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 298,
+            "author": "aali309",
+            "engaged_at": "2026-09-02T17:50:09Z"
+          },
+          {
+            "title": "Add unit tests for health \u0026 application set status",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/290",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 290,
+            "author": "trdoyle81",
+            "engaged_at": "2026-09-02T16:57:35Z"
+          },
+          {
+            "title": "Cherry-pick Comprehensive docs for gitops-console-plugin to release4.18",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/297",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 297,
+            "author": "aali309",
+            "engaged_at": "2026-09-02T16:39:18Z"
+          },
+          {
+            "title": "Comprehensive docs for gitops-console-plugin",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/271",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 271,
+            "author": "aali309",
+            "engaged_at": "2026-09-02T15:23:15Z"
+          },
+          {
+            "title": "fix: cherry-pick Label sorting inconsistency when object key order differs to release-4.18",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/295",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 295,
+            "author": "aali309",
+            "engaged_at": "2026-09-02T15:10:15Z"
+          },
+          {
+            "title": "fix: cherry-pick history tab throws runtime error for multi-source Applications to release-4.18",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/291",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 291,
+            "author": "aali309",
+            "engaged_at": "2026-09-02T14:11:49Z"
+          },
+          {
+            "title": "fix: history tab throws runtime error for multi-source Applications",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/282",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 282,
+            "author": "aali309",
+            "engaged_at": "2026-09-01T21:31:32Z"
+          },
+          {
+            "title": "fix: Label sorting inconsistency when object key order differs",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/281",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 281,
+            "author": "aali309",
+            "engaged_at": "2026-09-01T21:02:24Z"
+          },
+          {
+            "title": "fix: cherry-pick getAppSetStatus incorrectly treats ApplicationSetUpToDate=True ass Error to release-4.18 branch",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/285",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 285,
+            "author": "aali309",
+            "engaged_at": "2026-09-01T15:15:15Z"
+          },
+          {
+            "title": "fix: getAppSetStatus incorrectly treats ApplicationSetUpToDate=True as Error",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/284",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 284,
+            "author": "aali309",
+            "engaged_at": "2026-09-01T14:50:21Z"
+          },
+          {
+            "title": "fix(ui): bound how much of a large resource tree is drawn (#10253)",
+            "url": "https://github.com/argoproj/argo-cd/pull/29125",
+            "repo": "argoproj/argo-cd",
+            "number": 29125,
+            "author": "himeshp",
+            "engaged_at": "2026-08-27T15:47:04Z"
+          },
+          {
+            "title": "chore(deps): bump js-yaml to 4.3.1 in /ui for CVE-2026-59869 (release-3.3)",
+            "url": "https://github.com/argoproj/argo-cd/pull/29386",
+            "repo": "argoproj/argo-cd",
+            "number": 29386,
+            "author": "aali309",
+            "engaged_at": "2026-08-25T20:34:43Z"
+          },
+          {
+            "title": "chore(deps): bump js-yaml to fix CVE-2026-59869",
+            "url": "https://github.com/argoproj/argo-cd/pull/28946",
+            "repo": "argoproj/argo-cd",
+            "number": 28946,
+            "author": "aali309",
+            "engaged_at": "2026-08-25T19:45:58Z"
+          },
+          {
+            "title": "docs: Proposal: Virtual Scrolling",
+            "url": "https://github.com/argoproj/argo-cd/pull/28900",
+            "repo": "argoproj/argo-cd",
+            "number": 28900,
+            "author": "aali309",
+            "engaged_at": "2026-08-24T12:58:19Z"
+          },
+          {
+            "title": "release-4.18: horizontally align top and bottom pagination widgets",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/276",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 276,
+            "author": "aali309",
+            "engaged_at": "2026-08-21T18:02:49Z"
+          },
+          {
+            "title": "horizontally align top and bottom pagination widgets",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/275",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 275,
+            "author": "aali309",
+            "engaged_at": "2026-08-21T18:02:32Z"
+          },
+          {
+            "title": "Add pagination to the other tables under details tabs to release branch 4.18",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/274",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 274,
+            "author": "aali309",
+            "engaged_at": "2026-08-21T15:56:23Z"
+          },
+          {
+            "title": "Add Pagination in release branch 4.18",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/272",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 272,
+            "author": "aali309",
+            "engaged_at": "2026-08-20T21:06:48Z"
+          },
+          {
+            "title": "Add pagination to the other tables under details tabs",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/273",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 273,
+            "author": "aali309",
+            "engaged_at": "2026-08-20T20:40:14Z"
+          },
+          {
+            "title": "feat: add pagination to list pages",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/266",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 266,
+            "author": "aali309",
+            "engaged_at": "2026-08-20T06:56:06Z"
+          },
+          {
+            "title": "GITOPS-10535: add unit tests for core string and URL utilities",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/268",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 268,
+            "author": "trdoyle81",
+            "engaged_at": "2026-08-20T01:49:20Z"
+          },
+          {
+            "title": "GITOPS-10535: add unit tests for core string and URL utilities",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/264",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 264,
+            "author": "trdoyle81",
+            "engaged_at": "2026-08-19T03:49:29Z"
+          },
+          {
+            "title": "chore(deps): bump DOMPurify to 3.4.7 for CVE-2026-49978",
+            "url": "https://github.com/argoproj/argo-cd/pull/28966",
+            "repo": "argoproj/argo-cd",
+            "number": 28966,
+            "author": "aali309",
+            "engaged_at": "2026-08-18T12:29:39Z"
+          },
+          {
+            "title": "Update dependency http-server to 0.13.x",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/182",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 182,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-08-07T13:51:09Z"
+          },
+          {
+            "title": "chore(deps): bump js-yaml from 3.14.1 to 5.2.0 in /ui (#28509)",
+            "url": "https://github.com/argoproj/argo-cd/pull/28947",
+            "repo": "argoproj/argo-cd",
+            "number": 28947,
+            "author": "aali309",
+            "engaged_at": "2026-07-31T16:16:59Z"
+          },
+          {
+            "title": "fix: prevent disallowed NamespaceManagement from breaking OpenShift  GitOps login",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2296",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2296,
+            "author": "aali309",
+            "engaged_at": "2026-07-30T15:04:16Z"
+          },
+          {
+            "title": "feat(gitops-console-plugin): Configure SSL protocol and ciphersuites for plugin component",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1224",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1224,
+            "author": "akhilnittala",
+            "engaged_at": "2026-07-29T21:26:06Z"
+          },
+          {
+            "title": "feat: prevent openshift-gitops namespace creation when DISABLE_DEFAULT_ARGOCD_INSTANCE=true",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1206",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1206,
+            "author": "Rizwana777",
+            "engaged_at": "2026-07-29T19:38:32Z"
+          },
+          {
+            "title": "chore(deps): bump js-yaml from 4.3.0 to 5.2.2 in /ui",
+            "url": "https://github.com/argoproj/argo-cd/pull/28918",
+            "repo": "argoproj/argo-cd",
+            "number": 28918,
+            "author": "dependabot",
+            "engaged_at": "2026-07-28T13:23:59Z"
+          },
+          {
+            "title": "feat(appset): Adding annotations on apps to force reconciliation before proceeding with progressive sync",
+            "url": "https://github.com/argoproj/argo-cd/pull/27467",
+            "repo": "argoproj/argo-cd",
+            "number": 27467,
+            "author": "ranakan19",
+            "engaged_at": "2026-07-28T11:58:17Z"
+          },
+          {
+            "title": "chore(UI deps): bump js-yaml to 4.3.0 to fix CVE-2026-59869",
+            "url": "https://github.com/argoproj/argo-cd/pull/28839",
+            "repo": "argoproj/argo-cd",
+            "number": 28839,
+            "author": "aali309",
+            "engaged_at": "2026-07-24T05:19:09Z"
+          },
+          {
+            "title": "chore: migrate to pnpm",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/229",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 229,
+            "author": "dkarpele",
+            "engaged_at": "2026-07-22T15:30:38Z"
+          },
+          {
+            "title": "chore: bump CI container",
+            "url": "https://github.com/redhat-developer/gitops-backend/pull/70",
+            "repo": "redhat-developer/gitops-backend",
+            "number": 70,
+            "author": "olivergondza",
+            "engaged_at": "2026-07-22T14:46:41Z"
+          },
+          {
+            "title": "chore(deps): update dependency lodash-es to v4.18.1",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/241",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 241,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-07-03T17:29:29Z"
+          },
+          {
+            "title": "fix: AppProjects's description based filter",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/250",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 250,
+            "author": "aali309",
+            "engaged_at": "2026-07-03T17:28:41Z"
           }
         ]
       },
