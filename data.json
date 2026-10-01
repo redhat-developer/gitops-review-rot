@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T09:09:38.43378234Z",
+  "generated_at": "2026-10-01T10:08:51.867287852Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2051,13 +2051,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-09-30T21:13:57Z",
-      "updated_at": "2026-10-01T06:43:33Z",
+      "updated_at": "2026-10-01T10:00:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -2089,6 +2089,31 @@
       "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
+      ]
+    },
+    {
+      "title": "Docs: Update migration guide",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1329",
+      "number": 1329,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "anandrkskd",
+        "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
+      },
+      "created_at": "2026-10-01T09:47:01Z",
+      "updated_at": "2026-10-01T09:51:07Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/documentation"
       ]
     },
     {
@@ -5638,12 +5663,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-03T09:07:26Z",
+    "since": "2026-07-03T10:06:40Z",
     "reviewers": [
       {
         "login": "olivergondza",
-        "reviews": 94,
+        "reviews": 95,
         "prs": [
+          {
+            "title": "fix: GITOPS-10904 warn when the resource tracking method changes on upgrade",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1327",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1327,
+            "author": "chengfang",
+            "engaged_at": "2026-10-01T10:00:27Z"
+          },
           {
             "title": "feat(ui): add source integrity to project settings",
             "url": "https://github.com/argoproj/argo-cd/pull/29411",
