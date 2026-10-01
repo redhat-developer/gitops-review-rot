@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T03:12:18.286979198Z",
+  "generated_at": "2026-10-01T04:08:45.884631564Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -706,7 +706,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:30:16Z",
-      "updated_at": "2026-09-28T01:23:12Z",
+      "updated_at": "2026-10-01T03:46:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3704,7 +3704,7 @@
       "updated_at": "2026-10-01T03:08:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5613,7 +5613,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-03T03:10:21Z",
+    "since": "2026-07-03T04:06:56Z",
     "reviewers": [
       {
         "login": "olivergondza",
@@ -7125,7 +7125,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 79,
+        "reviews": 76,
         "prs": [
           {
             "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart (#2377) (#2386)",
@@ -7734,30 +7734,6 @@
             "number": 2264,
             "author": "akhilnittala",
             "engaged_at": "2026-07-03T06:23:28Z"
-          },
-          {
-            "title": "chore(deps): bump ImageUpdater from 1.2.1 to 1.2.2; bump argocd from 3.4.2 to 3.4.4 (#2255)",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2259",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2259,
-            "author": "chengfang",
-            "engaged_at": "2026-07-03T04:04:15Z"
-          },
-          {
-            "title": "fix(hack): improve update-dependencies scripts to always inspect images on linux/amd64 platform; optimize git clone",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2258",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2258,
-            "author": "chengfang",
-            "engaged_at": "2026-07-03T04:02:56Z"
-          },
-          {
-            "title": "chore(deps): bump actions/cache from 5 to 6",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2261",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2261,
-            "author": "dependabot",
-            "engaged_at": "2026-07-03T04:00:41Z"
           }
         ]
       },
