@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T01:35:12.3436122Z",
+  "generated_at": "2026-10-01T02:20:34.249458008Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2051,7 +2051,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-09-30T21:13:57Z",
-      "updated_at": "2026-10-01T01:13:48Z",
+      "updated_at": "2026-10-01T01:41:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3772,10 +3772,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
       },
       "created_at": "2026-10-01T00:21:41Z",
-      "updated_at": "2026-10-01T01:27:39Z",
+      "updated_at": "2026-10-01T01:42:28Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5613,7 +5613,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-03T01:33:23Z",
+    "since": "2026-07-03T02:18:37Z",
     "reviewers": [
       {
         "login": "olivergondza",
@@ -7125,7 +7125,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 82,
+        "reviews": 79,
         "prs": [
           {
             "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart (#2377) (#2386)",
@@ -7758,30 +7758,6 @@
             "number": 2261,
             "author": "dependabot",
             "engaged_at": "2026-07-03T04:00:41Z"
-          },
-          {
-            "title": "fix: wait for rolebinding in 1-084 to avoid intermittent fail",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1201",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1201,
-            "author": "jgwest",
-            "engaged_at": "2026-07-03T02:08:31Z"
-          },
-          {
-            "title": "chore(deps): bump golang.org/x/net from 0.53.0 to 0.55.0",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1202",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1202,
-            "author": "dependabot",
-            "engaged_at": "2026-07-03T02:07:34Z"
-          },
-          {
-            "title": "chore(OWNERS): Add olivergondza",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1203",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1203,
-            "author": "olivergondza",
-            "engaged_at": "2026-07-03T02:07:04Z"
           }
         ]
       },
