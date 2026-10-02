@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T11:07:40.975673888Z",
+  "generated_at": "2026-10-02T12:09:19.261506496Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1462,7 +1462,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement"
       ]
@@ -5100,6 +5100,29 @@
       "labels": []
     },
     {
+      "title": "chore: update go.mod dependecies to latest",
+      "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/147",
+      "number": 147,
+      "repo": "argoproj-labs/argo-rollouts-manager",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-10-02T11:31:01Z",
+      "updated_at": "2026-10-02T11:41:21Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "docs: Proposal for multi-tenant repository servers",
       "url": "https://github.com/argoproj/argo-cd/pull/12123",
       "number": 12123,
@@ -5790,15 +5813,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/81048645?v=4"
       },
       "created_at": "2026-08-27T12:38:45Z",
-      "updated_at": "2026-10-01T16:53:25Z",
+      "updated_at": "2026-10-02T11:28:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
+        "approved_count": 1,
+        "has_new_commits": false
       },
       "unresolved_conversations": 2,
       "labels": []
@@ -5959,12 +5982,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-04T11:05:34Z",
+    "since": "2026-07-04T12:07:26Z",
     "reviewers": [
       {
         "login": "olivergondza",
         "reviews": 99,
         "prs": [
+          {
+            "title": "feat(ui): add source integrity to project settings",
+            "url": "https://github.com/argoproj/argo-cd/pull/29411",
+            "repo": "argoproj/argo-cd",
+            "number": 29411,
+            "author": "kuci-JK",
+            "engaged_at": "2026-10-02T11:28:04Z"
+          },
           {
             "title": "fix some test flakes 1-009  1-012 1-030 \u0026 1-067",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1284",
@@ -5996,14 +6027,6 @@
             "number": 1293,
             "author": "dependabot",
             "engaged_at": "2026-10-02T05:12:56Z"
-          },
-          {
-            "title": "feat(ui): add source integrity to project settings",
-            "url": "https://github.com/argoproj/argo-cd/pull/29411",
-            "repo": "argoproj/argo-cd",
-            "number": 29411,
-            "author": "kuci-JK",
-            "engaged_at": "2026-10-01T16:03:40Z"
           },
           {
             "title": "fix: throw an error if openshiftOAuth is used in xKS env",
