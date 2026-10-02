@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T07:14:12.541351472Z",
+  "generated_at": "2026-10-02T08:08:24.961003222Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -3826,15 +3826,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
       },
       "created_at": "2026-10-01T00:21:41Z",
-      "updated_at": "2026-10-01T23:43:03Z",
+      "updated_at": "2026-10-02T08:02:10Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 2,
       "labels": [
@@ -5887,17 +5887,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-09-30T16:27:32Z",
-      "updated_at": "2026-09-30T17:40:21Z",
+      "updated_at": "2026-10-02T07:27:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "🟠 Medium blast radius",
         "🕐 20-40 Minutes"
@@ -5955,7 +5955,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-04T07:12:21Z",
+    "since": "2026-07-04T08:06:25Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9467,8 +9467,16 @@
       },
       {
         "login": "keithchong",
-        "reviews": 36,
+        "reviews": 37,
         "prs": [
+          {
+            "title": "fix(ui): reduce Applications virtual-scroll flicker on scroll",
+            "url": "https://github.com/argoproj/argo-cd/pull/29935",
+            "repo": "argoproj/argo-cd",
+            "number": 29935,
+            "author": "aali309",
+            "engaged_at": "2026-10-02T07:27:00Z"
+          },
           {
             "title": "feat(ui): Implement virtual scrolling for Apps list/tiles view when `all` is selected",
             "url": "https://github.com/argoproj/argo-cd/pull/29542",
