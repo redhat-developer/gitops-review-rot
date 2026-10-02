@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:08:22.13103502Z",
+  "generated_at": "2026-10-02T15:08:02.971932222Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2182,10 +2182,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-01T16:00:01Z",
-      "updated_at": "2026-10-02T12:37:27Z",
+      "updated_at": "2026-10-02T15:01:26Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2228,10 +2228,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-02T12:52:38Z",
-      "updated_at": "2026-10-02T12:55:57Z",
+      "updated_at": "2026-10-02T14:52:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3846,31 +3846,6 @@
       "labels": []
     },
     {
-      "title": "fix(git-writeback): release PR target reservation when nothing was pushed",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1825",
-      "number": 1825,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "pujitha24",
-        "avatar_url": "https://avatars.githubusercontent.com/u/10557236?u=9abde84595a4d3487fe5d23bc17eeb36bdbb0b6b\u0026v=4"
-      },
-      "created_at": "2026-09-26T01:27:04Z",
-      "updated_at": "2026-10-02T00:16:18Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "ok-to-test"
-      ]
-    },
-    {
       "title": "fix(pr): use the Argo CD TLS certificate store for SCM API calls",
       "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1832",
       "number": 1832,
@@ -3880,10 +3855,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
       },
       "created_at": "2026-10-01T00:21:41Z",
-      "updated_at": "2026-10-02T08:08:35Z",
+      "updated_at": "2026-10-02T14:48:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -5941,10 +5916,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-09-30T16:27:32Z",
-      "updated_at": "2026-10-02T14:01:53Z",
+      "updated_at": "2026-10-02T15:00:10Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -6009,7 +5984,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-04T14:06:12Z",
+    "since": "2026-07-04T15:05:49Z",
     "reviewers": [
       {
         "login": "olivergondza",
@@ -6819,7 +6794,7 @@
             "repo": "argoproj-labs/argocd-image-updater",
             "number": 1825,
             "author": "pujitha24",
-            "engaged_at": "2026-10-02T00:11:19Z"
+            "engaged_at": "2026-10-02T14:36:09Z"
           },
           {
             "title": "fix(pr): use the Argo CD TLS certificate store for SCM API calls",
