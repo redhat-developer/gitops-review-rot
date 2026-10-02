@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T15:08:02.971932222Z",
+  "generated_at": "2026-10-02T16:07:47.897102705Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1722,35 +1722,6 @@
       "labels": []
     },
     {
-      "title": "chore(deps): bump google.golang.org/grpc from 1.83.0 to 1.83.2 in /argocd-operator",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1293",
-      "number": 1293,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-09-15T07:07:55Z",
-      "updated_at": "2026-10-02T10:48:54Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "lgtm",
-        "approved",
-        "ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "chore: migrate deprecated patchesJson6902 to patches in kustomization",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1304",
       "number": 1304,
@@ -2182,10 +2153,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-01T16:00:01Z",
-      "updated_at": "2026-10-02T15:01:26Z",
+      "updated_at": "2026-10-02T15:53:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2228,10 +2199,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-02T12:52:38Z",
-      "updated_at": "2026-10-02T14:52:03Z",
+      "updated_at": "2026-10-02T15:53:58Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2833,17 +2804,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-09-29T09:01:37Z",
-      "updated_at": "2026-09-29T09:59:42Z",
+      "updated_at": "2026-10-02T15:41:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 4,
       "labels": []
     },
     {
@@ -3858,7 +3829,7 @@
       "updated_at": "2026-10-02T14:48:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
@@ -5907,32 +5878,6 @@
       ]
     },
     {
-      "title": "fix(ui): reduce Applications virtual-scroll flicker on scroll",
-      "url": "https://github.com/argoproj/argo-cd/pull/29935",
-      "number": 29935,
-      "repo": "argoproj/argo-cd",
-      "author": {
-        "login": "aali309",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
-      },
-      "created_at": "2026-09-30T16:27:32Z",
-      "updated_at": "2026-10-02T15:00:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 3,
-      "labels": [
-        "🟠 Medium blast radius",
-        "🕐 20-40 Minutes"
-      ]
-    },
-    {
       "title": "feat(ui): implement virtual scrolling for ApplicationSets list and tiles",
       "url": "https://github.com/argoproj/argo-cd/pull/29941",
       "number": 29941,
@@ -5984,7 +5929,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-04T15:05:49Z",
+    "since": "2026-07-04T16:05:38Z",
     "reviewers": [
       {
         "login": "olivergondza",
@@ -8174,8 +8119,16 @@
       },
       {
         "login": "jannfis",
-        "reviews": 73,
+        "reviews": 74,
         "prs": [
+          {
+            "title": "docs: refactor agent mode behaviours to child topics",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1126",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1126,
+            "author": "jgwest",
+            "engaged_at": "2026-10-02T15:41:55Z"
+          },
           {
             "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart (#2377) (#2386)",
             "url": "https://github.com/argoproj-labs/argocd-operator/pull/2398",
@@ -9520,7 +9473,7 @@
             "repo": "argoproj/argo-cd",
             "number": 29935,
             "author": "aali309",
-            "engaged_at": "2026-10-02T07:27:00Z"
+            "engaged_at": "2026-10-02T15:50:05Z"
           },
           {
             "title": "feat(ui): Implement virtual scrolling for Apps list/tiles view when `all` is selected",
