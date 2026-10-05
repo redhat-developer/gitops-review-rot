@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T02:19:20.586634724Z",
+  "generated_at": "2026-10-05T03:13:38.644707255Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1656,10 +1656,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-08T12:07:01Z",
-      "updated_at": "2026-10-05T00:29:48Z",
+      "updated_at": "2026-10-05T02:34:17Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1926,10 +1926,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-28T16:06:33Z",
-      "updated_at": "2026-10-05T00:30:42Z",
+      "updated_at": "2026-10-05T03:02:04Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 3,
@@ -4139,10 +4139,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
       },
       "created_at": "2026-10-02T23:29:49Z",
-      "updated_at": "2026-10-03T01:27:07Z",
+      "updated_at": "2026-10-05T02:30:28Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4150,7 +4150,9 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 0,
-      "labels": []
+      "labels": [
+        "ok-to-test"
+      ]
     },
     {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
@@ -6000,7 +6002,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-07T02:17:42Z",
+    "since": "2026-07-07T03:12:00Z",
     "reviewers": [
       {
         "login": "chengfang",
