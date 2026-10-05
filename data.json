@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T04:13:31.772291396Z",
+  "generated_at": "2026-10-05T05:24:13.287394037Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -6002,7 +6002,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-07T04:11:35Z",
+    "since": "2026-07-07T05:22:27Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8216,7 +8216,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 72,
+        "reviews": 71,
         "prs": [
           {
             "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart (#2377) (#2386)",
@@ -8785,14 +8785,6 @@
             "number": 1194,
             "author": "anandrkskd",
             "engaged_at": "2026-07-08T06:04:46Z"
-          },
-          {
-            "title": "Remove cyclic dependency for TLS Profile",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2270",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2270,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-07T05:06:29Z"
           }
         ]
       },
