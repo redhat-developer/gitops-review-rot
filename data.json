@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T08:17:16.827824927Z",
+  "generated_at": "2026-10-05T09:14:21.518377408Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2053,10 +2053,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-01T10:23:43Z",
-      "updated_at": "2026-10-05T06:56:12Z",
+      "updated_at": "2026-10-05T08:43:51Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5977,7 +5977,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-07T08:15:03Z",
+    "since": "2026-07-07T09:12:13Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10955,7 +10955,7 @@
       },
       {
         "login": "jparsai",
-        "reviews": 13,
+        "reviews": 12,
         "prs": [
           {
             "title": "feat: toggle debug settings during runtime",
@@ -11052,14 +11052,6 @@
             "number": 1037,
             "author": "enbiyagoral",
             "engaged_at": "2026-07-21T07:41:57Z"
-          },
-          {
-            "title": "feat: Allow buffering of Application events at informer to reduce event volume",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/937",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 937,
-            "author": "jgwest",
-            "engaged_at": "2026-07-07T08:43:10Z"
           }
         ]
       },
