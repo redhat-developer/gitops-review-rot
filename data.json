@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T11:07:58.370451803Z",
+  "generated_at": "2026-10-05T12:11:29.491719556Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1452,10 +1452,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-07-08T12:30:58Z",
-      "updated_at": "2026-10-01T14:07:17Z",
+      "updated_at": "2026-10-05T11:59:20Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 4,
@@ -1477,7 +1477,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-07-09T07:23:23Z",
-      "updated_at": "2026-09-29T13:53:55Z",
+      "updated_at": "2026-10-05T11:45:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1490,7 +1490,8 @@
       "unresolved_conversations": 4,
       "labels": [
         "do-not-merge/work-in-progress",
-        "approved"
+        "approved",
+        "needs-rebase"
       ]
     },
     {
@@ -1503,10 +1504,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/135013591?u=c83cf908ed9d4f5ad59cfb13dfdfdf05c9a3f54e\u0026v=4"
       },
       "created_at": "2026-07-13T09:43:43Z",
-      "updated_at": "2026-09-18T08:06:54Z",
+      "updated_at": "2026-10-05T11:45:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 4,
@@ -1516,6 +1517,7 @@
       "unresolved_conversations": 14,
       "labels": [
         "kind/bug",
+        "needs-rebase",
         "ok-to-test"
       ]
     },
@@ -1658,10 +1660,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-09-10T12:01:47Z",
-      "updated_at": "2026-09-21T09:47:56Z",
+      "updated_at": "2026-10-05T11:45:01Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1670,6 +1672,7 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "needs-rebase",
         "kind/cleanup"
       ]
     },
@@ -1754,7 +1757,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-10-02T10:19:45Z",
+      "updated_at": "2026-10-05T11:23:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2053,10 +2056,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-01T10:23:43Z",
-      "updated_at": "2026-10-05T09:55:16Z",
+      "updated_at": "2026-10-05T11:53:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2251,10 +2254,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-05T10:25:47Z",
-      "updated_at": "2026-10-05T10:27:25Z",
+      "updated_at": "2026-10-05T12:05:05Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2852,15 +2855,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-10-01T13:16:01Z",
-      "updated_at": "2026-10-01T13:28:28Z",
+      "updated_at": "2026-10-05T12:02:42Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -6000,7 +6003,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-07T11:05:52Z",
+    "since": "2026-07-07T12:09:06Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6826,7 +6829,7 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 98,
+        "reviews": 97,
         "prs": [
           {
             "title": "Docs: Update migration guide",
@@ -7603,14 +7606,6 @@
             "number": 28634,
             "author": "allexistence",
             "engaged_at": "2026-07-08T19:38:19Z"
-          },
-          {
-            "title": "fix(hack): enhance hack/propagate.sh with git optimization, support custom argocd-operator branch",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1196",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1196,
-            "author": "chengfang",
-            "engaged_at": "2026-07-07T12:03:09Z"
           }
         ]
       },
