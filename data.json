@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T14:10:14.892210446Z",
+  "generated_at": "2026-10-05T15:08:10.852795766Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1955,19 +1955,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-09-30T11:49:35Z",
-      "updated_at": "2026-10-02T19:52:08Z",
+      "updated_at": "2026-10-05T14:25:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -2030,10 +2032,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-01T10:23:43Z",
-      "updated_at": "2026-10-05T13:53:48Z",
+      "updated_at": "2026-10-05T14:51:44Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2205,10 +2207,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-04T16:42:38Z",
-      "updated_at": "2026-10-05T08:09:08Z",
+      "updated_at": "2026-10-05T15:03:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2253,10 +2255,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-05T13:24:16Z",
-      "updated_at": "2026-10-05T13:26:13Z",
+      "updated_at": "2026-10-05T14:54:45Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2810,10 +2812,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
       },
       "created_at": "2026-09-23T21:46:06Z",
-      "updated_at": "2026-10-03T00:30:12Z",
+      "updated_at": "2026-10-05T14:55:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -4141,15 +4143,40 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
       },
       "created_at": "2026-10-02T23:29:49Z",
-      "updated_at": "2026-10-05T02:30:28Z",
+      "updated_at": "2026-10-05T14:56:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
+        "count": 2,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "ok-to-test"
+      ]
+    },
+    {
+      "title": "test(e2e): wait for image updater RBAC before creating ImageUpdater CRs",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1849",
+      "number": 1849,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-10-05T14:55:26Z",
+      "updated_at": "2026-10-05T15:02:37Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -5173,12 +5200,28 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-07T14:07:38Z",
+    "since": "2026-07-07T15:05:44Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 102,
+        "reviews": 104,
         "prs": [
+          {
+            "title": "fix(registry): retry requests the registry throttles with 429",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1847",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1847,
+            "author": "rishabhvenu",
+            "engaged_at": "2026-10-05T14:36:55Z"
+          },
+          {
+            "title": "chore: Add security reporting guidelines",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1326",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1326,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-05T14:25:50Z"
+          },
           {
             "title": "fix(pr): use the Argo CD TLS certificate store for SCM API calls",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1832",
