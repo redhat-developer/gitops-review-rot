@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T22:08:17.559939021Z",
+  "generated_at": "2026-10-05T23:07:39.027165222Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -5927,29 +5927,6 @@
       "labels": []
     },
     {
-      "title": "chore(dep): bump go-git dependency",
-      "url": "https://github.com/argoproj/argo-cd/pull/30013",
-      "number": 30013,
-      "repo": "argoproj/argo-cd",
-      "author": {
-        "login": "ranakan19",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
-      },
-      "created_at": "2026-10-05T13:03:01Z",
-      "updated_at": "2026-10-05T21:57:04Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "chore(deps): bump dompurify",
       "url": "https://github.com/argoproj/argo-cd/pull/30014",
       "number": 30014,
@@ -5959,10 +5936,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-05T13:39:00Z",
-      "updated_at": "2026-10-05T21:28:54Z",
+      "updated_at": "2026-10-05T23:03:58Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5982,10 +5959,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
       },
       "created_at": "2026-10-05T22:05:39Z",
-      "updated_at": "2026-10-05T22:05:48Z",
+      "updated_at": "2026-10-05T22:06:22Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5993,7 +5970,9 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": []
+      "labels": [
+        "version:3.4"
+      ]
     },
     {
       "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
@@ -6021,7 +6000,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-07T22:06:14Z",
+    "since": "2026-07-07T23:05:38Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8227,7 +8206,7 @@
       },
       {
         "login": "jannfis",
-        "reviews": 70,
+        "reviews": 69,
         "prs": [
           {
             "title": "fix: avoid orphaned resources when deletions race",
@@ -8780,14 +8759,6 @@
             "number": 1029,
             "author": "dependabot",
             "engaged_at": "2026-07-09T15:00:44Z"
-          },
-          {
-            "title": "feat(helm/agent): add deploymentAnnotations value for Deployment metadata annotations",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1025",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1025,
-            "author": "runderwoodcr14",
-            "engaged_at": "2026-07-07T22:54:10Z"
           }
         ]
       },
