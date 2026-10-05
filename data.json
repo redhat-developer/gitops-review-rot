@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T01:31:53.396495221Z",
+  "generated_at": "2026-10-05T02:19:20.586634724Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -476,7 +476,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-19T02:32:22Z",
-      "updated_at": "2026-10-02T01:47:28Z",
+      "updated_at": "2026-10-05T01:43:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3844,31 +3844,6 @@
       "labels": []
     },
     {
-      "title": "fix(pr): use the Argo CD TLS certificate store for SCM API calls",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1832",
-      "number": 1832,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "rishabhvenu",
-        "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
-      },
-      "created_at": "2026-10-01T00:21:41Z",
-      "updated_at": "2026-10-02T23:23:46Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
-      ]
-    },
-    {
       "title": "chore(deps): bump github.com/onsi/gomega from 1.42.1 to 1.44.0",
       "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1833",
       "number": 1833,
@@ -6025,12 +6000,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-07T01:29:56Z",
+    "since": "2026-07-07T02:17:42Z",
     "reviewers": [
       {
         "login": "chengfang",
         "reviews": 102,
         "prs": [
+          {
+            "title": "fix(pr): use the Argo CD TLS certificate store for SCM API calls",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1832",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1832,
+            "author": "rishabhvenu",
+            "engaged_at": "2026-10-05T02:14:10Z"
+          },
           {
             "title": "fix: Skip GH actions e2e tests on non-code changes",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1330",
@@ -6078,14 +6061,6 @@
             "number": 1337,
             "author": "akhilnittala",
             "engaged_at": "2026-10-05T00:05:46Z"
-          },
-          {
-            "title": "fix(pr): use the Argo CD TLS certificate store for SCM API calls",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1832",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1832,
-            "author": "rishabhvenu",
-            "engaged_at": "2026-10-02T16:07:56Z"
           },
           {
             "title": "fix(git-writeback): release PR target reservation when nothing was pushed",
