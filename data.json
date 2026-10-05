@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T17:08:23.444363343Z",
+  "generated_at": "2026-10-05T18:09:48.947375212Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1740,13 +1740,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-28T16:06:33Z",
-      "updated_at": "2026-10-05T03:02:04Z",
+      "updated_at": "2026-10-05T18:03:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 3,
+        "count": 4,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -1867,14 +1867,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-01T10:23:43Z",
-      "updated_at": "2026-10-05T16:27:10Z",
+      "updated_at": "2026-10-05T17:59:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 2,
-        "approved_count": 0,
+        "count": 3,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -1944,14 +1944,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-01T16:00:01Z",
-      "updated_at": "2026-10-03T12:00:17Z",
+      "updated_at": "2026-10-05T17:54:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -1990,14 +1990,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-02T12:52:38Z",
-      "updated_at": "2026-10-05T12:59:27Z",
+      "updated_at": "2026-10-05T17:57:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
+        "count": 2,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -2042,19 +2042,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-04T16:42:38Z",
-      "updated_at": "2026-10-05T15:22:19Z",
+      "updated_at": "2026-10-05T17:51:25Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/bug"
+        "kind/bug",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -2650,10 +2652,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
       },
       "created_at": "2026-09-23T21:46:06Z",
-      "updated_at": "2026-10-05T15:11:40Z",
+      "updated_at": "2026-10-05T17:35:49Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2731,6 +2733,110 @@
       },
       "unresolved_conversations": 2,
       "labels": []
+    },
+    {
+      "title": "build(deps): Bump go.opentelemetry.io/otel from 1.46.0 to 1.47.0",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1131",
+      "number": 1131,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-05T17:13:30Z",
+      "updated_at": "2026-10-05T17:13:40Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "build(deps): Bump go.opentelemetry.io/otel/sdk from 1.46.0 to 1.47.0",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1132",
+      "number": 1132,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-05T17:13:31Z",
+      "updated_at": "2026-10-05T17:13:54Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "build(deps): Bump go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc from 0.71.0 to 0.72.0",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1133",
+      "number": 1133,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-05T17:14:01Z",
+      "updated_at": "2026-10-05T17:14:23Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "build(deps): Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc from 1.46.0 to 1.47.0",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1134",
+      "number": 1134,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-05T17:14:05Z",
+      "updated_at": "2026-10-05T17:14:34Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go"
+      ]
     },
     {
       "title": "Add OAuth support. It is need for access to Azure CR",
@@ -4976,15 +5082,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-04T16:46:34Z",
-      "updated_at": "2026-10-05T15:21:30Z",
+      "updated_at": "2026-10-05T17:51:38Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
+        "approved_count": 1,
+        "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": []
@@ -5915,12 +6021,28 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-07T17:06:17Z",
+    "since": "2026-07-07T18:07:35Z",
     "reviewers": [
       {
         "login": "chengfang",
         "reviews": 104,
         "prs": [
+          {
+            "title": "fix: Image Updater fails to start with TLS 1.3 cipher suites when cluster TLS profile uses TLS 1.2 minimum",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2405",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2405,
+            "author": "akhilnittala",
+            "engaged_at": "2026-10-05T17:51:38Z"
+          },
+          {
+            "title": "fix: Image Updater fails to start with TLS 1.3 cipher suites when cluster TLS profile uses TLS 1.2 minimum",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1337",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1337,
+            "author": "akhilnittala",
+            "engaged_at": "2026-10-05T17:47:27Z"
+          },
           {
             "title": "fix(registry): retry requests the registry throttles with 429",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1847",
@@ -5976,22 +6098,6 @@
             "number": 1284,
             "author": "trdoyle81",
             "engaged_at": "2026-10-05T00:29:48Z"
-          },
-          {
-            "title": "fix: Image Updater fails to start with TLS 1.3 cipher suites when cluster TLS profile uses TLS 1.2 minimum",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2405",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2405,
-            "author": "akhilnittala",
-            "engaged_at": "2026-10-05T00:13:00Z"
-          },
-          {
-            "title": "fix: Image Updater fails to start with TLS 1.3 cipher suites when cluster TLS profile uses TLS 1.2 minimum",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1337",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1337,
-            "author": "akhilnittala",
-            "engaged_at": "2026-10-05T00:05:46Z"
           },
           {
             "title": "fix(git-writeback): release PR target reservation when nothing was pushed",
@@ -9467,7 +9573,7 @@
       },
       {
         "login": "aali309",
-        "reviews": 38,
+        "reviews": 37,
         "prs": [
           {
             "title": "release-4.18: return null from rollout decorator so Topology URL links render (#11176)",
@@ -9764,14 +9870,6 @@
             "number": 255,
             "author": "keithchong",
             "engaged_at": "2026-07-07T21:01:08Z"
-          },
-          {
-            "title": "`View in Argo CD` action disabled (#10082)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/254",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 254,
-            "author": "keithchong",
-            "engaged_at": "2026-07-07T18:06:12Z"
           }
         ]
       },
@@ -10034,6 +10132,252 @@
             "number": 1726,
             "author": "chengfang",
             "engaged_at": "2026-07-14T11:57:30Z"
+          }
+        ]
+      },
+      {
+        "login": "ranakan19",
+        "reviews": 30,
+        "prs": [
+          {
+            "title": "Test updates for 1.22.0 release",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1323",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1323,
+            "author": "trdoyle81",
+            "engaged_at": "2026-10-05T18:03:05Z"
+          },
+          {
+            "title": "fix: Skip GH actions e2e tests on non-code changes",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1330",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1330,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-05T17:59:05Z"
+          },
+          {
+            "title": "test: update argocd-agent self-registration test",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1335",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1335,
+            "author": "jparsai",
+            "engaged_at": "2026-10-05T17:57:43Z"
+          },
+          {
+            "title": "test: update argocd-agent pricipal test",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1333",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1333,
+            "author": "jparsai",
+            "engaged_at": "2026-10-05T17:54:12Z"
+          },
+          {
+            "title": "feat: Update GH PR template",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1331",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1331,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-05T16:03:01Z"
+          },
+          {
+            "title": "fix(e2e): Do not print secret value from secret.Fixture.HaveNonEmptyKeyValue",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1338",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1338,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-05T15:58:51Z"
+          },
+          {
+            "title": "chore: Add security reporting guidelines",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1326",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1326,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-02T19:52:08Z"
+          },
+          {
+            "title": "Add OAuth support. It is need for access to Azure CR",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/224",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 224,
+            "author": "vikborisov",
+            "engaged_at": "2026-09-22T15:45:45Z"
+          },
+          {
+            "title": "Added E2E tests for role ownership validation",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1208",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1208,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-21T20:44:46Z"
+          },
+          {
+            "title": "fix(pkg): provide correct logs on gRPC-Web fallback failure",
+            "url": "https://github.com/argoproj/argo-cd/pull/29688",
+            "repo": "argoproj/argo-cd",
+            "number": 29688,
+            "author": "nodari-dev",
+            "engaged_at": "2026-09-15T13:05:49Z"
+          },
+          {
+            "title": "docs: Document how to access redacted CI logs",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1290",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1290,
+            "author": "olivergondza",
+            "engaged_at": "2026-09-15T13:00:59Z"
+          },
+          {
+            "title": "feat: create alert rules for constantly syncing GitOps applications",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1288",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1288,
+            "author": "aali309",
+            "engaged_at": "2026-09-15T03:25:03Z"
+          },
+          {
+            "title": "chore: remove reference to external repo",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1289",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1289,
+            "author": "jgwest",
+            "engaged_at": "2026-09-15T02:51:17Z"
+          },
+          {
+            "title": "docs: document hydrator git-only repository support",
+            "url": "https://github.com/argoproj/argo-cd/pull/29541",
+            "repo": "argoproj/argo-cd",
+            "number": 29541,
+            "author": "nandotorres",
+            "engaged_at": "2026-09-03T20:32:10Z"
+          },
+          {
+            "title": "fix(ui): guard SSO redirect to stop 401 retry loop",
+            "url": "https://github.com/argoproj/argo-cd/pull/28807",
+            "repo": "argoproj/argo-cd",
+            "number": 28807,
+            "author": "geojaz",
+            "engaged_at": "2026-09-03T15:21:13Z"
+          },
+          {
+            "title": "added E2E for role ownership validation",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1213",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1213,
+            "author": "alkakumari016",
+            "engaged_at": "2026-08-25T18:29:45Z"
+          },
+          {
+            "title": "fix(ui): show operation state on applications list page (#29063)",
+            "url": "https://github.com/argoproj/argo-cd/pull/29064",
+            "repo": "argoproj/argo-cd",
+            "number": 29064,
+            "author": "antonu17",
+            "engaged_at": "2026-08-11T19:01:04Z"
+          },
+          {
+            "title": "chore(ci): change blog post link for release",
+            "url": "https://github.com/argoproj/argo-cd/pull/25088",
+            "repo": "argoproj/argo-cd",
+            "number": 25088,
+            "author": "nitishfy",
+            "engaged_at": "2026-08-11T13:11:07Z"
+          },
+          {
+            "title": "fix(controller): cherry-pick treat `timeout.reconciliation=0` as disabled soft expiry (#27683)",
+            "url": "https://github.com/argoproj/argo-cd/pull/29007",
+            "repo": "argoproj/argo-cd",
+            "number": 29007,
+            "author": "aali309",
+            "engaged_at": "2026-08-07T21:34:41Z"
+          },
+          {
+            "title": "fix(controller): use diff cache when timeout.reconciliation is disabled",
+            "url": "https://github.com/argoproj/argo-cd/pull/29073",
+            "repo": "argoproj/argo-cd",
+            "number": 29073,
+            "author": "aali309",
+            "engaged_at": "2026-08-07T21:33:38Z"
+          },
+          {
+            "title": "chore(deps): bump DOMPurify to 3.4.7 for CVE-2026-49978",
+            "url": "https://github.com/argoproj/argo-cd/pull/28969",
+            "repo": "argoproj/argo-cd",
+            "number": 28969,
+            "author": "aali309",
+            "engaged_at": "2026-08-05T18:39:50Z"
+          },
+          {
+            "title": "chore(deps): bump js-yaml to fix CVE-2026-59869",
+            "url": "https://github.com/argoproj/argo-cd/pull/28946",
+            "repo": "argoproj/argo-cd",
+            "number": 28946,
+            "author": "aali309",
+            "engaged_at": "2026-08-05T18:15:20Z"
+          },
+          {
+            "title": "chore(deps): bump DOMPurify to 3.4.7 for CVE-2026-49978",
+            "url": "https://github.com/argoproj/argo-cd/pull/28966",
+            "repo": "argoproj/argo-cd",
+            "number": 28966,
+            "author": "aali309",
+            "engaged_at": "2026-08-05T18:07:05Z"
+          },
+          {
+            "title": "test(repository): assert Changes value explicitly in UpdateRevisionForPaths test",
+            "url": "https://github.com/argoproj/argo-cd/pull/28984",
+            "repo": "argoproj/argo-cd",
+            "number": 28984,
+            "author": "Churi12",
+            "engaged_at": "2026-07-30T17:01:11Z"
+          },
+          {
+            "title": "fix(repository): restore Normalize in UpdateRevisionForPaths to unbreak master",
+            "url": "https://github.com/argoproj/argo-cd/pull/28979",
+            "repo": "argoproj/argo-cd",
+            "number": 28979,
+            "author": "Churi12",
+            "engaged_at": "2026-07-30T15:04:46Z"
+          },
+          {
+            "title": "fix: keep cluster sync alive when a namespace is deleted or restricted",
+            "url": "https://github.com/argoproj/argo-cd/pull/27528",
+            "repo": "argoproj/argo-cd",
+            "number": 27528,
+            "author": "tricktron",
+            "engaged_at": "2026-07-22T22:21:22Z"
+          },
+          {
+            "title": "Added E2E for role ownership validation",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1210",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1210,
+            "author": "alkakumari016",
+            "engaged_at": "2026-07-16T13:00:41Z"
+          },
+          {
+            "title": "chore(deps): Update x/net to avoid CVE-2026-27136",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1219",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1219,
+            "author": "olivergondza",
+            "engaged_at": "2026-07-16T12:58:29Z"
+          },
+          {
+            "title": "chore(deps): Update x/net to avoid CVE-2026-27136",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1220",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1220,
+            "author": "olivergondza",
+            "engaged_at": "2026-07-16T12:57:58Z"
+          },
+          {
+            "title": "fix(controller): treat `timeout.reconciliation=0` as disabled soft expiry",
+            "url": "https://github.com/argoproj/argo-cd/pull/27683",
+            "repo": "argoproj/argo-cd",
+            "number": 27683,
+            "author": "aali309",
+            "engaged_at": "2026-07-09T18:27:08Z"
           }
         ]
       },
@@ -10478,220 +10822,6 @@
             "number": 1035,
             "author": "jgwest",
             "engaged_at": "2026-07-15T11:49:23Z"
-          }
-        ]
-      },
-      {
-        "login": "ranakan19",
-        "reviews": 26,
-        "prs": [
-          {
-            "title": "feat: Update GH PR template",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1331",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1331,
-            "author": "olivergondza",
-            "engaged_at": "2026-10-05T16:03:01Z"
-          },
-          {
-            "title": "fix(e2e): Do not print secret value from secret.Fixture.HaveNonEmptyKeyValue",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1338",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1338,
-            "author": "olivergondza",
-            "engaged_at": "2026-10-05T15:58:51Z"
-          },
-          {
-            "title": "chore: Add security reporting guidelines",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1326",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1326,
-            "author": "olivergondza",
-            "engaged_at": "2026-10-02T19:52:08Z"
-          },
-          {
-            "title": "Add OAuth support. It is need for access to Azure CR",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/224",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 224,
-            "author": "vikborisov",
-            "engaged_at": "2026-09-22T15:45:45Z"
-          },
-          {
-            "title": "Added E2E tests for role ownership validation",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1208",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1208,
-            "author": "alkakumari016",
-            "engaged_at": "2026-09-21T20:44:46Z"
-          },
-          {
-            "title": "fix(pkg): provide correct logs on gRPC-Web fallback failure",
-            "url": "https://github.com/argoproj/argo-cd/pull/29688",
-            "repo": "argoproj/argo-cd",
-            "number": 29688,
-            "author": "nodari-dev",
-            "engaged_at": "2026-09-15T13:05:49Z"
-          },
-          {
-            "title": "docs: Document how to access redacted CI logs",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1290",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1290,
-            "author": "olivergondza",
-            "engaged_at": "2026-09-15T13:00:59Z"
-          },
-          {
-            "title": "feat: create alert rules for constantly syncing GitOps applications",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1288",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1288,
-            "author": "aali309",
-            "engaged_at": "2026-09-15T03:25:03Z"
-          },
-          {
-            "title": "chore: remove reference to external repo",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1289",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1289,
-            "author": "jgwest",
-            "engaged_at": "2026-09-15T02:51:17Z"
-          },
-          {
-            "title": "docs: document hydrator git-only repository support",
-            "url": "https://github.com/argoproj/argo-cd/pull/29541",
-            "repo": "argoproj/argo-cd",
-            "number": 29541,
-            "author": "nandotorres",
-            "engaged_at": "2026-09-03T20:32:10Z"
-          },
-          {
-            "title": "fix(ui): guard SSO redirect to stop 401 retry loop",
-            "url": "https://github.com/argoproj/argo-cd/pull/28807",
-            "repo": "argoproj/argo-cd",
-            "number": 28807,
-            "author": "geojaz",
-            "engaged_at": "2026-09-03T15:21:13Z"
-          },
-          {
-            "title": "added E2E for role ownership validation",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1213",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1213,
-            "author": "alkakumari016",
-            "engaged_at": "2026-08-25T18:29:45Z"
-          },
-          {
-            "title": "fix(ui): show operation state on applications list page (#29063)",
-            "url": "https://github.com/argoproj/argo-cd/pull/29064",
-            "repo": "argoproj/argo-cd",
-            "number": 29064,
-            "author": "antonu17",
-            "engaged_at": "2026-08-11T19:01:04Z"
-          },
-          {
-            "title": "chore(ci): change blog post link for release",
-            "url": "https://github.com/argoproj/argo-cd/pull/25088",
-            "repo": "argoproj/argo-cd",
-            "number": 25088,
-            "author": "nitishfy",
-            "engaged_at": "2026-08-11T13:11:07Z"
-          },
-          {
-            "title": "fix(controller): cherry-pick treat `timeout.reconciliation=0` as disabled soft expiry (#27683)",
-            "url": "https://github.com/argoproj/argo-cd/pull/29007",
-            "repo": "argoproj/argo-cd",
-            "number": 29007,
-            "author": "aali309",
-            "engaged_at": "2026-08-07T21:34:41Z"
-          },
-          {
-            "title": "fix(controller): use diff cache when timeout.reconciliation is disabled",
-            "url": "https://github.com/argoproj/argo-cd/pull/29073",
-            "repo": "argoproj/argo-cd",
-            "number": 29073,
-            "author": "aali309",
-            "engaged_at": "2026-08-07T21:33:38Z"
-          },
-          {
-            "title": "chore(deps): bump DOMPurify to 3.4.7 for CVE-2026-49978",
-            "url": "https://github.com/argoproj/argo-cd/pull/28969",
-            "repo": "argoproj/argo-cd",
-            "number": 28969,
-            "author": "aali309",
-            "engaged_at": "2026-08-05T18:39:50Z"
-          },
-          {
-            "title": "chore(deps): bump js-yaml to fix CVE-2026-59869",
-            "url": "https://github.com/argoproj/argo-cd/pull/28946",
-            "repo": "argoproj/argo-cd",
-            "number": 28946,
-            "author": "aali309",
-            "engaged_at": "2026-08-05T18:15:20Z"
-          },
-          {
-            "title": "chore(deps): bump DOMPurify to 3.4.7 for CVE-2026-49978",
-            "url": "https://github.com/argoproj/argo-cd/pull/28966",
-            "repo": "argoproj/argo-cd",
-            "number": 28966,
-            "author": "aali309",
-            "engaged_at": "2026-08-05T18:07:05Z"
-          },
-          {
-            "title": "test(repository): assert Changes value explicitly in UpdateRevisionForPaths test",
-            "url": "https://github.com/argoproj/argo-cd/pull/28984",
-            "repo": "argoproj/argo-cd",
-            "number": 28984,
-            "author": "Churi12",
-            "engaged_at": "2026-07-30T17:01:11Z"
-          },
-          {
-            "title": "fix(repository): restore Normalize in UpdateRevisionForPaths to unbreak master",
-            "url": "https://github.com/argoproj/argo-cd/pull/28979",
-            "repo": "argoproj/argo-cd",
-            "number": 28979,
-            "author": "Churi12",
-            "engaged_at": "2026-07-30T15:04:46Z"
-          },
-          {
-            "title": "fix: keep cluster sync alive when a namespace is deleted or restricted",
-            "url": "https://github.com/argoproj/argo-cd/pull/27528",
-            "repo": "argoproj/argo-cd",
-            "number": 27528,
-            "author": "tricktron",
-            "engaged_at": "2026-07-22T22:21:22Z"
-          },
-          {
-            "title": "Added E2E for role ownership validation",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1210",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1210,
-            "author": "alkakumari016",
-            "engaged_at": "2026-07-16T13:00:41Z"
-          },
-          {
-            "title": "chore(deps): Update x/net to avoid CVE-2026-27136",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1219",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1219,
-            "author": "olivergondza",
-            "engaged_at": "2026-07-16T12:58:29Z"
-          },
-          {
-            "title": "chore(deps): Update x/net to avoid CVE-2026-27136",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1220",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1220,
-            "author": "olivergondza",
-            "engaged_at": "2026-07-16T12:57:58Z"
-          },
-          {
-            "title": "fix(controller): treat `timeout.reconciliation=0` as disabled soft expiry",
-            "url": "https://github.com/argoproj/argo-cd/pull/27683",
-            "repo": "argoproj/argo-cd",
-            "number": 27683,
-            "author": "aali309",
-            "engaged_at": "2026-07-09T18:27:08Z"
           }
         ]
       },
