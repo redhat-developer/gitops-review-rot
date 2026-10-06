@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T08:08:48.642494127Z",
+  "generated_at": "2026-10-06T09:08:51.868363678Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1844,10 +1844,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-01T10:23:43Z",
-      "updated_at": "2026-10-06T06:58:19Z",
+      "updated_at": "2026-10-06T08:50:25Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 3,
@@ -1944,7 +1944,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-01T16:24:17Z",
-      "updated_at": "2026-10-06T07:26:53Z",
+      "updated_at": "2026-10-06T08:57:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1955,7 +1955,10 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
-      "labels": []
+      "labels": [
+        "lgtm",
+        "approved"
+      ]
     },
     {
       "title": "test: update argocd-agent self-registration test",
@@ -2019,10 +2022,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-04T16:42:38Z",
-      "updated_at": "2026-10-06T06:51:51Z",
+      "updated_at": "2026-10-06T08:50:09Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2045,7 +2048,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-05T10:25:47Z",
-      "updated_at": "2026-10-06T06:55:56Z",
+      "updated_at": "2026-10-06T08:50:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2071,7 +2074,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-05T13:24:16Z",
-      "updated_at": "2026-10-06T06:54:44Z",
+      "updated_at": "2026-10-06T08:42:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5860,17 +5863,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-09-10T18:05:53Z",
-      "updated_at": "2026-10-02T10:31:30Z",
+      "updated_at": "2026-10-06T08:37:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 6,
       "labels": [
         "🕐 10-20 Minutes",
         "🟠 Medium blast radius"
@@ -6048,7 +6051,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T08:06:56Z",
+    "since": "2026-07-08T09:06:46Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10378,7 +10381,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1334,
             "author": "olivergondza",
-            "engaged_at": "2026-10-06T07:26:53Z"
+            "engaged_at": "2026-10-06T08:57:17Z"
           },
           {
             "title": "feat(SyncWindow): CRD for sync window",
