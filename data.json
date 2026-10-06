@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T15:09:05.448921516Z",
+  "generated_at": "2026-10-06T16:09:08.763268168Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2049,10 +2049,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-05T13:24:16Z",
-      "updated_at": "2026-10-06T14:51:44Z",
+      "updated_at": "2026-10-06T15:20:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2757,32 +2757,6 @@
       },
       "unresolved_conversations": 2,
       "labels": []
-    },
-    {
-      "title": "build(deps): Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc from 1.46.0 to 1.47.0",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1134",
-      "number": 1134,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-05T17:14:05Z",
-      "updated_at": "2026-10-06T14:48:04Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
     },
     {
       "title": "Add OAuth support. It is need for access to Azure CR",
@@ -3699,10 +3673,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/27673665?u=dee7bca6cd9ed0ad26bd42dfcaefb214e2442747\u0026v=4"
       },
       "created_at": "2026-09-10T19:21:18Z",
-      "updated_at": "2026-10-05T19:06:47Z",
+      "updated_at": "2026-10-06T15:56:18Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -4058,42 +4032,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-05T20:25:42Z",
-      "updated_at": "2026-10-06T01:53:53Z",
+      "updated_at": "2026-10-06T15:54:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
+        "count": 2,
+        "approved_count": 1,
+        "has_new_commits": false
       },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
-      ]
-    },
-    {
-      "title": "test(e2e): capture RBAC state on failure and let 1-012 retry",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1852",
-      "number": 1852,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-10-06T02:14:26Z",
-      "updated_at": "2026-10-06T13:37:02Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "ok-to-test"
       ]
@@ -5992,7 +5941,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T15:06:52Z",
+    "since": "2026-07-08T16:06:56Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9838,8 +9787,24 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 32,
+        "reviews": 34,
         "prs": [
+          {
+            "title": "fix(webhook): relax TLS validation to match crypto/tls semantics",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1851",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1851,
+            "author": "chengfang",
+            "engaged_at": "2026-10-06T15:54:34Z"
+          },
+          {
+            "title": "test(e2e): capture RBAC state on failure and let 1-012 retry",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1852",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1852,
+            "author": "chengfang",
+            "engaged_at": "2026-10-06T15:26:37Z"
+          },
           {
             "title": "test(e2e): wait for image updater RBAC before creating ImageUpdater CRs",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1849",
