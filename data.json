@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T11:07:25.486799567Z",
+  "generated_at": "2026-10-06T12:09:46.104908994Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1618,10 +1618,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-10-06T10:24:55Z",
+      "updated_at": "2026-10-06T12:02:15Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1744,10 +1744,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-09-29T09:39:33Z",
-      "updated_at": "2026-10-06T09:32:13Z",
+      "updated_at": "2026-10-06T11:08:40Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1819,19 +1819,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-01T09:47:01Z",
-      "updated_at": "2026-10-05T08:01:43Z",
+      "updated_at": "2026-10-06T11:49:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
+        "approved_count": 1,
+        "has_new_commits": false
       },
       "unresolved_conversations": 2,
       "labels": [
-        "kind/documentation"
+        "kind/documentation",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -1844,10 +1846,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-01T10:23:43Z",
-      "updated_at": "2026-10-06T08:50:25Z",
+      "updated_at": "2026-10-06T11:53:02Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 3,
@@ -6001,6 +6003,29 @@
       "labels": []
     },
     {
+      "title": "in progress commit",
+      "url": "https://github.com/argoproj/argo-cd/pull/30033",
+      "number": 30033,
+      "repo": "argoproj/argo-cd",
+      "author": {
+        "login": "nodari-dev",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
+      },
+      "created_at": "2026-10-06T11:39:06Z",
+      "updated_at": "2026-10-06T11:57:23Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
       "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
       "number": 4763,
@@ -6026,7 +6051,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T11:05:21Z",
+    "since": "2026-07-08T12:07:38Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6871,6 +6896,14 @@
         "reviews": 99,
         "prs": [
           {
+            "title": "Docs: Update migration guide",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1329",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1329,
+            "author": "anandrkskd",
+            "engaged_at": "2026-10-06T11:49:58Z"
+          },
+          {
             "title": "chore: upgrade to latest argo-rollouts-manager",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1339",
             "repo": "redhat-developer/gitops-operator",
@@ -6885,14 +6918,6 @@
             "number": 1335,
             "author": "jparsai",
             "engaged_at": "2026-10-05T12:16:50Z"
-          },
-          {
-            "title": "Docs: Update migration guide",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1329",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1329,
-            "author": "anandrkskd",
-            "engaged_at": "2026-10-05T07:24:35Z"
           },
           {
             "title": "feat(ui): add source integrity to project settings",
@@ -8782,7 +8807,7 @@
       },
       {
         "login": "jgwest",
-        "reviews": 54,
+        "reviews": 53,
         "prs": [
           {
             "title": "build(deps): bump google.golang.org/grpc from 1.82.1 to 1.83.2",
@@ -9207,14 +9232,6 @@
             "number": 994,
             "author": "chetan-rns",
             "engaged_at": "2026-07-09T11:49:17Z"
-          },
-          {
-            "title": "fix: e2e failures in cluster mode",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/998",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 998,
-            "author": "Rizwana777",
-            "engaged_at": "2026-07-08T11:11:43Z"
           }
         ]
       },
