@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T19:07:29.318723746Z",
+  "generated_at": "2026-10-06T20:08:21.181808523Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -4071,6 +4071,29 @@
       "labels": []
     },
     {
+      "title": "fix(git-writeback): patch quoted Helm values in place",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1854",
+      "number": 1854,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "rishabhvenu",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
+      },
+      "created_at": "2026-10-06T19:33:44Z",
+      "updated_at": "2026-10-06T19:45:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -5941,7 +5964,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T19:05:17Z",
+    "since": "2026-07-08T20:06:08Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6775,7 +6798,7 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 99,
+        "reviews": 98,
         "prs": [
           {
             "title": "Docs: Update migration guide",
@@ -7560,14 +7583,6 @@
             "number": 2275,
             "author": "dependabot",
             "engaged_at": "2026-07-11T10:52:19Z"
-          },
-          {
-            "title": "docs: fix minor typos in bug triage guidelines",
-            "url": "https://github.com/argoproj/argo-cd/pull/28634",
-            "repo": "argoproj/argo-cd",
-            "number": 28634,
-            "author": "allexistence",
-            "engaged_at": "2026-07-08T19:38:19Z"
           }
         ]
       },
