@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T21:07:55.244229047Z",
+  "generated_at": "2026-10-06T22:07:36.986604674Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2121,10 +2121,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-06T14:46:54Z",
-      "updated_at": "2026-10-06T20:13:32Z",
+      "updated_at": "2026-10-06T21:14:06Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3982,7 +3982,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
       },
       "created_at": "2026-10-02T23:29:49Z",
-      "updated_at": "2026-10-05T18:20:00Z",
+      "updated_at": "2026-10-06T21:38:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4031,6 +4031,52 @@
       },
       "created_at": "2026-10-06T19:33:44Z",
       "updated_at": "2026-10-06T19:45:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "fix(git-writeback): honour repository proxy settings for Git and SCM API calls",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1855",
+      "number": 1855,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "rishabhvenu",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
+      },
+      "created_at": "2026-10-06T21:27:56Z",
+      "updated_at": "2026-10-06T21:34:31Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": []
+    },
+    {
+      "title": "fix(webhook): move the TLS keypair out of the trust store directory",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1856",
+      "number": 1856,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "rishabhvenu",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
+      },
+      "created_at": "2026-10-06T21:32:25Z",
+      "updated_at": "2026-10-06T21:41:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5852,17 +5898,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-06T07:10:10Z",
-      "updated_at": "2026-10-06T07:27:09Z",
+      "updated_at": "2026-10-06T21:41:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 13,
+      "unresolved_conversations": 18,
       "labels": []
     },
     {
@@ -5898,10 +5944,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-06T20:34:01Z",
-      "updated_at": "2026-10-06T20:36:19Z",
+      "updated_at": "2026-10-06T21:41:02Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5921,10 +5967,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-06T20:55:45Z",
-      "updated_at": "2026-10-06T20:56:42Z",
+      "updated_at": "2026-10-06T21:43:36Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5944,10 +5990,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-06T21:05:11Z",
-      "updated_at": "2026-10-06T21:05:23Z",
+      "updated_at": "2026-10-06T21:12:49Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5983,7 +6029,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T21:05:56Z",
+    "since": "2026-07-08T22:05:42Z",
     "reviewers": [
       {
         "login": "chengfang",
