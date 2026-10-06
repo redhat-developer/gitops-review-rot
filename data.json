@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T22:07:36.986604674Z",
+  "generated_at": "2026-10-06T23:07:25.960871621Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2135,6 +2135,31 @@
       "labels": []
     },
     {
+      "title": "feat: add configurable replicas for backend and plugin deployments",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1343",
+      "number": 1343,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "ArthurVardevanyan",
+        "avatar_url": "https://avatars.githubusercontent.com/u/21159051?u=b111b835fabdae5b167b7dd8a7d289744094274b\u0026v=4"
+      },
+      "created_at": "2026-10-06T22:46:23Z",
+      "updated_at": "2026-10-06T22:59:33Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test"
+      ]
+    },
+    {
       "title": "feat: Add helm charts for principal",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/512",
       "number": 512,
@@ -3973,31 +3998,6 @@
       ]
     },
     {
-      "title": "fix(registry): retry requests the registry throttles with 429",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1847",
-      "number": 1847,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "rishabhvenu",
-        "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
-      },
-      "created_at": "2026-10-02T23:29:49Z",
-      "updated_at": "2026-10-06T21:38:12Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
-      ]
-    },
-    {
       "title": "fix(image): keep an explicit docker.io/library/ prefix on write-back",
       "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1853",
       "number": 1853,
@@ -5833,7 +5833,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 1,
       "labels": [
         "🟠 Medium blast radius",
         "🕐 40+ Minutes"
@@ -6029,12 +6029,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T22:05:42Z",
+    "since": "2026-07-08T23:05:32Z",
     "reviewers": [
       {
         "login": "chengfang",
         "reviews": 103,
         "prs": [
+          {
+            "title": "fix(registry): retry requests the registry throttles with 429",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1847",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1847,
+            "author": "rishabhvenu",
+            "engaged_at": "2026-10-06T22:27:58Z"
+          },
           {
             "title": "fix: recognize bare registry auth error codes",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1803",
@@ -6058,14 +6066,6 @@
             "number": 1337,
             "author": "akhilnittala",
             "engaged_at": "2026-10-05T17:47:27Z"
-          },
-          {
-            "title": "fix(registry): retry requests the registry throttles with 429",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1847",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1847,
-            "author": "rishabhvenu",
-            "engaged_at": "2026-10-05T14:36:55Z"
           },
           {
             "title": "chore: Add security reporting guidelines",
