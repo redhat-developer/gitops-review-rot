@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T10:08:01.458783583Z",
+  "generated_at": "2026-10-06T11:07:25.486799567Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1570,10 +1570,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-10-05T15:32:00Z",
+      "updated_at": "2026-10-06T10:58:08Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1618,10 +1618,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-10-06T06:30:17Z",
+      "updated_at": "2026-10-06T10:24:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1944,7 +1944,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-01T16:24:17Z",
-      "updated_at": "2026-10-06T09:20:42Z",
+      "updated_at": "2026-10-06T10:48:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5978,54 +5978,6 @@
       "labels": []
     },
     {
-      "title": "chore(deps): bump dompurify",
-      "url": "https://github.com/argoproj/argo-cd/pull/30014",
-      "number": 30014,
-      "repo": "argoproj/argo-cd",
-      "author": {
-        "login": "ranakan19",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
-      },
-      "created_at": "2026-10-05T13:39:00Z",
-      "updated_at": "2026-10-05T23:18:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): bump up js-yaml from 4.3.1 to 4.3.2",
-      "url": "https://github.com/argoproj/argo-cd/pull/30021",
-      "number": 30021,
-      "repo": "argoproj/argo-cd",
-      "author": {
-        "login": "keithchong",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
-      },
-      "created_at": "2026-10-05T22:05:39Z",
-      "updated_at": "2026-10-05T22:06:22Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "version:3.4"
-      ]
-    },
-    {
       "title": "feat(syncPolicy): Allow to define prune by default for manual sync applications.",
       "url": "https://github.com/argoproj/argo-cd/pull/30028",
       "number": 30028,
@@ -6074,7 +6026,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T10:05:58Z",
+    "since": "2026-07-08T11:05:21Z",
     "reviewers": [
       {
         "login": "chengfang",
