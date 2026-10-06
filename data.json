@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T12:09:46.104908994Z",
+  "generated_at": "2026-10-06T13:09:46.932952747Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1570,10 +1570,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-10-06T10:58:08Z",
+      "updated_at": "2026-10-06T12:43:25Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1807,33 +1807,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement"
-      ]
-    },
-    {
-      "title": "Docs: Update migration guide",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1329",
-      "number": 1329,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "anandrkskd",
-        "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
-      },
-      "created_at": "2026-10-01T09:47:01Z",
-      "updated_at": "2026-10-06T11:49:58Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "kind/documentation",
-        "lgtm",
-        "approved"
       ]
     },
     {
@@ -2588,7 +2561,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56375916?u=4a63738f1f8b39fa36919ff033c9f30c9b816d66\u0026v=4"
       },
       "created_at": "2026-09-15T15:02:15Z",
-      "updated_at": "2026-09-18T12:52:01Z",
+      "updated_at": "2026-10-06T12:22:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2717,32 +2690,6 @@
       "labels": []
     },
     {
-      "title": "build(deps): Bump go.opentelemetry.io/otel from 1.46.0 to 1.47.0",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1131",
-      "number": 1131,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-05T17:13:30Z",
-      "updated_at": "2026-10-05T17:13:40Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "build(deps): Bump go.opentelemetry.io/otel/sdk from 1.46.0 to 1.47.0",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1132",
       "number": 1132,
@@ -2752,15 +2699,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-05T17:13:31Z",
-      "updated_at": "2026-10-05T17:13:54Z",
+      "updated_at": "2026-10-06T12:23:46Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
+        "count": 1,
+        "approved_count": 1,
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -2778,10 +2725,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-05T17:14:01Z",
-      "updated_at": "2026-10-05T17:14:23Z",
+      "updated_at": "2026-10-06T12:23:54Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2804,10 +2751,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-05T17:14:05Z",
-      "updated_at": "2026-10-05T17:14:34Z",
+      "updated_at": "2026-10-06T12:23:55Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2819,6 +2766,29 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: raise gRPC message limit on HA replication",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1135",
+      "number": 1135,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "drewbailey",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2614075?u=3ae568b5f4a1682f5884b8fae2ec27dabf965139\u0026v=4"
+      },
+      "created_at": "2026-10-06T12:44:41Z",
+      "updated_at": "2026-10-06T12:51:39Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "Add OAuth support. It is need for access to Azure CR",
@@ -6012,7 +5982,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-10-06T11:39:06Z",
-      "updated_at": "2026-10-06T11:57:23Z",
+      "updated_at": "2026-10-06T13:03:27Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -6051,7 +6021,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T12:07:38Z",
+    "since": "2026-07-08T13:07:52Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7691,8 +7661,32 @@
       },
       {
         "login": "jannfis",
-        "reviews": 69,
+        "reviews": 71,
         "prs": [
+          {
+            "title": "fix: process resource requests concurrently and deliver responses without polling",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1110",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1110,
+            "author": "chrodrigues",
+            "engaged_at": "2026-10-06T12:22:42Z"
+          },
+          {
+            "title": "build(deps): Bump go.opentelemetry.io/otel/sdk from 1.46.0 to 1.47.0",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1132",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1132,
+            "author": "dependabot",
+            "engaged_at": "2026-10-06T12:21:37Z"
+          },
+          {
+            "title": "build(deps): Bump go.opentelemetry.io/otel from 1.46.0 to 1.47.0",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1131",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1131,
+            "author": "dependabot",
+            "engaged_at": "2026-10-06T12:21:16Z"
+          },
           {
             "title": "fix: avoid orphaned resources when deletions race",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1127",
@@ -7804,14 +7798,6 @@
             "number": 1048,
             "author": "m3rryqold",
             "engaged_at": "2026-09-18T13:22:44Z"
-          },
-          {
-            "title": "fix: process resource requests concurrently and deliver responses without polling",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1110",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1110,
-            "author": "chrodrigues",
-            "engaged_at": "2026-09-18T12:52:01Z"
           },
           {
             "title": "build(deps): Bump golang.org/x/crypto from 0.55.0 to 0.57.0",
@@ -10357,7 +10343,7 @@
       },
       {
         "login": "anandf",
-        "reviews": 28,
+        "reviews": 27,
         "prs": [
           {
             "title": "fix: Rename inner module from argoproj-labs to redhat-developer",
@@ -10574,14 +10560,6 @@
             "number": 1205,
             "author": "akhilnittala",
             "engaged_at": "2026-07-09T09:52:49Z"
-          },
-          {
-            "title": "Configuring TLS options from Central TLS Profile for Argo CD Agent",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2267",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2267,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-08T13:06:34Z"
           }
         ]
       },
