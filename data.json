@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T05:07:12.947178894Z",
+  "generated_at": "2026-10-06T06:09:50.52691548Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1291,10 +1291,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-07-08T12:30:58Z",
-      "updated_at": "2026-10-05T13:35:40Z",
+      "updated_at": "2026-10-06T05:37:07Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 4,
@@ -1967,10 +1967,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-02T12:52:38Z",
-      "updated_at": "2026-10-05T17:57:43Z",
+      "updated_at": "2026-10-06T05:26:57Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -6025,7 +6025,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T05:05:16Z",
+    "since": "2026-07-08T06:07:57Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7657,7 +7657,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 71,
+        "reviews": 70,
         "prs": [
           {
             "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart (#2377) (#2386)",
@@ -8218,14 +8218,6 @@
             "number": 2267,
             "author": "akhilnittala",
             "engaged_at": "2026-07-08T09:20:50Z"
-          },
-          {
-            "title": "Feat: RunOnInfra to use openshift.io/node-selector annotation on namespace",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1194",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1194,
-            "author": "anandrkskd",
-            "engaged_at": "2026-07-08T06:04:46Z"
           }
         ]
       },
