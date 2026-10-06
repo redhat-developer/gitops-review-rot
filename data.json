@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T06:09:50.52691548Z",
+  "generated_at": "2026-10-06T07:15:17.751941679Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1618,10 +1618,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-10-06T04:40:36Z",
+      "updated_at": "2026-10-06T06:30:17Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1844,10 +1844,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-01T10:23:43Z",
-      "updated_at": "2026-10-05T20:45:08Z",
+      "updated_at": "2026-10-06T06:58:19Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 3,
@@ -1944,7 +1944,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-01T16:24:17Z",
-      "updated_at": "2026-10-06T04:00:06Z",
+      "updated_at": "2026-10-06T06:57:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1967,7 +1967,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-02T12:52:38Z",
-      "updated_at": "2026-10-06T05:26:57Z",
+      "updated_at": "2026-10-06T07:11:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2019,20 +2019,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-04T16:42:38Z",
-      "updated_at": "2026-10-05T17:51:25Z",
+      "updated_at": "2026-10-06T06:51:51Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
         "kind/bug",
-        "lgtm",
         "approved"
       ]
     },
@@ -2046,7 +2045,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-05T10:25:47Z",
-      "updated_at": "2026-10-05T19:06:24Z",
+      "updated_at": "2026-10-06T06:55:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2072,18 +2071,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-05T13:24:16Z",
-      "updated_at": "2026-10-05T15:08:45Z",
+      "updated_at": "2026-10-06T06:54:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
+        "lgtm",
         "kind/cleanup"
       ]
     },
@@ -5094,7 +5094,7 @@
         "approved_count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -6000,6 +6000,29 @@
       ]
     },
     {
+      "title": "feat(syncPolicy): Allow to define prune by default for manual sync applications.",
+      "url": "https://github.com/argoproj/argo-cd/pull/30028",
+      "number": 30028,
+      "repo": "argoproj/argo-cd",
+      "author": {
+        "login": "akhilnittala",
+        "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
+      },
+      "created_at": "2026-10-06T07:10:10Z",
+      "updated_at": "2026-10-06T07:12:39Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
       "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
       "number": 4763,
@@ -6025,7 +6048,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T06:07:57Z",
+    "since": "2026-07-08T07:13:13Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6867,8 +6890,16 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 98,
+        "reviews": 99,
         "prs": [
+          {
+            "title": "chore: upgrade to latest argo-rollouts-manager",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1339",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1339,
+            "author": "jgwest",
+            "engaged_at": "2026-10-06T06:54:39Z"
+          },
           {
             "title": "test: update argocd-agent self-registration test",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1335",
