@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T05:08:11.426595504Z",
+  "generated_at": "2026-10-07T06:09:03.788727283Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -430,7 +430,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-14T01:39:13Z",
-      "updated_at": "2026-10-06T03:57:42Z",
+      "updated_at": "2026-10-07T05:22:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -683,7 +683,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:24:25Z",
-      "updated_at": "2026-10-07T02:47:44Z",
+      "updated_at": "2026-10-07T05:27:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -706,7 +706,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:30:16Z",
-      "updated_at": "2026-10-07T02:49:48Z",
+      "updated_at": "2026-10-07T05:29:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2121,10 +2121,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-06T14:46:54Z",
-      "updated_at": "2026-10-07T04:03:39Z",
+      "updated_at": "2026-10-07T05:44:04Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5992,15 +5992,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-06T20:34:01Z",
-      "updated_at": "2026-10-06T21:41:02Z",
+      "updated_at": "2026-10-07T05:55:19Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
+        "count": 2,
+        "approved_count": 2,
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -6015,37 +6015,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-06T20:55:45Z",
-      "updated_at": "2026-10-06T21:43:36Z",
+      "updated_at": "2026-10-07T05:54:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): bump go-git dependency to 5.19.2 - cherry-pick #30013 for v3.3",
-      "url": "https://github.com/argoproj/argo-cd/pull/30049",
-      "number": 30049,
-      "repo": "argoproj/argo-cd",
-      "author": {
-        "login": "ranakan19",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
-      },
-      "created_at": "2026-10-06T21:05:11Z",
-      "updated_at": "2026-10-07T04:59:58Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 2,
+        "approved_count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -6077,7 +6054,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-09T05:06:08Z",
+    "since": "2026-07-09T06:07:03Z",
     "reviewers": [
       {
         "login": "chengfang",
