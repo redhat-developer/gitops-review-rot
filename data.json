@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T11:07:15.913844568Z",
+  "generated_at": "2026-10-07T12:09:58.52424278Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1669,7 +1669,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-10-07T11:02:03Z",
+      "updated_at": "2026-10-07T11:03:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1717,19 +1717,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-28T16:06:33Z",
-      "updated_at": "2026-10-07T08:40:55Z",
+      "updated_at": "2026-10-07T11:13:44Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 5,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
-        "lgtm",
         "approved",
         "kind/failing-test"
       ]
@@ -1999,7 +1998,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-04T16:42:38Z",
-      "updated_at": "2026-10-07T09:50:36Z",
+      "updated_at": "2026-10-07T11:20:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2026,7 +2025,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-05T10:25:47Z",
-      "updated_at": "2026-10-07T08:57:06Z",
+      "updated_at": "2026-10-07T11:59:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2176,7 +2175,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-07T07:48:01Z",
-      "updated_at": "2026-10-07T11:02:24Z",
+      "updated_at": "2026-10-07T11:20:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2184,9 +2183,9 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "kind/cleanup"
       ]
@@ -2201,7 +2200,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-07T09:05:23Z",
-      "updated_at": "2026-10-07T09:32:30Z",
+      "updated_at": "2026-10-07T12:05:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -6086,7 +6085,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-09T11:05:23Z",
+    "since": "2026-07-09T12:07:48Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6923,6 +6922,14 @@
         "reviews": 102,
         "prs": [
           {
+            "title": "chore: split parallel and sequential tests to reduce test exec time",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1344",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1344,
+            "author": "anandrkskd",
+            "engaged_at": "2026-10-07T11:20:21Z"
+          },
+          {
             "title": "GITOPS-11058 use argocd-redis secret by default",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1320",
             "repo": "redhat-developer/gitops-operator",
@@ -6945,14 +6952,6 @@
             "number": 1340,
             "author": "ranakan19",
             "engaged_at": "2026-10-07T10:32:09Z"
-          },
-          {
-            "title": "chore: split parallel and sequential tests to reduce test exec time",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1344",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1344,
-            "author": "anandrkskd",
-            "engaged_at": "2026-10-07T10:30:38Z"
           },
           {
             "title": "Docs: Update migration guide",
@@ -8946,7 +8945,7 @@
       },
       {
         "login": "jgwest",
-        "reviews": 54,
+        "reviews": 53,
         "prs": [
           {
             "title": "test: update argocd-agent self-registration test",
@@ -9371,14 +9370,6 @@
             "number": 1031,
             "author": "mikeshng",
             "engaged_at": "2026-07-09T13:47:29Z"
-          },
-          {
-            "title": "feat: dedupe incoming events on the principal",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/994",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 994,
-            "author": "chetan-rns",
-            "engaged_at": "2026-07-09T11:49:17Z"
           }
         ]
       },
