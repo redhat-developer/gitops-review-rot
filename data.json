@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T04:09:49.360957843Z",
+  "generated_at": "2026-10-08T05:08:59.772555713Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -405,10 +405,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-08T03:44:47Z",
-      "updated_at": "2026-10-08T03:54:14Z",
+      "updated_at": "2026-10-08T04:09:58Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2827,7 +2827,7 @@
       "updated_at": "2026-10-08T03:39:07Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -6005,7 +6005,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-10T04:07:48Z",
+    "since": "2026-07-10T05:06:48Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7677,7 +7677,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 81,
+        "reviews": 79,
         "prs": [
           {
             "title": "fix: Skip GH actions e2e tests on non-code changes",
@@ -8310,22 +8310,6 @@
             "number": 2242,
             "author": "olivergondza",
             "engaged_at": "2026-07-13T02:54:07Z"
-          },
-          {
-            "title": "Update Latest Commit of argocd operator for Central TLS Profile Changes",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1205",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1205,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-10T04:24:37Z"
-          },
-          {
-            "title": "chore(deps): bump golang.org/x/crypto from 0.51.0 to 0.52.0",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1207",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1207,
-            "author": "dependabot",
-            "engaged_at": "2026-07-10T04:23:57Z"
           }
         ]
       },
