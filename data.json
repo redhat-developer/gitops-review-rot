@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T22:07:38.752806665Z",
+  "generated_at": "2026-10-08T23:07:49.8359551Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -430,7 +430,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-08T21:47:18Z",
-      "updated_at": "2026-10-08T22:01:05Z",
+      "updated_at": "2026-10-08T22:22:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1797,10 +1797,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-01T08:12:11Z",
-      "updated_at": "2026-10-08T19:21:10Z",
+      "updated_at": "2026-10-08T23:03:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2025,7 +2025,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-05T13:24:16Z",
-      "updated_at": "2026-10-08T18:35:09Z",
+      "updated_at": "2026-10-08T22:09:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2274,10 +2274,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-08T20:35:20Z",
-      "updated_at": "2026-10-08T20:38:12Z",
+      "updated_at": "2026-10-08T22:51:22Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5125,7 +5125,7 @@
       "updated_at": "2026-10-08T20:06:50Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -6035,7 +6035,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-10T22:05:46Z",
+    "since": "2026-07-10T23:05:49Z",
     "reviewers": [
       {
         "login": "chengfang",
