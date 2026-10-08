@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T08:11:19.750026794Z",
+  "generated_at": "2026-10-08T09:11:50.788836749Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1669,7 +1669,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/273475629?u=5bbc0cf2481fafd1d8dab028b432443effd05caf\u0026v=4"
       },
       "created_at": "2026-09-25T19:45:51Z",
-      "updated_at": "2026-10-08T07:57:42Z",
+      "updated_at": "2026-10-08T08:48:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1951,10 +1951,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-04T16:42:38Z",
-      "updated_at": "2026-10-08T07:58:55Z",
+      "updated_at": "2026-10-08T09:02:45Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 3,
@@ -5820,17 +5820,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/81048645?v=4"
       },
       "created_at": "2026-09-10T12:11:43Z",
-      "updated_at": "2026-09-17T08:12:30Z",
+      "updated_at": "2026-10-08T09:04:23Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "🟡 Small blast radius",
         "🕐 Less than 10 minutes"
@@ -5846,7 +5846,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-09-10T18:05:53Z",
-      "updated_at": "2026-10-08T08:08:32Z",
+      "updated_at": "2026-10-08T08:22:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -6032,7 +6032,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-10T08:09:06Z",
+    "since": "2026-07-10T09:09:43Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9680,8 +9680,16 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 36,
+        "reviews": 37,
         "prs": [
+          {
+            "title": "fix(webhook): relax TLS validation to match crypto/tls semantics (#1851)",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1861",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1861,
+            "author": "chengfang",
+            "engaged_at": "2026-10-08T09:09:32Z"
+          },
           {
             "title": "chore(deps): bump argocd from 3.5.3 to 3.5.4",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1858",
