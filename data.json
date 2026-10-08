@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T15:09:40.561568261Z",
+  "generated_at": "2026-10-08T16:09:38.953911545Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -405,7 +405,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-08T03:44:47Z",
-      "updated_at": "2026-10-08T15:03:19Z",
+      "updated_at": "2026-10-08T15:06:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1722,7 +1722,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-09-29T09:39:33Z",
-      "updated_at": "2026-10-08T09:33:43Z",
+      "updated_at": "2026-10-08T15:23:19Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2761,7 +2761,7 @@
       "updated_at": "2026-10-08T14:54:02Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
@@ -3801,7 +3801,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-01T14:32:32Z",
-      "updated_at": "2026-10-07T13:44:12Z",
+      "updated_at": "2026-10-08T15:56:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3827,7 +3827,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-01T14:32:35Z",
-      "updated_at": "2026-10-01T14:32:47Z",
+      "updated_at": "2026-10-08T15:56:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3879,7 +3879,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-01T14:32:49Z",
-      "updated_at": "2026-10-01T14:33:15Z",
+      "updated_at": "2026-10-08T15:56:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3905,7 +3905,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-01T14:32:53Z",
-      "updated_at": "2026-10-07T13:44:17Z",
+      "updated_at": "2026-10-08T15:56:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4090,31 +4090,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "feat(tls): configure and support webhook TLS Curve preferences for PQC",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1859",
-      "number": 1859,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "akhilnittala",
-        "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
-      },
-      "created_at": "2026-10-07T09:14:05Z",
-      "updated_at": "2026-10-08T15:03:47Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
-      ]
     },
     {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
@@ -5117,15 +5092,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-08T01:04:41Z",
-      "updated_at": "2026-10-08T14:54:49Z",
+      "updated_at": "2026-10-08T15:39:26Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 3,
       "labels": []
@@ -5133,7 +5108,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-10T15:07:15Z",
+    "since": "2026-07-10T16:07:20Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -5145,7 +5120,7 @@
             "repo": "argoproj-labs/argocd-image-updater",
             "number": 1859,
             "author": "akhilnittala",
-            "engaged_at": "2026-10-08T12:44:28Z"
+            "engaged_at": "2026-10-08T15:53:30Z"
           },
           {
             "title": "chore(deps): bump github.com/sirupsen/logrus from 1.9.4 to 1.10.2 in /registry-scanner",
