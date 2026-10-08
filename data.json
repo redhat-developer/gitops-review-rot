@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T16:09:38.953911545Z",
+  "generated_at": "2026-10-08T17:07:43.701238917Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1774,10 +1774,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-01T08:12:11Z",
-      "updated_at": "2026-10-08T12:39:23Z",
+      "updated_at": "2026-10-08T16:48:58Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2002,10 +2002,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-05T13:24:16Z",
-      "updated_at": "2026-10-07T14:08:26Z",
+      "updated_at": "2026-10-08T16:40:53Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2155,14 +2155,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-07T09:05:23Z",
-      "updated_at": "2026-10-07T15:39:28Z",
+      "updated_at": "2026-10-08T16:36:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 3,
@@ -2744,29 +2744,6 @@
         "count": 2,
         "approved_count": 1,
         "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "feat(tls): add hot reloading for tls client cert and ca on principal",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1125",
-      "number": 1125,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "cjcocokrisp",
-        "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
-      },
-      "created_at": "2026-09-23T21:46:06Z",
-      "updated_at": "2026-10-08T14:54:02Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -5058,57 +5035,11 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-07-16T14:24:23Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix(dashboard)!: Rollouts dashboard should only bind local interface (by default)",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/5088",
-      "number": 5088,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "jgwest",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
-      },
-      "created_at": "2026-10-08T01:04:41Z",
-      "updated_at": "2026-10-08T15:39:26Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 3,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-10T16:07:20Z",
+    "since": "2026-07-10T17:05:27Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8008,8 +7939,24 @@
       },
       {
         "login": "jgwest",
-        "reviews": 51,
+        "reviews": 52,
         "prs": [
+          {
+            "title": "feat(tls): add hot reloading for tls client cert and ca on principal",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1125",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1125,
+            "author": "cjcocokrisp",
+            "engaged_at": "2026-10-08T17:02:31Z"
+          },
+          {
+            "title": "chore(E2E): Delete cleanly duplicated seq E2Es in argocd-operator/",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1345",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1345,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-08T16:36:55Z"
+          },
           {
             "title": "test: update argocd-agent self-registration test",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1335",
@@ -8025,14 +7972,6 @@
             "number": 146,
             "author": "dependabot",
             "engaged_at": "2026-09-30T11:46:42Z"
-          },
-          {
-            "title": "feat(tls): add hot reloading for tls client cert and ca on principal",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1125",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1125,
-            "author": "cjcocokrisp",
-            "engaged_at": "2026-09-30T08:45:52Z"
           },
           {
             "title": "feat: toggle debug settings during runtime",
