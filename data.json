@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T17:07:43.701238917Z",
+  "generated_at": "2026-10-08T18:09:02.314613898Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2758,17 +2758,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-09-29T09:01:37Z",
-      "updated_at": "2026-10-02T15:41:56Z",
+      "updated_at": "2026-10-08T17:50:07Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 5,
       "labels": []
     },
     {
@@ -2839,6 +2839,32 @@
       },
       "unresolved_conversations": 2,
       "labels": []
+    },
+    {
+      "title": "build(deps): Bump github.com/redis/go-redis/v9 from 9.22.0 to 9.23.0",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1139",
+      "number": 1139,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-08T17:14:13Z",
+      "updated_at": "2026-10-08T17:14:45Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go"
+      ]
     },
     {
       "title": "Add OAuth support. It is need for access to Azure CR",
@@ -5035,11 +5061,57 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-07-16T14:24:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(dashboard)!: Rollouts dashboard should only bind local interface (by default)",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/5088",
+      "number": 5088,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-10-08T01:04:41Z",
+      "updated_at": "2026-10-08T17:46:54Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 3,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-10T17:05:27Z",
+    "since": "2026-07-10T18:06:26Z",
     "reviewers": [
       {
         "login": "chengfang",
