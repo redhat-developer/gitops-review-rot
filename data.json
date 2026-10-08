@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T21:08:11.372576868Z",
+  "generated_at": "2026-10-08T22:07:38.752806665Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -419,6 +419,29 @@
       "labels": [
         "kind/enhancement"
       ]
+    },
+    {
+      "title": "chore(deps): update go-git to 5.19.2",
+      "url": "https://github.com/redhat-developer/gitops-backend/pull/74",
+      "number": 74,
+      "repo": "redhat-developer/gitops-backend",
+      "author": {
+        "login": "ranakan19",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
+      },
+      "created_at": "2026-10-08T21:47:18Z",
+      "updated_at": "2026-10-08T22:01:05Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "WIP Prototype multicluster sdk",
@@ -2226,7 +2249,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-08T20:07:09Z",
-      "updated_at": "2026-10-08T20:21:02Z",
+      "updated_at": "2026-10-08T22:01:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2762,15 +2785,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56375916?u=4a63738f1f8b39fa36919ff033c9f30c9b816d66\u0026v=4"
       },
       "created_at": "2026-09-15T15:02:15Z",
-      "updated_at": "2026-10-06T12:22:42Z",
+      "updated_at": "2026-10-08T21:53:53Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -5950,10 +5973,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-10-06T11:39:06Z",
-      "updated_at": "2026-10-08T21:00:09Z",
+      "updated_at": "2026-10-08T21:35:49Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -6012,7 +6035,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-10T21:06:14Z",
+    "since": "2026-07-10T22:05:46Z",
     "reviewers": [
       {
         "login": "chengfang",
