@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T14:09:56.793200567Z",
+  "generated_at": "2026-10-08T15:09:40.561568261Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -405,7 +405,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-08T03:44:47Z",
-      "updated_at": "2026-10-08T04:09:58Z",
+      "updated_at": "2026-10-08T15:03:19Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2201,7 +2201,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-08T07:55:27Z",
-      "updated_at": "2026-10-08T10:53:09Z",
+      "updated_at": "2026-10-08T14:44:30Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2758,10 +2758,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
       },
       "created_at": "2026-09-23T21:46:06Z",
-      "updated_at": "2026-10-06T01:18:19Z",
+      "updated_at": "2026-10-08T14:54:02Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2804,15 +2804,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-10-01T13:16:01Z",
-      "updated_at": "2026-10-08T12:38:42Z",
+      "updated_at": "2026-10-08T14:43:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
+        "approved_count": 1,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -4101,7 +4101,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-07T09:14:05Z",
-      "updated_at": "2026-10-08T13:46:39Z",
+      "updated_at": "2026-10-08T15:03:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -4109,7 +4109,7 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -5117,7 +5117,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-08T01:04:41Z",
-      "updated_at": "2026-10-08T13:08:36Z",
+      "updated_at": "2026-10-08T14:54:49Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5133,7 +5133,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-10T14:07:29Z",
+    "since": "2026-07-10T15:07:15Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10306,20 +10306,20 @@
         "reviews": 14,
         "prs": [
           {
+            "title": "fix: restrict resource proxy NetworkPolicy to Argo CD server",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1129",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1129,
+            "author": "Rizwana777",
+            "engaged_at": "2026-10-08T14:43:25Z"
+          },
+          {
             "title": "chore: use port-forward to login to argocd server in E2E Tests",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1315",
             "repo": "redhat-developer/gitops-operator",
             "number": 1315,
             "author": "jgwest",
             "engaged_at": "2026-10-07T13:29:31Z"
-          },
-          {
-            "title": "fix: restrict resource proxy NetworkPolicy to Argo CD server",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1129",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1129,
-            "author": "Rizwana777",
-            "engaged_at": "2026-10-07T09:29:46Z"
           },
           {
             "title": "feat: toggle debug settings during runtime",
