@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:09:35.608016149Z",
+  "generated_at": "2026-10-08T13:14:35.121935815Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1447,10 +1447,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/315658242?v=4"
       },
       "created_at": "2026-09-05T16:01:43Z",
-      "updated_at": "2026-10-08T07:04:40Z",
+      "updated_at": "2026-10-08T13:04:42Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1669,7 +1669,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/273475629?u=5bbc0cf2481fafd1d8dab028b432443effd05caf\u0026v=4"
       },
       "created_at": "2026-09-25T19:45:51Z",
-      "updated_at": "2026-10-08T12:04:54Z",
+      "updated_at": "2026-10-08T12:25:14Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1774,7 +1774,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-01T08:12:11Z",
-      "updated_at": "2026-10-08T11:02:53Z",
+      "updated_at": "2026-10-08T12:39:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1874,21 +1874,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-01T16:24:17Z",
-      "updated_at": "2026-10-08T11:39:23Z",
+      "updated_at": "2026-10-08T12:24:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
+        "approved_count": 0,
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": [
-        "lgtm",
-        "approved",
-        "needs-rebase"
+        "approved"
       ]
     },
     {
@@ -1901,10 +1899,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-02T12:52:38Z",
-      "updated_at": "2026-10-08T06:22:59Z",
+      "updated_at": "2026-10-08T12:20:46Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 3,
@@ -1952,7 +1950,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-04T16:42:38Z",
-      "updated_at": "2026-10-08T11:16:44Z",
+      "updated_at": "2026-10-08T12:43:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2806,10 +2804,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-10-01T13:16:01Z",
-      "updated_at": "2026-10-07T12:31:41Z",
+      "updated_at": "2026-10-08T12:38:42Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -4103,7 +4101,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-07T09:14:05Z",
-      "updated_at": "2026-10-08T02:45:12Z",
+      "updated_at": "2026-10-08T12:44:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4111,52 +4109,6 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix(argocd): persist Helm/Kustomize/Plugin merges for SourceHydrator apps (#1810)",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1860",
-      "number": 1860,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-10-08T01:05:09Z",
-      "updated_at": "2026-10-08T09:10:12Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix(webhook): relax TLS validation to match crypto/tls semantics (#1851)",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1861",
-      "number": 1861,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-10-08T01:12:44Z",
-      "updated_at": "2026-10-08T09:09:32Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5154,7 +5106,7 @@
       "labels": []
     },
     {
-      "title": "fix(dashboard): Rollouts dashboard should only bind local interface (by default)",
+      "title": "fix(dashboard)!: Rollouts dashboard should only bind local interface (by default)",
       "url": "https://github.com/argoproj/argo-rollouts/pull/5088",
       "number": 5088,
       "repo": "argoproj/argo-rollouts",
@@ -5163,23 +5115,23 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-08T01:04:41Z",
-      "updated_at": "2026-10-08T01:48:24Z",
+      "updated_at": "2026-10-08T13:08:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 3,
       "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-10T12:07:31Z",
+    "since": "2026-07-10T13:12:14Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -5191,7 +5143,7 @@
             "repo": "argoproj-labs/argocd-image-updater",
             "number": 1859,
             "author": "akhilnittala",
-            "engaged_at": "2026-10-07T19:05:59Z"
+            "engaged_at": "2026-10-08T12:44:28Z"
           },
           {
             "title": "chore(deps): bump github.com/sirupsen/logrus from 1.9.4 to 1.10.2 in /registry-scanner",
@@ -9883,7 +9835,7 @@
       },
       {
         "login": "anandf",
-        "reviews": 26,
+        "reviews": 25,
         "prs": [
           {
             "title": "GITOPS-11466: Detect Route API before Config API gate in InspectCluster",
@@ -10084,14 +10036,6 @@
             "number": 2273,
             "author": "akhilnittala",
             "engaged_at": "2026-07-21T11:56:15Z"
-          },
-          {
-            "title": "feat: Use absolute FQDNs to simplify name resolution",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2277",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2277,
-            "author": "olivergondza",
-            "engaged_at": "2026-07-10T12:39:30Z"
           }
         ]
       },
