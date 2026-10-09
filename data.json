@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:09:27.688646577Z",
+  "generated_at": "2026-10-09T19:07:08.843170974Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1007,7 +1007,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-10-09T16:58:27Z",
-      "updated_at": "2026-10-09T17:06:30Z",
+      "updated_at": "2026-10-09T18:28:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1015,9 +1015,9 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "ok-to-test"
       ]
@@ -1820,19 +1820,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-01T08:12:11Z",
-      "updated_at": "2026-10-09T15:20:49Z",
+      "updated_at": "2026-10-09T18:44:02Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 4,
-        "approved_count": 2,
+        "approved_count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -2127,7 +2129,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-06T14:46:54Z",
-      "updated_at": "2026-10-07T14:06:08Z",
+      "updated_at": "2026-10-09T18:16:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2135,9 +2137,9 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -2225,10 +2227,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-08T07:55:27Z",
-      "updated_at": "2026-10-09T16:38:45Z",
+      "updated_at": "2026-10-09T18:45:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2304,10 +2306,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-09T16:22:55Z",
-      "updated_at": "2026-10-09T16:29:42Z",
+      "updated_at": "2026-10-09T18:29:50Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2982,7 +2984,7 @@
       "updated_at": "2026-10-09T17:18:38Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3008,7 +3010,7 @@
       "updated_at": "2026-10-09T17:18:50Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3034,7 +3036,7 @@
       "updated_at": "2026-10-09T17:18:54Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -6114,7 +6116,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-11T18:07:00Z",
+    "since": "2026-07-11T19:04:57Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7797,6 +7799,14 @@
         "reviews": 82,
         "prs": [
           {
+            "title": "fix: throw an error if openshiftOAuth is used in xKS env",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1328",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1328,
+            "author": "anandrkskd",
+            "engaged_at": "2026-10-09T18:43:53Z"
+          },
+          {
             "title": "chore(deps): bump argocd from 3.5.2 to 3.5.4 and image updater from 1.3.0 to 1.3.1",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1349",
             "repo": "redhat-developer/gitops-operator",
@@ -7875,14 +7885,6 @@
             "number": 2406,
             "author": "akhilnittala",
             "engaged_at": "2026-10-07T07:28:15Z"
-          },
-          {
-            "title": "fix: throw an error if openshiftOAuth is used in xKS env",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1328",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1328,
-            "author": "anandrkskd",
-            "engaged_at": "2026-10-07T07:27:14Z"
           },
           {
             "title": "fix: Image Updater fails to start with TLS 1.3 cipher suites when cluster TLS profile uses TLS 1.2 minimum",
