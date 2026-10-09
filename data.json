@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T05:08:19.969060772Z",
+  "generated_at": "2026-10-09T06:09:59.4050945Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1973,7 +1973,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-04T16:42:38Z",
-      "updated_at": "2026-10-08T13:59:22Z",
+      "updated_at": "2026-10-09T05:53:08Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5985,11 +5985,57 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-07-16T14:24:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(dashboard)!: Rollouts dashboard should only bind local interface (by default)",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/5088",
+      "number": 5088,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-10-08T01:04:41Z",
+      "updated_at": "2026-10-08T18:29:39Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 3,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-11T05:06:29Z",
+    "since": "2026-07-11T06:08:00Z",
     "reviewers": [
       {
         "login": "chengfang",
