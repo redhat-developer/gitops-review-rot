@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T19:07:08.843170974Z",
+  "generated_at": "2026-10-09T20:08:00.415689305Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -405,33 +405,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-08T21:47:18Z",
-      "updated_at": "2026-10-09T15:38:39Z",
+      "updated_at": "2026-10-09T19:50:18Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "upgrade golangi-lint version",
-      "url": "https://github.com/redhat-developer/gitops-backend/pull/75",
-      "number": 75,
-      "repo": "redhat-developer/gitops-backend",
-      "author": {
-        "login": "ranakan19",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
-      },
-      "created_at": "2026-10-09T15:29:10Z",
-      "updated_at": "2026-10-09T16:15:22Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2103,10 +2080,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-06T14:29:18Z",
-      "updated_at": "2026-10-07T19:10:31Z",
+      "updated_at": "2026-10-09T19:13:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2129,7 +2106,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-06T14:46:54Z",
-      "updated_at": "2026-10-09T18:16:37Z",
+      "updated_at": "2026-10-09T19:04:57Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2279,20 +2256,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-08T20:35:20Z",
-      "updated_at": "2026-10-09T16:57:33Z",
+      "updated_at": "2026-10-09T19:44:39Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement",
-        "lgtm",
         "approved"
       ]
     },
@@ -2306,7 +2282,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-09T16:22:55Z",
-      "updated_at": "2026-10-09T18:29:50Z",
+      "updated_at": "2026-10-09T19:27:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2319,6 +2295,31 @@
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement"
+      ]
+    },
+    {
+      "title": "fix(ImageUpdater): GITOPS-11648 zombie Git processes when the operator starts /manager as PID 1",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1352",
+      "number": 1352,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-10-09T19:57:46Z",
+      "updated_at": "2026-10-09T20:02:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/bug"
       ]
     },
     {
@@ -2817,7 +2818,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56375916?u=4a63738f1f8b39fa36919ff033c9f30c9b816d66\u0026v=4"
       },
       "created_at": "2026-09-15T15:02:15Z",
-      "updated_at": "2026-10-09T16:18:34Z",
+      "updated_at": "2026-10-09T19:59:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2825,9 +2826,9 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -3473,7 +3474,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/9136206?u=998464adc80f03af921801fd3a231cda2d1c4969\u0026v=4"
       },
       "created_at": "2024-07-22T18:25:15Z",
-      "updated_at": "2026-04-06T23:07:49Z",
+      "updated_at": "2026-10-09T19:41:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5194,6 +5195,29 @@
       "labels": []
     },
     {
+      "title": "fix(ImageUpdater): GITOPS-11648 zombie Git processes when the operator starts /manager as PID 1",
+      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2408",
+      "number": 2408,
+      "repo": "argoproj-labs/argocd-operator",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-10-09T19:11:31Z",
+      "updated_at": "2026-10-09T19:49:52Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "approved_count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "fixes for Openshift deployment",
       "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/89",
       "number": 89,
@@ -6116,7 +6140,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-11T19:04:57Z",
+    "since": "2026-07-11T20:05:48Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8461,6 +8485,14 @@
         "reviews": 73,
         "prs": [
           {
+            "title": "fix: process resource requests concurrently and deliver responses without polling",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1110",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1110,
+            "author": "chrodrigues",
+            "engaged_at": "2026-10-09T19:59:35Z"
+          },
+          {
             "title": "feat(tls): configure curve preferences",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1137",
             "repo": "argoproj-labs/argocd-agent",
@@ -8491,14 +8523,6 @@
             "number": 1135,
             "author": "drewbailey",
             "engaged_at": "2026-10-06T13:37:42Z"
-          },
-          {
-            "title": "fix: process resource requests concurrently and deliver responses without polling",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1110",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1110,
-            "author": "chrodrigues",
-            "engaged_at": "2026-10-06T12:22:42Z"
           },
           {
             "title": "build(deps): Bump go.opentelemetry.io/otel/sdk from 1.46.0 to 1.47.0",
@@ -9470,8 +9494,16 @@
       },
       {
         "login": "keithchong",
-        "reviews": 40,
+        "reviews": 41,
         "prs": [
+          {
+            "title": "upgrade golangi-lint version",
+            "url": "https://github.com/redhat-developer/gitops-backend/pull/75",
+            "repo": "redhat-developer/gitops-backend",
+            "number": 75,
+            "author": "ranakan19",
+            "engaged_at": "2026-10-09T19:33:24Z"
+          },
           {
             "title": "Add unit tests for labels, links, and topology rollout actions",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/301",
@@ -9796,8 +9828,16 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 39,
+        "reviews": 40,
         "prs": [
+          {
+            "title": "fix(ImageUpdater): GITOPS-11648 zombie Git processes when the operator starts /manager as PID 1",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2408",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2408,
+            "author": "chengfang",
+            "engaged_at": "2026-10-09T19:49:51Z"
+          },
           {
             "title": "chore(deps): Update argocd-image-updater to version 1.3.1 in test/ginkgo",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1864",
