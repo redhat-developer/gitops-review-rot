@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T14:08:32.084827098Z",
+  "generated_at": "2026-10-09T15:08:35.828120336Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1545,7 +1545,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-10-09T12:56:44Z",
+      "updated_at": "2026-10-09T15:03:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1898,7 +1898,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-02T12:52:38Z",
-      "updated_at": "2026-10-09T13:15:55Z",
+      "updated_at": "2026-10-09T14:51:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2177,7 +2177,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-08T07:55:27Z",
-      "updated_at": "2026-10-09T13:55:29Z",
+      "updated_at": "2026-10-09T14:32:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2202,19 +2202,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-08T20:07:09Z",
-      "updated_at": "2026-10-09T01:37:04Z",
+      "updated_at": "2026-10-09T14:50:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -2227,19 +2229,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-08T20:35:20Z",
-      "updated_at": "2026-10-09T02:41:24Z",
+      "updated_at": "2026-10-09T14:48:47Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -4121,6 +4125,31 @@
       "labels": []
     },
     {
+      "title": "chore(deps): Update argocd-image-updater to version 1.3.1 in test/ginkgo",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1864",
+      "number": 1864,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-10-09T14:35:01Z",
+      "updated_at": "2026-10-09T14:39:41Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "ok-to-test"
+      ]
+    },
+    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -5066,29 +5095,6 @@
       "labels": []
     },
     {
-      "title": "chore(deps): bump argocd from 3.5.2 to 3.5.4 and image updater from 1.3.0 to 1.3.1",
-      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2407",
-      "number": 2407,
-      "repo": "argoproj-labs/argocd-operator",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-10-08T19:39:20Z",
-      "updated_at": "2026-10-08T20:06:50Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "fixes for Openshift deployment",
       "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/89",
       "number": 89,
@@ -5110,11 +5116,57 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-07-16T14:24:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(dashboard)!: Rollouts dashboard should only bind local interface (by default)",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/5088",
+      "number": 5088,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-10-08T01:04:41Z",
+      "updated_at": "2026-10-08T18:29:39Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 3,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-11T14:06:11Z",
+    "since": "2026-07-11T15:06:10Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6778,8 +6830,32 @@
       },
       {
         "login": "svghadi",
-        "reviews": 79,
+        "reviews": 82,
         "prs": [
+          {
+            "title": "chore(deps): bump argocd from 3.5.2 to 3.5.4 and image updater from 1.3.0 to 1.3.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1349",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1349,
+            "author": "chengfang",
+            "engaged_at": "2026-10-09T14:48:35Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.2 to 3.5.4 and image updater from 1.3.0 to 1.3.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1348",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1348,
+            "author": "chengfang",
+            "engaged_at": "2026-10-09T14:47:29Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.2 to 3.5.4 and image updater from 1.3.0 to 1.3.1",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2407",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2407,
+            "author": "chengfang",
+            "engaged_at": "2026-10-09T14:46:59Z"
+          },
           {
             "title": "fix: Skip GH actions e2e tests on non-code changes",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1330",
