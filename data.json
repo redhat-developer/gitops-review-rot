@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T11:07:25.321058214Z",
+  "generated_at": "2026-10-09T12:09:19.711822953Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1572,7 +1572,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-10-09T10:51:48Z",
+      "updated_at": "2026-10-09T11:28:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1721,7 +1721,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-28T16:06:33Z",
-      "updated_at": "2026-10-09T08:00:47Z",
+      "updated_at": "2026-10-09T11:17:57Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1899,7 +1899,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-01T16:24:17Z",
-      "updated_at": "2026-10-08T13:51:10Z",
+      "updated_at": "2026-10-09T11:42:18Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1911,7 +1911,8 @@
       },
       "unresolved_conversations": 1,
       "labels": [
-        "approved"
+        "approved",
+        "needs-rebase"
       ]
     },
     {
@@ -2203,7 +2204,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-08T07:55:27Z",
-      "updated_at": "2026-10-09T10:40:27Z",
+      "updated_at": "2026-10-09T11:47:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -5929,7 +5930,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-06T07:10:10Z",
-      "updated_at": "2026-10-09T10:21:48Z",
+      "updated_at": "2026-10-09T12:03:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5939,7 +5940,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 13,
+      "unresolved_conversations": 8,
       "labels": []
     },
     {
@@ -6014,7 +6015,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-11T11:05:29Z",
+    "since": "2026-07-11T12:07:15Z",
     "reviewers": [
       {
         "login": "chengfang",
