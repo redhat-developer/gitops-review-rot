@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T10:08:17.691075196Z",
+  "generated_at": "2026-10-09T11:07:25.321058214Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -405,19 +405,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-08T03:44:47Z",
-      "updated_at": "2026-10-09T09:22:46Z",
+      "updated_at": "2026-10-09T10:53:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
+        "approved_count": 1,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -1470,7 +1472,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/315658242?v=4"
       },
       "created_at": "2026-09-05T16:01:43Z",
-      "updated_at": "2026-10-08T13:28:36Z",
+      "updated_at": "2026-10-09T10:47:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1570,10 +1572,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-10-09T08:04:32Z",
+      "updated_at": "2026-10-09T10:51:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1925,7 +1927,7 @@
       "updated_at": "2026-10-09T06:52:45Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 3,
@@ -2201,7 +2203,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-08T07:55:27Z",
-      "updated_at": "2026-10-09T09:42:19Z",
+      "updated_at": "2026-10-09T10:40:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -4626,7 +4628,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/315658242?v=4"
       },
       "created_at": "2026-09-08T15:42:46Z",
-      "updated_at": "2026-10-08T07:23:07Z",
+      "updated_at": "2026-10-09T10:47:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5927,7 +5929,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-06T07:10:10Z",
-      "updated_at": "2026-10-09T10:05:27Z",
+      "updated_at": "2026-10-09T10:21:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -6012,7 +6014,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-11T10:06:04Z",
+    "since": "2026-07-11T11:05:29Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6862,7 +6864,7 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 102,
+        "reviews": 101,
         "prs": [
           {
             "title": "chore: split parallel and sequential tests to reduce test exec time",
@@ -7671,14 +7673,6 @@
             "number": 28652,
             "author": "kuci-JK",
             "engaged_at": "2026-07-13T13:45:41Z"
-          },
-          {
-            "title": "chore(deps): bump golang.org/x/mod from 0.37.0 to 0.38.0",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2275",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2275,
-            "author": "dependabot",
-            "engaged_at": "2026-07-11T10:52:19Z"
           }
         ]
       },
@@ -10502,7 +10496,7 @@
             "repo": "redhat-developer/gitops-backend",
             "number": 73,
             "author": "akhilnittala",
-            "engaged_at": "2026-10-09T08:02:03Z"
+            "engaged_at": "2026-10-09T10:53:12Z"
           },
           {
             "title": "feat: support custom labels in self-registration cluster secret",
