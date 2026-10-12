@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T20:08:46.535392754Z",
+  "generated_at": "2026-10-12T21:06:51.998671805Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -405,10 +405,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-08T21:47:18Z",
-      "updated_at": "2026-10-12T17:36:06Z",
+      "updated_at": "2026-10-12T20:33:02Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1523,7 +1523,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-10-12T16:24:19Z",
+      "updated_at": "2026-10-12T20:18:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1774,7 +1774,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-01T16:24:17Z",
-      "updated_at": "2026-10-12T20:02:35Z",
+      "updated_at": "2026-10-12T20:31:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1851,7 +1851,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-05T13:24:16Z",
-      "updated_at": "2026-10-12T16:54:14Z",
+      "updated_at": "2026-10-12T20:37:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2032,10 +2032,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-09T16:22:55Z",
-      "updated_at": "2026-10-12T17:19:59Z",
+      "updated_at": "2026-10-12T21:01:40Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3181,7 +3181,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56375916?u=4a63738f1f8b39fa36919ff033c9f30c9b816d66\u0026v=4"
       },
       "created_at": "2026-09-15T15:02:15Z",
-      "updated_at": "2026-10-09T19:59:35Z",
+      "updated_at": "2026-10-12T20:44:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3189,7 +3189,7 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": []
@@ -6288,7 +6288,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-14T20:06:34Z",
+    "since": "2026-07-14T21:05:05Z",
     "reviewers": [
       {
         "login": "chengfang",
