@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T11:09:43.330400156Z",
+  "generated_at": "2026-10-12T12:12:12.567524476Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1021,31 +1021,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "fix: collect all ArgoCD instances in multi-tenant deployments",
-      "url": "https://github.com/redhat-developer/gitops-must-gather/pull/51",
-      "number": 51,
-      "repo": "redhat-developer/gitops-must-gather",
-      "author": {
-        "login": "paladugu-anand",
-        "avatar_url": "https://avatars.githubusercontent.com/u/11461972?v=4"
-      },
-      "created_at": "2026-09-24T17:52:16Z",
-      "updated_at": "2026-10-12T09:55:25Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
-      ]
     },
     {
       "title": "clearer instruction to disable default argocd instance",
@@ -2105,10 +2080,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/33322735?u=889ab9c77ca84f769a19d9d9ad7c8621daffd8f8\u0026v=4"
       },
       "created_at": "2026-10-12T04:28:01Z",
-      "updated_at": "2026-10-12T10:45:51Z",
+      "updated_at": "2026-10-12T11:30:16Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2645,7 +2620,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-12T04:34:06Z",
-      "updated_at": "2026-10-12T09:57:49Z",
+      "updated_at": "2026-10-12T12:02:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3181,15 +3156,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-09-23T09:30:34Z",
-      "updated_at": "2026-10-07T06:50:35Z",
+      "updated_at": "2026-10-12T11:56:25Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 1,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -6094,7 +6069,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-10-06T11:39:06Z",
-      "updated_at": "2026-10-12T09:59:00Z",
+      "updated_at": "2026-10-12T11:55:58Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -6133,7 +6108,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-14T11:07:35Z",
+    "since": "2026-07-14T12:09:59Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7042,20 +7017,20 @@
         "reviews": 102,
         "prs": [
           {
+            "title": "fix: collect all ArgoCD instances in multi-tenant deployments",
+            "url": "https://github.com/redhat-developer/gitops-must-gather/pull/51",
+            "repo": "redhat-developer/gitops-must-gather",
+            "number": 51,
+            "author": "paladugu-anand",
+            "engaged_at": "2026-10-12T12:00:11Z"
+          },
+          {
             "title": "chore(deps): bump github.com/go-logr/logr from 1.4.3 to 1.4.4",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1374",
             "repo": "redhat-developer/gitops-operator",
             "number": 1374,
             "author": "dependabot",
             "engaged_at": "2026-10-12T09:57:46Z"
-          },
-          {
-            "title": "fix: collect all ArgoCD instances in multi-tenant deployments",
-            "url": "https://github.com/redhat-developer/gitops-must-gather/pull/51",
-            "repo": "redhat-developer/gitops-must-gather",
-            "number": 51,
-            "author": "paladugu-anand",
-            "engaged_at": "2026-10-12T09:55:22Z"
           },
           {
             "title": "chore: split parallel and sequential tests to reduce test exec time",
@@ -7869,7 +7844,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1354,
             "author": "openshift-cherrypick-robot",
-            "engaged_at": "2026-10-12T08:23:56Z"
+            "engaged_at": "2026-10-12T11:30:16Z"
           },
           {
             "title": "chore(deps): bump argocd from 3.5.2 to 3.5.4 and image updater from 1.3.0 to 1.3.1",
@@ -9925,7 +9900,7 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 40,
+        "reviews": 38,
         "prs": [
           {
             "title": "fix(ImageUpdater): GITOPS-11648 zombie Git processes when the operator starts /manager as PID 1",
@@ -10230,22 +10205,6 @@
             "number": 1724,
             "author": "chengfang",
             "engaged_at": "2026-07-16T08:25:41Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.4.4 to 3.4.5",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1727",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1727,
-            "author": "chengfang",
-            "engaged_at": "2026-07-14T11:57:48Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.4.4 to 3.4.5",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1726",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1726,
-            "author": "chengfang",
-            "engaged_at": "2026-07-14T11:57:30Z"
           }
         ]
       },
