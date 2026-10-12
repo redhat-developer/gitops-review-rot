@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T15:11:14.908890151Z",
+  "generated_at": "2026-10-12T16:08:51.135242943Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -405,17 +405,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-08T21:47:18Z",
-      "updated_at": "2026-10-09T23:56:11Z",
+      "updated_at": "2026-10-12T15:20:33Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": []
     },
     {
@@ -1879,7 +1879,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-06T14:24:17Z",
-      "updated_at": "2026-10-12T14:40:59Z",
+      "updated_at": "2026-10-12T15:14:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1980,10 +1980,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-08T20:07:09Z",
-      "updated_at": "2026-10-12T13:23:52Z",
+      "updated_at": "2026-10-12T15:32:06Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2164,7 +2164,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-12T04:33:07Z",
-      "updated_at": "2026-10-12T14:08:12Z",
+      "updated_at": "2026-10-12T15:26:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2623,7 +2623,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-12T12:44:05Z",
-      "updated_at": "2026-10-12T14:57:35Z",
+      "updated_at": "2026-10-12T16:00:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2662,6 +2662,29 @@
       "labels": [
         "kind/enhancement"
       ]
+    },
+    {
+      "title": "chore(dependabot): use directories to cater argocd-operator gomod",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1377",
+      "number": 1377,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "ranakan19",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
+      },
+      "created_at": "2026-10-12T15:44:04Z",
+      "updated_at": "2026-10-12T15:47:57Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "feat: Add helm charts for principal",
@@ -4170,33 +4193,6 @@
       "labels": []
     },
     {
-      "title": "chore(deps): bump github.com/distribution/distribution/v3 from 3.1.1 to 3.1.2 in /registry-scanner",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1839",
-      "number": 1839,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-01T14:37:31Z",
-      "updated_at": "2026-10-12T14:45:33Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "ok-to-test"
-      ]
-    },
-    {
       "title": "fix(image): keep an explicit docker.io/library/ prefix on write-back",
       "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1853",
       "number": 1853,
@@ -4307,6 +4303,29 @@
         "count": 1,
         "approved_count": 0,
         "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore(deps): configure dependabot to upgrade across all go modules at once",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1866",
+      "number": 1866,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-10-12T15:21:30Z",
+      "updated_at": "2026-10-12T15:38:10Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -6135,7 +6154,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-14T15:09:08Z",
+    "since": "2026-07-14T16:06:34Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8573,7 +8592,7 @@
       },
       {
         "login": "jannfis",
-        "reviews": 77,
+        "reviews": 76,
         "prs": [
           {
             "title": "build(deps): Bump github.com/spiffe/go-spiffe/v2 from 2.8.2 to 2.9.0",
@@ -9182,14 +9201,6 @@
             "number": 1035,
             "author": "jgwest",
             "engaged_at": "2026-07-15T12:56:51Z"
-          },
-          {
-            "title": "build(deps): Bump golang.org/x/crypto from 0.53.0 to 0.54.0",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1033",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1033,
-            "author": "dependabot",
-            "engaged_at": "2026-07-14T15:22:06Z"
           }
         ]
       },
