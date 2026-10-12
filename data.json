@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T13:29:04.87471763Z",
+  "generated_at": "2026-10-12T14:14:39.244619612Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1523,7 +1523,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-10-12T13:13:35Z",
+      "updated_at": "2026-10-12T13:57:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1622,10 +1622,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-10-07T11:03:29Z",
+      "updated_at": "2026-10-12T14:06:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1633,7 +1633,9 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 1,
-      "labels": []
+      "labels": [
+        "needs-rebase"
+      ]
     },
     {
       "title": "fix: remove Redis-related NetworkPolicies when networkPolicy disabled",
@@ -1798,7 +1800,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-02T12:52:38Z",
-      "updated_at": "2026-10-11T15:48:36Z",
+      "updated_at": "2026-10-12T14:06:19Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1824,7 +1826,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-05T10:25:47Z",
-      "updated_at": "2026-10-12T00:46:24Z",
+      "updated_at": "2026-10-12T13:52:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1877,7 +1879,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-06T14:24:17Z",
-      "updated_at": "2026-10-12T13:00:45Z",
+      "updated_at": "2026-10-12T13:59:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1885,10 +1887,12 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 2,
-      "labels": []
+      "labels": [
+        "lgtm"
+      ]
     },
     {
       "title": "feat: add configurable replicas for backend and plugin deployments",
@@ -2159,19 +2163,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-12T04:33:07Z",
-      "updated_at": "2026-10-12T04:33:38Z",
+      "updated_at": "2026-10-12T14:08:12Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "go"
       ]
@@ -2501,33 +2505,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump github.com/argoproj/gitops-engine from 0.7.1-0.20251217140045-5baed5604d2d to 0.7.3",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1370",
-      "number": 1370,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-12T04:33:49Z",
-      "updated_at": "2026-10-12T04:34:28Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "chore(deps): bump github.com/onsi/gomega from 1.39.1 to 1.44.0",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1371",
       "number": 1371,
@@ -2670,7 +2647,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-10-12T13:08:22Z",
-      "updated_at": "2026-10-12T13:09:44Z",
+      "updated_at": "2026-10-12T13:47:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -5326,7 +5303,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-14T13:26:43Z",
+    "since": "2026-07-14T14:12:11Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6232,8 +6209,40 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 102,
+        "reviews": 104,
         "prs": [
+          {
+            "title": "test: update argocd-agent self-registration test",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1335",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1335,
+            "author": "jparsai",
+            "engaged_at": "2026-10-12T14:06:11Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/argoproj/gitops-engine from 0.7.1-0.20251217140045-5baed5604d2d to 0.7.3",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1370",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1370,
+            "author": "dependabot",
+            "engaged_at": "2026-10-12T14:03:18Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/stretchr/testify from 1.11.1 to 1.12.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1357",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1357,
+            "author": "dependabot",
+            "engaged_at": "2026-10-12T14:01:47Z"
+          },
+          {
+            "title": "chore(deps): upgrade go-git to 5.19.2 for v1.20",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1340",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1340,
+            "author": "ranakan19",
+            "engaged_at": "2026-10-12T13:58:58Z"
+          },
           {
             "title": "fix: collect all ArgoCD instances in multi-tenant deployments",
             "url": "https://github.com/redhat-developer/gitops-must-gather/pull/51",
@@ -6283,14 +6292,6 @@
             "engaged_at": "2026-10-07T11:03:29Z"
           },
           {
-            "title": "chore(deps): upgrade go-git to 5.19.2 for v1.20",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1340",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1340,
-            "author": "ranakan19",
-            "engaged_at": "2026-10-07T10:32:09Z"
-          },
-          {
             "title": "Docs: Update migration guide",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1329",
             "repo": "redhat-developer/gitops-operator",
@@ -6305,14 +6306,6 @@
             "number": 1339,
             "author": "jgwest",
             "engaged_at": "2026-10-06T06:54:39Z"
-          },
-          {
-            "title": "test: update argocd-agent self-registration test",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1335",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1335,
-            "author": "jparsai",
-            "engaged_at": "2026-10-05T12:16:50Z"
           },
           {
             "title": "feat(ui): add source integrity to project settings",
