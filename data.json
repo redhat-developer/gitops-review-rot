@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T01:33:15.020658776Z",
+  "generated_at": "2026-10-13T02:21:40.197434352Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -881,7 +881,7 @@
       "labels": []
     },
     {
-      "title": "Update dependency @types/lodash to v4.17.25",
+      "title": "Update dependency @types/lodash to v4.17.26",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/261",
       "number": 261,
       "repo": "redhat-developer/gitops-console-plugin",
@@ -890,10 +890,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-09T14:01:13Z",
-      "updated_at": "2026-09-28T01:07:18Z",
+      "updated_at": "2026-10-13T02:10:39Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1009,10 +1009,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-09-05T08:36:07Z",
-      "updated_at": "2026-10-12T10:01:40Z",
+      "updated_at": "2026-10-13T02:10:33Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -6263,7 +6263,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T01:31:16Z",
+    "since": "2026-07-15T02:19:54Z",
     "reviewers": [
       {
         "login": "chengfang",
