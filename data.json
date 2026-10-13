@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T21:07:19.387776308Z",
+  "generated_at": "2026-10-13T22:07:23.4775586Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -3122,6 +3122,110 @@
       "labels": []
     },
     {
+      "title": "build(deps): Bump github.com/alicebob/miniredis/v2 from 2.39.0 to 2.40.0",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1145",
+      "number": 1145,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-13T21:33:14Z",
+      "updated_at": "2026-10-13T21:33:26Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "build(deps): Bump github.com/prometheus/client_golang from 1.24.1 to 1.25.0",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1146",
+      "number": 1146,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-13T21:33:19Z",
+      "updated_at": "2026-10-13T21:33:29Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "build(deps): Bump github.com/argoproj/argo-cd/v3 from 3.5.3 to 3.5.4",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1147",
+      "number": 1147,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-13T21:33:35Z",
+      "updated_at": "2026-10-13T21:33:47Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "build(deps): Bump golang.org/x/crypto from 0.57.0 to 0.58.0",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1148",
+      "number": 1148,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-13T21:34:28Z",
+      "updated_at": "2026-10-13T21:34:40Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go"
+      ]
+    },
+    {
       "title": "Add OAuth support. It is need for access to Azure CR",
       "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/224",
       "number": 224,
@@ -5160,7 +5264,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T21:05:28Z",
+    "since": "2026-07-15T22:04:57Z",
     "reviewers": [
       {
         "login": "chengfang",
