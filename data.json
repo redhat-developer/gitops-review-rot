@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T03:13:43.22677387Z",
+  "generated_at": "2026-10-13T04:12:39.317310143Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1012,7 +1012,7 @@
       "updated_at": "2026-10-13T02:10:33Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3102,17 +3102,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56375916?u=4a63738f1f8b39fa36919ff033c9f30c9b816d66\u0026v=4"
       },
       "created_at": "2026-09-15T15:02:15Z",
-      "updated_at": "2026-10-12T20:44:23Z",
+      "updated_at": "2026-10-13T03:42:18Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -4191,17 +4191,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
       },
       "created_at": "2026-10-06T21:32:25Z",
-      "updated_at": "2026-10-13T03:06:31Z",
+      "updated_at": "2026-10-13T03:46:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 4,
       "labels": [
         "ok-to-test"
       ]
@@ -6209,12 +6209,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T03:11:45Z",
+    "since": "2026-07-15T04:10:45Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 113,
+        "reviews": 114,
         "prs": [
+          {
+            "title": "fix(webhook): move the TLS keypair out of the trust store directory",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1856",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1856,
+            "author": "rishabhvenu",
+            "engaged_at": "2026-10-13T03:46:07Z"
+          },
           {
             "title": "chore(deps): bump github.com/distribution/distribution/v3 from 3.1.1 to 3.1.2 in /registry-scanner",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1839",
