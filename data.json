@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T16:08:19.375900859Z",
+  "generated_at": "2026-10-13T17:08:18.911823769Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1425,7 +1425,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-10-13T13:57:40Z",
+      "updated_at": "2026-10-13T16:09:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1433,12 +1433,11 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement",
-        "lgtm",
         "approved"
       ]
     },
@@ -1551,7 +1550,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-09-29T09:39:33Z",
-      "updated_at": "2026-10-13T12:58:28Z",
+      "updated_at": "2026-10-13T16:37:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1628,10 +1627,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-05T13:24:16Z",
-      "updated_at": "2026-10-13T15:13:35Z",
+      "updated_at": "2026-10-13T16:49:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1756,10 +1755,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-09T16:22:55Z",
-      "updated_at": "2026-10-13T09:49:55Z",
+      "updated_at": "2026-10-13T16:35:27Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1860,7 +1859,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-12T04:33:07Z",
-      "updated_at": "2026-10-13T14:27:54Z",
+      "updated_at": "2026-10-13T16:53:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2263,7 +2262,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-10-12T13:08:22Z",
-      "updated_at": "2026-10-13T10:46:28Z",
+      "updated_at": "2026-10-13T16:14:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -4168,33 +4167,6 @@
       "labels": []
     },
     {
-      "title": "chore(deps): bump github.com/prometheus/client_golang in /",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1868",
-      "number": 1868,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-12T18:41:32Z",
-      "updated_at": "2026-10-13T15:25:31Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "ok-to-test"
-      ]
-    },
-    {
       "title": "chore(deps): bump github.com/skeema/knownhosts in /",
       "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1869",
       "number": 1869,
@@ -4204,20 +4176,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-12T18:41:36Z",
-      "updated_at": "2026-10-13T14:21:43Z",
+      "updated_at": "2026-10-13T16:42:33Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
         "dependencies",
-        "go"
+        "go",
+        "ok-to-test"
       ]
     },
     {
@@ -4256,10 +4229,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-12T18:41:54Z",
-      "updated_at": "2026-10-13T14:20:50Z",
+      "updated_at": "2026-10-13T16:33:06Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5184,7 +5157,7 @@
       "updated_at": "2026-10-13T14:10:26Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5230,7 +5203,7 @@
       "updated_at": "2026-10-13T15:41:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -6071,6 +6044,75 @@
       "labels": []
     },
     {
+      "title": "chore(deps): bump dompurify for release-3.3",
+      "url": "https://github.com/argoproj/argo-cd/pull/30174",
+      "number": 30174,
+      "repo": "argoproj/argo-cd",
+      "author": {
+        "login": "ranakan19",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
+      },
+      "created_at": "2026-10-13T16:50:07Z",
+      "updated_at": "2026-10-13T16:50:21Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore(deps): bump dompurify for release-3.4",
+      "url": "https://github.com/argoproj/argo-cd/pull/30175",
+      "number": 30175,
+      "repo": "argoproj/argo-cd",
+      "author": {
+        "login": "ranakan19",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
+      },
+      "created_at": "2026-10-13T16:53:44Z",
+      "updated_at": "2026-10-13T16:54:01Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore(deps): bump dompurify for release-3.5",
+      "url": "https://github.com/argoproj/argo-cd/pull/30176",
+      "number": 30176,
+      "repo": "argoproj/argo-cd",
+      "author": {
+        "login": "ranakan19",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
+      },
+      "created_at": "2026-10-13T17:02:41Z",
+      "updated_at": "2026-10-13T17:05:20Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
       "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
       "number": 4763,
@@ -6096,12 +6138,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T16:06:17Z",
+    "since": "2026-07-15T17:06:21Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 121,
+        "reviews": 122,
         "prs": [
+          {
+            "title": "chore(deps): bump github.com/prometheus/client_golang in /",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1868",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1868,
+            "author": "dependabot",
+            "engaged_at": "2026-10-13T16:29:48Z"
+          },
           {
             "title": "chore(deps): bump github.com/go-git/go-git/v5 in /",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1867",
