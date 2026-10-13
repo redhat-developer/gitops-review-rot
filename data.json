@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T02:21:40.197434352Z",
+  "generated_at": "2026-10-13T03:13:43.22677387Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -499,7 +499,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-19T02:32:22Z",
-      "updated_at": "2026-10-10T05:28:24Z",
+      "updated_at": "2026-10-13T02:25:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -893,7 +893,7 @@
       "updated_at": "2026-10-13T02:10:39Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1929,10 +1929,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-08T07:55:27Z",
-      "updated_at": "2026-10-12T19:33:15Z",
+      "updated_at": "2026-10-13T02:20:44Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1942,33 +1942,6 @@
       "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
-      ]
-    },
-    {
-      "title": "chore(deps): bump argocd from 3.5.2 to 3.5.4 and image updater from 1.3.0 to 1.3.1",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1348",
-      "number": 1348,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-10-08T20:07:09Z",
-      "updated_at": "2026-10-12T21:38:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/enhancement",
-        "lgtm",
-        "approved"
       ]
     },
     {
@@ -2007,10 +1980,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-09T16:22:55Z",
-      "updated_at": "2026-10-12T21:01:40Z",
+      "updated_at": "2026-10-13T02:20:45Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2048,33 +2021,6 @@
       ]
     },
     {
-      "title": "[v1.22] GITOPS-11466: Detect Route API before Config API gate in InspectCluster",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1354",
-      "number": 1354,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "openshift-cherrypick-robot",
-        "avatar_url": "https://avatars.githubusercontent.com/u/33322735?u=889ab9c77ca84f769a19d9d9ad7c8621daffd8f8\u0026v=4"
-      },
-      "created_at": "2026-10-12T04:28:01Z",
-      "updated_at": "2026-10-12T18:10:41Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "lgtm",
-        "approved",
-        "ok-to-test"
-      ]
-    },
-    {
       "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.45.0",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1355",
       "number": 1355,
@@ -2084,7 +2030,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-12T04:33:02Z",
-      "updated_at": "2026-10-12T04:33:19Z",
+      "updated_at": "2026-10-13T03:06:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4245,7 +4191,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
       },
       "created_at": "2026-10-06T21:32:25Z",
-      "updated_at": "2026-10-12T18:06:54Z",
+      "updated_at": "2026-10-13T03:06:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -6263,7 +6209,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T02:19:54Z",
+    "since": "2026-07-15T03:11:45Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8034,20 +7980,20 @@
         "reviews": 85,
         "prs": [
           {
-            "title": "[v1.22] GITOPS-11466: Detect Route API before Config API gate in InspectCluster",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1354",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1354,
-            "author": "openshift-cherrypick-robot",
-            "engaged_at": "2026-10-12T18:10:41Z"
-          },
-          {
             "title": "chore(deps): bump argocd from 3.5.2 to 3.5.4 and image updater from 1.3.0 to 1.3.1",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1348",
             "repo": "redhat-developer/gitops-operator",
             "number": 1348,
             "author": "chengfang",
-            "engaged_at": "2026-10-12T18:10:07Z"
+            "engaged_at": "2026-10-13T03:03:10Z"
+          },
+          {
+            "title": "[v1.22] GITOPS-11466: Detect Route API before Config API gate in InspectCluster",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1354",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1354,
+            "author": "openshift-cherrypick-robot",
+            "engaged_at": "2026-10-13T02:44:49Z"
           },
           {
             "title": "fix: Image Updater fails to start with TLS 1.3 cipher suites when cluster TLS profile uses TLS 1.2 minimum",
