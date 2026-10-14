@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T09:08:41.241449217Z",
+  "generated_at": "2026-10-14T10:08:58.483239045Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1575,10 +1575,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-01T16:24:17Z",
-      "updated_at": "2026-10-14T07:55:09Z",
+      "updated_at": "2026-10-14T09:52:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1587,8 +1587,7 @@
       },
       "unresolved_conversations": 1,
       "labels": [
-        "approved",
-        "needs-rebase"
+        "approved"
       ]
     },
     {
@@ -1972,10 +1971,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-12T04:33:30Z",
-      "updated_at": "2026-10-14T05:59:19Z",
+      "updated_at": "2026-10-14T09:27:15Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2211,10 +2210,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-13T08:13:50Z",
-      "updated_at": "2026-10-14T05:59:36Z",
+      "updated_at": "2026-10-14T09:28:18Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2319,10 +2318,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-13T08:14:20Z",
-      "updated_at": "2026-10-14T05:59:10Z",
+      "updated_at": "2026-10-14T09:28:27Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2423,14 +2422,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-14T06:24:55Z",
-      "updated_at": "2026-10-14T08:32:40Z",
+      "updated_at": "2026-10-14T09:44:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
+        "count": 2,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -2480,7 +2479,7 @@
       "updated_at": "2026-10-14T08:53:40Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5979,7 +5978,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-06T07:10:10Z",
-      "updated_at": "2026-10-13T18:21:43Z",
+      "updated_at": "2026-10-14T10:03:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5987,7 +5986,7 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 10,
       "labels": []
@@ -6041,7 +6040,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T09:06:28Z",
+    "since": "2026-07-16T10:06:38Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10995,8 +10994,16 @@
       },
       {
         "login": "anandf",
-        "reviews": 31,
+        "reviews": 32,
         "prs": [
+          {
+            "title": "chore: fix lint error in v1.20",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1395",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1395,
+            "author": "jgwest",
+            "engaged_at": "2026-10-14T09:44:20Z"
+          },
           {
             "title": "OCPBUGS-120842: apply default-instance node selectors on the namespace",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1276",
