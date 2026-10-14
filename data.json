@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T00:12:48.961675685Z",
+  "generated_at": "2026-10-14T01:19:53.579309371Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1728,7 +1728,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-09T16:22:55Z",
-      "updated_at": "2026-10-13T18:01:40Z",
+      "updated_at": "2026-10-14T00:48:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2251,33 +2251,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump github.com/operator-framework/api from 0.17.5 to 0.45.0",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1379",
-      "number": 1379,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-13T08:13:51Z",
-      "updated_at": "2026-10-13T08:22:18Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "chore(deps): bump github.com/onsi/ginkgo/v2 from 2.28.1 to 2.33.1",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1380",
       "number": 1380,
@@ -2386,33 +2359,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump github.com/operator-framework/api from 0.17.5 to 0.45.0 in /argocd-operator",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1387",
-      "number": 1387,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-13T08:14:54Z",
-      "updated_at": "2026-10-13T08:18:54Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring from 0.74.0 to 0.94.1 in /argocd-operator",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1388",
       "number": 1388,
@@ -2449,7 +2395,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-13T08:15:06Z",
-      "updated_at": "2026-10-13T23:42:59Z",
+      "updated_at": "2026-10-14T01:11:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2477,6 +2423,29 @@
       },
       "created_at": "2026-10-13T20:00:20Z",
       "updated_at": "2026-10-13T23:47:14Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(dependabot): group by dependency when multiple directories are supported",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1394",
+      "number": 1394,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "ranakan19",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
+      },
+      "created_at": "2026-10-14T00:15:15Z",
+      "updated_at": "2026-10-14T00:17:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -6015,75 +5984,6 @@
       "labels": []
     },
     {
-      "title": "chore(deps): bump dompurify for release-3.3",
-      "url": "https://github.com/argoproj/argo-cd/pull/30174",
-      "number": 30174,
-      "repo": "argoproj/argo-cd",
-      "author": {
-        "login": "ranakan19",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
-      },
-      "created_at": "2026-10-13T16:50:07Z",
-      "updated_at": "2026-10-13T16:50:21Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): bump dompurify for release-3.4",
-      "url": "https://github.com/argoproj/argo-cd/pull/30175",
-      "number": 30175,
-      "repo": "argoproj/argo-cd",
-      "author": {
-        "login": "ranakan19",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
-      },
-      "created_at": "2026-10-13T16:53:44Z",
-      "updated_at": "2026-10-13T16:54:01Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): bump dompurify for release-3.5",
-      "url": "https://github.com/argoproj/argo-cd/pull/30176",
-      "number": 30176,
-      "repo": "argoproj/argo-cd",
-      "author": {
-        "login": "ranakan19",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
-      },
-      "created_at": "2026-10-13T17:02:41Z",
-      "updated_at": "2026-10-13T17:05:20Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "chore(deps): bump google.golang.org/grpc to 1.83.2",
       "url": "https://github.com/argoproj/argo-cd/pull/30177",
       "number": 30177,
@@ -6132,11 +6032,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T00:10:45Z",
+    "since": "2026-07-16T01:18:10Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 125,
+        "reviews": 123,
         "prs": [
           {
             "title": "chore(deps): bump golang.org/x/sync in /registry-scanner",
@@ -7121,22 +7021,6 @@
             "number": 1731,
             "author": "chansuke",
             "engaged_at": "2026-07-17T13:39:59Z"
-          },
-          {
-            "title": "chore(deps): Update x/net to avoid CVE-2026-27136 (v1.1)",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1730",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1730,
-            "author": "olivergondza",
-            "engaged_at": "2026-07-16T01:16:52Z"
-          },
-          {
-            "title": "chore(deps): Update x/net to avoid CVE-2026-27136 (v1.0)",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1729",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1729,
-            "author": "olivergondza",
-            "engaged_at": "2026-07-16T01:16:06Z"
           }
         ]
       },
@@ -10712,8 +10596,24 @@
       },
       {
         "login": "ranakan19",
-        "reviews": 33,
+        "reviews": 35,
         "prs": [
+          {
+            "title": "chore(deps): bump github.com/operator-framework/api from 0.17.5 to 0.45.0 in /argocd-operator",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1387",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1387,
+            "author": "dependabot",
+            "engaged_at": "2026-10-14T00:33:19Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/operator-framework/api from 0.17.5 to 0.45.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1379",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1379,
+            "author": "dependabot",
+            "engaged_at": "2026-10-14T00:31:16Z"
+          },
           {
             "title": "chore(deps): bump github.com/onsi/ginkgo/v2 from 2.28.1 to 2.33.1",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1380",
