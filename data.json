@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T03:09:13.971611743Z",
+  "generated_at": "2026-10-14T04:08:16.493915842Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -6032,7 +6032,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T03:07:05Z",
+    "since": "2026-07-16T04:06:10Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7904,7 +7904,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 85,
+        "reviews": 83,
         "prs": [
           {
             "title": "chore(deps): update go-git, argocd, go-scm and golang",
@@ -8569,22 +8569,6 @@
             "number": 2273,
             "author": "akhilnittala",
             "engaged_at": "2026-07-21T04:39:11Z"
-          },
-          {
-            "title": "chore(deps): Update x/net to avoid CVE-2026-27136",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2282",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2282,
-            "author": "olivergondza",
-            "engaged_at": "2026-07-16T03:51:08Z"
-          },
-          {
-            "title": "chore(deps): Update x/net to avoid CVE-2026-27136",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2283",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2283,
-            "author": "olivergondza",
-            "engaged_at": "2026-07-16T03:50:16Z"
           }
         ]
       },
