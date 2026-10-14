@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T19:07:56.030235959Z",
+  "generated_at": "2026-10-14T20:07:21.167772388Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -961,17 +961,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-10-09T16:58:27Z",
-      "updated_at": "2026-10-09T18:28:33Z",
+      "updated_at": "2026-10-14T19:29:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 5,
       "labels": [
         "ok-to-test"
       ]
@@ -1626,20 +1626,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-06T14:24:17Z",
-      "updated_at": "2026-10-14T12:37:12Z",
+      "updated_at": "2026-10-14T19:58:40Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 2,
-      "labels": [
-        "lgtm"
-      ]
+      "labels": []
     },
     {
       "title": "feat: add configurable replicas for backend and plugin deployments",
@@ -1676,7 +1674,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-08T20:35:20Z",
-      "updated_at": "2026-10-14T19:02:32Z",
+      "updated_at": "2026-10-14T19:19:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2448,7 +2446,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-14T11:57:34Z",
-      "updated_at": "2026-10-14T19:01:48Z",
+      "updated_at": "2026-10-14T19:21:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5128,7 +5126,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T19:05:20Z",
+    "since": "2026-07-16T20:05:20Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9582,8 +9580,16 @@
       },
       {
         "login": "aali309",
-        "reviews": 35,
+        "reviews": 36,
         "prs": [
+          {
+            "title": "feat: add OCI Generator for AppSet",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/307",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 307,
+            "author": "dkarpele",
+            "engaged_at": "2026-10-14T19:29:34Z"
+          },
           {
             "title": "release-4.18: return null from rollout decorator so Topology URL links render (#11176)",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/300",
