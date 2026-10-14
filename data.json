@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T07:12:43.476572056Z",
+  "generated_at": "2026-10-14T08:08:53.670585048Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1425,10 +1425,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-10-13T18:42:51Z",
+      "updated_at": "2026-10-14T07:53:19Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1451,7 +1451,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1478202?v=4"
       },
       "created_at": "2026-09-24T15:35:45Z",
-      "updated_at": "2026-10-14T05:50:50Z",
+      "updated_at": "2026-10-14T07:37:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1575,7 +1575,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-01T16:24:17Z",
-      "updated_at": "2026-10-12T20:31:38Z",
+      "updated_at": "2026-10-14T07:55:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1587,7 +1587,8 @@
       },
       "unresolved_conversations": 1,
       "labels": [
-        "approved"
+        "approved",
+        "needs-rebase"
       ]
     },
     {
@@ -1677,7 +1678,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-08T07:55:27Z",
-      "updated_at": "2026-10-14T04:35:32Z",
+      "updated_at": "2026-10-14T08:04:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1728,7 +1729,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-09T16:22:55Z",
-      "updated_at": "2026-10-14T06:30:38Z",
+      "updated_at": "2026-10-14T07:59:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1736,9 +1737,9 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement"
       ]
@@ -2341,7 +2342,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-13T08:14:58Z",
-      "updated_at": "2026-10-14T07:02:42Z",
+      "updated_at": "2026-10-14T07:17:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2433,6 +2434,33 @@
         "lgtm",
         "approved",
         "kind/failing-ci"
+      ]
+    },
+    {
+      "title": "test updates for 1.22.2 release",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1396",
+      "number": 1396,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "trdoyle81",
+        "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
+      },
+      "created_at": "2026-10-14T07:14:43Z",
+      "updated_at": "2026-10-14T07:29:17Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "lgtm",
+        "approved",
+        "kind/failing-test"
       ]
     },
     {
@@ -6009,7 +6037,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T07:10:37Z",
+    "since": "2026-07-16T08:06:53Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7881,8 +7909,16 @@
       },
       {
         "login": "svghadi",
-        "reviews": 85,
+        "reviews": 86,
         "prs": [
+          {
+            "title": "test updates for 1.22.2 release",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1396",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1396,
+            "author": "trdoyle81",
+            "engaged_at": "2026-10-14T07:29:08Z"
+          },
           {
             "title": "feat(tls): Configure TLS Curve Preferences for Redis HA Proxy",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1351",
