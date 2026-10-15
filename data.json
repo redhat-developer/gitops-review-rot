@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T11:07:18.694218011Z",
+  "generated_at": "2026-10-15T12:10:43.23456156Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1524,10 +1524,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-01T16:24:17Z",
-      "updated_at": "2026-10-15T09:29:34Z",
+      "updated_at": "2026-10-15T11:45:56Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1785,15 +1785,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-12T04:33:55Z",
-      "updated_at": "2026-10-15T09:13:41Z",
+      "updated_at": "2026-10-15T11:59:26Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -1812,13 +1812,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-12T04:34:06Z",
-      "updated_at": "2026-10-12T12:02:48Z",
+      "updated_at": "2026-10-15T11:58:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -1839,10 +1839,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-10-12T13:08:22Z",
-      "updated_at": "2026-10-15T10:41:54Z",
+      "updated_at": "2026-10-15T11:33:56Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1993,10 +1993,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-14T23:33:27Z",
-      "updated_at": "2026-10-15T10:14:31Z",
+      "updated_at": "2026-10-15T11:56:06Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2018,7 +2018,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-15T00:46:08Z",
-      "updated_at": "2026-10-15T07:04:41Z",
+      "updated_at": "2026-10-15T11:58:03Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2032,29 +2032,6 @@
       "labels": [
         "kind/cleanup"
       ]
-    },
-    {
-      "title": "fix(e2e) : ignore notFoundError on update on v1.20",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1403",
-      "number": 1403,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "ranakan19",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
-      },
-      "created_at": "2026-10-15T03:31:07Z",
-      "updated_at": "2026-10-15T10:29:25Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 2,
-      "labels": []
     },
     {
       "title": "feat: override operator emptyDir volumes with generic ephemeral volumes",
@@ -2095,7 +2072,7 @@
       "updated_at": "2026-10-15T10:29:14Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2174,7 +2151,7 @@
       "updated_at": "2026-10-15T07:27:17Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2441,7 +2418,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T07:22:05Z",
-      "updated_at": "2026-10-15T07:41:47Z",
+      "updated_at": "2026-10-15T12:01:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2449,7 +2426,7 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -5065,10 +5042,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
       },
       "created_at": "2026-10-14T15:21:32Z",
-      "updated_at": "2026-10-14T20:30:55Z",
+      "updated_at": "2026-10-15T12:05:42Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5957,7 +5934,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-17T11:05:19Z",
+    "since": "2026-07-17T12:08:23Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8563,8 +8540,16 @@
       },
       {
         "login": "jgwest",
-        "reviews": 80,
+        "reviews": 81,
         "prs": [
+          {
+            "title": "chore(deps): bump github.com/go-logr/logr from 1.4.3 to 1.4.4",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1374",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1374,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T11:58:45Z"
+          },
           {
             "title": "chore(deps): bump k8s.io/apimachinery from 0.34.1 to 0.37.1",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1419",
@@ -9209,7 +9194,7 @@
       },
       {
         "login": "jannfis",
-        "reviews": 79,
+        "reviews": 78,
         "prs": [
           {
             "title": "fix(helm): update principal chart app version",
@@ -9834,14 +9819,6 @@
             "number": 1039,
             "author": "dependabot",
             "engaged_at": "2026-07-17T14:17:23Z"
-          },
-          {
-            "title": "feat(dex): Making Dex storage type and config configurable from argocd-cm configmap",
-            "url": "https://github.com/argoproj/argo-cd/pull/28624",
-            "repo": "argoproj/argo-cd",
-            "number": 28624,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-17T12:04:42Z"
           }
         ]
       },
