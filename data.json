@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T02:08:54.112767783Z",
+  "generated_at": "2026-10-15T03:08:13.577947854Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1246,7 +1246,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-07-08T12:30:58Z",
-      "updated_at": "2026-10-14T15:31:34Z",
+      "updated_at": "2026-10-15T02:53:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1254,7 +1254,7 @@
       "reviews": {
         "count": 4,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -1540,31 +1540,6 @@
       ]
     },
     {
-      "title": "fix: prevent infinite reconcile loop when NamespaceManagement is disabled",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1325",
-      "number": 1325,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-09-29T11:40:46Z",
-      "updated_at": "2026-10-15T01:25:46Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "kind/bug"
-      ]
-    },
-    {
       "title": "fix: Rename inner module from argoproj-labs to redhat-developer",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1334",
       "number": 1334,
@@ -1599,10 +1574,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-05T13:24:16Z",
-      "updated_at": "2026-10-14T08:32:52Z",
+      "updated_at": "2026-10-15T02:53:59Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1702,20 +1677,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-09T16:22:55Z",
-      "updated_at": "2026-10-14T18:17:10Z",
+      "updated_at": "2026-10-15T02:55:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
+        "approved_count": 0,
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement",
-        "lgtm",
         "approved"
       ]
     },
@@ -1970,7 +1944,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-12T04:33:55Z",
-      "updated_at": "2026-10-15T01:19:37Z",
+      "updated_at": "2026-10-15T02:55:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2265,7 +2239,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-14T00:15:15Z",
-      "updated_at": "2026-10-15T01:17:06Z",
+      "updated_at": "2026-10-15T02:46:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2339,7 +2313,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-14T23:33:27Z",
-      "updated_at": "2026-10-15T00:58:41Z",
+      "updated_at": "2026-10-15T03:01:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -4040,7 +4014,7 @@
       "updated_at": "2026-10-15T01:58:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5899,7 +5873,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-17T02:07:05Z",
+    "since": "2026-07-17T03:06:11Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7806,20 +7780,20 @@
             "engaged_at": "2026-10-14T11:18:01Z"
           },
           {
-            "title": "feat(tls): Configure TLS Curve Preferences for Redis HA Proxy",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1351",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1351,
-            "author": "akhilnittala",
-            "engaged_at": "2026-10-14T08:48:33Z"
-          },
-          {
             "title": "test updates for 1.22.2 release",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1396",
             "repo": "redhat-developer/gitops-operator",
             "number": 1396,
             "author": "trdoyle81",
             "engaged_at": "2026-10-14T07:29:08Z"
+          },
+          {
+            "title": "feat(tls): Configure TLS Curve Preferences for Redis HA Proxy",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1351",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1351,
+            "author": "akhilnittala",
+            "engaged_at": "2026-10-14T06:30:37Z"
           },
           {
             "title": "chore: fix lint error in v1.20",
@@ -9138,6 +9112,22 @@
         "reviews": 73,
         "prs": [
           {
+            "title": "fix: prevent infinite reconcile loop when NamespaceManagement is disabled",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1325",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1325,
+            "author": "Rizwana777",
+            "engaged_at": "2026-10-15T02:56:01Z"
+          },
+          {
+            "title": "feat: prevent openshift-gitops namespace creation when DISABLE_DEFAULT_ARGOCD_INSTANCE=true",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1206",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1206,
+            "author": "Rizwana777",
+            "engaged_at": "2026-10-15T02:40:13Z"
+          },
+          {
             "title": "chore(deps): bump sigs.k8s.io/controller-runtime from 0.24.1 to 0.25.2",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1367",
             "repo": "redhat-developer/gitops-operator",
@@ -9184,14 +9174,6 @@
             "number": 1394,
             "author": "ranakan19",
             "engaged_at": "2026-10-15T01:16:41Z"
-          },
-          {
-            "title": "fix: prevent infinite reconcile loop when NamespaceManagement is disabled",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1325",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1325,
-            "author": "Rizwana777",
-            "engaged_at": "2026-10-15T01:14:50Z"
           },
           {
             "title": "chore(deps): bump github.com/cert-manager/cert-manager from 1.20.3 to 1.21.2",
@@ -9384,14 +9366,6 @@
             "number": 1300,
             "author": "jparsai",
             "engaged_at": "2026-09-24T06:02:48Z"
-          },
-          {
-            "title": "feat: prevent openshift-gitops namespace creation when DISABLE_DEFAULT_ARGOCD_INSTANCE=true",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1206",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1206,
-            "author": "Rizwana777",
-            "engaged_at": "2026-09-23T06:46:06Z"
           },
           {
             "title": "fix: tmp not writable for promoter controller deployment",
