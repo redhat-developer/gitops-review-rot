@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T00:12:18.197364728Z",
+  "generated_at": "2026-10-15T01:19:00.422094439Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1549,15 +1549,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-09-29T11:40:46Z",
-      "updated_at": "2026-10-14T13:10:42Z",
+      "updated_at": "2026-10-15T01:14:51Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 2,
       "labels": [
@@ -2393,7 +2393,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-14T23:33:27Z",
-      "updated_at": "2026-10-14T23:42:06Z",
+      "updated_at": "2026-10-15T00:58:41Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2403,7 +2403,32 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 1,
+      "labels": [
+        "kind/cleanup"
+      ]
+    },
+    {
+      "title": "chore: move some safe sequential E2E tests to parallel",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1401",
+      "number": 1401,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-10-15T00:46:08Z",
+      "updated_at": "2026-10-15T01:12:59Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
       "labels": [
         "kind/cleanup"
       ]
@@ -5878,7 +5903,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-17T00:10:11Z",
+    "since": "2026-07-17T01:16:56Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9114,8 +9139,24 @@
       },
       {
         "login": "jgwest",
-        "reviews": 71,
+        "reviews": 72,
         "prs": [
+          {
+            "title": "fix(dependabot): group by dependency when multiple directories are supported",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1394",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1394,
+            "author": "ranakan19",
+            "engaged_at": "2026-10-15T01:16:41Z"
+          },
+          {
+            "title": "fix: prevent infinite reconcile loop when NamespaceManagement is disabled",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1325",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1325,
+            "author": "Rizwana777",
+            "engaged_at": "2026-10-15T01:14:50Z"
+          },
           {
             "title": "chore(deps): bump github.com/cert-manager/cert-manager from 1.20.3 to 1.21.2",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1362",
@@ -9259,14 +9300,6 @@
             "number": 1333,
             "author": "jparsai",
             "engaged_at": "2026-10-13T15:44:43Z"
-          },
-          {
-            "title": "fix: prevent infinite reconcile loop when NamespaceManagement is disabled",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1325",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1325,
-            "author": "Rizwana777",
-            "engaged_at": "2026-10-13T14:45:22Z"
           },
           {
             "title": "chore(deps): bump golang.org/x/mod from 0.40.0 to 0.42.0",
