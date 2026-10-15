@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T01:19:00.422094439Z",
+  "generated_at": "2026-10-15T02:08:54.112767783Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1549,7 +1549,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-09-29T11:40:46Z",
-      "updated_at": "2026-10-15T01:14:51Z",
+      "updated_at": "2026-10-15T01:25:46Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1880,33 +1880,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump golang.org/x/crypto from 0.56.0 to 0.57.0",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1365",
-      "number": 1365,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-12T04:33:26Z",
-      "updated_at": "2026-10-14T08:53:40Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "chore(deps): bump github.com/onsi/gomega from 1.41.0 to 1.44.0",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1366",
       "number": 1366,
@@ -1943,37 +1916,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-12T04:33:33Z",
-      "updated_at": "2026-10-14T06:35:12Z",
+      "updated_at": "2026-10-15T01:38:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
-      "title": "chore(deps): bump github.com/argoproj-labs/argo-rollouts-manager from 0.0.9-0.20260505092152-3e07addcb2cb to 0.0.9",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1369",
-      "number": 1369,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-12T04:33:37Z",
-      "updated_at": "2026-10-14T05:55:45Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2024,19 +1970,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-12T04:33:55Z",
-      "updated_at": "2026-10-12T04:34:32Z",
+      "updated_at": "2026-10-15T01:19:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "go"
       ]
@@ -2238,10 +2184,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-13T08:14:20Z",
-      "updated_at": "2026-10-14T23:38:46Z",
+      "updated_at": "2026-10-15T01:27:37Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2319,13 +2265,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-14T00:15:15Z",
-      "updated_at": "2026-10-15T00:07:05Z",
+      "updated_at": "2026-10-15T01:17:06Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -2418,7 +2364,32 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-15T00:46:08Z",
-      "updated_at": "2026-10-15T01:12:59Z",
+      "updated_at": "2026-10-15T01:15:04Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/cleanup"
+      ]
+    },
+    {
+      "title": "chore: add test frameworks to dependabot ignore list",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1402",
+      "number": 1402,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-10-15T01:36:02Z",
+      "updated_at": "2026-10-15T01:44:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -4055,6 +4026,31 @@
       },
       "unresolved_conversations": 1,
       "labels": []
+    },
+    {
+      "title": "fix(helmvalues): stop rewriting Helm image parameters the updater did not resolve",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1876",
+      "number": 1876,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-10-15T01:52:48Z",
+      "updated_at": "2026-10-15T01:58:55Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "ok-to-test"
+      ]
     },
     {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
@@ -5903,7 +5899,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-17T01:16:56Z",
+    "since": "2026-07-17T02:07:05Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9139,8 +9135,48 @@
       },
       {
         "login": "jgwest",
-        "reviews": 72,
+        "reviews": 73,
         "prs": [
+          {
+            "title": "chore(deps): bump sigs.k8s.io/controller-runtime from 0.24.1 to 0.25.2",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1367",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1367,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T01:38:05Z"
+          },
+          {
+            "title": "chore(deps): bump golang.org/x/crypto from 0.56.0 to 0.58.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1384",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1384,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T01:27:37Z"
+          },
+          {
+            "title": "chore(deps): bump golang.org/x/crypto from 0.56.0 to 0.57.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1365",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1365,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T01:25:43Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/argoproj-labs/argo-rollouts-manager from 0.0.9-0.20260505092152-3e07addcb2cb to 0.0.9",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1369",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1369,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T01:23:30Z"
+          },
+          {
+            "title": "chore(deps): bump go.uber.org/zap from 1.27.1 to 1.28.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1372",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1372,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T01:19:33Z"
+          },
           {
             "title": "fix(dependabot): group by dependency when multiple directories are supported",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1394",
@@ -9182,14 +9218,6 @@
             "engaged_at": "2026-10-14T21:31:53Z"
           },
           {
-            "title": "chore(deps): bump golang.org/x/crypto from 0.56.0 to 0.58.0",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1384",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1384,
-            "author": "dependabot",
-            "engaged_at": "2026-10-14T21:30:11Z"
-          },
-          {
             "title": "chore: upgrade promoter to 0.35.1",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1399",
             "repo": "redhat-developer/gitops-operator",
@@ -9204,14 +9232,6 @@
             "number": 1360,
             "author": "dependabot",
             "engaged_at": "2026-10-14T06:42:33Z"
-          },
-          {
-            "title": "chore(deps): bump golang.org/x/crypto from 0.56.0 to 0.57.0",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1365",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1365,
-            "author": "dependabot",
-            "engaged_at": "2026-10-14T06:42:12Z"
           },
           {
             "title": "chore(deps): bump github.com/onsi/ginkgo/v2 from 2.32.0 to 2.33.1",
@@ -9262,28 +9282,12 @@
             "engaged_at": "2026-10-14T05:56:46Z"
           },
           {
-            "title": "chore(deps): bump sigs.k8s.io/controller-runtime from 0.24.1 to 0.25.2",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1367",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1367,
-            "author": "dependabot",
-            "engaged_at": "2026-10-14T05:56:10Z"
-          },
-          {
             "title": "chore(deps): bump sigs.k8s.io/controller-runtime from 0.23.1 to 0.25.2",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1356",
             "repo": "redhat-developer/gitops-operator",
             "number": 1356,
             "author": "dependabot",
             "engaged_at": "2026-10-14T05:55:55Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/argoproj-labs/argo-rollouts-manager from 0.0.9-0.20260505092152-3e07addcb2cb to 0.0.9",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1369",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1369,
-            "author": "dependabot",
-            "engaged_at": "2026-10-14T05:55:42Z"
           },
           {
             "title": "chore(deps): bump github.com/operator-framework/api from 0.17.5 to 0.45.0",
