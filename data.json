@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:07:57.479088635Z",
+  "generated_at": "2026-10-15T20:07:00.733698276Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1838,7 +1838,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-10-12T13:08:22Z",
-      "updated_at": "2026-10-15T15:52:14Z",
+      "updated_at": "2026-10-15T19:14:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2282,7 +2282,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T07:22:01Z",
-      "updated_at": "2026-10-15T16:25:38Z",
+      "updated_at": "2026-10-15T19:57:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2454,6 +2454,87 @@
       "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
+      ]
+    },
+    {
+      "title": "chore(deps): bump github.com/argoproj/argo-cd/v3 from 3.5.2 to 3.5.5",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1426",
+      "number": 1426,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-15T19:14:43Z",
+      "updated_at": "2026-10-15T19:17:03Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "chore(deps): bump github.com/hashicorp/go-version from 1.7.0 to 1.9.0",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1427",
+      "number": 1427,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-15T19:15:04Z",
+      "updated_at": "2026-10-15T19:15:19Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "chore(deps): bump github.com/argoproj/argo-cd/v3 from 3.5.2 to 3.5.5 in /argocd-operator",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1428",
+      "number": 1428,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-15T19:15:12Z",
+      "updated_at": "2026-10-15T19:33:25Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
       ]
     },
     {
@@ -5048,11 +5129,34 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-07-16T14:24:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-17T19:05:30Z",
+    "since": "2026-07-17T20:05:05Z",
     "reviewers": [
       {
         "login": "chengfang",
