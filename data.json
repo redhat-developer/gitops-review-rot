@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T03:07:52.182458962Z",
+  "generated_at": "2026-10-16T04:08:15.923162726Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1187,31 +1187,6 @@
       ]
     },
     {
-      "title": "[v1.13] Backport CVE-2025-13888: fix CVE namespace-isolation break (#897)",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1141",
-      "number": 1141,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "vulgraph",
-        "avatar_url": "https://avatars.githubusercontent.com/u/216388001?v=4"
-      },
-      "created_at": "2026-05-04T07:23:03Z",
-      "updated_at": "2026-09-14T10:35:17Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
-      ]
-    },
-    {
       "title": "feat: prevent openshift-gitops namespace creation when DISABLE_DEFAULT_ARGOCD_INSTANCE=true",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1206",
       "number": 1206,
@@ -1549,10 +1524,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-05T13:24:16Z",
-      "updated_at": "2026-10-15T20:33:15Z",
+      "updated_at": "2026-10-16T03:28:07Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1730,10 +1705,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-12T04:33:16Z",
-      "updated_at": "2026-10-14T08:14:05Z",
+      "updated_at": "2026-10-16T03:28:47Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1766,33 +1741,6 @@
         "count": 1,
         "approved_count": 0,
         "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
-      "title": "chore(deps): bump go.uber.org/zap from 1.27.1 to 1.28.0",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1372",
-      "number": 1372,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-12T04:33:55Z",
-      "updated_at": "2026-10-15T11:59:26Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -1991,10 +1939,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-14T23:33:27Z",
-      "updated_at": "2026-10-15T20:08:11Z",
+      "updated_at": "2026-10-16T03:10:09Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2083,34 +2031,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump github.com/cert-manager/cert-manager from 1.20.3 to 1.21.2",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1406",
-      "number": 1406,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-15T07:21:22Z",
-      "updated_at": "2026-10-15T17:53:29Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "lgtm",
-        "ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "chore(deps): bump github.com/argoproj-labs/argo-rollouts-manager from 0.0.10-0.20260826124203-67002e569d7f to 0.10.0",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1408",
       "number": 1408,
@@ -2174,7 +2094,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T07:21:40Z",
-      "updated_at": "2026-10-15T07:22:16Z",
+      "updated_at": "2026-10-16T03:07:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2201,7 +2121,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T07:21:45Z",
-      "updated_at": "2026-10-15T07:22:24Z",
+      "updated_at": "2026-10-16T03:07:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2255,7 +2175,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T07:22:01Z",
-      "updated_at": "2026-10-15T20:09:51Z",
+      "updated_at": "2026-10-16T03:12:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2263,7 +2183,7 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -2282,7 +2202,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T07:22:01Z",
-      "updated_at": "2026-10-15T07:43:54Z",
+      "updated_at": "2026-10-16T03:40:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2290,7 +2210,7 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -2336,7 +2256,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T07:22:05Z",
-      "updated_at": "2026-10-15T12:22:45Z",
+      "updated_at": "2026-10-16T03:41:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2520,7 +2440,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-16T02:56:47Z",
-      "updated_at": "2026-10-16T03:03:42Z",
+      "updated_at": "2026-10-16T03:11:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2532,11 +2452,31 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/bug",
-        "kind/documentation",
-        "kind/enhancement",
-        "kind/failing-ci",
-        "kind/failing-test",
+        "kind/cleanup"
+      ]
+    },
+    {
+      "title": "chore: remove duplicated sequential E2E tests",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1430",
+      "number": 1430,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-10-16T03:37:50Z",
+      "updated_at": "2026-10-16T03:58:37Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
         "kind/cleanup"
       ]
     },
@@ -6012,7 +5952,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T03:05:54Z",
+    "since": "2026-07-18T04:06:12Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8621,6 +8561,30 @@
         "reviews": 86,
         "prs": [
           {
+            "title": "chore(deps): bump github.com/operator-framework/api from 0.17.5 to 0.45.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1361",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1361,
+            "author": "dependabot",
+            "engaged_at": "2026-10-16T03:28:47Z"
+          },
+          {
+            "title": "chore(deps): bump go.uber.org/zap from 1.27.1 to 1.28.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1372",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1372,
+            "author": "dependabot",
+            "engaged_at": "2026-10-16T03:20:20Z"
+          },
+          {
+            "title": "chore(deps): bump golang.org/x/mod from 0.41.0 to 0.42.0 in /argocd-operator",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1418",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1418,
+            "author": "dependabot",
+            "engaged_at": "2026-10-16T03:12:51Z"
+          },
+          {
             "title": "chore(deps): bump github.com/cert-manager/cert-manager from 1.20.3 to 1.21.2",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1406",
             "repo": "redhat-developer/gitops-operator",
@@ -8709,28 +8673,12 @@
             "engaged_at": "2026-10-15T07:27:44Z"
           },
           {
-            "title": "chore(deps): bump golang.org/x/mod from 0.41.0 to 0.42.0 in /argocd-operator",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1418",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1418,
-            "author": "dependabot",
-            "engaged_at": "2026-10-15T07:27:37Z"
-          },
-          {
             "title": "fix(e2e) : ignore notFoundError on update on v1.20",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1403",
             "repo": "redhat-developer/gitops-operator",
             "number": 1403,
             "author": "ranakan19",
             "engaged_at": "2026-10-15T07:11:29Z"
-          },
-          {
-            "title": "chore(deps): bump go.uber.org/zap from 1.27.1 to 1.28.0",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1372",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1372,
-            "author": "dependabot",
-            "engaged_at": "2026-10-15T07:08:43Z"
           },
           {
             "title": "chore(deps): bump golang.org/x/crypto from 0.56.0 to 0.58.0",
@@ -8883,14 +8831,6 @@
             "number": 1356,
             "author": "dependabot",
             "engaged_at": "2026-10-14T05:55:55Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/operator-framework/api from 0.17.5 to 0.45.0",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1361",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1361,
-            "author": "dependabot",
-            "engaged_at": "2026-10-14T05:55:27Z"
           },
           {
             "title": "test: update argocd-agent pricipal test",
