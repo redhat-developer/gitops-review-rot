@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T15:07:20.121038773Z",
+  "generated_at": "2026-10-16T16:08:14.045544186Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -927,29 +927,27 @@
       "labels": []
     },
     {
-      "title": "feat: add OCI Generator for AppSet",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/307",
-      "number": 307,
+      "title": "chore: update pnpm 10.33.2 -\u003e 10.34.6 to fix CVE-2026-101043",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/308",
+      "number": 308,
       "repo": "redhat-developer/gitops-console-plugin",
       "author": {
         "login": "dkarpele",
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
-      "created_at": "2026-10-09T16:58:27Z",
-      "updated_at": "2026-10-16T13:29:42Z",
+      "created_at": "2026-10-16T15:30:38Z",
+      "updated_at": "2026-10-16T15:35:02Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 2,
-        "approved_count": 1,
+        "count": 1,
+        "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 5,
-      "labels": [
-        "ok-to-test"
-      ]
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "clearer instruction to disable default argocd instance",
@@ -1504,7 +1502,7 @@
       "updated_at": "2026-10-15T15:10:56Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1606,7 +1604,7 @@
       "updated_at": "2026-10-12T08:04:11Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1790,7 +1788,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-14T00:15:15Z",
-      "updated_at": "2026-10-16T13:49:49Z",
+      "updated_at": "2026-10-16T16:00:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1842,7 +1840,7 @@
       "updated_at": "2026-10-15T15:04:25Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1867,7 +1865,7 @@
       "updated_at": "2026-10-16T11:18:34Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2132,7 +2130,7 @@
       "updated_at": "2026-10-16T03:41:37Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2159,7 +2157,7 @@
       "updated_at": "2026-10-15T21:06:54Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2237,7 +2235,7 @@
       "updated_at": "2026-10-16T13:58:45Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2318,7 +2316,7 @@
       "updated_at": "2026-10-16T06:02:14Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2342,10 +2340,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-16T03:37:50Z",
-      "updated_at": "2026-10-16T07:55:24Z",
+      "updated_at": "2026-10-16T15:43:35Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2354,7 +2352,6 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-rebase",
         "kind/cleanup"
       ]
     },
@@ -2371,7 +2368,7 @@
       "updated_at": "2026-10-16T06:04:20Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2883,7 +2880,7 @@
       "updated_at": "2026-10-16T14:31:20Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2949,10 +2946,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3256083?u=3d1cd3c67ba5cd8280ba864f8b57f48ea3c9be29\u0026v=4"
       },
       "created_at": "2026-10-16T10:27:01Z",
-      "updated_at": "2026-10-16T13:12:59Z",
+      "updated_at": "2026-10-16T16:03:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -5925,7 +5922,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T15:05:26Z",
+    "since": "2026-07-18T16:06:16Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10603,8 +10600,16 @@
       },
       {
         "login": "keithchong",
-        "reviews": 41,
+        "reviews": 42,
         "prs": [
+          {
+            "title": "feat: add OCI Generator for AppSet",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/307",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 307,
+            "author": "dkarpele",
+            "engaged_at": "2026-10-16T15:28:23Z"
+          },
           {
             "title": "upgrade golangi-lint version",
             "url": "https://github.com/redhat-developer/gitops-backend/pull/75",
