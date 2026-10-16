@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T06:09:50.726468615Z",
+  "generated_at": "2026-10-16T07:12:14.390360845Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1326,7 +1326,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-06T05:25:51Z",
-      "updated_at": "2026-10-07T13:20:37Z",
+      "updated_at": "2026-10-16T06:08:41Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1400,10 +1400,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-10-14T08:33:56Z",
+      "updated_at": "2026-10-16T06:23:25Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1604,13 +1604,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-09T16:22:55Z",
-      "updated_at": "2026-10-15T15:09:03Z",
+      "updated_at": "2026-10-16T07:01:03Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 1,
         "has_new_commits": false
       },
@@ -1659,33 +1659,6 @@
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
-      "title": "chore(deps): bump github.com/operator-framework/api from 0.17.5 to 0.45.0",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1361",
-      "number": 1361,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-12T04:33:16Z",
-      "updated_at": "2026-10-16T03:28:47Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1842,7 +1815,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-14T00:15:15Z",
-      "updated_at": "2026-10-15T15:06:34Z",
+      "updated_at": "2026-10-16T07:01:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1916,7 +1889,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-14T23:33:27Z",
-      "updated_at": "2026-10-16T05:50:26Z",
+      "updated_at": "2026-10-16T06:13:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2259,19 +2232,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-15T13:47:37Z",
-      "updated_at": "2026-10-16T04:32:03Z",
+      "updated_at": "2026-10-16T06:15:57Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -5004,6 +4979,29 @@
       "labels": []
     },
     {
+      "title": "fix: omit nonResourceURLs from namespaced Roles",
+      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2411",
+      "number": 2411,
+      "repo": "argoproj-labs/argocd-operator",
+      "author": {
+        "login": "Pratik-Redhat-Tech",
+        "avatar_url": "https://avatars.githubusercontent.com/u/315658242?v=4"
+      },
+      "created_at": "2026-10-16T06:33:08Z",
+      "updated_at": "2026-10-16T06:42:55Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
       "title": "fixes for Openshift deployment",
       "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/89",
       "number": 89,
@@ -5905,7 +5903,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T06:07:47Z",
+    "since": "2026-07-18T07:10:07Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7801,8 +7799,16 @@
       },
       {
         "login": "svghadi",
-        "reviews": 90,
+        "reviews": 91,
         "prs": [
+          {
+            "title": "feat(olm-deploy): Fail fast and loud if not logged into a cluster",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1425",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1425,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-16T06:15:48Z"
+          },
           {
             "title": "chore: reduce consistently to sane value for sequential tests",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1431",
@@ -8527,7 +8533,7 @@
       },
       {
         "login": "jgwest",
-        "reviews": 86,
+        "reviews": 87,
         "prs": [
           {
             "title": "chore(deps): bump github.com/operator-framework/api from 0.17.5 to 0.45.0",
@@ -8535,7 +8541,23 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1361,
             "author": "dependabot",
-            "engaged_at": "2026-10-16T03:28:47Z"
+            "engaged_at": "2026-10-16T07:07:03Z"
+          },
+          {
+            "title": "fix(dependabot): group by dependency when multiple directories are supported",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1394",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1394,
+            "author": "ranakan19",
+            "engaged_at": "2026-10-16T07:01:16Z"
+          },
+          {
+            "title": "feat(tls): Configure TLS Curve Preferences for Redis HA Proxy",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1351",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1351,
+            "author": "akhilnittala",
+            "engaged_at": "2026-10-16T07:01:03Z"
           },
           {
             "title": "chore(deps): bump go.uber.org/zap from 1.27.1 to 1.28.0",
@@ -8696,14 +8718,6 @@
             "number": 1369,
             "author": "dependabot",
             "engaged_at": "2026-10-15T01:23:30Z"
-          },
-          {
-            "title": "fix(dependabot): group by dependency when multiple directories are supported",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1394",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1394,
-            "author": "ranakan19",
-            "engaged_at": "2026-10-15T01:16:41Z"
           },
           {
             "title": "chore(deps): bump github.com/cert-manager/cert-manager from 1.20.3 to 1.21.2",
