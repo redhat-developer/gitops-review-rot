@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T07:12:14.390360845Z",
+  "generated_at": "2026-10-16T08:08:42.846827658Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1199,7 +1199,7 @@
       "updated_at": "2026-10-15T14:47:10Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 4,
@@ -1501,7 +1501,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-05T13:24:16Z",
-      "updated_at": "2026-10-16T03:28:07Z",
+      "updated_at": "2026-10-16T07:41:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1682,7 +1682,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-12T04:33:33Z",
-      "updated_at": "2026-10-15T01:38:09Z",
+      "updated_at": "2026-10-16T07:55:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1694,6 +1694,7 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "needs-rebase",
         "ok-to-test",
         "dependencies",
         "go"
@@ -1761,7 +1762,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-13T08:13:59Z",
-      "updated_at": "2026-10-14T23:24:18Z",
+      "updated_at": "2026-10-16T07:55:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1773,6 +1774,7 @@
       },
       "unresolved_conversations": 1,
       "labels": [
+        "needs-rebase",
         "ok-to-test",
         "dependencies",
         "go"
@@ -1992,7 +1994,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T07:21:40Z",
-      "updated_at": "2026-10-16T03:07:29Z",
+      "updated_at": "2026-10-16T07:09:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2367,10 +2369,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-16T03:37:50Z",
-      "updated_at": "2026-10-16T03:58:37Z",
+      "updated_at": "2026-10-16T07:55:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2379,6 +2381,7 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "needs-rebase",
         "kind/cleanup"
       ]
     },
@@ -5002,6 +5005,29 @@
       "labels": []
     },
     {
+      "title": "fix: grant serviceaccounts/token create for Dex TokenRequest",
+      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2412",
+      "number": 2412,
+      "repo": "argoproj-labs/argocd-operator",
+      "author": {
+        "login": "Pratik-Redhat-Tech",
+        "avatar_url": "https://avatars.githubusercontent.com/u/315658242?v=4"
+      },
+      "created_at": "2026-10-16T07:21:01Z",
+      "updated_at": "2026-10-16T07:34:12Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
       "title": "fixes for Openshift deployment",
       "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/89",
       "number": 89,
@@ -5903,7 +5929,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T07:10:07Z",
+    "since": "2026-07-18T08:06:38Z",
     "reviewers": [
       {
         "login": "chengfang",
