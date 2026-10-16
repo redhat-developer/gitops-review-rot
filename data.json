@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T12:09:00.78013633Z",
+  "generated_at": "2026-10-16T13:09:50.357797594Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1400,7 +1400,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-10-16T06:23:25Z",
+      "updated_at": "2026-10-16T13:04:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2967,7 +2967,7 @@
       "labels": []
     },
     {
-      "title": "fix(ctl): refuse to create an agent whose name is already used by another cluster",
+      "title": "fix(ctl): reject agent names already used by another cluster",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1154",
       "number": 1154,
       "repo": "argoproj-labs/argocd-agent",
@@ -2976,17 +2976,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3256083?u=3d1cd3c67ba5cd8280ba864f8b57f48ea3c9be29\u0026v=4"
       },
       "created_at": "2026-10-16T10:27:01Z",
-      "updated_at": "2026-10-16T10:30:20Z",
+      "updated_at": "2026-10-16T12:56:42Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -5099,7 +5099,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T12:07:03Z",
+    "since": "2026-07-18T13:07:28Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8431,8 +8431,16 @@
       },
       {
         "login": "jannfis",
-        "reviews": 78,
+        "reviews": 79,
         "prs": [
+          {
+            "title": "fix(ctl): reject agent names already used by another cluster",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1154",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1154,
+            "author": "ksdpmx",
+            "engaged_at": "2026-10-16T12:46:53Z"
+          },
           {
             "title": "build(deps): Bump github.com/argoproj/argo-cd/v3 from 3.5.4 to 3.5.5",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1153",
