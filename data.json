@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T22:07:40.867982356Z",
+  "generated_at": "2026-10-16T23:06:57.994895609Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2064,33 +2064,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump k8s.io/apimachinery from 0.34.1 to 0.37.1",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1419",
-      "number": 1419,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-15T07:22:01Z",
-      "updated_at": "2026-10-16T03:40:59Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring from 0.73.2 to 0.94.1",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1420",
       "number": 1420,
@@ -2196,33 +2169,6 @@
       ]
     },
     {
-      "title": "feat(olm-deploy): Fail fast and loud if not logged into a cluster",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1425",
-      "number": 1425,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "olivergondza",
-        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
-      },
-      "created_at": "2026-10-15T13:47:37Z",
-      "updated_at": "2026-10-16T08:24:09Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "kind/enhancement",
-        "lgtm",
-        "approved"
-      ]
-    },
-    {
       "title": "chore(deps): bump github.com/argoproj/argo-cd/v3 from 3.5.2 to 3.5.5",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1426",
       "number": 1426,
@@ -2304,33 +2250,6 @@
       ]
     },
     {
-      "title": "chore: Add 'k8s.io/*' to dependabot ignore list",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1429",
-      "number": 1429,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "jgwest",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
-      },
-      "created_at": "2026-10-16T02:56:47Z",
-      "updated_at": "2026-10-16T06:02:14Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "lgtm",
-        "approved",
-        "kind/cleanup"
-      ]
-    },
-    {
       "title": "chore: remove duplicated sequential E2E tests",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1430",
       "number": 1430,
@@ -2379,6 +2298,33 @@
       "labels": [
         "approved",
         "kind/cleanup"
+      ]
+    },
+    {
+      "title": "chore(deps): bump github.com/argoproj/argo-cd/v3 from 3.5.4 to 3.5.5",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1432",
+      "number": 1432,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-16T22:07:24Z",
+      "updated_at": "2026-10-16T22:07:38Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
       ]
     },
     {
@@ -5922,7 +5868,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T22:05:38Z",
+    "since": "2026-07-18T23:04:51Z",
     "reviewers": [
       {
         "login": "chengfang",
