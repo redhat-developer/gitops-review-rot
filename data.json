@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T03:08:29.899013597Z",
+  "generated_at": "2026-10-19T04:08:13.242231618Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2175,7 +2175,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-15T08:54:03Z",
-      "updated_at": "2026-10-15T21:06:54Z",
+      "updated_at": "2026-10-19T03:30:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2183,11 +2183,12 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement",
+        "lgtm",
         "approved"
       ]
     },
@@ -2319,33 +2320,6 @@
       "labels": [
         "approved",
         "kind/cleanup"
-      ]
-    },
-    {
-      "title": "chore(deps): bump github.com/argoproj/argo-cd/v3 from 3.5.4 to 3.5.5",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1432",
-      "number": 1432,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-16T22:07:24Z",
-      "updated_at": "2026-10-16T23:50:06Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test",
-        "dependencies",
-        "go"
       ]
     },
     {
@@ -5840,7 +5814,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-21T03:06:37Z",
+    "since": "2026-07-21T04:06:14Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7720,8 +7694,24 @@
       },
       {
         "login": "svghadi",
-        "reviews": 91,
+        "reviews": 92,
         "prs": [
+          {
+            "title": "feat(tls): configure curve preferences for gitops backend",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1422",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1422,
+            "author": "akhilnittala",
+            "engaged_at": "2026-10-19T03:30:32Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/argoproj/argo-cd/v3 from 3.5.4 to 3.5.5",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1432",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1432,
+            "author": "dependabot",
+            "engaged_at": "2026-10-19T03:30:01Z"
+          },
           {
             "title": "feat(olm-deploy): Fail fast and loud if not logged into a cluster",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1425",
@@ -7745,14 +7735,6 @@
             "number": 1429,
             "author": "jgwest",
             "engaged_at": "2026-10-16T06:02:04Z"
-          },
-          {
-            "title": "feat(tls): configure curve preferences for gitops backend",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1422",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1422,
-            "author": "akhilnittala",
-            "engaged_at": "2026-10-15T09:58:55Z"
           },
           {
             "title": "feat(tls): Configure TLS Curve Preferences for Redis HA Proxy",
