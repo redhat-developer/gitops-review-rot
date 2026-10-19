@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T19:06:59.935883576Z",
+  "generated_at": "2026-10-19T20:07:52.308942807Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1418,10 +1418,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-10-19T11:31:42Z",
+      "updated_at": "2026-10-19T19:32:17Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2279,7 +2279,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-19T12:45:23Z",
-      "updated_at": "2026-10-19T18:38:14Z",
+      "updated_at": "2026-10-19T19:52:24Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2290,7 +2290,9 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 3,
-      "labels": []
+      "labels": [
+        "kind/failing-ci"
+      ]
     },
     {
       "title": "feat: Add helm charts for principal",
@@ -4984,7 +4986,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-21T19:04:31Z",
+    "since": "2026-07-21T20:05:32Z",
     "reviewers": [
       {
         "login": "chengfang",
