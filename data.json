@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T11:06:50.280788282Z",
+  "generated_at": "2026-10-19T12:09:28.765428718Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1418,7 +1418,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-10-16T11:03:07Z",
+      "updated_at": "2026-10-19T11:31:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1731,7 +1731,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-10-12T13:08:22Z",
-      "updated_at": "2026-10-15T19:14:54Z",
+      "updated_at": "2026-10-19T11:32:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1837,7 +1837,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-14T08:50:47Z",
-      "updated_at": "2026-10-19T07:21:58Z",
+      "updated_at": "2026-10-19T11:33:41Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1847,7 +1847,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -3252,7 +3252,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/720675?v=4"
       },
       "created_at": "2024-03-20T17:13:57Z",
-      "updated_at": "2025-10-24T21:16:24Z",
+      "updated_at": "2026-10-19T12:00:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": null,
@@ -4854,7 +4854,7 @@
       "updated_at": "2026-10-19T10:22:26Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4936,7 +4936,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-21T11:04:34Z",
+    "since": "2026-07-21T12:07:07Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9900,7 +9900,7 @@
       },
       {
         "login": "anandf",
-        "reviews": 34,
+        "reviews": 33,
         "prs": [
           {
             "title": "chore: move some safe sequential E2E tests to parallel",
@@ -10165,14 +10165,6 @@
             "number": 1223,
             "author": "olivergondza",
             "engaged_at": "2026-07-23T12:06:15Z"
-          },
-          {
-            "title": "fix: Make Renewal Token Expiry Feature Configurable",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2273",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2273,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-21T11:56:15Z"
           }
         ]
       },
