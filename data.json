@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T06:11:57.789684469Z",
+  "generated_at": "2026-10-19T07:25:34.550979143Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1511,31 +1511,6 @@
       ]
     },
     {
-      "title": "fix: Rename inner module from argoproj-labs to redhat-developer",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1334",
-      "number": 1334,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "olivergondza",
-        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
-      },
-      "created_at": "2026-10-01T16:24:17Z",
-      "updated_at": "2026-10-19T01:09:15Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "approved"
-      ]
-    },
-    {
       "title": "chore(deps): upgrade go-git to 5.19.2 for v1.20",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1340",
       "number": 1340,
@@ -1781,7 +1756,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-13T08:13:59Z",
-      "updated_at": "2026-10-17T00:09:12Z",
+      "updated_at": "2026-10-19T07:04:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1808,7 +1783,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-13T08:14:58Z",
-      "updated_at": "2026-10-16T13:58:43Z",
+      "updated_at": "2026-10-19T06:46:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1862,7 +1837,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-14T08:50:47Z",
-      "updated_at": "2026-10-15T15:39:42Z",
+      "updated_at": "2026-10-19T07:20:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1986,10 +1961,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T07:21:30Z",
-      "updated_at": "2026-10-16T13:58:38Z",
+      "updated_at": "2026-10-19T06:45:20Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2227,7 +2202,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T19:14:43Z",
-      "updated_at": "2026-10-16T13:58:45Z",
+      "updated_at": "2026-10-19T06:45:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2254,7 +2229,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T19:15:12Z",
-      "updated_at": "2026-10-16T14:08:48Z",
+      "updated_at": "2026-10-19T07:08:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5654,7 +5629,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/81048645?v=4"
       },
       "created_at": "2026-09-10T12:11:43Z",
-      "updated_at": "2026-10-15T10:32:26Z",
+      "updated_at": "2026-10-19T06:51:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5814,7 +5789,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-21T06:09:54Z",
+    "since": "2026-07-21T07:23:19Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6800,7 +6775,7 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 111,
+        "reviews": 110,
         "prs": [
           {
             "title": "Docs: Update the URL for accessing redacted OpenShift CI logs",
@@ -7681,14 +7656,6 @@
             "number": 2280,
             "author": "dronenb",
             "engaged_at": "2026-07-21T09:07:17Z"
-          },
-          {
-            "title": "Chore: Update tests for interop testing",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1225",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1225,
-            "author": "varshab1210",
-            "engaged_at": "2026-07-21T07:22:03Z"
           }
         ]
       },
@@ -11524,7 +11491,7 @@
       },
       {
         "login": "varshab1210",
-        "reviews": 19,
+        "reviews": 18,
         "prs": [
           {
             "title": "test: generate the Git server SSH key as ECDSA P-256, not Ed25519",
@@ -11669,14 +11636,140 @@
             "number": 1216,
             "author": "anandrkskd",
             "engaged_at": "2026-07-21T09:57:04Z"
+          }
+        ]
+      },
+      {
+        "login": "anandrkskd",
+        "reviews": 16,
+        "prs": [
+          {
+            "title": "fix: Rename inner module from argoproj-labs to redhat-developer",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1334",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1334,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-19T06:39:58Z"
           },
           {
-            "title": "test(configmap): mask the token value annotation in the ArgoCD UI/CLI",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1221",
+            "title": "fix(e2e) : ignore notFoundError on update",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1393",
             "repo": "redhat-developer/gitops-operator",
-            "number": 1221,
-            "author": "dkarpele",
-            "engaged_at": "2026-07-21T07:04:51Z"
+            "number": 1393,
+            "author": "ranakan19",
+            "engaged_at": "2026-10-14T05:53:02Z"
+          },
+          {
+            "title": "fix(e2e): Do not print secret value from secret.Fixture.HaveNonEmptyKeyValue",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1338",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1338,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-11T19:02:42Z"
+          },
+          {
+            "title": "feat(e2e): Rerun failing ginkgo tests to spot flakes easily",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1346",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1346,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-11T19:00:20Z"
+          },
+          {
+            "title": "GITOPS-11466: Detect Route API before Config API gate in InspectCluster",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1321",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1321,
+            "author": "redhat-chai-bot",
+            "engaged_at": "2026-10-08T06:48:17Z"
+          },
+          {
+            "title": "fix: Skip GH actions e2e tests on non-code changes",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1330",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1330,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-05T09:13:27Z"
+          },
+          {
+            "title": "fix(dex): fetching changes for mounting dex sa token as projected volume mount",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1322",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1322,
+            "author": "anandf",
+            "engaged_at": "2026-09-29T13:21:47Z"
+          },
+          {
+            "title": "chore: add AGENTS.md with E2E test rules",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1296",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1296,
+            "author": "jgwest",
+            "engaged_at": "2026-09-21T16:06:26Z"
+          },
+          {
+            "title": "chore: remove reference to external repo",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1289",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1289,
+            "author": "jgwest",
+            "engaged_at": "2026-09-21T09:47:56Z"
+          },
+          {
+            "title": "fix: omit nonResourceURLs from namespaced Roles",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1278",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1278,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-17T09:10:23Z"
+          },
+          {
+            "title": "fix: replace non-expiring metrics monitor SA token with TokenRequest",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1215",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1215,
+            "author": "tzprograms",
+            "engaged_at": "2026-09-17T08:37:24Z"
+          },
+          {
+            "title": "Added E2E tests for role ownership validation",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1208",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1208,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-17T08:35:01Z"
+          },
+          {
+            "title": "Added E2E for role ownership validation",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1209",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1209,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-16T10:17:46Z"
+          },
+          {
+            "title": "fix: updated otel version to v1.44.0 for fixing CVE-2026-41178",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1283",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1283,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-09T03:54:13Z"
+          },
+          {
+            "title": "feat: decouple console plugin from default ArgoCD instance ",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1231",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1231,
+            "author": "Rizwana777",
+            "engaged_at": "2026-08-19T11:37:04Z"
+          },
+          {
+            "title": "add network policy for argocd component",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2287",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2287,
+            "author": "akhilnittala",
+            "engaged_at": "2026-07-22T04:48:30Z"
           }
         ]
       },
@@ -11811,132 +11904,6 @@
             "number": 1037,
             "author": "enbiyagoral",
             "engaged_at": "2026-07-21T07:41:57Z"
-          }
-        ]
-      },
-      {
-        "login": "anandrkskd",
-        "reviews": 15,
-        "prs": [
-          {
-            "title": "fix(e2e) : ignore notFoundError on update",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1393",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1393,
-            "author": "ranakan19",
-            "engaged_at": "2026-10-14T05:53:02Z"
-          },
-          {
-            "title": "fix(e2e): Do not print secret value from secret.Fixture.HaveNonEmptyKeyValue",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1338",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1338,
-            "author": "olivergondza",
-            "engaged_at": "2026-10-11T19:02:42Z"
-          },
-          {
-            "title": "feat(e2e): Rerun failing ginkgo tests to spot flakes easily",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1346",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1346,
-            "author": "olivergondza",
-            "engaged_at": "2026-10-11T19:00:20Z"
-          },
-          {
-            "title": "GITOPS-11466: Detect Route API before Config API gate in InspectCluster",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1321",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1321,
-            "author": "redhat-chai-bot",
-            "engaged_at": "2026-10-08T06:48:17Z"
-          },
-          {
-            "title": "fix: Skip GH actions e2e tests on non-code changes",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1330",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1330,
-            "author": "olivergondza",
-            "engaged_at": "2026-10-05T09:13:27Z"
-          },
-          {
-            "title": "fix(dex): fetching changes for mounting dex sa token as projected volume mount",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1322",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1322,
-            "author": "anandf",
-            "engaged_at": "2026-09-29T13:21:47Z"
-          },
-          {
-            "title": "chore: add AGENTS.md with E2E test rules",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1296",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1296,
-            "author": "jgwest",
-            "engaged_at": "2026-09-21T16:06:26Z"
-          },
-          {
-            "title": "chore: remove reference to external repo",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1289",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1289,
-            "author": "jgwest",
-            "engaged_at": "2026-09-21T09:47:56Z"
-          },
-          {
-            "title": "fix: omit nonResourceURLs from namespaced Roles",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1278",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1278,
-            "author": "alkakumari016",
-            "engaged_at": "2026-09-17T09:10:23Z"
-          },
-          {
-            "title": "fix: replace non-expiring metrics monitor SA token with TokenRequest",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1215",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1215,
-            "author": "tzprograms",
-            "engaged_at": "2026-09-17T08:37:24Z"
-          },
-          {
-            "title": "Added E2E tests for role ownership validation",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1208",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1208,
-            "author": "alkakumari016",
-            "engaged_at": "2026-09-17T08:35:01Z"
-          },
-          {
-            "title": "Added E2E for role ownership validation",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1209",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1209,
-            "author": "alkakumari016",
-            "engaged_at": "2026-09-16T10:17:46Z"
-          },
-          {
-            "title": "fix: updated otel version to v1.44.0 for fixing CVE-2026-41178",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1283",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1283,
-            "author": "alkakumari016",
-            "engaged_at": "2026-09-09T03:54:13Z"
-          },
-          {
-            "title": "feat: decouple console plugin from default ArgoCD instance ",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1231",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1231,
-            "author": "Rizwana777",
-            "engaged_at": "2026-08-19T11:37:04Z"
-          },
-          {
-            "title": "add network policy for argocd component",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2287",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2287,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-22T04:48:30Z"
           }
         ]
       },
