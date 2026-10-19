@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T09:12:21.648711992Z",
+  "generated_at": "2026-10-19T10:07:02.144223751Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1345,7 +1345,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/315658242?v=4"
       },
       "created_at": "2026-09-05T16:01:43Z",
-      "updated_at": "2026-10-19T08:56:20Z",
+      "updated_at": "2026-10-19T10:03:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1355,7 +1355,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": [
         "ok-to-test"
       ]
@@ -2150,7 +2150,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-15T08:54:03Z",
-      "updated_at": "2026-10-19T05:41:13Z",
+      "updated_at": "2026-10-19T09:25:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2864,7 +2864,7 @@
       "updated_at": "2026-10-19T08:57:10Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -3812,7 +3812,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/112675579?u=13a75de4f053bd13dae6e3cce8e899f1b4f4250e\u0026v=4"
       },
       "created_at": "2026-10-06T09:35:32Z",
-      "updated_at": "2026-10-17T19:00:02Z",
+      "updated_at": "2026-10-19T09:37:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4851,15 +4851,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/315658242?v=4"
       },
       "created_at": "2026-10-16T06:33:08Z",
-      "updated_at": "2026-10-19T08:56:44Z",
+      "updated_at": "2026-10-19T09:19:22Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": []
@@ -4936,7 +4936,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-21T09:10:10Z",
+    "since": "2026-07-21T10:04:46Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10638,7 +10638,7 @@
       },
       {
         "login": "varshab1210",
-        "reviews": 18,
+        "reviews": 17,
         "prs": [
           {
             "title": "test: generate the Git server SSH key as ECDSA P-256, not Ed25519",
@@ -10775,14 +10775,6 @@
             "number": 69,
             "author": "olivergondza",
             "engaged_at": "2026-07-23T12:06:09Z"
-          },
-          {
-            "title": "Mark openshift \u0026 xKS e2e tests ",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1216",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1216,
-            "author": "anandrkskd",
-            "engaged_at": "2026-07-21T09:57:04Z"
           }
         ]
       },
