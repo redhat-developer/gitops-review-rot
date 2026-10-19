@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T07:25:34.550979143Z",
+  "generated_at": "2026-10-19T08:13:16.686113212Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1837,7 +1837,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-14T08:50:47Z",
-      "updated_at": "2026-10-19T07:20:07Z",
+      "updated_at": "2026-10-19T07:21:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -4845,29 +4845,6 @@
       "labels": []
     },
     {
-      "title": "chore: upgrade promotor to 0.35.1",
-      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2410",
-      "number": 2410,
-      "repo": "argoproj-labs/argocd-operator",
-      "author": {
-        "login": "cjcocokrisp",
-        "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
-      },
-      "created_at": "2026-10-14T15:21:32Z",
-      "updated_at": "2026-10-15T12:09:59Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "fix: omit nonResourceURLs from namespaced Roles",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/2411",
       "number": 2411,
@@ -5789,7 +5766,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-21T07:23:19Z",
+    "since": "2026-07-21T08:11:09Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8379,8 +8356,16 @@
       },
       {
         "login": "svghadi",
-        "reviews": 88,
+        "reviews": 89,
         "prs": [
+          {
+            "title": "chore: upgrade promotor to 0.35.1",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2410",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2410,
+            "author": "cjcocokrisp",
+            "engaged_at": "2026-10-19T07:26:00Z"
+          },
           {
             "title": "feat(tls): configure curve preferences for gitops backend",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1422",
@@ -11775,7 +11760,7 @@
       },
       {
         "login": "jparsai",
-        "reviews": 16,
+        "reviews": 15,
         "prs": [
           {
             "title": "Upgrade to Argo Rollouts v1.10.1",
@@ -11896,14 +11881,6 @@
             "number": 1047,
             "author": "cjcocokrisp",
             "engaged_at": "2026-07-23T16:28:53Z"
-          },
-          {
-            "title": "feat: allow agents to periodically resync with the principal",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1037",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1037,
-            "author": "enbiyagoral",
-            "engaged_at": "2026-07-21T07:41:57Z"
           }
         ]
       },
@@ -12111,7 +12088,7 @@
       },
       {
         "login": "nmirasch",
-        "reviews": 5,
+        "reviews": 4,
         "prs": [
           {
             "title": "fix: throw an error if openshiftOAuth is used in xKS env",
@@ -12144,14 +12121,6 @@
             "number": 2318,
             "author": "aali309",
             "engaged_at": "2026-08-04T15:35:41Z"
-          },
-          {
-            "title": "fix: skip terminating source namespaces for Role and RoleBinding",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2280",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2280,
-            "author": "dronenb",
-            "engaged_at": "2026-07-21T07:47:42Z"
           }
         ]
       },
