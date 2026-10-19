@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T04:08:13.242231618Z",
+  "generated_at": "2026-10-19T05:07:48.254283181Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -5814,7 +5814,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-21T04:06:14Z",
+    "since": "2026-07-21T05:05:53Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7694,7 +7694,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 92,
+        "reviews": 91,
         "prs": [
           {
             "title": "feat(tls): configure curve preferences for gitops backend",
@@ -8423,14 +8423,6 @@
             "number": 1220,
             "author": "olivergondza",
             "engaged_at": "2026-07-21T05:08:56Z"
-          },
-          {
-            "title": "fix: Make Renewal Token Expiry Feature Configurable",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2273",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2273,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-21T04:39:11Z"
           }
         ]
       },
