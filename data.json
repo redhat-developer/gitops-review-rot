@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T15:08:09.517018076Z",
+  "generated_at": "2026-10-19T16:07:53.891675915Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1421,7 +1421,7 @@
       "updated_at": "2026-10-19T11:31:42Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1520,13 +1520,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-06T14:24:17Z",
-      "updated_at": "2026-10-15T15:10:56Z",
+      "updated_at": "2026-10-19T15:17:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -1810,21 +1810,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-10-14T00:15:15Z",
-      "updated_at": "2026-10-17T07:52:55Z",
+      "updated_at": "2026-10-19T15:25:10Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "lgtm",
-        "approved",
-        "needs-rebase"
+        "approved"
       ]
     },
     {
@@ -2138,33 +2137,6 @@
         "ok-to-test",
         "dependencies",
         "go"
-      ]
-    },
-    {
-      "title": "feat(tls): configure curve preferences for gitops backend",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1422",
-      "number": 1422,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "akhilnittala",
-        "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
-      },
-      "created_at": "2026-10-15T08:54:03Z",
-      "updated_at": "2026-10-19T09:25:11Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/enhancement",
-        "lgtm",
-        "approved"
       ]
     },
     {
@@ -4985,19 +4957,27 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-21T15:06:04Z",
+    "since": "2026-07-21T16:05:35Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 122,
+        "reviews": 123,
         "prs": [
+          {
+            "title": "chore(deps): upgrade go-git to 5.19.2 for v1.20",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1340",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1340,
+            "author": "ranakan19",
+            "engaged_at": "2026-10-19T15:17:41Z"
+          },
           {
             "title": "fix(dependabot): group by dependency when multiple directories are supported",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1394",
             "repo": "redhat-developer/gitops-operator",
             "number": 1394,
             "author": "ranakan19",
-            "engaged_at": "2026-10-15T12:58:08Z"
+            "engaged_at": "2026-10-19T15:14:21Z"
           },
           {
             "title": "feat: Add tests for redhat-developer/gitops-must-gather#51",
