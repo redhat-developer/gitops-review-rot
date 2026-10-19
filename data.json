@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T01:24:20.093995156Z",
+  "generated_at": "2026-10-19T02:11:47.214210127Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -649,7 +649,7 @@
       "labels": []
     },
     {
-      "title": "Update dependency @patternfly/react-core to v6.6.2",
+      "title": "Update dependency @patternfly/react-core to v6.7.0",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/232",
       "number": 232,
       "repo": "redhat-developer/gitops-console-plugin",
@@ -658,7 +658,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:24:25Z",
-      "updated_at": "2026-10-18T01:28:29Z",
+      "updated_at": "2026-10-19T01:24:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -672,7 +672,7 @@
       "labels": []
     },
     {
-      "title": "Update dependency @patternfly/react-table to v6.6.2",
+      "title": "Update dependency @patternfly/react-table to v6.7.0",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/233",
       "number": 233,
       "repo": "redhat-developer/gitops-console-plugin",
@@ -681,7 +681,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:30:16Z",
-      "updated_at": "2026-10-18T01:30:33Z",
+      "updated_at": "2026-10-19T01:29:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -937,6 +937,29 @@
       },
       "created_at": "2026-10-16T15:30:38Z",
       "updated_at": "2026-10-16T15:35:02Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Create Dashboard with Sync and Health Status cards, Operational, Sync Activity and Reconciliation Metrics Cards (#11387)",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/309",
+      "number": 309,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "keithchong",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
+      },
+      "created_at": "2026-10-19T01:50:12Z",
+      "updated_at": "2026-10-19T01:51:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3937,7 +3960,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
       },
       "created_at": "2026-10-09T17:56:08Z",
-      "updated_at": "2026-10-13T14:20:09Z",
+      "updated_at": "2026-10-19T02:04:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5780,7 +5803,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-10-06T11:39:06Z",
-      "updated_at": "2026-10-18T10:34:36Z",
+      "updated_at": "2026-10-19T01:58:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5842,7 +5865,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-21T01:22:18Z",
+    "since": "2026-07-21T02:09:55Z",
     "reviewers": [
       {
         "login": "chengfang",
