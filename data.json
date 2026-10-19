@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T12:09:28.765428718Z",
+  "generated_at": "2026-10-19T13:10:22.60934307Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1731,7 +1731,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-10-12T13:08:22Z",
-      "updated_at": "2026-10-19T11:32:05Z",
+      "updated_at": "2026-10-19T12:54:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2295,6 +2295,55 @@
       "labels": [
         "kind/documentation"
       ]
+    },
+    {
+      "title": "test(e2e): Carry 1-019_validate_rolebindings_with_managed_by_test.go from argocd-operator",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1435",
+      "number": 1435,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-10-19T12:27:34Z",
+      "updated_at": "2026-10-19T12:32:26Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/enhancement",
+        "needs-rebase"
+      ]
+    },
+    {
+      "title": "fix: GithubAction job failure due to rate limiting of redis image",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1436",
+      "number": 1436,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "anandrkskd",
+        "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
+      },
+      "created_at": "2026-10-19T12:45:23Z",
+      "updated_at": "2026-10-19T12:53:53Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 3,
+      "labels": []
     },
     {
       "title": "feat: Add helm charts for principal",
@@ -4936,7 +4985,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-21T12:07:07Z",
+    "since": "2026-07-21T13:08:02Z",
     "reviewers": [
       {
         "login": "chengfang",
