@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T06:09:33.746698334Z",
+  "generated_at": "2026-10-20T07:12:41.356771232Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -405,7 +405,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-14T01:39:13Z",
-      "updated_at": "2026-10-17T06:40:34Z",
+      "updated_at": "2026-10-20T06:33:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -773,7 +773,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-06T07:01:53Z",
-      "updated_at": "2026-10-20T03:25:17Z",
+      "updated_at": "2026-10-20T06:36:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2042,7 +2042,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T07:22:05Z",
-      "updated_at": "2026-10-20T05:43:21Z",
+      "updated_at": "2026-10-20T06:57:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -2199,13 +2199,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-19T12:45:23Z",
-      "updated_at": "2026-10-19T19:52:24Z",
+      "updated_at": "2026-10-20T06:56:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -2854,7 +2854,7 @@
       "updated_at": "2026-10-20T05:46:45Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -4916,7 +4916,7 @@
       "updated_at": "2026-10-20T05:49:24Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5859,7 +5859,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T06:07:35Z",
+    "since": "2026-07-22T07:10:53Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6853,8 +6853,16 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 109,
+        "reviews": 110,
         "prs": [
+          {
+            "title": "fix: GithubAction job failure due to rate limiting of redis image",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1436",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1436,
+            "author": "anandrkskd",
+            "engaged_at": "2026-10-20T06:56:51Z"
+          },
           {
             "title": "Docs: Update the URL for accessing redacted OpenShift CI logs",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1423",
