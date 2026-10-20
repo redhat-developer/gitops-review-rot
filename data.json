@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:07:52.795594975Z",
+  "generated_at": "2026-10-20T23:07:28.305863807Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -5885,7 +5885,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T22:05:56Z",
+    "since": "2026-07-22T23:05:19Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9177,7 +9177,7 @@
       },
       {
         "login": "jannfis",
-        "reviews": 77,
+        "reviews": 74,
         "prs": [
           {
             "title": "build(deps): Bump github.com/go-jose/go-jose/v4 from 4.1.5 to 4.1.6",
@@ -9770,36 +9770,12 @@
             "number": 1047,
             "author": "cjcocokrisp",
             "engaged_at": "2026-08-07T00:05:30Z"
-          },
-          {
-            "title": "fix: mount argocd-cmd-params-cm in repo-server so pprof can be enabled (cherry-pick #28863 for 3.5)",
-            "url": "https://github.com/argoproj/argo-cd/pull/28866",
-            "repo": "argoproj/argo-cd",
-            "number": 28866,
-            "author": "argo-cd-cherry-pick-bot",
-            "engaged_at": "2026-07-22T22:31:33Z"
-          },
-          {
-            "title": "fix: mount argocd-cmd-params-cm in repo-server so pprof can be enabled (cherry-pick #28863 for 3.3)",
-            "url": "https://github.com/argoproj/argo-cd/pull/28865",
-            "repo": "argoproj/argo-cd",
-            "number": 28865,
-            "author": "argo-cd-cherry-pick-bot",
-            "engaged_at": "2026-07-22T22:31:11Z"
-          },
-          {
-            "title": "fix: mount argocd-cmd-params-cm in repo-server so pprof can be enabled (cherry-pick #28863 for 3.4)",
-            "url": "https://github.com/argoproj/argo-cd/pull/28864",
-            "repo": "argoproj/argo-cd",
-            "number": 28864,
-            "author": "argo-cd-cherry-pick-bot",
-            "engaged_at": "2026-07-22T22:30:45Z"
           }
         ]
       },
       {
         "login": "ranakan19",
-        "reviews": 44,
+        "reviews": 43,
         "prs": [
           {
             "title": "chore(deps): bump github.com/cert-manager/cert-manager from 1.20.3 to 1.21.2",
@@ -10144,14 +10120,6 @@
             "number": 28979,
             "author": "Churi12",
             "engaged_at": "2026-07-30T15:04:46Z"
-          },
-          {
-            "title": "fix: keep cluster sync alive when a namespace is deleted or restricted",
-            "url": "https://github.com/argoproj/argo-cd/pull/27528",
-            "repo": "argoproj/argo-cd",
-            "number": 27528,
-            "author": "tricktron",
-            "engaged_at": "2026-07-22T22:21:22Z"
           }
         ]
       },
