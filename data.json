@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T09:07:31.870589239Z",
+  "generated_at": "2026-10-20T10:08:21.748958928Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1419,10 +1419,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-09-24T15:10:54Z",
-      "updated_at": "2026-10-20T01:37:38Z",
+      "updated_at": "2026-10-20T10:00:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2045,7 +2045,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T07:22:05Z",
-      "updated_at": "2026-10-20T07:20:49Z",
+      "updated_at": "2026-10-20T09:54:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -5011,7 +5011,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T09:05:20Z",
+    "since": "2026-07-22T10:06:10Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7601,7 +7601,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 89,
+        "reviews": 88,
         "prs": [
           {
             "title": "chore: upgrade promotor to 0.35.1",
@@ -8306,14 +8306,6 @@
             "number": 2292,
             "author": "aali309",
             "engaged_at": "2026-07-23T05:08:46Z"
-          },
-          {
-            "title": "fix: Make Renewal Token Expiry Feature Configurable",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2293",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2293,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-22T09:40:09Z"
           }
         ]
       },
