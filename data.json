@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T21:08:47.571734921Z",
+  "generated_at": "2026-10-20T22:07:52.795594975Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -959,17 +959,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
       },
       "created_at": "2026-10-19T01:50:12Z",
-      "updated_at": "2026-10-20T14:26:43Z",
+      "updated_at": "2026-10-20T21:35:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 5,
       "labels": []
     },
     {
@@ -3900,17 +3900,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
       },
       "created_at": "2026-10-06T21:32:25Z",
-      "updated_at": "2026-10-20T19:15:03Z",
+      "updated_at": "2026-10-20T21:42:49Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 2,
       "labels": [
         "ok-to-test"
       ]
@@ -5885,12 +5885,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T21:06:30Z",
+    "since": "2026-07-22T22:05:56Z",
     "reviewers": [
       {
         "login": "chengfang",
         "reviews": 123,
         "prs": [
+          {
+            "title": "fix(webhook): move the TLS keypair out of the trust store directory",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1856",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1856,
+            "author": "rishabhvenu",
+            "engaged_at": "2026-10-20T21:42:49Z"
+          },
           {
             "title": "chore(deps): upgrade go-git to 5.19.2 for v1.20",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1340",
@@ -6002,14 +6010,6 @@
             "number": 1392,
             "author": "dependabot",
             "engaged_at": "2026-10-13T13:18:17Z"
-          },
-          {
-            "title": "fix(webhook): move the TLS keypair out of the trust store directory",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1856",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1856,
-            "author": "rishabhvenu",
-            "engaged_at": "2026-10-13T03:46:07Z"
           },
           {
             "title": "chore(deps): bump github.com/distribution/distribution/v3 from 3.1.1 to 3.1.2 in /registry-scanner",
@@ -10824,6 +10824,276 @@
         ]
       },
       {
+        "login": "aali309",
+        "reviews": 33,
+        "prs": [
+          {
+            "title": "Create Dashboard with Sync and Health Status cards, Operational, Sync Activity and Reconciliation Metrics Cards (#11387)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/309",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 309,
+            "author": "keithchong",
+            "engaged_at": "2026-10-20T21:35:26Z"
+          },
+          {
+            "title": "fix(repo-server): Correctly inherit resources for init-container",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1397",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1397,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-20T16:59:21Z"
+          },
+          {
+            "title": "feat: add OCI Generator for AppSet",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/307",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 307,
+            "author": "dkarpele",
+            "engaged_at": "2026-10-16T13:29:42Z"
+          },
+          {
+            "title": "release-4.18: return null from rollout decorator so Topology URL links render (#11176)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/300",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 300,
+            "author": "keithchong",
+            "engaged_at": "2026-09-03T14:10:07Z"
+          },
+          {
+            "title": "GITOPS-11176: return null from rollout decorator so Topology URL links render",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/299",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 299,
+            "author": "dipakkarde",
+            "engaged_at": "2026-09-03T13:10:22Z"
+          },
+          {
+            "title": "Add unit tests for health \u0026 application set status",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/290",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 290,
+            "author": "trdoyle81",
+            "engaged_at": "2026-09-02T17:11:56Z"
+          },
+          {
+            "title": "fix: enable Delete ApplicationSet (And Apps) for namespace-scoped users (GITOPS-10780)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/287",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 287,
+            "author": "keithchong",
+            "engaged_at": "2026-09-02T16:36:37Z"
+          },
+          {
+            "title": "Bump up version number for main",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/286",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 286,
+            "author": "keithchong",
+            "engaged_at": "2026-09-02T15:49:03Z"
+          },
+          {
+            "title": "fix: release-4.18: enable Delete ApplicationSet (and Apps) for namespace-scoped users (#10780)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/289",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 289,
+            "author": "keithchong",
+            "engaged_at": "2026-09-02T15:48:20Z"
+          },
+          {
+            "title": "fix: Use Link Icon instead to indicate new page will be opened (no jira)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/288",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 288,
+            "author": "keithchong",
+            "engaged_at": "2026-09-02T14:18:21Z"
+          },
+          {
+            "title": "WIP: Update Dynamic Plugin Version, Dependencies, Cleanup (#10305)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/283",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 283,
+            "author": "keithchong",
+            "engaged_at": "2026-09-01T15:25:19Z"
+          },
+          {
+            "title": "release-4.18: Translate strings in the GitOps Plugin (#9408)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/278",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 278,
+            "author": "keithchong",
+            "engaged_at": "2026-08-24T18:36:39Z"
+          },
+          {
+            "title": "Translate and Externalize strings in the GitOps Plugin (#9408)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/269",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 269,
+            "author": "keithchong",
+            "engaged_at": "2026-08-24T18:35:11Z"
+          },
+          {
+            "title": "Revert some changes From PR279",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/280",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 280,
+            "author": "keithchong",
+            "engaged_at": "2026-08-24T14:57:12Z"
+          },
+          {
+            "title": "Update version for 4.18; Update dependencies",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/279",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 279,
+            "author": "keithchong",
+            "engaged_at": "2026-08-21T20:39:26Z"
+          },
+          {
+            "title": "feat(reposerver): #25605 #12159 enable a multi-source application manifest to have same repoURL with different revision",
+            "url": "https://github.com/argoproj/argo-cd/pull/25664",
+            "repo": "argoproj/argo-cd",
+            "number": 25664,
+            "author": "jmmclean",
+            "engaged_at": "2026-08-19T19:20:39Z"
+          },
+          {
+            "title": "Add Labels column to App, AppSet, ImageUpdater list pages; Remove TP badge (#10541)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/265",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 265,
+            "author": "keithchong",
+            "engaged_at": "2026-08-18T20:16:16Z"
+          },
+          {
+            "title": "chore(ui): use swagger-ui-dist instead of redoc",
+            "url": "https://github.com/argoproj/argo-cd/pull/29018",
+            "repo": "argoproj/argo-cd",
+            "number": 29018,
+            "author": "blakepettersson",
+            "engaged_at": "2026-08-17T19:45:19Z"
+          },
+          {
+            "title": "Migrate other styles to PF6",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/259",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 259,
+            "author": "keithchong",
+            "engaged_at": "2026-08-07T16:29:49Z"
+          },
+          {
+            "title": "Show matchExpressions in Progressive Sync Step Groups (#10177)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/256",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 256,
+            "author": "keithchong",
+            "engaged_at": "2026-08-07T13:29:06Z"
+          },
+          {
+            "title": "test: skip terminating source namespaces",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1247",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1247,
+            "author": "varshab1210",
+            "engaged_at": "2026-08-06T14:19:32Z"
+          },
+          {
+            "title": "fix(appset): re-normalize specs after applyIgnoreDifferences (#29066)",
+            "url": "https://github.com/argoproj/argo-cd/pull/29072",
+            "repo": "argoproj/argo-cd",
+            "number": 29072,
+            "author": "praveen9354",
+            "engaged_at": "2026-08-05T21:50:21Z"
+          },
+          {
+            "title": "No Jira: Necessary files and updates needed",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/258",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 258,
+            "author": "keithchong",
+            "engaged_at": "2026-08-05T20:14:32Z"
+          },
+          {
+            "title": "feat(appset): Adding annotations on apps to force reconciliation before proceeding with progressive sync",
+            "url": "https://github.com/argoproj/argo-cd/pull/27467",
+            "repo": "argoproj/argo-cd",
+            "number": 27467,
+            "author": "ranakan19",
+            "engaged_at": "2026-08-05T19:43:03Z"
+          },
+          {
+            "title": "Implement Topology's List/Graph switch toggle (#10018)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/251",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 251,
+            "author": "keithchong",
+            "engaged_at": "2026-08-04T15:32:44Z"
+          },
+          {
+            "title": "feat(dex): Making Dex storage type and config configurable from argocd-cm configmap",
+            "url": "https://github.com/argoproj/argo-cd/pull/28624",
+            "repo": "argoproj/argo-cd",
+            "number": 28624,
+            "author": "akhilnittala",
+            "engaged_at": "2026-08-04T12:46:56Z"
+          },
+          {
+            "title": "feat: Add Rollout actions (#8568)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/257",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 257,
+            "author": "keithchong",
+            "engaged_at": "2026-07-31T19:17:00Z"
+          },
+          {
+            "title": "feat(ui): add parent app breadcrumb navigation for app-of-apps",
+            "url": "https://github.com/argoproj/argo-cd/pull/28963",
+            "repo": "argoproj/argo-cd",
+            "number": 28963,
+            "author": "daanvinken",
+            "engaged_at": "2026-07-29T19:50:47Z"
+          },
+          {
+            "title": "fix(repository): resolve untyped helm source type in UpdateRevisionForPaths",
+            "url": "https://github.com/argoproj/argo-cd/pull/28904",
+            "repo": "argoproj/argo-cd",
+            "number": 28904,
+            "author": "Churi12",
+            "engaged_at": "2026-07-29T16:49:18Z"
+          },
+          {
+            "title": "feat(gitops-console-plugin): Configure SSL protocol and ciphersuites for plugin component",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1224",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1224,
+            "author": "akhilnittala",
+            "engaged_at": "2026-07-29T15:29:59Z"
+          },
+          {
+            "title": "test: skip terminating source namespaces",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1240",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1240,
+            "author": "varshab1210",
+            "engaged_at": "2026-07-29T15:23:17Z"
+          },
+          {
+            "title": "chore: Undo PR 28918 due to redoc dependency on older version",
+            "url": "https://github.com/argoproj/argo-cd/pull/28943",
+            "repo": "argoproj/argo-cd",
+            "number": 28943,
+            "author": "keithchong",
+            "engaged_at": "2026-07-28T15:56:20Z"
+          },
+          {
+            "title": "chore(deps): bump js-yaml from 4.3.0 to 5.2.2 in /ui",
+            "url": "https://github.com/argoproj/argo-cd/pull/28918",
+            "repo": "argoproj/argo-cd",
+            "number": 28918,
+            "author": "dependabot",
+            "engaged_at": "2026-07-28T13:24:13Z"
+          }
+        ]
+      },
+      {
         "login": "anandf",
         "reviews": 33,
         "prs": [
@@ -11090,268 +11360,6 @@
             "number": 1223,
             "author": "olivergondza",
             "engaged_at": "2026-07-23T12:06:15Z"
-          }
-        ]
-      },
-      {
-        "login": "aali309",
-        "reviews": 32,
-        "prs": [
-          {
-            "title": "fix(repo-server): Correctly inherit resources for init-container",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1397",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1397,
-            "author": "olivergondza",
-            "engaged_at": "2026-10-20T16:59:21Z"
-          },
-          {
-            "title": "feat: add OCI Generator for AppSet",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/307",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 307,
-            "author": "dkarpele",
-            "engaged_at": "2026-10-16T13:29:42Z"
-          },
-          {
-            "title": "release-4.18: return null from rollout decorator so Topology URL links render (#11176)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/300",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 300,
-            "author": "keithchong",
-            "engaged_at": "2026-09-03T14:10:07Z"
-          },
-          {
-            "title": "GITOPS-11176: return null from rollout decorator so Topology URL links render",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/299",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 299,
-            "author": "dipakkarde",
-            "engaged_at": "2026-09-03T13:10:22Z"
-          },
-          {
-            "title": "Add unit tests for health \u0026 application set status",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/290",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 290,
-            "author": "trdoyle81",
-            "engaged_at": "2026-09-02T17:11:56Z"
-          },
-          {
-            "title": "fix: enable Delete ApplicationSet (And Apps) for namespace-scoped users (GITOPS-10780)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/287",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 287,
-            "author": "keithchong",
-            "engaged_at": "2026-09-02T16:36:37Z"
-          },
-          {
-            "title": "Bump up version number for main",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/286",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 286,
-            "author": "keithchong",
-            "engaged_at": "2026-09-02T15:49:03Z"
-          },
-          {
-            "title": "fix: release-4.18: enable Delete ApplicationSet (and Apps) for namespace-scoped users (#10780)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/289",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 289,
-            "author": "keithchong",
-            "engaged_at": "2026-09-02T15:48:20Z"
-          },
-          {
-            "title": "fix: Use Link Icon instead to indicate new page will be opened (no jira)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/288",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 288,
-            "author": "keithchong",
-            "engaged_at": "2026-09-02T14:18:21Z"
-          },
-          {
-            "title": "WIP: Update Dynamic Plugin Version, Dependencies, Cleanup (#10305)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/283",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 283,
-            "author": "keithchong",
-            "engaged_at": "2026-09-01T15:25:19Z"
-          },
-          {
-            "title": "release-4.18: Translate strings in the GitOps Plugin (#9408)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/278",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 278,
-            "author": "keithchong",
-            "engaged_at": "2026-08-24T18:36:39Z"
-          },
-          {
-            "title": "Translate and Externalize strings in the GitOps Plugin (#9408)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/269",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 269,
-            "author": "keithchong",
-            "engaged_at": "2026-08-24T18:35:11Z"
-          },
-          {
-            "title": "Revert some changes From PR279",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/280",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 280,
-            "author": "keithchong",
-            "engaged_at": "2026-08-24T14:57:12Z"
-          },
-          {
-            "title": "Update version for 4.18; Update dependencies",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/279",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 279,
-            "author": "keithchong",
-            "engaged_at": "2026-08-21T20:39:26Z"
-          },
-          {
-            "title": "feat(reposerver): #25605 #12159 enable a multi-source application manifest to have same repoURL with different revision",
-            "url": "https://github.com/argoproj/argo-cd/pull/25664",
-            "repo": "argoproj/argo-cd",
-            "number": 25664,
-            "author": "jmmclean",
-            "engaged_at": "2026-08-19T19:20:39Z"
-          },
-          {
-            "title": "Add Labels column to App, AppSet, ImageUpdater list pages; Remove TP badge (#10541)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/265",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 265,
-            "author": "keithchong",
-            "engaged_at": "2026-08-18T20:16:16Z"
-          },
-          {
-            "title": "chore(ui): use swagger-ui-dist instead of redoc",
-            "url": "https://github.com/argoproj/argo-cd/pull/29018",
-            "repo": "argoproj/argo-cd",
-            "number": 29018,
-            "author": "blakepettersson",
-            "engaged_at": "2026-08-17T19:45:19Z"
-          },
-          {
-            "title": "Migrate other styles to PF6",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/259",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 259,
-            "author": "keithchong",
-            "engaged_at": "2026-08-07T16:29:49Z"
-          },
-          {
-            "title": "Show matchExpressions in Progressive Sync Step Groups (#10177)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/256",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 256,
-            "author": "keithchong",
-            "engaged_at": "2026-08-07T13:29:06Z"
-          },
-          {
-            "title": "test: skip terminating source namespaces",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1247",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1247,
-            "author": "varshab1210",
-            "engaged_at": "2026-08-06T14:19:32Z"
-          },
-          {
-            "title": "fix(appset): re-normalize specs after applyIgnoreDifferences (#29066)",
-            "url": "https://github.com/argoproj/argo-cd/pull/29072",
-            "repo": "argoproj/argo-cd",
-            "number": 29072,
-            "author": "praveen9354",
-            "engaged_at": "2026-08-05T21:50:21Z"
-          },
-          {
-            "title": "No Jira: Necessary files and updates needed",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/258",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 258,
-            "author": "keithchong",
-            "engaged_at": "2026-08-05T20:14:32Z"
-          },
-          {
-            "title": "feat(appset): Adding annotations on apps to force reconciliation before proceeding with progressive sync",
-            "url": "https://github.com/argoproj/argo-cd/pull/27467",
-            "repo": "argoproj/argo-cd",
-            "number": 27467,
-            "author": "ranakan19",
-            "engaged_at": "2026-08-05T19:43:03Z"
-          },
-          {
-            "title": "Implement Topology's List/Graph switch toggle (#10018)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/251",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 251,
-            "author": "keithchong",
-            "engaged_at": "2026-08-04T15:32:44Z"
-          },
-          {
-            "title": "feat(dex): Making Dex storage type and config configurable from argocd-cm configmap",
-            "url": "https://github.com/argoproj/argo-cd/pull/28624",
-            "repo": "argoproj/argo-cd",
-            "number": 28624,
-            "author": "akhilnittala",
-            "engaged_at": "2026-08-04T12:46:56Z"
-          },
-          {
-            "title": "feat: Add Rollout actions (#8568)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/257",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 257,
-            "author": "keithchong",
-            "engaged_at": "2026-07-31T19:17:00Z"
-          },
-          {
-            "title": "feat(ui): add parent app breadcrumb navigation for app-of-apps",
-            "url": "https://github.com/argoproj/argo-cd/pull/28963",
-            "repo": "argoproj/argo-cd",
-            "number": 28963,
-            "author": "daanvinken",
-            "engaged_at": "2026-07-29T19:50:47Z"
-          },
-          {
-            "title": "fix(repository): resolve untyped helm source type in UpdateRevisionForPaths",
-            "url": "https://github.com/argoproj/argo-cd/pull/28904",
-            "repo": "argoproj/argo-cd",
-            "number": 28904,
-            "author": "Churi12",
-            "engaged_at": "2026-07-29T16:49:18Z"
-          },
-          {
-            "title": "feat(gitops-console-plugin): Configure SSL protocol and ciphersuites for plugin component",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1224",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1224,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-29T15:29:59Z"
-          },
-          {
-            "title": "test: skip terminating source namespaces",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1240",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1240,
-            "author": "varshab1210",
-            "engaged_at": "2026-07-29T15:23:17Z"
-          },
-          {
-            "title": "chore: Undo PR 28918 due to redoc dependency on older version",
-            "url": "https://github.com/argoproj/argo-cd/pull/28943",
-            "repo": "argoproj/argo-cd",
-            "number": 28943,
-            "author": "keithchong",
-            "engaged_at": "2026-07-28T15:56:20Z"
-          },
-          {
-            "title": "chore(deps): bump js-yaml from 4.3.0 to 5.2.2 in /ui",
-            "url": "https://github.com/argoproj/argo-cd/pull/28918",
-            "repo": "argoproj/argo-cd",
-            "number": 28918,
-            "author": "dependabot",
-            "engaged_at": "2026-07-28T13:24:13Z"
           }
         ]
       },
