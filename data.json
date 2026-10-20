@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T07:12:41.356771232Z",
+  "generated_at": "2026-10-20T08:08:26.163036143Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1240,10 +1240,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-07-08T12:30:58Z",
-      "updated_at": "2026-10-17T00:19:46Z",
+      "updated_at": "2026-10-20T07:53:19Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 4,
@@ -1252,7 +1252,8 @@
       },
       "unresolved_conversations": 3,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "needs-rebase"
       ]
     },
     {
@@ -1779,10 +1780,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-14T11:57:34Z",
-      "updated_at": "2026-10-17T08:31:19Z",
+      "updated_at": "2026-10-20T07:53:17Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1791,6 +1792,7 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "needs-rebase",
         "kind/cleanup"
       ]
     },
@@ -1804,10 +1806,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-14T23:33:27Z",
-      "updated_at": "2026-10-17T05:32:59Z",
+      "updated_at": "2026-10-20T07:53:15Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1816,6 +1818,7 @@
       },
       "unresolved_conversations": 1,
       "labels": [
+        "needs-rebase",
         "kind/cleanup"
       ]
     },
@@ -2042,7 +2045,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T07:22:05Z",
-      "updated_at": "2026-10-20T06:57:22Z",
+      "updated_at": "2026-10-20T07:20:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -2069,7 +2072,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-15T13:43:44Z",
-      "updated_at": "2026-10-15T16:01:13Z",
+      "updated_at": "2026-10-20T07:53:14Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2081,7 +2084,8 @@
       },
       "unresolved_conversations": 1,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "needs-rebase"
       ]
     },
     {
@@ -2148,7 +2152,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-16T03:37:50Z",
-      "updated_at": "2026-10-16T15:43:35Z",
+      "updated_at": "2026-10-20T07:53:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2160,6 +2164,7 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "needs-rebase",
         "kind/cleanup"
       ]
     },
@@ -2199,7 +2204,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-19T12:45:23Z",
-      "updated_at": "2026-10-20T06:56:51Z",
+      "updated_at": "2026-10-20T07:46:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2212,6 +2217,31 @@
       "unresolved_conversations": 3,
       "labels": [
         "kind/failing-ci"
+      ]
+    },
+    {
+      "title": "feat(images): Use images from quay.io over public.ecr.aws to avoid rate limiting",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1437",
+      "number": 1437,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-10-20T07:44:55Z",
+      "updated_at": "2026-10-20T07:51:54Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/enhancement"
       ]
     },
     {
@@ -3851,7 +3881,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
       },
       "created_at": "2026-10-06T21:27:56Z",
-      "updated_at": "2026-10-16T17:33:20Z",
+      "updated_at": "2026-10-20T07:46:45Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5859,7 +5889,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T07:10:53Z",
+    "since": "2026-07-22T08:06:36Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6861,7 +6891,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1436,
             "author": "anandrkskd",
-            "engaged_at": "2026-10-20T06:56:51Z"
+            "engaged_at": "2026-10-20T07:46:16Z"
           },
           {
             "title": "Docs: Update the URL for accessing redacted OpenShift CI logs",
@@ -7739,8 +7769,16 @@
       },
       {
         "login": "jgwest",
-        "reviews": 90,
+        "reviews": 91,
         "prs": [
+          {
+            "title": "build(deps): Bump github.com/argoproj/argo-cd/v3 from 3.4.3 to 3.4.10 in /hack/sync-consistency-util",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1161",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1161,
+            "author": "dependabot",
+            "engaged_at": "2026-10-20T08:05:30Z"
+          },
           {
             "title": "chore(deps): bump github.com/go-logr/logr from 1.4.3 to 1.4.4",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1374",
