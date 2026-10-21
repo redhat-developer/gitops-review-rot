@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T13:10:14.53239416Z",
+  "generated_at": "2026-10-21T14:08:35.992681876Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1602,10 +1602,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-10-12T13:08:22Z",
-      "updated_at": "2026-10-20T18:24:25Z",
+      "updated_at": "2026-10-21T14:02:45Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2128,10 +2128,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-10-20T12:06:38Z",
-      "updated_at": "2026-10-21T11:24:47Z",
+      "updated_at": "2026-10-21T13:17:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2207,10 +2207,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-21T10:14:14Z",
+      "updated_at": "2026-10-21T13:51:15Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2232,10 +2232,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-21T10:17:46Z",
-      "updated_at": "2026-10-21T10:22:08Z",
+      "updated_at": "2026-10-21T13:34:56Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5038,38 +5038,15 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-07-16T14:24:23Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T13:07:51Z",
+    "since": "2026-07-23T14:05:40Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 125,
+        "reviews": 124,
         "prs": [
           {
             "title": "fix(kustomize): keep aliases of the same image apart when merging the override file",
@@ -6062,14 +6039,6 @@
             "number": 1728,
             "author": "josmo",
             "engaged_at": "2026-07-24T14:15:33Z"
-          },
-          {
-            "title": "fix: prevent disallowed NamespaceManagement from breaking OpenShift  GitOps login",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2296",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2296,
-            "author": "aali309",
-            "engaged_at": "2026-07-23T14:01:11Z"
           }
         ]
       },
@@ -10267,7 +10236,7 @@
       },
       {
         "login": "anandf",
-        "reviews": 33,
+        "reviews": 32,
         "prs": [
           {
             "title": "GITOPS-11058 use argocd-redis secret by default",
@@ -10524,14 +10493,6 @@
             "number": 1234,
             "author": "svghadi",
             "engaged_at": "2026-07-27T07:08:55Z"
-          },
-          {
-            "title": "feat(redis-ha-proxy): Configure Redis Ha Proxy TLS settings",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2281",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2281,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-23T13:14:48Z"
           }
         ]
       },
