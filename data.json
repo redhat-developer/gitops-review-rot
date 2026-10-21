@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T10:07:55.246309928Z",
+  "generated_at": "2026-10-21T11:08:10.919744923Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1522,7 +1522,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-09T16:22:55Z",
-      "updated_at": "2026-10-21T09:35:51Z",
+      "updated_at": "2026-10-21T10:18:13Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1530,11 +1530,12 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement",
+        "lgtm",
         "approved"
       ]
     },
@@ -1833,7 +1834,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T07:21:30Z",
-      "updated_at": "2026-10-21T08:07:48Z",
+      "updated_at": "2026-10-21T10:53:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -2124,10 +2125,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-10-20T12:06:38Z",
-      "updated_at": "2026-10-21T08:02:02Z",
+      "updated_at": "2026-10-21T11:01:43Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2201,10 +2202,35 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-21T09:34:07Z",
+      "updated_at": "2026-10-21T10:14:14Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/enhancement"
+      ]
+    },
+    {
+      "title": "tests(e2e): Carry 1-024_validate_apps_in_any_namespace_test.go from argocd-operator",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1444",
+      "number": 1444,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-10-21T10:17:46Z",
+      "updated_at": "2026-10-21T10:22:08Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2784,7 +2810,7 @@
       "updated_at": "2026-10-21T05:08:57Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4859,6 +4885,29 @@
       "labels": []
     },
     {
+      "title": "fix: openshiftOAuth should error on non-openshift platform",
+      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2413",
+      "number": 2413,
+      "repo": "argoproj-labs/argocd-operator",
+      "author": {
+        "login": "anandrkskd",
+        "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
+      },
+      "created_at": "2026-10-21T10:23:34Z",
+      "updated_at": "2026-10-21T10:26:24Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "fixes for Openshift deployment",
       "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/89",
       "number": 89,
@@ -4985,7 +5034,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T10:05:46Z",
+    "since": "2026-07-23T11:05:55Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7639,7 +7688,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1351,
             "author": "akhilnittala",
-            "engaged_at": "2026-10-21T09:35:51Z"
+            "engaged_at": "2026-10-21T10:18:01Z"
           },
           {
             "title": "chore: upgrade promotor to 0.35.1",
