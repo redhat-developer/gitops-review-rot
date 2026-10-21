@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T04:08:34.253923705Z",
+  "generated_at": "2026-10-21T05:07:16.748249553Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1705,10 +1705,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-14T08:50:47Z",
-      "updated_at": "2026-10-21T01:50:35Z",
+      "updated_at": "2026-10-21T04:39:14Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2140,31 +2140,6 @@
       "unresolved_conversations": 3,
       "labels": [
         "kind/failing-ci"
-      ]
-    },
-    {
-      "title": "feat(images): Use images from quay.io over public.ecr.aws to avoid rate limiting",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1437",
-      "number": 1437,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "olivergondza",
-        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
-      },
-      "created_at": "2026-10-20T07:44:55Z",
-      "updated_at": "2026-10-20T07:51:54Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/enhancement"
       ]
     },
     {
@@ -2834,17 +2809,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-10-19T08:41:44Z",
-      "updated_at": "2026-10-19T08:57:10Z",
+      "updated_at": "2026-10-21T04:53:51Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -5867,7 +5842,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T04:06:26Z",
+    "since": "2026-07-23T05:05:24Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -11695,8 +11670,16 @@
       },
       {
         "login": "anandrkskd",
-        "reviews": 15,
+        "reviews": 16,
         "prs": [
+          {
+            "title": "feat(images): Use images from quay.io over public.ecr.aws to avoid rate limiting",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1437",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1437,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-21T04:53:16Z"
+          },
           {
             "title": "fix: Rename inner module from argoproj-labs to redhat-developer",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1334",
