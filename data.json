@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T18:08:14.021421613Z",
+  "generated_at": "2026-10-21T19:07:28.20674068Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1972,10 +1972,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-15T13:43:44Z",
-      "updated_at": "2026-10-21T14:45:13Z",
+      "updated_at": "2026-10-21T18:07:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2178,7 +2178,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-21T10:17:46Z",
-      "updated_at": "2026-10-21T13:34:56Z",
+      "updated_at": "2026-10-21T18:34:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2858,6 +2858,29 @@
       "created_at": "2026-10-21T15:42:52Z",
       "updated_at": "2026-10-21T16:03:39Z",
       "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore: add event output on redis rollout fail",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1164",
+      "number": 1164,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-10-21T18:17:07Z",
+      "updated_at": "2026-10-21T18:35:47Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
@@ -3912,6 +3935,31 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
+      "labels": [
+        "ok-to-test"
+      ]
+    },
+    {
+      "title": "chore(deps): bump argocd from 3.5.5 to 3.5.6",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1880",
+      "number": 1880,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-10-21T18:42:19Z",
+      "updated_at": "2026-10-21T18:47:21Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
       "labels": [
         "ok-to-test"
       ]
@@ -5034,7 +5082,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T18:05:48Z",
+    "since": "2026-07-23T19:05:07Z",
     "reviewers": [
       {
         "login": "chengfang",
