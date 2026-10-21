@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:08:26.566267089Z",
+  "generated_at": "2026-10-21T17:07:29.543728441Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2153,10 +2153,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-21T14:45:17Z",
+      "updated_at": "2026-10-21T17:00:44Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2859,7 +2859,7 @@
       "updated_at": "2026-10-21T16:03:39Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5034,7 +5034,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T16:05:50Z",
+    "since": "2026-07-23T17:05:15Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10829,132 +10829,6 @@
         ]
       },
       {
-        "login": "jparsai",
-        "reviews": 15,
-        "prs": [
-          {
-            "title": "Upgrade to Argo Rollouts v1.10.1",
-            "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/148",
-            "repo": "argoproj-labs/argo-rollouts-manager",
-            "number": 148,
-            "author": "jgwest",
-            "engaged_at": "2026-10-15T06:18:32Z"
-          },
-          {
-            "title": "chore: upgrade to latest Argo Rollouts version v1.10",
-            "url": "https://github.com/argoproj-labs/rollouts-plugin-trafficrouter-openshift/pull/19",
-            "repo": "argoproj-labs/rollouts-plugin-trafficrouter-openshift",
-            "number": 19,
-            "author": "jgwest",
-            "engaged_at": "2026-10-13T14:06:58Z"
-          },
-          {
-            "title": "fix: restrict resource proxy NetworkPolicy to Argo CD server",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1129",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1129,
-            "author": "Rizwana777",
-            "engaged_at": "2026-10-08T14:43:25Z"
-          },
-          {
-            "title": "chore: use port-forward to login to argocd server in E2E Tests",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1315",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1315,
-            "author": "jgwest",
-            "engaged_at": "2026-10-07T13:29:31Z"
-          },
-          {
-            "title": "feat: toggle debug settings during runtime",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1111",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1111,
-            "author": "chetan-rns",
-            "engaged_at": "2026-09-29T09:34:47Z"
-          },
-          {
-            "title": "chore: additional E2E test reliability improvements",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1272",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1272,
-            "author": "jgwest",
-            "engaged_at": "2026-09-08T09:10:49Z"
-          },
-          {
-            "title": "chore: add test fixes and additional debugging",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1270",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1270,
-            "author": "jgwest",
-            "engaged_at": "2026-09-02T06:28:14Z"
-          },
-          {
-            "title": "feat: Gather namespace Roles and RoleBindings",
-            "url": "https://github.com/redhat-developer/gitops-must-gather/pull/43",
-            "repo": "redhat-developer/gitops-must-gather",
-            "number": 43,
-            "author": "olivergondza",
-            "engaged_at": "2026-08-24T12:13:26Z"
-          },
-          {
-            "title": "Upgrade dependencies to Argo Rollouts v1.6.6",
-            "url": "https://github.com/argoproj-labs/rollouts-plugin-trafficrouter-openshift/pull/17",
-            "repo": "argoproj-labs/rollouts-plugin-trafficrouter-openshift",
-            "number": 17,
-            "author": "jgwest",
-            "engaged_at": "2026-08-21T11:52:56Z"
-          },
-          {
-            "title": "chore: run 'go fix' and audit changes",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2312",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2312,
-            "author": "jgwest",
-            "engaged_at": "2026-08-04T14:35:16Z"
-          },
-          {
-            "title": "test(e2e): add e2e test to verify destination based mapping",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1241",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1241,
-            "author": "chetan-rns",
-            "engaged_at": "2026-08-03T13:38:05Z"
-          },
-          {
-            "title": "test(e2e): add e2e test to verify destination based mapping",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2308",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2308,
-            "author": "chetan-rns",
-            "engaged_at": "2026-08-03T13:32:17Z"
-          },
-          {
-            "title": "feat: translate AppProject roles in autonomous agent mode",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1041",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1041,
-            "author": "jgwest",
-            "engaged_at": "2026-07-31T13:16:53Z"
-          },
-          {
-            "title": "fix: cleanup agent resources after the deletion of the agent cluster secret",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1034",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1034,
-            "author": "chetan-rns",
-            "engaged_at": "2026-07-27T11:37:18Z"
-          },
-          {
-            "title": "chore(rbac): add examples for agent clusterroles that enhance permissions for the resource proxy",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1047",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1047,
-            "author": "cjcocokrisp",
-            "engaged_at": "2026-07-23T16:28:53Z"
-          }
-        ]
-      },
-      {
         "login": "varshab1210",
         "reviews": 15,
         "prs": [
@@ -11077,6 +10951,124 @@
             "number": 1228,
             "author": "trdoyle81",
             "engaged_at": "2026-08-06T05:26:42Z"
+          }
+        ]
+      },
+      {
+        "login": "jparsai",
+        "reviews": 14,
+        "prs": [
+          {
+            "title": "Upgrade to Argo Rollouts v1.10.1",
+            "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/148",
+            "repo": "argoproj-labs/argo-rollouts-manager",
+            "number": 148,
+            "author": "jgwest",
+            "engaged_at": "2026-10-15T06:18:32Z"
+          },
+          {
+            "title": "chore: upgrade to latest Argo Rollouts version v1.10",
+            "url": "https://github.com/argoproj-labs/rollouts-plugin-trafficrouter-openshift/pull/19",
+            "repo": "argoproj-labs/rollouts-plugin-trafficrouter-openshift",
+            "number": 19,
+            "author": "jgwest",
+            "engaged_at": "2026-10-13T14:06:58Z"
+          },
+          {
+            "title": "fix: restrict resource proxy NetworkPolicy to Argo CD server",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1129",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1129,
+            "author": "Rizwana777",
+            "engaged_at": "2026-10-08T14:43:25Z"
+          },
+          {
+            "title": "chore: use port-forward to login to argocd server in E2E Tests",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1315",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1315,
+            "author": "jgwest",
+            "engaged_at": "2026-10-07T13:29:31Z"
+          },
+          {
+            "title": "feat: toggle debug settings during runtime",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1111",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1111,
+            "author": "chetan-rns",
+            "engaged_at": "2026-09-29T09:34:47Z"
+          },
+          {
+            "title": "chore: additional E2E test reliability improvements",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1272",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1272,
+            "author": "jgwest",
+            "engaged_at": "2026-09-08T09:10:49Z"
+          },
+          {
+            "title": "chore: add test fixes and additional debugging",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1270",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1270,
+            "author": "jgwest",
+            "engaged_at": "2026-09-02T06:28:14Z"
+          },
+          {
+            "title": "feat: Gather namespace Roles and RoleBindings",
+            "url": "https://github.com/redhat-developer/gitops-must-gather/pull/43",
+            "repo": "redhat-developer/gitops-must-gather",
+            "number": 43,
+            "author": "olivergondza",
+            "engaged_at": "2026-08-24T12:13:26Z"
+          },
+          {
+            "title": "Upgrade dependencies to Argo Rollouts v1.6.6",
+            "url": "https://github.com/argoproj-labs/rollouts-plugin-trafficrouter-openshift/pull/17",
+            "repo": "argoproj-labs/rollouts-plugin-trafficrouter-openshift",
+            "number": 17,
+            "author": "jgwest",
+            "engaged_at": "2026-08-21T11:52:56Z"
+          },
+          {
+            "title": "chore: run 'go fix' and audit changes",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2312",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2312,
+            "author": "jgwest",
+            "engaged_at": "2026-08-04T14:35:16Z"
+          },
+          {
+            "title": "test(e2e): add e2e test to verify destination based mapping",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1241",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1241,
+            "author": "chetan-rns",
+            "engaged_at": "2026-08-03T13:38:05Z"
+          },
+          {
+            "title": "test(e2e): add e2e test to verify destination based mapping",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2308",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2308,
+            "author": "chetan-rns",
+            "engaged_at": "2026-08-03T13:32:17Z"
+          },
+          {
+            "title": "feat: translate AppProject roles in autonomous agent mode",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1041",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1041,
+            "author": "jgwest",
+            "engaged_at": "2026-07-31T13:16:53Z"
+          },
+          {
+            "title": "fix: cleanup agent resources after the deletion of the agent cluster secret",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1034",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1034,
+            "author": "chetan-rns",
+            "engaged_at": "2026-07-27T11:37:18Z"
           }
         ]
       },
