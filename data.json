@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:21:34.256193165Z",
+  "generated_at": "2026-10-21T02:10:14.837516447Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1705,18 +1705,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-14T08:50:47Z",
-      "updated_at": "2026-10-20T16:59:21Z",
+      "updated_at": "2026-10-21T01:50:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
-      "labels": []
+      "labels": [
+        "lgtm",
+        "approved"
+      ]
     },
     {
       "title": "tests: Unify validate_cluster_config tests",
@@ -3900,18 +3903,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
       },
       "created_at": "2026-10-09T17:56:08Z",
-      "updated_at": "2026-10-19T02:04:23Z",
+      "updated_at": "2026-10-21T01:33:09Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
-      "labels": []
+      "labels": [
+        "ok-to-test"
+      ]
     },
     {
       "title": "fix(argocd): treat source hydrator apps without a tool block as Helm",
@@ -3923,17 +3928,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/51235797?u=31d43808181dd2916a7c1d2f78b3943cbf71e080\u0026v=4"
       },
       "created_at": "2026-10-20T20:18:00Z",
-      "updated_at": "2026-10-21T01:05:09Z",
-      "is_draft": false,
+      "updated_at": "2026-10-21T01:57:43Z",
+      "is_draft": true,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "ok-to-test"
       ]
@@ -5862,12 +5867,28 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T01:19:37Z",
+    "since": "2026-07-23T02:08:16Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 123,
+        "reviews": 125,
         "prs": [
+          {
+            "title": "fix(repo-server): Correctly inherit resources for init-container",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1397",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1397,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-21T01:50:26Z"
+          },
+          {
+            "title": "fix(argocd): treat source hydrator apps without a tool block as Helm",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1879",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1879,
+            "author": "RayanAlyasi",
+            "engaged_at": "2026-10-21T01:22:19Z"
+          },
           {
             "title": "fix(webhook): move the TLS keypair out of the trust store directory",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1856",
