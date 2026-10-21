@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T20:07:58.717304685Z",
+  "generated_at": "2026-10-21T21:07:18.486027425Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1671,32 +1671,6 @@
       ]
     },
     {
-      "title": "fix(repo-server): Correctly inherit resources for init-container",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1397",
-      "number": 1397,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "olivergondza",
-        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
-      },
-      "created_at": "2026-10-14T08:50:47Z",
-      "updated_at": "2026-10-21T12:35:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "lgtm",
-        "approved"
-      ]
-    },
-    {
       "title": "tests: Unify validate_cluster_config tests",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1398",
       "number": 1398,
@@ -1796,35 +1770,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement"
-      ]
-    },
-    {
-      "title": "chore(deps): bump golang.org/x/mod from 0.41.0 to 0.42.0",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1409",
-      "number": 1409,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-15T07:21:30Z",
-      "updated_at": "2026-10-21T11:21:37Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "lgtm",
-        "approved",
-        "ok-to-test",
-        "dependencies",
-        "go"
       ]
     },
     {
@@ -2153,7 +2098,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-21T17:48:07Z",
+      "updated_at": "2026-10-21T20:33:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2882,7 +2827,7 @@
       "updated_at": "2026-10-21T19:56:25Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -3949,13 +3894,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-21T20:02:40Z",
-      "updated_at": "2026-10-21T20:03:41Z",
+      "updated_at": "2026-10-21T20:07:44Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -5080,7 +5025,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T20:05:40Z",
+    "since": "2026-07-23T21:05:03Z",
     "reviewers": [
       {
         "login": "chengfang",
