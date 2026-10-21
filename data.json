@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T08:09:02.098904993Z",
+  "generated_at": "2026-10-21T09:08:31.030891936Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1835,15 +1835,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T07:21:30Z",
-      "updated_at": "2026-10-19T08:13:24Z",
+      "updated_at": "2026-10-21T08:07:48Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -1889,7 +1889,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-15T07:21:45Z",
-      "updated_at": "2026-10-21T08:04:13Z",
+      "updated_at": "2026-10-21T08:05:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1897,7 +1897,7 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -2076,14 +2076,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-16T03:37:50Z",
-      "updated_at": "2026-10-21T05:29:21Z",
+      "updated_at": "2026-10-21T08:15:42Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4987,7 +4987,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T08:06:55Z",
+    "since": "2026-07-23T09:06:19Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6008,6 +6008,22 @@
         "reviews": 112,
         "prs": [
           {
+            "title": "feat(util): add signedTagsOnly option for source integrity",
+            "url": "https://github.com/argoproj/argo-cd/pull/30033",
+            "repo": "argoproj/argo-cd",
+            "number": 30033,
+            "author": "nodari-dev",
+            "engaged_at": "2026-10-21T08:46:48Z"
+          },
+          {
+            "title": "chore(deps): bump golang.org/x/mod from 0.41.0 to 0.42.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1409",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1409,
+            "author": "dependabot",
+            "engaged_at": "2026-10-21T08:07:48Z"
+          },
+          {
             "title": "chore: remove duplicated sequential E2E tests",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1430",
             "repo": "redhat-developer/gitops-operator",
@@ -6118,14 +6134,6 @@
             "number": 1393,
             "author": "ranakan19",
             "engaged_at": "2026-10-14T06:54:31Z"
-          },
-          {
-            "title": "feat(util): add signedTagsOnly option for source integrity",
-            "url": "https://github.com/argoproj/argo-cd/pull/30033",
-            "repo": "argoproj/argo-cd",
-            "number": 30033,
-            "author": "nodari-dev",
-            "engaged_at": "2026-10-13T11:58:58Z"
           },
           {
             "title": "chore: upgrade to latest argo-rollouts-manager",
@@ -6894,14 +6902,6 @@
             "number": 2281,
             "author": "akhilnittala",
             "engaged_at": "2026-07-23T12:29:49Z"
-          },
-          {
-            "title": "fix: cherry-pick skip terminating source namespaces (#2280) to `release-0.19`",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2292",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2292,
-            "author": "aali309",
-            "engaged_at": "2026-07-23T08:15:39Z"
           }
         ]
       },
