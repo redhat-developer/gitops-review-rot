@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T12:09:09.954474544Z",
+  "generated_at": "2026-10-21T13:10:14.53239416Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1369,7 +1369,7 @@
       "updated_at": "2026-10-21T06:05:53Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1707,14 +1707,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-14T08:50:47Z",
-      "updated_at": "2026-10-21T09:10:31Z",
+      "updated_at": "2026-10-21T12:35:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
-        "approved_count": 0,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
@@ -2245,6 +2245,32 @@
       "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
+      ]
+    },
+    {
+      "title": "feat: toggle debug settings during runtime",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1445",
+      "number": 1445,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "chetan-rns",
+        "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
+      },
+      "created_at": "2026-10-21T12:58:35Z",
+      "updated_at": "2026-10-21T13:05:00Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "kind/enhancement",
+        "do-not-merge/work-in-progress"
       ]
     },
     {
@@ -5039,7 +5065,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T12:07:06Z",
+    "since": "2026-07-23T13:07:51Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6049,7 +6075,7 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 112,
+        "reviews": 111,
         "prs": [
           {
             "title": "feat(util): add signedTagsOnly option for source integrity",
@@ -6938,14 +6964,6 @@
             "number": 2302,
             "author": "dependabot",
             "engaged_at": "2026-07-27T09:00:54Z"
-          },
-          {
-            "title": "feat(redis-ha-proxy): Configure Redis Ha Proxy TLS settings",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2281",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2281,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-23T12:29:49Z"
           }
         ]
       },
@@ -9982,20 +10000,20 @@
         "reviews": 33,
         "prs": [
           {
+            "title": "fix(repo-server): Correctly inherit resources for init-container",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1397",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1397,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-21T12:35:09Z"
+          },
+          {
             "title": "Create Dashboard with Sync and Health Status cards, Operational, Sync Activity and Reconciliation Metrics Cards (#11387)",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/309",
             "repo": "redhat-developer/gitops-console-plugin",
             "number": 309,
             "author": "keithchong",
             "engaged_at": "2026-10-20T21:35:26Z"
-          },
-          {
-            "title": "fix(repo-server): Correctly inherit resources for init-container",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1397",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1397,
-            "author": "olivergondza",
-            "engaged_at": "2026-10-20T16:59:21Z"
           },
           {
             "title": "feat: add OCI Generator for AppSet",
@@ -10858,140 +10876,6 @@
         ]
       },
       {
-        "login": "varshab1210",
-        "reviews": 16,
-        "prs": [
-          {
-            "title": "Change private-repo target for UI testing",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1316",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1316,
-            "author": "trdoyle81",
-            "engaged_at": "2026-10-21T06:05:47Z"
-          },
-          {
-            "title": "test: generate the Git server SSH key as ECDSA P-256, not Ed25519",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1317",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1317,
-            "author": "AdamSaleh",
-            "engaged_at": "2026-10-16T05:50:06Z"
-          },
-          {
-            "title": "test updates for 1.22.2 release",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1396",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1396,
-            "author": "trdoyle81",
-            "engaged_at": "2026-10-14T11:48:07Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.5.2 to 3.5.4 and image updater from 1.3.0 to 1.3.1",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1348",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1348,
-            "author": "chengfang",
-            "engaged_at": "2026-10-12T10:23:42Z"
-          },
-          {
-            "title": "Test updates for 1.22.0 release",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1323",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1323,
-            "author": "trdoyle81",
-            "engaged_at": "2026-10-08T11:18:45Z"
-          },
-          {
-            "title": "fix: Image Updater fails to start with TLS 1.3 cipher suites when cluster TLS profile uses TLS 1.2 minimum",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1337",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1337,
-            "author": "akhilnittala",
-            "engaged_at": "2026-10-08T11:16:44Z"
-          },
-          {
-            "title": "Update E2E tests for v1.22.0",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1314",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1314,
-            "author": "trdoyle81",
-            "engaged_at": "2026-09-24T10:25:38Z"
-          },
-          {
-            "title": "Gitops 9684 gitops 9683 auto sync self healing and private repo",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1255",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1255,
-            "author": "trdoyle81",
-            "engaged_at": "2026-09-24T07:46:56Z"
-          },
-          {
-            "title": "docs: Document how to access redacted CI logs",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1290",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1290,
-            "author": "olivergondza",
-            "engaged_at": "2026-09-16T06:38:59Z"
-          },
-          {
-            "title": "Gitops 9686 UI test app pruning",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1252",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1252,
-            "author": "trdoyle81",
-            "engaged_at": "2026-09-07T06:56:54Z"
-          },
-          {
-            "title": "Added E2E for role ownership validation",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1209",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1209,
-            "author": "alkakumari016",
-            "engaged_at": "2026-09-03T05:49:52Z"
-          },
-          {
-            "title": "fix(e2e): Do not print secret value from secret.Fixture.HaveNonEmptyKeyValue",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1258",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1258,
-            "author": "olivergondza",
-            "engaged_at": "2026-08-19T11:17:35Z"
-          },
-          {
-            "title": "test: skip terminating source namespaces",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1249",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1249,
-            "author": "aali309",
-            "engaged_at": "2026-08-10T05:56:40Z"
-          },
-          {
-            "title": "Fix 1-090_validate_permissions for OLM CSV copies on v1.19.6.",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1248",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1248,
-            "author": "trdoyle81",
-            "engaged_at": "2026-08-07T05:33:38Z"
-          },
-          {
-            "title": "Playwright Test - Login with HA enabled ",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1228",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1228,
-            "author": "trdoyle81",
-            "engaged_at": "2026-08-06T05:26:42Z"
-          },
-          {
-            "title": "feat(gitops-console-plugin): Configure SSL protocol and ciphersuites for plugin component",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1224",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1224,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-23T13:01:27Z"
-          }
-        ]
-      },
-      {
         "login": "jparsai",
         "reviews": 15,
         "prs": [
@@ -11114,6 +10998,132 @@
             "number": 1047,
             "author": "cjcocokrisp",
             "engaged_at": "2026-07-23T16:28:53Z"
+          }
+        ]
+      },
+      {
+        "login": "varshab1210",
+        "reviews": 15,
+        "prs": [
+          {
+            "title": "Change private-repo target for UI testing",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1316",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1316,
+            "author": "trdoyle81",
+            "engaged_at": "2026-10-21T06:05:47Z"
+          },
+          {
+            "title": "test: generate the Git server SSH key as ECDSA P-256, not Ed25519",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1317",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1317,
+            "author": "AdamSaleh",
+            "engaged_at": "2026-10-16T05:50:06Z"
+          },
+          {
+            "title": "test updates for 1.22.2 release",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1396",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1396,
+            "author": "trdoyle81",
+            "engaged_at": "2026-10-14T11:48:07Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.2 to 3.5.4 and image updater from 1.3.0 to 1.3.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1348",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1348,
+            "author": "chengfang",
+            "engaged_at": "2026-10-12T10:23:42Z"
+          },
+          {
+            "title": "Test updates for 1.22.0 release",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1323",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1323,
+            "author": "trdoyle81",
+            "engaged_at": "2026-10-08T11:18:45Z"
+          },
+          {
+            "title": "fix: Image Updater fails to start with TLS 1.3 cipher suites when cluster TLS profile uses TLS 1.2 minimum",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1337",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1337,
+            "author": "akhilnittala",
+            "engaged_at": "2026-10-08T11:16:44Z"
+          },
+          {
+            "title": "Update E2E tests for v1.22.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1314",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1314,
+            "author": "trdoyle81",
+            "engaged_at": "2026-09-24T10:25:38Z"
+          },
+          {
+            "title": "Gitops 9684 gitops 9683 auto sync self healing and private repo",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1255",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1255,
+            "author": "trdoyle81",
+            "engaged_at": "2026-09-24T07:46:56Z"
+          },
+          {
+            "title": "docs: Document how to access redacted CI logs",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1290",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1290,
+            "author": "olivergondza",
+            "engaged_at": "2026-09-16T06:38:59Z"
+          },
+          {
+            "title": "Gitops 9686 UI test app pruning",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1252",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1252,
+            "author": "trdoyle81",
+            "engaged_at": "2026-09-07T06:56:54Z"
+          },
+          {
+            "title": "Added E2E for role ownership validation",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1209",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1209,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-03T05:49:52Z"
+          },
+          {
+            "title": "fix(e2e): Do not print secret value from secret.Fixture.HaveNonEmptyKeyValue",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1258",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1258,
+            "author": "olivergondza",
+            "engaged_at": "2026-08-19T11:17:35Z"
+          },
+          {
+            "title": "test: skip terminating source namespaces",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1249",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1249,
+            "author": "aali309",
+            "engaged_at": "2026-08-10T05:56:40Z"
+          },
+          {
+            "title": "Fix 1-090_validate_permissions for OLM CSV copies on v1.19.6.",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1248",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1248,
+            "author": "trdoyle81",
+            "engaged_at": "2026-08-07T05:33:38Z"
+          },
+          {
+            "title": "Playwright Test - Login with HA enabled ",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1228",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1228,
+            "author": "trdoyle81",
+            "engaged_at": "2026-08-06T05:26:42Z"
           }
         ]
       },
