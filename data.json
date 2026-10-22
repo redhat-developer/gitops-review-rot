@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T12:09:00.224620895Z",
+  "generated_at": "2026-10-22T13:09:14.020733909Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1494,7 +1494,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-13T08:13:59Z",
-      "updated_at": "2026-10-22T11:12:20Z",
+      "updated_at": "2026-10-22T12:45:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1599,7 +1599,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-14T23:33:27Z",
-      "updated_at": "2026-10-22T11:11:40Z",
+      "updated_at": "2026-10-22T12:30:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1607,11 +1607,10 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": [
-        "lgtm",
         "kind/cleanup"
       ]
     },
@@ -1809,7 +1808,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-16T03:37:50Z",
-      "updated_at": "2026-10-22T10:34:16Z",
+      "updated_at": "2026-10-22T12:39:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1886,10 +1885,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-22T10:53:26Z",
+      "updated_at": "2026-10-22T12:42:20Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1989,14 +1988,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-22T11:47:26Z",
-      "updated_at": "2026-10-22T11:49:41Z",
+      "updated_at": "2026-10-22T12:35:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -2646,7 +2645,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/134488140?u=c945dd6538da8364b743d72c22c2aa072d6d6d4c\u0026v=4"
       },
       "created_at": "2026-10-22T11:35:33Z",
-      "updated_at": "2026-10-22T11:37:55Z",
+      "updated_at": "2026-10-22T12:18:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4684,10 +4683,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-21T10:23:34Z",
-      "updated_at": "2026-10-22T08:12:45Z",
+      "updated_at": "2026-10-22T13:03:31Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4797,11 +4796,34 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-07-16T14:24:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T12:06:38Z",
+    "since": "2026-07-24T13:06:54Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6713,8 +6735,16 @@
       },
       {
         "login": "jgwest",
-        "reviews": 89,
+        "reviews": 90,
         "prs": [
+          {
+            "title": "nit: typo in fixture method name",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1447",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1447,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-22T12:35:29Z"
+          },
           {
             "title": "feat: prevent openshift-gitops namespace creation when DISABLE_DEFAULT_ARGOCD_INSTANCE=true",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1206",
