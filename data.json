@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T14:07:04.150104147Z",
+  "generated_at": "2026-10-22T15:08:48.526077163Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1469,7 +1469,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-10-12T13:08:22Z",
-      "updated_at": "2026-10-22T12:00:14Z",
+      "updated_at": "2026-10-22T14:45:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1574,7 +1574,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-14T11:57:34Z",
-      "updated_at": "2026-10-22T13:56:02Z",
+      "updated_at": "2026-10-22T14:57:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1599,10 +1599,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-14T23:33:27Z",
-      "updated_at": "2026-10-22T12:30:21Z",
+      "updated_at": "2026-10-22T14:42:16Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1783,7 +1783,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-15T13:43:44Z",
-      "updated_at": "2026-10-22T10:27:04Z",
+      "updated_at": "2026-10-22T14:09:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1860,10 +1860,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-22T12:42:20Z",
+      "updated_at": "2026-10-22T14:06:58Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1936,20 +1936,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-22T02:04:58Z",
-      "updated_at": "2026-10-22T11:59:47Z",
+      "updated_at": "2026-10-22T14:57:28Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 1,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement",
-        "lgtm",
         "approved"
       ]
     },
@@ -4798,11 +4797,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T14:04:55Z",
+    "since": "2026-07-24T15:06:09Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 126,
+        "reviews": 125,
         "prs": [
           {
             "title": "chore(deps): bump github.com/argoproj/argo-cd/v3 from 3.5.2 to 3.5.5",
@@ -5803,14 +5802,6 @@
             "number": 1735,
             "author": "dependabot",
             "engaged_at": "2026-07-27T01:53:58Z"
-          },
-          {
-            "title": "feat(git): sign write-back commits via GitHub API with GitHub App creds",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1728",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1728,
-            "author": "josmo",
-            "engaged_at": "2026-07-24T14:15:33Z"
           }
         ]
       },
@@ -9802,8 +9793,24 @@
       },
       {
         "login": "aali309",
-        "reviews": 34,
+        "reviews": 36,
         "prs": [
+          {
+            "title": "feat(ui): add source integrity to project settings",
+            "url": "https://github.com/argoproj/argo-cd/pull/29411",
+            "repo": "argoproj/argo-cd",
+            "number": 29411,
+            "author": "kuci-JK",
+            "engaged_at": "2026-10-22T14:56:18Z"
+          },
+          {
+            "title": "feat(syncPolicy): Allow to define prune by default for manual sync applications.",
+            "url": "https://github.com/argoproj/argo-cd/pull/30028",
+            "repo": "argoproj/argo-cd",
+            "number": 30028,
+            "author": "akhilnittala",
+            "engaged_at": "2026-10-22T14:40:24Z"
+          },
           {
             "title": "fix(repository): resolve race condition for same repo and revision in concurrent operations",
             "url": "https://github.com/argoproj/argo-cd/pull/30346",
