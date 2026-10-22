@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T20:07:54.678187744Z",
+  "generated_at": "2026-10-22T21:07:35.253792267Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1914,7 +1914,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-22T02:04:58Z",
-      "updated_at": "2026-10-22T19:09:12Z",
+      "updated_at": "2026-10-22T20:56:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -3736,6 +3736,29 @@
       ]
     },
     {
+      "title": "fix(helmvalues): stop rewriting Helm image parameters the updater did not resolve (#1876)",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1885",
+      "number": 1885,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-10-22T20:54:38Z",
+      "updated_at": "2026-10-22T20:54:50Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -4826,16 +4849,47 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-07-16T14:24:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T20:05:38Z",
+    "since": "2026-07-24T21:05:23Z",
     "reviewers": [
       {
         "login": "chengfang",
         "reviews": 125,
         "prs": [
+          {
+            "title": "feat: add default CA bundle for clusters (#29170)",
+            "url": "https://github.com/argoproj/argo-cd/pull/29303",
+            "repo": "argoproj/argo-cd",
+            "number": 29303,
+            "author": "KHARSHAVARDHAN-eng",
+            "engaged_at": "2026-10-22T20:15:35Z"
+          },
           {
             "title": "chore(deps): bump github.com/argoproj/argo-cd/v3 from 3.5.2 to 3.5.5",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1426",
@@ -5347,14 +5401,6 @@
             "number": 1804,
             "author": "sorXCode",
             "engaged_at": "2026-09-15T15:18:43Z"
-          },
-          {
-            "title": "feat: add default CA bundle for clusters (#29170)",
-            "url": "https://github.com/argoproj/argo-cd/pull/29303",
-            "repo": "argoproj/argo-cd",
-            "number": 29303,
-            "author": "KHARSHAVARDHAN-eng",
-            "engaged_at": "2026-09-15T13:20:26Z"
           },
           {
             "title": "feat: implement wildcard support for IMAGE_UPDATER_WATCH_NAMESPACES",
@@ -6734,7 +6780,7 @@
       },
       {
         "login": "jgwest",
-        "reviews": 90,
+        "reviews": 89,
         "prs": [
           {
             "title": "nit: typo in fixture method name",
@@ -7447,14 +7493,6 @@
             "number": 1211,
             "author": "cjcocokrisp",
             "engaged_at": "2026-07-27T16:15:39Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/prometheus/client_golang from 1.24.0 to 1.24.1",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2298",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2298,
-            "author": "dependabot",
-            "engaged_at": "2026-07-24T20:29:07Z"
           }
         ]
       },
