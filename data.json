@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T18:07:38.551330211Z",
+  "generated_at": "2026-10-22T19:07:10.639992691Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -890,7 +890,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-09-23T18:54:57Z",
-      "updated_at": "2026-10-22T16:19:44Z",
+      "updated_at": "2026-10-22T19:01:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -898,7 +898,7 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 10,
       "labels": []
@@ -1420,14 +1420,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-09T19:57:46Z",
-      "updated_at": "2026-10-21T11:24:00Z",
+      "updated_at": "2026-10-22T18:16:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
+        "count": 2,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -1551,7 +1551,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-14T11:57:34Z",
-      "updated_at": "2026-10-22T18:01:30Z",
+      "updated_at": "2026-10-22T18:27:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1914,7 +1914,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-22T02:04:58Z",
-      "updated_at": "2026-10-22T14:57:28Z",
+      "updated_at": "2026-10-22T19:02:49Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -4745,7 +4745,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T18:05:39Z",
+    "since": "2026-07-24T19:04:53Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9741,8 +9741,16 @@
       },
       {
         "login": "aali309",
-        "reviews": 36,
+        "reviews": 37,
         "prs": [
+          {
+            "title": "fix(ImageUpdater): GITOPS-11648 zombie Git processes when the operator starts /manager as PID 1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1352",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1352,
+            "author": "chengfang",
+            "engaged_at": "2026-10-22T18:16:42Z"
+          },
           {
             "title": "feat(ui): add source integrity to project settings",
             "url": "https://github.com/argoproj/argo-cd/pull/29411",
