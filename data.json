@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T11:07:47.182450408Z",
+  "generated_at": "2026-10-22T12:09:00.224620895Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1179,31 +1179,6 @@
       ]
     },
     {
-      "title": "feat: prevent openshift-gitops namespace creation when DISABLE_DEFAULT_ARGOCD_INSTANCE=true",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1206",
-      "number": 1206,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-07-08T12:30:58Z",
-      "updated_at": "2026-10-21T19:09:41Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 5,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 3,
-      "labels": [
-        "kind/enhancement"
-      ]
-    },
-    {
       "title": "Added E2E tests for role ownership validation",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1208",
       "number": 1208,
@@ -1494,7 +1469,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-10-12T13:08:22Z",
-      "updated_at": "2026-10-22T09:51:05Z",
+      "updated_at": "2026-10-22T12:00:14Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1519,7 +1494,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-13T08:13:59Z",
-      "updated_at": "2026-10-22T11:01:21Z",
+      "updated_at": "2026-10-22T11:12:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1599,10 +1574,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-14T11:57:34Z",
-      "updated_at": "2026-10-20T07:53:17Z",
+      "updated_at": "2026-10-22T11:56:45Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1611,7 +1586,6 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-rebase",
         "kind/cleanup"
       ]
     },
@@ -1625,18 +1599,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-14T23:33:27Z",
-      "updated_at": "2026-10-21T05:46:03Z",
+      "updated_at": "2026-10-22T11:11:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": [
+        "lgtm",
         "kind/cleanup"
       ]
     },
@@ -1758,7 +1733,7 @@
       "updated_at": "2026-10-20T10:10:09Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1936,14 +1911,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-21T10:17:46Z",
-      "updated_at": "2026-10-21T18:34:33Z",
+      "updated_at": "2026-10-22T11:06:41Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
@@ -1987,7 +1962,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-22T02:04:58Z",
-      "updated_at": "2026-10-22T10:16:28Z",
+      "updated_at": "2026-10-22T11:59:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2002,6 +1977,36 @@
         "kind/enhancement",
         "lgtm",
         "approved"
+      ]
+    },
+    {
+      "title": "nit: typo in fixture method name",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1447",
+      "number": 1447,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-10-22T11:47:26Z",
+      "updated_at": "2026-10-22T11:49:41Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/bug",
+        "kind/documentation",
+        "kind/enhancement",
+        "kind/failing-ci",
+        "kind/failing-test",
+        "kind/cleanup"
       ]
     },
     {
@@ -2618,7 +2623,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-21T18:17:07Z",
-      "updated_at": "2026-10-22T10:13:47Z",
+      "updated_at": "2026-10-22T11:57:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2627,6 +2632,29 @@
         "count": 1,
         "approved_count": 0,
         "has_new_commits": true
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "fix: keep an autonomous agent's AppProject destinations on resync",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1167",
+      "number": 1167,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "jadhavgaurav",
+        "avatar_url": "https://avatars.githubusercontent.com/u/134488140?u=c945dd6538da8364b743d72c22c2aa072d6d6d4c\u0026v=4"
+      },
+      "created_at": "2026-10-22T11:35:33Z",
+      "updated_at": "2026-10-22T11:37:55Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -4769,34 +4797,11 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-07-16T14:24:23Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T11:05:32Z",
+    "since": "2026-07-24T12:06:38Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6708,8 +6713,24 @@
       },
       {
         "login": "jgwest",
-        "reviews": 88,
+        "reviews": 89,
         "prs": [
+          {
+            "title": "feat: prevent openshift-gitops namespace creation when DISABLE_DEFAULT_ARGOCD_INSTANCE=true",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1206",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1206,
+            "author": "Rizwana777",
+            "engaged_at": "2026-10-22T11:20:25Z"
+          },
+          {
+            "title": "tests(e2e): Carry 1-024_validate_apps_in_any_namespace_test.go from argocd-operator",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1444",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1444,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-22T11:06:41Z"
+          },
           {
             "title": "test(e2e): Carry 1-019_validate_rolebindings_with_managed_by_test.go from argocd-operator",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1435",
@@ -6773,14 +6794,6 @@
             "number": 1124,
             "author": "jparsai",
             "engaged_at": "2026-10-17T00:38:52Z"
-          },
-          {
-            "title": "feat: prevent openshift-gitops namespace creation when DISABLE_DEFAULT_ARGOCD_INSTANCE=true",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1206",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1206,
-            "author": "Rizwana777",
-            "engaged_at": "2026-10-17T00:19:45Z"
           },
           {
             "title": "chore(deps): bump github.com/argoproj/argo-cd/v3 from 3.5.4 to 3.5.5",
@@ -10648,8 +10661,16 @@
       },
       {
         "login": "varshab1210",
-        "reviews": 15,
+        "reviews": 16,
         "prs": [
+          {
+            "title": "chore: migrate old test/e2e tests to ginkgo bucket",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1400",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1400,
+            "author": "jgwest",
+            "engaged_at": "2026-10-22T11:11:33Z"
+          },
           {
             "title": "Change private-repo target for UI testing",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1316",
