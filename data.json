@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T19:07:10.639992691Z",
+  "generated_at": "2026-10-22T20:07:54.678187744Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1838,10 +1838,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-22T16:42:15Z",
+      "updated_at": "2026-10-22T19:55:00Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1914,7 +1914,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-22T02:04:58Z",
-      "updated_at": "2026-10-22T19:02:49Z",
+      "updated_at": "2026-10-22T19:09:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1928,6 +1928,114 @@
       "labels": [
         "kind/enhancement",
         "approved"
+      ]
+    },
+    {
+      "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.1 to 0.45.3",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1448",
+      "number": 1448,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-22T19:13:49Z",
+      "updated_at": "2026-10-22T19:38:40Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "chore(deps): bump sigs.k8s.io/controller-runtime from 0.24.1 to 0.25.2 in /argocd-operator",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1449",
+      "number": 1449,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-22T19:14:06Z",
+      "updated_at": "2026-10-22T19:32:55Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.1 to 0.45.3 in /argocd-operator",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1450",
+      "number": 1450,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-22T19:14:21Z",
+      "updated_at": "2026-10-22T19:34:11Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.45.3",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1451",
+      "number": 1451,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-22T19:14:42Z",
+      "updated_at": "2026-10-22T19:14:56Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
       ]
     },
     {
@@ -4718,34 +4826,11 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-07-16T14:24:23Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T19:04:53Z",
+    "since": "2026-07-24T20:05:38Z",
     "reviewers": [
       {
         "login": "chengfang",
