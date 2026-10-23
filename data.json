@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T18:07:56.896022275Z",
+  "generated_at": "2026-10-23T19:06:41.602122203Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2020,10 +2020,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-23T12:08:03Z",
-      "updated_at": "2026-10-23T17:36:06Z",
+      "updated_at": "2026-10-23T18:22:22Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -4765,7 +4765,7 @@
       "updated_at": "2026-10-23T15:58:31Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4902,7 +4902,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T18:05:38Z",
+    "since": "2026-07-25T19:04:39Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -4914,7 +4914,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1461,
             "author": "jgwest",
-            "engaged_at": "2026-10-23T14:33:43Z"
+            "engaged_at": "2026-10-23T18:22:22Z"
           },
           {
             "title": "fix(dependabot): group by dependency when multiple directories are supported",
