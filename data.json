@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:07:54.715699988Z",
+  "generated_at": "2026-10-23T16:08:12.051823704Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1436,33 +1436,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring from 0.74.0 to 0.94.1",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1381",
-      "number": 1381,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-13T08:13:59Z",
-      "updated_at": "2026-10-22T17:10:20Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "tests: Unify validate_cluster_config tests",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1398",
       "number": 1398,
@@ -1561,33 +1534,6 @@
       "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
-      ]
-    },
-    {
-      "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring from 0.74.0 to 0.94.1",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1411",
-      "number": 1411,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-15T07:21:40Z",
-      "updated_at": "2026-10-16T07:09:37Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-ok-to-test",
-        "dependencies",
-        "go"
       ]
     },
     {
@@ -1995,13 +1941,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:47Z",
-      "updated_at": "2026-10-23T12:30:15Z",
+      "updated_at": "2026-10-23T15:39:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -2049,7 +1995,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-23T11:40:03Z",
-      "updated_at": "2026-10-23T14:35:34Z",
+      "updated_at": "2026-10-23T15:25:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2074,17 +2020,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-23T12:08:03Z",
-      "updated_at": "2026-10-23T15:01:26Z",
+      "updated_at": "2026-10-23T15:48:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
+        "count": 2,
+        "approved_count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "lgtm",
         "approved",
@@ -2101,7 +2047,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-23T12:56:05Z",
-      "updated_at": "2026-10-23T13:18:37Z",
+      "updated_at": "2026-10-23T15:06:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2755,15 +2701,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-21T18:17:07Z",
-      "updated_at": "2026-10-22T11:57:20Z",
+      "updated_at": "2026-10-23T15:48:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": []
@@ -3839,29 +3785,6 @@
       ]
     },
     {
-      "title": "fix(helmvalues): stop rewriting Helm image parameters the updater did not resolve (#1876)",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1885",
-      "number": 1885,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-10-22T20:54:38Z",
-      "updated_at": "2026-10-23T08:55:15Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -4839,10 +4762,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-21T10:23:34Z",
-      "updated_at": "2026-10-23T15:02:28Z",
+      "updated_at": "2026-10-23T15:58:31Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4979,7 +4902,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T15:05:31Z",
+    "since": "2026-07-25T16:05:52Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9028,6 +8951,396 @@
         ]
       },
       {
+        "login": "ranakan19",
+        "reviews": 48,
+        "prs": [
+          {
+            "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring from 0.74.0 to 0.94.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1381",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1381,
+            "author": "dependabot",
+            "engaged_at": "2026-10-23T15:48:00Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring from 0.74.0 to 0.94.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1411",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1411,
+            "author": "dependabot",
+            "engaged_at": "2026-10-23T15:46:59Z"
+          },
+          {
+            "title": "chore: fix new unnecessary gosec warnings",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1461",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1461,
+            "author": "jgwest",
+            "engaged_at": "2026-10-23T15:45:20Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1458",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1458,
+            "author": "dependabot",
+            "engaged_at": "2026-10-23T15:39:14Z"
+          },
+          {
+            "title": "feat: prevent openshift-gitops namespace creation when DISABLE_DEFAULT_ARGOCD_INSTANCE=true",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1206",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1206,
+            "author": "Rizwana777",
+            "engaged_at": "2026-10-21T19:09:41Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/cert-manager/cert-manager from 1.20.3 to 1.21.2",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1406",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1406,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T17:53:24Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.1 to 0.45.0 in /argocd-operator",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1417",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1417,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T17:50:12Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.1 to 0.45.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1412",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1412,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T17:49:54Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/onsi/ginkgo/v2 from 2.32.0 to 2.33.1 in /argocd-operator",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1389",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1389,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T03:18:54Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/onsi/ginkgo/v2 from 2.32.0 to 2.33.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1383",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1383,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T03:17:52Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/onsi/ginkgo/v2 from 2.28.1 to 2.33.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1380",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1380,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T03:17:41Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/onsi/ginkgo/v2 from 2.29.0 to 2.33.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1378",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1378,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T03:17:28Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/onsi/gomega from 1.39.1 to 1.44.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1371",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1371,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T03:16:33Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/onsi/gomega from 1.41.0 to 1.44.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1366",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1366,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T03:16:13Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/onsi/gomega from 1.43.0 to 1.44.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1364",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1364,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T03:16:00Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/stretchr/testify from 1.11.1 to 1.12.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1373",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1373,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T03:14:55Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/stretchr/testify from 1.11.1 to 1.12.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1360",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1360,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T03:14:08Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/stretchr/testify from 1.11.1 to 1.12.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1357",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1357,
+            "author": "dependabot",
+            "engaged_at": "2026-10-15T03:13:13Z"
+          },
+          {
+            "title": "chore: add test frameworks to dependabot ignore list",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1402",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1402,
+            "author": "jgwest",
+            "engaged_at": "2026-10-15T03:11:07Z"
+          },
+          {
+            "title": "chore: upgrade promoter to 0.35.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1399",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1399,
+            "author": "cjcocokrisp",
+            "engaged_at": "2026-10-14T20:23:52Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/operator-framework/api from 0.17.5 to 0.45.0 in /argocd-operator",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1387",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1387,
+            "author": "dependabot",
+            "engaged_at": "2026-10-14T00:33:19Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/operator-framework/api from 0.17.5 to 0.45.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1379",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1379,
+            "author": "dependabot",
+            "engaged_at": "2026-10-14T00:31:16Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.45.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1355",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1355,
+            "author": "dependabot",
+            "engaged_at": "2026-10-13T23:30:59Z"
+          },
+          {
+            "title": "Test updates for 1.22.0 release",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1323",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1323,
+            "author": "trdoyle81",
+            "engaged_at": "2026-10-05T18:03:05Z"
+          },
+          {
+            "title": "fix: Skip GH actions e2e tests on non-code changes",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1330",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1330,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-05T17:59:05Z"
+          },
+          {
+            "title": "test: update argocd-agent self-registration test",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1335",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1335,
+            "author": "jparsai",
+            "engaged_at": "2026-10-05T17:57:43Z"
+          },
+          {
+            "title": "test: update argocd-agent pricipal test",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1333",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1333,
+            "author": "jparsai",
+            "engaged_at": "2026-10-05T17:54:12Z"
+          },
+          {
+            "title": "feat: Update GH PR template",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1331",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1331,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-05T16:03:01Z"
+          },
+          {
+            "title": "fix(e2e): Do not print secret value from secret.Fixture.HaveNonEmptyKeyValue",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1338",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1338,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-05T15:58:51Z"
+          },
+          {
+            "title": "chore: Add security reporting guidelines",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1326",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1326,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-02T19:52:08Z"
+          },
+          {
+            "title": "Add OAuth support. It is need for access to Azure CR",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/224",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 224,
+            "author": "vikborisov",
+            "engaged_at": "2026-09-22T15:45:45Z"
+          },
+          {
+            "title": "Added E2E tests for role ownership validation",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1208",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1208,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-21T20:44:46Z"
+          },
+          {
+            "title": "fix(pkg): provide correct logs on gRPC-Web fallback failure",
+            "url": "https://github.com/argoproj/argo-cd/pull/29688",
+            "repo": "argoproj/argo-cd",
+            "number": 29688,
+            "author": "nodari-dev",
+            "engaged_at": "2026-09-15T13:05:49Z"
+          },
+          {
+            "title": "docs: Document how to access redacted CI logs",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1290",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1290,
+            "author": "olivergondza",
+            "engaged_at": "2026-09-15T13:00:59Z"
+          },
+          {
+            "title": "feat: create alert rules for constantly syncing GitOps applications",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1288",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1288,
+            "author": "aali309",
+            "engaged_at": "2026-09-15T03:25:03Z"
+          },
+          {
+            "title": "chore: remove reference to external repo",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1289",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1289,
+            "author": "jgwest",
+            "engaged_at": "2026-09-15T02:51:17Z"
+          },
+          {
+            "title": "docs: document hydrator git-only repository support",
+            "url": "https://github.com/argoproj/argo-cd/pull/29541",
+            "repo": "argoproj/argo-cd",
+            "number": 29541,
+            "author": "nandotorres",
+            "engaged_at": "2026-09-03T20:32:10Z"
+          },
+          {
+            "title": "fix(ui): guard SSO redirect to stop 401 retry loop",
+            "url": "https://github.com/argoproj/argo-cd/pull/28807",
+            "repo": "argoproj/argo-cd",
+            "number": 28807,
+            "author": "geojaz",
+            "engaged_at": "2026-09-03T15:21:13Z"
+          },
+          {
+            "title": "added E2E for role ownership validation",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1213",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1213,
+            "author": "alkakumari016",
+            "engaged_at": "2026-08-25T18:29:45Z"
+          },
+          {
+            "title": "fix(ui): show operation state on applications list page (#29063)",
+            "url": "https://github.com/argoproj/argo-cd/pull/29064",
+            "repo": "argoproj/argo-cd",
+            "number": 29064,
+            "author": "antonu17",
+            "engaged_at": "2026-08-11T19:01:04Z"
+          },
+          {
+            "title": "chore(ci): change blog post link for release",
+            "url": "https://github.com/argoproj/argo-cd/pull/25088",
+            "repo": "argoproj/argo-cd",
+            "number": 25088,
+            "author": "nitishfy",
+            "engaged_at": "2026-08-11T13:11:07Z"
+          },
+          {
+            "title": "fix(controller): cherry-pick treat `timeout.reconciliation=0` as disabled soft expiry (#27683)",
+            "url": "https://github.com/argoproj/argo-cd/pull/29007",
+            "repo": "argoproj/argo-cd",
+            "number": 29007,
+            "author": "aali309",
+            "engaged_at": "2026-08-07T21:34:41Z"
+          },
+          {
+            "title": "fix(controller): use diff cache when timeout.reconciliation is disabled",
+            "url": "https://github.com/argoproj/argo-cd/pull/29073",
+            "repo": "argoproj/argo-cd",
+            "number": 29073,
+            "author": "aali309",
+            "engaged_at": "2026-08-07T21:33:38Z"
+          },
+          {
+            "title": "chore(deps): bump DOMPurify to 3.4.7 for CVE-2026-49978",
+            "url": "https://github.com/argoproj/argo-cd/pull/28969",
+            "repo": "argoproj/argo-cd",
+            "number": 28969,
+            "author": "aali309",
+            "engaged_at": "2026-08-05T18:39:50Z"
+          },
+          {
+            "title": "chore(deps): bump js-yaml to fix CVE-2026-59869",
+            "url": "https://github.com/argoproj/argo-cd/pull/28946",
+            "repo": "argoproj/argo-cd",
+            "number": 28946,
+            "author": "aali309",
+            "engaged_at": "2026-08-05T18:15:20Z"
+          },
+          {
+            "title": "chore(deps): bump DOMPurify to 3.4.7 for CVE-2026-49978",
+            "url": "https://github.com/argoproj/argo-cd/pull/28966",
+            "repo": "argoproj/argo-cd",
+            "number": 28966,
+            "author": "aali309",
+            "engaged_at": "2026-08-05T18:07:05Z"
+          },
+          {
+            "title": "test(repository): assert Changes value explicitly in UpdateRevisionForPaths test",
+            "url": "https://github.com/argoproj/argo-cd/pull/28984",
+            "repo": "argoproj/argo-cd",
+            "number": 28984,
+            "author": "Churi12",
+            "engaged_at": "2026-07-30T17:01:11Z"
+          },
+          {
+            "title": "fix(repository): restore Normalize in UpdateRevisionForPaths to unbreak master",
+            "url": "https://github.com/argoproj/argo-cd/pull/28979",
+            "repo": "argoproj/argo-cd",
+            "number": 28979,
+            "author": "Churi12",
+            "engaged_at": "2026-07-30T15:04:46Z"
+          }
+        ]
+      },
+      {
         "login": "dkarpele",
         "reviews": 46,
         "prs": [
@@ -9398,364 +9711,6 @@
             "number": 1738,
             "author": "chengfang",
             "engaged_at": "2026-07-28T15:39:36Z"
-          }
-        ]
-      },
-      {
-        "login": "ranakan19",
-        "reviews": 44,
-        "prs": [
-          {
-            "title": "feat: prevent openshift-gitops namespace creation when DISABLE_DEFAULT_ARGOCD_INSTANCE=true",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1206",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1206,
-            "author": "Rizwana777",
-            "engaged_at": "2026-10-21T19:09:41Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/cert-manager/cert-manager from 1.20.3 to 1.21.2",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1406",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1406,
-            "author": "dependabot",
-            "engaged_at": "2026-10-15T17:53:24Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.1 to 0.45.0 in /argocd-operator",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1417",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1417,
-            "author": "dependabot",
-            "engaged_at": "2026-10-15T17:50:12Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.1 to 0.45.0",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1412",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1412,
-            "author": "dependabot",
-            "engaged_at": "2026-10-15T17:49:54Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/onsi/ginkgo/v2 from 2.32.0 to 2.33.1 in /argocd-operator",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1389",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1389,
-            "author": "dependabot",
-            "engaged_at": "2026-10-15T03:18:54Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/onsi/ginkgo/v2 from 2.32.0 to 2.33.1",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1383",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1383,
-            "author": "dependabot",
-            "engaged_at": "2026-10-15T03:17:52Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/onsi/ginkgo/v2 from 2.28.1 to 2.33.1",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1380",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1380,
-            "author": "dependabot",
-            "engaged_at": "2026-10-15T03:17:41Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/onsi/ginkgo/v2 from 2.29.0 to 2.33.1",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1378",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1378,
-            "author": "dependabot",
-            "engaged_at": "2026-10-15T03:17:28Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/onsi/gomega from 1.39.1 to 1.44.0",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1371",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1371,
-            "author": "dependabot",
-            "engaged_at": "2026-10-15T03:16:33Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/onsi/gomega from 1.41.0 to 1.44.0",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1366",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1366,
-            "author": "dependabot",
-            "engaged_at": "2026-10-15T03:16:13Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/onsi/gomega from 1.43.0 to 1.44.0",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1364",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1364,
-            "author": "dependabot",
-            "engaged_at": "2026-10-15T03:16:00Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/stretchr/testify from 1.11.1 to 1.12.1",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1373",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1373,
-            "author": "dependabot",
-            "engaged_at": "2026-10-15T03:14:55Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/stretchr/testify from 1.11.1 to 1.12.1",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1360",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1360,
-            "author": "dependabot",
-            "engaged_at": "2026-10-15T03:14:08Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/stretchr/testify from 1.11.1 to 1.12.1",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1357",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1357,
-            "author": "dependabot",
-            "engaged_at": "2026-10-15T03:13:13Z"
-          },
-          {
-            "title": "chore: add test frameworks to dependabot ignore list",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1402",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1402,
-            "author": "jgwest",
-            "engaged_at": "2026-10-15T03:11:07Z"
-          },
-          {
-            "title": "chore: upgrade promoter to 0.35.1",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1399",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1399,
-            "author": "cjcocokrisp",
-            "engaged_at": "2026-10-14T20:23:52Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/operator-framework/api from 0.17.5 to 0.45.0 in /argocd-operator",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1387",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1387,
-            "author": "dependabot",
-            "engaged_at": "2026-10-14T00:33:19Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/operator-framework/api from 0.17.5 to 0.45.0",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1379",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1379,
-            "author": "dependabot",
-            "engaged_at": "2026-10-14T00:31:16Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.45.0",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1355",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1355,
-            "author": "dependabot",
-            "engaged_at": "2026-10-13T23:30:59Z"
-          },
-          {
-            "title": "Test updates for 1.22.0 release",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1323",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1323,
-            "author": "trdoyle81",
-            "engaged_at": "2026-10-05T18:03:05Z"
-          },
-          {
-            "title": "fix: Skip GH actions e2e tests on non-code changes",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1330",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1330,
-            "author": "olivergondza",
-            "engaged_at": "2026-10-05T17:59:05Z"
-          },
-          {
-            "title": "test: update argocd-agent self-registration test",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1335",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1335,
-            "author": "jparsai",
-            "engaged_at": "2026-10-05T17:57:43Z"
-          },
-          {
-            "title": "test: update argocd-agent pricipal test",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1333",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1333,
-            "author": "jparsai",
-            "engaged_at": "2026-10-05T17:54:12Z"
-          },
-          {
-            "title": "feat: Update GH PR template",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1331",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1331,
-            "author": "olivergondza",
-            "engaged_at": "2026-10-05T16:03:01Z"
-          },
-          {
-            "title": "fix(e2e): Do not print secret value from secret.Fixture.HaveNonEmptyKeyValue",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1338",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1338,
-            "author": "olivergondza",
-            "engaged_at": "2026-10-05T15:58:51Z"
-          },
-          {
-            "title": "chore: Add security reporting guidelines",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1326",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1326,
-            "author": "olivergondza",
-            "engaged_at": "2026-10-02T19:52:08Z"
-          },
-          {
-            "title": "Add OAuth support. It is need for access to Azure CR",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/224",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 224,
-            "author": "vikborisov",
-            "engaged_at": "2026-09-22T15:45:45Z"
-          },
-          {
-            "title": "Added E2E tests for role ownership validation",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1208",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1208,
-            "author": "alkakumari016",
-            "engaged_at": "2026-09-21T20:44:46Z"
-          },
-          {
-            "title": "fix(pkg): provide correct logs on gRPC-Web fallback failure",
-            "url": "https://github.com/argoproj/argo-cd/pull/29688",
-            "repo": "argoproj/argo-cd",
-            "number": 29688,
-            "author": "nodari-dev",
-            "engaged_at": "2026-09-15T13:05:49Z"
-          },
-          {
-            "title": "docs: Document how to access redacted CI logs",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1290",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1290,
-            "author": "olivergondza",
-            "engaged_at": "2026-09-15T13:00:59Z"
-          },
-          {
-            "title": "feat: create alert rules for constantly syncing GitOps applications",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1288",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1288,
-            "author": "aali309",
-            "engaged_at": "2026-09-15T03:25:03Z"
-          },
-          {
-            "title": "chore: remove reference to external repo",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1289",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1289,
-            "author": "jgwest",
-            "engaged_at": "2026-09-15T02:51:17Z"
-          },
-          {
-            "title": "docs: document hydrator git-only repository support",
-            "url": "https://github.com/argoproj/argo-cd/pull/29541",
-            "repo": "argoproj/argo-cd",
-            "number": 29541,
-            "author": "nandotorres",
-            "engaged_at": "2026-09-03T20:32:10Z"
-          },
-          {
-            "title": "fix(ui): guard SSO redirect to stop 401 retry loop",
-            "url": "https://github.com/argoproj/argo-cd/pull/28807",
-            "repo": "argoproj/argo-cd",
-            "number": 28807,
-            "author": "geojaz",
-            "engaged_at": "2026-09-03T15:21:13Z"
-          },
-          {
-            "title": "added E2E for role ownership validation",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1213",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1213,
-            "author": "alkakumari016",
-            "engaged_at": "2026-08-25T18:29:45Z"
-          },
-          {
-            "title": "fix(ui): show operation state on applications list page (#29063)",
-            "url": "https://github.com/argoproj/argo-cd/pull/29064",
-            "repo": "argoproj/argo-cd",
-            "number": 29064,
-            "author": "antonu17",
-            "engaged_at": "2026-08-11T19:01:04Z"
-          },
-          {
-            "title": "chore(ci): change blog post link for release",
-            "url": "https://github.com/argoproj/argo-cd/pull/25088",
-            "repo": "argoproj/argo-cd",
-            "number": 25088,
-            "author": "nitishfy",
-            "engaged_at": "2026-08-11T13:11:07Z"
-          },
-          {
-            "title": "fix(controller): cherry-pick treat `timeout.reconciliation=0` as disabled soft expiry (#27683)",
-            "url": "https://github.com/argoproj/argo-cd/pull/29007",
-            "repo": "argoproj/argo-cd",
-            "number": 29007,
-            "author": "aali309",
-            "engaged_at": "2026-08-07T21:34:41Z"
-          },
-          {
-            "title": "fix(controller): use diff cache when timeout.reconciliation is disabled",
-            "url": "https://github.com/argoproj/argo-cd/pull/29073",
-            "repo": "argoproj/argo-cd",
-            "number": 29073,
-            "author": "aali309",
-            "engaged_at": "2026-08-07T21:33:38Z"
-          },
-          {
-            "title": "chore(deps): bump DOMPurify to 3.4.7 for CVE-2026-49978",
-            "url": "https://github.com/argoproj/argo-cd/pull/28969",
-            "repo": "argoproj/argo-cd",
-            "number": 28969,
-            "author": "aali309",
-            "engaged_at": "2026-08-05T18:39:50Z"
-          },
-          {
-            "title": "chore(deps): bump js-yaml to fix CVE-2026-59869",
-            "url": "https://github.com/argoproj/argo-cd/pull/28946",
-            "repo": "argoproj/argo-cd",
-            "number": 28946,
-            "author": "aali309",
-            "engaged_at": "2026-08-05T18:15:20Z"
-          },
-          {
-            "title": "chore(deps): bump DOMPurify to 3.4.7 for CVE-2026-49978",
-            "url": "https://github.com/argoproj/argo-cd/pull/28966",
-            "repo": "argoproj/argo-cd",
-            "number": 28966,
-            "author": "aali309",
-            "engaged_at": "2026-08-05T18:07:05Z"
-          },
-          {
-            "title": "test(repository): assert Changes value explicitly in UpdateRevisionForPaths test",
-            "url": "https://github.com/argoproj/argo-cd/pull/28984",
-            "repo": "argoproj/argo-cd",
-            "number": 28984,
-            "author": "Churi12",
-            "engaged_at": "2026-07-30T17:01:11Z"
-          },
-          {
-            "title": "fix(repository): restore Normalize in UpdateRevisionForPaths to unbreak master",
-            "url": "https://github.com/argoproj/argo-cd/pull/28979",
-            "repo": "argoproj/argo-cd",
-            "number": 28979,
-            "author": "Churi12",
-            "engaged_at": "2026-07-30T15:04:46Z"
           }
         ]
       },
