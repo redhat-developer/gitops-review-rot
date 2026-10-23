@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T11:07:07.293736921Z",
+  "generated_at": "2026-10-23T12:09:03.470542274Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1808,19 +1808,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-22T19:14:42Z",
-      "updated_at": "2026-10-22T19:14:56Z",
+      "updated_at": "2026-10-23T12:04:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "go"
       ]
@@ -1860,19 +1860,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:29:59Z",
-      "updated_at": "2026-10-23T10:35:43Z",
+      "updated_at": "2026-10-23T11:48:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
       "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "github_actions"
       ]
@@ -1887,19 +1887,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:05Z",
-      "updated_at": "2026-10-23T10:46:30Z",
+      "updated_at": "2026-10-23T11:48:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "github_actions"
       ]
@@ -1914,19 +1914,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:10Z",
-      "updated_at": "2026-10-23T10:47:19Z",
+      "updated_at": "2026-10-23T11:48:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "github_actions"
       ]
@@ -1941,19 +1941,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:13Z",
-      "updated_at": "2026-10-23T10:46:22Z",
+      "updated_at": "2026-10-23T11:48:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "github_actions"
       ]
@@ -1968,19 +1968,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:25Z",
-      "updated_at": "2026-10-23T10:51:23Z",
+      "updated_at": "2026-10-23T11:48:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "go"
       ]
@@ -1995,19 +1995,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:47Z",
-      "updated_at": "2026-10-23T10:51:34Z",
+      "updated_at": "2026-10-23T11:58:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
       "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "go"
       ]
@@ -2022,9 +2022,36 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:56Z",
-      "updated_at": "2026-10-23T10:50:54Z",
+      "updated_at": "2026-10-23T12:01:21Z",
       "is_draft": false,
       "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "ok-to-test",
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "E2E: Consolidate 1-130_validate_deployment_image_and_version_test.go and 1-108_validate_imagepullpolicy_test.go",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1460",
+      "number": 1460,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-10-23T11:40:03Z",
+      "updated_at": "2026-10-23T11:44:07Z",
+      "is_draft": false,
+      "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
@@ -2034,9 +2061,7 @@
       },
       "unresolved_conversations": 2,
       "labels": [
-        "needs-ok-to-test",
-        "dependencies",
-        "go"
+        "kind/enhancement"
       ]
     },
     {
@@ -4877,7 +4902,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T11:04:54Z",
+    "since": "2026-07-25T12:06:52Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6821,8 +6846,72 @@
       },
       {
         "login": "jgwest",
-        "reviews": 89,
+        "reviews": 97,
         "prs": [
+          {
+            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.45.3",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1451",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1451,
+            "author": "dependabot",
+            "engaged_at": "2026-10-23T11:49:38Z"
+          },
+          {
+            "title": "chore(deps): bump sigs.k8s.io/controller-runtime in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1459",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1459,
+            "author": "dependabot",
+            "engaged_at": "2026-10-23T11:48:25Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1458",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1458,
+            "author": "dependabot",
+            "engaged_at": "2026-10-23T11:48:20Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1457",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1457,
+            "author": "dependabot",
+            "engaged_at": "2026-10-23T11:48:17Z"
+          },
+          {
+            "title": "chore(deps): bump actions/upload-artifact from 7.0.1 to 7.0.2",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1456",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1456,
+            "author": "dependabot",
+            "engaged_at": "2026-10-23T11:48:14Z"
+          },
+          {
+            "title": "chore(deps): bump helm/kind-action from 1.14.0 to 1.15.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1455",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1455,
+            "author": "dependabot",
+            "engaged_at": "2026-10-23T11:48:11Z"
+          },
+          {
+            "title": "chore(deps): bump actions/setup-go from 5 to 7",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1454",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1454,
+            "author": "dependabot",
+            "engaged_at": "2026-10-23T11:48:06Z"
+          },
+          {
+            "title": "chore(deps): bump actions/checkout from 4 to 7",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1453",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1453,
+            "author": "dependabot",
+            "engaged_at": "2026-10-23T11:48:02Z"
+          },
           {
             "title": "nit: typo in fixture method name",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1447",
