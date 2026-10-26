@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T23:06:44.438991073Z",
+  "generated_at": "2026-10-26T00:13:18.794228401Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -451,7 +451,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-19T02:32:22Z",
-      "updated_at": "2026-10-22T01:27:33Z",
+      "updated_at": "2026-10-25T04:34:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -520,7 +520,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-19T10:31:52Z",
-      "updated_at": "2026-08-03T15:02:34Z",
+      "updated_at": "2026-10-25T04:32:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -635,10 +635,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-03-28T10:12:46Z",
-      "updated_at": "2026-10-17T03:19:56Z",
+      "updated_at": "2026-10-24T07:09:43Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -658,7 +658,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:24:25Z",
-      "updated_at": "2026-10-23T04:58:24Z",
+      "updated_at": "2026-10-25T04:23:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -681,7 +681,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:30:16Z",
-      "updated_at": "2026-10-23T05:01:08Z",
+      "updated_at": "2026-10-25T04:27:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -773,7 +773,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-06T07:01:53Z",
-      "updated_at": "2026-10-21T05:08:08Z",
+      "updated_at": "2026-10-25T04:20:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -833,7 +833,7 @@
       "labels": []
     },
     {
-      "title": "Update dependency @types/lodash to v4.17.26",
+      "title": "Update dependency @types/lodash to v4.17.27",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/261",
       "number": 261,
       "repo": "redhat-developer/gitops-console-plugin",
@@ -842,7 +842,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-09T14:01:13Z",
-      "updated_at": "2026-10-13T02:10:39Z",
+      "updated_at": "2026-10-25T04:15:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -879,29 +879,6 @@
       "labels": [
         "do-not-merge/work-in-progress"
       ]
-    },
-    {
-      "title": "feat: Convert all tables to use the Column management model",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/306",
-      "number": 306,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "aali309",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
-      },
-      "created_at": "2026-09-23T18:54:57Z",
-      "updated_at": "2026-10-22T19:01:23Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 10,
-      "labels": []
     },
     {
       "title": "chore: update pnpm 10.33.2 -\u003e 10.34.6 to fix CVE-2026-101043",
@@ -959,10 +936,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-10-17T03:01:48Z",
-      "updated_at": "2026-10-17T03:01:53Z",
+      "updated_at": "2026-10-24T04:37:07Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1445,7 +1422,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-14T11:57:34Z",
-      "updated_at": "2026-10-22T18:27:32Z",
+      "updated_at": "2026-10-25T13:30:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1456,31 +1433,6 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": [
-        "kind/cleanup"
-      ]
-    },
-    {
-      "title": "chore: migrate old test/e2e tests to ginkgo bucket",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1400",
-      "number": 1400,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "jgwest",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
-      },
-      "created_at": "2026-10-14T23:33:27Z",
-      "updated_at": "2026-10-23T12:24:23Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
       "labels": [
         "kind/cleanup"
       ]
@@ -1755,13 +1707,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-23T10:16:15Z",
-      "updated_at": "2026-10-23T10:34:56Z",
+      "updated_at": "2026-10-24T18:58:39Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -1915,7 +1867,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:47Z",
-      "updated_at": "2026-10-23T15:39:48Z",
+      "updated_at": "2026-10-24T08:06:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1923,7 +1875,7 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 2,
       "labels": [
@@ -1969,10 +1921,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-23T11:40:03Z",
-      "updated_at": "2026-10-23T22:39:01Z",
+      "updated_at": "2026-10-25T13:21:50Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1985,33 +1937,6 @@
       ]
     },
     {
-      "title": "chore: fix new unnecessary gosec warnings",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1461",
-      "number": 1461,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "jgwest",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
-      },
-      "created_at": "2026-10-23T12:08:03Z",
-      "updated_at": "2026-10-23T21:41:11Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "lgtm",
-        "approved",
-        "kind/failing-ci"
-      ]
-    },
-    {
       "title": "fix(util): fix update-dependencies target since some files have been moved or removed",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1462",
       "number": 1462,
@@ -2021,15 +1946,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-23T12:56:05Z",
-      "updated_at": "2026-10-23T20:04:21Z",
+      "updated_at": "2026-10-25T01:05:00Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 2,
       "labels": [
@@ -2046,7 +1971,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-23T13:23:07Z",
-      "updated_at": "2026-10-23T14:36:06Z",
+      "updated_at": "2026-10-25T11:11:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2058,6 +1983,7 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "needs-rebase",
         "kind/cleanup"
       ]
     },
@@ -2698,13 +2624,36 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/134488140?u=c945dd6538da8364b743d72c22c2aa072d6d6d4c\u0026v=4"
       },
       "created_at": "2026-10-22T11:35:33Z",
-      "updated_at": "2026-10-22T12:18:27Z",
+      "updated_at": "2026-10-25T22:34:15Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 2,
+        "approved_count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat(agent): reload client TLS certificate without restart",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1168",
+      "number": 1168,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "sathwick-p",
+        "avatar_url": "https://avatars.githubusercontent.com/u/77117188?u=dd64c06a3f2a41a882a389abb1a32ccbe57f5ab6\u0026v=4"
+      },
+      "created_at": "2026-10-24T06:19:21Z",
+      "updated_at": "2026-10-25T22:01:17Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -3390,7 +3339,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/151507899?u=9178733ce8b82e687b55611578179ba2bb9b4440\u0026v=4"
       },
       "created_at": "2026-02-09T01:05:41Z",
-      "updated_at": "2026-02-18T15:20:00Z",
+      "updated_at": "2026-10-24T00:55:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5548,7 +5497,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-09-30T22:41:11Z",
-      "updated_at": "2026-10-22T19:39:02Z",
+      "updated_at": "2026-10-25T19:41:18Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5643,10 +5592,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-10-22T16:32:51Z",
-      "updated_at": "2026-10-23T21:46:14Z",
+      "updated_at": "2026-10-24T08:57:29Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5682,11 +5631,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T23:04:51Z",
+    "since": "2026-07-28T00:11:22Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 126,
+        "reviews": 123,
         "prs": [
           {
             "title": "chore: fix new unnecessary gosec warnings",
@@ -6671,36 +6620,12 @@
             "number": 1742,
             "author": "dkarpele",
             "engaged_at": "2026-07-30T15:08:48Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/google/cel-go from 0.27.0 to 0.29.0",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1737",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1737,
-            "author": "dependabot",
-            "engaged_at": "2026-07-27T12:38:08Z"
-          },
-          {
-            "title": "chore(deps): bump google.golang.org/grpc from 1.82.0 to 1.82.1",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1736",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1736,
-            "author": "dependabot",
-            "engaged_at": "2026-07-27T02:21:41Z"
-          },
-          {
-            "title": "chore(deps): bump google.golang.org/grpc from 1.82.0 to 1.82.1 in /test/ginkgo",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1735",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1735,
-            "author": "dependabot",
-            "engaged_at": "2026-07-27T01:53:58Z"
           }
         ]
       },
       {
         "login": "olivergondza",
-        "reviews": 117,
+        "reviews": 114,
         "prs": [
           {
             "title": "fix(util): fix update-dependencies target since some files have been moved or removed",
@@ -6708,7 +6633,23 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1462,
             "author": "chengfang",
-            "engaged_at": "2026-10-23T20:04:21Z"
+            "engaged_at": "2026-10-24T18:58:19Z"
+          },
+          {
+            "title": "feat(tls): Configure Image Updater Curve Preferences",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1452",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1452,
+            "author": "akhilnittala",
+            "engaged_at": "2026-10-24T18:55:55Z"
+          },
+          {
+            "title": "chore: fix new unnecessary gosec warnings",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1461",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1461,
+            "author": "jgwest",
+            "engaged_at": "2026-10-24T10:51:08Z"
           },
           {
             "title": "add Ginkgo test for argocd CLI core mode app create",
@@ -7597,52 +7538,12 @@
             "number": 2296,
             "author": "aali309",
             "engaged_at": "2026-07-28T08:01:54Z"
-          },
-          {
-            "title": "test: fix commit-server missing argocd in path",
-            "url": "https://github.com/argoproj/argo-cd/pull/28876",
-            "repo": "argoproj/argo-cd",
-            "number": 28876,
-            "author": "kuci-JK",
-            "engaged_at": "2026-07-27T13:17:22Z"
-          },
-          {
-            "title": "feat: refactor request-scoped reconciler variables to new struct",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2031",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2031,
-            "author": "jgwest",
-            "engaged_at": "2026-07-27T10:47:01Z"
-          },
-          {
-            "title": "fix(reposerver): added support for allowing customers to set custom GODEBUG settings in repo server deployments",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2290",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2290,
-            "author": "anandf",
-            "engaged_at": "2026-07-27T10:31:18Z"
-          },
-          {
-            "title": "chore(deps): bump pymdown-extensions from 10.21.3 to 11.0 in /docs",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2301",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2301,
-            "author": "dependabot",
-            "engaged_at": "2026-07-27T09:30:40Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/google/cel-go from 0.27.0 to 0.29.0",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2302",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2302,
-            "author": "dependabot",
-            "engaged_at": "2026-07-27T09:00:54Z"
           }
         ]
       },
       {
         "login": "jgwest",
-        "reviews": 97,
+        "reviews": 96,
         "prs": [
           {
             "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.45.3",
@@ -8411,20 +8312,12 @@
             "number": 2295,
             "author": "cjcocokrisp",
             "engaged_at": "2026-07-28T09:00:52Z"
-          },
-          {
-            "title": "chore(e2e): sync DefaultClusterScopedRoleDisabled tests for principal/agent",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1211",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1211,
-            "author": "cjcocokrisp",
-            "engaged_at": "2026-07-27T16:15:39Z"
           }
         ]
       },
       {
         "login": "svghadi",
-        "reviews": 86,
+        "reviews": 84,
         "prs": [
           {
             "title": "chore(deps): bump image-updater from 1.3.0 to 1.4.0 and argocd from 3.5.5 to 3.5.6",
@@ -9097,29 +8990,21 @@
             "number": 2304,
             "author": "anandf",
             "engaged_at": "2026-07-28T09:30:57Z"
-          },
-          {
-            "title": "update argocd operator to latest release-0.19 commit",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1230",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1230,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-27T07:12:13Z"
-          },
-          {
-            "title": "update argocd operator to latest release-0.17 commit",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1229",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1229,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-27T03:45:31Z"
           }
         ]
       },
       {
         "login": "jannfis",
-        "reviews": 77,
+        "reviews": 78,
         "prs": [
+          {
+            "title": "fix: keep an autonomous agent's AppProject destinations on resync",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1167",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1167,
+            "author": "jadhavgaurav",
+            "engaged_at": "2026-10-24T14:29:18Z"
+          },
           {
             "title": "fix(security): emudhra CA certs compromise for release 3.3 ",
             "url": "https://github.com/argoproj/argo-cd/pull/30349",
@@ -10512,7 +10397,7 @@
             "repo": "redhat-developer/gitops-console-plugin",
             "number": 306,
             "author": "aali309",
-            "engaged_at": "2026-10-21T03:41:05Z"
+            "engaged_at": "2026-10-25T15:48:32Z"
           },
           {
             "title": "feat: add OCI Generator for AppSet",
@@ -11132,7 +11017,7 @@
       },
       {
         "login": "anandf",
-        "reviews": 32,
+        "reviews": 31,
         "prs": [
           {
             "title": "feat(cli): implement OAuth 2.0 Device Authorization Grant (Beta)",
@@ -11381,14 +11266,6 @@
             "number": 1224,
             "author": "akhilnittala",
             "engaged_at": "2026-07-29T08:52:08Z"
-          },
-          {
-            "title": "feat: Backport network policy feature",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1234",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1234,
-            "author": "svghadi",
-            "engaged_at": "2026-07-27T07:08:55Z"
           }
         ]
       },
@@ -11868,7 +11745,7 @@
       },
       {
         "login": "akhilnittala",
-        "reviews": 14,
+        "reviews": 13,
         "prs": [
           {
             "title": "chore(deps): bump image-updater from 1.3.0 to 1.4.0 and argocd from 3.5.5 to 3.5.6",
@@ -11973,20 +11850,12 @@
             "number": 1238,
             "author": "varshab1210",
             "engaged_at": "2026-07-29T10:07:22Z"
-          },
-          {
-            "title": "feat: gate openshfitOAuth with openshfit check and add logs",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2303",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2303,
-            "author": "anandrkskd",
-            "engaged_at": "2026-07-27T14:36:51Z"
           }
         ]
       },
       {
         "login": "jparsai",
-        "reviews": 14,
+        "reviews": 13,
         "prs": [
           {
             "title": "Upgrade to Argo Rollouts v1.10.1",
@@ -12091,14 +11960,6 @@
             "number": 1041,
             "author": "jgwest",
             "engaged_at": "2026-07-31T13:16:53Z"
-          },
-          {
-            "title": "fix: cleanup agent resources after the deletion of the agent cluster secret",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1034",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1034,
-            "author": "chetan-rns",
-            "engaged_at": "2026-07-27T11:37:18Z"
           }
         ]
       },
