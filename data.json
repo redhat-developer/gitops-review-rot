@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T08:14:05.685871013Z",
+  "generated_at": "2026-10-26T09:13:29.800732407Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1528,7 +1528,7 @@
       "updated_at": "2026-10-20T10:10:09Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1921,7 +1921,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-23T11:40:03Z",
-      "updated_at": "2026-10-25T13:21:50Z",
+      "updated_at": "2026-10-26T08:33:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1959,6 +1959,31 @@
       "unresolved_conversations": 2,
       "labels": [
         "kind/bug"
+      ]
+    },
+    {
+      "title": "test(e2e): Consolidate sequential 1-131 \u0026 1-133 from argocd-operator",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1465",
+      "number": 1465,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-10-26T08:56:34Z",
+      "updated_at": "2026-10-26T09:01:08Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/enhancement"
       ]
     },
     {
@@ -4673,6 +4698,32 @@
       "labels": []
     },
     {
+      "title": "chore(deps): bump docker/login-action from 4.6.0 to 4.7.0",
+      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2414",
+      "number": 2414,
+      "repo": "argoproj-labs/argocd-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-26T08:43:08Z",
+      "updated_at": "2026-10-26T08:43:18Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "github_actions"
+      ]
+    },
+    {
       "title": "fixes for Openshift deployment",
       "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/89",
       "number": 89,
@@ -4799,7 +4850,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-28T08:11:53Z",
+    "since": "2026-07-28T09:11:16Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -5801,7 +5852,7 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 113,
+        "reviews": 112,
         "prs": [
           {
             "title": "fix(util): fix update-dependencies target since some files have been moved or removed",
@@ -6698,20 +6749,12 @@
             "number": 1233,
             "author": "dependabot",
             "engaged_at": "2026-07-29T08:59:35Z"
-          },
-          {
-            "title": "fix(reposerver): added support for allowing customers to set custom GODEBUG settings in repo server deployments (#2290)",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2304",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2304,
-            "author": "anandf",
-            "engaged_at": "2026-07-28T08:59:20Z"
           }
         ]
       },
       {
         "login": "jgwest",
-        "reviews": 96,
+        "reviews": 95,
         "prs": [
           {
             "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.45.3",
@@ -7472,14 +7515,6 @@
             "number": 1034,
             "author": "chetan-rns",
             "engaged_at": "2026-07-29T08:38:11Z"
-          },
-          {
-            "title": "refactor: update dependency upgrade script to be modular",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2295",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2295,
-            "author": "cjcocokrisp",
-            "engaged_at": "2026-07-28T09:00:52Z"
           }
         ]
       },
