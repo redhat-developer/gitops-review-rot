@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T15:32:01.191797162Z",
+  "generated_at": "2026-10-26T16:11:23.962370077Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1603,10 +1603,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:29:59Z",
-      "updated_at": "2026-10-26T13:43:38Z",
+      "updated_at": "2026-10-26T15:56:02Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1658,7 +1658,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:10Z",
-      "updated_at": "2026-10-26T13:05:43Z",
+      "updated_at": "2026-10-26T15:36:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -1712,7 +1712,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:47Z",
-      "updated_at": "2026-10-26T13:52:35Z",
+      "updated_at": "2026-10-26T15:43:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -4508,15 +4508,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/315658242?v=4"
       },
       "created_at": "2026-10-16T07:21:01Z",
-      "updated_at": "2026-10-26T10:08:07Z",
+      "updated_at": "2026-10-26T16:00:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": []
@@ -4743,7 +4743,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-28T15:29:22Z",
+    "since": "2026-07-28T16:08:58Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9146,6 +9146,14 @@
         "reviews": 46,
         "prs": [
           {
+            "title": "fix: grant serviceaccounts/token create for Dex TokenRequest",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2412",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2412,
+            "author": "Pratik-Redhat-Tech",
+            "engaged_at": "2026-10-26T16:00:42Z"
+          },
+          {
             "title": "fix(helmvalues): stop rewriting Helm image parameters the updater did not resolve (#1876)",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1885",
             "repo": "argoproj-labs/argocd-image-updater",
@@ -9504,14 +9512,6 @@
             "number": 1740,
             "author": "chengfang",
             "engaged_at": "2026-07-29T15:31:26Z"
-          },
-          {
-            "title": "feat(pr): skip git clone, checkout, commit and PR/MR creation if it already exists in the remote github or gitlab",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1738",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1738,
-            "author": "chengfang",
-            "engaged_at": "2026-07-28T15:39:36Z"
           }
         ]
       },
@@ -9827,7 +9827,7 @@
       },
       {
         "login": "aali309",
-        "reviews": 36,
+        "reviews": 35,
         "prs": [
           {
             "title": "feat(ui): add source integrity to project settings",
@@ -10108,14 +10108,6 @@
             "number": 1240,
             "author": "varshab1210",
             "engaged_at": "2026-07-29T15:23:17Z"
-          },
-          {
-            "title": "chore: Undo PR 28918 due to redoc dependency on older version",
-            "url": "https://github.com/argoproj/argo-cd/pull/28943",
-            "repo": "argoproj/argo-cd",
-            "number": 28943,
-            "author": "keithchong",
-            "engaged_at": "2026-07-28T15:56:20Z"
           }
         ]
       },
