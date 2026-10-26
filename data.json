@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T19:10:14.618181282Z",
+  "generated_at": "2026-10-26T20:07:06.056707393Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -913,7 +913,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
       },
       "created_at": "2026-10-19T01:50:12Z",
-      "updated_at": "2026-10-26T14:42:52Z",
+      "updated_at": "2026-10-26T20:03:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -921,9 +921,9 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -1450,7 +1450,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-15T13:43:44Z",
-      "updated_at": "2026-10-26T18:05:59Z",
+      "updated_at": "2026-10-26T19:31:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1501,10 +1501,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-26T17:23:45Z",
+      "updated_at": "2026-10-26T19:41:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1578,7 +1578,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-23T10:16:15Z",
-      "updated_at": "2026-10-26T18:54:42Z",
+      "updated_at": "2026-10-26T19:26:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1586,11 +1586,13 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -1658,10 +1660,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:10Z",
-      "updated_at": "2026-10-26T15:36:24Z",
+      "updated_at": "2026-10-26T19:57:58Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1739,17 +1741,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:56Z",
-      "updated_at": "2026-10-23T12:30:10Z",
+      "updated_at": "2026-10-26T19:13:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 3,
       "labels": [
         "ok-to-test",
         "dependencies",
@@ -1854,6 +1856,33 @@
       "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
+      ]
+    },
+    {
+      "title": "chore(deps): bump library/golang from 1.26 to 1.27 in /argocd-operator/tests/auxiliary/smtplistener",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1469",
+      "number": 1469,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-10-26T19:17:23Z",
+      "updated_at": "2026-10-26T19:19:50Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "docker"
       ]
     },
     {
@@ -2470,10 +2499,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/134488140?u=c945dd6538da8364b743d72c22c2aa072d6d6d4c\u0026v=4"
       },
       "created_at": "2026-10-22T11:35:33Z",
-      "updated_at": "2026-10-26T18:56:06Z",
+      "updated_at": "2026-10-26T19:25:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2516,7 +2545,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-10-26T16:48:07Z",
-      "updated_at": "2026-10-26T16:52:49Z",
+      "updated_at": "2026-10-26T19:51:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4792,7 +4821,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-28T19:07:53Z",
+    "since": "2026-07-28T20:04:46Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -4804,7 +4833,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1452,
             "author": "akhilnittala",
-            "engaged_at": "2026-10-26T18:54:24Z"
+            "engaged_at": "2026-10-26T19:25:56Z"
           },
           {
             "title": "chore: fix new unnecessary gosec warnings",
@@ -8794,8 +8823,16 @@
       },
       {
         "login": "ranakan19",
-        "reviews": 49,
+        "reviews": 50,
         "prs": [
+          {
+            "title": "chore(deps): bump sigs.k8s.io/controller-runtime in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1459",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1459,
+            "author": "dependabot",
+            "engaged_at": "2026-10-26T19:13:35Z"
+          },
           {
             "title": "chore(deps): bump actions/checkout from 4 to 7",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1453",
@@ -9879,6 +9916,14 @@
         "reviews": 35,
         "prs": [
           {
+            "title": "Create Dashboard with Sync and Health Status cards, Operational, Sync Activity and Reconciliation Metrics Cards (#11387)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/309",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 309,
+            "author": "keithchong",
+            "engaged_at": "2026-10-26T20:01:51Z"
+          },
+          {
             "title": "feat(ui): add source integrity to project settings",
             "url": "https://github.com/argoproj/argo-cd/pull/29411",
             "repo": "argoproj/argo-cd",
@@ -9917,14 +9962,6 @@
             "number": 1397,
             "author": "olivergondza",
             "engaged_at": "2026-10-21T12:35:09Z"
-          },
-          {
-            "title": "Create Dashboard with Sync and Health Status cards, Operational, Sync Activity and Reconciliation Metrics Cards (#11387)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/309",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 309,
-            "author": "keithchong",
-            "engaged_at": "2026-10-20T21:35:26Z"
           },
           {
             "title": "feat: add OCI Generator for AppSet",
