@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T20:07:06.056707393Z",
+  "generated_at": "2026-10-26T21:06:52.936671589Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -904,29 +904,6 @@
       "labels": []
     },
     {
-      "title": "Create Dashboard with Sync and Health Status cards, Operational, Sync Activity and Reconciliation Metrics Cards (#11387)",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/309",
-      "number": 309,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "keithchong",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
-      },
-      "created_at": "2026-10-19T01:50:12Z",
-      "updated_at": "2026-10-26T20:03:01Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": []
-    },
-    {
       "title": "chore(deps): update konflux references",
       "url": "https://github.com/redhat-developer/gitops-must-gather/pull/52",
       "number": 52,
@@ -1714,7 +1691,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:47Z",
-      "updated_at": "2026-10-26T16:56:30Z",
+      "updated_at": "2026-10-26T20:25:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1843,7 +1820,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-10-26T17:48:27Z",
+      "updated_at": "2026-10-26T20:51:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2485,29 +2462,6 @@
         "count": 1,
         "approved_count": 0,
         "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix: keep an autonomous agent's AppProject destinations on resync",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1167",
-      "number": 1167,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "jadhavgaurav",
-        "avatar_url": "https://avatars.githubusercontent.com/u/134488140?u=c945dd6538da8364b743d72c22c2aa072d6d6d4c\u0026v=4"
-      },
-      "created_at": "2026-10-22T11:35:33Z",
-      "updated_at": "2026-10-26T19:25:03Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -4821,7 +4775,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-28T20:04:46Z",
+    "since": "2026-07-28T21:04:28Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9921,7 +9875,7 @@
             "repo": "redhat-developer/gitops-console-plugin",
             "number": 309,
             "author": "keithchong",
-            "engaged_at": "2026-10-26T20:01:51Z"
+            "engaged_at": "2026-10-26T20:42:56Z"
           },
           {
             "title": "feat(ui): add source integrity to project settings",
