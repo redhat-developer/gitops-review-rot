@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T23:06:48.898563769Z",
+  "generated_at": "2026-10-27T00:11:41.299419988Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1478,7 +1478,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-26T19:41:03Z",
+      "updated_at": "2026-10-26T23:37:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1582,7 +1582,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:29:59Z",
-      "updated_at": "2026-10-26T21:13:53Z",
+      "updated_at": "2026-10-26T23:20:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1595,60 +1595,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "lgtm",
-        "ok-to-test",
-        "dependencies",
-        "github_actions"
-      ]
-    },
-    {
-      "title": "chore(deps): bump actions/setup-go from 5 to 7",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1454",
-      "number": 1454,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-23T10:30:05Z",
-      "updated_at": "2026-10-26T18:20:44Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test",
-        "dependencies",
-        "github_actions"
-      ]
-    },
-    {
-      "title": "chore(deps): bump helm/kind-action from 1.14.0 to 1.15.1",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1455",
-      "number": 1455,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-23T10:30:10Z",
-      "updated_at": "2026-10-26T19:57:58Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "ok-to-test",
         "dependencies",
         "github_actions"
@@ -1691,15 +1637,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:47Z",
-      "updated_at": "2026-10-26T20:25:24Z",
+      "updated_at": "2026-10-26T23:13:13Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 2,
       "labels": [
@@ -2404,13 +2350,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3256083?u=3d1cd3c67ba5cd8280ba864f8b57f48ea3c9be29\u0026v=4"
       },
       "created_at": "2026-10-16T16:07:21Z",
-      "updated_at": "2026-10-16T17:24:05Z",
+      "updated_at": "2026-10-26T23:12:45Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -3522,7 +3468,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
       },
       "created_at": "2026-10-06T21:27:56Z",
-      "updated_at": "2026-10-20T07:46:45Z",
+      "updated_at": "2026-10-26T23:51:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4775,7 +4721,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-28T23:04:39Z",
+    "since": "2026-07-29T00:09:35Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6682,6 +6628,38 @@
         "reviews": 99,
         "prs": [
           {
+            "title": "chore(deps): bump helm/kind-action from 1.14.0 to 1.15.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1455",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1455,
+            "author": "dependabot",
+            "engaged_at": "2026-10-26T23:18:08Z"
+          },
+          {
+            "title": "chore(deps): bump actions/checkout from 4 to 7",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1453",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1453,
+            "author": "dependabot",
+            "engaged_at": "2026-10-26T23:16:03Z"
+          },
+          {
+            "title": "chore(deps): bump actions/setup-go from 5 to 7",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1454",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1454,
+            "author": "dependabot",
+            "engaged_at": "2026-10-26T23:14:34Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1458",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1458,
+            "author": "dependabot",
+            "engaged_at": "2026-10-26T23:13:13Z"
+          },
+          {
             "title": "test(e2e): Consolidate sequential 1-131 \u0026 1-133 from argocd-operator",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1465",
             "repo": "redhat-developer/gitops-operator",
@@ -6730,22 +6708,6 @@
             "engaged_at": "2026-10-26T11:37:08Z"
           },
           {
-            "title": "chore(deps): bump actions/setup-go from 5 to 7",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1454",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1454,
-            "author": "dependabot",
-            "engaged_at": "2026-10-26T11:33:46Z"
-          },
-          {
-            "title": "chore(deps): bump helm/kind-action from 1.14.0 to 1.15.1",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1455",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1455,
-            "author": "dependabot",
-            "engaged_at": "2026-10-26T11:33:32Z"
-          },
-          {
             "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.45.3",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1451",
             "repo": "redhat-developer/gitops-operator",
@@ -6762,28 +6724,12 @@
             "engaged_at": "2026-10-23T11:48:25Z"
           },
           {
-            "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring in /",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1458",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1458,
-            "author": "dependabot",
-            "engaged_at": "2026-10-23T11:48:20Z"
-          },
-          {
             "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter in /",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1457",
             "repo": "redhat-developer/gitops-operator",
             "number": 1457,
             "author": "dependabot",
             "engaged_at": "2026-10-23T11:48:17Z"
-          },
-          {
-            "title": "chore(deps): bump actions/checkout from 4 to 7",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1453",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1453,
-            "author": "dependabot",
-            "engaged_at": "2026-10-23T11:48:02Z"
           },
           {
             "title": "nit: typo in fixture method name",
@@ -8139,8 +8085,16 @@
       },
       {
         "login": "jannfis",
-        "reviews": 79,
+        "reviews": 80,
         "prs": [
+          {
+            "title": "feat(helm/agent): add rbac.extraRules and rbac.extraClusterRules",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1156",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1156,
+            "author": "ksdpmx",
+            "engaged_at": "2026-10-26T23:12:45Z"
+          },
           {
             "title": "chore: switch to gcr.io-hosted redis",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1164",
