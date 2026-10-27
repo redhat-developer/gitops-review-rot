@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T04:08:26.764201072Z",
+  "generated_at": "2026-10-27T05:07:16.84780956Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -615,7 +615,7 @@
       "updated_at": "2026-10-27T02:34:39Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -661,7 +661,7 @@
       "updated_at": "2026-10-27T02:18:20Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -707,7 +707,7 @@
       "updated_at": "2026-10-27T02:28:20Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -730,7 +730,7 @@
       "updated_at": "2026-10-27T02:12:16Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1427,7 +1427,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-15T13:43:44Z",
-      "updated_at": "2026-10-26T19:31:05Z",
+      "updated_at": "2026-10-27T04:39:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1478,10 +1478,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-26T23:37:07Z",
+      "updated_at": "2026-10-27T04:40:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1555,20 +1555,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-23T10:16:15Z",
-      "updated_at": "2026-10-26T23:01:50Z",
+      "updated_at": "2026-10-27T04:39:28Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement",
-        "lgtm",
         "approved"
       ]
     },
@@ -4767,7 +4766,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T04:06:25Z",
+    "since": "2026-07-29T05:05:11Z",
     "reviewers": [
       {
         "login": "chengfang",
