@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T10:08:19.293504577Z",
+  "generated_at": "2026-10-27T11:08:36.100310006Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -405,7 +405,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-14T01:39:13Z",
-      "updated_at": "2026-10-27T02:08:53Z",
+      "updated_at": "2026-10-27T10:19:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -474,7 +474,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-19T05:48:47Z",
-      "updated_at": "2026-10-27T02:30:13Z",
+      "updated_at": "2026-10-27T10:32:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -658,7 +658,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:24:25Z",
-      "updated_at": "2026-10-27T02:18:20Z",
+      "updated_at": "2026-10-27T10:26:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -681,7 +681,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:30:16Z",
-      "updated_at": "2026-10-27T02:23:04Z",
+      "updated_at": "2026-10-27T10:28:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -773,7 +773,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-06T07:01:53Z",
-      "updated_at": "2026-10-27T02:14:26Z",
+      "updated_at": "2026-10-27T10:23:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1351,15 +1351,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-10-12T13:08:22Z",
-      "updated_at": "2026-10-27T08:43:22Z",
+      "updated_at": "2026-10-27T10:23:03Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
+        "count": 2,
+        "approved_count": 1,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -1685,10 +1685,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-26T15:10:24Z",
-      "updated_at": "2026-10-27T08:29:16Z",
+      "updated_at": "2026-10-27T10:16:06Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1710,7 +1710,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-10-27T09:57:23Z",
+      "updated_at": "2026-10-27T10:27:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1718,9 +1718,9 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
       ]
@@ -2441,7 +2441,7 @@
       "updated_at": "2026-10-27T00:31:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2464,7 +2464,7 @@
       "updated_at": "2026-10-27T00:59:07Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -4453,10 +4453,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/315658242?v=4"
       },
       "created_at": "2026-10-16T06:33:08Z",
-      "updated_at": "2026-10-26T10:08:10Z",
+      "updated_at": "2026-10-27T10:49:11Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4476,10 +4476,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/315658242?v=4"
       },
       "created_at": "2026-10-16T07:21:01Z",
-      "updated_at": "2026-10-26T16:19:43Z",
+      "updated_at": "2026-10-27T10:49:57Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -4711,7 +4711,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T10:06:01Z",
+    "since": "2026-07-29T11:06:19Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10887,7 +10887,7 @@
       },
       {
         "login": "akhilnittala",
-        "reviews": 13,
+        "reviews": 12,
         "prs": [
           {
             "title": "chore(deps): bump image-updater from 1.3.0 to 1.4.0 and argocd from 3.5.5 to 3.5.6",
@@ -10984,14 +10984,6 @@
             "number": 2310,
             "author": "svghadi",
             "engaged_at": "2026-07-30T15:27:59Z"
-          },
-          {
-            "title": "Cherry pick: Add GinkGo test for n/w policy",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1238",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1238,
-            "author": "varshab1210",
-            "engaged_at": "2026-07-29T10:07:22Z"
           }
         ]
       },
@@ -11142,6 +11134,36 @@
         ]
       },
       {
+        "login": "AdamSaleh",
+        "reviews": 3,
+        "prs": [
+          {
+            "title": "Add dry-run Sync Playwright test",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1376",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1376,
+            "author": "trdoyle81",
+            "engaged_at": "2026-10-27T10:23:02Z"
+          },
+          {
+            "title": "test: Port tests to XKS",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1268",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1268,
+            "author": "anandrkskd",
+            "engaged_at": "2026-10-01T11:21:33Z"
+          },
+          {
+            "title": "CI: Github action job tests for xks on push to master and release branch",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1217",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1217,
+            "author": "anandrkskd",
+            "engaged_at": "2026-08-05T07:12:22Z"
+          }
+        ]
+      },
+      {
         "login": "Rizwana777",
         "reviews": 3,
         "prs": [
@@ -11198,28 +11220,6 @@
             "number": 1246,
             "author": "varshab1210",
             "engaged_at": "2026-08-06T07:10:26Z"
-          }
-        ]
-      },
-      {
-        "login": "AdamSaleh",
-        "reviews": 2,
-        "prs": [
-          {
-            "title": "test: Port tests to XKS",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1268",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1268,
-            "author": "anandrkskd",
-            "engaged_at": "2026-10-01T11:21:33Z"
-          },
-          {
-            "title": "CI: Github action job tests for xks on push to master and release branch",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1217",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1217,
-            "author": "anandrkskd",
-            "engaged_at": "2026-08-05T07:12:22Z"
           }
         ]
       },
