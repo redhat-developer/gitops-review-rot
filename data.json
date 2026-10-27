@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T14:09:35.490267918Z",
+  "generated_at": "2026-10-27T15:09:31.482774564Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1323,7 +1323,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-10-27T13:34:52Z",
+      "updated_at": "2026-10-27T14:27:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1372,10 +1372,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-10-12T13:08:22Z",
-      "updated_at": "2026-10-27T10:23:03Z",
+      "updated_at": "2026-10-27T14:28:56Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1602,7 +1602,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:25Z",
-      "updated_at": "2026-10-27T14:03:47Z",
+      "updated_at": "2026-10-27T14:18:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1706,10 +1706,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-26T15:10:24Z",
-      "updated_at": "2026-10-27T12:44:58Z",
+      "updated_at": "2026-10-27T14:50:26Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1731,7 +1731,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-10-27T13:18:00Z",
+      "updated_at": "2026-10-27T14:35:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2442,7 +2442,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/77117188?u=dd64c06a3f2a41a882a389abb1a32ccbe57f5ab6\u0026v=4"
       },
       "created_at": "2026-10-24T06:19:21Z",
-      "updated_at": "2026-10-25T22:01:17Z",
+      "updated_at": "2026-10-27T14:50:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4673,7 +4673,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-26T09:29:33Z",
-      "updated_at": "2026-10-26T13:19:34Z",
+      "updated_at": "2026-10-27T14:54:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4683,7 +4683,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -4764,7 +4764,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T14:07:26Z",
+    "since": "2026-07-29T15:06:56Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10118,7 +10118,7 @@
       },
       {
         "login": "anandf",
-        "reviews": 30,
+        "reviews": 29,
         "prs": [
           {
             "title": "fix: grant serviceaccounts/token create for Dex TokenRequest",
@@ -10351,14 +10351,6 @@
             "number": 2296,
             "author": "aali309",
             "engaged_at": "2026-07-31T15:12:15Z"
-          },
-          {
-            "title": "feat(dex): Making Dex storage type and config configurable from argocd-cm configmap",
-            "url": "https://github.com/argoproj/argo-cd/pull/28624",
-            "repo": "argoproj/argo-cd",
-            "number": 28624,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-29T14:29:26Z"
           }
         ]
       },
