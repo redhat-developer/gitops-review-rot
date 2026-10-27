@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T19:07:32.79524384Z",
+  "generated_at": "2026-10-27T20:06:55.722636493Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1323,7 +1323,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-10-27T14:27:21Z",
+      "updated_at": "2026-10-27T19:18:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1681,10 +1681,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-26T15:02:41Z",
-      "updated_at": "2026-10-27T13:08:23Z",
+      "updated_at": "2026-10-27T19:36:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1706,15 +1706,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-26T15:10:24Z",
-      "updated_at": "2026-10-27T14:50:26Z",
+      "updated_at": "2026-10-27T19:05:33Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -1783,10 +1783,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-10-27T16:42:46Z",
+      "updated_at": "2026-10-27T19:13:59Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1799,29 +1799,27 @@
       ]
     },
     {
-      "title": "docs: Fix formatting and broken links",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1471",
-      "number": 1471,
+      "title": "chore(deps): bump github.com/argoproj/argo-cd/v3 v3.3.12 -\u003e v3.3.18 to fix CVE-2026-55797",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1472",
+      "number": 1472,
       "repo": "redhat-developer/gitops-operator",
       "author": {
-        "login": "olivergondza",
-        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+        "login": "dkarpele",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
-      "created_at": "2026-10-27T13:35:56Z",
-      "updated_at": "2026-10-27T15:52:31Z",
+      "created_at": "2026-10-27T19:47:34Z",
+      "updated_at": "2026-10-27T20:02:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 1,
+        "count": 0,
+        "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": [
-        "kind/documentation"
-      ]
+      "labels": []
     },
     {
       "title": "feat: Add helm charts for principal",
@@ -2296,13 +2294,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/102970912?v=4"
       },
       "created_at": "2026-09-11T14:09:02Z",
-      "updated_at": "2026-09-11T19:05:46Z",
+      "updated_at": "2026-10-27T19:13:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -3590,6 +3588,52 @@
       ]
     },
     {
+      "title": "Propagate failed updates in run-once mode",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1890",
+      "number": 1890,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "dajiaohuang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108231307?u=8bdf7a69d9cb3a2a9669bec05afd2718d0a5754e\u0026v=4"
+      },
+      "created_at": "2026-10-27T19:19:27Z",
+      "updated_at": "2026-10-27T19:48:10Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore: bump github.com/argoproj/argo-cd/v3 v3.3.14 -\u003e v3.3.18 to fix CVE-2026-55797",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1891",
+      "number": 1891,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "dkarpele",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
+      },
+      "created_at": "2026-10-27T19:22:32Z",
+      "updated_at": "2026-10-27T19:22:48Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -4333,32 +4377,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.40.1",
-      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2388",
-      "number": 2388,
-      "repo": "argoproj-labs/argocd-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-09-21T08:42:52Z",
-      "updated_at": "2026-09-21T08:43:14Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "chore(deps): bump docker/setup-buildx-action from 4.3.0 to 4.4.1",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/2389",
       "number": 2389,
@@ -4607,6 +4625,29 @@
       "labels": []
     },
     {
+      "title": "Disable Dependabot configuration file",
+      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2416",
+      "number": 2416,
+      "repo": "argoproj-labs/argocd-operator",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-10-27T19:10:44Z",
+      "updated_at": "2026-10-27T19:18:35Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "fixes for Openshift deployment",
       "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/89",
       "number": 89,
@@ -4756,12 +4797,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T19:04:59Z",
+    "since": "2026-07-29T20:04:20Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 124,
+        "reviews": 125,
         "prs": [
+          {
+            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.40.1",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2388",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2388,
+            "author": "dependabot",
+            "engaged_at": "2026-10-27T19:42:33Z"
+          },
           {
             "title": "feat(tls): Configure Image Updater Curve Preferences",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1452",
@@ -9530,7 +9579,7 @@
       },
       {
         "login": "keithchong",
-        "reviews": 38,
+        "reviews": 37,
         "prs": [
           {
             "title": "feat: Convert all tables to use the Column management model",
@@ -9827,20 +9876,12 @@
             "number": 1224,
             "author": "akhilnittala",
             "engaged_at": "2026-07-29T21:26:06Z"
-          },
-          {
-            "title": "feat: prevent openshift-gitops namespace creation when DISABLE_DEFAULT_ARGOCD_INSTANCE=true",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1206",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1206,
-            "author": "Rizwana777",
-            "engaged_at": "2026-07-29T19:38:32Z"
           }
         ]
       },
       {
         "login": "aali309",
-        "reviews": 32,
+        "reviews": 31,
         "prs": [
           {
             "title": "Create Dashboard with Sync and Health Status cards, Operational, Sync Activity and Reconciliation Metrics Cards (#11387)",
@@ -10089,14 +10130,6 @@
             "number": 257,
             "author": "keithchong",
             "engaged_at": "2026-07-31T19:17:00Z"
-          },
-          {
-            "title": "feat(ui): add parent app breadcrumb navigation for app-of-apps",
-            "url": "https://github.com/argoproj/argo-cd/pull/28963",
-            "repo": "argoproj/argo-cd",
-            "number": 28963,
-            "author": "daanvinken",
-            "engaged_at": "2026-07-29T19:50:47Z"
           }
         ]
       },
