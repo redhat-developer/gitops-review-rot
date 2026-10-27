@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T09:09:31.970045295Z",
+  "generated_at": "2026-10-27T10:08:19.293504577Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1710,7 +1710,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-10-27T08:54:50Z",
+      "updated_at": "2026-10-27T09:57:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4711,7 +4711,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T09:07:10Z",
+    "since": "2026-07-29T10:06:01Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -5713,7 +5713,7 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 113,
+        "reviews": 108,
         "prs": [
           {
             "title": "Go runtime auto-tuning GOMEMLIMIT/GOMAXPROCS for application-controller",
@@ -6578,46 +6578,6 @@
             "number": 27467,
             "author": "ranakan19",
             "engaged_at": "2026-07-30T07:12:37Z"
-          },
-          {
-            "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 970,
-            "author": "svghadi",
-            "engaged_at": "2026-07-29T09:48:30Z"
-          },
-          {
-            "title": "doc: OpenShift argocd CLI client command reference documentation",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/650",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 650,
-            "author": "anandf",
-            "engaged_at": "2026-07-29T09:43:13Z"
-          },
-          {
-            "title": "feat: Track code coverage",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/590",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 590,
-            "author": "mehabhalodiya",
-            "engaged_at": "2026-07-29T09:41:20Z"
-          },
-          {
-            "title": "chore(deps): update konflux references",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/778",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 778,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-07-29T09:37:52Z"
-          },
-          {
-            "title": "feat: prevent openshift-gitops namespace creation when DISABLE_DEFAULT_ARGOCD_INSTANCE=true",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1206",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1206,
-            "author": "Rizwana777",
-            "engaged_at": "2026-07-29T09:32:24Z"
           }
         ]
       },
@@ -10105,7 +10065,7 @@
       },
       {
         "login": "anandf",
-        "reviews": 30,
+        "reviews": 29,
         "prs": [
           {
             "title": "feat(cli): implement OAuth 2.0 Device Authorization Grant (Beta)",
@@ -10338,14 +10298,6 @@
             "number": 28624,
             "author": "akhilnittala",
             "engaged_at": "2026-07-29T14:29:26Z"
-          },
-          {
-            "title": "feat(redis-ha-proxy): Configure Redis Ha Proxy TLS settings",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1218",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1218,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-29T09:36:12Z"
           }
         ]
       },
