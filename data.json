@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:09:31.482774564Z",
+  "generated_at": "2026-10-27T16:07:15.5923803Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1731,17 +1731,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-10-27T14:35:35Z",
+      "updated_at": "2026-10-27T15:26:02Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "kind/enhancement"
       ]
@@ -1813,14 +1813,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-27T13:35:56Z",
-      "updated_at": "2026-10-27T13:59:33Z",
+      "updated_at": "2026-10-27T15:52:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -2393,7 +2393,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-19T17:13:36Z",
-      "updated_at": "2026-10-19T17:29:46Z",
+      "updated_at": "2026-10-27T15:53:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2419,10 +2419,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-21T15:42:52Z",
-      "updated_at": "2026-10-26T14:15:09Z",
+      "updated_at": "2026-10-27T15:30:17Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2477,32 +2477,6 @@
       },
       "unresolved_conversations": 2,
       "labels": []
-    },
-    {
-      "title": "build(deps): Bump github.com/argoproj/argo-cd/v3 from 3.5.5 to 3.5.6",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1170",
-      "number": 1170,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-26T17:13:32Z",
-      "updated_at": "2026-10-26T17:13:41Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
     },
     {
       "title": "fix(redisproxy): resubscribe live view when an agent reconnects",
@@ -4552,7 +4526,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-21T10:23:34Z",
-      "updated_at": "2026-10-27T05:19:02Z",
+      "updated_at": "2026-10-27T15:18:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4764,7 +4738,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T15:06:56Z",
+    "since": "2026-07-29T16:04:45Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6636,8 +6610,24 @@
       },
       {
         "login": "jgwest",
-        "reviews": 99,
+        "reviews": 101,
         "prs": [
+          {
+            "title": "docs: Fix formatting and broken links",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1471",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1471,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-27T15:52:31Z"
+          },
+          {
+            "title": "build(deps): Bump github.com/argoproj/argo-cd/v3 from 3.5.5 to 3.5.6",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1170",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1170,
+            "author": "dependabot",
+            "engaged_at": "2026-10-27T15:51:08Z"
+          },
           {
             "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.45.3",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1451",
@@ -9148,7 +9138,7 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 46,
+        "reviews": 45,
         "prs": [
           {
             "title": "fix: grant serviceaccounts/token create for Dex TokenRequest",
@@ -9509,14 +9499,6 @@
             "number": 1741,
             "author": "chengfang",
             "engaged_at": "2026-07-31T14:31:35Z"
-          },
-          {
-            "title": "fix(docs): use current values of updateStrategy (semver, newest-build, digest and alphabetical) and de-emphasize deprecated values",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1740",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1740,
-            "author": "chengfang",
-            "engaged_at": "2026-07-29T15:31:26Z"
           }
         ]
       },
@@ -9832,7 +9814,7 @@
       },
       {
         "login": "aali309",
-        "reviews": 35,
+        "reviews": 33,
         "prs": [
           {
             "title": "Create Dashboard with Sync and Health Status cards, Operational, Sync Activity and Reconciliation Metrics Cards (#11387)",
@@ -10097,22 +10079,6 @@
             "number": 28904,
             "author": "Churi12",
             "engaged_at": "2026-07-29T16:49:18Z"
-          },
-          {
-            "title": "feat(gitops-console-plugin): Configure SSL protocol and ciphersuites for plugin component",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1224",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1224,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-29T15:29:59Z"
-          },
-          {
-            "title": "test: skip terminating source namespaces",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1240",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1240,
-            "author": "varshab1210",
-            "engaged_at": "2026-07-29T15:23:17Z"
           }
         ]
       },
