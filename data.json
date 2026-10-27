@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T13:12:34.819487097Z",
+  "generated_at": "2026-10-27T14:09:35.490267918Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1323,7 +1323,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-10-21T09:33:19Z",
+      "updated_at": "2026-10-27T13:34:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1331,12 +1331,10 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 3,
-      "labels": [
-        "needs-rebase"
-      ]
+      "labels": []
     },
     {
       "title": "feat: add configurable replicas for backend and plugin deployments",
@@ -1551,7 +1549,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-22T19:14:42Z",
-      "updated_at": "2026-10-23T12:06:22Z",
+      "updated_at": "2026-10-27T13:56:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1604,7 +1602,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:25Z",
-      "updated_at": "2026-10-27T05:42:33Z",
+      "updated_at": "2026-10-27T14:03:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1612,7 +1610,7 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": [
@@ -1733,7 +1731,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-10-27T13:03:40Z",
+      "updated_at": "2026-10-27T13:18:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1785,8 +1783,38 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-10-27T12:09:51Z",
-      "is_draft": true,
+      "updated_at": "2026-10-27T13:35:35Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "kind/bug",
+        "kind/documentation",
+        "kind/enhancement",
+        "kind/failing-ci",
+        "kind/failing-test",
+        "kind/cleanup"
+      ]
+    },
+    {
+      "title": "docs: Fix formatting and broken links",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1471",
+      "number": 1471,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-10-27T13:35:56Z",
+      "updated_at": "2026-10-27T13:59:33Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
@@ -1797,13 +1825,7 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/bug",
-        "kind/documentation",
-        "kind/enhancement",
-        "do-not-merge/work-in-progress",
-        "kind/failing-ci",
-        "kind/failing-test",
-        "kind/cleanup"
+        "kind/documentation"
       ]
     },
     {
@@ -4742,7 +4764,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T13:10:18Z",
+    "since": "2026-07-29T14:07:26Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6617,6 +6639,22 @@
         "reviews": 99,
         "prs": [
           {
+            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.45.3",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1451",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1451,
+            "author": "dependabot",
+            "engaged_at": "2026-10-27T13:44:49Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1457",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1457,
+            "author": "dependabot",
+            "engaged_at": "2026-10-27T13:44:35Z"
+          },
+          {
             "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring in /",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1458",
             "repo": "redhat-developer/gitops-operator",
@@ -6705,28 +6743,12 @@
             "engaged_at": "2026-10-26T11:37:08Z"
           },
           {
-            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.45.3",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1451",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1451,
-            "author": "dependabot",
-            "engaged_at": "2026-10-23T11:49:38Z"
-          },
-          {
             "title": "chore(deps): bump sigs.k8s.io/controller-runtime in /",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1459",
             "repo": "redhat-developer/gitops-operator",
             "number": 1459,
             "author": "dependabot",
             "engaged_at": "2026-10-23T11:48:25Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter in /",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1457",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1457,
-            "author": "dependabot",
-            "engaged_at": "2026-10-23T11:48:17Z"
           },
           {
             "title": "nit: typo in fixture method name",
