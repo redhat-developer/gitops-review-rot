@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T21:07:07.552782344Z",
+  "generated_at": "2026-10-27T22:07:21.575075432Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1706,7 +1706,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-26T15:10:24Z",
-      "updated_at": "2026-10-27T19:05:33Z",
+      "updated_at": "2026-10-27T21:11:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1731,10 +1731,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-10-27T16:39:21Z",
+      "updated_at": "2026-10-27T21:12:18Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1808,10 +1808,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-10-27T19:47:34Z",
-      "updated_at": "2026-10-27T20:53:44Z",
+      "updated_at": "2026-10-27T21:04:31Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1833,10 +1833,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-10-27T20:07:53Z",
-      "updated_at": "2026-10-27T20:08:07Z",
+      "updated_at": "2026-10-27T21:36:11Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2534,7 +2534,7 @@
       "updated_at": "2026-10-27T20:47:26Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -3647,7 +3647,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-10-27T19:22:32Z",
-      "updated_at": "2026-10-27T19:22:48Z",
+      "updated_at": "2026-10-27T21:09:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4824,7 +4824,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T21:04:54Z",
+    "since": "2026-07-29T22:05:20Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9606,7 +9606,7 @@
       },
       {
         "login": "keithchong",
-        "reviews": 37,
+        "reviews": 36,
         "prs": [
           {
             "title": "feat: Convert all tables to use the Column management model",
@@ -9895,14 +9895,6 @@
             "number": 2296,
             "author": "aali309",
             "engaged_at": "2026-07-30T15:04:16Z"
-          },
-          {
-            "title": "feat(gitops-console-plugin): Configure SSL protocol and ciphersuites for plugin component",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1224",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1224,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-29T21:26:06Z"
           }
         ]
       },
