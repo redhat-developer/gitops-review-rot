@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T05:07:16.84780956Z",
+  "generated_at": "2026-10-27T06:09:44.151317211Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1427,7 +1427,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-15T13:43:44Z",
-      "updated_at": "2026-10-27T04:39:23Z",
+      "updated_at": "2026-10-27T05:27:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1478,7 +1478,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-27T04:40:29Z",
+      "updated_at": "2026-10-27T05:27:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1555,7 +1555,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-23T10:16:15Z",
-      "updated_at": "2026-10-27T04:39:28Z",
+      "updated_at": "2026-10-27T05:28:02Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1572,34 +1572,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump actions/checkout from 4 to 7",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1453",
-      "number": 1453,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-23T10:29:59Z",
-      "updated_at": "2026-10-27T00:37:36Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "lgtm",
-        "ok-to-test",
-        "dependencies",
-        "github_actions"
-      ]
-    },
-    {
       "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter in /",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1457",
       "number": 1457,
@@ -1609,7 +1581,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:25Z",
-      "updated_at": "2026-10-26T12:02:44Z",
+      "updated_at": "2026-10-27T05:42:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1627,33 +1599,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring in /",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1458",
-      "number": 1458,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-23T10:30:47Z",
-      "updated_at": "2026-10-26T23:13:13Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "chore(deps): bump sigs.k8s.io/controller-runtime in /",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1459",
       "number": 1459,
@@ -1663,7 +1608,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:56Z",
-      "updated_at": "2026-10-26T19:13:36Z",
+      "updated_at": "2026-10-27T05:44:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1671,7 +1616,7 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 3,
       "labels": [
@@ -1715,13 +1660,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-26T15:02:41Z",
-      "updated_at": "2026-10-26T17:31:53Z",
+      "updated_at": "2026-10-27T05:13:18Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -4554,10 +4499,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-21T10:23:34Z",
-      "updated_at": "2026-10-23T15:58:31Z",
+      "updated_at": "2026-10-27T05:19:02Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4766,7 +4711,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T05:05:11Z",
+    "since": "2026-07-29T06:07:39Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6670,8 +6615,32 @@
       },
       {
         "login": "jgwest",
-        "reviews": 99,
+        "reviews": 100,
         "prs": [
+          {
+            "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1458",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1458,
+            "author": "dependabot",
+            "engaged_at": "2026-10-27T05:19:45Z"
+          },
+          {
+            "title": "feat(E2E): Move 1-142_validate_image_updater_watch_namespaces_test.go from argocd-operator",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1466",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1466,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-27T05:13:18Z"
+          },
+          {
+            "title": "chore(deps): bump actions/checkout from 4 to 7",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1453",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1453,
+            "author": "dependabot",
+            "engaged_at": "2026-10-27T05:10:28Z"
+          },
           {
             "title": "chore(deps): bump helm/kind-action from 1.14.0 to 1.15.1",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1455",
@@ -6681,28 +6650,12 @@
             "engaged_at": "2026-10-26T23:18:08Z"
           },
           {
-            "title": "chore(deps): bump actions/checkout from 4 to 7",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1453",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1453,
-            "author": "dependabot",
-            "engaged_at": "2026-10-26T23:16:03Z"
-          },
-          {
             "title": "chore(deps): bump actions/setup-go from 5 to 7",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1454",
             "repo": "redhat-developer/gitops-operator",
             "number": 1454,
             "author": "dependabot",
             "engaged_at": "2026-10-26T23:14:34Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring in /",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1458",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1458,
-            "author": "dependabot",
-            "engaged_at": "2026-10-26T23:13:13Z"
           },
           {
             "title": "test(e2e): Consolidate sequential 1-131 \u0026 1-133 from argocd-operator",
