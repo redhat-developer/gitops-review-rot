@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T12:09:28.445055161Z",
+  "generated_at": "2026-10-27T13:12:34.819487097Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -904,6 +904,29 @@
       "labels": []
     },
     {
+      "title": "Add rollout deployment utility edge-case tests",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/310",
+      "number": 310,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "trdoyle81",
+        "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
+      },
+      "created_at": "2026-10-27T12:14:17Z",
+      "updated_at": "2026-10-27T12:17:27Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "chore(deps): update konflux references",
       "url": "https://github.com/redhat-developer/gitops-must-gather/pull/52",
       "number": 52,
@@ -1660,10 +1683,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-26T15:02:41Z",
-      "updated_at": "2026-10-27T11:24:40Z",
+      "updated_at": "2026-10-27T13:08:23Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1685,10 +1708,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-26T15:10:24Z",
-      "updated_at": "2026-10-27T10:16:06Z",
+      "updated_at": "2026-10-27T12:44:58Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1710,7 +1733,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-10-27T10:27:37Z",
+      "updated_at": "2026-10-27T13:03:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1750,6 +1773,37 @@
         "needs-ok-to-test",
         "dependencies",
         "docker"
+      ]
+    },
+    {
+      "title": "feat: support SPIFFE/SPIRE in operator for argocd-agent auth",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1470",
+      "number": 1470,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "jparsai",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
+      },
+      "created_at": "2026-10-27T12:09:39Z",
+      "updated_at": "2026-10-27T12:09:51Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/bug",
+        "kind/documentation",
+        "kind/enhancement",
+        "do-not-merge/work-in-progress",
+        "kind/failing-ci",
+        "kind/failing-test",
+        "kind/cleanup"
       ]
     },
     {
@@ -2461,14 +2515,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-10-27T00:54:39Z",
-      "updated_at": "2026-10-27T11:15:17Z",
+      "updated_at": "2026-10-27T12:22:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
+        "count": 2,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4456,7 +4510,7 @@
       "updated_at": "2026-10-27T10:49:11Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4464,29 +4518,6 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix: grant serviceaccounts/token create for Dex TokenRequest",
-      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2412",
-      "number": 2412,
-      "repo": "argoproj-labs/argocd-operator",
-      "author": {
-        "login": "Pratik-Redhat-Tech",
-        "avatar_url": "https://avatars.githubusercontent.com/u/315658242?v=4"
-      },
-      "created_at": "2026-10-16T07:21:01Z",
-      "updated_at": "2026-10-27T10:49:57Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -4711,7 +4742,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T12:07:15Z",
+    "since": "2026-07-29T13:10:18Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10065,8 +10096,16 @@
       },
       {
         "login": "anandf",
-        "reviews": 29,
+        "reviews": 30,
         "prs": [
+          {
+            "title": "fix: grant serviceaccounts/token create for Dex TokenRequest",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2412",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2412,
+            "author": "Pratik-Redhat-Tech",
+            "engaged_at": "2026-10-27T12:13:49Z"
+          },
           {
             "title": "feat(cli): implement OAuth 2.0 Device Authorization Grant (Beta)",
             "url": "https://github.com/argoproj/argo-cd/pull/29198",
@@ -10303,8 +10342,16 @@
       },
       {
         "login": "chetan-rns",
-        "reviews": 24,
+        "reviews": 25,
         "prs": [
+          {
+            "title": "fix: stop leaking redis subscription goroutines in agent and principal",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1173",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1173,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-10-27T12:22:48Z"
+          },
           {
             "title": "feat(tls): Configure TLS Curve Preferences for Openshift 5.1 Goals",
             "url": "https://github.com/redhat-developer/gitops-backend/pull/73",
