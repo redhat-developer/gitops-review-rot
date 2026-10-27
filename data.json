@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T16:07:15.5923803Z",
+  "generated_at": "2026-10-27T17:07:05.012464659Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1524,17 +1524,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-10-21T12:58:35Z",
-      "updated_at": "2026-10-23T10:50:38Z",
+      "updated_at": "2026-10-27T16:40:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 5,
       "labels": [
         "kind/enhancement"
       ]
@@ -1731,7 +1731,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-10-27T15:26:02Z",
+      "updated_at": "2026-10-27T16:39:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1783,7 +1783,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-10-27T13:35:35Z",
+      "updated_at": "2026-10-27T16:42:46Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1795,12 +1795,7 @@
       },
       "unresolved_conversations": 2,
       "labels": [
-        "kind/bug",
-        "kind/documentation",
-        "kind/enhancement",
-        "kind/failing-ci",
-        "kind/failing-test",
-        "kind/cleanup"
+        "kind/enhancement"
       ]
     },
     {
@@ -2422,7 +2417,7 @@
       "updated_at": "2026-10-27T15:30:17Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2488,10 +2483,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-10-27T00:26:09Z",
-      "updated_at": "2026-10-27T00:31:24Z",
+      "updated_at": "2026-10-27T16:30:36Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2511,7 +2506,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-10-27T00:54:39Z",
-      "updated_at": "2026-10-27T12:22:48Z",
+      "updated_at": "2026-10-27T16:25:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4647,13 +4642,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-26T09:29:33Z",
-      "updated_at": "2026-10-27T14:54:50Z",
+      "updated_at": "2026-10-27T16:58:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -4711,34 +4706,11 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-07-16T14:24:23Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T16:04:45Z",
+    "since": "2026-07-29T17:04:50Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6610,8 +6582,16 @@
       },
       {
         "login": "jgwest",
-        "reviews": 101,
+        "reviews": 102,
         "prs": [
+          {
+            "title": "feat: toggle debug settings during runtime",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1445",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1445,
+            "author": "chetan-rns",
+            "engaged_at": "2026-10-27T16:40:24Z"
+          },
           {
             "title": "docs: Fix formatting and broken links",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1471",
@@ -9814,7 +9794,7 @@
       },
       {
         "login": "aali309",
-        "reviews": 33,
+        "reviews": 32,
         "prs": [
           {
             "title": "Create Dashboard with Sync and Health Status cards, Operational, Sync Activity and Reconciliation Metrics Cards (#11387)",
@@ -10071,14 +10051,6 @@
             "number": 28963,
             "author": "daanvinken",
             "engaged_at": "2026-07-29T19:50:47Z"
-          },
-          {
-            "title": "fix(repository): resolve untyped helm source type in UpdateRevisionForPaths",
-            "url": "https://github.com/argoproj/argo-cd/pull/28904",
-            "repo": "argoproj/argo-cd",
-            "number": 28904,
-            "author": "Churi12",
-            "engaged_at": "2026-07-29T16:49:18Z"
           }
         ]
       },
