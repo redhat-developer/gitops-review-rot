@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T11:08:36.100310006Z",
+  "generated_at": "2026-10-27T12:09:28.445055161Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1427,10 +1427,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-15T13:43:44Z",
-      "updated_at": "2026-10-27T05:27:22Z",
+      "updated_at": "2026-10-27T11:31:52Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1478,7 +1478,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-27T07:29:57Z",
+      "updated_at": "2026-10-27T11:31:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1555,10 +1555,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-23T10:16:15Z",
-      "updated_at": "2026-10-27T05:28:02Z",
+      "updated_at": "2026-10-27T11:23:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1660,10 +1660,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-26T15:02:41Z",
-      "updated_at": "2026-10-27T05:13:18Z",
+      "updated_at": "2026-10-27T11:24:40Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2441,7 +2441,7 @@
       "updated_at": "2026-10-27T00:31:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2461,13 +2461,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-10-27T00:54:39Z",
-      "updated_at": "2026-10-27T00:59:07Z",
+      "updated_at": "2026-10-27T11:15:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -4711,7 +4711,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-29T11:06:19Z",
+    "since": "2026-07-29T12:07:15Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -5804,7 +5804,7 @@
             "engaged_at": "2026-10-22T16:41:17Z"
           },
           {
-            "title": "feat(util): add signedTagsOnly option for source integrity",
+            "title": "feat(util): add signedRevisionOnly option for source integrity",
             "url": "https://github.com/argoproj/argo-cd/pull/30033",
             "repo": "argoproj/argo-cd",
             "number": 30033,
