@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T09:07:57.388439315Z",
+  "generated_at": "2026-10-28T10:07:11.070300597Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -380,18 +380,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-10-28T08:55:37Z",
-      "updated_at": "2026-10-28T08:55:48Z",
+      "updated_at": "2026-10-28T09:39:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": []
+      "labels": [
+        "lgtm",
+        "approved"
+      ]
     },
     {
       "title": "WIP Prototype multicluster sdk",
@@ -1808,8 +1811,8 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-10-27T19:47:34Z",
-      "updated_at": "2026-10-27T21:04:31Z",
-      "is_draft": true,
+      "updated_at": "2026-10-28T09:23:15Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
@@ -1819,9 +1822,7 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": [
-        "do-not-merge/work-in-progress"
-      ]
+      "labels": []
     },
     {
       "title": "chore: bump github.com/argoproj/argo-cd/v3 v3.4.4 -\u003e v3.4.12 to fix CVE-2026-55797",
@@ -2417,17 +2418,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3256083?u=3d1cd3c67ba5cd8280ba864f8b57f48ea3c9be29\u0026v=4"
       },
       "created_at": "2026-10-16T16:07:21Z",
-      "updated_at": "2026-10-26T23:12:45Z",
+      "updated_at": "2026-10-28T09:55:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -2489,15 +2490,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/77117188?u=dd64c06a3f2a41a882a389abb1a32ccbe57f5ab6\u0026v=4"
       },
       "created_at": "2026-10-24T06:19:21Z",
-      "updated_at": "2026-10-27T14:50:17Z",
+      "updated_at": "2026-10-28T09:47:43Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -4805,7 +4806,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-30T09:05:47Z",
+    "since": "2026-07-30T10:04:46Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7483,8 +7484,16 @@
       },
       {
         "login": "svghadi",
-        "reviews": 85,
+        "reviews": 86,
         "prs": [
+          {
+            "title": "resolve CVE-2026-84445 for grpc-go",
+            "url": "https://github.com/redhat-developer/gitops-backend/pull/76",
+            "repo": "redhat-developer/gitops-backend",
+            "number": 76,
+            "author": "alkakumari016",
+            "engaged_at": "2026-10-28T09:38:59Z"
+          },
           {
             "title": "Disable Dependabot configuration file",
             "url": "https://github.com/argoproj-labs/argocd-operator/pull/2416",
