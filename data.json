@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T16:07:21.941064745Z",
+  "generated_at": "2026-10-28T17:06:32.826837169Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1689,7 +1689,7 @@
       "updated_at": "2026-10-28T00:47:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2559,13 +2559,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/117827117?u=e35486576023424f461f6f05d13512591a452c9e\u0026v=4"
       },
       "created_at": "2026-10-27T18:33:07Z",
-      "updated_at": "2026-10-27T18:36:43Z",
+      "updated_at": "2026-10-28T16:12:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -3666,29 +3666,6 @@
       "labels": []
     },
     {
-      "title": "chore: bump github.com/argoproj/argo-cd/v3 v3.3.14 -\u003e v3.3.18 to fix CVE-2026-55797",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1891",
-      "number": 1891,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "dkarpele",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
-      },
-      "created_at": "2026-10-27T19:22:32Z",
-      "updated_at": "2026-10-27T21:09:56Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -4783,12 +4760,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-30T16:04:48Z",
+    "since": "2026-07-30T17:04:22Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 124,
+        "reviews": 125,
         "prs": [
+          {
+            "title": "chore: bump github.com/argoproj/argo-cd/v3 v3.3.14 -\u003e v3.3.18 to fix CVE-2026-55797",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1891",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1891,
+            "author": "dkarpele",
+            "engaged_at": "2026-10-28T16:09:04Z"
+          },
           {
             "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.40.1",
             "url": "https://github.com/argoproj-labs/argocd-operator/pull/2388",
@@ -8793,7 +8778,7 @@
       },
       {
         "login": "ranakan19",
-        "reviews": 50,
+        "reviews": 49,
         "prs": [
           {
             "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.45.3",
@@ -9186,14 +9171,6 @@
             "number": 28966,
             "author": "aali309",
             "engaged_at": "2026-08-05T18:07:05Z"
-          },
-          {
-            "title": "test(repository): assert Changes value explicitly in UpdateRevisionForPaths test",
-            "url": "https://github.com/argoproj/argo-cd/pull/28984",
-            "repo": "argoproj/argo-cd",
-            "number": 28984,
-            "author": "Churi12",
-            "engaged_at": "2026-07-30T17:01:11Z"
           }
         ]
       },
