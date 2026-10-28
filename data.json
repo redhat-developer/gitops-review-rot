@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T20:07:18.026373925Z",
+  "generated_at": "2026-10-28T21:06:42.385052496Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1250,10 +1250,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-10-28T14:00:40Z",
+      "updated_at": "2026-10-28T20:34:09Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 3,
@@ -1789,14 +1789,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-10-27T19:47:34Z",
-      "updated_at": "2026-10-28T14:05:05Z",
+      "updated_at": "2026-10-28T20:48:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -2421,14 +2421,14 @@
       "updated_at": "2026-10-28T19:53:10Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 5,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -3553,7 +3553,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
       },
       "created_at": "2026-10-09T17:56:08Z",
-      "updated_at": "2026-10-23T22:41:47Z",
+      "updated_at": "2026-10-28T20:22:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4711,7 +4711,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-30T20:04:54Z",
+    "since": "2026-07-30T21:04:36Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6559,8 +6559,16 @@
       },
       {
         "login": "jgwest",
-        "reviews": 102,
+        "reviews": 103,
         "prs": [
+          {
+            "title": "chore(deps): bump github.com/argoproj/argo-cd/v3 v3.3.12 -\u003e v3.3.18 to fix CVE-2026-55797",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1472",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1472,
+            "author": "dkarpele",
+            "engaged_at": "2026-10-28T20:48:10Z"
+          },
           {
             "title": "feat: toggle debug settings during runtime",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1445",
