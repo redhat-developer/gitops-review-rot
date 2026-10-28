@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T15:07:36.179592676Z",
+  "generated_at": "2026-10-28T16:07:21.941064745Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1224,7 +1224,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-06T05:25:51Z",
-      "updated_at": "2026-10-28T14:22:43Z",
+      "updated_at": "2026-10-28T15:39:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1711,7 +1711,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-10-28T07:05:01Z",
+      "updated_at": "2026-10-28T15:42:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1763,10 +1763,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-10-28T14:55:35Z",
+      "updated_at": "2026-10-28T15:56:35Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1811,7 +1811,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-10-27T20:07:53Z",
-      "updated_at": "2026-10-28T14:03:16Z",
+      "updated_at": "2026-10-28T15:52:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1829,7 +1829,7 @@
       ]
     },
     {
-      "title": "update argocd-operator dependency",
+      "title": "update argocd-operator dependency (1.22)",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1474",
       "number": 1474,
       "repo": "redhat-developer/gitops-operator",
@@ -1838,7 +1838,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-28T08:22:58Z",
-      "updated_at": "2026-10-28T10:17:56Z",
+      "updated_at": "2026-10-28T15:31:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2562,7 +2562,7 @@
       "updated_at": "2026-10-27T18:36:43Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2582,13 +2582,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-10-28T01:44:26Z",
-      "updated_at": "2026-10-28T02:43:53Z",
+      "updated_at": "2026-10-28T15:58:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -4756,15 +4756,38 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-07-16T14:24:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-30T15:05:01Z",
+    "since": "2026-07-30T16:04:48Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 125,
+        "reviews": 124,
         "prs": [
           {
             "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.40.1",
@@ -5757,14 +5780,6 @@
             "number": 1755,
             "author": "dependabot",
             "engaged_at": "2026-08-03T03:06:20Z"
-          },
-          {
-            "title": "fix(log): pass the context to git commands",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1742",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1742,
-            "author": "dkarpele",
-            "engaged_at": "2026-07-30T15:08:48Z"
           }
         ]
       },
@@ -5778,7 +5793,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1468,
             "author": "nmirasch",
-            "engaged_at": "2026-10-27T08:34:58Z"
+            "engaged_at": "2026-10-28T15:42:00Z"
           },
           {
             "title": "chore(deps): bump argocd from 3.5.5 to 3.5.6 and image updater from 1.3.1 to 1.3.2",
@@ -8124,8 +8139,16 @@
       },
       {
         "login": "jannfis",
-        "reviews": 80,
+        "reviews": 81,
         "prs": [
+          {
+            "title": "fix(e2e): wait for agents to connect before running tests",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1176",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1176,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-10-28T15:58:55Z"
+          },
           {
             "title": "feat(helm/agent): add rbac.extraRules and rbac.extraClusterRules",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1156",
@@ -10912,7 +10935,7 @@
       },
       {
         "login": "akhilnittala",
-        "reviews": 13,
+        "reviews": 11,
         "prs": [
           {
             "title": "Go runtime auto-tuning GOMEMLIMIT/GOMAXPROCS for application-controller",
@@ -11001,22 +11024,6 @@
             "number": 2358,
             "author": "nmirasch",
             "engaged_at": "2026-09-04T14:56:37Z"
-          },
-          {
-            "title": "Revert \"fix: Make Renewal Token Expiry Feature Configurable\"",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2309",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2309,
-            "author": "svghadi",
-            "engaged_at": "2026-07-30T15:28:18Z"
-          },
-          {
-            "title": "Revert \"fix: Make Renewal Token Expiry Feature Configurable\"",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2310",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2310,
-            "author": "svghadi",
-            "engaged_at": "2026-07-30T15:27:59Z"
           }
         ]
       },
