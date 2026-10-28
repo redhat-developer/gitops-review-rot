@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T08:07:43.575566189Z",
+  "generated_at": "2026-10-28T09:07:57.388439315Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -369,6 +369,29 @@
         "needs-ok-to-test",
         "needs-rebase"
       ]
+    },
+    {
+      "title": "resolve CVE-2026-84445 for grpc-go",
+      "url": "https://github.com/redhat-developer/gitops-backend/pull/76",
+      "number": 76,
+      "repo": "redhat-developer/gitops-backend",
+      "author": {
+        "login": "alkakumari016",
+        "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
+      },
+      "created_at": "2026-10-28T08:55:37Z",
+      "updated_at": "2026-10-28T08:55:48Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "WIP Prototype multicluster sdk",
@@ -1553,7 +1576,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-23T10:16:15Z",
-      "updated_at": "2026-10-28T07:06:44Z",
+      "updated_at": "2026-10-28T08:27:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1760,7 +1783,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-10-28T08:03:32Z",
+      "updated_at": "2026-10-28T08:40:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1770,7 +1793,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
       ]
@@ -1825,6 +1848,31 @@
         "kind/enhancement",
         "lgtm",
         "approved"
+      ]
+    },
+    {
+      "title": "update argocd-operator dependency",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1474",
+      "number": 1474,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "anandrkskd",
+        "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
+      },
+      "created_at": "2026-10-28T08:22:58Z",
+      "updated_at": "2026-10-28T08:23:12Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/bug"
       ]
     },
     {
@@ -4757,7 +4805,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-30T08:05:35Z",
+    "since": "2026-07-30T09:05:47Z",
     "reviewers": [
       {
         "login": "chengfang",
