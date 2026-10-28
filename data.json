@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T06:08:11.360387083Z",
+  "generated_at": "2026-10-28T07:06:58.470312782Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -405,10 +405,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-14T01:39:13Z",
-      "updated_at": "2026-10-28T02:27:14Z",
+      "updated_at": "2026-10-28T06:50:23Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -750,7 +750,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-06T07:01:53Z",
-      "updated_at": "2026-10-27T10:23:18Z",
+      "updated_at": "2026-10-28T06:53:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1300,7 +1300,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-10-28T02:51:32Z",
+      "updated_at": "2026-10-28T06:44:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1553,10 +1553,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-23T10:16:15Z",
-      "updated_at": "2026-10-28T04:50:48Z",
+      "updated_at": "2026-10-28T07:00:56Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1686,7 +1686,7 @@
       "updated_at": "2026-10-28T00:47:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1810,19 +1810,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-10-27T20:07:53Z",
-      "updated_at": "2026-10-28T00:56:23Z",
+      "updated_at": "2026-10-28T06:15:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -4580,29 +4582,6 @@
       "labels": []
     },
     {
-      "title": "fix: openshiftOAuth should error on non-openshift platform",
-      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2413",
-      "number": 2413,
-      "repo": "argoproj-labs/argocd-operator",
-      "author": {
-        "login": "anandrkskd",
-        "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
-      },
-      "created_at": "2026-10-21T10:23:34Z",
-      "updated_at": "2026-10-27T15:18:23Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "chore(deps): bump docker/login-action from 4.6.0 to 4.7.0",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/2414",
       "number": 2414,
@@ -4627,52 +4606,6 @@
         "dependencies",
         "github_actions"
       ]
-    },
-    {
-      "title": "chore(deps): bump argocd from 3.5.4 to 3.5.6 and image updater from 1.3.1 to 1.3.2",
-      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2415",
-      "number": 2415,
-      "repo": "argoproj-labs/argocd-operator",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-10-26T14:52:31Z",
-      "updated_at": "2026-10-26T18:51:09Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "Disable Dependabot configuration file",
-      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2416",
-      "number": 2416,
-      "repo": "argoproj-labs/argocd-operator",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-10-27T19:10:44Z",
-      "updated_at": "2026-10-27T19:18:35Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     },
     {
       "title": "fixes for Openshift deployment",
@@ -4824,7 +4757,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-30T06:06:06Z",
+    "since": "2026-07-30T07:04:51Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7526,8 +7459,40 @@
       },
       {
         "login": "svghadi",
-        "reviews": 81,
+        "reviews": 85,
         "prs": [
+          {
+            "title": "Disable Dependabot configuration file",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2416",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2416,
+            "author": "chengfang",
+            "engaged_at": "2026-10-28T07:02:04Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.4 to 3.5.6 and image updater from 1.3.1 to 1.3.2",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2415",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2415,
+            "author": "chengfang",
+            "engaged_at": "2026-10-28T06:59:08Z"
+          },
+          {
+            "title": "fix: openshiftOAuth should error on non-openshift platform",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2413",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2413,
+            "author": "anandrkskd",
+            "engaged_at": "2026-10-28T06:53:24Z"
+          },
+          {
+            "title": "chore: bump github.com/argoproj/argo-cd/v3 v3.4.4 -\u003e v3.4.12 to fix CVE-2026-55797",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1473",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1473,
+            "author": "dkarpele",
+            "engaged_at": "2026-10-28T06:15:27Z"
+          },
           {
             "title": "chore(deps): bump image-updater from 1.3.0 to 1.4.0 and argocd from 3.5.5 to 3.5.6",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1446",
