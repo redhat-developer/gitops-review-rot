@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T07:06:58.470312782Z",
+  "generated_at": "2026-10-28T08:07:43.575566189Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -408,7 +408,7 @@
       "updated_at": "2026-10-28T06:50:23Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1476,10 +1476,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-28T04:51:30Z",
+      "updated_at": "2026-10-28T07:13:25Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1553,10 +1553,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-23T10:16:15Z",
-      "updated_at": "2026-10-28T07:00:56Z",
+      "updated_at": "2026-10-28T07:06:44Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1708,15 +1708,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-10-27T21:12:18Z",
+      "updated_at": "2026-10-28T07:05:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 2,
       "labels": [
@@ -1760,17 +1760,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-10-27T20:07:01Z",
+      "updated_at": "2026-10-28T08:03:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement"
       ]
@@ -4666,15 +4666,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-26T09:29:33Z",
-      "updated_at": "2026-10-27T16:58:37Z",
+      "updated_at": "2026-10-28T07:10:06Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": []
@@ -4757,7 +4757,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-30T07:04:51Z",
+    "since": "2026-07-30T08:05:35Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -5767,7 +5767,7 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 108,
+        "reviews": 105,
         "prs": [
           {
             "title": "Go runtime auto-tuning GOMEMLIMIT/GOMAXPROCS for application-controller",
@@ -6608,30 +6608,6 @@
             "number": 1236,
             "author": "dependabot",
             "engaged_at": "2026-07-30T12:35:37Z"
-          },
-          {
-            "title": "Mark openshift \u0026 xKS e2e tests ",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1216",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1216,
-            "author": "anandrkskd",
-            "engaged_at": "2026-07-30T07:19:11Z"
-          },
-          {
-            "title": "Port kuttl 1-113 validate controller role test to Ginkgo",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1214",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1214,
-            "author": "Naveena-058",
-            "engaged_at": "2026-07-30T07:16:15Z"
-          },
-          {
-            "title": "feat(appset): Adding annotations on apps to force reconciliation before proceeding with progressive sync",
-            "url": "https://github.com/argoproj/argo-cd/pull/27467",
-            "repo": "argoproj/argo-cd",
-            "number": 27467,
-            "author": "ranakan19",
-            "engaged_at": "2026-07-30T07:12:37Z"
           }
         ]
       },
@@ -10949,8 +10925,16 @@
       },
       {
         "login": "akhilnittala",
-        "reviews": 12,
+        "reviews": 13,
         "prs": [
+          {
+            "title": "Go runtime auto-tuning GOMEMLIMIT/GOMAXPROCS for application-controller",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1468",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1468,
+            "author": "nmirasch",
+            "engaged_at": "2026-10-28T07:05:01Z"
+          },
           {
             "title": "chore(deps): bump image-updater from 1.3.0 to 1.4.0 and argocd from 3.5.5 to 3.5.6",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1446",
