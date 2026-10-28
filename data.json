@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T01:07:17.488847247Z",
+  "generated_at": "2026-10-28T02:07:59.570234022Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1323,7 +1323,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-10-28T00:59:42Z",
+      "updated_at": "2026-10-28T01:40:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1331,9 +1331,9 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 4,
       "labels": []
     },
     {
@@ -2565,6 +2565,29 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(e2e): wait for agents to connect before running tests",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1176",
+      "number": 1176,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-10-28T01:44:26Z",
+      "updated_at": "2026-10-28T01:56:01Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -4797,11 +4820,34 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-07-16T14:24:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-30T01:05:08Z",
+    "since": "2026-07-30T02:05:51Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10134,6 +10180,14 @@
         "reviews": 29,
         "prs": [
           {
+            "title": "GITOPS-11058 use argocd-redis secret by default",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1320",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1320,
+            "author": "nodari-dev",
+            "engaged_at": "2026-10-28T01:40:23Z"
+          },
+          {
             "title": "fix: grant serviceaccounts/token create for Dex TokenRequest",
             "url": "https://github.com/argoproj-labs/argocd-operator/pull/2412",
             "repo": "argoproj-labs/argocd-operator",
@@ -10148,14 +10202,6 @@
             "number": 29198,
             "author": "dkarpele",
             "engaged_at": "2026-10-22T15:41:14Z"
-          },
-          {
-            "title": "GITOPS-11058 use argocd-redis secret by default",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1320",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1320,
-            "author": "nodari-dev",
-            "engaged_at": "2026-10-21T09:33:19Z"
           },
           {
             "title": "chore: move some safe sequential E2E tests to parallel",
