@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T10:07:11.070300597Z",
+  "generated_at": "2026-10-28T11:07:48.615106144Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -368,32 +368,6 @@
       "labels": [
         "needs-ok-to-test",
         "needs-rebase"
-      ]
-    },
-    {
-      "title": "resolve CVE-2026-84445 for grpc-go",
-      "url": "https://github.com/redhat-developer/gitops-backend/pull/76",
-      "number": 76,
-      "repo": "redhat-developer/gitops-backend",
-      "author": {
-        "login": "alkakumari016",
-        "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
-      },
-      "created_at": "2026-10-28T08:55:37Z",
-      "updated_at": "2026-10-28T09:39:09Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "lgtm",
-        "approved"
       ]
     },
     {
@@ -1451,10 +1425,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-15T13:43:44Z",
-      "updated_at": "2026-10-28T04:50:48Z",
+      "updated_at": "2026-10-28T11:00:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1579,10 +1553,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-23T10:16:15Z",
-      "updated_at": "2026-10-28T08:27:59Z",
+      "updated_at": "2026-10-28T11:02:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1712,7 +1686,7 @@
       "updated_at": "2026-10-28T00:47:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1786,7 +1760,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-10-28T08:40:38Z",
+      "updated_at": "2026-10-28T10:48:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1796,7 +1770,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement"
       ]
@@ -1811,7 +1785,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-10-27T19:47:34Z",
-      "updated_at": "2026-10-28T09:23:15Z",
+      "updated_at": "2026-10-28T10:56:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1861,10 +1835,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-28T08:22:58Z",
-      "updated_at": "2026-10-28T08:23:12Z",
+      "updated_at": "2026-10-28T10:17:56Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2418,7 +2392,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3256083?u=3d1cd3c67ba5cd8280ba864f8b57f48ea3c9be29\u0026v=4"
       },
       "created_at": "2026-10-16T16:07:21Z",
-      "updated_at": "2026-10-28T09:55:03Z",
+      "updated_at": "2026-10-28T10:33:13Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4806,7 +4780,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-30T10:04:46Z",
+    "since": "2026-07-30T11:05:36Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7484,7 +7458,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 86,
+        "reviews": 85,
         "prs": [
           {
             "title": "resolve CVE-2026-84445 for grpc-go",
@@ -8165,14 +8139,6 @@
             "number": 1239,
             "author": "olivergondza",
             "engaged_at": "2026-07-31T05:19:22Z"
-          },
-          {
-            "title": "feat(gitops-console-plugin): Configure SSL protocol and ciphersuites for plugin component",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1224",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1224,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-30T10:50:40Z"
           }
         ]
       },
@@ -9596,7 +9562,7 @@
       },
       {
         "login": "keithchong",
-        "reviews": 37,
+        "reviews": 36,
         "prs": [
           {
             "title": "Add rollout deployment utility edge-case tests",
@@ -9637,14 +9603,6 @@
             "number": 301,
             "author": "trdoyle81",
             "engaged_at": "2026-10-05T19:04:28Z"
-          },
-          {
-            "title": "feat(ui): implement virtual scrolling for ApplicationSets list and tiles",
-            "url": "https://github.com/argoproj/argo-cd/pull/29941",
-            "repo": "argoproj/argo-cd",
-            "number": 29941,
-            "author": "aali309",
-            "engaged_at": "2026-10-02T20:11:27Z"
           },
           {
             "title": "fix(ui): reduce Applications virtual-scroll flicker on scroll (cherry-pick #29935 for 3.6)",
