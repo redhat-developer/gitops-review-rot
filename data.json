@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T17:06:32.826837169Z",
+  "generated_at": "2026-10-28T18:07:40.907259146Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1556,7 +1556,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-23T10:16:15Z",
-      "updated_at": "2026-10-28T14:00:31Z",
+      "updated_at": "2026-10-28T17:56:45Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1564,11 +1564,12 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement",
+        "lgtm",
         "approved"
       ]
     },
@@ -2539,7 +2540,7 @@
       "updated_at": "2026-10-27T20:47:26Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2562,7 +2563,7 @@
       "updated_at": "2026-10-28T16:12:58Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4760,12 +4761,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-30T17:04:22Z",
+    "since": "2026-07-30T18:05:14Z",
     "reviewers": [
       {
         "login": "chengfang",
         "reviews": 125,
         "prs": [
+          {
+            "title": "feat(tls): Configure Image Updater Curve Preferences",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1452",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1452,
+            "author": "akhilnittala",
+            "engaged_at": "2026-10-28T17:56:38Z"
+          },
           {
             "title": "chore: bump github.com/argoproj/argo-cd/v3 v3.3.14 -\u003e v3.3.18 to fix CVE-2026-55797",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1891",
@@ -4781,14 +4790,6 @@
             "number": 2388,
             "author": "dependabot",
             "engaged_at": "2026-10-27T19:42:33Z"
-          },
-          {
-            "title": "feat(tls): Configure Image Updater Curve Preferences",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1452",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1452,
-            "author": "akhilnittala",
-            "engaged_at": "2026-10-26T19:25:56Z"
           },
           {
             "title": "chore: fix new unnecessary gosec warnings",
