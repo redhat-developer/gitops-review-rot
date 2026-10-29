@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T10:07:02.300410957Z",
+  "generated_at": "2026-10-29T11:06:37.086975726Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1480,10 +1480,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-29T09:18:53Z",
+      "updated_at": "2026-10-29T10:37:02Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1801,6 +1801,31 @@
       "unresolved_conversations": 0,
       "labels": [
         "kind/bug"
+      ]
+    },
+    {
+      "title": "chore: Move all the docs to the `docs/`",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1475",
+      "number": 1475,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-10-29T10:48:11Z",
+      "updated_at": "2026-10-29T10:54:31Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/documentation"
       ]
     },
     {
@@ -4710,7 +4735,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-31T10:04:57Z",
+    "since": "2026-07-31T11:04:18Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7380,7 +7405,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 88,
+        "reviews": 87,
         "prs": [
           {
             "title": "feat(tls): configure curve preferences for argocd agent",
@@ -8077,14 +8102,6 @@
             "number": 1242,
             "author": "akhilnittala",
             "engaged_at": "2026-08-02T13:47:52Z"
-          },
-          {
-            "title": "Revert fix: Make Renewal Token Expiry Feature Configurable",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1243",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1243,
-            "author": "akhilnittala",
-            "engaged_at": "2026-07-31T10:23:43Z"
           }
         ]
       },
