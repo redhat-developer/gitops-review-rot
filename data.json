@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T14:07:18.258333938Z",
+  "generated_at": "2026-10-29T15:07:19.217672745Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1302,7 +1302,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-10-29T11:56:15Z",
+      "updated_at": "2026-10-29T14:33:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1310,9 +1310,9 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 7,
       "labels": []
     },
     {
@@ -1713,10 +1713,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-10-29T14:03:05Z",
+      "updated_at": "2026-10-29T14:31:51Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1725,8 +1725,7 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/enhancement",
-        "needs-rebase"
+        "kind/enhancement"
       ]
     },
     {
@@ -4732,12 +4731,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-31T14:04:55Z",
+    "since": "2026-07-31T15:05:01Z",
     "reviewers": [
       {
         "login": "chengfang",
         "reviews": 125,
         "prs": [
+          {
+            "title": "feat: add default CA bundle for clusters (#29170)",
+            "url": "https://github.com/argoproj/argo-cd/pull/29303",
+            "repo": "argoproj/argo-cd",
+            "number": 29303,
+            "author": "KHARSHAVARDHAN-eng",
+            "engaged_at": "2026-10-29T14:33:12Z"
+          },
           {
             "title": "feat(tls): Configure Image Updater Curve Preferences",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1452",
@@ -4777,14 +4784,6 @@
             "number": 1394,
             "author": "ranakan19",
             "engaged_at": "2026-10-23T01:38:52Z"
-          },
-          {
-            "title": "feat: add default CA bundle for clusters (#29170)",
-            "url": "https://github.com/argoproj/argo-cd/pull/29303",
-            "repo": "argoproj/argo-cd",
-            "number": 29303,
-            "author": "KHARSHAVARDHAN-eng",
-            "engaged_at": "2026-10-22T20:15:35Z"
           },
           {
             "title": "chore(deps): bump github.com/argoproj/argo-cd/v3 from 3.5.2 to 3.5.5",
@@ -6575,6 +6574,14 @@
         "reviews": 103,
         "prs": [
           {
+            "title": "GITOPS-11058 use argocd-redis secret by default",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1320",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1320,
+            "author": "nodari-dev",
+            "engaged_at": "2026-10-29T14:27:47Z"
+          },
+          {
             "title": "Go runtime auto-tuning GOMEMLIMIT/GOMAXPROCS for application-controller",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1468",
             "repo": "redhat-developer/gitops-operator",
@@ -6893,14 +6900,6 @@
             "number": 1328,
             "author": "anandrkskd",
             "engaged_at": "2026-10-07T12:56:32Z"
-          },
-          {
-            "title": "GITOPS-11058 use argocd-redis secret by default",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1320",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1320,
-            "author": "nodari-dev",
-            "engaged_at": "2026-10-07T11:03:29Z"
           },
           {
             "title": "Docs: Update migration guide",
@@ -9164,7 +9163,7 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 45,
+        "reviews": 44,
         "prs": [
           {
             "title": "fix: grant serviceaccounts/token create for Dex TokenRequest",
@@ -9517,14 +9516,6 @@
             "number": 1746,
             "author": "chengfang",
             "engaged_at": "2026-08-01T08:56:41Z"
-          },
-          {
-            "title": "feat(plugin): support applications of type plugin and plugin env variables",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1741",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1741,
-            "author": "chengfang",
-            "engaged_at": "2026-07-31T14:31:35Z"
           }
         ]
       },
