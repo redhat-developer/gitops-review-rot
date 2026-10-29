@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T00:10:43.527069722Z",
+  "generated_at": "2026-10-29T01:07:03.80024955Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -635,7 +635,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:24:25Z",
-      "updated_at": "2026-10-28T02:32:20Z",
+      "updated_at": "2026-10-29T01:03:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1712,10 +1712,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-10-28T18:36:40Z",
+      "updated_at": "2026-10-29T00:41:59Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -4711,7 +4711,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-31T00:08:34Z",
+    "since": "2026-07-31T01:05:03Z",
     "reviewers": [
       {
         "login": "chengfang",
