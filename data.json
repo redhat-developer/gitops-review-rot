@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T07:06:45.292965177Z",
+  "generated_at": "2026-10-29T08:07:55.224594729Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1427,7 +1427,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-15T13:43:44Z",
-      "updated_at": "2026-10-29T06:58:12Z",
+      "updated_at": "2026-10-29T07:34:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1478,10 +1478,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-28T11:16:47Z",
+      "updated_at": "2026-10-29T07:07:08Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1543,33 +1543,6 @@
         "ok-to-test",
         "dependencies",
         "go"
-      ]
-    },
-    {
-      "title": "feat(tls): Configure Image Updater Curve Preferences",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1452",
-      "number": 1452,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "akhilnittala",
-        "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
-      },
-      "created_at": "2026-10-23T10:16:15Z",
-      "updated_at": "2026-10-29T06:58:58Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/enhancement",
-        "lgtm",
-        "approved"
       ]
     },
     {
@@ -1686,19 +1659,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-10-26T15:10:24Z",
-      "updated_at": "2026-10-28T00:47:24Z",
+      "updated_at": "2026-10-29T07:36:47Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -2489,7 +2464,7 @@
       "updated_at": "2026-10-29T06:20:46Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4733,7 +4708,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-31T07:04:44Z",
+    "since": "2026-07-31T08:05:55Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7411,8 +7386,16 @@
       },
       {
         "login": "svghadi",
-        "reviews": 86,
+        "reviews": 87,
         "prs": [
+          {
+            "title": "chore(deps): bump argocd from 3.5.5 to 3.5.6 and image updater from 1.3.1 to 1.3.2",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1467",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1467,
+            "author": "chengfang",
+            "engaged_at": "2026-10-29T07:36:39Z"
+          },
           {
             "title": "fix: fix namespaceSelectors of the NetworkPolicies argocd components",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1318",
