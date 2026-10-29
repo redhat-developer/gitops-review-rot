@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T12:08:08.097292202Z",
+  "generated_at": "2026-10-29T13:07:01.397452722Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1249,7 +1249,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-10-29T09:31:02Z",
+      "updated_at": "2026-10-29T12:13:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1480,10 +1480,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-29T10:37:02Z",
+      "updated_at": "2026-10-29T12:37:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1505,7 +1505,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-10-21T12:58:35Z",
-      "updated_at": "2026-10-29T12:03:33Z",
+      "updated_at": "2026-10-29T12:29:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1636,10 +1636,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-26T15:02:41Z",
-      "updated_at": "2026-10-27T19:36:37Z",
+      "updated_at": "2026-10-29T12:15:46Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1813,10 +1813,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-29T10:48:11Z",
-      "updated_at": "2026-10-29T11:14:49Z",
+      "updated_at": "2026-10-29T12:54:30Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2537,7 +2537,7 @@
       "updated_at": "2026-10-28T19:40:58Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2545,6 +2545,29 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 2,
+      "labels": []
+    },
+    {
+      "title": "ci(e2e): pin goreman and use the go.mod toolchain in the e2e job",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1177",
+      "number": 1177,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-10-29T12:35:42Z",
+      "updated_at": "2026-10-29T12:51:02Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -4099,7 +4122,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/315658242?v=4"
       },
       "created_at": "2026-09-08T15:42:46Z",
-      "updated_at": "2026-10-28T14:53:09Z",
+      "updated_at": "2026-10-29T12:27:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4708,11 +4731,34 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-07-16T14:24:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-31T12:05:43Z",
+    "since": "2026-07-31T13:04:43Z",
     "reviewers": [
       {
         "login": "chengfang",
