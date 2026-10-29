@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T05:07:22.470535531Z",
+  "generated_at": "2026-10-29T06:08:21.980057897Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1224,19 +1224,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-06T05:25:51Z",
-      "updated_at": "2026-10-29T03:52:18Z",
+      "updated_at": "2026-10-29T06:02:19Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 4,
         "approved_count": 3,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": [
-        "lgtm",
         "approved"
       ]
     },
@@ -1764,10 +1763,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-10-28T22:01:26Z",
+      "updated_at": "2026-10-29T05:06:27Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1812,7 +1811,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-28T08:22:58Z",
-      "updated_at": "2026-10-29T03:35:52Z",
+      "updated_at": "2026-10-29T05:57:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1820,7 +1819,7 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -3617,6 +3616,29 @@
       "labels": []
     },
     {
+      "title": "feat(git): skip no-op git write-backs before cloning",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1892",
+      "number": 1892,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "lot-koichi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211904098?v=4"
+      },
+      "created_at": "2026-10-29T05:40:52Z",
+      "updated_at": "2026-10-29T05:46:06Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -4711,7 +4733,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-31T05:05:12Z",
+    "since": "2026-07-31T06:06:23Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7389,7 +7411,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 87,
+        "reviews": 86,
         "prs": [
           {
             "title": "fix: fix namespaceSelectors of the NetworkPolicies argocd components",
@@ -8078,14 +8100,6 @@
             "number": 1243,
             "author": "akhilnittala",
             "engaged_at": "2026-07-31T10:23:43Z"
-          },
-          {
-            "title": "feat: Migrate from manifest v0 to v1 format",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1239",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1239,
-            "author": "olivergondza",
-            "engaged_at": "2026-07-31T05:19:22Z"
           }
         ]
       },
