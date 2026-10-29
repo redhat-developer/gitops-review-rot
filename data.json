@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T13:07:01.397452722Z",
+  "generated_at": "2026-10-29T14:07:18.258333938Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1418,33 +1418,6 @@
       ]
     },
     {
-      "title": "feat(tls): configure curve preferences for argocd agent",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1424",
-      "number": 1424,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "akhilnittala",
-        "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
-      },
-      "created_at": "2026-10-15T13:43:44Z",
-      "updated_at": "2026-10-29T09:59:52Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "kind/enhancement",
-        "lgtm",
-        "approved"
-      ]
-    },
-    {
       "title": "feat(e2e): add an upgrade test for a configured installation",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1440",
       "number": 1440,
@@ -1505,10 +1478,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-10-21T12:58:35Z",
-      "updated_at": "2026-10-29T12:29:55Z",
+      "updated_at": "2026-10-29T13:47:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1688,7 +1661,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-10-29T09:44:30Z",
+      "updated_at": "2026-10-29T13:17:02Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1740,7 +1713,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-10-29T11:38:28Z",
+      "updated_at": "2026-10-29T14:03:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1752,7 +1725,8 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "needs-rebase"
       ]
     },
     {
@@ -2560,7 +2534,7 @@
       "updated_at": "2026-10-29T12:51:02Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4758,7 +4732,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-31T13:04:43Z",
+    "since": "2026-07-31T14:04:55Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10808,7 +10782,7 @@
       },
       {
         "login": "jparsai",
-        "reviews": 14,
+        "reviews": 13,
         "prs": [
           {
             "title": "chore: switch to gcr.io-hosted redis",
@@ -10913,14 +10887,6 @@
             "number": 2308,
             "author": "chetan-rns",
             "engaged_at": "2026-08-03T13:32:17Z"
-          },
-          {
-            "title": "feat: translate AppProject roles in autonomous agent mode",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1041",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1041,
-            "author": "jgwest",
-            "engaged_at": "2026-07-31T13:16:53Z"
           }
         ]
       },
