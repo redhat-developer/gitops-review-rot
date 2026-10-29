@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T20:07:40.877748122Z",
+  "generated_at": "2026-10-29T21:06:23.484400023Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1302,7 +1302,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-10-29T14:33:05Z",
+      "updated_at": "2026-10-29T20:17:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1713,10 +1713,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-10-29T17:53:33Z",
+      "updated_at": "2026-10-29T20:24:54Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1727,29 +1727,6 @@
       "labels": [
         "kind/enhancement"
       ]
-    },
-    {
-      "title": "chore(deps): bump github.com/argoproj/argo-cd/v3 v3.3.12 -\u003e v3.3.18 to fix CVE-2026-55797",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1472",
-      "number": 1472,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dkarpele",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
-      },
-      "created_at": "2026-10-27T19:47:34Z",
-      "updated_at": "2026-10-28T20:48:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     },
     {
       "title": "update argocd-operator dependency (1.22)",
@@ -1802,33 +1779,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump github.com/argoproj-labs/argo-rollouts-manager in /",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1476",
-      "number": 1476,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-29T19:14:22Z",
-      "updated_at": "2026-10-29T19:17:15Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "chore(deps): bump github.com/cert-manager/cert-manager in /",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1477",
       "number": 1477,
@@ -1838,19 +1788,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-29T19:14:32Z",
-      "updated_at": "2026-10-29T19:17:20Z",
+      "updated_at": "2026-10-29T20:33:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "go"
       ]
@@ -1865,19 +1815,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-29T19:14:47Z",
-      "updated_at": "2026-10-29T19:18:06Z",
+      "updated_at": "2026-10-29T20:34:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "go"
       ]
@@ -1910,33 +1860,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring from 0.74.0 to 0.94.2",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1480",
-      "number": 1480,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-29T19:15:21Z",
-      "updated_at": "2026-10-29T19:15:35Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "chore(deps): bump github.com/cert-manager/cert-manager from 1.21.2 to 1.21.3",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1481",
       "number": 1481,
@@ -1946,46 +1869,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-29T19:15:29Z",
-      "updated_at": "2026-10-29T19:15:43Z",
+      "updated_at": "2026-10-29T20:33:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
-      "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring from 0.73.2 to 0.94.2",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1482",
-      "number": 1482,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-29T19:15:40Z",
-      "updated_at": "2026-10-29T19:15:53Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "go"
       ]
@@ -4829,17 +4725,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-26T09:29:33Z",
-      "updated_at": "2026-10-29T19:18:14Z",
+      "updated_at": "2026-10-29T20:25:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 18,
       "labels": []
     },
     {
@@ -4852,7 +4748,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-29T18:20:14Z",
-      "updated_at": "2026-10-29T18:47:55Z",
+      "updated_at": "2026-10-29T20:38:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4862,7 +4758,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -4943,7 +4839,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-31T20:05:33Z",
+    "since": "2026-07-31T21:04:19Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -5953,8 +5849,40 @@
       },
       {
         "login": "jgwest",
-        "reviews": 103,
+        "reviews": 107,
         "prs": [
+          {
+            "title": "chore(deps): bump github.com/operator-framework/api in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1478",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1478,
+            "author": "dependabot",
+            "engaged_at": "2026-10-29T20:34:16Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/cert-manager/cert-manager in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1477",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1477,
+            "author": "dependabot",
+            "engaged_at": "2026-10-29T20:33:43Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/cert-manager/cert-manager from 1.21.2 to 1.21.3",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1481",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1481,
+            "author": "dependabot",
+            "engaged_at": "2026-10-29T20:33:12Z"
+          },
+          {
+            "title": "feat: missing Image-pull-secret propagation to rollouts-manager instances",
+            "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/150",
+            "repo": "argoproj-labs/argo-rollouts-manager",
+            "number": 150,
+            "author": "anandrkskd",
+            "engaged_at": "2026-10-29T20:25:26Z"
+          },
           {
             "title": "chore(deps): bump github.com/argoproj/argo-cd/v3 v3.3.12 -\u003e v3.3.18 to fix CVE-2026-55797",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1472",
