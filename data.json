@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T15:07:19.217672745Z",
+  "generated_at": "2026-10-29T16:07:29.23338568Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1224,7 +1224,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-06T05:25:51Z",
-      "updated_at": "2026-10-29T11:28:40Z",
+      "updated_at": "2026-10-29T15:19:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1661,7 +1661,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-10-29T13:17:02Z",
+      "updated_at": "2026-10-29T15:27:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1713,10 +1713,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-10-29T14:31:51Z",
+      "updated_at": "2026-10-29T15:54:53Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -4731,7 +4731,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-31T15:05:01Z",
+    "since": "2026-07-31T16:05:18Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8765,8 +8765,16 @@
       },
       {
         "login": "ranakan19",
-        "reviews": 49,
+        "reviews": 50,
         "prs": [
+          {
+            "title": "feat(syncPolicy): Allow to define prune by default for manual sync applications.",
+            "url": "https://github.com/argoproj/argo-cd/pull/30028",
+            "repo": "argoproj/argo-cd",
+            "number": 30028,
+            "author": "akhilnittala",
+            "engaged_at": "2026-10-29T15:56:23Z"
+          },
           {
             "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.45.3",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1451",
@@ -10061,7 +10069,7 @@
       },
       {
         "login": "anandf",
-        "reviews": 29,
+        "reviews": 28,
         "prs": [
           {
             "title": "GITOPS-11058 use argocd-redis secret by default",
@@ -10286,14 +10294,6 @@
             "number": 28921,
             "author": "sarfarazgit",
             "engaged_at": "2026-08-18T10:38:13Z"
-          },
-          {
-            "title": "fix: prevent disallowed NamespaceManagement from breaking OpenShift  GitOps login",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2296",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2296,
-            "author": "aali309",
-            "engaged_at": "2026-07-31T15:12:15Z"
           }
         ]
       },
