@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T14:07:07.262737667Z",
+  "generated_at": "2026-10-30T15:07:41.846123228Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1503,10 +1503,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-22T19:14:42Z",
-      "updated_at": "2026-10-30T03:25:34Z",
+      "updated_at": "2026-10-30T15:00:55Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1797,33 +1797,6 @@
         "count": 1,
         "approved_count": 0,
         "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
-      "title": "chore(deps): bump github.com/cert-manager/cert-manager from 1.21.2 to 1.21.3",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1481",
-      "number": 1481,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-29T19:15:29Z",
-      "updated_at": "2026-10-30T03:14:12Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -2545,7 +2518,7 @@
       "updated_at": "2026-10-30T13:24:51Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4770,7 +4743,7 @@
       "updated_at": "2026-10-29T21:27:13Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4858,7 +4831,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-01T14:04:59Z",
+    "since": "2026-08-01T15:04:50Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -5871,6 +5844,14 @@
         "reviews": 107,
         "prs": [
           {
+            "title": "chore(deps): bump github.com/cert-manager/cert-manager from 1.21.2 to 1.21.3",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1481",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1481,
+            "author": "dependabot",
+            "engaged_at": "2026-10-30T14:21:46Z"
+          },
+          {
             "title": "chore(deps): bump github.com/operator-framework/api in /",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1478",
             "repo": "redhat-developer/gitops-operator",
@@ -5885,14 +5866,6 @@
             "number": 1477,
             "author": "dependabot",
             "engaged_at": "2026-10-29T20:33:43Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/cert-manager/cert-manager from 1.21.2 to 1.21.3",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1481",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1481,
-            "author": "dependabot",
-            "engaged_at": "2026-10-29T20:33:12Z"
           },
           {
             "title": "feat: missing Image-pull-secret propagation to rollouts-manager instances",
