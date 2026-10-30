@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T11:05:34.340009453Z",
+  "generated_at": "2026-10-30T12:07:56.885592261Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1842,7 +1842,32 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-30T05:40:59Z",
-      "updated_at": "2026-10-30T06:27:12Z",
+      "updated_at": "2026-10-30T11:55:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/enhancement"
+      ]
+    },
+    {
+      "title": "Test sequential unify divergent",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1484",
+      "number": 1484,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-10-30T11:25:21Z",
+      "updated_at": "2026-10-30T11:29:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1852,7 +1877,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": [
         "kind/enhancement"
       ]
@@ -4833,7 +4858,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-01T11:03:29Z",
+    "since": "2026-08-01T12:05:40Z",
     "reviewers": [
       {
         "login": "chengfang",
