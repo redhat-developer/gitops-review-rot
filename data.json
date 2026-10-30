@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T05:07:51.306404584Z",
+  "generated_at": "2026-10-30T06:08:05.13268693Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1830,6 +1830,31 @@
         "ok-to-test",
         "dependencies",
         "go"
+      ]
+    },
+    {
+      "title": "feat: support custom labels in self-registration cluster secret",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1483",
+      "number": 1483,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "jparsai",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
+      },
+      "created_at": "2026-10-30T05:40:59Z",
+      "updated_at": "2026-10-30T05:58:44Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "kind/enhancement"
       ]
     },
     {
@@ -4785,7 +4810,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-01T05:05:40Z",
+    "since": "2026-08-01T06:05:59Z",
     "reviewers": [
       {
         "login": "chengfang",
