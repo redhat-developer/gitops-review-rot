@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T01:09:11.374810896Z",
+  "generated_at": "2026-10-30T02:07:32.8726504Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2583,29 +2583,6 @@
       "labels": []
     },
     {
-      "title": "fix(e2e): wait for agents to connect before running tests",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1176",
-      "number": 1176,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "Gabrielandre02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
-      },
-      "created_at": "2026-10-28T01:44:26Z",
-      "updated_at": "2026-10-28T19:40:58Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 2,
-      "labels": []
-    },
-    {
       "title": "ci(e2e): pin goreman and use the go.mod toolchain in the e2e job",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1177",
       "number": 1177,
@@ -4839,7 +4816,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-01T01:07:02Z",
+    "since": "2026-08-01T02:05:23Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8246,20 +8223,20 @@
         "reviews": 82,
         "prs": [
           {
+            "title": "fix(e2e): wait for agents to connect before running tests",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1176",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1176,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-10-30T01:24:37Z"
+          },
+          {
             "title": "fix: stop leaking redis subscription goroutines in agent and principal",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1173",
             "repo": "argoproj-labs/argocd-agent",
             "number": 1173,
             "author": "Gabrielandre02",
             "engaged_at": "2026-10-28T18:36:29Z"
-          },
-          {
-            "title": "fix(e2e): wait for agents to connect before running tests",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1176",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1176,
-            "author": "Gabrielandre02",
-            "engaged_at": "2026-10-28T15:58:55Z"
           },
           {
             "title": "feat(helm/agent): add rbac.extraRules and rbac.extraClusterRules",
