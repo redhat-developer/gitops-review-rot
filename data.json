@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T18:07:30.897024002Z",
+  "generated_at": "2026-11-02T19:06:18.67614074Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1325,10 +1325,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-02T14:35:40Z",
+      "updated_at": "2026-11-02T18:51:45Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1734,7 +1734,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-28T08:22:58Z",
-      "updated_at": "2026-11-02T16:28:10Z",
+      "updated_at": "2026-11-02T18:11:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1931,6 +1931,31 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "fix: gitops backend fix for ciphers to convert openssl ciphers to IANA names",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1490",
+      "number": 1490,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "akhilnittala",
+        "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
+      },
+      "created_at": "2026-11-02T18:13:36Z",
+      "updated_at": "2026-11-02T18:13:49Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/bug"
+      ]
     },
     {
       "title": "feat: Add helm charts for principal",
@@ -3849,7 +3874,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/61029571?u=ac73157d4fb6896fbdef9f5e213560c7cc7e0c0b\u0026v=4"
       },
       "created_at": "2026-11-02T03:12:40Z",
-      "updated_at": "2026-11-02T17:28:56Z",
+      "updated_at": "2026-11-02T18:53:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3859,7 +3884,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -5003,11 +5028,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-04T18:05:05Z",
+    "since": "2026-08-04T19:04:07Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 120,
+        "reviews": 119,
         "prs": [
           {
             "title": "chore(deps): bump github.com/bmatcuk/doublestar/v4 in /",
@@ -5960,14 +5985,6 @@
             "number": 2315,
             "author": "AruneshDwivedi",
             "engaged_at": "2026-08-05T15:50:12Z"
-          },
-          {
-            "title": "feat: option to compare against one registry, pull from another",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1644",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1644,
-            "author": "gugu",
-            "engaged_at": "2026-08-04T18:42:28Z"
           }
         ]
       },
