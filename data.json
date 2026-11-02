@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T02:07:40.137968122Z",
+  "generated_at": "2026-11-02T03:06:47.256934494Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -4903,11 +4903,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-04T02:05:32Z",
+    "since": "2026-08-04T03:04:41Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 124,
+        "reviews": 123,
         "prs": [
           {
             "title": "chore(deps): bump github.com/bmatcuk/doublestar/v4 in /",
@@ -5892,14 +5892,6 @@
             "number": 2318,
             "author": "aali309",
             "engaged_at": "2026-08-04T14:36:12Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/go-git/go-git/v5 from 5.14.0 to 5.19.2",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1750",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1750,
-            "author": "dependabot",
-            "engaged_at": "2026-08-04T02:53:03Z"
           }
         ]
       },
@@ -8937,8 +8929,16 @@
       },
       {
         "login": "ranakan19",
-        "reviews": 50,
+        "reviews": 51,
         "prs": [
+          {
+            "title": "chore(deps): bump slack-go to v0.23.1 and golang.org/x/net to v0.53.0 (cherry-pick #28377 for 3.5)",
+            "url": "https://github.com/argoproj/argo-cd/pull/30696",
+            "repo": "argoproj/argo-cd",
+            "number": 30696,
+            "author": "argo-cd-cherry-pick-bot",
+            "engaged_at": "2026-11-02T02:47:19Z"
+          },
           {
             "title": "feat(syncPolicy): Allow to define prune by default for manual sync applications.",
             "url": "https://github.com/argoproj/argo-cd/pull/30028",
