@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T11:07:43.734351885Z",
+  "generated_at": "2026-11-02T12:08:56.965282829Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1224,10 +1224,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-06T05:25:51Z",
-      "updated_at": "2026-11-02T05:22:57Z",
+      "updated_at": "2026-11-02T11:26:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 4,
@@ -1249,10 +1249,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-11-02T05:22:34Z",
+      "updated_at": "2026-11-02T11:31:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 3,
@@ -1302,15 +1302,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-02T10:42:05Z",
+      "updated_at": "2026-11-02T11:04:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
+        "approved_count": 1,
+        "has_new_commits": false
       },
       "unresolved_conversations": 7,
       "labels": []
@@ -1453,10 +1453,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-10-30T13:26:27Z",
+      "updated_at": "2026-11-02T11:27:31Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1711,10 +1711,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-28T08:22:58Z",
-      "updated_at": "2026-11-02T10:48:05Z",
+      "updated_at": "2026-11-02T11:10:02Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1919,10 +1919,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-02T10:22:03Z",
-      "updated_at": "2026-11-02T10:23:15Z",
+      "updated_at": "2026-11-02T11:09:05Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2531,15 +2531,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-10-21T15:42:52Z",
-      "updated_at": "2026-10-28T19:53:10Z",
+      "updated_at": "2026-11-02T11:23:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": []
@@ -5634,7 +5634,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/81048645?v=4"
       },
       "created_at": "2026-08-27T12:38:45Z",
-      "updated_at": "2026-11-02T10:13:32Z",
+      "updated_at": "2026-11-02T11:16:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5644,7 +5644,7 @@
         "approved_count": 2,
         "has_new_commits": true
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 3,
       "labels": []
     },
     {
@@ -5742,7 +5742,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-04T11:05:27Z",
+    "since": "2026-08-04T12:06:47Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -11278,8 +11278,16 @@
       },
       {
         "login": "chetan-rns",
-        "reviews": 26,
+        "reviews": 27,
         "prs": [
+          {
+            "title": "chore: Add Route/FRP-based Reverse Tunnel",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1162",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1162,
+            "author": "jgwest",
+            "engaged_at": "2026-11-02T11:23:26Z"
+          },
           {
             "title": "ci(e2e): pin goreman and use the go.mod toolchain in the e2e job",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1177",
