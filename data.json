@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T13:06:57.139453372Z",
+  "generated_at": "2026-11-02T14:07:30.880549925Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1302,15 +1302,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-02T11:04:53Z",
+      "updated_at": "2026-11-02T13:42:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
+        "approved_count": 0,
+        "has_new_commits": true
       },
       "unresolved_conversations": 7,
       "labels": []
@@ -1453,10 +1453,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-11-02T11:27:31Z",
+      "updated_at": "2026-11-02T13:41:06Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1488,7 +1488,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 6,
+      "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
       ]
@@ -1919,10 +1919,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-02T10:22:03Z",
-      "updated_at": "2026-11-02T11:09:05Z",
+      "updated_at": "2026-11-02T13:39:13Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5011,7 +5011,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-04T13:04:24Z",
+    "since": "2026-08-04T14:05:08Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10304,20 +10304,20 @@
         "reviews": 29,
         "prs": [
           {
-            "title": "GITOPS-11058 use argocd-redis secret by default",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1320",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1320,
-            "author": "nodari-dev",
-            "engaged_at": "2026-11-02T11:04:53Z"
-          },
-          {
             "title": "feat(syncPolicy): Allow to define prune by default for manual sync applications.",
             "url": "https://github.com/argoproj/argo-cd/pull/30028",
             "repo": "argoproj/argo-cd",
             "number": 30028,
             "author": "akhilnittala",
             "engaged_at": "2026-10-31T08:15:36Z"
+          },
+          {
+            "title": "GITOPS-11058 use argocd-redis secret by default",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1320",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1320,
+            "author": "nodari-dev",
+            "engaged_at": "2026-10-28T01:40:23Z"
           },
           {
             "title": "fix: grant serviceaccounts/token create for Dex TokenRequest",
