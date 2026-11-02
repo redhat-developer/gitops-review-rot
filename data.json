@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T00:10:55.369413148Z",
+  "generated_at": "2026-11-02T01:06:59.978816161Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -3327,7 +3327,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/49167464?u=0dbfe4a1a44deac52509d986b43620c7b4698202\u0026v=4"
       },
       "created_at": "2026-02-09T10:03:14Z",
-      "updated_at": "2026-08-12T02:21:20Z",
+      "updated_at": "2026-11-02T01:00:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3761,162 +3761,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "chore(deps): bump github/codeql-action from 4.38.3 to 4.39.1",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1898",
-      "number": 1898,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-01T14:34:20Z",
-      "updated_at": "2026-11-01T14:34:29Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "github_actions"
-      ]
-    },
-    {
-      "title": "chore(deps): bump github.com/bmatcuk/doublestar/v4 in /",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1899",
-      "number": 1899,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-01T14:38:40Z",
-      "updated_at": "2026-11-01T14:38:48Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
-    },
-    {
-      "title": "chore(deps): bump github.com/onsi/ginkgo/v2 in /",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1900",
-      "number": 1900,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-01T14:38:50Z",
-      "updated_at": "2026-11-01T14:38:58Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
-    },
-    {
-      "title": "chore(deps): bump google.golang.org/grpc in /",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1901",
-      "number": 1901,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-01T14:39:05Z",
-      "updated_at": "2026-11-01T14:39:13Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
-    },
-    {
-      "title": "chore(deps): bump sigs.k8s.io/controller-runtime in /",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1902",
-      "number": 1902,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-01T14:39:13Z",
-      "updated_at": "2026-11-01T14:39:23Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
-    },
-    {
-      "title": "chore(deps): bump sigs.k8s.io/kustomize/api in /",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1903",
-      "number": 1903,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-01T14:39:19Z",
-      "updated_at": "2026-11-01T14:39:27Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
     },
     {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
@@ -5790,12 +5634,60 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-04T00:08:54Z",
+    "since": "2026-08-04T01:04:58Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 118,
+        "reviews": 124,
         "prs": [
+          {
+            "title": "chore(deps): bump github.com/bmatcuk/doublestar/v4 in /",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1899",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1899,
+            "author": "dependabot",
+            "engaged_at": "2026-11-02T00:57:31Z"
+          },
+          {
+            "title": "chore(deps): bump sigs.k8s.io/controller-runtime in /",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1902",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1902,
+            "author": "dependabot",
+            "engaged_at": "2026-11-02T00:32:29Z"
+          },
+          {
+            "title": "chore(deps): bump sigs.k8s.io/kustomize/api in /",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1903",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1903,
+            "author": "dependabot",
+            "engaged_at": "2026-11-02T00:28:05Z"
+          },
+          {
+            "title": "chore(deps): bump google.golang.org/grpc in /",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1901",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1901,
+            "author": "dependabot",
+            "engaged_at": "2026-11-02T00:23:28Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/onsi/ginkgo/v2 in /",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1900",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1900,
+            "author": "dependabot",
+            "engaged_at": "2026-11-02T00:15:17Z"
+          },
+          {
+            "title": "chore(deps): bump github/codeql-action from 4.38.3 to 4.39.1",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1898",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1898,
+            "author": "dependabot",
+            "engaged_at": "2026-11-02T00:10:19Z"
+          },
           {
             "title": "chore: bump github.com/argoproj/argo-cd/v3 v3.4.8 -\u003e v3.4.12 to fix CVE-2026-55797",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1895",
@@ -6744,7 +6636,7 @@
       },
       {
         "login": "jgwest",
-        "reviews": 107,
+        "reviews": 105,
         "prs": [
           {
             "title": "chore(deps): bump github.com/cert-manager/cert-manager from 1.21.2 to 1.21.3",
@@ -7585,22 +7477,6 @@
             "number": 2319,
             "author": "chengfang",
             "engaged_at": "2026-08-06T04:37:11Z"
-          },
-          {
-            "title": "test(e2e): add e2e test to verify destination based mapping",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1241",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1241,
-            "author": "chetan-rns",
-            "engaged_at": "2026-08-04T01:00:24Z"
-          },
-          {
-            "title": "test(e2e): add e2e test to verify destination based mapping",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2308",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2308,
-            "author": "chetan-rns",
-            "engaged_at": "2026-08-04T00:57:39Z"
           }
         ]
       },
