@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T07:07:43.731097913Z",
+  "generated_at": "2026-11-02T08:08:30.473363237Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1711,7 +1711,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-28T08:22:58Z",
-      "updated_at": "2026-11-01T20:44:59Z",
+      "updated_at": "2026-11-02T07:55:57Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1724,31 +1724,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "kind/bug"
-      ]
-    },
-    {
-      "title": "chore: Move all the docs to the `docs/`",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1475",
-      "number": 1475,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "olivergondza",
-        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
-      },
-      "created_at": "2026-10-29T10:48:11Z",
-      "updated_at": "2026-10-29T17:33:34Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/documentation"
       ]
     },
     {
@@ -1878,6 +1853,60 @@
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement"
+      ]
+    },
+    {
+      "title": "chore(deps): bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1486",
+      "number": 1486,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-02T07:27:00Z",
+      "updated_at": "2026-11-02T07:28:40Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "chore(deps): bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6 in /argocd-operator",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1487",
+      "number": 1487,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-02T07:27:19Z",
+      "updated_at": "2026-11-02T07:29:11Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
       ]
     },
     {
@@ -2494,10 +2523,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/77117188?u=dd64c06a3f2a41a882a389abb1a32ccbe57f5ab6\u0026v=4"
       },
       "created_at": "2026-10-24T06:19:21Z",
-      "updated_at": "2026-10-28T09:47:43Z",
+      "updated_at": "2026-11-02T07:14:27Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4951,7 +4980,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-04T07:05:30Z",
+    "since": "2026-08-04T08:06:11Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -5945,8 +5974,16 @@
       },
       {
         "login": "jgwest",
-        "reviews": 105,
+        "reviews": 106,
         "prs": [
+          {
+            "title": "chore: Move all the docs to the `docs/`",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1475",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1475,
+            "author": "olivergondza",
+            "engaged_at": "2026-11-02T07:24:43Z"
+          },
           {
             "title": "chore(deps): bump github.com/cert-manager/cert-manager from 1.21.2 to 1.21.3",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1481",
