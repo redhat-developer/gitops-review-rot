@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:07:30.880549925Z",
+  "generated_at": "2026-11-02T15:06:48.526242735Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1302,7 +1302,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-02T13:42:12Z",
+      "updated_at": "2026-11-02T14:35:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3854,10 +3854,10 @@
       "repo": "argoproj-labs/argocd-image-updater",
       "author": {
         "login": "anqorithm",
-        "avatar_url": "https://avatars.githubusercontent.com/u/61029571?u=468256fa4e2d9ce2870b608299724bebb7a33f18\u0026v=4"
+        "avatar_url": "https://avatars.githubusercontent.com/u/61029571?u=ac73157d4fb6896fbdef9f5e213560c7cc7e0c0b\u0026v=4"
       },
       "created_at": "2026-11-02T03:12:40Z",
-      "updated_at": "2026-11-02T03:18:23Z",
+      "updated_at": "2026-11-02T14:35:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3865,9 +3865,9 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -5011,11 +5011,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-04T14:05:08Z",
+    "since": "2026-08-04T15:04:20Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 123,
+        "reviews": 121,
         "prs": [
           {
             "title": "chore(deps): bump github.com/bmatcuk/doublestar/v4 in /",
@@ -5984,22 +5984,6 @@
             "number": 1754,
             "author": "dependabot",
             "engaged_at": "2026-08-04T16:32:33Z"
-          },
-          {
-            "title": "feat: support custom CA certificates for registries",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1743",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1743,
-            "author": "w3lld1",
-            "engaged_at": "2026-08-04T14:39:19Z"
-          },
-          {
-            "title": "fix: cherry-pick prevent disallowed NamespaceManagement from breaking OpenShift GitOps login to release-0.19",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2318",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2318,
-            "author": "aali309",
-            "engaged_at": "2026-08-04T14:36:12Z"
           }
         ]
       },
@@ -11107,7 +11091,7 @@
       },
       {
         "login": "jparsai",
-        "reviews": 11,
+        "reviews": 10,
         "prs": [
           {
             "title": "chore: switch to gcr.io-hosted redis",
@@ -11188,14 +11172,6 @@
             "number": 17,
             "author": "jgwest",
             "engaged_at": "2026-08-21T11:52:56Z"
-          },
-          {
-            "title": "chore: run 'go fix' and audit changes",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2312",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2312,
-            "author": "jgwest",
-            "engaged_at": "2026-08-04T14:35:16Z"
           }
         ]
       },
