@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T08:08:30.473363237Z",
+  "generated_at": "2026-11-02T09:07:58.612255413Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1478,7 +1478,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-10-21T12:58:35Z",
-      "updated_at": "2026-11-02T06:25:20Z",
+      "updated_at": "2026-11-02T08:54:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1711,7 +1711,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-28T08:22:58Z",
-      "updated_at": "2026-11-02T07:55:57Z",
+      "updated_at": "2026-11-02T08:52:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2664,15 +2664,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-10-31T22:19:53Z",
-      "updated_at": "2026-11-01T03:15:17Z",
+      "updated_at": "2026-11-02T09:03:07Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -3780,13 +3780,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/120080287?u=c7bc3e595715243d53156b767f167b068013abae\u0026v=4"
       },
       "created_at": "2026-10-30T10:39:34Z",
-      "updated_at": "2026-10-30T10:49:44Z",
+      "updated_at": "2026-11-02T08:04:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -4980,7 +4980,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-04T08:06:11Z",
+    "since": "2026-08-04T09:05:51Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9428,7 +9428,7 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 41,
+        "reviews": 40,
         "prs": [
           {
             "title": "fix: grant serviceaccounts/token create for Dex TokenRequest",
@@ -9749,14 +9749,6 @@
             "number": 2259,
             "author": "chengfang",
             "engaged_at": "2026-08-05T13:11:49Z"
-          },
-          {
-            "title": "chore(ci): change to run CodeQL on cron schedule only",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1759",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1759,
-            "author": "chengfang",
-            "engaged_at": "2026-08-04T08:58:14Z"
           }
         ]
       },
