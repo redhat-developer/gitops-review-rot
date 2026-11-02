@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:06:00.968690393Z",
+  "generated_at": "2026-11-02T18:07:30.897024002Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -904,6 +904,29 @@
       "labels": []
     },
     {
+      "title": "fix: Incorrect icon for Unknown sync status",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/312",
+      "number": 312,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "keithchong",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
+      },
+      "created_at": "2026-11-02T17:22:38Z",
+      "updated_at": "2026-11-02T17:28:01Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "chore(deps): update konflux references",
       "url": "https://github.com/redhat-developer/gitops-must-gather/pull/52",
       "number": 52,
@@ -1453,7 +1476,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-11-02T13:41:06Z",
+      "updated_at": "2026-11-02T17:35:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1896,17 +1919,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-11-02T16:48:30Z",
-      "updated_at": "2026-11-02T16:51:20Z",
+      "updated_at": "2026-11-02T17:50:58Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -3826,7 +3849,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/61029571?u=ac73157d4fb6896fbdef9f5e213560c7cc7e0c0b\u0026v=4"
       },
       "created_at": "2026-11-02T03:12:40Z",
-      "updated_at": "2026-11-02T15:16:53Z",
+      "updated_at": "2026-11-02T17:28:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3836,7 +3859,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -4980,7 +5003,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-04T17:03:45Z",
+    "since": "2026-08-04T18:05:05Z",
     "reviewers": [
       {
         "login": "chengfang",
