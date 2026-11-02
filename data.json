@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T03:06:47.256934494Z",
+  "generated_at": "2026-11-02T04:07:13.609330218Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -992,7 +992,7 @@
       "updated_at": "2026-03-19T22:31:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1046,7 +1046,7 @@
       "updated_at": "2026-03-18T16:26:08Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3763,6 +3763,29 @@
       "labels": []
     },
     {
+      "title": "fix(pr): treat a merged PR/MR for the same head branch as already landed",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1904",
+      "number": 1904,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "anqorithm",
+        "avatar_url": "https://avatars.githubusercontent.com/u/61029571?u=468256fa4e2d9ce2870b608299724bebb7a33f18\u0026v=4"
+      },
+      "created_at": "2026-11-02T03:12:40Z",
+      "updated_at": "2026-11-02T03:18:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -4903,7 +4926,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-04T03:04:41Z",
+    "since": "2026-08-04T04:05:11Z",
     "reviewers": [
       {
         "login": "chengfang",
