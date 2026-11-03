@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T15:06:08.287557047Z",
+  "generated_at": "2026-11-03T16:07:13.6580788Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1499,10 +1499,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-10-21T12:58:35Z",
-      "updated_at": "2026-11-03T14:50:17Z",
+      "updated_at": "2026-11-03T15:17:01Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1967,7 +1967,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-03T13:08:19Z",
-      "updated_at": "2026-11-03T14:58:08Z",
+      "updated_at": "2026-11-03T16:02:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1977,7 +1977,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 5,
+      "unresolved_conversations": 2,
       "labels": [
         "kind/documentation",
         "needs-ok-to-test"
@@ -2738,10 +2738,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-11-03T14:34:54Z",
-      "updated_at": "2026-11-03T15:02:07Z",
+      "updated_at": "2026-11-03T15:32:01Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2749,6 +2749,29 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(agent): keep the re-created app when the principal deletes and re-creates it",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1183",
+      "number": 1183,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-11-03T15:06:19Z",
+      "updated_at": "2026-11-03T15:21:20Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -3430,7 +3453,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/151507899?u=9178733ce8b82e687b55611578179ba2bb9b4440\u0026v=4"
       },
       "created_at": "2026-02-09T01:05:41Z",
-      "updated_at": "2026-11-03T09:25:13Z",
+      "updated_at": "2026-11-03T15:08:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5102,11 +5125,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-05T15:03:39Z",
+    "since": "2026-08-05T16:05:16Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 121,
+        "reviews": 118,
         "prs": [
           {
             "title": "fix: gitops backend fix for ciphers to convert openssl ciphers to IANA names",
@@ -6051,30 +6074,6 @@
             "number": 1758,
             "author": "pujitha24",
             "engaged_at": "2026-08-06T15:47:59Z"
-          },
-          {
-            "title": "chore: run 'go fix' and audit changes",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2312",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2312,
-            "author": "jgwest",
-            "engaged_at": "2026-08-05T15:58:59Z"
-          },
-          {
-            "title": "fix: convert logr printf-style to key-value pairs in networkpolicies",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2316",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2316,
-            "author": "AruneshDwivedi",
-            "engaged_at": "2026-08-05T15:54:13Z"
-          },
-          {
-            "title": "fix: Resolve build failures from pre-existing issues and log.Error misuse",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2315",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2315,
-            "author": "AruneshDwivedi",
-            "engaged_at": "2026-08-05T15:50:12Z"
           }
         ]
       },
