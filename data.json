@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T19:06:26.550685928Z",
+  "generated_at": "2026-11-03T20:06:48.891120174Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1981,6 +1981,31 @@
       "labels": [
         "kind/documentation",
         "needs-ok-to-test"
+      ]
+    },
+    {
+      "title": "chore: Decouple OpenShift detection, register SSC api if available",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1493",
+      "number": 1493,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "anandrkskd",
+        "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
+      },
+      "created_at": "2026-11-03T19:21:34Z",
+      "updated_at": "2026-11-03T19:46:59Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "kind/cleanup"
       ]
     },
     {
@@ -4931,6 +4956,32 @@
       "labels": []
     },
     {
+      "title": "chore(deps): bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6",
+      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2418",
+      "number": 2418,
+      "repo": "argoproj-labs/argocd-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-03T19:49:30Z",
+      "updated_at": "2026-11-03T19:49:40Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go"
+      ]
+    },
+    {
       "title": "fixes for Openshift deployment",
       "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/89",
       "number": 89,
@@ -4989,7 +5040,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-26T09:29:33Z",
-      "updated_at": "2026-10-29T20:25:27Z",
+      "updated_at": "2026-11-03T19:16:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5103,12 +5154,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-05T19:04:27Z",
+    "since": "2026-08-05T20:04:48Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 121,
+        "reviews": 122,
         "prs": [
+          {
+            "title": "fix: prevent command injection via SSH proxy handling in GIT_SSH_COMMAND",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1912",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1912,
+            "author": "dkarpele",
+            "engaged_at": "2026-11-03T19:51:08Z"
+          },
           {
             "title": "fix: prevent command injection via SSH proxy handling in GIT_SSH_COMMAND",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1911",
@@ -10163,7 +10222,7 @@
       },
       {
         "login": "aali309",
-        "reviews": 30,
+        "reviews": 29,
         "prs": [
           {
             "title": "fix(helm): use configured proxy for Azure ACR workload identity auth",
@@ -10396,14 +10455,6 @@
             "number": 258,
             "author": "keithchong",
             "engaged_at": "2026-08-05T20:14:32Z"
-          },
-          {
-            "title": "feat(appset): Adding annotations on apps to force reconciliation before proceeding with progressive sync",
-            "url": "https://github.com/argoproj/argo-cd/pull/27467",
-            "repo": "argoproj/argo-cd",
-            "number": 27467,
-            "author": "ranakan19",
-            "engaged_at": "2026-08-05T19:43:03Z"
           }
         ]
       },
