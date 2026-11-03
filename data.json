@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T10:06:33.713714152Z",
+  "generated_at": "2026-11-03T11:05:24.739054161Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1861,17 +1861,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-30T11:25:21Z",
-      "updated_at": "2026-11-03T01:42:40Z",
+      "updated_at": "2026-11-03T10:59:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 1,
+        "count": 0,
+        "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement"
       ]
@@ -1953,6 +1953,31 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "update argocd version for 1.22.3",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1491",
+      "number": 1491,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "trdoyle81",
+        "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
+      },
+      "created_at": "2026-11-03T10:35:17Z",
+      "updated_at": "2026-11-03T10:35:31Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/failing-test"
+      ]
     },
     {
       "title": "feat: Add helm charts for principal",
@@ -3355,7 +3380,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63286031?v=4"
       },
       "created_at": "2026-01-01T06:38:09Z",
-      "updated_at": "2026-10-16T19:24:01Z",
+      "updated_at": "2026-11-03T10:30:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3848,10 +3873,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/61029571?u=ac73157d4fb6896fbdef9f5e213560c7cc7e0c0b\u0026v=4"
       },
       "created_at": "2026-11-02T03:12:40Z",
-      "updated_at": "2026-11-03T10:02:32Z",
+      "updated_at": "2026-11-03T10:09:36Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -3896,14 +3921,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-03T03:13:26Z",
-      "updated_at": "2026-11-03T03:17:35Z",
+      "updated_at": "2026-11-03T10:09:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
+        "count": 2,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4948,7 +4973,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 18,
+      "unresolved_conversations": 17,
       "labels": []
     },
     {
@@ -5052,7 +5077,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-05T10:04:17Z",
+    "since": "2026-08-05T11:03:01Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6030,16 +6055,8 @@
       },
       {
         "login": "jgwest",
-        "reviews": 110,
+        "reviews": 109,
         "prs": [
-          {
-            "title": "Test sequential unify divergent",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1484",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1484,
-            "author": "olivergondza",
-            "engaged_at": "2026-11-03T01:42:40Z"
-          },
           {
             "title": "chore(deps): bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1489",
@@ -8416,7 +8433,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 82,
+        "reviews": 81,
         "prs": [
           {
             "title": "feat(tls): configure curve preferences for argocd agent",
@@ -9065,14 +9082,6 @@
             "number": 2303,
             "author": "anandrkskd",
             "engaged_at": "2026-08-06T07:28:18Z"
-          },
-          {
-            "title": "CI: Github action job tests for xks on push to master and release branch",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1217",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1217,
-            "author": "anandrkskd",
-            "engaged_at": "2026-08-05T10:20:52Z"
           }
         ]
       },
@@ -9508,8 +9517,16 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 40,
+        "reviews": 41,
         "prs": [
+          {
+            "title": "chore(deps): bump argocd from 3.5.6 to 3.5.7",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1907",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1907,
+            "author": "chengfang",
+            "engaged_at": "2026-11-03T10:09:40Z"
+          },
           {
             "title": "fix: grant serviceaccounts/token create for Dex TokenRequest",
             "url": "https://github.com/argoproj-labs/argocd-operator/pull/2412",
