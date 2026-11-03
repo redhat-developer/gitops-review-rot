@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T16:07:13.6580788Z",
+  "generated_at": "2026-11-03T17:06:36.967163195Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1499,7 +1499,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-10-21T12:58:35Z",
-      "updated_at": "2026-11-03T15:17:01Z",
+      "updated_at": "2026-11-03T17:02:18Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1732,10 +1732,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-28T08:22:58Z",
-      "updated_at": "2026-11-03T11:31:58Z",
+      "updated_at": "2026-11-03T16:31:36Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2741,7 +2741,7 @@
       "updated_at": "2026-11-03T15:32:01Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -3430,7 +3430,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63286031?v=4"
       },
       "created_at": "2026-01-01T06:38:09Z",
-      "updated_at": "2026-11-03T10:30:37Z",
+      "updated_at": "2026-11-03T16:09:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3937,41 +3937,16 @@
       "labels": []
     },
     {
-      "title": "fix: restore SSH repository fetch through a SOCKS5 proxy (applying the same fix from argo-cd release-3.6 branch)",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1906",
-      "number": 1906,
+      "title": "fix: prevent command injection via SSH proxy handling in GIT_SSH_COMMAND",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1909",
+      "number": 1909,
       "repo": "argoproj-labs/argocd-image-updater",
       "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+        "login": "dkarpele",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
-      "created_at": "2026-11-03T02:22:46Z",
-      "updated_at": "2026-11-03T02:35:02Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
-      ]
-    },
-    {
-      "title": "chore(deps): bump argocd from 3.5.6 to 3.5.7 (#1907)",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1908",
-      "number": 1908,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-11-03T12:53:09Z",
-      "updated_at": "2026-11-03T12:53:18Z",
+      "created_at": "2026-11-03T16:56:06Z",
+      "updated_at": "2026-11-03T16:56:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5125,7 +5100,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-05T16:05:16Z",
+    "since": "2026-08-05T17:04:41Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9127,8 +9102,16 @@
       },
       {
         "login": "ranakan19",
-        "reviews": 53,
+        "reviews": 54,
         "prs": [
+          {
+            "title": "fix(helm): use configured proxy for Azure ACR workload identity auth",
+            "url": "https://github.com/argoproj/argo-cd/pull/29675",
+            "repo": "argoproj/argo-cd",
+            "number": 29675,
+            "author": "Pratik-Redhat-Tech",
+            "engaged_at": "2026-11-03T16:22:52Z"
+          },
           {
             "title": "chore(deps): bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6 in /argocd-operator",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1487",
@@ -9557,8 +9540,24 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 40,
+        "reviews": 42,
         "prs": [
+          {
+            "title": "fix: restore SSH repository fetch through a SOCKS5 proxy (applying the same fix from argo-cd release-3.6 branch)",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1906",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1906,
+            "author": "chengfang",
+            "engaged_at": "2026-11-03T16:34:42Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.6 to 3.5.7 (#1907)",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1908",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1908,
+            "author": "chengfang",
+            "engaged_at": "2026-11-03T16:31:45Z"
+          },
           {
             "title": "chore(deps): bump argocd from 3.5.6 to 3.5.7",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1907",
@@ -10161,8 +10160,16 @@
       },
       {
         "login": "aali309",
-        "reviews": 29,
+        "reviews": 30,
         "prs": [
+          {
+            "title": "fix(helm): use configured proxy for Azure ACR workload identity auth",
+            "url": "https://github.com/argoproj/argo-cd/pull/29675",
+            "repo": "argoproj/argo-cd",
+            "number": 29675,
+            "author": "Pratik-Redhat-Tech",
+            "engaged_at": "2026-11-03T16:28:48Z"
+          },
           {
             "title": "fix: Incorrect icon for Unknown sync status",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/312",
