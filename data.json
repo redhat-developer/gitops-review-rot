@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T09:06:06.064489262Z",
+  "generated_at": "2026-11-03T10:06:33.713714152Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -936,10 +936,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
       },
       "created_at": "2026-11-02T22:11:22Z",
-      "updated_at": "2026-11-03T08:57:53Z",
+      "updated_at": "2026-11-03T09:04:12Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1911,7 +1911,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-02T10:22:03Z",
-      "updated_at": "2026-11-03T08:28:45Z",
+      "updated_at": "2026-11-03T09:40:30Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -3378,7 +3378,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/151507899?u=9178733ce8b82e687b55611578179ba2bb9b4440\u0026v=4"
       },
       "created_at": "2026-02-09T01:05:41Z",
-      "updated_at": "2026-10-24T00:55:52Z",
+      "updated_at": "2026-11-03T09:25:13Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3848,10 +3848,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/61029571?u=ac73157d4fb6896fbdef9f5e213560c7cc7e0c0b\u0026v=4"
       },
       "created_at": "2026-11-02T03:12:40Z",
-      "updated_at": "2026-11-03T09:02:10Z",
+      "updated_at": "2026-11-03T10:02:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5052,7 +5052,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-05T09:03:44Z",
+    "since": "2026-08-05T10:04:17Z",
     "reviewers": [
       {
         "login": "chengfang",
