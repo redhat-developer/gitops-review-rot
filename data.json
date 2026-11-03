@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T17:06:36.967163195Z",
+  "generated_at": "2026-11-03T18:07:44.181004331Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1941,7 +1941,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-03T10:35:17Z",
-      "updated_at": "2026-11-03T12:11:13Z",
+      "updated_at": "2026-11-03T17:14:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2773,6 +2773,32 @@
       },
       "unresolved_conversations": 1,
       "labels": []
+    },
+    {
+      "title": "build(deps): Bump github.com/go-jose/go-jose/v4 from 4.1.6 to 4.1.7",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1184",
+      "number": 1184,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-03T17:13:10Z",
+      "updated_at": "2026-11-03T17:13:22Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go"
+      ]
     },
     {
       "title": "Add OAuth support. It is need for access to Azure CR",
@@ -3960,6 +3986,29 @@
       "labels": []
     },
     {
+      "title": "fix: prevent command injection via SSH proxy handling in GIT_SSH_COMMAND",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1910",
+      "number": 1910,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "dkarpele",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
+      },
+      "created_at": "2026-11-03T17:20:25Z",
+      "updated_at": "2026-11-03T17:20:34Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -5073,34 +5122,11 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-07-16T14:24:23Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-05T17:04:41Z",
+    "since": "2026-08-05T18:05:51Z",
     "reviewers": [
       {
         "login": "chengfang",
