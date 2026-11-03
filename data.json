@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T11:05:24.739054161Z",
+  "generated_at": "2026-11-03T12:09:03.343084054Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1524,7 +1524,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-10-21T12:58:35Z",
-      "updated_at": "2026-11-03T07:45:08Z",
+      "updated_at": "2026-11-03T11:51:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1757,7 +1757,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-28T08:22:58Z",
-      "updated_at": "2026-11-03T07:11:58Z",
+      "updated_at": "2026-11-03T11:31:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1765,11 +1765,13 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/bug"
+        "kind/bug",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -1964,7 +1966,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-03T10:35:17Z",
-      "updated_at": "2026-11-03T10:35:31Z",
+      "updated_at": "2026-11-03T11:58:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -5077,7 +5079,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-05T11:03:01Z",
+    "since": "2026-08-05T12:06:40Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8436,6 +8438,14 @@
         "reviews": 81,
         "prs": [
           {
+            "title": "update argocd-operator dependency (1.22)",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1474",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1474,
+            "author": "anandrkskd",
+            "engaged_at": "2026-11-03T11:31:50Z"
+          },
+          {
             "title": "feat(tls): configure curve preferences for argocd agent",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1424",
             "repo": "redhat-developer/gitops-operator",
@@ -8466,14 +8476,6 @@
             "number": 1278,
             "author": "alkakumari016",
             "engaged_at": "2026-10-29T03:36:59Z"
-          },
-          {
-            "title": "update argocd-operator dependency (1.22)",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1474",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1474,
-            "author": "anandrkskd",
-            "engaged_at": "2026-10-29T03:35:52Z"
           },
           {
             "title": "chore: bump github.com/argoproj/argo-cd/v3 v3.4.4 -\u003e v3.4.12 to fix CVE-2026-55797",
