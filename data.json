@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T14:07:58.432562401Z",
+  "generated_at": "2026-11-03T15:06:08.287557047Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1499,10 +1499,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-10-21T12:58:35Z",
-      "updated_at": "2026-11-03T11:51:25Z",
+      "updated_at": "2026-11-03T14:50:17Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1967,20 +1967,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-03T13:08:19Z",
-      "updated_at": "2026-11-03T13:14:00Z",
+      "updated_at": "2026-11-03T14:58:08Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 5,
       "labels": [
         "kind/documentation",
-        "needs-rebase",
         "needs-ok-to-test"
       ]
     },
@@ -2725,6 +2724,29 @@
         "count": 2,
         "approved_count": 0,
         "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: add clientAuth EKU to principal server cert for HA",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1182",
+      "number": 1182,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "jparsai",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
+      },
+      "created_at": "2026-11-03T14:34:54Z",
+      "updated_at": "2026-11-03T15:02:07Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -5080,7 +5102,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-05T14:05:33Z",
+    "since": "2026-08-05T15:03:39Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6936,8 +6958,16 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 104,
+        "reviews": 105,
         "prs": [
+          {
+            "title": "docs: Fix the doc corrections suggested on #1433",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1492",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1492,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-03T14:36:18Z"
+          },
           {
             "title": "chore(deps): bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1489",
