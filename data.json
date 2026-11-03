@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:06:43.755209626Z",
+  "generated_at": "2026-11-03T14:07:58.432562401Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1388,31 +1388,6 @@
       ]
     },
     {
-      "title": "Add dry-run Sync Playwright test",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1376",
-      "number": 1376,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "trdoyle81",
-        "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
-      },
-      "created_at": "2026-10-12T13:08:22Z",
-      "updated_at": "2026-10-27T14:28:56Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/enhancement"
-      ]
-    },
-    {
       "title": "feat: override operator emptyDir volumes with generic ephemeral volumes",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1404",
       "number": 1404,
@@ -1732,10 +1707,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-11-03T08:34:40Z",
+      "updated_at": "2026-11-03T13:29:33Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1838,10 +1813,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-30T05:40:59Z",
-      "updated_at": "2026-11-03T07:16:16Z",
+      "updated_at": "2026-11-03T13:34:58Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1913,10 +1888,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-02T10:22:03Z",
-      "updated_at": "2026-11-03T09:40:30Z",
+      "updated_at": "2026-11-03T13:27:56Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1943,13 +1918,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-11-02T16:48:30Z",
-      "updated_at": "2026-11-03T01:33:34Z",
+      "updated_at": "2026-11-03T14:01:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 1,
         "has_new_commits": false
       },
@@ -1980,6 +1955,33 @@
       "labels": [
         "lgtm",
         "kind/failing-test"
+      ]
+    },
+    {
+      "title": "docs: Fix the doc corrections suggested on #1433",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1492",
+      "number": 1492,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-11-03T13:08:19Z",
+      "updated_at": "2026-11-03T13:14:00Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "kind/documentation",
+        "needs-rebase",
+        "needs-ok-to-test"
       ]
     },
     {
@@ -2665,10 +2667,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-10-29T12:35:42Z",
-      "updated_at": "2026-11-03T13:02:23Z",
+      "updated_at": "2026-11-03T13:15:16Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2714,7 +2716,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-10-31T22:19:53Z",
-      "updated_at": "2026-11-02T09:16:04Z",
+      "updated_at": "2026-11-03T13:12:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2722,7 +2724,7 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -5078,7 +5080,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-05T13:04:06Z",
+    "since": "2026-08-05T14:05:33Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6934,8 +6936,24 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 103,
+        "reviews": 104,
         "prs": [
+          {
+            "title": "chore(deps): bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1489",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1489,
+            "author": "ranakan19",
+            "engaged_at": "2026-11-03T14:01:16Z"
+          },
+          {
+            "title": "Add dry-run Sync Playwright test",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1376",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1376,
+            "author": "trdoyle81",
+            "engaged_at": "2026-11-03T13:53:11Z"
+          },
           {
             "title": "feat(util): add signedRevisionOnly option for source integrity",
             "url": "https://github.com/argoproj/argo-cd/pull/30033",
@@ -7015,14 +7033,6 @@
             "number": 1394,
             "author": "ranakan19",
             "engaged_at": "2026-10-23T10:28:46Z"
-          },
-          {
-            "title": "Add dry-run Sync Playwright test",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1376",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1376,
-            "author": "trdoyle81",
-            "engaged_at": "2026-10-23T10:24:33Z"
           },
           {
             "title": "fix(ImageUpdater): GITOPS-11648 zombie Git processes when the operator starts /manager as PID 1",
@@ -9518,7 +9528,7 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 41,
+        "reviews": 40,
         "prs": [
           {
             "title": "chore(deps): bump argocd from 3.5.6 to 3.5.7",
@@ -9839,14 +9849,6 @@
             "number": 1761,
             "author": "chengfang",
             "engaged_at": "2026-08-06T16:32:13Z"
-          },
-          {
-            "title": "chore(deps): bump ImageUpdater from 1.2.1 to 1.2.2; bump argocd from 3.4.2 to 3.4.4 (#2255)",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2259",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2259,
-            "author": "chengfang",
-            "engaged_at": "2026-08-05T13:11:49Z"
           }
         ]
       },
@@ -11268,7 +11270,7 @@
       },
       {
         "login": "kuci-JK",
-        "reviews": 6,
+        "reviews": 5,
         "prs": [
           {
             "title": "fix(cli): accept write-repositories in 'argocd admin settings rbac can' (#30457)",
@@ -11309,14 +11311,6 @@
             "number": 29398,
             "author": "blakepettersson",
             "engaged_at": "2026-08-26T12:09:32Z"
-          },
-          {
-            "title": "test: fix glob test flake",
-            "url": "https://github.com/argoproj/argo-cd/pull/27276",
-            "repo": "argoproj/argo-cd",
-            "number": 27276,
-            "author": "blakepettersson",
-            "engaged_at": "2026-08-05T13:27:03Z"
           }
         ]
       },
