@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T12:09:03.343084054Z",
+  "generated_at": "2026-11-03T13:06:43.755209626Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1655,7 +1655,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-26T15:02:41Z",
-      "updated_at": "2026-11-01T19:22:10Z",
+      "updated_at": "2026-11-03T12:25:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1760,7 +1760,7 @@
       "updated_at": "2026-11-03T11:31:58Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1863,7 +1863,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-30T11:25:21Z",
-      "updated_at": "2026-11-03T10:59:34Z",
+      "updated_at": "2026-11-03T12:32:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1966,18 +1966,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-03T10:35:17Z",
-      "updated_at": "2026-11-03T11:58:10Z",
+      "updated_at": "2026-11-03T12:11:13Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
+        "lgtm",
         "kind/failing-test"
       ]
     },
@@ -2664,10 +2665,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-10-29T12:35:42Z",
-      "updated_at": "2026-11-02T10:40:29Z",
+      "updated_at": "2026-11-03T13:02:23Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -3914,29 +3915,27 @@
       ]
     },
     {
-      "title": "chore(deps): bump argocd from 3.5.6 to 3.5.7",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1907",
-      "number": 1907,
+      "title": "chore(deps): bump argocd from 3.5.6 to 3.5.7 (#1907)",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1908",
+      "number": 1908,
       "repo": "argoproj-labs/argocd-image-updater",
       "author": {
         "login": "chengfang",
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
-      "created_at": "2026-11-03T03:13:26Z",
-      "updated_at": "2026-11-03T10:09:40Z",
+      "created_at": "2026-11-03T12:53:09Z",
+      "updated_at": "2026-11-03T12:53:18Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 2,
-        "approved_count": 1,
+        "count": 0,
+        "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
-      ]
+      "labels": []
     },
     {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
@@ -5079,7 +5078,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-05T12:06:40Z",
+    "since": "2026-08-05T13:04:06Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10812,6 +10811,148 @@
         ]
       },
       {
+        "login": "varshab1210",
+        "reviews": 17,
+        "prs": [
+          {
+            "title": "update argocd version for 1.22.3",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1491",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1491,
+            "author": "trdoyle81",
+            "engaged_at": "2026-11-03T12:11:07Z"
+          },
+          {
+            "title": "chore: migrate old test/e2e tests to ginkgo bucket",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1400",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1400,
+            "author": "jgwest",
+            "engaged_at": "2026-10-22T11:11:33Z"
+          },
+          {
+            "title": "Change private-repo target for UI testing",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1316",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1316,
+            "author": "trdoyle81",
+            "engaged_at": "2026-10-21T06:05:47Z"
+          },
+          {
+            "title": "test: generate the Git server SSH key as ECDSA P-256, not Ed25519",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1317",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1317,
+            "author": "AdamSaleh",
+            "engaged_at": "2026-10-16T05:50:06Z"
+          },
+          {
+            "title": "test updates for 1.22.2 release",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1396",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1396,
+            "author": "trdoyle81",
+            "engaged_at": "2026-10-14T11:48:07Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.2 to 3.5.4 and image updater from 1.3.0 to 1.3.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1348",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1348,
+            "author": "chengfang",
+            "engaged_at": "2026-10-12T10:23:42Z"
+          },
+          {
+            "title": "Test updates for 1.22.0 release",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1323",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1323,
+            "author": "trdoyle81",
+            "engaged_at": "2026-10-08T11:18:45Z"
+          },
+          {
+            "title": "fix: Image Updater fails to start with TLS 1.3 cipher suites when cluster TLS profile uses TLS 1.2 minimum",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1337",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1337,
+            "author": "akhilnittala",
+            "engaged_at": "2026-10-08T11:16:44Z"
+          },
+          {
+            "title": "Update E2E tests for v1.22.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1314",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1314,
+            "author": "trdoyle81",
+            "engaged_at": "2026-09-24T10:25:38Z"
+          },
+          {
+            "title": "Gitops 9684 gitops 9683 auto sync self healing and private repo",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1255",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1255,
+            "author": "trdoyle81",
+            "engaged_at": "2026-09-24T07:46:56Z"
+          },
+          {
+            "title": "docs: Document how to access redacted CI logs",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1290",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1290,
+            "author": "olivergondza",
+            "engaged_at": "2026-09-16T06:38:59Z"
+          },
+          {
+            "title": "Gitops 9686 UI test app pruning",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1252",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1252,
+            "author": "trdoyle81",
+            "engaged_at": "2026-09-07T06:56:54Z"
+          },
+          {
+            "title": "Added E2E for role ownership validation",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1209",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1209,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-03T05:49:52Z"
+          },
+          {
+            "title": "fix(e2e): Do not print secret value from secret.Fixture.HaveNonEmptyKeyValue",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1258",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1258,
+            "author": "olivergondza",
+            "engaged_at": "2026-08-19T11:17:35Z"
+          },
+          {
+            "title": "test: skip terminating source namespaces",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1249",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1249,
+            "author": "aali309",
+            "engaged_at": "2026-08-10T05:56:40Z"
+          },
+          {
+            "title": "Fix 1-090_validate_permissions for OLM CSV copies on v1.19.6.",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1248",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1248,
+            "author": "trdoyle81",
+            "engaged_at": "2026-08-07T05:33:38Z"
+          },
+          {
+            "title": "Playwright Test - Login with HA enabled ",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1228",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1228,
+            "author": "trdoyle81",
+            "engaged_at": "2026-08-06T05:26:42Z"
+          }
+        ]
+      },
+      {
         "login": "anandrkskd",
         "reviews": 16,
         "prs": [
@@ -10942,140 +11083,6 @@
             "number": 1231,
             "author": "Rizwana777",
             "engaged_at": "2026-08-19T11:37:04Z"
-          }
-        ]
-      },
-      {
-        "login": "varshab1210",
-        "reviews": 16,
-        "prs": [
-          {
-            "title": "chore: migrate old test/e2e tests to ginkgo bucket",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1400",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1400,
-            "author": "jgwest",
-            "engaged_at": "2026-10-22T11:11:33Z"
-          },
-          {
-            "title": "Change private-repo target for UI testing",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1316",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1316,
-            "author": "trdoyle81",
-            "engaged_at": "2026-10-21T06:05:47Z"
-          },
-          {
-            "title": "test: generate the Git server SSH key as ECDSA P-256, not Ed25519",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1317",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1317,
-            "author": "AdamSaleh",
-            "engaged_at": "2026-10-16T05:50:06Z"
-          },
-          {
-            "title": "test updates for 1.22.2 release",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1396",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1396,
-            "author": "trdoyle81",
-            "engaged_at": "2026-10-14T11:48:07Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.5.2 to 3.5.4 and image updater from 1.3.0 to 1.3.1",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1348",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1348,
-            "author": "chengfang",
-            "engaged_at": "2026-10-12T10:23:42Z"
-          },
-          {
-            "title": "Test updates for 1.22.0 release",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1323",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1323,
-            "author": "trdoyle81",
-            "engaged_at": "2026-10-08T11:18:45Z"
-          },
-          {
-            "title": "fix: Image Updater fails to start with TLS 1.3 cipher suites when cluster TLS profile uses TLS 1.2 minimum",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1337",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1337,
-            "author": "akhilnittala",
-            "engaged_at": "2026-10-08T11:16:44Z"
-          },
-          {
-            "title": "Update E2E tests for v1.22.0",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1314",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1314,
-            "author": "trdoyle81",
-            "engaged_at": "2026-09-24T10:25:38Z"
-          },
-          {
-            "title": "Gitops 9684 gitops 9683 auto sync self healing and private repo",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1255",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1255,
-            "author": "trdoyle81",
-            "engaged_at": "2026-09-24T07:46:56Z"
-          },
-          {
-            "title": "docs: Document how to access redacted CI logs",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1290",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1290,
-            "author": "olivergondza",
-            "engaged_at": "2026-09-16T06:38:59Z"
-          },
-          {
-            "title": "Gitops 9686 UI test app pruning",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1252",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1252,
-            "author": "trdoyle81",
-            "engaged_at": "2026-09-07T06:56:54Z"
-          },
-          {
-            "title": "Added E2E for role ownership validation",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1209",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1209,
-            "author": "alkakumari016",
-            "engaged_at": "2026-09-03T05:49:52Z"
-          },
-          {
-            "title": "fix(e2e): Do not print secret value from secret.Fixture.HaveNonEmptyKeyValue",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1258",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1258,
-            "author": "olivergondza",
-            "engaged_at": "2026-08-19T11:17:35Z"
-          },
-          {
-            "title": "test: skip terminating source namespaces",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1249",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1249,
-            "author": "aali309",
-            "engaged_at": "2026-08-10T05:56:40Z"
-          },
-          {
-            "title": "Fix 1-090_validate_permissions for OLM CSV copies on v1.19.6.",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1248",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1248,
-            "author": "trdoyle81",
-            "engaged_at": "2026-08-07T05:33:38Z"
-          },
-          {
-            "title": "Playwright Test - Login with HA enabled ",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1228",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1228,
-            "author": "trdoyle81",
-            "engaged_at": "2026-08-06T05:26:42Z"
           }
         ]
       },
