@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T17:06:37.247727892Z",
+  "generated_at": "2026-11-04T18:06:08.681581556Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1633,7 +1633,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-11-04T16:22:38Z",
+      "updated_at": "2026-11-04T17:53:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1739,7 +1739,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-30T05:40:59Z",
-      "updated_at": "2026-11-04T16:19:33Z",
+      "updated_at": "2026-11-04T17:49:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1913,10 +1913,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-11-04T08:02:33Z",
-      "updated_at": "2026-11-04T12:47:03Z",
+      "updated_at": "2026-11-04T17:48:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1988,7 +1988,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-04T14:19:12Z",
-      "updated_at": "2026-11-04T17:00:30Z",
+      "updated_at": "2026-11-04T17:33:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2013,10 +2013,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T14:20:35Z",
-      "updated_at": "2026-11-04T16:35:13Z",
+      "updated_at": "2026-11-04T17:57:30Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2702,29 +2702,6 @@
       "labels": []
     },
     {
-      "title": "ci(e2e): pin goreman and use the go.mod toolchain in the e2e job",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1177",
-      "number": 1177,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "Gabrielandre02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
-      },
-      "created_at": "2026-10-29T12:35:42Z",
-      "updated_at": "2026-11-03T13:15:16Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "build(deps): Bump google.golang.org/grpc from 1.84.0 to 1.85.0",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1178",
       "number": 1178,
@@ -2760,17 +2737,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-10-31T22:19:53Z",
-      "updated_at": "2026-11-04T16:44:16Z",
+      "updated_at": "2026-11-04T17:53:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 3,
-        "approved_count": 1,
+        "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -3959,6 +3936,123 @@
       "labels": []
     },
     {
+      "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1913",
+      "number": 1913,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-11-04T17:04:07Z",
+      "updated_at": "2026-11-04T17:54:04Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "approved_count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "ok-to-test"
+      ]
+    },
+    {
+      "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1914",
+      "number": 1914,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-11-04T17:04:59Z",
+      "updated_at": "2026-11-04T17:54:55Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1915",
+      "number": 1915,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-11-04T17:07:47Z",
+      "updated_at": "2026-11-04T17:55:20Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1916",
+      "number": 1916,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-11-04T17:10:39Z",
+      "updated_at": "2026-11-04T17:55:40Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1917",
+      "number": 1917,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-11-04T17:12:42Z",
+      "updated_at": "2026-11-04T17:56:03Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -5075,34 +5169,11 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-07-16T14:24:23Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-06T17:04:37Z",
+    "since": "2026-08-06T18:04:04Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7812,15 +7883,23 @@
       },
       {
         "login": "jannfis",
-        "reviews": 87,
+        "reviews": 88,
         "prs": [
+          {
+            "title": "ci(e2e): pin goreman and use the go.mod toolchain in the e2e job",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1177",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1177,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-04T17:54:41Z"
+          },
           {
             "title": "feat: rewrite AppProject destinationServiceAccounts for agents",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1179",
             "repo": "argoproj-labs/argocd-agent",
             "number": 1179,
             "author": "Rizwana777",
-            "engaged_at": "2026-11-04T16:44:16Z"
+            "engaged_at": "2026-11-04T17:53:10Z"
           },
           {
             "title": "chore(deps): Bump github.com/grpc-ecosystem/grpc-gateway/v2 to 2.29.0",
@@ -9574,8 +9653,48 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 42,
+        "reviews": 47,
         "prs": [
+          {
+            "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1917",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1917,
+            "author": "chengfang",
+            "engaged_at": "2026-11-04T17:56:03Z"
+          },
+          {
+            "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1916",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1916,
+            "author": "chengfang",
+            "engaged_at": "2026-11-04T17:55:39Z"
+          },
+          {
+            "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1915",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1915,
+            "author": "chengfang",
+            "engaged_at": "2026-11-04T17:55:20Z"
+          },
+          {
+            "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1914",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1914,
+            "author": "chengfang",
+            "engaged_at": "2026-11-04T17:54:54Z"
+          },
+          {
+            "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1913",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1913,
+            "author": "chengfang",
+            "engaged_at": "2026-11-04T17:51:49Z"
+          },
           {
             "title": "feat: Add Needs Attention, Infrastructure cards to Dashboard (#11627)",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/313",
