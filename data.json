@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T16:07:20.33280062Z",
+  "generated_at": "2026-11-04T17:06:37.247727892Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -904,29 +904,6 @@
       "labels": []
     },
     {
-      "title": "fix: Incorrect icon for Unknown sync status",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/312",
-      "number": 312,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "keithchong",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
-      },
-      "created_at": "2026-11-02T17:22:38Z",
-      "updated_at": "2026-11-02T23:13:15Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "feat: Add Needs Attention, Infrastructure cards to Dashboard (#11627)",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/313",
       "number": 313,
@@ -936,7 +913,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
       },
       "created_at": "2026-11-02T22:11:22Z",
-      "updated_at": "2026-11-03T20:12:26Z",
+      "updated_at": "2026-11-04T16:20:46Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1322,7 +1299,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-04T15:52:16Z",
+      "updated_at": "2026-11-04T16:09:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1629,10 +1606,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-26T19:17:23Z",
-      "updated_at": "2026-11-04T09:08:18Z",
+      "updated_at": "2026-11-04T16:22:46Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1656,7 +1633,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-11-04T15:52:52Z",
+      "updated_at": "2026-11-04T16:22:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1762,10 +1739,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-30T05:40:59Z",
-      "updated_at": "2026-11-04T15:26:05Z",
+      "updated_at": "2026-11-04T16:19:33Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2011,7 +1988,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-04T14:19:12Z",
-      "updated_at": "2026-11-04T15:09:28Z",
+      "updated_at": "2026-11-04T17:00:30Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2036,17 +2013,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T14:20:35Z",
-      "updated_at": "2026-11-04T15:51:32Z",
+      "updated_at": "2026-11-04T16:35:13Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
       ]
@@ -2783,14 +2760,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-10-31T22:19:53Z",
-      "updated_at": "2026-11-03T13:12:16Z",
+      "updated_at": "2026-11-04T16:44:16Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 2,
-        "approved_count": 0,
+        "count": 3,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5125,7 +5102,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-06T16:05:27Z",
+    "since": "2026-08-06T17:04:37Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7835,15 +7812,15 @@
       },
       {
         "login": "jannfis",
-        "reviews": 86,
+        "reviews": 87,
         "prs": [
           {
-            "title": "fix(agent): keep the re-created app when the principal deletes and re-creates it",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1183",
+            "title": "feat: rewrite AppProject destinationServiceAccounts for agents",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1179",
             "repo": "argoproj-labs/argocd-agent",
-            "number": 1183,
-            "author": "Gabrielandre02",
-            "engaged_at": "2026-11-04T14:54:48Z"
+            "number": 1179,
+            "author": "Rizwana777",
+            "engaged_at": "2026-11-04T16:44:16Z"
           },
           {
             "title": "chore(deps): Bump github.com/grpc-ecosystem/grpc-gateway/v2 to 2.29.0",
@@ -7851,7 +7828,15 @@
             "repo": "argoproj/argo-cd",
             "number": 30732,
             "author": "akhilnittala",
-            "engaged_at": "2026-11-04T14:34:54Z"
+            "engaged_at": "2026-11-04T16:30:42Z"
+          },
+          {
+            "title": "fix(agent): keep the re-created app when the principal deletes and re-creates it",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1183",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1183,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-04T14:54:48Z"
           },
           {
             "title": "build(deps): Bump github.com/go-jose/go-jose/v4 from 4.1.6 to 4.1.7",
@@ -9589,7 +9574,7 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 43,
+        "reviews": 42,
         "prs": [
           {
             "title": "feat: Add Needs Attention, Infrastructure cards to Dashboard (#11627)",
@@ -9597,7 +9582,7 @@
             "repo": "redhat-developer/gitops-console-plugin",
             "number": 313,
             "author": "keithchong",
-            "engaged_at": "2026-11-03T20:12:26Z"
+            "engaged_at": "2026-11-04T16:20:46Z"
           },
           {
             "title": "fix: restore SSH repository fetch through a SOCKS5 proxy (applying the same fix from argo-cd release-3.6 branch)",
@@ -9926,14 +9911,6 @@
             "number": 1765,
             "author": "chengfang",
             "engaged_at": "2026-08-10T13:28:20Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.4.6 to 3.5.0",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1761",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1761,
-            "author": "chengfang",
-            "engaged_at": "2026-08-06T16:32:13Z"
           }
         ]
       },
