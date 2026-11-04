@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T21:05:53.953558447Z",
+  "generated_at": "2026-11-04T22:06:27.502503952Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1171,7 +1171,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-07-28T11:01:31Z",
-      "updated_at": "2026-11-04T08:29:01Z",
+      "updated_at": "2026-11-04T21:27:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1196,10 +1196,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/315658242?v=4"
       },
       "created_at": "2026-09-05T16:01:43Z",
-      "updated_at": "2026-10-26T09:46:50Z",
+      "updated_at": "2026-11-04T21:56:34Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1246,7 +1246,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-11-02T11:31:48Z",
+      "updated_at": "2026-11-04T21:29:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1299,7 +1299,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-04T16:09:38Z",
+      "updated_at": "2026-11-04T22:00:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1502,7 +1502,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:25Z",
-      "updated_at": "2026-10-27T14:18:49Z",
+      "updated_at": "2026-11-04T21:28:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1529,7 +1529,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:56Z",
-      "updated_at": "2026-10-27T05:44:13Z",
+      "updated_at": "2026-11-04T21:26:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1556,7 +1556,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-26T15:02:41Z",
-      "updated_at": "2026-11-04T19:18:37Z",
+      "updated_at": "2026-11-04T21:54:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1581,10 +1581,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-10-29T16:20:07Z",
+      "updated_at": "2026-11-04T21:54:18Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1633,7 +1633,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-11-04T21:00:01Z",
+      "updated_at": "2026-11-04T21:25:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1767,7 +1767,7 @@
       "updated_at": "2026-11-04T13:31:25Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1839,7 +1839,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-11-02T16:48:30Z",
-      "updated_at": "2026-11-04T11:33:36Z",
+      "updated_at": "2026-11-04T21:31:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1938,7 +1938,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T09:44:01Z",
-      "updated_at": "2026-11-04T20:48:40Z",
+      "updated_at": "2026-11-04T21:24:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1963,7 +1963,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T12:51:15Z",
-      "updated_at": "2026-11-04T19:04:05Z",
+      "updated_at": "2026-11-04T21:56:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2013,10 +2013,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T14:20:35Z",
-      "updated_at": "2026-11-04T20:29:55Z",
+      "updated_at": "2026-11-04T21:28:39Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3945,10 +3945,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-04T20:01:56Z",
-      "updated_at": "2026-11-04T21:00:32Z",
+      "updated_at": "2026-11-04T21:43:59Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
@@ -5104,7 +5104,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-06T21:03:53Z",
+    "since": "2026-08-06T22:04:35Z",
     "reviewers": [
       {
         "login": "chengfang",
