@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T14:06:07.37808646Z",
+  "generated_at": "2026-11-04T15:07:44.136849946Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1080,31 +1080,6 @@
       ]
     },
     {
-      "title": "Add OLM Install \u0026 Delete Testing",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/917",
-      "number": 917,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "trdoyle81",
-        "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
-      },
-      "created_at": "2025-07-08T16:12:47Z",
-      "updated_at": "2026-03-18T16:26:08Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-rebase"
-      ]
-    },
-    {
       "title": "Update installation ns ginkgo",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/964",
       "number": 964,
@@ -1604,7 +1579,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-26T15:02:41Z",
-      "updated_at": "2026-11-04T13:26:17Z",
+      "updated_at": "2026-11-04T14:20:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1681,10 +1656,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-11-04T13:44:27Z",
+      "updated_at": "2026-11-04T14:19:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1787,10 +1762,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-30T05:40:59Z",
-      "updated_at": "2026-11-04T13:44:00Z",
+      "updated_at": "2026-11-04T14:28:47Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1837,10 +1812,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-02T04:10:44Z",
-      "updated_at": "2026-11-04T13:44:00Z",
+      "updated_at": "2026-11-04T14:47:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1986,7 +1961,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T09:44:01Z",
-      "updated_at": "2026-11-04T13:51:52Z",
+      "updated_at": "2026-11-04T14:48:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2024,6 +1999,56 @@
       "unresolved_conversations": 3,
       "labels": [
         "kind/cleanup"
+      ]
+    },
+    {
+      "title": "App-history-and-ui-rollback-ui-test",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1497",
+      "number": 1497,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "trdoyle81",
+        "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
+      },
+      "created_at": "2026-11-04T14:19:12Z",
+      "updated_at": "2026-11-04T14:59:18Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/enhancement"
+      ]
+    },
+    {
+      "title": "feat(e2e): Move 1-120_repo_server_system_ca_trust.go to parallel",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1498",
+      "number": 1498,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-11-04T14:20:35Z",
+      "updated_at": "2026-11-04T14:26:33Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "kind/enhancement"
       ]
     },
     {
@@ -2792,29 +2817,6 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix(agent): keep the re-created app when the principal deletes and re-creates it",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1183",
-      "number": 1183,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "Gabrielandre02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
-      },
-      "created_at": "2026-11-03T15:06:19Z",
-      "updated_at": "2026-11-03T15:21:20Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -5046,29 +5048,6 @@
       "labels": []
     },
     {
-      "title": "fix: delete configmap when parent is deleted",
-      "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/151",
-      "number": 151,
-      "repo": "argoproj-labs/argo-rollouts-manager",
-      "author": {
-        "login": "jgwest",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
-      },
-      "created_at": "2026-10-29T18:20:14Z",
-      "updated_at": "2026-10-29T21:27:13Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "Bump google.golang.org/grpc from 1.80.0 to 1.83.2",
       "url": "https://github.com/argoproj-labs/rollouts-plugin-trafficrouter-openshift/pull/20",
       "number": 20,
@@ -5146,7 +5125,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-06T14:04:14Z",
+    "since": "2026-08-06T15:05:25Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7864,8 +7843,24 @@
       },
       {
         "login": "jannfis",
-        "reviews": 84,
+        "reviews": 86,
         "prs": [
+          {
+            "title": "fix(agent): keep the re-created app when the principal deletes and re-creates it",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1183",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1183,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-04T14:54:48Z"
+          },
+          {
+            "title": "chore(deps): Bump github.com/grpc-ecosystem/grpc-gateway/v2 to 2.29.0",
+            "url": "https://github.com/argoproj/argo-cd/pull/30732",
+            "repo": "argoproj/argo-cd",
+            "number": 30732,
+            "author": "akhilnittala",
+            "engaged_at": "2026-11-04T14:34:54Z"
+          },
           {
             "title": "build(deps): Bump github.com/go-jose/go-jose/v4 from 4.1.6 to 4.1.7",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1184",
@@ -10468,7 +10463,7 @@
       },
       {
         "login": "aali309",
-        "reviews": 27,
+        "reviews": 26,
         "prs": [
           {
             "title": "fix(helm): use configured proxy for Azure ACR workload identity auth",
@@ -10677,14 +10672,6 @@
             "number": 256,
             "author": "keithchong",
             "engaged_at": "2026-08-07T13:29:06Z"
-          },
-          {
-            "title": "test: skip terminating source namespaces",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1247",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1247,
-            "author": "varshab1210",
-            "engaged_at": "2026-08-06T14:19:32Z"
           }
         ]
       },
@@ -11266,8 +11253,16 @@
       },
       {
         "login": "jparsai",
-        "reviews": 10,
+        "reviews": 11,
         "prs": [
+          {
+            "title": "fix: delete configmap when parent is deleted",
+            "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/151",
+            "repo": "argoproj-labs/argo-rollouts-manager",
+            "number": 151,
+            "author": "jgwest",
+            "engaged_at": "2026-11-04T14:39:00Z"
+          },
           {
             "title": "chore: switch to gcr.io-hosted redis",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1164",
