@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T20:05:09.140607712Z",
+  "generated_at": "2026-11-04T21:05:53.953558447Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1012,10 +1012,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/9358238?u=2e00e76b61e85b5d613580baf54792ef10069629\u0026v=4"
       },
       "created_at": "2024-10-15T21:53:49Z",
-      "updated_at": "2026-03-19T22:31:37Z",
+      "updated_at": "2026-11-04T20:27:08Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1038,7 +1038,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/39793740?u=6fff3c991ff5c7ab990609492c52f54141a651bd\u0026v=4"
       },
       "created_at": "2025-02-10T11:07:46Z",
-      "updated_at": "2026-09-29T14:05:55Z",
+      "updated_at": "2026-11-04T20:32:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1092,7 +1092,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1478202?v=4"
       },
       "created_at": "2026-03-04T15:18:15Z",
-      "updated_at": "2026-05-03T20:42:18Z",
+      "updated_at": "2026-11-04T20:26:46Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1117,7 +1117,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-07-09T07:23:23Z",
-      "updated_at": "2026-10-05T11:45:04Z",
+      "updated_at": "2026-11-04T20:32:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1144,7 +1144,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/135013591?u=c83cf908ed9d4f5ad59cfb13dfdfdf05c9a3f54e\u0026v=4"
       },
       "created_at": "2026-07-13T09:43:43Z",
-      "updated_at": "2026-10-05T11:45:03Z",
+      "updated_at": "2026-11-04T20:30:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1633,7 +1633,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-11-04T18:08:10Z",
+      "updated_at": "2026-11-04T21:00:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1913,7 +1913,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-11-04T08:02:33Z",
-      "updated_at": "2026-11-04T17:48:29Z",
+      "updated_at": "2026-11-04T21:01:45Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1938,7 +1938,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T09:44:01Z",
-      "updated_at": "2026-11-04T19:01:48Z",
+      "updated_at": "2026-11-04T20:48:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1988,7 +1988,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-04T14:19:12Z",
-      "updated_at": "2026-11-04T18:55:35Z",
+      "updated_at": "2026-11-04T20:34:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2013,7 +2013,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T14:20:35Z",
-      "updated_at": "2026-11-04T19:17:39Z",
+      "updated_at": "2026-11-04T20:29:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3945,18 +3945,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-04T20:01:56Z",
-      "updated_at": "2026-11-04T20:02:11Z",
+      "updated_at": "2026-11-04T21:00:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
-      "labels": []
+      "labels": [
+        "ok-to-test"
+      ]
     },
     {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
@@ -5102,7 +5104,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-06T20:03:17Z",
+    "since": "2026-08-06T21:03:53Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9582,8 +9584,16 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 47,
+        "reviews": 48,
         "prs": [
+          {
+            "title": "chore(deps): bump argo-cd from v3.5.7 to v3.6.1",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1918",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1918,
+            "author": "chengfang",
+            "engaged_at": "2026-11-04T20:54:06Z"
+          },
           {
             "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1917",
