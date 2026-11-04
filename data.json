@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T07:06:47.683301022Z",
+  "generated_at": "2026-11-04T08:07:43.253289087Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1219,21 +1219,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-07-28T11:01:31Z",
-      "updated_at": "2026-11-04T05:57:42Z",
+      "updated_at": "2026-11-04T07:47:39Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 2,
       "labels": [
-        "kind/enhancement",
-        "lgtm",
-        "needs-rebase"
+        "kind/enhancement"
       ]
     },
     {
@@ -1839,7 +1837,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-30T11:25:21Z",
-      "updated_at": "2026-11-03T12:32:36Z",
+      "updated_at": "2026-11-04T07:41:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1889,10 +1887,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-02T10:22:03Z",
-      "updated_at": "2026-11-04T05:45:48Z",
+      "updated_at": "2026-11-04T08:02:11Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1980,6 +1978,36 @@
       },
       "unresolved_conversations": 1,
       "labels": [
+        "kind/cleanup"
+      ]
+    },
+    {
+      "title": "feat: support argocd-agent HA principal in operator",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1494",
+      "number": 1494,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "jparsai",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
+      },
+      "created_at": "2026-11-04T08:02:33Z",
+      "updated_at": "2026-11-04T08:02:52Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/bug",
+        "kind/documentation",
+        "kind/enhancement",
+        "kind/failing-ci",
+        "kind/failing-test",
         "kind/cleanup"
       ]
     },
@@ -5102,11 +5130,34 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-07-16T14:24:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-06T07:04:59Z",
+    "since": "2026-08-06T08:05:50Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8478,7 +8529,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 81,
+        "reviews": 80,
         "prs": [
           {
             "title": "update argocd-operator dependency (1.22)",
@@ -9119,14 +9170,6 @@
             "number": 1247,
             "author": "varshab1210",
             "engaged_at": "2026-08-07T06:43:37Z"
-          },
-          {
-            "title": "feat: gate openshfitOAuth with openshfit check and add logs",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2303",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2303,
-            "author": "anandrkskd",
-            "engaged_at": "2026-08-06T07:28:18Z"
           }
         ]
       },
@@ -11439,36 +11482,6 @@
         ]
       },
       {
-        "login": "trdoyle81",
-        "reviews": 3,
-        "prs": [
-          {
-            "title": "chore(test): Avoid printing test-credentials",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1282",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1282,
-            "author": "olivergondza",
-            "engaged_at": "2026-09-23T15:38:04Z"
-          },
-          {
-            "title": "fix: getAppSetStatus incorrectly treats ApplicationSetUpToDate=True as Error",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/284",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 284,
-            "author": "aali309",
-            "engaged_at": "2026-09-01T14:06:25Z"
-          },
-          {
-            "title": "test changes for 1.21.2",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1246",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1246,
-            "author": "varshab1210",
-            "engaged_at": "2026-08-06T07:10:26Z"
-          }
-        ]
-      },
-      {
         "login": "AdamSaleh",
         "reviews": 2,
         "prs": [
@@ -11487,6 +11500,28 @@
             "number": 1268,
             "author": "anandrkskd",
             "engaged_at": "2026-10-01T11:21:33Z"
+          }
+        ]
+      },
+      {
+        "login": "trdoyle81",
+        "reviews": 2,
+        "prs": [
+          {
+            "title": "chore(test): Avoid printing test-credentials",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1282",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1282,
+            "author": "olivergondza",
+            "engaged_at": "2026-09-23T15:38:04Z"
+          },
+          {
+            "title": "fix: getAppSetStatus incorrectly treats ApplicationSetUpToDate=True as Error",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/284",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 284,
+            "author": "aali309",
+            "engaged_at": "2026-09-01T14:06:25Z"
           }
         ]
       },
