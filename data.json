@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T09:06:31.662016976Z",
+  "generated_at": "2026-11-04T10:06:48.550186891Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1347,7 +1347,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-04T08:51:30Z",
+      "updated_at": "2026-11-04T09:12:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1595,31 +1595,6 @@
       ]
     },
     {
-      "title": "fix(util): fix update-dependencies target since some files have been moved or removed",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1462",
-      "number": 1462,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-10-23T12:56:05Z",
-      "updated_at": "2026-10-26T01:13:50Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "kind/bug"
-      ]
-    },
-    {
       "title": "feat(E2E): Move 1-142_validate_image_updater_watch_namespaces_test.go from argocd-operator",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1466",
       "number": 1466,
@@ -1679,19 +1654,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-26T19:17:23Z",
-      "updated_at": "2026-10-26T19:19:50Z",
+      "updated_at": "2026-11-04T09:08:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "docker"
       ]
@@ -1706,7 +1681,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-11-04T09:02:37Z",
+      "updated_at": "2026-11-04T09:07:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2008,6 +1983,31 @@
         "kind/enhancement",
         "kind/failing-ci",
         "kind/failing-test",
+        "kind/cleanup"
+      ]
+    },
+    {
+      "title": "chore: Unify .github + move `hack/` to top level",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1495",
+      "number": 1495,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-11-04T09:44:01Z",
+      "updated_at": "2026-11-04T09:49:18Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
         "kind/cleanup"
       ]
     },
@@ -5157,7 +5157,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-06T09:04:37Z",
+    "since": "2026-08-06T10:04:49Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7013,8 +7013,24 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 105,
+        "reviews": 106,
         "prs": [
+          {
+            "title": "chore(deps): bump library/golang from 1.26 to 1.27 in /argocd-operator/tests/auxiliary/smtplistener",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1469",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1469,
+            "author": "dependabot",
+            "engaged_at": "2026-11-04T09:08:14Z"
+          },
+          {
+            "title": "fix(util): fix update-dependencies target since some files have been moved or removed",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1462",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1462,
+            "author": "chengfang",
+            "engaged_at": "2026-11-04T09:07:24Z"
+          },
           {
             "title": "docs: Fix the doc corrections suggested on #1433",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1492",
@@ -7070,14 +7086,6 @@
             "number": 1467,
             "author": "chengfang",
             "engaged_at": "2026-10-27T08:29:16Z"
-          },
-          {
-            "title": "fix(util): fix update-dependencies target since some files have been moved or removed",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1462",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1462,
-            "author": "chengfang",
-            "engaged_at": "2026-10-24T18:58:19Z"
           },
           {
             "title": "feat(tls): Configure Image Updater Curve Preferences",
