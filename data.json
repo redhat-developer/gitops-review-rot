@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T15:07:44.136849946Z",
+  "generated_at": "2026-11-04T16:07:20.33280062Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1322,10 +1322,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-04T09:12:53Z",
+      "updated_at": "2026-11-04T15:52:16Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1656,10 +1656,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-11-04T14:19:55Z",
+      "updated_at": "2026-11-04T15:52:52Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1762,10 +1762,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-30T05:40:59Z",
-      "updated_at": "2026-11-04T14:28:47Z",
+      "updated_at": "2026-11-04T15:26:05Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2011,7 +2011,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-04T14:19:12Z",
-      "updated_at": "2026-11-04T14:59:18Z",
+      "updated_at": "2026-11-04T15:09:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2036,10 +2036,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T14:20:35Z",
-      "updated_at": "2026-11-04T14:26:33Z",
+      "updated_at": "2026-11-04T15:51:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2760,7 +2760,7 @@
       "updated_at": "2026-10-30T17:13:24Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2786,7 +2786,7 @@
       "updated_at": "2026-11-03T13:12:16Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -5125,11 +5125,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-06T15:05:25Z",
+    "since": "2026-08-06T16:05:27Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 122,
+        "reviews": 121,
         "prs": [
           {
             "title": "fix: prevent command injection via SSH proxy handling in GIT_SSH_COMMAND",
@@ -6098,14 +6098,6 @@
             "number": 1762,
             "author": "dkarpele",
             "engaged_at": "2026-08-06T18:20:21Z"
-          },
-          {
-            "title": "fix(semver): exclude pre-release tags when no semver constraint is set",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1758",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1758,
-            "author": "pujitha24",
-            "engaged_at": "2026-08-06T15:47:59Z"
           }
         ]
       },
