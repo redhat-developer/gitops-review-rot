@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T19:06:04.482314304Z",
+  "generated_at": "2026-11-04T20:05:09.140607712Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1450,7 +1450,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-10-21T12:58:35Z",
-      "updated_at": "2026-11-04T13:28:34Z",
+      "updated_at": "2026-11-04T19:42:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1556,7 +1556,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-10-26T15:02:41Z",
-      "updated_at": "2026-11-04T14:20:37Z",
+      "updated_at": "2026-11-04T19:18:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1789,10 +1789,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-02T04:10:44Z",
-      "updated_at": "2026-11-04T14:47:37Z",
+      "updated_at": "2026-11-04T19:47:13Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1963,7 +1963,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T12:51:15Z",
-      "updated_at": "2026-11-04T18:48:46Z",
+      "updated_at": "2026-11-04T19:04:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2013,7 +2013,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T14:20:35Z",
-      "updated_at": "2026-11-04T17:57:30Z",
+      "updated_at": "2026-11-04T19:17:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2665,10 +2665,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-10-27T00:26:09Z",
-      "updated_at": "2026-11-04T18:47:25Z",
+      "updated_at": "2026-11-04T19:03:31Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
@@ -3936,6 +3936,29 @@
       "labels": []
     },
     {
+      "title": "chore(deps): bump argo-cd from v3.5.7 to v3.6.1",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1918",
+      "number": 1918,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-11-04T20:01:56Z",
+      "updated_at": "2026-11-04T20:02:11Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -5079,7 +5102,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-06T19:04:04Z",
+    "since": "2026-08-06T20:03:17Z",
     "reviewers": [
       {
         "login": "chengfang",
