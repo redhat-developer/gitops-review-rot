@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T11:06:05.222697171Z",
+  "generated_at": "2026-11-04T12:07:37.010428267Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1269,10 +1269,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-06T05:25:51Z",
-      "updated_at": "2026-11-04T05:25:03Z",
+      "updated_at": "2026-11-04T11:31:50Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 4,
@@ -1498,7 +1498,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-10-21T12:58:35Z",
-      "updated_at": "2026-11-04T10:52:30Z",
+      "updated_at": "2026-11-04T11:13:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1706,10 +1706,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-28T08:22:58Z",
-      "updated_at": "2026-11-04T06:26:13Z",
+      "updated_at": "2026-11-04T11:43:38Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1892,10 +1892,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-11-02T16:48:30Z",
-      "updated_at": "2026-11-04T05:27:25Z",
+      "updated_at": "2026-11-04T11:33:36Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 3,
@@ -5157,7 +5157,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-06T11:04:13Z",
+    "since": "2026-08-06T12:05:41Z",
     "reviewers": [
       {
         "login": "chengfang",
