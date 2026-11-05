@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T15:05:39.993744657Z",
+  "generated_at": "2026-11-05T16:06:45.993785246Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1556,10 +1556,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-11-05T14:33:47Z",
+      "updated_at": "2026-11-05T15:23:21Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1608,10 +1608,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-11-05T10:39:07Z",
+      "updated_at": "2026-11-05T15:19:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1714,15 +1714,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-30T05:40:59Z",
-      "updated_at": "2026-11-05T14:45:55Z",
+      "updated_at": "2026-11-05T15:58:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -1863,10 +1863,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-11-04T08:02:33Z",
-      "updated_at": "2026-11-05T10:37:33Z",
+      "updated_at": "2026-11-05T15:13:12Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1988,7 +1988,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
       },
       "created_at": "2026-11-05T08:56:10Z",
-      "updated_at": "2026-11-05T14:26:43Z",
+      "updated_at": "2026-11-05T15:59:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2018,7 +2018,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-05T09:09:21Z",
-      "updated_at": "2026-11-05T15:00:08Z",
+      "updated_at": "2026-11-05T15:21:24Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2045,7 +2045,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1478202?v=4"
       },
       "created_at": "2026-11-05T14:02:47Z",
-      "updated_at": "2026-11-05T14:33:55Z",
+      "updated_at": "2026-11-05T15:44:49Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2770,7 +2770,7 @@
       "updated_at": "2026-11-05T12:44:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 3,
@@ -3718,7 +3718,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/122638311?u=37b47fe393462a31aaddf910be1b2147d587e91e\u0026v=4"
       },
       "created_at": "2026-05-31T11:29:11Z",
-      "updated_at": "2026-06-30T22:00:29Z",
+      "updated_at": "2026-11-05T15:54:08Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5180,11 +5180,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-07T15:03:47Z",
+    "since": "2026-08-07T16:04:49Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 120,
+        "reviews": 119,
         "prs": [
           {
             "title": "fix: prevent command injection via SSH proxy handling in GIT_SSH_COMMAND",
@@ -6137,14 +6137,6 @@
             "number": 1764,
             "author": "pujitha24",
             "engaged_at": "2026-08-07T20:36:06Z"
-          },
-          {
-            "title": "fix(digest): pick the right live image when multiple containers share the same image",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1757",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1757,
-            "author": "C4tWithShell",
-            "engaged_at": "2026-08-07T15:23:46Z"
           }
         ]
       },
