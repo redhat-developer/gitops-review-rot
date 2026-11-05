@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T20:07:12.066753422Z",
+  "generated_at": "2026-11-05T21:05:44.146970408Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1712,7 +1712,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-02T04:10:44Z",
-      "updated_at": "2026-11-05T20:02:17Z",
+      "updated_at": "2026-11-05T20:58:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1991,7 +1991,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1478202?v=4"
       },
       "created_at": "2026-11-05T14:02:47Z",
-      "updated_at": "2026-11-05T15:44:49Z",
+      "updated_at": "2026-11-05T20:03:18Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2472,7 +2472,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/122638311?u=37b47fe393462a31aaddf910be1b2147d587e91e\u0026v=4"
       },
       "created_at": "2026-06-17T06:57:09Z",
-      "updated_at": "2026-11-05T19:13:40Z",
+      "updated_at": "2026-11-05T20:39:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2728,7 +2728,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/77117188?u=dd64c06a3f2a41a882a389abb1a32ccbe57f5ab6\u0026v=4"
       },
       "created_at": "2026-10-24T06:19:21Z",
-      "updated_at": "2026-11-05T19:38:32Z",
+      "updated_at": "2026-11-05T20:28:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2738,7 +2738,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 6,
       "labels": []
     },
     {
@@ -4162,6 +4162,29 @@
       ]
     },
     {
+      "title": "fix(ci): Create and push the multi-arch index with buildx imagetools instead of `docker manifest",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1925",
+      "number": 1925,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "dkarpele",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
+      },
+      "created_at": "2026-11-05T20:51:45Z",
+      "updated_at": "2026-11-05T20:57:15Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -5168,7 +5191,7 @@
       "updated_at": "2026-11-05T18:10:41Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5347,15 +5370,38 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-07T20:05:22Z",
+    "since": "2026-08-07T21:03:45Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 119,
+        "reviews": 118,
         "prs": [
           {
             "title": "fix: prevent command injection via SSH proxy handling in GIT_SSH_COMMAND",
@@ -6300,14 +6346,6 @@
             "number": 1763,
             "author": "pujitha24",
             "engaged_at": "2026-08-10T21:10:07Z"
-          },
-          {
-            "title": "test: add regression coverage for force-update image with empty registry tags",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1764",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1764,
-            "author": "pujitha24",
-            "engaged_at": "2026-08-07T20:36:06Z"
           }
         ]
       },
@@ -11629,7 +11667,7 @@
             "repo": "argoproj-labs/argocd-agent",
             "number": 1168,
             "author": "sathwick-p",
-            "engaged_at": "2026-11-05T12:22:33Z"
+            "engaged_at": "2026-11-05T20:28:36Z"
           },
           {
             "title": "fix: handle missing cluster info and improve stats summary output",
