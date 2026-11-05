@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T12:07:33.62183785Z",
+  "generated_at": "2026-11-05T13:07:00.665713615Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1246,7 +1246,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-11-05T07:44:41Z",
+      "updated_at": "2026-11-05T12:18:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1739,10 +1739,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-02T04:10:44Z",
-      "updated_at": "2026-11-05T09:23:41Z",
+      "updated_at": "2026-11-05T12:52:06Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1963,7 +1963,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T14:20:35Z",
-      "updated_at": "2026-11-05T11:47:06Z",
+      "updated_at": "2026-11-05T12:27:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1988,7 +1988,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
       },
       "created_at": "2026-11-05T08:56:10Z",
-      "updated_at": "2026-11-05T10:44:23Z",
+      "updated_at": "2026-11-05T12:47:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2018,10 +2018,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-05T09:09:21Z",
-      "updated_at": "2026-11-05T09:59:14Z",
+      "updated_at": "2026-11-05T12:45:04Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2626,13 +2626,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/77117188?u=dd64c06a3f2a41a882a389abb1a32ccbe57f5ab6\u0026v=4"
       },
       "created_at": "2026-10-24T06:19:21Z",
-      "updated_at": "2026-11-05T01:17:53Z",
+      "updated_at": "2026-11-05T12:22:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 2,
+        "count": 3,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -2744,7 +2744,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-10-31T22:19:53Z",
-      "updated_at": "2026-11-05T11:51:09Z",
+      "updated_at": "2026-11-05T12:44:03Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -3787,7 +3787,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
       },
       "created_at": "2026-10-06T19:33:44Z",
-      "updated_at": "2026-10-18T20:17:58Z",
+      "updated_at": "2026-11-05T12:17:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5157,7 +5157,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-07T12:05:38Z",
+    "since": "2026-08-07T13:05:04Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -11450,6 +11450,52 @@
         ]
       },
       {
+        "login": "cjcocokrisp",
+        "reviews": 5,
+        "prs": [
+          {
+            "title": "feat(agent): reload client TLS certificate without restart",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1168",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1168,
+            "author": "sathwick-p",
+            "engaged_at": "2026-11-05T12:22:33Z"
+          },
+          {
+            "title": "fix: handle missing cluster info and improve stats summary output",
+            "url": "https://github.com/argoproj/argo-cd/pull/30335",
+            "repo": "argoproj/argo-cd",
+            "number": 30335,
+            "author": "afzal442",
+            "engaged_at": "2026-10-23T13:30:37Z"
+          },
+          {
+            "title": "chore: update go.mod dependecies to latest",
+            "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/147",
+            "repo": "argoproj-labs/argo-rollouts-manager",
+            "number": 147,
+            "author": "jgwest",
+            "engaged_at": "2026-10-02T12:24:05Z"
+          },
+          {
+            "title": "fix(promoter): mount writable temporary storage for the controller",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1302",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1302,
+            "author": "jsell-rh",
+            "engaged_at": "2026-09-21T17:28:27Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.36.0",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2340",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2340,
+            "author": "dependabot",
+            "engaged_at": "2026-08-27T19:22:17Z"
+          }
+        ]
+      },
+      {
         "login": "kuci-JK",
         "reviews": 5,
         "prs": [
@@ -11492,44 +11538,6 @@
             "number": 29398,
             "author": "blakepettersson",
             "engaged_at": "2026-08-26T12:09:32Z"
-          }
-        ]
-      },
-      {
-        "login": "cjcocokrisp",
-        "reviews": 4,
-        "prs": [
-          {
-            "title": "fix: handle missing cluster info and improve stats summary output",
-            "url": "https://github.com/argoproj/argo-cd/pull/30335",
-            "repo": "argoproj/argo-cd",
-            "number": 30335,
-            "author": "afzal442",
-            "engaged_at": "2026-10-23T13:30:37Z"
-          },
-          {
-            "title": "chore: update go.mod dependecies to latest",
-            "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/147",
-            "repo": "argoproj-labs/argo-rollouts-manager",
-            "number": 147,
-            "author": "jgwest",
-            "engaged_at": "2026-10-02T12:24:05Z"
-          },
-          {
-            "title": "fix(promoter): mount writable temporary storage for the controller",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1302",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1302,
-            "author": "jsell-rh",
-            "engaged_at": "2026-09-21T17:28:27Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.36.0",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2340",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2340,
-            "author": "dependabot",
-            "engaged_at": "2026-08-27T19:22:17Z"
           }
         ]
       },
