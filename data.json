@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T18:06:03.591296418Z",
+  "generated_at": "2026-11-05T19:05:25.071100204Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1608,7 +1608,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-11-05T17:19:18Z",
+      "updated_at": "2026-11-05T19:00:41Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1739,7 +1739,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-02T04:10:44Z",
-      "updated_at": "2026-11-05T14:55:57Z",
+      "updated_at": "2026-11-05T18:59:13Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1789,7 +1789,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-11-02T16:48:30Z",
-      "updated_at": "2026-11-05T17:43:39Z",
+      "updated_at": "2026-11-05T18:46:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1963,7 +1963,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T14:20:35Z",
-      "updated_at": "2026-11-05T14:25:16Z",
+      "updated_at": "2026-11-05T18:21:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2887,7 +2887,7 @@
       "updated_at": "2026-11-05T18:02:28Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5079,6 +5079,29 @@
       ]
     },
     {
+      "title": "chore(deps): bump image-updater from 1.2.2 to 1.2.3; bump argocd from 3.4.4 to 3.4.13",
+      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2419",
+      "number": 2419,
+      "repo": "argoproj-labs/argocd-operator",
+      "author": {
+        "login": "dkarpele",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
+      },
+      "created_at": "2026-11-05T18:10:31Z",
+      "updated_at": "2026-11-05T18:10:41Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "fixes for Openshift deployment",
       "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/89",
       "number": 89,
@@ -5228,7 +5251,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-07T18:04:00Z",
+    "since": "2026-08-07T19:03:32Z",
     "reviewers": [
       {
         "login": "chengfang",
