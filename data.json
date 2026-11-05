@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T07:06:17.867025713Z",
+  "generated_at": "2026-11-05T08:07:29.110488212Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1246,7 +1246,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
       },
       "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-11-05T06:58:33Z",
+      "updated_at": "2026-11-05T07:44:41Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1714,10 +1714,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-30T05:40:59Z",
-      "updated_at": "2026-11-05T06:50:24Z",
+      "updated_at": "2026-11-05T07:47:19Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1913,7 +1913,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T12:51:15Z",
-      "updated_at": "2026-11-05T06:50:54Z",
+      "updated_at": "2026-11-05T07:58:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1963,7 +1963,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T14:20:35Z",
-      "updated_at": "2026-11-05T06:51:39Z",
+      "updated_at": "2026-11-05T07:49:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2710,10 +2710,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-11-03T14:34:54Z",
-      "updated_at": "2026-11-03T15:32:01Z",
+      "updated_at": "2026-11-05T07:36:50Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5100,7 +5100,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-07T07:04:21Z",
+    "since": "2026-08-07T08:05:28Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10724,7 +10724,7 @@
       },
       {
         "login": "chetan-rns",
-        "reviews": 25,
+        "reviews": 24,
         "prs": [
           {
             "title": "chore: Add Route/FRP-based Reverse Tunnel",
@@ -10917,14 +10917,6 @@
             "number": 1067,
             "author": "dependabot",
             "engaged_at": "2026-08-12T07:35:32Z"
-          },
-          {
-            "title": "fix: skip mapping an app to an agent that isn't actually connected",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1061",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1061,
-            "author": "mikeshng",
-            "engaged_at": "2026-08-07T07:42:42Z"
           }
         ]
       },
@@ -10938,7 +10930,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1483,
             "author": "jparsai",
-            "engaged_at": "2026-11-05T05:39:37Z"
+            "engaged_at": "2026-11-05T07:47:19Z"
           },
           {
             "title": "update argocd version for 1.22.3",
