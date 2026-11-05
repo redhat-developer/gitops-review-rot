@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T21:05:44.146970408Z",
+  "generated_at": "2026-11-05T22:06:04.899512128Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -927,6 +927,29 @@
       "labels": []
     },
     {
+      "title": "feat: make header and columns sticky and resizable",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/314",
+      "number": 314,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "aali309",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
+      },
+      "created_at": "2026-11-05T21:49:48Z",
+      "updated_at": "2026-11-05T21:58:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
       "title": "chore(deps): update konflux references",
       "url": "https://github.com/redhat-developer/gitops-must-gather/pull/52",
       "number": 52,
@@ -1529,10 +1552,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-11-05T16:45:19Z",
+      "updated_at": "2026-11-05T21:20:02Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1712,7 +1735,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-02T04:10:44Z",
-      "updated_at": "2026-11-05T20:58:28Z",
+      "updated_at": "2026-11-05T21:14:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1722,7 +1745,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "kind/enhancement"
       ]
@@ -5214,7 +5237,7 @@
       "updated_at": "2026-11-05T19:25:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5397,7 +5420,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-07T21:03:45Z",
+    "since": "2026-08-07T22:04:11Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8115,7 +8138,7 @@
       },
       {
         "login": "jannfis",
-        "reviews": 91,
+        "reviews": 90,
         "prs": [
           {
             "title": "feat(agent): reload client TLS certificate without restart",
@@ -8836,14 +8859,6 @@
             "number": 1065,
             "author": "dependabot",
             "engaged_at": "2026-08-08T15:02:21Z"
-          },
-          {
-            "title": "build(deps): Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace from 1.44.0 to 1.45.0",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1063",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1063,
-            "author": "dependabot",
-            "engaged_at": "2026-08-07T21:12:00Z"
           }
         ]
       },
@@ -9479,7 +9494,7 @@
       },
       {
         "login": "ranakan19",
-        "reviews": 51,
+        "reviews": 49,
         "prs": [
           {
             "title": "fix(helm): use configured proxy for Azure ACR workload identity auth",
@@ -9872,22 +9887,6 @@
             "number": 25088,
             "author": "nitishfy",
             "engaged_at": "2026-08-11T13:11:07Z"
-          },
-          {
-            "title": "fix(controller): cherry-pick treat `timeout.reconciliation=0` as disabled soft expiry (#27683)",
-            "url": "https://github.com/argoproj/argo-cd/pull/29007",
-            "repo": "argoproj/argo-cd",
-            "number": 29007,
-            "author": "aali309",
-            "engaged_at": "2026-08-07T21:34:41Z"
-          },
-          {
-            "title": "fix(controller): use diff cache when timeout.reconciliation is disabled",
-            "url": "https://github.com/argoproj/argo-cd/pull/29073",
-            "repo": "argoproj/argo-cd",
-            "number": 29073,
-            "author": "aali309",
-            "engaged_at": "2026-08-07T21:33:38Z"
           }
         ]
       },
