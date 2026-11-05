@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T01:06:38.399446583Z",
+  "generated_at": "2026-11-05T02:07:56.79453141Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -405,7 +405,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-14T01:39:13Z",
-      "updated_at": "2026-10-28T06:50:23Z",
+      "updated_at": "2026-11-05T01:15:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -635,7 +635,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:24:25Z",
-      "updated_at": "2026-11-04T05:18:27Z",
+      "updated_at": "2026-11-05T01:23:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -658,7 +658,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:30:16Z",
-      "updated_at": "2026-11-04T05:20:41Z",
+      "updated_at": "2026-11-05T01:26:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -750,7 +750,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-06T07:01:53Z",
-      "updated_at": "2026-11-04T05:15:45Z",
+      "updated_at": "2026-11-05T01:19:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1685,10 +1685,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-29T19:14:32Z",
-      "updated_at": "2026-10-30T03:01:41Z",
+      "updated_at": "2026-11-05T02:03:52Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1789,7 +1789,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-02T04:10:44Z",
-      "updated_at": "2026-11-04T19:47:13Z",
+      "updated_at": "2026-11-05T02:01:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1799,7 +1799,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 3,
       "labels": [
         "kind/enhancement"
       ]
@@ -1814,10 +1814,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-02T10:22:03Z",
-      "updated_at": "2026-11-04T12:47:18Z",
+      "updated_at": "2026-11-05T02:02:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2524,7 +2524,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3942683?u=038f901f9541001e86f098745d541daaaf7f2974\u0026v=4"
       },
       "created_at": "2026-10-02T21:54:47Z",
-      "updated_at": "2026-10-02T23:15:38Z",
+      "updated_at": "2026-11-05T01:41:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2570,10 +2570,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3256083?u=3d1cd3c67ba5cd8280ba864f8b57f48ea3c9be29\u0026v=4"
       },
       "created_at": "2026-10-16T16:07:21Z",
-      "updated_at": "2026-10-28T10:33:13Z",
+      "updated_at": "2026-11-05T01:34:22Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2619,15 +2619,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/77117188?u=dd64c06a3f2a41a882a389abb1a32ccbe57f5ab6\u0026v=4"
       },
       "created_at": "2026-10-24T06:19:21Z",
-      "updated_at": "2026-11-02T07:14:27Z",
+      "updated_at": "2026-11-05T01:17:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -2783,14 +2783,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-05T00:36:14Z",
-      "updated_at": "2026-11-05T00:51:49Z",
+      "updated_at": "2026-11-05T01:15:40Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
+        "count": 2,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -2806,13 +2806,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-05T00:36:30Z",
-      "updated_at": "2026-11-05T00:52:23Z",
+      "updated_at": "2026-11-05T01:16:47Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -5881,7 +5881,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-07T01:04:52Z",
+    "since": "2026-08-07T02:06:06Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8583,8 +8583,32 @@
       },
       {
         "login": "jannfis",
-        "reviews": 88,
+        "reviews": 91,
         "prs": [
+          {
+            "title": "feat(agent): reload client TLS certificate without restart",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1168",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1168,
+            "author": "sathwick-p",
+            "engaged_at": "2026-11-05T01:17:53Z"
+          },
+          {
+            "title": "feat: make destination-based mapping the default",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1186",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1186,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-05T01:16:46Z"
+          },
+          {
+            "title": "feat: warn that namespace-based mapping is deprecated",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1185",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1185,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-05T01:15:40Z"
+          },
           {
             "title": "fix(redisproxy): resubscribe live view when an agent reconnects",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1171",
