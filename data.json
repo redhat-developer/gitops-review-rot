@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T09:07:15.327841068Z",
+  "generated_at": "2026-11-05T10:07:17.579870892Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1556,10 +1556,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-11-05T08:23:26Z",
+      "updated_at": "2026-11-05T09:04:17Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1608,7 +1608,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-11-05T09:01:16Z",
+      "updated_at": "2026-11-05T09:50:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1739,7 +1739,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-02T04:10:44Z",
-      "updated_at": "2026-11-05T03:53:50Z",
+      "updated_at": "2026-11-05T09:23:41Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1863,7 +1863,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-11-04T08:02:33Z",
-      "updated_at": "2026-11-05T09:02:39Z",
+      "updated_at": "2026-11-05T09:58:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1988,7 +1988,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
       },
       "created_at": "2026-11-05T08:56:10Z",
-      "updated_at": "2026-11-05T09:02:53Z",
+      "updated_at": "2026-11-05T09:15:19Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2006,6 +2006,33 @@
         "kind/failing-ci",
         "kind/failing-test",
         "kind/cleanup"
+      ]
+    },
+    {
+      "title": "chore: update sequential E2E suite timeout",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1500",
+      "number": 1500,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-11-05T09:09:21Z",
+      "updated_at": "2026-11-05T09:59:14Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "lgtm",
+        "approved",
+        "kind/failing-ci"
       ]
     },
     {
@@ -2743,7 +2770,7 @@
       "updated_at": "2026-11-05T07:36:50Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5130,7 +5157,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-07T09:05:19Z",
+    "since": "2026-08-07T10:05:17Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10952,8 +10979,16 @@
       },
       {
         "login": "varshab1210",
-        "reviews": 17,
+        "reviews": 18,
         "prs": [
+          {
+            "title": "chore: update sequential E2E suite timeout",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1500",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1500,
+            "author": "jgwest",
+            "engaged_at": "2026-11-05T09:30:06Z"
+          },
           {
             "title": "feat: support custom labels in self-registration cluster secret",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1483",
