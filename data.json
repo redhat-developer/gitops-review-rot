@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:06:12.431811951Z",
+  "generated_at": "2026-11-06T18:06:43.209134859Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1473,10 +1473,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-10-21T12:58:35Z",
-      "updated_at": "2026-11-05T22:31:46Z",
+      "updated_at": "2026-11-06T17:43:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1958,10 +1958,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
       },
       "created_at": "2026-11-05T08:56:10Z",
-      "updated_at": "2026-11-06T14:06:26Z",
+      "updated_at": "2026-11-06T17:20:28Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2962,6 +2962,58 @@
       },
       "unresolved_conversations": 4,
       "labels": []
+    },
+    {
+      "title": "build(deps): Bump github.com/argoproj/argo-cd/v3 from 3.5.6 to 3.5.7",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1192",
+      "number": 1192,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-06T17:13:06Z",
+      "updated_at": "2026-11-06T17:13:16Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "build(deps): Bump github.com/go-jose/go-jose/v4 from 4.1.7 to 4.1.8",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1193",
+      "number": 1193,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-06T17:13:19Z",
+      "updated_at": "2026-11-06T17:13:28Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go"
+      ]
     },
     {
       "title": "Add OAuth support. It is need for access to Azure CR",
@@ -5337,7 +5389,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-08T17:04:15Z",
+    "since": "2026-08-08T18:04:39Z",
     "reviewers": [
       {
         "login": "chengfang",
