@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T16:05:52.583958304Z",
+  "generated_at": "2026-11-06T17:06:12.431811951Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -913,7 +913,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
       },
       "created_at": "2026-11-02T22:11:22Z",
-      "updated_at": "2026-11-06T14:45:27Z",
+      "updated_at": "2026-11-06T16:39:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1899,31 +1899,6 @@
       ]
     },
     {
-      "title": "chore: Clean inner Makefile",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1496",
-      "number": 1496,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "olivergondza",
-        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
-      },
-      "created_at": "2026-11-04T12:51:15Z",
-      "updated_at": "2026-11-05T07:58:34Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 3,
-      "labels": [
-        "kind/cleanup"
-      ]
-    },
-    {
       "title": "App-history-and-ui-rollback-ui-test",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1497",
       "number": 1497,
@@ -1933,7 +1908,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-04T14:19:12Z",
-      "updated_at": "2026-11-06T11:43:24Z",
+      "updated_at": "2026-11-06T16:51:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1958,7 +1933,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T14:20:35Z",
-      "updated_at": "2026-11-06T14:00:47Z",
+      "updated_at": "2026-11-06T16:39:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2883,37 +2858,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-11-03T14:34:54Z",
-      "updated_at": "2026-11-05T07:36:50Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "feat: warn that namespace-based mapping is deprecated",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1185",
-      "number": 1185,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "Gabrielandre02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
-      },
-      "created_at": "2026-11-05T00:36:14Z",
-      "updated_at": "2026-11-05T01:15:40Z",
+      "updated_at": "2026-11-06T16:49:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
-        "approved_count": 1,
+        "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4199,31 +4151,6 @@
       ]
     },
     {
-      "title": "fix(ci): Create and push the multi-arch index with buildx imagetools instead of `docker manifest",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1925",
-      "number": 1925,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "dkarpele",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
-      },
-      "created_at": "2026-11-05T20:51:45Z",
-      "updated_at": "2026-11-06T09:26:42Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
-      ]
-    },
-    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -5410,12 +5337,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-08T16:03:59Z",
+    "since": "2026-08-08T17:04:15Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 119,
+        "reviews": 120,
         "prs": [
+          {
+            "title": "fix(ci): Create and push the multi-arch index with buildx imagetools instead of `docker manifest",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1925",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1925,
+            "author": "dkarpele",
+            "engaged_at": "2026-11-06T16:47:33Z"
+          },
           {
             "title": "fix: E2E tests failure improvements",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1509",
@@ -8152,8 +8087,16 @@
       },
       {
         "login": "jannfis",
-        "reviews": 89,
+        "reviews": 90,
         "prs": [
+          {
+            "title": "fix: add clientAuth EKU to principal server cert for HA",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1182",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1182,
+            "author": "jparsai",
+            "engaged_at": "2026-11-06T16:49:27Z"
+          },
           {
             "title": "feat(agent): reload client TLS certificate without restart",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1168",
@@ -10804,7 +10747,7 @@
             "repo": "redhat-developer/gitops-console-plugin",
             "number": 313,
             "author": "keithchong",
-            "engaged_at": "2026-11-06T00:21:18Z"
+            "engaged_at": "2026-11-06T16:39:35Z"
           },
           {
             "title": "fix(helm): use configured proxy for Azure ACR workload identity auth",
