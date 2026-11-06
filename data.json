@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T14:06:24.336607689Z",
+  "generated_at": "2026-11-06T15:05:54.240082877Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -913,7 +913,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
       },
       "created_at": "2026-11-02T22:11:22Z",
-      "updated_at": "2026-11-06T00:21:19Z",
+      "updated_at": "2026-11-06T14:45:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1322,7 +1322,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-06T12:16:09Z",
+      "updated_at": "2026-11-06T14:13:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1734,7 +1734,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-02T04:10:44Z",
-      "updated_at": "2026-11-06T04:01:46Z",
+      "updated_at": "2026-11-06T14:14:41Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1742,7 +1742,7 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -1833,10 +1833,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-11-03T19:21:34Z",
-      "updated_at": "2026-11-06T09:57:11Z",
+      "updated_at": "2026-11-06T14:49:59Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1883,7 +1883,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T09:44:01Z",
-      "updated_at": "2026-11-06T13:56:21Z",
+      "updated_at": "2026-11-06T14:44:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1983,7 +1983,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
       },
       "created_at": "2026-11-05T08:56:10Z",
-      "updated_at": "2026-11-06T13:43:17Z",
+      "updated_at": "2026-11-06T14:06:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2135,10 +2135,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-06T13:48:11Z",
-      "updated_at": "2026-11-06T13:49:42Z",
+      "updated_at": "2026-11-06T14:43:57Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2647,7 +2647,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3942683?u=038f901f9541001e86f098745d541daaaf7f2974\u0026v=4"
       },
       "created_at": "2026-10-02T21:54:47Z",
-      "updated_at": "2026-11-05T01:41:43Z",
+      "updated_at": "2026-11-06T14:03:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2742,7 +2742,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/77117188?u=dd64c06a3f2a41a882a389abb1a32ccbe57f5ab6\u0026v=4"
       },
       "created_at": "2026-10-24T06:19:21Z",
-      "updated_at": "2026-11-06T11:49:32Z",
+      "updated_at": "2026-11-06T14:26:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2750,9 +2750,9 @@
       "reviews": {
         "count": 3,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 6,
+      "unresolved_conversations": 7,
       "labels": []
     },
     {
@@ -2975,7 +2975,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-05T19:41:34Z",
-      "updated_at": "2026-11-06T02:00:01Z",
+      "updated_at": "2026-11-06T14:29:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5436,7 +5436,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-08T14:04:27Z",
+    "since": "2026-08-08T15:03:58Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6398,8 +6398,16 @@
       },
       {
         "login": "jgwest",
-        "reviews": 111,
+        "reviews": 112,
         "prs": [
+          {
+            "title": "build(deps): bump go.opentelemetry.io/otel/sdk from 1.44.0 to 1.45.0",
+            "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/149",
+            "repo": "argoproj-labs/argo-rollouts-manager",
+            "number": 149,
+            "author": "dependabot",
+            "engaged_at": "2026-11-06T15:03:14Z"
+          },
           {
             "title": "feat(E2E): Move 1-142_validate_image_updater_watch_namespaces_test.go from argocd-operator",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1466",
@@ -7295,20 +7303,20 @@
         "reviews": 109,
         "prs": [
           {
+            "title": "feat: support Image Updater webhook configuration in the ArgoCD CR",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1485",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1485,
+            "author": "chengfang",
+            "engaged_at": "2026-11-06T14:14:41Z"
+          },
+          {
             "title": "chore(e2e): register namespace cleanup with DeferCleanup",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1504",
             "repo": "redhat-developer/gitops-operator",
             "number": 1504,
             "author": "Gabrielandre02",
             "engaged_at": "2026-11-06T08:12:55Z"
-          },
-          {
-            "title": "feat: support Image Updater webhook configuration in the ArgoCD CR",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1485",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1485,
-            "author": "chengfang",
-            "engaged_at": "2026-11-05T14:55:56Z"
           },
           {
             "title": "GITOPS-11058 use argocd-redis secret by default",
@@ -8170,7 +8178,7 @@
       },
       {
         "login": "jannfis",
-        "reviews": 90,
+        "reviews": 89,
         "prs": [
           {
             "title": "feat(agent): reload client TLS certificate without restart",
@@ -8883,14 +8891,6 @@
             "number": 1066,
             "author": "jgwest",
             "engaged_at": "2026-08-12T18:50:44Z"
-          },
-          {
-            "title": "build(deps): Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc from 1.43.0 to 1.45.0",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1065",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1065,
-            "author": "dependabot",
-            "engaged_at": "2026-08-08T15:02:21Z"
           }
         ]
       },
@@ -11714,7 +11714,7 @@
             "repo": "argoproj-labs/argocd-agent",
             "number": 1168,
             "author": "sathwick-p",
-            "engaged_at": "2026-11-05T20:28:36Z"
+            "engaged_at": "2026-11-06T14:26:17Z"
           },
           {
             "title": "fix: handle missing cluster info and improve stats summary output",
