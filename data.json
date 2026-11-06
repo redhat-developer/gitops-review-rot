@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T15:05:54.240082877Z",
+  "generated_at": "2026-11-06T16:05:52.583958304Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1322,7 +1322,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-06T14:13:51Z",
+      "updated_at": "2026-11-06T15:08:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1883,7 +1883,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T09:44:01Z",
-      "updated_at": "2026-11-06T14:44:55Z",
+      "updated_at": "2026-11-06T15:26:02Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2135,7 +2135,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-06T13:48:11Z",
-      "updated_at": "2026-11-06T14:43:57Z",
+      "updated_at": "2026-11-06T15:46:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5310,32 +5310,6 @@
       "labels": []
     },
     {
-      "title": "build(deps): bump go.opentelemetry.io/otel/sdk from 1.44.0 to 1.45.0",
-      "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/149",
-      "number": 149,
-      "repo": "argoproj-labs/argo-rollouts-manager",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-20T05:49:16Z",
-      "updated_at": "2026-10-20T05:49:24Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "feat: missing Image-pull-secret propagation to rollouts-manager instances",
       "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/150",
       "number": 150,
@@ -5436,7 +5410,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-08T15:03:58Z",
+    "since": "2026-08-08T16:03:59Z",
     "reviewers": [
       {
         "login": "chengfang",
