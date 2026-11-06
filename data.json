@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T00:09:36.208878526Z",
+  "generated_at": "2026-11-06T01:06:24.639975713Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -913,17 +913,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
       },
       "created_at": "2026-11-02T22:11:22Z",
-      "updated_at": "2026-11-05T17:03:01Z",
+      "updated_at": "2026-11-06T00:21:19Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 2,
+        "count": 3,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 6,
       "labels": []
     },
     {
@@ -2104,6 +2104,31 @@
         "needs-ok-to-test",
         "dependencies",
         "go"
+      ]
+    },
+    {
+      "title": "fix: E2E tests failing due to v4.18 cluster version comparison",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1509",
+      "number": 1509,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-11-06T00:15:34Z",
+      "updated_at": "2026-11-06T00:47:49Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "kind/failing-test"
       ]
     },
     {
@@ -5339,11 +5364,34 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-08T00:07:46Z",
+    "since": "2026-08-08T01:04:37Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10713,8 +10761,16 @@
       },
       {
         "login": "aali309",
-        "reviews": 24,
+        "reviews": 25,
         "prs": [
+          {
+            "title": "feat: Add Needs Attention, Recent Operations, Infrastructure cards to Dashboard (#11627)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/313",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 313,
+            "author": "keithchong",
+            "engaged_at": "2026-11-06T00:21:18Z"
+          },
           {
             "title": "fix(helm): use configured proxy for Azure ACR workload identity auth",
             "url": "https://github.com/argoproj/argo-cd/pull/29675",
