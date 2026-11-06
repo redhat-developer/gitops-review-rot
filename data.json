@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T09:06:36.77750494Z",
+  "generated_at": "2026-11-06T10:06:04.330355362Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1631,10 +1631,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-28T08:22:58Z",
-      "updated_at": "2026-11-06T07:40:28Z",
+      "updated_at": "2026-11-06T09:12:44Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1835,7 +1835,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-11-03T19:21:34Z",
-      "updated_at": "2026-11-06T08:07:27Z",
+      "updated_at": "2026-11-06T09:57:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1935,10 +1935,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-04T14:19:12Z",
-      "updated_at": "2026-11-05T04:13:09Z",
+      "updated_at": "2026-11-06T09:54:05Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1985,7 +1985,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
       },
       "created_at": "2026-11-05T08:56:10Z",
-      "updated_at": "2026-11-06T08:39:41Z",
+      "updated_at": "2026-11-06T09:47:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1997,12 +1997,7 @@
       },
       "unresolved_conversations": 2,
       "labels": [
-        "kind/bug",
-        "kind/documentation",
-        "kind/enhancement",
-        "kind/failing-ci",
-        "kind/failing-test",
-        "kind/cleanup"
+        "kind/bug"
       ]
     },
     {
@@ -2117,7 +2112,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-06T00:15:34Z",
-      "updated_at": "2026-11-06T07:53:52Z",
+      "updated_at": "2026-11-06T09:41:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2125,9 +2120,9 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "kind/failing-test"
       ]
@@ -4141,15 +4136,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-04T20:01:56Z",
-      "updated_at": "2026-11-04T21:43:59Z",
+      "updated_at": "2026-11-06T10:00:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
+        "count": 3,
+        "approved_count": 1,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -4166,7 +4161,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-05T20:51:45Z",
-      "updated_at": "2026-11-05T20:57:15Z",
+      "updated_at": "2026-11-06T09:26:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4177,7 +4172,9 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": []
+      "labels": [
+        "ok-to-test"
+      ]
     },
     {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
@@ -5392,7 +5389,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-08T09:04:36Z",
+    "since": "2026-08-08T10:04:13Z",
     "reviewers": [
       {
         "login": "chengfang",
