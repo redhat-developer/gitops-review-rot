@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T12:07:20.33032746Z",
+  "generated_at": "2026-11-06T13:06:35.528815996Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1322,20 +1322,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-06T05:58:33Z",
+      "updated_at": "2026-11-06T12:16:09Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 9,
-      "labels": [
-        "needs-rebase"
-      ]
+      "labels": []
     },
     {
       "title": "feat: add configurable replicas for backend and plugin deployments",
@@ -2977,7 +2975,7 @@
       "updated_at": "2026-11-06T11:40:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5412,7 +5410,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-08T12:05:21Z",
+    "since": "2026-08-08T13:04:38Z",
     "reviewers": [
       {
         "login": "chengfang",
