@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T11:06:41.896597511Z",
+  "generated_at": "2026-11-06T12:07:20.33032746Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1219,7 +1219,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/315658242?v=4"
       },
       "created_at": "2026-09-05T16:01:43Z",
-      "updated_at": "2026-11-06T07:01:26Z",
+      "updated_at": "2026-11-06T11:17:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1606,10 +1606,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-11-06T10:36:20Z",
+      "updated_at": "2026-11-06T11:05:52Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1711,10 +1711,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-30T05:40:59Z",
-      "updated_at": "2026-11-06T10:31:08Z",
+      "updated_at": "2026-11-06T11:10:22Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1935,7 +1935,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-04T14:19:12Z",
-      "updated_at": "2026-11-06T10:27:02Z",
+      "updated_at": "2026-11-06T11:43:24Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2033,13 +2033,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-05T17:49:10Z",
-      "updated_at": "2026-11-06T08:13:32Z",
+      "updated_at": "2026-11-06T11:50:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -2718,7 +2718,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/77117188?u=dd64c06a3f2a41a882a389abb1a32ccbe57f5ab6\u0026v=4"
       },
       "created_at": "2026-10-24T06:19:21Z",
-      "updated_at": "2026-11-06T10:20:53Z",
+      "updated_at": "2026-11-06T11:49:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2958,6 +2958,29 @@
       "size": null,
       "reviews": {
         "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 4,
+      "labels": []
+    },
+    {
+      "title": "fix: verify agent ownership of Applications on inbound events",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1191",
+      "number": 1191,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "chetan-rns",
+        "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
+      },
+      "created_at": "2026-11-06T11:29:56Z",
+      "updated_at": "2026-11-06T11:40:03Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -5389,7 +5412,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-08T11:04:49Z",
+    "since": "2026-08-08T12:05:21Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -11802,6 +11825,36 @@
         ]
       },
       {
+        "login": "trdoyle81",
+        "reviews": 3,
+        "prs": [
+          {
+            "title": "chore(e2e): register namespace cleanup with DeferCleanup",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1504",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1504,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-06T11:50:39Z"
+          },
+          {
+            "title": "chore(test): Avoid printing test-credentials",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1282",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1282,
+            "author": "olivergondza",
+            "engaged_at": "2026-09-23T15:38:04Z"
+          },
+          {
+            "title": "fix: getAppSetStatus incorrectly treats ApplicationSetUpToDate=True as Error",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/284",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 284,
+            "author": "aali309",
+            "engaged_at": "2026-09-01T14:06:25Z"
+          }
+        ]
+      },
+      {
         "login": "AdamSaleh",
         "reviews": 2,
         "prs": [
@@ -11820,28 +11873,6 @@
             "number": 1268,
             "author": "anandrkskd",
             "engaged_at": "2026-10-01T11:21:33Z"
-          }
-        ]
-      },
-      {
-        "login": "trdoyle81",
-        "reviews": 2,
-        "prs": [
-          {
-            "title": "chore(test): Avoid printing test-credentials",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1282",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1282,
-            "author": "olivergondza",
-            "engaged_at": "2026-09-23T15:38:04Z"
-          },
-          {
-            "title": "fix: getAppSetStatus incorrectly treats ApplicationSetUpToDate=True as Error",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/284",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 284,
-            "author": "aali309",
-            "engaged_at": "2026-09-01T14:06:25Z"
           }
         ]
       },
