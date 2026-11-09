@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T15:06:25.02670492Z",
+  "generated_at": "2026-11-09T16:06:18.331692884Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -936,13 +936,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-11-05T21:49:48Z",
-      "updated_at": "2026-11-05T22:03:41Z",
+      "updated_at": "2026-11-09T15:40:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -1473,15 +1473,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-10-21T12:58:35Z",
-      "updated_at": "2026-11-09T13:28:28Z",
+      "updated_at": "2026-11-09T15:10:09Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": [
@@ -1884,7 +1884,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T09:44:01Z",
-      "updated_at": "2026-11-09T14:46:52Z",
+      "updated_at": "2026-11-09T15:26:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5641,11 +5641,34 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-11T15:04:24Z",
+    "since": "2026-08-11T16:04:15Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6578,6 +6601,14 @@
         "reviews": 109,
         "prs": [
           {
+            "title": "feat: toggle debug settings during runtime",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1445",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1445,
+            "author": "chetan-rns",
+            "engaged_at": "2026-11-09T15:10:09Z"
+          },
+          {
             "title": "feat: support SPIFFE/SPIRE in operator for argocd-agent auth",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1470",
             "repo": "redhat-developer/gitops-operator",
@@ -6632,14 +6663,6 @@
             "number": 1489,
             "author": "ranakan19",
             "engaged_at": "2026-11-03T01:33:34Z"
-          },
-          {
-            "title": "feat: toggle debug settings during runtime",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1445",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1445,
-            "author": "chetan-rns",
-            "engaged_at": "2026-11-03T00:40:29Z"
           },
           {
             "title": "fix: gitops backend fix for ciphers to convert openssl ciphers to IANA names",
@@ -10403,8 +10426,16 @@
       },
       {
         "login": "keithchong",
-        "reviews": 33,
+        "reviews": 34,
         "prs": [
+          {
+            "title": "feat: make header and columns sticky and resizable",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/314",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 314,
+            "author": "aali309",
+            "engaged_at": "2026-11-09T15:40:58Z"
+          },
           {
             "title": "Add rollout deployment utility edge-case tests",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/310",
