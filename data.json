@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T14:05:22.465579549Z",
+  "generated_at": "2026-11-09T15:06:25.02670492Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1322,7 +1322,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-09T13:50:40Z",
+      "updated_at": "2026-11-09T14:25:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1604,15 +1604,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-11-06T11:05:52Z",
+      "updated_at": "2026-11-09T14:43:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -1884,7 +1884,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T09:44:01Z",
-      "updated_at": "2026-11-06T20:22:26Z",
+      "updated_at": "2026-11-09T14:46:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1934,7 +1934,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T14:20:35Z",
-      "updated_at": "2026-11-09T13:51:15Z",
+      "updated_at": "2026-11-09T14:59:46Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2076,31 +2076,6 @@
         "needs-ok-to-test",
         "dependencies",
         "go"
-      ]
-    },
-    {
-      "title": "fix: E2E tests failure improvements",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1509",
-      "number": 1509,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "jgwest",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
-      },
-      "created_at": "2026-11-06T00:15:34Z",
-      "updated_at": "2026-11-09T13:47:46Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "kind/failing-test"
       ]
     },
     {
@@ -5666,34 +5641,11 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-11-05T05:28:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-11T14:03:27Z",
+    "since": "2026-08-11T15:04:24Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6626,6 +6578,14 @@
         "reviews": 109,
         "prs": [
           {
+            "title": "feat: support SPIFFE/SPIRE in operator for argocd-agent auth",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1470",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1470,
+            "author": "jparsai",
+            "engaged_at": "2026-11-09T14:43:37Z"
+          },
+          {
             "title": "build(deps): bump go.opentelemetry.io/otel/sdk from 1.44.0 to 1.45.0",
             "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/149",
             "repo": "argoproj-labs/argo-rollouts-manager",
@@ -6672,14 +6632,6 @@
             "number": 1489,
             "author": "ranakan19",
             "engaged_at": "2026-11-03T01:33:34Z"
-          },
-          {
-            "title": "feat: support SPIFFE/SPIRE in operator for argocd-agent auth",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1470",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1470,
-            "author": "jparsai",
-            "engaged_at": "2026-11-03T01:25:31Z"
           },
           {
             "title": "feat: toggle debug settings during runtime",
