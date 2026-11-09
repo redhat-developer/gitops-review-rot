@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T13:06:21.709287614Z",
+  "generated_at": "2026-11-09T14:05:22.465579549Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1322,7 +1322,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-09T12:31:40Z",
+      "updated_at": "2026-11-09T13:50:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1473,10 +1473,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-10-21T12:58:35Z",
-      "updated_at": "2026-11-09T06:29:53Z",
+      "updated_at": "2026-11-09T13:28:28Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1909,7 +1909,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-04T14:19:12Z",
-      "updated_at": "2026-11-09T12:10:50Z",
+      "updated_at": "2026-11-09T13:38:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1934,19 +1934,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T14:20:35Z",
-      "updated_at": "2026-11-06T20:56:16Z",
+      "updated_at": "2026-11-09T13:51:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -2086,13 +2088,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-06T00:15:34Z",
-      "updated_at": "2026-11-06T13:59:56Z",
+      "updated_at": "2026-11-09T13:47:46Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 2,
+        "count": 3,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -4420,7 +4422,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/120080287?u=c7bc3e595715243d53156b767f167b068013abae\u0026v=4"
       },
       "created_at": "2026-10-30T10:39:34Z",
-      "updated_at": "2026-11-06T04:49:57Z",
+      "updated_at": "2026-11-09T13:36:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5691,12 +5693,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-11T13:04:23Z",
+    "since": "2026-08-11T14:03:27Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 114,
+        "reviews": 115,
         "prs": [
+          {
+            "title": "feat(e2e): Move 1-120_repo_server_system_ca_trust.go to parallel",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1498",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1498,
+            "author": "olivergondza",
+            "engaged_at": "2026-11-09T13:51:06Z"
+          },
           {
             "title": "fix(image-updater): Privilege escalation via IMAGE_UPDATER_WATCH_NAMESPACES on namespace-scoped ArgoCD instances",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1511",
@@ -9669,7 +9679,7 @@
       },
       {
         "login": "ranakan19",
-        "reviews": 49,
+        "reviews": 48,
         "prs": [
           {
             "title": "fix(helm): use configured proxy for Azure ACR workload identity auth",
@@ -10054,14 +10064,6 @@
             "number": 29064,
             "author": "antonu17",
             "engaged_at": "2026-08-11T19:01:04Z"
-          },
-          {
-            "title": "chore(ci): change blog post link for release",
-            "url": "https://github.com/argoproj/argo-cd/pull/25088",
-            "repo": "argoproj/argo-cd",
-            "number": 25088,
-            "author": "nitishfy",
-            "engaged_at": "2026-08-11T13:11:07Z"
           }
         ]
       },
@@ -10957,8 +10959,16 @@
       },
       {
         "login": "aali309",
-        "reviews": 25,
+        "reviews": 26,
         "prs": [
+          {
+            "title": "fix: E2E tests failure improvements",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1509",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1509,
+            "author": "jgwest",
+            "engaged_at": "2026-11-09T13:47:46Z"
+          },
           {
             "title": "feat: Add Needs Attention, Recent Operations, Infrastructure cards to Dashboard (#11627)",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/313",
