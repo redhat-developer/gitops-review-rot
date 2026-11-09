@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T11:07:06.025835499Z",
+  "generated_at": "2026-11-09T12:08:25.672292803Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -3327,7 +3327,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/268171960?v=4"
       },
       "created_at": "2026-11-09T10:21:49Z",
-      "updated_at": "2026-11-09T10:27:32Z",
+      "updated_at": "2026-11-09T11:34:19Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3337,7 +3337,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 4,
       "labels": []
     },
     {
@@ -3996,7 +3996,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63286031?v=4"
       },
       "created_at": "2026-01-01T06:38:09Z",
-      "updated_at": "2026-11-05T16:28:39Z",
+      "updated_at": "2026-11-09T11:52:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4220,29 +4220,6 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
-      "labels": []
-    },
-    {
-      "title": "fix(registry): surface OAuth token endpoint response body at trace level on auth failures",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1775",
-      "number": 1775,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "pujitha24",
-        "avatar_url": "https://avatars.githubusercontent.com/u/10557236?u=9abde84595a4d3487fe5d23bc17eeb36bdbb0b6b\u0026v=4"
-      },
-      "created_at": "2026-08-12T16:41:24Z",
-      "updated_at": "2026-10-08T13:55:21Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 2,
       "labels": []
     },
     {
@@ -6445,11 +6422,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-11T11:05:17Z",
+    "since": "2026-08-11T12:06:40Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 122,
+        "reviews": 114,
         "prs": [
           {
             "title": "fix(image-updater): Privilege escalation via IMAGE_UPDATER_WATCH_NAMESPACES on namespace-scoped ArgoCD instances",
@@ -6972,14 +6949,6 @@
             "engaged_at": "2026-10-05T00:29:48Z"
           },
           {
-            "title": "fix(git-writeback): release PR target reservation when nothing was pushed",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1825",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1825,
-            "author": "pujitha24",
-            "engaged_at": "2026-10-02T14:36:09Z"
-          },
-          {
             "title": "fix(controller): keep Argo CD client out of shared reconciler config",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1831",
             "repo": "argoproj-labs/argocd-image-updater",
@@ -7018,14 +6987,6 @@
             "number": 29863,
             "author": "aali309",
             "engaged_at": "2026-09-28T02:04:29Z"
-          },
-          {
-            "title": "fix(git-writeback): skip PR/MR creation when write-back produces no changes",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1806",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1806,
-            "author": "pujitha24",
-            "engaged_at": "2026-09-25T16:51:24Z"
           },
           {
             "title": "feat: implement calver",
@@ -7082,14 +7043,6 @@
             "number": 1808,
             "author": "stefanm8",
             "engaged_at": "2026-09-23T18:26:38Z"
-          },
-          {
-            "title": "fix(argocd): persist Helm/Kustomize/Plugin merges for SourceHydrator apps",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1810",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1810,
-            "author": "pujitha24",
-            "engaged_at": "2026-09-23T18:18:53Z"
           },
           {
             "title": "feat: Migrate from manifest v0 to v1 format",
@@ -7178,14 +7131,6 @@
             "number": 2367,
             "author": "anandf",
             "engaged_at": "2026-09-10T17:00:58Z"
-          },
-          {
-            "title": "fix(registry): send configured credentials to registries with an anonymous /v2/ root",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1800",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1800,
-            "author": "pujitha24",
-            "engaged_at": "2026-09-10T01:45:27Z"
           },
           {
             "title": "chore(deps): bump google.golang.org/grpc from 1.83.1 to 1.83.2",
@@ -7372,44 +7317,12 @@
             "engaged_at": "2026-08-18T14:51:32Z"
           },
           {
-            "title": "fix(cmd): default `test` command to the same registries-conf-path as run/webhook",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1780",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1780,
-            "author": "pujitha24",
-            "engaged_at": "2026-08-18T12:42:43Z"
-          },
-          {
             "title": "fix(crd): remove commonUpdateSettings defaults at the CRD level",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1782",
             "repo": "argoproj-labs/argocd-image-updater",
             "number": 1782,
             "author": "MrFreezeex",
             "engaged_at": "2026-08-17T20:52:59Z"
-          },
-          {
-            "title": "fix(registry): surface OAuth token endpoint response body at trace level on auth failures",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1775",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1775,
-            "author": "pujitha24",
-            "engaged_at": "2026-08-12T19:11:33Z"
-          },
-          {
-            "title": "fix(kustomize): reject mis-configured write-back target without kustomization prefix that is a standard kustomization.yaml",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1766",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1766,
-            "author": "pujitha24",
-            "engaged_at": "2026-08-12T18:52:02Z"
-          },
-          {
-            "title": "fix(git-writeback): only commit image-managed Helm parameters to .argocd-source override file",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1770",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1770,
-            "author": "pujitha24",
-            "engaged_at": "2026-08-12T16:08:12Z"
           },
           {
             "title": "docs: Generate apidocs for readthedocs.org",
@@ -12750,36 +12663,6 @@
         ]
       },
       {
-        "login": "Rizwana777",
-        "reviews": 3,
-        "prs": [
-          {
-            "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart (#2377) (#2386)",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2398",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2398,
-            "author": "anandf",
-            "engaged_at": "2026-09-25T14:54:56Z"
-          },
-          {
-            "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2377",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2377,
-            "author": "anandf",
-            "engaged_at": "2026-09-18T05:35:52Z"
-          },
-          {
-            "title": "Upgrade to Argo Rollouts v1.9.1",
-            "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/139",
-            "repo": "argoproj-labs/argo-rollouts-manager",
-            "number": 139,
-            "author": "jgwest",
-            "engaged_at": "2026-08-11T11:28:29Z"
-          }
-        ]
-      },
-      {
         "login": "nmirasch",
         "reviews": 3,
         "prs": [
@@ -12858,6 +12741,28 @@
             "number": 1268,
             "author": "anandrkskd",
             "engaged_at": "2026-10-01T11:21:33Z"
+          }
+        ]
+      },
+      {
+        "login": "Rizwana777",
+        "reviews": 2,
+        "prs": [
+          {
+            "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart (#2377) (#2386)",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2398",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2398,
+            "author": "anandf",
+            "engaged_at": "2026-09-25T14:54:56Z"
+          },
+          {
+            "title": "fix(dex): Added support to rotate serviceaccount token as projected volume mount and not requiring a dex server restart",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2377",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2377,
+            "author": "anandf",
+            "engaged_at": "2026-09-18T05:35:52Z"
           }
         ]
       },
