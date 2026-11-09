@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T22:07:11.772046428Z",
+  "generated_at": "2026-11-09T23:06:54.469848141Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -3397,6 +3397,29 @@
       "labels": []
     },
     {
+      "title": "chore: Upgrade to golang to 1.27.3",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1209",
+      "number": 1209,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "jannfis",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3942683?u=038f901f9541001e86f098745d541daaaf7f2974\u0026v=4"
+      },
+      "created_at": "2026-11-09T22:11:32Z",
+      "updated_at": "2026-11-09T22:46:51Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
       "title": "Add OAuth support. It is need for access to Azure CR",
       "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/224",
       "number": 224,
@@ -6409,7 +6432,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-11T22:05:17Z",
+    "since": "2026-08-11T23:05:09Z",
     "reviewers": [
       {
         "login": "chengfang",
