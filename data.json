@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T19:06:17.969156322Z",
+  "generated_at": "2026-11-09T20:05:31.62581717Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1322,10 +1322,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-09T18:39:43Z",
+      "updated_at": "2026-11-09T19:25:33Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1909,10 +1909,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-04T14:19:12Z",
-      "updated_at": "2026-11-09T13:38:17Z",
+      "updated_at": "2026-11-09T19:13:50Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2114,17 +2114,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-06T18:05:55Z",
-      "updated_at": "2026-11-09T03:48:28Z",
+      "updated_at": "2026-11-09T19:59:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 5,
+      "unresolved_conversations": 7,
       "labels": [
         "kind/bug"
       ]
@@ -2191,7 +2191,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-09T16:37:21Z",
-      "updated_at": "2026-11-09T18:55:04Z",
+      "updated_at": "2026-11-09T19:04:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2206,6 +2206,31 @@
         "lgtm",
         "approved",
         "kind/cleanup"
+      ]
+    },
+    {
+      "title": "fix: add rules for impersonation on argocd server when impersonation is enabled",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1515",
+      "number": 1515,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "cjcocokrisp",
+        "avatar_url": "https://avatars.githubusercontent.com/u/60888380?u=35d9149c895e3350a68dd328a1d7e7ad2ffd8862\u0026v=4"
+      },
+      "created_at": "2026-11-09T19:39:12Z",
+      "updated_at": "2026-11-09T19:44:25Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/bug"
       ]
     },
     {
@@ -2788,29 +2813,6 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "feat(agent): reload client TLS certificate without restart",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1168",
-      "number": 1168,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "sathwick-p",
-        "avatar_url": "https://avatars.githubusercontent.com/u/77117188?u=dd64c06a3f2a41a882a389abb1a32ccbe57f5ab6\u0026v=4"
-      },
-      "created_at": "2026-10-24T06:19:21Z",
-      "updated_at": "2026-11-09T18:52:51Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 8,
-      "labels": []
     },
     {
       "title": "feat(release): bump Helm chart app versions on release",
@@ -5678,7 +5680,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-11T19:04:30Z",
+    "since": "2026-08-11T20:03:40Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8351,20 +8353,20 @@
         "reviews": 90,
         "prs": [
           {
+            "title": "feat(agent): reload client TLS certificate without restart",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1168",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1168,
+            "author": "sathwick-p",
+            "engaged_at": "2026-11-09T19:19:47Z"
+          },
+          {
             "title": "fix: add clientAuth EKU to principal server cert for HA",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1182",
             "repo": "argoproj-labs/argocd-agent",
             "number": 1182,
             "author": "jparsai",
             "engaged_at": "2026-11-06T16:49:27Z"
-          },
-          {
-            "title": "feat(agent): reload client TLS certificate without restart",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1168",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1168,
-            "author": "sathwick-p",
-            "engaged_at": "2026-11-05T01:17:53Z"
           },
           {
             "title": "feat: make destination-based mapping the default",
