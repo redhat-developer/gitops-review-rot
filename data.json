@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T16:06:18.331692884Z",
+  "generated_at": "2026-11-09T17:06:14.767670944Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2127,6 +2127,85 @@
       "unresolved_conversations": 5,
       "labels": [
         "kind/bug"
+      ]
+    },
+    {
+      "title": "chore: bump image-updater v1.1.3 -\u003e v1.1.4, argo-cd v3.3.18 -\u003e v3.3.19",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1512",
+      "number": 1512,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dkarpele",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
+      },
+      "created_at": "2026-11-09T16:24:37Z",
+      "updated_at": "2026-11-09T16:50:34Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "lgtm",
+        "kind/cleanup"
+      ]
+    },
+    {
+      "title": "chore: bump image-updater v1.2.2 -\u003e v1.2.3, argo-cd v3.4.12 -\u003e v3.4.13",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1513",
+      "number": 1513,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dkarpele",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
+      },
+      "created_at": "2026-11-09T16:30:52Z",
+      "updated_at": "2026-11-09T16:50:08Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "lgtm",
+        "kind/cleanup"
+      ]
+    },
+    {
+      "title": "chore: bump image-updater v1.3.2 -\u003e v1.3.3, argo-cd v3.5.6 -\u003e v3.5.7",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1514",
+      "number": 1514,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dkarpele",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
+      },
+      "created_at": "2026-11-09T16:37:21Z",
+      "updated_at": "2026-11-09T16:49:28Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "lgtm",
+        "approved",
+        "kind/cleanup"
       ]
     },
     {
@@ -5476,75 +5555,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump image-updater from 1.2.2 to 1.2.3; bump argocd from 3.4.4 to 3.4.13",
-      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2419",
-      "number": 2419,
-      "repo": "argoproj-labs/argocd-operator",
-      "author": {
-        "login": "dkarpele",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
-      },
-      "created_at": "2026-11-05T18:10:31Z",
-      "updated_at": "2026-11-09T02:14:36Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): bump image-updater from 1.1.3 to 1.1.4; bump argocd from 3.3.12 to 3.3.19",
-      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2420",
-      "number": 2420,
-      "repo": "argoproj-labs/argocd-operator",
-      "author": {
-        "login": "dkarpele",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
-      },
-      "created_at": "2026-11-05T19:25:26Z",
-      "updated_at": "2026-11-09T02:22:51Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): bump image-updater from 1.3.2 to 1.3.3; bump argocd from 3.5.6 to 3.5.7",
-      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2421",
-      "number": 2421,
-      "repo": "argoproj-labs/argocd-operator",
-      "author": {
-        "login": "dkarpele",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
-      },
-      "created_at": "2026-11-05T19:33:54Z",
-      "updated_at": "2026-11-09T02:13:03Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "fixes for Openshift deployment",
       "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/89",
       "number": 89,
@@ -5641,39 +5651,40 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-11-05T05:28:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-11T16:04:15Z",
+    "since": "2026-08-11T17:04:07Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 115,
+        "reviews": 117,
         "prs": [
+          {
+            "title": "chore: bump image-updater v1.1.3 -\u003e v1.1.4, argo-cd v3.3.18 -\u003e v3.3.19",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1512",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1512,
+            "author": "dkarpele",
+            "engaged_at": "2026-11-09T16:50:26Z"
+          },
+          {
+            "title": "chore: bump image-updater v1.2.2 -\u003e v1.2.3, argo-cd v3.4.12 -\u003e v3.4.13",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1513",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1513,
+            "author": "dkarpele",
+            "engaged_at": "2026-11-09T16:49:58Z"
+          },
+          {
+            "title": "chore: bump image-updater v1.3.2 -\u003e v1.3.3, argo-cd v3.5.6 -\u003e v3.5.7",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1514",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1514,
+            "author": "dkarpele",
+            "engaged_at": "2026-11-09T16:49:19Z"
+          },
           {
             "title": "feat(e2e): Move 1-120_repo_server_system_ca_trust.go to parallel",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1498",
@@ -6585,14 +6596,6 @@
             "number": 2272,
             "author": "olivergondza",
             "engaged_at": "2026-08-12T14:03:00Z"
-          },
-          {
-            "title": "fix(argocd): retain yaml document start if exists",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1767",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1767,
-            "author": "stphnlwlsh",
-            "engaged_at": "2026-08-11T16:09:09Z"
           }
         ]
       },
