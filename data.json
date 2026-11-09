@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T05:07:20.23497739Z",
+  "generated_at": "2026-11-09T06:10:39.023647862Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -5664,11 +5664,34 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-11T05:05:37Z",
+    "since": "2026-08-11T06:08:49Z",
     "reviewers": [
       {
         "login": "chengfang",
