@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T20:05:31.62581717Z",
+  "generated_at": "2026-11-09T21:05:40.234859289Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1498,13 +1498,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:25Z",
-      "updated_at": "2026-11-04T21:28:46Z",
+      "updated_at": "2026-11-09T20:43:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -1925,33 +1925,6 @@
       ]
     },
     {
-      "title": "feat(e2e): Move 1-120_repo_server_system_ca_trust.go to parallel",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1498",
-      "number": 1498,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "olivergondza",
-        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
-      },
-      "created_at": "2026-11-04T14:20:35Z",
-      "updated_at": "2026-11-09T14:59:46Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "kind/enhancement",
-        "lgtm",
-        "approved"
-      ]
-    },
-    {
       "title": "fix(all): disable automountServiceAccountToken for all SA and enable only for components that requires it",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1499",
       "number": 1499,
@@ -2114,7 +2087,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-06T18:05:55Z",
-      "updated_at": "2026-11-09T19:59:32Z",
+      "updated_at": "2026-11-09T20:20:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2124,7 +2097,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 7,
+      "unresolved_conversations": 6,
       "labels": [
         "kind/bug"
       ]
@@ -2139,10 +2112,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-09T16:24:37Z",
-      "updated_at": "2026-11-09T16:50:34Z",
+      "updated_at": "2026-11-09T20:34:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5680,7 +5653,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-11T20:03:40Z",
+    "since": "2026-08-11T21:03:51Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7504,8 +7477,16 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 105,
+        "reviews": 106,
         "prs": [
+          {
+            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1457",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1457,
+            "author": "dependabot",
+            "engaged_at": "2026-11-09T20:10:36Z"
+          },
           {
             "title": "feat: support Image Updater webhook configuration in the ArgoCD CR",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1485",
