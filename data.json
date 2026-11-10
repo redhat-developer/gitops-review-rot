@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T15:05:58.346623365Z",
+  "generated_at": "2026-11-10T16:07:04.183449738Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -904,29 +904,6 @@
       "labels": []
     },
     {
-      "title": "feat: make header and columns sticky and resizable",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/314",
-      "number": 314,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "aali309",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
-      },
-      "created_at": "2026-11-05T21:49:48Z",
-      "updated_at": "2026-11-09T21:43:04Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 10,
-      "labels": []
-    },
-    {
       "title": "chore(deps): update konflux references",
       "url": "https://github.com/redhat-developer/gitops-must-gather/pull/53",
       "number": 53,
@@ -1636,7 +1613,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-30T05:40:59Z",
-      "updated_at": "2026-11-10T14:58:59Z",
+      "updated_at": "2026-11-10T15:29:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1661,15 +1638,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-02T04:10:44Z",
-      "updated_at": "2026-11-10T00:06:53Z",
+      "updated_at": "2026-11-10T15:06:13Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
+        "count": 2,
+        "approved_count": 1,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -1686,10 +1663,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-02T10:22:03Z",
-      "updated_at": "2026-11-10T06:51:24Z",
+      "updated_at": "2026-11-10T15:46:33Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1787,7 +1764,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-11-04T08:02:33Z",
-      "updated_at": "2026-11-10T14:18:29Z",
+      "updated_at": "2026-11-10T15:40:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1837,17 +1814,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-04T14:19:12Z",
-      "updated_at": "2026-11-10T12:47:44Z",
+      "updated_at": "2026-11-10T15:39:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
       ]
@@ -2015,7 +1992,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-06T18:05:55Z",
-      "updated_at": "2026-11-10T13:05:19Z",
+      "updated_at": "2026-11-10T16:01:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2144,17 +2121,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-10T07:08:52Z",
-      "updated_at": "2026-11-10T10:06:43Z",
+      "updated_at": "2026-11-10T15:57:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 5,
       "labels": [
         "kind/enhancement"
       ]
@@ -2207,6 +2184,31 @@
       "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
+      ]
+    },
+    {
+      "title": "chore: move additional sequential E2E tests to parallel",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1520",
+      "number": 1520,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-11-10T15:31:43Z",
+      "updated_at": "2026-11-10T16:02:15Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 3,
+      "labels": [
+        "kind/failing-ci"
       ]
     },
     {
@@ -2777,7 +2779,7 @@
       "updated_at": "2026-11-10T14:31:51Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2987,10 +2989,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-11-06T11:29:56Z",
-      "updated_at": "2026-11-10T15:00:45Z",
+      "updated_at": "2026-11-10T15:10:18Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -3384,14 +3386,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3942683?u=038f901f9541001e86f098745d541daaaf7f2974\u0026v=4"
       },
       "created_at": "2026-11-10T14:30:37Z",
-      "updated_at": "2026-11-10T14:56:52Z",
+      "updated_at": "2026-11-10T15:23:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 2,
-        "approved_count": 1,
+        "count": 3,
+        "approved_count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5652,34 +5654,11 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-11-05T05:28:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-12T15:03:59Z",
+    "since": "2026-08-12T16:05:01Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6617,8 +6596,16 @@
       },
       {
         "login": "jgwest",
-        "reviews": 111,
+        "reviews": 112,
         "prs": [
+          {
+            "title": "chore: Upgrade to Argo CD 3.6",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1210",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1210,
+            "author": "jannfis",
+            "engaged_at": "2026-11-10T15:23:55Z"
+          },
           {
             "title": "chore(test): Unify diverged E2E tests in argocd-operator",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1519",
@@ -9704,388 +9691,6 @@
         ]
       },
       {
-        "login": "dkarpele",
-        "reviews": 47,
-        "prs": [
-          {
-            "title": "feat: Add Needs Attention, Recent Operations, Infrastructure cards to Dashboard (#11627)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/313",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 313,
-            "author": "keithchong",
-            "engaged_at": "2026-11-09T18:06:33Z"
-          },
-          {
-            "title": "chore(deps): bump argo-cd from v3.5.7 to v3.6.1",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1918",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1918,
-            "author": "chengfang",
-            "engaged_at": "2026-11-04T20:54:06Z"
-          },
-          {
-            "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1917",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1917,
-            "author": "chengfang",
-            "engaged_at": "2026-11-04T17:56:03Z"
-          },
-          {
-            "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1916",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1916,
-            "author": "chengfang",
-            "engaged_at": "2026-11-04T17:55:39Z"
-          },
-          {
-            "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1915",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1915,
-            "author": "chengfang",
-            "engaged_at": "2026-11-04T17:55:20Z"
-          },
-          {
-            "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1914",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1914,
-            "author": "chengfang",
-            "engaged_at": "2026-11-04T17:54:54Z"
-          },
-          {
-            "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1913",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1913,
-            "author": "chengfang",
-            "engaged_at": "2026-11-04T17:51:49Z"
-          },
-          {
-            "title": "fix: restore SSH repository fetch through a SOCKS5 proxy (applying the same fix from argo-cd release-3.6 branch)",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1906",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1906,
-            "author": "chengfang",
-            "engaged_at": "2026-11-03T16:34:42Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.5.6 to 3.5.7 (#1907)",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1908",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1908,
-            "author": "chengfang",
-            "engaged_at": "2026-11-03T16:31:45Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.5.6 to 3.5.7",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1907",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1907,
-            "author": "chengfang",
-            "engaged_at": "2026-11-03T10:09:40Z"
-          },
-          {
-            "title": "fix: grant serviceaccounts/token create for Dex TokenRequest",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2412",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2412,
-            "author": "Pratik-Redhat-Tech",
-            "engaged_at": "2026-10-26T16:00:42Z"
-          },
-          {
-            "title": "fix(helmvalues): stop rewriting Helm image parameters the updater did not resolve (#1876)",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1885",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1885,
-            "author": "chengfang",
-            "engaged_at": "2026-10-23T08:55:15Z"
-          },
-          {
-            "title": "chore(deps): bump registry-scanner from 1.3.0 to 1.4.0",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1882",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1882,
-            "author": "chengfang",
-            "engaged_at": "2026-10-22T08:26:09Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.5.5 to 3.5.6",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1881",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1881,
-            "author": "chengfang",
-            "engaged_at": "2026-10-21T19:21:06Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.5.5 to 3.5.6",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1880",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1880,
-            "author": "chengfang",
-            "engaged_at": "2026-10-21T19:20:41Z"
-          },
-          {
-            "title": "fix(helmvalues): stop rewriting Helm image parameters the updater did not resolve",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1876",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1876,
-            "author": "chengfang",
-            "engaged_at": "2026-10-15T17:01:01Z"
-          },
-          {
-            "title": "feat: Add tests for redhat-developer/gitops-must-gather#51",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1375",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1375,
-            "author": "olivergondza",
-            "engaged_at": "2026-10-14T12:33:46Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.5.4 to 3.5.5",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1875",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1875,
-            "author": "chengfang",
-            "engaged_at": "2026-10-13T18:59:12Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.5.4 to 3.5.5",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1874",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1874,
-            "author": "chengfang",
-            "engaged_at": "2026-10-13T18:58:47Z"
-          },
-          {
-            "title": "chore(deps): configure dependabot to upgrade across all go modules at once",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1866",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1866,
-            "author": "chengfang",
-            "engaged_at": "2026-10-12T18:25:25Z"
-          },
-          {
-            "title": "fix(ImageUpdater): GITOPS-11648 zombie Git processes when the operator starts /manager as PID 1",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2408",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2408,
-            "author": "chengfang",
-            "engaged_at": "2026-10-09T19:49:51Z"
-          },
-          {
-            "title": "chore(deps): Update argocd-image-updater to version 1.3.1 in test/ginkgo",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1864",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1864,
-            "author": "chengfang",
-            "engaged_at": "2026-10-09T15:10:28Z"
-          },
-          {
-            "title": "fix(argocd): persist Helm/Kustomize/Plugin merges for SourceHydrator apps (#1810)",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1860",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1860,
-            "author": "chengfang",
-            "engaged_at": "2026-10-08T09:10:12Z"
-          },
-          {
-            "title": "fix(webhook): relax TLS validation to match crypto/tls semantics (#1851)",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1861",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1861,
-            "author": "chengfang",
-            "engaged_at": "2026-10-08T09:09:32Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.5.3 to 3.5.4",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1858",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1858,
-            "author": "chengfang",
-            "engaged_at": "2026-10-07T08:05:17Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.5.3 to 3.5.4",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1857",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1857,
-            "author": "chengfang",
-            "engaged_at": "2026-10-07T08:05:01Z"
-          },
-          {
-            "title": "fix(webhook): relax TLS validation to match crypto/tls semantics",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1851",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1851,
-            "author": "chengfang",
-            "engaged_at": "2026-10-06T15:54:34Z"
-          },
-          {
-            "title": "test(e2e): capture RBAC state on failure and let 1-012 retry",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1852",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1852,
-            "author": "chengfang",
-            "engaged_at": "2026-10-06T15:26:37Z"
-          },
-          {
-            "title": "test(e2e): wait for image updater RBAC before creating ImageUpdater CRs",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1849",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1849,
-            "author": "chengfang",
-            "engaged_at": "2026-10-05T16:25:20Z"
-          },
-          {
-            "title": "fix: cherry-pick: 1.20: return null from rollout decorator so Topology URL links render (#11176)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/303",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 303,
-            "author": "keithchong",
-            "engaged_at": "2026-10-05T15:51:18Z"
-          },
-          {
-            "title": "fix: cherry-pick: 1.21: return null from rollout decorator so Topology URL links render (#11176)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/302",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 302,
-            "author": "keithchong",
-            "engaged_at": "2026-10-05T15:51:04Z"
-          },
-          {
-            "title": "fix: cherry-pick: 1.20: Enable Delete ApplicationSet (and apps) for namespace-scoped users(#10780)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/293",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 293,
-            "author": "keithchong",
-            "engaged_at": "2026-10-05T15:49:49Z"
-          },
-          {
-            "title": "fix: cherry-pick: 1.21: Enable Delete ApplicationSet (and apps) for namespace-scoped users(#10780)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/292",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 292,
-            "author": "keithchong",
-            "engaged_at": "2026-10-05T15:49:26Z"
-          },
-          {
-            "title": "test(e2e): add ginkgo tests for custom ca certificates for registry connection",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1829",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1829,
-            "author": "chengfang",
-            "engaged_at": "2026-10-01T13:17:36Z"
-          },
-          {
-            "title": "fix(registry): controller sends unauthenticated registry requests — registries.conf credentials AND per-image pullSecret never reach the wire",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1801",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1801,
-            "author": "chengfang",
-            "engaged_at": "2026-09-25T18:42:56Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.5.2 to 3.5.3",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1818",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1818,
-            "author": "chengfang",
-            "engaged_at": "2026-09-25T16:07:10Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.5.2 to 3.5.3",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1819",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1819,
-            "author": "chengfang",
-            "engaged_at": "2026-09-25T16:06:54Z"
-          },
-          {
-            "title": "fix: report images whose manifest target does not match the app type",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1814",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1814,
-            "author": "chengfang",
-            "engaged_at": "2026-09-23T09:37:21Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.4.7 to 3.4.8",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1792",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1792,
-            "author": "chengfang",
-            "engaged_at": "2026-09-07T08:55:01Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.5.1 to 3.5.2",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1791",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1791,
-            "author": "chengfang",
-            "engaged_at": "2026-09-07T08:54:38Z"
-          },
-          {
-            "title": "feat: CLI SSO login using the OAuth 2.0 Device Code Authorization Grant (Alpha) (#16069)",
-            "url": "https://github.com/argoproj/argo-cd/pull/17041",
-            "repo": "argoproj/argo-cd",
-            "number": 17041,
-            "author": "dgaponcic",
-            "engaged_at": "2026-08-14T17:02:15Z"
-          },
-          {
-            "title": "feat: Initial plugin targeting 4.18 and PF5 (#10431)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/262",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 262,
-            "author": "keithchong",
-            "engaged_at": "2026-08-13T15:53:09Z"
-          },
-          {
-            "title": "chore(deps): bump image updater from 1.2.2 to 1.3.0 in test/ginkgo",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1779",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1779,
-            "author": "chengfang",
-            "engaged_at": "2026-08-13T08:57:44Z"
-          },
-          {
-            "title": "fix(helm): improve getHelmParamNames func to return defaults for image-name and image-tag param names",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1771",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1771,
-            "author": "chengfang",
-            "engaged_at": "2026-08-12T15:22:43Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.5.0 to 3.5.1",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1772",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1772,
-            "author": "chengfang",
-            "engaged_at": "2026-08-12T15:19:32Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.4.6 to 3.4.7",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1773",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1773,
-            "author": "chengfang",
-            "engaged_at": "2026-08-12T15:19:10Z"
-          },
-          {
-            "title": "chore(deps): bump argocd from 3.3.13 to 3.3.14",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1774",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1774,
-            "author": "chengfang",
-            "engaged_at": "2026-08-12T15:18:48Z"
-          }
-        ]
-      },
-      {
         "login": "ranakan19",
         "reviews": 47,
         "prs": [
@@ -10468,6 +10073,364 @@
         ]
       },
       {
+        "login": "dkarpele",
+        "reviews": 44,
+        "prs": [
+          {
+            "title": "feat: support Image Updater webhook configuration in the ArgoCD CR",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1485",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1485,
+            "author": "chengfang",
+            "engaged_at": "2026-11-10T15:06:12Z"
+          },
+          {
+            "title": "feat: Add Needs Attention, Recent Operations, Infrastructure cards to Dashboard (#11627)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/313",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 313,
+            "author": "keithchong",
+            "engaged_at": "2026-11-09T18:06:33Z"
+          },
+          {
+            "title": "chore(deps): bump argo-cd from v3.5.7 to v3.6.1",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1918",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1918,
+            "author": "chengfang",
+            "engaged_at": "2026-11-04T20:54:06Z"
+          },
+          {
+            "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1917",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1917,
+            "author": "chengfang",
+            "engaged_at": "2026-11-04T17:56:03Z"
+          },
+          {
+            "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1916",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1916,
+            "author": "chengfang",
+            "engaged_at": "2026-11-04T17:55:39Z"
+          },
+          {
+            "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1915",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1915,
+            "author": "chengfang",
+            "engaged_at": "2026-11-04T17:55:20Z"
+          },
+          {
+            "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1914",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1914,
+            "author": "chengfang",
+            "engaged_at": "2026-11-04T17:54:54Z"
+          },
+          {
+            "title": "fix: bump klauspost/compress to v1.20.2 for CVE-2026-116591",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1913",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1913,
+            "author": "chengfang",
+            "engaged_at": "2026-11-04T17:51:49Z"
+          },
+          {
+            "title": "fix: restore SSH repository fetch through a SOCKS5 proxy (applying the same fix from argo-cd release-3.6 branch)",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1906",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1906,
+            "author": "chengfang",
+            "engaged_at": "2026-11-03T16:34:42Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.6 to 3.5.7 (#1907)",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1908",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1908,
+            "author": "chengfang",
+            "engaged_at": "2026-11-03T16:31:45Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.6 to 3.5.7",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1907",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1907,
+            "author": "chengfang",
+            "engaged_at": "2026-11-03T10:09:40Z"
+          },
+          {
+            "title": "fix: grant serviceaccounts/token create for Dex TokenRequest",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2412",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2412,
+            "author": "Pratik-Redhat-Tech",
+            "engaged_at": "2026-10-26T16:00:42Z"
+          },
+          {
+            "title": "fix(helmvalues): stop rewriting Helm image parameters the updater did not resolve (#1876)",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1885",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1885,
+            "author": "chengfang",
+            "engaged_at": "2026-10-23T08:55:15Z"
+          },
+          {
+            "title": "chore(deps): bump registry-scanner from 1.3.0 to 1.4.0",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1882",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1882,
+            "author": "chengfang",
+            "engaged_at": "2026-10-22T08:26:09Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.5 to 3.5.6",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1881",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1881,
+            "author": "chengfang",
+            "engaged_at": "2026-10-21T19:21:06Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.5 to 3.5.6",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1880",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1880,
+            "author": "chengfang",
+            "engaged_at": "2026-10-21T19:20:41Z"
+          },
+          {
+            "title": "fix(helmvalues): stop rewriting Helm image parameters the updater did not resolve",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1876",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1876,
+            "author": "chengfang",
+            "engaged_at": "2026-10-15T17:01:01Z"
+          },
+          {
+            "title": "feat: Add tests for redhat-developer/gitops-must-gather#51",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1375",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1375,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-14T12:33:46Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.4 to 3.5.5",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1875",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1875,
+            "author": "chengfang",
+            "engaged_at": "2026-10-13T18:59:12Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.4 to 3.5.5",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1874",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1874,
+            "author": "chengfang",
+            "engaged_at": "2026-10-13T18:58:47Z"
+          },
+          {
+            "title": "chore(deps): configure dependabot to upgrade across all go modules at once",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1866",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1866,
+            "author": "chengfang",
+            "engaged_at": "2026-10-12T18:25:25Z"
+          },
+          {
+            "title": "fix(ImageUpdater): GITOPS-11648 zombie Git processes when the operator starts /manager as PID 1",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2408",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2408,
+            "author": "chengfang",
+            "engaged_at": "2026-10-09T19:49:51Z"
+          },
+          {
+            "title": "chore(deps): Update argocd-image-updater to version 1.3.1 in test/ginkgo",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1864",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1864,
+            "author": "chengfang",
+            "engaged_at": "2026-10-09T15:10:28Z"
+          },
+          {
+            "title": "fix(argocd): persist Helm/Kustomize/Plugin merges for SourceHydrator apps (#1810)",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1860",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1860,
+            "author": "chengfang",
+            "engaged_at": "2026-10-08T09:10:12Z"
+          },
+          {
+            "title": "fix(webhook): relax TLS validation to match crypto/tls semantics (#1851)",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1861",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1861,
+            "author": "chengfang",
+            "engaged_at": "2026-10-08T09:09:32Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.3 to 3.5.4",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1858",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1858,
+            "author": "chengfang",
+            "engaged_at": "2026-10-07T08:05:17Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.3 to 3.5.4",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1857",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1857,
+            "author": "chengfang",
+            "engaged_at": "2026-10-07T08:05:01Z"
+          },
+          {
+            "title": "fix(webhook): relax TLS validation to match crypto/tls semantics",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1851",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1851,
+            "author": "chengfang",
+            "engaged_at": "2026-10-06T15:54:34Z"
+          },
+          {
+            "title": "test(e2e): capture RBAC state on failure and let 1-012 retry",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1852",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1852,
+            "author": "chengfang",
+            "engaged_at": "2026-10-06T15:26:37Z"
+          },
+          {
+            "title": "test(e2e): wait for image updater RBAC before creating ImageUpdater CRs",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1849",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1849,
+            "author": "chengfang",
+            "engaged_at": "2026-10-05T16:25:20Z"
+          },
+          {
+            "title": "fix: cherry-pick: 1.20: return null from rollout decorator so Topology URL links render (#11176)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/303",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 303,
+            "author": "keithchong",
+            "engaged_at": "2026-10-05T15:51:18Z"
+          },
+          {
+            "title": "fix: cherry-pick: 1.21: return null from rollout decorator so Topology URL links render (#11176)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/302",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 302,
+            "author": "keithchong",
+            "engaged_at": "2026-10-05T15:51:04Z"
+          },
+          {
+            "title": "fix: cherry-pick: 1.20: Enable Delete ApplicationSet (and apps) for namespace-scoped users(#10780)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/293",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 293,
+            "author": "keithchong",
+            "engaged_at": "2026-10-05T15:49:49Z"
+          },
+          {
+            "title": "fix: cherry-pick: 1.21: Enable Delete ApplicationSet (and apps) for namespace-scoped users(#10780)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/292",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 292,
+            "author": "keithchong",
+            "engaged_at": "2026-10-05T15:49:26Z"
+          },
+          {
+            "title": "test(e2e): add ginkgo tests for custom ca certificates for registry connection",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1829",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1829,
+            "author": "chengfang",
+            "engaged_at": "2026-10-01T13:17:36Z"
+          },
+          {
+            "title": "fix(registry): controller sends unauthenticated registry requests — registries.conf credentials AND per-image pullSecret never reach the wire",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1801",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1801,
+            "author": "chengfang",
+            "engaged_at": "2026-09-25T18:42:56Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.2 to 3.5.3",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1818",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1818,
+            "author": "chengfang",
+            "engaged_at": "2026-09-25T16:07:10Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.2 to 3.5.3",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1819",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1819,
+            "author": "chengfang",
+            "engaged_at": "2026-09-25T16:06:54Z"
+          },
+          {
+            "title": "fix: report images whose manifest target does not match the app type",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1814",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1814,
+            "author": "chengfang",
+            "engaged_at": "2026-09-23T09:37:21Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.4.7 to 3.4.8",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1792",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1792,
+            "author": "chengfang",
+            "engaged_at": "2026-09-07T08:55:01Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.1 to 3.5.2",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1791",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1791,
+            "author": "chengfang",
+            "engaged_at": "2026-09-07T08:54:38Z"
+          },
+          {
+            "title": "feat: CLI SSO login using the OAuth 2.0 Device Code Authorization Grant (Alpha) (#16069)",
+            "url": "https://github.com/argoproj/argo-cd/pull/17041",
+            "repo": "argoproj/argo-cd",
+            "number": 17041,
+            "author": "dgaponcic",
+            "engaged_at": "2026-08-14T17:02:15Z"
+          },
+          {
+            "title": "feat: Initial plugin targeting 4.18 and PF5 (#10431)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/262",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 262,
+            "author": "keithchong",
+            "engaged_at": "2026-08-13T15:53:09Z"
+          },
+          {
+            "title": "chore(deps): bump image updater from 1.2.2 to 1.3.0 in test/ginkgo",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1779",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1779,
+            "author": "chengfang",
+            "engaged_at": "2026-08-13T08:57:44Z"
+          }
+        ]
+      },
+      {
         "login": "keithchong",
         "reviews": 34,
         "prs": [
@@ -10477,7 +10440,7 @@
             "repo": "redhat-developer/gitops-console-plugin",
             "number": 314,
             "author": "aali309",
-            "engaged_at": "2026-11-09T17:55:56Z"
+            "engaged_at": "2026-11-10T15:49:32Z"
           },
           {
             "title": "Add rollout deployment utility edge-case tests",
@@ -10993,8 +10956,16 @@
       },
       {
         "login": "aali309",
-        "reviews": 27,
+        "reviews": 28,
         "prs": [
+          {
+            "title": "App-history-and-ui-rollback-ui-test",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1497",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1497,
+            "author": "trdoyle81",
+            "engaged_at": "2026-11-10T15:39:09Z"
+          },
           {
             "title": "fix(ui): select apps by identity in Sync/Refresh Apps panels (#20695, #22178)",
             "url": "https://github.com/argoproj/argo-cd/pull/30557",
@@ -11893,8 +11864,16 @@
       },
       {
         "login": "cjcocokrisp",
-        "reviews": 5,
+        "reviews": 6,
         "prs": [
+          {
+            "title": "feat(tls): Configure TLS PQC work",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1517",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1517,
+            "author": "akhilnittala",
+            "engaged_at": "2026-11-10T15:57:59Z"
+          },
           {
             "title": "feat(agent): reload client TLS certificate without restart",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1168",
