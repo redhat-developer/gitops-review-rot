@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T21:05:52.457401726Z",
+  "generated_at": "2026-11-10T22:05:26.259536915Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2039,7 +2039,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-06T18:05:55Z",
-      "updated_at": "2026-11-10T17:45:48Z",
+      "updated_at": "2026-11-10T21:25:13Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2047,9 +2047,9 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 8,
+      "unresolved_conversations": 9,
       "labels": [
         "kind/bug"
       ]
@@ -2910,32 +2910,6 @@
       "labels": []
     },
     {
-      "title": "build(deps): Bump google.golang.org/grpc from 1.84.0 to 1.85.0",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1178",
-      "number": 1178,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-30T17:13:14Z",
-      "updated_at": "2026-10-30T17:13:24Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "feat: create dedicated client cert for HA principal authentication",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1182",
       "number": 1182,
@@ -3457,58 +3431,6 @@
       ]
     },
     {
-      "title": "build(deps): Bump github.com/go-jose/go-jose/v4 from 4.1.7 to 4.1.9",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1216",
-      "number": 1216,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-10T19:16:58Z",
-      "updated_at": "2026-11-10T19:17:06Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
-    },
-    {
-      "title": "build(deps): Bump golang.org/x/sync from 0.24.0 to 0.25.0",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1217",
-      "number": 1217,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-10T19:17:18Z",
-      "updated_at": "2026-11-10T19:17:26Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "release: init 0.11.0 release on branch release-0.11",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1218",
       "number": 1218,
@@ -3518,14 +3440,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-11-10T20:32:10Z",
-      "updated_at": "2026-11-10T20:32:20Z",
+      "updated_at": "2026-11-10T21:54:59Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 2,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5836,7 +5758,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-12T21:04:00Z",
+    "since": "2026-08-12T22:03:33Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -5848,7 +5770,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1511,
             "author": "dkarpele",
-            "engaged_at": "2026-11-10T13:05:19Z"
+            "engaged_at": "2026-11-10T21:25:12Z"
           },
           {
             "title": "chore: bump image-updater v1.1.3 -\u003e v1.1.4, argo-cd v3.3.18 -\u003e v3.3.19",
@@ -8530,8 +8452,40 @@
       },
       {
         "login": "jannfis",
-        "reviews": 89,
+        "reviews": 92,
         "prs": [
+          {
+            "title": "build(deps): Bump google.golang.org/grpc from 1.84.0 to 1.85.0",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1178",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1178,
+            "author": "dependabot",
+            "engaged_at": "2026-11-10T21:40:03Z"
+          },
+          {
+            "title": "build(deps): Bump golang.org/x/sync from 0.24.0 to 0.25.0",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1217",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1217,
+            "author": "dependabot",
+            "engaged_at": "2026-11-10T21:39:35Z"
+          },
+          {
+            "title": "build(deps): Bump github.com/go-jose/go-jose/v4 from 4.1.7 to 4.1.9",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1216",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1216,
+            "author": "dependabot",
+            "engaged_at": "2026-11-10T21:39:13Z"
+          },
+          {
+            "title": "release: init 0.11.0 release on branch release-0.11",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1218",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1218,
+            "author": "github-actions",
+            "engaged_at": "2026-11-10T21:38:17Z"
+          },
           {
             "title": "fix(agent): drop ownerReferences from repository secrets in managed mode",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1199",
@@ -9235,14 +9189,6 @@
             "number": 1073,
             "author": "dependabot",
             "engaged_at": "2026-08-18T13:10:25Z"
-          },
-          {
-            "title": "chore(deps): bump Argo CD from v3.4.4 to v3.5.0",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1069",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1069,
-            "author": "chetan-rns",
-            "engaged_at": "2026-08-12T21:47:42Z"
           }
         ]
       },
