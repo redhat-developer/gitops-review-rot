@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T18:06:23.329150271Z",
+  "generated_at": "2026-11-10T19:06:29.22349255Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -904,6 +904,52 @@
       "labels": []
     },
     {
+      "title": "docs: User content for the new GitOps plugin Data View Table ",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/316",
+      "number": 316,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "aali309",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
+      },
+      "created_at": "2026-11-10T18:16:39Z",
+      "updated_at": "2026-11-10T18:36:38Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat: Add View AI Recommendation link to agentic run (#11491)",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/317",
+      "number": 317,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "keithchong",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
+      },
+      "created_at": "2026-11-10T18:46:43Z",
+      "updated_at": "2026-11-10T18:58:30Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "chore(deps): update konflux references",
       "url": "https://github.com/redhat-developer/gitops-must-gather/pull/53",
       "number": 53,
@@ -1481,7 +1527,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-11-10T15:00:44Z",
+      "updated_at": "2026-11-10T18:57:03Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1765,7 +1811,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-11-04T08:02:33Z",
-      "updated_at": "2026-11-10T15:40:48Z",
+      "updated_at": "2026-11-10T18:55:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2779,10 +2825,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-19T17:13:36Z",
-      "updated_at": "2026-11-10T14:31:51Z",
+      "updated_at": "2026-11-10T18:14:07Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -3006,32 +3052,6 @@
       "labels": []
     },
     {
-      "title": "build(deps): Bump github.com/argoproj/argo-cd/v3 from 3.5.6 to 3.5.7",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1192",
-      "number": 1192,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-06T17:13:06Z",
-      "updated_at": "2026-11-06T17:13:16Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "build(deps): Bump github.com/go-jose/go-jose/v4 from 4.1.7 to 4.1.8",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1193",
       "number": 1193,
@@ -3182,13 +3202,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34618353?u=95b17e46c11630a29c26e3b229dbdc57a82c2c94\u0026v=4"
       },
       "created_at": "2026-11-07T10:38:01Z",
-      "updated_at": "2026-11-07T11:37:00Z",
+      "updated_at": "2026-11-10T18:43:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -3377,29 +3397,6 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 4,
-      "labels": []
-    },
-    {
-      "title": "chore: Upgrade to Argo CD 3.6",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1210",
-      "number": 1210,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "jannfis",
-        "avatar_url": "https://avatars.githubusercontent.com/u/3942683?u=038f901f9541001e86f098745d541daaaf7f2974\u0026v=4"
-      },
-      "created_at": "2026-11-10T14:30:37Z",
-      "updated_at": "2026-11-10T15:23:55Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "approved_count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -5684,7 +5681,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-12T18:04:26Z",
+    "since": "2026-08-12T19:04:37Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8378,7 +8375,7 @@
       },
       {
         "login": "jannfis",
-        "reviews": 90,
+        "reviews": 88,
         "prs": [
           {
             "title": "feat(agent): reload client TLS certificate without restart",
@@ -9083,22 +9080,6 @@
             "number": 1059,
             "author": "benelser",
             "engaged_at": "2026-08-12T20:33:11Z"
-          },
-          {
-            "title": "feat: Add TLS certificate blocklist to revoke agent access by fingerprint",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1027",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1027,
-            "author": "jparsai",
-            "engaged_at": "2026-08-12T18:59:22Z"
-          },
-          {
-            "title": "feat: utility to verify sync behaviour correctness",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1066",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1066,
-            "author": "jgwest",
-            "engaged_at": "2026-08-12T18:50:44Z"
           }
         ]
       },
@@ -10990,8 +10971,16 @@
       },
       {
         "login": "aali309",
-        "reviews": 28,
+        "reviews": 29,
         "prs": [
+          {
+            "title": "ci(renovate): allow storage.googleapis.com egress",
+            "url": "https://github.com/argoproj/argo-cd/pull/30919",
+            "repo": "argoproj/argo-cd",
+            "number": 30919,
+            "author": "rumstead",
+            "engaged_at": "2026-11-10T19:01:10Z"
+          },
           {
             "title": "App-history-and-ui-rollback-ui-test",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1497",
