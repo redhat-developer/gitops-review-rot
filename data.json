@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T23:06:54.469848141Z",
+  "generated_at": "2026-11-10T00:09:34.673821971Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1473,7 +1473,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-10-21T12:58:35Z",
-      "updated_at": "2026-11-09T21:13:56Z",
+      "updated_at": "2026-11-10T00:05:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1592,31 +1592,6 @@
         "ok-to-test",
         "dependencies",
         "docker"
-      ]
-    },
-    {
-      "title": "feat: support SPIFFE/SPIRE in operator for argocd-agent auth",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1470",
-      "number": 1470,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "jparsai",
-        "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
-      },
-      "created_at": "2026-10-27T12:09:39Z",
-      "updated_at": "2026-11-09T21:15:35Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/enhancement"
       ]
     },
     {
@@ -3406,7 +3381,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3942683?u=038f901f9541001e86f098745d541daaaf7f2974\u0026v=4"
       },
       "created_at": "2026-11-09T22:11:32Z",
-      "updated_at": "2026-11-09T22:46:51Z",
+      "updated_at": "2026-11-09T23:21:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -6432,7 +6407,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-11T23:05:09Z",
+    "since": "2026-08-12T00:07:55Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7386,7 +7361,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1445,
             "author": "chetan-rns",
-            "engaged_at": "2026-11-09T15:10:09Z"
+            "engaged_at": "2026-11-10T00:05:22Z"
           },
           {
             "title": "feat: support SPIFFE/SPIRE in operator for argocd-agent auth",
@@ -7394,7 +7369,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1470,
             "author": "jparsai",
-            "engaged_at": "2026-11-09T14:43:37Z"
+            "engaged_at": "2026-11-09T23:38:23Z"
           },
           {
             "title": "build(deps): bump go.opentelemetry.io/otel/sdk from 1.44.0 to 1.45.0",
