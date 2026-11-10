@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T10:06:17.860465823Z",
+  "generated_at": "2026-11-10T11:05:55.141177539Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1552,20 +1552,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-11-10T06:50:13Z",
+      "updated_at": "2026-11-10T10:29:45Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 3,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 2,
       "labels": [
-        "kind/enhancement",
-        "needs-rebase"
+        "kind/enhancement"
       ]
     },
     {
@@ -1887,13 +1886,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-04T14:19:12Z",
-      "updated_at": "2026-11-09T19:13:50Z",
+      "updated_at": "2026-11-10T10:50:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -2219,7 +2218,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-10T07:08:52Z",
-      "updated_at": "2026-11-10T08:42:12Z",
+      "updated_at": "2026-11-10T10:06:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2936,7 +2935,7 @@
       ]
     },
     {
-      "title": "fix: add clientAuth EKU to principal server cert for HA",
+      "title": "feat: create dedicated client cert for HA principal authentication",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1182",
       "number": 1182,
       "repo": "argoproj-labs/argocd-agent",
@@ -2945,7 +2944,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-11-03T14:34:54Z",
-      "updated_at": "2026-11-10T09:55:00Z",
+      "updated_at": "2026-11-10T11:00:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2955,7 +2954,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -5702,11 +5701,34 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-12T10:04:32Z",
+    "since": "2026-08-12T11:04:06Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6655,20 +6677,20 @@
         "reviews": 110,
         "prs": [
           {
+            "title": "feat: toggle debug settings during runtime",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1445",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1445,
+            "author": "chetan-rns",
+            "engaged_at": "2026-11-10T11:03:58Z"
+          },
+          {
             "title": "feat: support custom labels in self-registration cluster secret",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1483",
             "repo": "redhat-developer/gitops-operator",
             "number": 1483,
             "author": "jparsai",
             "engaged_at": "2026-11-10T00:10:50Z"
-          },
-          {
-            "title": "feat: toggle debug settings during runtime",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1445",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1445,
-            "author": "chetan-rns",
-            "engaged_at": "2026-11-10T00:05:22Z"
           },
           {
             "title": "feat: support SPIFFE/SPIRE in operator for argocd-agent auth",
@@ -8403,7 +8425,7 @@
             "engaged_at": "2026-11-09T19:19:47Z"
           },
           {
-            "title": "fix: add clientAuth EKU to principal server cert for HA",
+            "title": "feat: create dedicated client cert for HA principal authentication",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1182",
             "repo": "argoproj-labs/argocd-agent",
             "number": 1182,
@@ -11432,8 +11454,16 @@
       },
       {
         "login": "varshab1210",
-        "reviews": 17,
+        "reviews": 18,
         "prs": [
+          {
+            "title": "App-history-and-ui-rollback-ui-test",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1497",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1497,
+            "author": "trdoyle81",
+            "engaged_at": "2026-11-10T10:50:12Z"
+          },
           {
             "title": "chore: update sequential E2E suite timeout",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1500",
