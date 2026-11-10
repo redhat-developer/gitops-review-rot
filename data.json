@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T14:06:00.741038247Z",
+  "generated_at": "2026-11-10T15:05:58.346623365Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1504,7 +1504,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-11-10T13:12:54Z",
+      "updated_at": "2026-11-10T15:00:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1636,7 +1636,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-10-30T05:40:59Z",
-      "updated_at": "2026-11-10T13:09:37Z",
+      "updated_at": "2026-11-10T14:58:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1787,13 +1787,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-11-04T08:02:33Z",
-      "updated_at": "2026-11-10T14:00:14Z",
+      "updated_at": "2026-11-10T14:18:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -1862,7 +1862,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
       },
       "created_at": "2026-11-05T08:56:10Z",
-      "updated_at": "2026-11-06T17:20:28Z",
+      "updated_at": "2026-11-10T14:20:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1872,7 +1872,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 3,
       "labels": [
         "kind/bug"
       ]
@@ -2774,10 +2774,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-19T17:13:36Z",
-      "updated_at": "2026-10-30T17:54:46Z",
+      "updated_at": "2026-11-10T14:31:51Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2987,7 +2987,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-11-06T11:29:56Z",
-      "updated_at": "2026-11-10T13:56:24Z",
+      "updated_at": "2026-11-10T15:00:45Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -3375,26 +3375,26 @@
       "labels": []
     },
     {
-      "title": "chore: Upgrade golang to 1.27.3",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1209",
-      "number": 1209,
+      "title": "chore: Upgrade to Argo CD 3.6",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1210",
+      "number": 1210,
       "repo": "argoproj-labs/argocd-agent",
       "author": {
         "login": "jannfis",
         "avatar_url": "https://avatars.githubusercontent.com/u/3942683?u=038f901f9541001e86f098745d541daaaf7f2974\u0026v=4"
       },
-      "created_at": "2026-11-09T22:11:32Z",
-      "updated_at": "2026-11-10T13:30:27Z",
+      "created_at": "2026-11-10T14:30:37Z",
+      "updated_at": "2026-11-10T14:56:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 3,
+        "count": 2,
         "approved_count": 1,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -5679,7 +5679,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-12T14:04:04Z",
+    "since": "2026-08-12T15:03:59Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7514,6 +7514,14 @@
         "reviews": 106,
         "prs": [
           {
+            "title": "feat(util): add signedRevisionOnly option for source integrity",
+            "url": "https://github.com/argoproj/argo-cd/pull/30033",
+            "repo": "argoproj/argo-cd",
+            "number": 30033,
+            "author": "nodari-dev",
+            "engaged_at": "2026-11-10T14:55:10Z"
+          },
+          {
             "title": "chore: allow per-test Argo CD CLI login sessions",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1516",
             "repo": "redhat-developer/gitops-operator",
@@ -7600,14 +7608,6 @@
             "number": 1376,
             "author": "trdoyle81",
             "engaged_at": "2026-11-03T13:53:11Z"
-          },
-          {
-            "title": "feat(util): add signedRevisionOnly option for source integrity",
-            "url": "https://github.com/argoproj/argo-cd/pull/30033",
-            "repo": "argoproj/argo-cd",
-            "number": 30033,
-            "author": "nodari-dev",
-            "engaged_at": "2026-10-30T10:33:17Z"
           },
           {
             "title": "Go runtime auto-tuning GOMEMLIMIT/GOMAXPROCS for application-controller",
@@ -11405,8 +11405,16 @@
       },
       {
         "login": "varshab1210",
-        "reviews": 18,
+        "reviews": 19,
         "prs": [
+          {
+            "title": "feat: support argocd-agent HA principal in operator",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1494",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1494,
+            "author": "jparsai",
+            "engaged_at": "2026-11-10T14:18:29Z"
+          },
           {
             "title": "App-history-and-ui-rollback-ui-test",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1497",
@@ -12080,6 +12088,28 @@
         ]
       },
       {
+        "login": "nodari-dev",
+        "reviews": 2,
+        "prs": [
+          {
+            "title": "chore: Upgrade to Argo CD 3.6",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1210",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1210,
+            "author": "jannfis",
+            "engaged_at": "2026-11-10T14:56:52Z"
+          },
+          {
+            "title": "feat: Expose API server warnings in Argo CD UI",
+            "url": "https://github.com/argoproj/argo-cd/pull/28849",
+            "repo": "argoproj/argo-cd",
+            "number": 28849,
+            "author": "toVersus",
+            "engaged_at": "2026-11-10T13:14:27Z"
+          }
+        ]
+      },
+      {
         "login": "alkakumari016",
         "reviews": 1,
         "prs": [
@@ -12090,20 +12120,6 @@
             "number": 1215,
             "author": "tzprograms",
             "engaged_at": "2026-09-18T06:20:55Z"
-          }
-        ]
-      },
-      {
-        "login": "nodari-dev",
-        "reviews": 1,
-        "prs": [
-          {
-            "title": "feat: Expose API server warnings in Argo CD UI",
-            "url": "https://github.com/argoproj/argo-cd/pull/28849",
-            "repo": "argoproj/argo-cd",
-            "number": 28849,
-            "author": "toVersus",
-            "engaged_at": "2026-11-10T13:14:27Z"
           }
         ]
       }
