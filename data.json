@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T20:05:18.880130056Z",
+  "generated_at": "2026-11-10T21:05:52.457401726Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -936,17 +936,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
       },
       "created_at": "2026-11-10T18:46:43Z",
-      "updated_at": "2026-11-10T19:34:47Z",
+      "updated_at": "2026-11-10T20:56:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
-        "approved_count": 0,
+        "approved_count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -1345,10 +1345,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21159051?u=5814ed47c0636690f5de4857daa27eb98a4cf3ec\u0026v=4"
       },
       "created_at": "2026-10-06T22:46:23Z",
-      "updated_at": "2026-11-10T19:51:32Z",
+      "updated_at": "2026-11-10T20:13:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1885,7 +1885,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
       },
       "created_at": "2026-11-05T08:56:10Z",
-      "updated_at": "2026-11-10T14:20:00Z",
+      "updated_at": "2026-11-10T20:11:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3143,29 +3143,6 @@
       "labels": []
     },
     {
-      "title": "fix(agent): drop ownerReferences from repository secrets in managed mode",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1199",
-      "number": 1199,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "orshih6",
-        "avatar_url": "https://avatars.githubusercontent.com/u/34618353?u=95b17e46c11630a29c26e3b229dbdc57a82c2c94\u0026v=4"
-      },
-      "created_at": "2026-11-07T10:38:01Z",
-      "updated_at": "2026-11-10T18:43:24Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "fix(replication): do not hold the forwarder lock while sending to a replica",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1201",
       "number": 1201,
@@ -3362,7 +3339,7 @@
       "updated_at": "2026-11-10T19:16:39Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3414,7 +3391,7 @@
       "updated_at": "2026-11-10T19:16:44Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3440,7 +3417,7 @@
       "updated_at": "2026-11-10T19:16:51Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3466,7 +3443,7 @@
       "updated_at": "2026-11-10T19:16:53Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3492,7 +3469,7 @@
       "updated_at": "2026-11-10T19:17:06Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3518,7 +3495,7 @@
       "updated_at": "2026-11-10T19:17:26Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3530,6 +3507,29 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "release: init 0.11.0 release on branch release-0.11",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1218",
+      "number": 1218,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "github-actions",
+        "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
+      },
+      "created_at": "2026-11-10T20:32:10Z",
+      "updated_at": "2026-11-10T20:32:20Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "Add OAuth support. It is need for access to Azure CR",
@@ -4705,7 +4705,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-10T19:47:06Z",
-      "updated_at": "2026-11-10T19:57:50Z",
+      "updated_at": "2026-11-10T20:30:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4713,7 +4713,7 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -5836,7 +5836,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-12T20:03:30Z",
+    "since": "2026-08-12T21:04:00Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8533,6 +8533,14 @@
         "reviews": 89,
         "prs": [
           {
+            "title": "fix(agent): drop ownerReferences from repository secrets in managed mode",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1199",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1199,
+            "author": "orshih6",
+            "engaged_at": "2026-11-10T20:12:17Z"
+          },
+          {
             "title": "ci: enable Dependabot updates for GitHub Actions",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1195",
             "repo": "argoproj-labs/argocd-agent",
@@ -9235,14 +9243,6 @@
             "number": 1069,
             "author": "chetan-rns",
             "engaged_at": "2026-08-12T21:47:42Z"
-          },
-          {
-            "title": "fix: preserve notifications state on the principal across agent updates",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1059",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1059,
-            "author": "benelser",
-            "engaged_at": "2026-08-12T20:33:11Z"
           }
         ]
       },
@@ -10896,7 +10896,7 @@
             "repo": "redhat-developer/gitops-console-plugin",
             "number": 317,
             "author": "keithchong",
-            "engaged_at": "2026-11-10T19:34:46Z"
+            "engaged_at": "2026-11-10T20:55:19Z"
           },
           {
             "title": "ci(renovate): allow storage.googleapis.com egress",
