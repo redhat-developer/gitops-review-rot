@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T22:06:28.882267818Z",
+  "generated_at": "2026-11-11T23:06:30.948414936Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1891,7 +1891,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-06T18:05:55Z",
-      "updated_at": "2026-11-11T20:32:11Z",
+      "updated_at": "2026-11-11T22:44:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1899,9 +1899,9 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 10,
+      "unresolved_conversations": 11,
       "labels": [
         "kind/bug"
       ]
@@ -1968,10 +1968,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-09T16:37:21Z",
-      "updated_at": "2026-11-11T21:16:54Z",
+      "updated_at": "2026-11-11T23:02:04Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2062,33 +2062,6 @@
       ]
     },
     {
-      "title": "chore: move additional sequential E2E tests to parallel",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1520",
-      "number": 1520,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "jgwest",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
-      },
-      "created_at": "2026-11-10T15:31:43Z",
-      "updated_at": "2026-11-11T16:05:05Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 3,
-      "labels": [
-        "lgtm",
-        "approved",
-        "kind/failing-ci"
-      ]
-    },
-    {
       "title": "Gitops 9691 filter at scale",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1522",
       "number": 1522,
@@ -2171,7 +2144,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-11T14:37:00Z",
-      "updated_at": "2026-11-11T14:37:16Z",
+      "updated_at": "2026-11-11T23:02:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -6291,15 +6264,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-10-06T11:39:06Z",
-      "updated_at": "2026-11-11T13:37:30Z",
+      "updated_at": "2026-11-11T23:00:44Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 17,
       "labels": []
@@ -6422,12 +6395,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-13T22:04:34Z",
+    "since": "2026-08-13T23:04:48Z",
     "reviewers": [
       {
         "login": "chengfang",
         "reviews": 121,
         "prs": [
+          {
+            "title": "fix(image-updater): Privilege escalation via IMAGE_UPDATER_WATCH_NAMESPACES on namespace-scoped ArgoCD instances",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1511",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1511,
+            "author": "dkarpele",
+            "engaged_at": "2026-11-11T22:44:06Z"
+          },
           {
             "title": "chore(deps): bump devtools_gitops/go-toolset from 1.26.5 to 1.27.3 in /openshift-ci/build-root",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1529",
@@ -6475,14 +6456,6 @@
             "number": 1524,
             "author": "olivergondza",
             "engaged_at": "2026-11-11T15:57:04Z"
-          },
-          {
-            "title": "fix(image-updater): Privilege escalation via IMAGE_UPDATER_WATCH_NAMESPACES on namespace-scoped ArgoCD instances",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1511",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1511,
-            "author": "dkarpele",
-            "engaged_at": "2026-11-10T21:25:12Z"
           },
           {
             "title": "chore: bump image-updater v1.1.3 -\u003e v1.1.4, argo-cd v3.3.18 -\u003e v3.3.19",
