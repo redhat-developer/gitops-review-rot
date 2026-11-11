@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T19:06:37.455506609Z",
+  "generated_at": "2026-11-11T20:06:52.856093653Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1249,7 +1249,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-11T14:06:41Z",
+      "updated_at": "2026-11-11T19:18:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1685,7 +1685,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T09:44:01Z",
-      "updated_at": "2026-11-11T14:53:52Z",
+      "updated_at": "2026-11-11T19:05:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1891,7 +1891,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-06T18:05:55Z",
-      "updated_at": "2026-11-11T17:50:48Z",
+      "updated_at": "2026-11-11T19:51:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1901,7 +1901,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 9,
+      "unresolved_conversations": 11,
       "labels": [
         "kind/bug"
       ]
@@ -1968,21 +1968,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-09T16:37:21Z",
-      "updated_at": "2026-11-11T17:50:36Z",
+      "updated_at": "2026-11-11T19:47:54Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
-        "lgtm",
         "approved",
-        "needs-rebase",
         "kind/cleanup"
       ]
     },
@@ -2260,6 +2258,33 @@
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement"
+      ]
+    },
+    {
+      "title": "chore(deps): bump devtools_gitops/go-toolset from 1.26.5 to 1.27.3 in /openshift-ci/build-root",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1529",
+      "number": 1529,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-11T19:14:55Z",
+      "updated_at": "2026-11-11T19:17:53Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "docker"
       ]
     },
     {
@@ -5553,7 +5578,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-26T09:29:33Z",
-      "updated_at": "2026-11-11T16:48:33Z",
+      "updated_at": "2026-11-11T19:25:57Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5644,7 +5669,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-13T19:04:46Z",
+    "since": "2026-08-13T20:05:03Z",
     "reviewers": [
       {
         "login": "chengfang",
