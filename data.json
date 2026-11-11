@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T12:07:26.116995362Z",
+  "generated_at": "2026-11-11T13:06:04.428038491Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1374,7 +1374,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-11-11T10:39:45Z",
+      "updated_at": "2026-11-11T12:12:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1686,7 +1686,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T09:44:01Z",
-      "updated_at": "2026-11-09T15:26:05Z",
+      "updated_at": "2026-11-11T12:37:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1696,7 +1696,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "kind/cleanup"
       ]
@@ -1711,15 +1711,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-04T14:19:12Z",
-      "updated_at": "2026-11-11T09:58:34Z",
+      "updated_at": "2026-11-11T12:49:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
+        "count": 3,
+        "approved_count": 1,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -1994,7 +1994,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-10T07:08:52Z",
-      "updated_at": "2026-11-11T11:15:16Z",
+      "updated_at": "2026-11-11T12:31:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2035,7 +2035,7 @@
       ]
     },
     {
-      "title": "chore(test): Unify diverged E2E tests in argocd-operator",
+      "title": "chore(test): Unify diverged parallel E2E tests in argocd-operator",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1519",
       "number": 1519,
       "repo": "redhat-developer/gitops-operator",
@@ -2044,15 +2044,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-10T11:27:08Z",
-      "updated_at": "2026-11-10T16:18:15Z",
+      "updated_at": "2026-11-11T13:02:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": [
@@ -2107,6 +2107,54 @@
       "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
+      ]
+    },
+    {
+      "title": "Update to latest commit of argo-rollouts-manager 'e3de64a389749d2564f21e9ac25487b730cb4d14'",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1523",
+      "number": 1523,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-11-11T12:29:39Z",
+      "updated_at": "2026-11-11T12:45:09Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore(deps): Fix `make update-dependencies` after #1458",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1524",
+      "number": 1524,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-11-11T12:32:03Z",
+      "updated_at": "2026-11-11T12:39:21Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/cleanup"
       ]
     },
     {
@@ -5562,7 +5610,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-13T12:05:35Z",
+    "since": "2026-08-13T13:04:10Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6519,7 +6567,7 @@
             "engaged_at": "2026-11-11T09:22:25Z"
           },
           {
-            "title": "chore(test): Unify diverged E2E tests in argocd-operator",
+            "title": "chore(test): Unify diverged parallel E2E tests in argocd-operator",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1519",
             "repo": "redhat-developer/gitops-operator",
             "number": 1519,
@@ -11977,6 +12025,36 @@
         ]
       },
       {
+        "login": "nodari-dev",
+        "reviews": 3,
+        "prs": [
+          {
+            "title": "App-history-and-ui-rollback-ui-test",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1497",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1497,
+            "author": "trdoyle81",
+            "engaged_at": "2026-11-11T12:45:52Z"
+          },
+          {
+            "title": "chore: Upgrade to Argo CD 3.6",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1210",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1210,
+            "author": "jannfis",
+            "engaged_at": "2026-11-10T14:56:52Z"
+          },
+          {
+            "title": "feat: Expose API server warnings in Argo CD UI",
+            "url": "https://github.com/argoproj/argo-cd/pull/28849",
+            "repo": "argoproj/argo-cd",
+            "number": 28849,
+            "author": "toVersus",
+            "engaged_at": "2026-11-10T13:14:27Z"
+          }
+        ]
+      },
+      {
         "login": "trdoyle81",
         "reviews": 3,
         "prs": [
@@ -12047,28 +12125,6 @@
             "number": 2377,
             "author": "anandf",
             "engaged_at": "2026-09-18T05:35:52Z"
-          }
-        ]
-      },
-      {
-        "login": "nodari-dev",
-        "reviews": 2,
-        "prs": [
-          {
-            "title": "chore: Upgrade to Argo CD 3.6",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1210",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1210,
-            "author": "jannfis",
-            "engaged_at": "2026-11-10T14:56:52Z"
-          },
-          {
-            "title": "feat: Expose API server warnings in Argo CD UI",
-            "url": "https://github.com/argoproj/argo-cd/pull/28849",
-            "repo": "argoproj/argo-cd",
-            "number": 28849,
-            "author": "toVersus",
-            "engaged_at": "2026-11-10T13:14:27Z"
           }
         ]
       },
