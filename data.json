@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T16:07:41.746161193Z",
+  "generated_at": "2026-11-11T17:06:34.568839003Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1374,13 +1374,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-11-11T15:36:58Z",
+      "updated_at": "2026-11-11T16:47:31Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -1917,7 +1917,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-09T16:24:37Z",
-      "updated_at": "2026-11-11T13:59:28Z",
+      "updated_at": "2026-11-11T16:43:41Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1996,15 +1996,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-10T07:08:52Z",
-      "updated_at": "2026-11-11T15:33:21Z",
+      "updated_at": "2026-11-11T16:59:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 10,
       "labels": [
@@ -2071,18 +2071,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-10T15:31:43Z",
-      "updated_at": "2026-11-10T16:02:15Z",
+      "updated_at": "2026-11-11T16:05:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 3,
       "labels": [
+        "lgtm",
+        "approved",
         "kind/failing-ci"
       ]
     },
@@ -2144,10 +2146,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-11T12:32:03Z",
-      "updated_at": "2026-11-11T15:57:04Z",
+      "updated_at": "2026-11-11T16:26:20Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2194,17 +2196,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-11-11T14:50:28Z",
-      "updated_at": "2026-11-11T16:00:30Z",
+      "updated_at": "2026-11-11T17:00:01Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "kind/bug"
       ]
@@ -2219,7 +2221,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-11T15:19:30Z",
-      "updated_at": "2026-11-11T16:00:19Z",
+      "updated_at": "2026-11-11T16:04:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2244,7 +2246,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-11T15:32:05Z",
-      "updated_at": "2026-11-11T15:32:21Z",
+      "updated_at": "2026-11-11T16:30:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3256,6 +3258,1168 @@
         "dependencies",
         "github_actions"
       ]
+    },
+    {
+      "title": "Add OAuth support. It is need for access to Azure CR",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/224",
+      "number": 224,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "vikborisov",
+        "avatar_url": "https://avatars.githubusercontent.com/u/64476797?u=6afdee7183010e695843d3743d497e914f41848e\u0026v=4"
+      },
+      "created_at": "2021-06-30T12:14:44Z",
+      "updated_at": "2026-09-22T15:45:45Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 6,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "add the ability to specify filename for helm based git write back target",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/289",
+      "number": 289,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "rafedramzi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/68276604?v=4"
+      },
+      "created_at": "2021-11-03T18:45:21Z",
+      "updated_at": "2025-10-24T21:16:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 7,
+        "approved_count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat(chart-updater): continuous deployment of OCI Helm chart type application",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/405",
+      "number": 405,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "distorhead",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1161992?v=4"
+      },
+      "created_at": "2022-03-15T08:07:03Z",
+      "updated_at": "2026-06-10T23:21:35Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 8,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Support using regex capture groups to clean up the semver of a tag",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/407",
+      "number": 407,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "djeebus",
+        "avatar_url": "https://avatars.githubusercontent.com/u/669730?v=4"
+      },
+      "created_at": "2022-03-23T02:16:29Z",
+      "updated_at": "2025-10-24T21:16:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 8,
+      "labels": []
+    },
+    {
+      "title": "feat: push new commit to pushBranch when newer image is found",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/410",
+      "number": 410,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "katainaka0503",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24622920?v=4"
+      },
+      "created_at": "2022-03-29T13:33:21Z",
+      "updated_at": "2026-10-15T23:02:16Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Add a semver-transformer annotation to assist in converting sloppy tags to semvers",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/413",
+      "number": 413,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "djeebus",
+        "avatar_url": "https://avatars.githubusercontent.com/u/669730?v=4"
+      },
+      "created_at": "2022-04-06T16:53:36Z",
+      "updated_at": "2025-10-24T21:16:23Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 3,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Support GPG-signed commits, fixes #427",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/428",
+      "number": 428,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "vgrigoruk",
+        "avatar_url": "https://avatars.githubusercontent.com/u/487261?u=b5ce99e8bb4ab304797c7c06b7c39c3a5a7d1287\u0026v=4"
+      },
+      "created_at": "2022-04-29T14:15:43Z",
+      "updated_at": "2026-06-28T05:50:05Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 4,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Adds a new update strategy: manual",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/538",
+      "number": 538,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "mvazquezc",
+        "avatar_url": "https://avatars.githubusercontent.com/u/9841873?u=e7431fe7387d78f9c589754863b63e2a20ce576d\u0026v=4"
+      },
+      "created_at": "2023-02-28T08:40:39Z",
+      "updated_at": "2026-10-15T23:19:05Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Support for multisource + upgrade k8s and argocd pkg + update to go 1.20 (fix #513)",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/548",
+      "number": 548,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "Tronix117",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211541?u=41a23265b0a98a946eff5ad4a52b443005d9e9f5\u0026v=4"
+      },
+      "created_at": "2023-03-30T16:45:59Z",
+      "updated_at": "2025-10-24T21:16:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 11,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "default semver constraint for empty string",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/552",
+      "number": 552,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "zywillc",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41960697?v=4"
+      },
+      "created_at": "2023-04-11T15:49:04Z",
+      "updated_at": "2026-06-04T23:24:12Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 3,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Support for multisource + upgrade k8s and argocd pkg",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/578",
+      "number": 578,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "deferraz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/31141?v=4"
+      },
+      "created_at": "2023-06-21T17:01:15Z",
+      "updated_at": "2025-10-24T21:16:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 10,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "Add compatibility for multiple sources",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/635",
+      "number": 635,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "caseyjmorton",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1587734?v=4"
+      },
+      "created_at": "2023-10-25T15:21:48Z",
+      "updated_at": "2025-10-24T21:16:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Add support for values write back in combination with Argocd-Vault-Plugin",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/637",
+      "number": 637,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "fivetran-arnaudvangelder",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124700692?u=3a1e7b55263f141a2143dfeb68e5c06219fbb87f\u0026v=4"
+      },
+      "created_at": "2023-10-31T13:33:24Z",
+      "updated_at": "2026-02-10T13:50:39Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 14,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Multiple secrets for the same registry",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/642",
+      "number": 642,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "biclighter81",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20232289?u=8ca64602f8db72d079e63d6c2651d2f60a588198\u0026v=4"
+      },
+      "created_at": "2023-11-11T11:27:21Z",
+      "updated_at": "2026-06-18T20:11:37Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 3,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: filter images by image-list annotation",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/651",
+      "number": 651,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "ziouf",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7452097?u=8874da2b9c3e66ab9c009266aa801e4b56581261\u0026v=4"
+      },
+      "created_at": "2023-12-08T12:16:38Z",
+      "updated_at": "2025-10-24T21:16:24Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "Correctly detect primary branch",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/669",
+      "number": 669,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "gugu",
+        "avatar_url": "https://avatars.githubusercontent.com/u/75169?u=6a4e060f02807d3e91932d6d41317175c4d3ea9f\u0026v=4"
+      },
+      "created_at": "2024-01-19T12:59:00Z",
+      "updated_at": "2026-06-20T11:23:43Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: writing helm values back to git",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/693",
+      "number": 693,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "supercairos",
+        "avatar_url": "https://avatars.githubusercontent.com/u/720675?v=4"
+      },
+      "created_at": "2024-03-20T17:13:57Z",
+      "updated_at": "2026-10-19T12:00:35Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Add support for Plugin type applications with argocd write-back",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/738",
+      "number": 738,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "rpg600",
+        "avatar_url": "https://avatars.githubusercontent.com/u/956326?u=13d5bd179472ae2a4ae1fb53f406311dba56b1f4\u0026v=4"
+      },
+      "created_at": "2024-06-07T21:15:10Z",
+      "updated_at": "2026-02-26T15:22:33Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat: update several path for image.tag",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/793",
+      "number": 793,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "Tchoupinax",
+        "avatar_url": "https://avatars.githubusercontent.com/u/9136206?u=998464adc80f03af921801fd3a231cda2d1c4969\u0026v=4"
+      },
+      "created_at": "2024-07-22T18:25:15Z",
+      "updated_at": "2026-10-09T19:41:20Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "title": "Add AWS credential provider",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/825",
+      "number": 825,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "marcelobartsch-jt",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49187416?u=c08ad8873073ca2260a549404bdd28aba5b373e4\u0026v=4"
+      },
+      "created_at": "2024-08-12T10:14:42Z",
+      "updated_at": "2026-10-23T21:32:51Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 3,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "List applications in all Namespaces when trying to update",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/831",
+      "number": 831,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "sribiere-jellysmack",
+        "avatar_url": "https://avatars.githubusercontent.com/u/159423226?v=4"
+      },
+      "created_at": "2024-08-13T15:07:50Z",
+      "updated_at": "2026-06-26T20:45:41Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(update-methods.md):add escaping to the template so helm doesn't consume it",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/888",
+      "number": 888,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "galamdring",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2156213?u=ce0d005e4e86121eee00ae09e08d4f41a4ff69fd\u0026v=4"
+      },
+      "created_at": "2024-10-15T15:49:45Z",
+      "updated_at": "2026-03-31T18:27:56Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "feat: preserve formatting and comments when updating Helm values file",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1039",
+      "number": 1039,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "kirgene",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1386147?v=4"
+      },
+      "created_at": "2025-02-13T14:07:55Z",
+      "updated_at": "2026-06-10T23:13:35Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 4,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 3,
+      "labels": []
+    },
+    {
+      "title": "feat: add helm release helm param to fix multi helm sources updates",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1040",
+      "number": 1040,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "etienne-napoleone",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26155267?u=4787cb44bee8f92557fcd73834fc825361264983\u0026v=4"
+      },
+      "created_at": "2025-02-14T15:31:04Z",
+      "updated_at": "2025-11-18T16:40:59Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat: fix force-update for zero-replica deployments by reading image tags from spec",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1172",
+      "number": 1172,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chansuke",
+        "avatar_url": "https://avatars.githubusercontent.com/u/501052?u=82fad85116985cc3425b779266e7fe05c27bdd47\u0026v=4"
+      },
+      "created_at": "2025-06-22T12:14:36Z",
+      "updated_at": "2026-06-15T19:37:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 3,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Feature/allow empty helm.image-name annotation",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1211",
+      "number": 1211,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "will4j",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7107624?u=dab084a000d017985f24b66fa4f494b88d86f41c\u0026v=4"
+      },
+      "created_at": "2025-08-09T03:08:38Z",
+      "updated_at": "2026-06-10T23:23:13Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Performance approach (at least for GitLab registry)",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1240",
+      "number": 1240,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "eidmantas",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17336238?u=3a659ac1d31f888326d2ce178a5512438cb9bf16\u0026v=4"
+      },
+      "created_at": "2025-09-17T13:09:09Z",
+      "updated_at": "2025-10-30T06:30:42Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: Remove incorrect yaml.LiteralStyle from helm values write-back",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1291",
+      "number": 1291,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "DeZin7",
+        "avatar_url": "https://avatars.githubusercontent.com/u/116521553?u=8f4dcfe4fae470d0687caf258c5be6c662848c9d\u0026v=4"
+      },
+      "created_at": "2025-10-22T17:21:34Z",
+      "updated_at": "2026-06-20T11:04:42Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat(webhook): add Google Artifact Registry Webhook support (via Pub/Sub)",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1419",
+      "number": 1419,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "ahmednfwela",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63286031?v=4"
+      },
+      "created_at": "2026-01-01T06:38:09Z",
+      "updated_at": "2026-11-09T11:52:04Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 4,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat: preserve original tag annotation for digest strategy",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1476",
+      "number": 1476,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "zc149",
+        "avatar_url": "https://avatars.githubusercontent.com/u/151507899?u=9178733ce8b82e687b55611578179ba2bb9b4440\u0026v=4"
+      },
+      "created_at": "2026-02-09T01:05:41Z",
+      "updated_at": "2026-11-03T15:08:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "hold"
+      ]
+    },
+    {
+      "title": "tests: add E2E ginkgo test for SourceHydrator Helm git write-back",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1478",
+      "number": 1478,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "julianderks",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49167464?u=0dbfe4a1a44deac52509d986b43620c7b4698202\u0026v=4"
+      },
+      "created_at": "2026-02-09T10:03:14Z",
+      "updated_at": "2026-11-05T11:20:44Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 3,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "ok-to-test"
+      ]
+    },
+    {
+      "title": "feat: add gitlab webhook",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1554",
+      "number": 1554,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "bjschafer",
+        "avatar_url": "https://avatars.githubusercontent.com/u/711267?v=4"
+      },
+      "created_at": "2026-03-27T15:22:13Z",
+      "updated_at": "2026-04-08T01:41:01Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat: batch git commits per repository to reduce clone/push overhead",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1571",
+      "number": 1571,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "stathismar",
+        "avatar_url": "https://avatars.githubusercontent.com/u/57906040?u=f3fb03827b60c49d38cfd6aaf7a819ef5d5437d0\u0026v=4"
+      },
+      "created_at": "2026-04-03T18:17:37Z",
+      "updated_at": "2026-04-07T15:37:00Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat: add multi-source Helm support",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1585",
+      "number": 1585,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "klofton-bw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/77643369?v=4"
+      },
+      "created_at": "2026-04-14T13:35:17Z",
+      "updated_at": "2026-04-16T15:26:29Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat(webhook): serialize webhook event processing via a buffered channel queue",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1637",
+      "number": 1637,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "qpowjohn",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32347579?v=4"
+      },
+      "created_at": "2026-05-07T02:26:30Z",
+      "updated_at": "2026-06-03T19:04:10Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 2,
+      "labels": []
+    },
+    {
+      "title": "feat: option to compare against one registry, pull from another",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1644",
+      "number": 1644,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "gugu",
+        "avatar_url": "https://avatars.githubusercontent.com/u/75169?u=6a4e060f02807d3e91932d6d41317175c4d3ea9f\u0026v=4"
+      },
+      "created_at": "2026-05-13T12:43:11Z",
+      "updated_at": "2026-08-04T18:42:28Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 3,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "ok-to-test"
+      ]
+    },
+    {
+      "title": "Add an \"upsert\" pull-request mode",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1661",
+      "number": 1661,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "fubhy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1172528?u=f68686b4ee00773f5790e8f8f098350b64401f5e\u0026v=4"
+      },
+      "created_at": "2026-05-21T16:03:51Z",
+      "updated_at": "2026-11-05T13:48:27Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 8,
+      "labels": []
+    },
+    {
+      "title": "fix(git): ignore injected GIT_CONFIG_* for git subprocesses",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1664",
+      "number": 1664,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "immanuwell",
+        "avatar_url": "https://avatars.githubusercontent.com/u/122638311?u=37b47fe393462a31aaddf910be1b2147d587e91e\u0026v=4"
+      },
+      "created_at": "2026-05-31T11:29:11Z",
+      "updated_at": "2026-11-05T15:54:08Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "fix(argocd-writeback): add application type inference in WriteBackConfig",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1807",
+      "number": 1807,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "sorXCode",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32789220?u=85782001e3c1fbcff224be8ea13e6732df3502be\u0026v=4"
+      },
+      "created_at": "2026-09-16T21:54:34Z",
+      "updated_at": "2026-10-02T09:26:03Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "fix(image): keep an explicit docker.io/library/ prefix on write-back",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1853",
+      "number": 1853,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "somaz94",
+        "avatar_url": "https://avatars.githubusercontent.com/u/112675579?u=13a75de4f053bd13dae6e3cce8e899f1b4f4250e\u0026v=4"
+      },
+      "created_at": "2026-10-06T09:35:32Z",
+      "updated_at": "2026-10-29T09:34:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(git-writeback): patch quoted Helm values in place",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1854",
+      "number": 1854,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "rishabhvenu",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
+      },
+      "created_at": "2026-10-06T19:33:44Z",
+      "updated_at": "2026-11-05T13:39:52Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(git-writeback): honour repository proxy settings for Git and SCM API calls",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1855",
+      "number": 1855,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "rishabhvenu",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
+      },
+      "created_at": "2026-10-06T21:27:56Z",
+      "updated_at": "2026-11-07T17:31:04Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(kustomize): keep aliases of the same image apart when merging the override file",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1865",
+      "number": 1865,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "rishabhvenu",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37129600?u=aabf2699016b5903a87d2a2fb1eeb6e6eb43aafa\u0026v=4"
+      },
+      "created_at": "2026-10-09T17:56:08Z",
+      "updated_at": "2026-11-06T18:34:26Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 3,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "ok-to-test"
+      ]
+    },
+    {
+      "title": "fix(argocd): treat source hydrator apps without a tool block as Helm",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1879",
+      "number": 1879,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "RayanAlyasi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/51235797?u=31d43808181dd2916a7c1d2f78b3943cbf71e080\u0026v=4"
+      },
+      "created_at": "2026-10-20T20:18:00Z",
+      "updated_at": "2026-10-21T01:57:43Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "ok-to-test"
+      ]
+    },
+    {
+      "title": "Propagate failed updates in run-once mode",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1890",
+      "number": 1890,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "dajiaohuang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108231307?u=8bdf7a69d9cb3a2a9669bec05afd2718d0a5754e\u0026v=4"
+      },
+      "created_at": "2026-10-27T19:19:27Z",
+      "updated_at": "2026-10-27T19:48:10Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat(git): skip no-op git write-backs before cloning",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1892",
+      "number": 1892,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "lot-koichi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/211904098?v=4"
+      },
+      "created_at": "2026-10-29T05:40:52Z",
+      "updated_at": "2026-10-29T05:46:06Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat(git): add a base helper to commit message and branch name templates",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1894",
+      "number": 1894,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "sarankumar1325",
+        "avatar_url": "https://avatars.githubusercontent.com/u/120080287?u=c7bc3e595715243d53156b767f167b068013abae\u0026v=4"
+      },
+      "created_at": "2026-10-30T10:39:34Z",
+      "updated_at": "2026-11-09T13:36:07Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: compare tag names when the running image is pinned to a digest",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1897",
+      "number": 1897,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "kimblue1016",
+        "avatar_url": "https://avatars.githubusercontent.com/u/125791757?u=70fb8cf61688d35a380904107f1047a90873d7fb\u0026v=4"
+      },
+      "created_at": "2026-11-01T01:46:03Z",
+      "updated_at": "2026-11-01T02:03:11Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: rebuild image update proposals from the current target",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1904",
+      "number": 1904,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "anqorithm",
+        "avatar_url": "https://avatars.githubusercontent.com/u/61029571?u=ac73157d4fb6896fbdef9f5e213560c7cc7e0c0b\u0026v=4"
+      },
+      "created_at": "2026-11-02T03:12:40Z",
+      "updated_at": "2026-11-03T10:09:36Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: do not revert concurrent Application spec changes with argocd write-back",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1927",
+      "number": 1927,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-11-10T19:47:06Z",
+      "updated_at": "2026-11-11T02:35:27Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
@@ -4284,7 +5448,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-26T09:29:33Z",
-      "updated_at": "2026-11-11T15:27:47Z",
+      "updated_at": "2026-11-11T16:48:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4294,7 +5458,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 18,
+      "unresolved_conversations": 16,
       "labels": []
     },
     {
@@ -4375,12 +5539,28 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-13T16:05:47Z",
+    "since": "2026-08-13T17:04:45Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 118,
+        "reviews": 120,
         "prs": [
+          {
+            "title": "feat(tls): Configure TLS PQC work",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1517",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1517,
+            "author": "akhilnittala",
+            "engaged_at": "2026-11-11T16:59:55Z"
+          },
+          {
+            "title": "feat(tls): configure TLS Curve Preferences for argocd Repo-server and Server component",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1443",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1443,
+            "author": "akhilnittala",
+            "engaged_at": "2026-11-11T16:47:31Z"
+          },
           {
             "title": "chore: move additional sequential E2E tests to parallel",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1520",
