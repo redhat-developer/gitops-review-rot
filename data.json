@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T00:10:40.614831127Z",
+  "generated_at": "2026-11-11T01:06:29.623374649Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1279,33 +1279,6 @@
       },
       "unresolved_conversations": 1,
       "labels": [
-        "approved"
-      ]
-    },
-    {
-      "title": "fix: fix namespaceSelectors of the NetworkPolicies argocd components",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1318",
-      "number": 1318,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "alkakumari016",
-        "avatar_url": "https://avatars.githubusercontent.com/u/48486620?u=ee8cb285448e593a8c4be972d3765ee55a64115f\u0026v=4"
-      },
-      "created_at": "2026-09-24T17:53:23Z",
-      "updated_at": "2026-11-10T11:58:48Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "approved_count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/bug",
-        "lgtm",
         "approved"
       ]
     },
@@ -3287,13 +3260,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/268171960?v=4"
       },
       "created_at": "2026-11-09T10:21:49Z",
-      "updated_at": "2026-11-09T11:34:19Z",
+      "updated_at": "2026-11-11T00:58:12Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -6537,7 +6510,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-13T00:08:57Z",
+    "since": "2026-08-13T01:04:44Z",
     "reviewers": [
       {
         "login": "chengfang",
