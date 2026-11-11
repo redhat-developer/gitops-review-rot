@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T10:06:30.308701862Z",
+  "generated_at": "2026-11-11T11:06:13.324791833Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1374,10 +1374,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-11-04T23:46:43Z",
+      "updated_at": "2026-11-11T10:39:45Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1444,33 +1444,6 @@
       ]
     },
     {
-      "title": "Go runtime auto-tuning GOMEMLIMIT/GOMAXPROCS for application-controller",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1468",
-      "number": 1468,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "nmirasch",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
-      },
-      "created_at": "2026-10-26T17:43:27Z",
-      "updated_at": "2026-11-11T07:28:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "kind/enhancement",
-        "lgtm",
-        "approved"
-      ]
-    },
-    {
       "title": "chore(deps): bump library/golang from 1.26 to 1.27 in /argocd-operator/tests/auxiliary/smtplistener",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1469",
       "number": 1469,
@@ -1495,32 +1468,6 @@
         "ok-to-test",
         "dependencies",
         "docker"
-      ]
-    },
-    {
-      "title": "update argocd-operator dependency (1.22)",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1474",
-      "number": 1474,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "anandrkskd",
-        "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
-      },
-      "created_at": "2026-10-28T08:22:58Z",
-      "updated_at": "2026-11-10T08:15:44Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/bug",
-        "approved"
       ]
     },
     {
@@ -1767,7 +1714,7 @@
       "updated_at": "2026-11-11T09:58:34Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1880,7 +1827,7 @@
       ]
     },
     {
-      "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.48.0",
+      "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.1 to 0.48.0",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1508",
       "number": 1508,
       "repo": "redhat-developer/gitops-operator",
@@ -1889,7 +1836,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-05T19:15:08Z",
-      "updated_at": "2026-11-05T19:15:23Z",
+      "updated_at": "2026-11-11T10:30:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2047,7 +1994,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-10T07:08:52Z",
-      "updated_at": "2026-11-11T09:50:32Z",
+      "updated_at": "2026-11-11T10:59:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -6284,10 +6231,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-10-22T16:32:51Z",
-      "updated_at": "2026-11-10T22:01:58Z",
+      "updated_at": "2026-11-11T10:52:38Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -6369,7 +6316,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-13T10:04:43Z",
+    "since": "2026-08-13T11:04:22Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9829,7 +9776,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1468,
             "author": "nmirasch",
-            "engaged_at": "2026-11-11T02:03:41Z"
+            "engaged_at": "2026-11-11T10:26:41Z"
           },
           {
             "title": "feat: Add View AI Recommendation link to agentic run (#11491)",
