@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T21:14:30.882366816Z",
+  "generated_at": "2026-11-11T22:06:28.882267818Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1968,7 +1968,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-09T16:37:21Z",
-      "updated_at": "2026-11-11T19:47:54Z",
+      "updated_at": "2026-11-11T21:16:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1976,10 +1976,11 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
+        "lgtm",
         "approved",
         "kind/cleanup"
       ]
@@ -2245,7 +2246,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-11T15:32:05Z",
-      "updated_at": "2026-11-11T17:50:58Z",
+      "updated_at": "2026-11-11T21:50:18Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2258,33 +2259,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement"
-      ]
-    },
-    {
-      "title": "chore(deps): bump devtools_gitops/go-toolset from 1.26.5 to 1.27.3 in /openshift-ci/build-root",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1529",
-      "number": 1529,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-11T19:14:55Z",
-      "updated_at": "2026-11-11T19:17:53Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-ok-to-test",
-        "dependencies",
-        "docker"
       ]
     },
     {
@@ -6448,12 +6422,28 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-13T21:12:45Z",
+    "since": "2026-08-13T22:04:34Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 120,
+        "reviews": 121,
         "prs": [
+          {
+            "title": "chore(deps): bump devtools_gitops/go-toolset from 1.26.5 to 1.27.3 in /openshift-ci/build-root",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1529",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1529,
+            "author": "dependabot",
+            "engaged_at": "2026-11-11T21:21:17Z"
+          },
+          {
+            "title": "chore: bump image-updater v1.3.2 -\u003e v1.3.3, argo-cd v3.5.6 -\u003e v3.5.7",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1514",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1514,
+            "author": "dkarpele",
+            "engaged_at": "2026-11-11T21:16:46Z"
+          },
           {
             "title": "feat(tls): Configure TLS PQC work for gitops promoter",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1517",
@@ -6509,14 +6499,6 @@
             "number": 1513,
             "author": "dkarpele",
             "engaged_at": "2026-11-09T16:49:58Z"
-          },
-          {
-            "title": "chore: bump image-updater v1.3.2 -\u003e v1.3.3, argo-cd v3.5.6 -\u003e v3.5.7",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1514",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1514,
-            "author": "dkarpele",
-            "engaged_at": "2026-11-09T16:49:19Z"
           },
           {
             "title": "feat(e2e): Move 1-120_repo_server_system_ca_trust.go to parallel",
