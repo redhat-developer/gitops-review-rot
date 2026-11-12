@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T13:05:37.927359164Z",
+  "generated_at": "2026-11-12T14:06:18.25185483Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -408,7 +408,7 @@
       "updated_at": "2026-11-12T12:16:20Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -753,7 +753,7 @@
       "updated_at": "2026-11-12T12:18:20Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -916,7 +916,7 @@
       "updated_at": "2026-11-12T12:14:16Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -939,7 +939,7 @@
       "updated_at": "2026-11-12T12:16:59Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1594,31 +1594,6 @@
       ]
     },
     {
-      "title": "feat: support Image Updater webhook configuration in the ArgoCD CR",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1485",
-      "number": 1485,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-11-02T04:10:44Z",
-      "updated_at": "2026-11-10T15:06:13Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/enhancement"
-      ]
-    },
-    {
       "title": "feat: support merging multiple NotificationsConfiguration CRs per namespace",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1488",
       "number": 1488,
@@ -1906,10 +1881,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-06T13:48:11Z",
-      "updated_at": "2026-11-10T17:33:16Z",
+      "updated_at": "2026-11-12T13:07:42Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1919,8 +1894,7 @@
       "unresolved_conversations": 0,
       "labels": [
         "kind/documentation",
-        "kind/enhancement",
-        "needs-rebase"
+        "kind/enhancement"
       ]
     },
     {
@@ -2010,10 +1984,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-09T16:37:21Z",
-      "updated_at": "2026-11-12T11:28:41Z",
+      "updated_at": "2026-11-12T13:10:26Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2037,7 +2011,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-10T07:08:52Z",
-      "updated_at": "2026-11-12T12:22:40Z",
+      "updated_at": "2026-11-12T14:00:13Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2088,7 +2062,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-10T11:27:08Z",
-      "updated_at": "2026-11-12T12:54:36Z",
+      "updated_at": "2026-11-12T13:21:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2098,7 +2072,7 @@
         "approved_count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
       ]
@@ -2138,18 +2112,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-11T12:29:39Z",
-      "updated_at": "2026-11-12T12:26:48Z",
+      "updated_at": "2026-11-12T13:45:18Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
-      "labels": []
+      "labels": [
+        "lgtm"
+      ]
     },
     {
       "title": "chore(deps): Fix `make update-dependencies` after #1458",
@@ -4256,7 +4232,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63286031?v=4"
       },
       "created_at": "2026-01-01T06:38:09Z",
-      "updated_at": "2026-11-09T11:52:04Z",
+      "updated_at": "2026-11-12T13:15:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5789,17 +5765,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-26T09:29:33Z",
-      "updated_at": "2026-11-11T19:25:57Z",
+      "updated_at": "2026-11-12T13:11:27Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 15,
+      "unresolved_conversations": 2,
       "labels": []
     },
     {
@@ -5880,7 +5856,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-14T13:03:51Z",
+    "since": "2026-08-14T14:04:29Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7771,12 +7747,20 @@
         "reviews": 108,
         "prs": [
           {
+            "title": "feat: support Image Updater webhook configuration in the ArgoCD CR",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1485",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1485,
+            "author": "chengfang",
+            "engaged_at": "2026-11-12T14:01:01Z"
+          },
+          {
             "title": "chore: bump image-updater v1.3.2 -\u003e v1.3.3, argo-cd v3.5.6 -\u003e v3.5.7",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1514",
             "repo": "redhat-developer/gitops-operator",
             "number": 1514,
             "author": "dkarpele",
-            "engaged_at": "2026-11-11T13:59:43Z"
+            "engaged_at": "2026-11-12T13:10:25Z"
           },
           {
             "title": "chore: bump image-updater v1.1.3 -\u003e v1.1.4, argo-cd v3.3.18 -\u003e v3.3.19",
@@ -7825,14 +7809,6 @@
             "number": 1457,
             "author": "dependabot",
             "engaged_at": "2026-11-09T20:10:36Z"
-          },
-          {
-            "title": "feat: support Image Updater webhook configuration in the ArgoCD CR",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1485",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1485,
-            "author": "chengfang",
-            "engaged_at": "2026-11-06T14:14:41Z"
           },
           {
             "title": "GITOPS-11058 use argocd-redis secret by default",
@@ -11798,7 +11774,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1517,
             "author": "akhilnittala",
-            "engaged_at": "2026-11-12T12:16:29Z"
+            "engaged_at": "2026-11-12T13:45:33Z"
           },
           {
             "title": "App-history-and-ui-rollback-ui-test",
@@ -12090,8 +12066,16 @@
       },
       {
         "login": "jparsai",
-        "reviews": 12,
+        "reviews": 13,
         "prs": [
+          {
+            "title": "Update to latest commit of argo-rollouts-manager 'e3de64a389749d2564f21e9ac25487b730cb4d14'",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1523",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1523,
+            "author": "jgwest",
+            "engaged_at": "2026-11-12T13:45:10Z"
+          },
           {
             "title": "fix: E2E tests failure improvements",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1509",
