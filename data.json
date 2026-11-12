@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T14:06:18.25185483Z",
+  "generated_at": "2026-11-12T15:06:24.307393218Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1881,7 +1881,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-06T13:48:11Z",
-      "updated_at": "2026-11-12T13:07:42Z",
+      "updated_at": "2026-11-12T14:54:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2011,7 +2011,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-10T07:08:52Z",
-      "updated_at": "2026-11-12T14:00:13Z",
+      "updated_at": "2026-11-12T14:43:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2036,19 +2036,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-10T08:56:48Z",
-      "updated_at": "2026-11-11T17:50:34Z",
+      "updated_at": "2026-11-12T14:21:34Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 1,
+        "count": 0,
+        "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-rebase",
         "kind/cleanup"
       ]
     },
@@ -2087,19 +2086,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-11T11:15:42Z",
-      "updated_at": "2026-11-12T11:03:26Z",
+      "updated_at": "2026-11-12T14:37:45Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "lgtm"
       ]
     },
     {
@@ -3566,7 +3566,7 @@
       "updated_at": "2026-11-12T13:00:09Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5856,7 +5856,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-14T14:04:29Z",
+    "since": "2026-08-14T15:04:22Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6834,7 +6834,7 @@
       },
       {
         "login": "jgwest",
-        "reviews": 113,
+        "reviews": 112,
         "prs": [
           {
             "title": "chore(deps): Fix `make update-dependencies` after #1458",
@@ -6875,14 +6875,6 @@
             "number": 1210,
             "author": "jannfis",
             "engaged_at": "2026-11-10T15:23:55Z"
-          },
-          {
-            "title": "chore(tests): Delete identical parallel E2E tests from argocd-operator",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1518",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1518,
-            "author": "olivergondza",
-            "engaged_at": "2026-11-10T11:24:13Z"
           },
           {
             "title": "feat: toggle debug settings during runtime",
@@ -7747,6 +7739,14 @@
         "reviews": 108,
         "prs": [
           {
+            "title": "feat(util): add signedRevisionOnly option for source integrity",
+            "url": "https://github.com/argoproj/argo-cd/pull/30033",
+            "repo": "argoproj/argo-cd",
+            "number": 30033,
+            "author": "nodari-dev",
+            "engaged_at": "2026-11-12T14:36:16Z"
+          },
+          {
             "title": "feat: support Image Updater webhook configuration in the ArgoCD CR",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1485",
             "repo": "redhat-developer/gitops-operator",
@@ -7777,14 +7777,6 @@
             "number": 1503,
             "author": "AdamSaleh",
             "engaged_at": "2026-11-11T11:58:37Z"
-          },
-          {
-            "title": "feat(util): add signedRevisionOnly option for source integrity",
-            "url": "https://github.com/argoproj/argo-cd/pull/30033",
-            "repo": "argoproj/argo-cd",
-            "number": 30033,
-            "author": "nodari-dev",
-            "engaged_at": "2026-11-10T14:55:10Z"
           },
           {
             "title": "chore: allow per-test Argo CD CLI login sessions",
@@ -11774,7 +11766,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1517,
             "author": "akhilnittala",
-            "engaged_at": "2026-11-12T13:45:33Z"
+            "engaged_at": "2026-11-12T14:34:29Z"
           },
           {
             "title": "App-history-and-ui-rollback-ui-test",
@@ -12369,6 +12361,44 @@
         ]
       },
       {
+        "login": "nodari-dev",
+        "reviews": 4,
+        "prs": [
+          {
+            "title": "Gitops 9691 filter at scale",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1522",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1522,
+            "author": "trdoyle81",
+            "engaged_at": "2026-11-12T14:37:45Z"
+          },
+          {
+            "title": "App-history-and-ui-rollback-ui-test",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1497",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1497,
+            "author": "trdoyle81",
+            "engaged_at": "2026-11-11T13:49:25Z"
+          },
+          {
+            "title": "chore: Upgrade to Argo CD 3.6",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1210",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1210,
+            "author": "jannfis",
+            "engaged_at": "2026-11-10T14:56:52Z"
+          },
+          {
+            "title": "feat: Expose API server warnings in Argo CD UI",
+            "url": "https://github.com/argoproj/argo-cd/pull/28849",
+            "repo": "argoproj/argo-cd",
+            "number": 28849,
+            "author": "toVersus",
+            "engaged_at": "2026-11-10T13:14:27Z"
+          }
+        ]
+      },
+      {
         "login": "nmirasch",
         "reviews": 3,
         "prs": [
@@ -12395,36 +12425,6 @@
             "number": 1278,
             "author": "alkakumari016",
             "engaged_at": "2026-09-07T09:47:02Z"
-          }
-        ]
-      },
-      {
-        "login": "nodari-dev",
-        "reviews": 3,
-        "prs": [
-          {
-            "title": "App-history-and-ui-rollback-ui-test",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1497",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1497,
-            "author": "trdoyle81",
-            "engaged_at": "2026-11-11T13:49:25Z"
-          },
-          {
-            "title": "chore: Upgrade to Argo CD 3.6",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1210",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1210,
-            "author": "jannfis",
-            "engaged_at": "2026-11-10T14:56:52Z"
-          },
-          {
-            "title": "feat: Expose API server warnings in Argo CD UI",
-            "url": "https://github.com/argoproj/argo-cd/pull/28849",
-            "repo": "argoproj/argo-cd",
-            "number": 28849,
-            "author": "toVersus",
-            "engaged_at": "2026-11-10T13:14:27Z"
           }
         ]
       },
