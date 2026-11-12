@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T15:06:24.307393218Z",
+  "generated_at": "2026-11-12T16:06:18.258052619Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1468,7 +1468,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:25Z",
-      "updated_at": "2026-11-09T20:43:56Z",
+      "updated_at": "2026-11-12T15:47:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1476,9 +1476,9 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "ok-to-test",
         "dependencies",
@@ -1881,7 +1881,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-06T13:48:11Z",
-      "updated_at": "2026-11-12T14:54:34Z",
+      "updated_at": "2026-11-12T15:27:30Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2011,7 +2011,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-10T07:08:52Z",
-      "updated_at": "2026-11-12T14:43:40Z",
+      "updated_at": "2026-11-12T15:20:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2061,7 +2061,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-10T11:27:08Z",
-      "updated_at": "2026-11-12T13:21:17Z",
+      "updated_at": "2026-11-12T15:20:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2086,7 +2086,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-11T11:15:42Z",
-      "updated_at": "2026-11-12T14:37:45Z",
+      "updated_at": "2026-11-12T15:26:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2103,31 +2103,6 @@
       ]
     },
     {
-      "title": "Update to latest commit of argo-rollouts-manager 'e3de64a389749d2564f21e9ac25487b730cb4d14'",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1523",
-      "number": 1523,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "jgwest",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
-      },
-      "created_at": "2026-11-11T12:29:39Z",
-      "updated_at": "2026-11-12T13:45:18Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "lgtm"
-      ]
-    },
-    {
       "title": "chore(deps): Fix `make update-dependencies` after #1458",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1524",
       "number": 1524,
@@ -2137,7 +2112,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-11T12:32:03Z",
-      "updated_at": "2026-11-12T13:02:01Z",
+      "updated_at": "2026-11-12T15:09:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5765,17 +5740,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-26T09:29:33Z",
-      "updated_at": "2026-11-12T13:11:27Z",
+      "updated_at": "2026-11-12T15:06:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 3,
       "labels": []
     },
     {
@@ -5856,7 +5831,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-14T15:04:22Z",
+    "since": "2026-08-14T16:04:13Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -6837,6 +6812,14 @@
         "reviews": 112,
         "prs": [
           {
+            "title": "feat: missing Image-pull-secret propagation to rollouts-manager instances",
+            "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/150",
+            "repo": "argoproj-labs/argo-rollouts-manager",
+            "number": 150,
+            "author": "anandrkskd",
+            "engaged_at": "2026-11-12T15:06:54Z"
+          },
+          {
             "title": "chore(deps): Fix `make update-dependencies` after #1458",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1524",
             "repo": "redhat-developer/gitops-operator",
@@ -6979,14 +6962,6 @@
             "number": 1477,
             "author": "dependabot",
             "engaged_at": "2026-10-29T20:33:43Z"
-          },
-          {
-            "title": "feat: missing Image-pull-secret propagation to rollouts-manager instances",
-            "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/150",
-            "repo": "argoproj-labs/argo-rollouts-manager",
-            "number": 150,
-            "author": "anandrkskd",
-            "engaged_at": "2026-10-29T20:25:26Z"
           },
           {
             "title": "chore(deps): bump github.com/argoproj/argo-cd/v3 v3.3.12 -\u003e v3.3.18 to fix CVE-2026-55797",
@@ -11766,7 +11741,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1517,
             "author": "akhilnittala",
-            "engaged_at": "2026-11-12T14:34:29Z"
+            "engaged_at": "2026-11-12T15:19:13Z"
           },
           {
             "title": "App-history-and-ui-rollback-ui-test",
@@ -12370,7 +12345,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1522,
             "author": "trdoyle81",
-            "engaged_at": "2026-11-12T14:37:45Z"
+            "engaged_at": "2026-11-12T15:26:15Z"
           },
           {
             "title": "App-history-and-ui-rollback-ui-test",
