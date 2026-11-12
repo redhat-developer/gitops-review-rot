@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:05:37.882880149Z",
+  "generated_at": "2026-11-12T18:06:43.962429067Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -973,6 +973,29 @@
       "labels": []
     },
     {
+      "title": "task: Backport dashboard overview changes to release-4.18 branch",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/322",
+      "number": 322,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "keithchong",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
+      },
+      "created_at": "2026-11-12T17:55:09Z",
+      "updated_at": "2026-11-12T17:57:30Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "chore(deps): update konflux references",
       "url": "https://github.com/redhat-developer/gitops-must-gather/pull/53",
       "number": 53,
@@ -1366,10 +1389,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/318931024?v=4"
       },
       "created_at": "2026-10-15T05:03:34Z",
-      "updated_at": "2026-10-15T05:08:52Z",
+      "updated_at": "2026-11-12T17:52:06Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1379,6 +1402,7 @@
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement",
+        "needs-rebase",
         "needs-ok-to-test"
       ]
     },
@@ -1443,7 +1467,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-11-12T16:46:46Z",
+      "updated_at": "2026-11-12T17:52:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1457,7 +1481,8 @@
       "labels": [
         "kind/enhancement",
         "lgtm",
-        "approved"
+        "approved",
+        "needs-rebase"
       ]
     },
     {
@@ -1909,7 +1934,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-06T18:05:55Z",
-      "updated_at": "2026-11-11T22:44:06Z",
+      "updated_at": "2026-11-12T17:53:03Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1917,7 +1942,7 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 11,
       "labels": [
@@ -2013,7 +2038,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-10T07:08:52Z",
-      "updated_at": "2026-11-12T16:46:48Z",
+      "updated_at": "2026-11-12T17:51:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2025,7 +2050,8 @@
       },
       "unresolved_conversations": 10,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "needs-rebase"
       ]
     },
     {
@@ -2088,17 +2114,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-11T11:15:42Z",
-      "updated_at": "2026-11-12T15:26:15Z",
+      "updated_at": "2026-11-12T17:38:18Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement",
         "lgtm"
@@ -2464,7 +2490,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2443754?v=4"
       },
       "created_at": "2026-11-12T16:26:32Z",
-      "updated_at": "2026-11-12T17:00:23Z",
+      "updated_at": "2026-11-12T17:13:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -3545,7 +3571,7 @@
       "updated_at": "2026-11-12T13:00:09Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5744,10 +5770,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-10-26T09:29:33Z",
-      "updated_at": "2026-11-12T16:54:08Z",
+      "updated_at": "2026-11-12T17:25:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -5835,7 +5861,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-14T17:03:49Z",
+    "since": "2026-08-14T18:04:55Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -11031,8 +11057,16 @@
       },
       {
         "login": "aali309",
-        "reviews": 30,
+        "reviews": 31,
         "prs": [
+          {
+            "title": "Gitops 9691 filter at scale",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1522",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1522,
+            "author": "trdoyle81",
+            "engaged_at": "2026-11-12T17:38:18Z"
+          },
           {
             "title": "fix(ui): select apps by identity in Sync/Refresh Apps panels (#20695, #22178)",
             "url": "https://github.com/argoproj/argo-cd/pull/30557",
@@ -11737,7 +11771,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1517,
             "author": "akhilnittala",
-            "engaged_at": "2026-11-12T16:46:48Z"
+            "engaged_at": "2026-11-12T17:46:17Z"
           },
           {
             "title": "App-history-and-ui-rollback-ui-test",
