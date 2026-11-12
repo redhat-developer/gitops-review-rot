@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T10:06:24.263217135Z",
+  "generated_at": "2026-11-12T11:05:40.175988324Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1249,7 +1249,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-12T09:30:53Z",
+      "updated_at": "2026-11-12T10:58:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1701,33 +1701,6 @@
       ]
     },
     {
-      "title": "App-history-and-ui-rollback-ui-test",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1497",
-      "number": 1497,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "trdoyle81",
-        "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
-      },
-      "created_at": "2026-11-04T14:19:12Z",
-      "updated_at": "2026-11-11T16:02:44Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/enhancement",
-        "lgtm",
-        "approved"
-      ]
-    },
-    {
       "title": "fix(all): disable automountServiceAccountToken for all SA and enable only for components that requires it",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1499",
       "number": 1499,
@@ -1737,7 +1710,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
       },
       "created_at": "2026-11-05T08:56:10Z",
-      "updated_at": "2026-11-12T08:05:36Z",
+      "updated_at": "2026-11-12T10:33:03Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1747,7 +1720,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": [
         "kind/bug"
       ]
@@ -1942,7 +1915,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-09T16:30:52Z",
-      "updated_at": "2026-11-09T16:50:08Z",
+      "updated_at": "2026-11-12T10:03:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1968,10 +1941,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-09T16:37:21Z",
-      "updated_at": "2026-11-12T09:59:18Z",
+      "updated_at": "2026-11-12T10:07:41Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1995,13 +1968,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-10T07:08:52Z",
-      "updated_at": "2026-11-12T01:32:24Z",
+      "updated_at": "2026-11-12T11:01:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 2,
+        "count": 3,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -2071,7 +2044,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-11T11:15:42Z",
-      "updated_at": "2026-11-11T14:58:58Z",
+      "updated_at": "2026-11-12T10:59:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2194,10 +2167,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-11T15:19:30Z",
-      "updated_at": "2026-11-11T16:04:29Z",
+      "updated_at": "2026-11-12T10:13:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3574,7 +3547,7 @@
       "updated_at": "2026-11-12T09:42:00Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5864,7 +5837,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-14T10:04:31Z",
+    "since": "2026-08-14T11:03:50Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -11758,8 +11731,16 @@
       },
       {
         "login": "varshab1210",
-        "reviews": 19,
+        "reviews": 20,
         "prs": [
+          {
+            "title": "feat(tls): Configure TLS PQC work for gitops promoter",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1517",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1517,
+            "author": "akhilnittala",
+            "engaged_at": "2026-11-12T11:01:10Z"
+          },
           {
             "title": "App-history-and-ui-rollback-ui-test",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1497",
