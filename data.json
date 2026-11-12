@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T00:10:26.343227439Z",
+  "generated_at": "2026-11-12T01:06:55.590120067Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2232,6 +2232,231 @@
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement"
+      ]
+    },
+    {
+      "title": "chore(e2e): Use DeferCleanup for namespace cleanup in parallel tests 1-019 to 1-039",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1531",
+      "number": 1531,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-11-12T00:44:11Z",
+      "updated_at": "2026-11-12T00:46:08Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test"
+      ]
+    },
+    {
+      "title": "chore(e2e): Use DeferCleanup for namespace cleanup in parallel tests 1-042 to 1-058",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1532",
+      "number": 1532,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-11-12T00:45:20Z",
+      "updated_at": "2026-11-12T00:46:58Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test"
+      ]
+    },
+    {
+      "title": "chore(e2e): Use DeferCleanup for namespace cleanup in parallel tests 1-061 to 1-089",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1533",
+      "number": 1533,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-11-12T00:46:26Z",
+      "updated_at": "2026-11-12T00:46:39Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test"
+      ]
+    },
+    {
+      "title": "chore(e2e): Use DeferCleanup for namespace cleanup in parallel tests 1-091 to 1-144",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1534",
+      "number": 1534,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-11-12T00:48:55Z",
+      "updated_at": "2026-11-12T00:49:08Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test"
+      ]
+    },
+    {
+      "title": "chore(e2e): Use DeferCleanup for namespace cleanup in parallel tests 1-001 to 1-009",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1535",
+      "number": 1535,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-11-12T00:49:51Z",
+      "updated_at": "2026-11-12T00:50:05Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test"
+      ]
+    },
+    {
+      "title": "chore(e2e): Use DeferCleanup for namespace cleanup in sequential tests 1-019 to 1-071",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1536",
+      "number": 1536,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-11-12T00:52:18Z",
+      "updated_at": "2026-11-12T00:52:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test"
+      ]
+    },
+    {
+      "title": "chore(e2e): Use DeferCleanup for namespace cleanup in sequential tests 1-083 to 1-135",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1537",
+      "number": 1537,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-11-12T00:54:47Z",
+      "updated_at": "2026-11-12T00:55:01Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test"
+      ]
+    },
+    {
+      "title": "chore(e2e): Use DeferCleanup instead of AfterEach cleanup in parallel tests 1-007 to 1-070",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1538",
+      "number": 1538,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-11-12T00:56:45Z",
+      "updated_at": "2026-11-12T00:56:59Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test"
+      ]
+    },
+    {
+      "title": "chore(e2e): Use DeferCleanup instead of AfterEach cleanup in sequential tests",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1539",
+      "number": 1539,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-11-12T00:58:21Z",
+      "updated_at": "2026-11-12T00:58:36Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test"
       ]
     },
     {
@@ -6395,7 +6620,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-14T00:08:40Z",
+    "since": "2026-08-14T01:05:11Z",
     "reviewers": [
       {
         "login": "chengfang",
