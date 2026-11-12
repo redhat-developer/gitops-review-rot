@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T23:06:30.948414936Z",
+  "generated_at": "2026-11-12T00:10:26.343227439Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1968,7 +1968,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-09T16:37:21Z",
-      "updated_at": "2026-11-11T23:02:04Z",
+      "updated_at": "2026-11-11T23:28:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1995,7 +1995,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-10T07:08:52Z",
-      "updated_at": "2026-11-11T20:42:08Z",
+      "updated_at": "2026-11-11T23:51:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -6264,10 +6264,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-10-06T11:39:06Z",
-      "updated_at": "2026-11-11T23:00:44Z",
+      "updated_at": "2026-11-12T00:07:36Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
@@ -6395,7 +6395,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-13T23:04:48Z",
+    "since": "2026-08-14T00:08:40Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -12785,7 +12785,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1517,
             "author": "akhilnittala",
-            "engaged_at": "2026-11-11T14:27:54Z"
+            "engaged_at": "2026-11-11T23:16:07Z"
           },
           {
             "title": "feat(agent): reload client TLS certificate without restart",
