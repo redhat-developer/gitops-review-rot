@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T00:10:22.985651545Z",
+  "generated_at": "2026-11-13T01:06:25.59826907Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1907,7 +1907,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-06T18:05:55Z",
-      "updated_at": "2026-11-12T17:53:03Z",
+      "updated_at": "2026-11-13T00:59:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1915,11 +1915,13 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 11,
       "labels": [
-        "kind/bug"
+        "kind/bug",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -2542,7 +2544,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-12T21:57:14Z",
-      "updated_at": "2026-11-12T23:34:28Z",
+      "updated_at": "2026-11-13T00:34:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3622,15 +3624,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63054462?u=0e71050b9ab69fa1912cebaf197ad66db3f9f422\u0026v=4"
       },
       "created_at": "2026-11-12T08:42:51Z",
-      "updated_at": "2026-11-12T13:00:09Z",
+      "updated_at": "2026-11-13T00:40:49Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
+        "count": 2,
+        "approved_count": 1,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -3656,6 +3658,29 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 5,
+      "labels": []
+    },
+    {
+      "title": "docs: move shipped items in the roadmap to a completed section",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1227",
+      "number": 1227,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-11-13T00:31:44Z",
+      "updated_at": "2026-11-13T00:33:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -6717,12 +6742,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-15T00:08:41Z",
+    "since": "2026-08-15T01:04:35Z",
     "reviewers": [
       {
         "login": "chengfang",
         "reviews": 127,
         "prs": [
+          {
+            "title": "fix(image-updater): Privilege escalation via IMAGE_UPDATER_WATCH_NAMESPACES on namespace-scoped ArgoCD instances",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1511",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1511,
+            "author": "dkarpele",
+            "engaged_at": "2026-11-13T00:59:22Z"
+          },
           {
             "title": "feat(tls): configure TLS Curve Preferences for argocd Repo-server and Server component",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1443",
@@ -6786,14 +6819,6 @@
             "number": 1524,
             "author": "olivergondza",
             "engaged_at": "2026-11-12T16:05:46Z"
-          },
-          {
-            "title": "fix(image-updater): Privilege escalation via IMAGE_UPDATER_WATCH_NAMESPACES on namespace-scoped ArgoCD instances",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1511",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1511,
-            "author": "dkarpele",
-            "engaged_at": "2026-11-11T22:44:06Z"
           },
           {
             "title": "chore(deps): bump devtools_gitops/go-toolset from 1.26.5 to 1.27.3 in /openshift-ci/build-root",
@@ -9515,8 +9540,16 @@
       },
       {
         "login": "jannfis",
-        "reviews": 103,
+        "reviews": 104,
         "prs": [
+          {
+            "title": "fix: bind log/terminal stream to owner agent",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1224",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1224,
+            "author": "jparsai",
+            "engaged_at": "2026-11-13T00:40:49Z"
+          },
           {
             "title": "chore(deps): bump Argo CD to v3.6.1 and Image Updater to v1.5.0",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1550",
