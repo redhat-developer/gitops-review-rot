@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T20:05:43.944600057Z",
+  "generated_at": "2026-11-13T21:05:10.471975291Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -858,29 +858,6 @@
       ]
     },
     {
-      "title": "chore: update pnpm 10.33.2 -\u003e 10.34.6 to fix CVE-2026-101043",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/308",
-      "number": 308,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "dkarpele",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
-      },
-      "created_at": "2026-10-16T15:30:38Z",
-      "updated_at": "2026-10-16T15:35:02Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "Update dependency @types/react to v17.0.93",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/311",
       "number": 311,
@@ -927,29 +904,6 @@
       "labels": []
     },
     {
-      "title": "Update pnpm to v10.34.5 [SECURITY]",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/320",
-      "number": 320,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-11-12T12:14:40Z",
-      "updated_at": "2026-11-12T12:16:59Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "Update dependency webpack-dev-server to v5 [SECURITY]",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/321",
       "number": 321,
@@ -970,6 +924,29 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "fix: Encode the link to the metrics dashboard (#11491)",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/327",
+      "number": 327,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "keithchong",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
+      },
+      "created_at": "2026-11-13T20:48:21Z",
+      "updated_at": "2026-11-13T20:50:29Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -1446,7 +1423,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:25Z",
-      "updated_at": "2026-11-13T19:52:51Z",
+      "updated_at": "2026-11-13T20:43:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -1554,10 +1531,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-29T19:14:47Z",
-      "updated_at": "2026-11-13T19:55:06Z",
+      "updated_at": "2026-11-13T20:42:44Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2387,10 +2364,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-13T19:25:14Z",
-      "updated_at": "2026-11-13T19:58:01Z",
+      "updated_at": "2026-11-13T20:41:59Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2414,10 +2391,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-13T19:25:17Z",
-      "updated_at": "2026-11-13T19:57:49Z",
+      "updated_at": "2026-11-13T20:42:52Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5596,11 +5573,34 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-15T20:03:39Z",
+    "since": "2026-08-15T21:03:17Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -10710,8 +10710,24 @@
       },
       {
         "login": "keithchong",
-        "reviews": 38,
+        "reviews": 40,
         "prs": [
+          {
+            "title": "Update pnpm to v10.34.5 [SECURITY]",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/320",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 320,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-11-13T20:18:43Z"
+          },
+          {
+            "title": "chore: update pnpm 10.33.2 -\u003e 10.34.6 to fix CVE-2026-101043",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/308",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 308,
+            "author": "dkarpele",
+            "engaged_at": "2026-11-13T20:13:23Z"
+          },
           {
             "title": "Cherry pick Overview docs to release-4.18 branch",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/323",
