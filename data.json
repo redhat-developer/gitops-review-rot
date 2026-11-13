@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T10:05:55.312040543Z",
+  "generated_at": "2026-11-13T11:05:30.656456558Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2330,7 +2330,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-12T21:57:14Z",
-      "updated_at": "2026-11-13T07:25:39Z",
+      "updated_at": "2026-11-13T11:00:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2374,6 +2374,31 @@
         "kind/enhancement",
         "do-not-merge/work-in-progress",
         "needs-ok-to-test"
+      ]
+    },
+    {
+      "title": "feat(ai): AI-assisted Application troubleshooting via Lightspeed agentic runs",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1552",
+      "number": 1552,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "Mangaal",
+        "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
+      },
+      "created_at": "2026-11-13T10:09:08Z",
+      "updated_at": "2026-11-13T10:57:11Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 18,
+      "labels": [
+        "do-not-merge/work-in-progress"
       ]
     },
     {
@@ -5656,34 +5681,11 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-11-05T05:28:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-15T10:04:00Z",
+    "since": "2026-08-15T11:03:32Z",
     "reviewers": [
       {
         "login": "chengfang",
