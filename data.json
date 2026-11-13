@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T21:05:10.471975291Z",
+  "generated_at": "2026-11-13T22:05:37.060284011Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -927,29 +927,6 @@
       "labels": []
     },
     {
-      "title": "fix: Encode the link to the metrics dashboard (#11491)",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/327",
-      "number": 327,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "keithchong",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
-      },
-      "created_at": "2026-11-13T20:48:21Z",
-      "updated_at": "2026-11-13T20:50:29Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "chore(deps): update konflux references",
       "url": "https://github.com/redhat-developer/gitops-must-gather/pull/53",
       "number": 53,
@@ -1423,7 +1400,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:25Z",
-      "updated_at": "2026-11-13T20:43:20Z",
+      "updated_at": "2026-11-13T21:26:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -1450,7 +1427,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-23T10:30:56Z",
-      "updated_at": "2026-11-13T19:59:04Z",
+      "updated_at": "2026-11-13T21:58:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -1504,10 +1481,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-29T19:14:32Z",
-      "updated_at": "2026-11-13T19:42:12Z",
+      "updated_at": "2026-11-13T21:38:56Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2364,7 +2341,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-13T19:25:14Z",
-      "updated_at": "2026-11-13T20:41:59Z",
+      "updated_at": "2026-11-13T21:07:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2391,7 +2368,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-13T19:25:17Z",
-      "updated_at": "2026-11-13T20:42:52Z",
+      "updated_at": "2026-11-13T21:07:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3160,17 +3137,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-08T01:34:24Z",
-      "updated_at": "2026-11-13T15:32:11Z",
+      "updated_at": "2026-11-13T22:02:14Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
         "approved_count": 1,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -5600,7 +5577,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-15T21:03:17Z",
+    "since": "2026-08-15T22:03:40Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -11036,8 +11013,16 @@
       },
       {
         "login": "aali309",
-        "reviews": 35,
+        "reviews": 36,
         "prs": [
+          {
+            "title": "fix: Encode the link to the metrics dashboard (#11491)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/327",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 327,
+            "author": "keithchong",
+            "engaged_at": "2026-11-13T21:48:38Z"
+          },
           {
             "title": "fix: backport access related fixes",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/326",
