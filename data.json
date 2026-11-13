@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T04:07:45.214263877Z",
+  "generated_at": "2026-11-13T05:06:16.522191182Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -635,7 +635,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:24:25Z",
-      "updated_at": "2026-11-12T12:19:55Z",
+      "updated_at": "2026-11-13T04:59:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -658,7 +658,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:30:16Z",
-      "updated_at": "2026-11-12T12:21:17Z",
+      "updated_at": "2026-11-13T05:01:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -750,10 +750,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-06T07:01:53Z",
-      "updated_at": "2026-11-12T12:18:20Z",
+      "updated_at": "2026-11-13T04:58:42Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2514,13 +2514,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-12T21:57:14Z",
-      "updated_at": "2026-11-13T01:23:18Z",
+      "updated_at": "2026-11-13T04:44:53Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -3198,7 +3198,7 @@
       "updated_at": "2026-11-13T03:36:51Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
@@ -3278,52 +3278,6 @@
       "labels": []
     },
     {
-      "title": "ci: add /assign and /unassign issue self-assignment workflow",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1194",
-      "number": 1194,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "Gabrielandre02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
-      },
-      "created_at": "2026-11-06T22:54:54Z",
-      "updated_at": "2026-11-07T00:03:16Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "test(redisproxy): add unit coverage across parsing, config and connection handling",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1196",
-      "number": 1196,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "Gabrielandre02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
-      },
-      "created_at": "2026-11-07T00:56:53Z",
-      "updated_at": "2026-11-07T01:50:43Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "test(event): add unit coverage for event construction and parsing",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1197",
       "number": 1197,
@@ -3336,7 +3290,7 @@
       "updated_at": "2026-11-07T02:05:38Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -3573,32 +3527,6 @@
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "github_actions"
-      ]
-    },
-    {
-      "title": "build(deps): Bump goreleaser/goreleaser-action from 7.0.0 to 7.3.0",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1222",
-      "number": 1222,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-11T17:15:22Z",
-      "updated_at": "2026-11-11T17:15:31Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -6689,11 +6617,34 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-15T04:05:54Z",
+    "since": "2026-08-15T05:04:27Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9491,8 +9442,32 @@
       },
       {
         "login": "jannfis",
-        "reviews": 104,
+        "reviews": 107,
         "prs": [
+          {
+            "title": "test(redisproxy): add unit coverage across parsing, config and connection handling",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1196",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1196,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-13T04:11:40Z"
+          },
+          {
+            "title": "ci: add /assign and /unassign issue self-assignment workflow",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1194",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1194,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-13T04:10:42Z"
+          },
+          {
+            "title": "build(deps): Bump goreleaser/goreleaser-action from 7.0.0 to 7.3.0",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1222",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1222,
+            "author": "dependabot",
+            "engaged_at": "2026-11-13T04:09:22Z"
+          },
           {
             "title": "fix: bind log/terminal stream to owner agent",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1224",
@@ -12683,8 +12658,16 @@
       },
       {
         "login": "varshab1210",
-        "reviews": 20,
+        "reviews": 21,
         "prs": [
+          {
+            "title": "chore(deps): bump Argo CD to v3.6.1 and Image Updater to v1.5.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1550",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1550,
+            "author": "chengfang",
+            "engaged_at": "2026-11-13T04:44:53Z"
+          },
           {
             "title": "feat(tls): Configure TLS PQC work for gitops promoter",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1517",
