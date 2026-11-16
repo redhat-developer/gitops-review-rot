@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T15:06:25.636513059Z",
+  "generated_at": "2026-11-16T16:05:55.931773352Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1371,7 +1371,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1478202?v=4"
       },
       "created_at": "2026-10-20T12:57:12Z",
-      "updated_at": "2026-11-16T11:26:45Z",
+      "updated_at": "2026-11-16T15:45:08Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1889,19 +1889,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-11T11:15:42Z",
-      "updated_at": "2026-11-16T14:39:27Z",
+      "updated_at": "2026-11-16T15:25:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
-        "approved_count": 1,
-        "has_new_commits": true
+        "approved_count": 2,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "lgtm"
       ]
     },
     {
@@ -5779,7 +5780,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-18T15:04:24Z",
+    "since": "2026-08-18T16:03:52Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -11274,6 +11275,14 @@
         "reviews": 35,
         "prs": [
           {
+            "title": "Gitops 9691 filter at scale",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1522",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1522,
+            "author": "trdoyle81",
+            "engaged_at": "2026-11-16T15:05:23Z"
+          },
+          {
             "title": "fix: Encode the link to the metrics dashboard (#11491)",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/327",
             "repo": "redhat-developer/gitops-console-plugin",
@@ -11320,14 +11329,6 @@
             "number": 322,
             "author": "keithchong",
             "engaged_at": "2026-11-12T21:22:07Z"
-          },
-          {
-            "title": "Gitops 9691 filter at scale",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1522",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1522,
-            "author": "trdoyle81",
-            "engaged_at": "2026-11-12T17:38:18Z"
           },
           {
             "title": "fix(ui): select apps by identity in Sync/Refresh Apps panels (#20695, #22178)",
