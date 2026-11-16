@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T03:06:49.182224616Z",
+  "generated_at": "2026-11-16T04:07:26.842375615Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2464,6 +2464,32 @@
       "labels": []
     },
     {
+      "title": "fix(namespace-management): check the target namespace's labels on cleanup",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1563",
+      "number": 1563,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "atishay-kasliwal",
+        "avatar_url": "https://avatars.githubusercontent.com/u/61780293?u=43cace4f0c3e8a117617e1912e037ae67fde6ae1\u0026v=4"
+      },
+      "created_at": "2026-11-16T03:55:36Z",
+      "updated_at": "2026-11-16T03:59:41Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/bug",
+        "needs-ok-to-test"
+      ]
+    },
+    {
       "title": "feat: Add helm charts for principal",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/512",
       "number": 512,
@@ -4547,7 +4573,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/125791757?u=70fb8cf61688d35a380904107f1047a90873d7fb\u0026v=4"
       },
       "created_at": "2026-11-01T01:46:03Z",
-      "updated_at": "2026-11-01T02:03:11Z",
+      "updated_at": "2026-11-16T03:11:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4558,7 +4584,9 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 0,
-      "labels": []
+      "labels": [
+        "ok-to-test"
+      ]
     },
     {
       "title": "fix: rebuild image update proposals from the current target",
@@ -5804,7 +5832,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-18T03:04:58Z",
+    "since": "2026-08-18T04:05:32Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -9624,7 +9652,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 76,
+        "reviews": 74,
         "prs": [
           {
             "title": "chore(deps): bump Argo CD to v3.6.1 and Image Updater to v1.5.0",
@@ -10217,22 +10245,6 @@
             "number": 1216,
             "author": "anandrkskd",
             "engaged_at": "2026-08-18T06:21:15Z"
-          },
-          {
-            "title": "Test: Update redis version in toolchain test",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1260",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1260,
-            "author": "varshab1210",
-            "engaged_at": "2026-08-18T03:43:10Z"
-          },
-          {
-            "title": "Test: Update redis version in toolchain test",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1259",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1259,
-            "author": "varshab1210",
-            "engaged_at": "2026-08-18T03:42:59Z"
           }
         ]
       },
@@ -12208,8 +12220,16 @@
       },
       {
         "login": "anandrkskd",
-        "reviews": 16,
+        "reviews": 17,
         "prs": [
+          {
+            "title": "Update to latest commit of argo-rollouts-manager 'b9d5c7863c95df6d0e49d0fd7395db5c7d265a14'",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1562",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1562,
+            "author": "jgwest",
+            "engaged_at": "2026-11-16T04:05:35Z"
+          },
           {
             "title": "feat(images): Use images from quay.io over public.ecr.aws to avoid rate limiting",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1437",
