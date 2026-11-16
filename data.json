@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T22:05:45.210811582Z",
+  "generated_at": "2026-11-16T23:06:05.362522823Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -936,13 +936,36 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
       },
       "created_at": "2026-11-13T23:05:05Z",
-      "updated_at": "2026-11-16T19:05:50Z",
+      "updated_at": "2026-11-16T22:28:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
+        "approved_count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: bound sync-window duration parsing to prevent ReDoS",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/329",
+      "number": 329,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "aali309",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
+      },
+      "created_at": "2026-11-16T22:03:51Z",
+      "updated_at": "2026-11-16T22:23:25Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": true
       },
@@ -1702,31 +1725,6 @@
       ]
     },
     {
-      "title": "fix(all): disable automountServiceAccountToken for all SA and enable only for components that requires it",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1499",
-      "number": 1499,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "anandf",
-        "avatar_url": "https://avatars.githubusercontent.com/u/6103351?v=4"
-      },
-      "created_at": "2026-11-05T08:56:10Z",
-      "updated_at": "2026-11-16T08:32:54Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/bug"
-      ]
-    },
-    {
       "title": "test(e2e): pin the sidecar test image instead of fedora:latest",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1503",
       "number": 1503,
@@ -1991,7 +1989,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-12T00:44:11Z",
-      "updated_at": "2026-11-16T20:45:25Z",
+      "updated_at": "2026-11-16T22:20:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2091,7 +2089,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-12T00:49:51Z",
-      "updated_at": "2026-11-16T20:43:03Z",
+      "updated_at": "2026-11-16T22:22:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2141,10 +2139,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-12T00:54:47Z",
-      "updated_at": "2026-11-16T20:43:34Z",
+      "updated_at": "2026-11-16T22:17:10Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2322,20 +2320,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/61780293?u=43cace4f0c3e8a117617e1912e037ae67fde6ae1\u0026v=4"
       },
       "created_at": "2026-11-16T03:55:36Z",
-      "updated_at": "2026-11-16T04:09:00Z",
+      "updated_at": "2026-11-16T22:57:14Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
         "kind/bug",
-        "needs-ok-to-test"
+        "ok-to-test"
       ]
     },
     {
@@ -3407,7 +3405,7 @@
       "updated_at": "2026-11-16T21:54:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5779,12 +5777,28 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-18T22:03:48Z",
+    "since": "2026-08-18T23:04:08Z",
     "reviewers": [
       {
         "login": "jgwest",
-        "reviews": 128,
+        "reviews": 130,
         "prs": [
+          {
+            "title": "fix(namespace-management): check the target namespace's labels on cleanup",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1563",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1563,
+            "author": "atishay-kasliwal",
+            "engaged_at": "2026-11-16T22:57:10Z"
+          },
+          {
+            "title": "fix(all): disable automountServiceAccountToken for all SA and enable only for components that requires it",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1499",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1499,
+            "author": "anandf",
+            "engaged_at": "2026-11-16T22:37:11Z"
+          },
           {
             "title": "chore(e2e): Use DeferCleanup for namespace cleanup in parallel tests 1-019 to 1-039",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1531",
@@ -11303,7 +11317,7 @@
             "repo": "redhat-developer/gitops-console-plugin",
             "number": 328,
             "author": "keithchong",
-            "engaged_at": "2026-11-16T18:19:48Z"
+            "engaged_at": "2026-11-16T22:28:14Z"
           },
           {
             "title": "Gitops 9691 filter at scale",
