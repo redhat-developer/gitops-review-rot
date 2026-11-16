@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T12:09:01.022730849Z",
+  "generated_at": "2026-11-16T13:14:43.471528744Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1397,7 +1397,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-11-16T11:16:14Z",
+      "updated_at": "2026-11-16T12:36:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1686,7 +1686,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T09:44:01Z",
-      "updated_at": "2026-11-16T11:43:25Z",
+      "updated_at": "2026-11-16T12:26:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1759,7 +1759,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-05T17:49:10Z",
-      "updated_at": "2026-11-14T01:37:33Z",
+      "updated_at": "2026-11-16T13:07:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1837,7 +1837,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-10T07:08:52Z",
-      "updated_at": "2026-11-16T11:48:52Z",
+      "updated_at": "2026-11-16T12:25:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1887,7 +1887,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-11T11:15:42Z",
-      "updated_at": "2026-11-16T11:23:57Z",
+      "updated_at": "2026-11-16T13:03:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5802,7 +5802,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-18T12:07:03Z",
+    "since": "2026-08-18T13:12:43Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7858,7 +7858,7 @@
       },
       {
         "login": "jannfis",
-        "reviews": 113,
+        "reviews": 110,
         "prs": [
           {
             "title": "test(application): add unit coverage for the application manager",
@@ -8739,30 +8739,6 @@
             "number": 1072,
             "author": "chetan-rns",
             "engaged_at": "2026-08-19T21:21:43Z"
-          },
-          {
-            "title": "build(deps): Bump github.com/sirupsen/logrus from 1.9.4 to 1.10.0",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1075",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1075,
-            "author": "dependabot",
-            "engaged_at": "2026-08-18T13:11:29Z"
-          },
-          {
-            "title": "build(deps): Bump github.com/argoproj/argo-cd/v3 from 3.5.0 to 3.5.1",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1074",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1074,
-            "author": "dependabot",
-            "engaged_at": "2026-08-18T13:11:00Z"
-          },
-          {
-            "title": "build(deps): Bump github.com/stretchr/testify from 1.11.1 to 1.12.0",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1073",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1073,
-            "author": "dependabot",
-            "engaged_at": "2026-08-18T13:10:25Z"
           }
         ]
       },
@@ -11008,7 +10984,7 @@
       },
       {
         "login": "keithchong",
-        "reviews": 40,
+        "reviews": 39,
         "prs": [
           {
             "title": "Update pnpm to v10.34.5 [SECURITY]",
@@ -11321,14 +11297,6 @@
             "number": 264,
             "author": "trdoyle81",
             "engaged_at": "2026-08-19T03:49:29Z"
-          },
-          {
-            "title": "chore(deps): bump DOMPurify to 3.4.7 for CVE-2026-49978",
-            "url": "https://github.com/argoproj/argo-cd/pull/28966",
-            "repo": "argoproj/argo-cd",
-            "number": 28966,
-            "author": "aali309",
-            "engaged_at": "2026-08-18T12:29:39Z"
           }
         ]
       },
