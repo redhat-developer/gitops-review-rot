@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T17:06:11.228789087Z",
+  "generated_at": "2026-11-16T18:07:57.641718955Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -3419,6 +3419,32 @@
       "labels": []
     },
     {
+      "title": "build(deps): Bump golang.org/x/crypto from 0.58.0 to 0.59.0",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1232",
+      "number": 1232,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-16T17:13:01Z",
+      "updated_at": "2026-11-16T17:13:11Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go"
+      ]
+    },
+    {
       "title": "Add OAuth support. It is need for access to Azure CR",
       "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/224",
       "number": 224,
@@ -5780,7 +5806,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-18T17:04:07Z",
+    "since": "2026-08-18T18:05:55Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7828,8 +7854,24 @@
       },
       {
         "login": "jannfis",
-        "reviews": 111,
+        "reviews": 113,
         "prs": [
+          {
+            "title": "fix(deps): upgrade dlclark/regexp2 from v1.12.0 to v2.13.0 (CVE-2026-77299) (#31005)",
+            "url": "https://github.com/argoproj/argo-cd/pull/31027",
+            "repo": "argoproj/argo-cd",
+            "number": 31027,
+            "author": "nmirasch",
+            "engaged_at": "2026-11-16T17:45:37Z"
+          },
+          {
+            "title": "fix(deps): upgrade dlclark/regexp2 to v2.13.0 (CVE-2026-77299) (#31005)",
+            "url": "https://github.com/argoproj/argo-cd/pull/31026",
+            "repo": "argoproj/argo-cd",
+            "number": 31026,
+            "author": "nmirasch",
+            "engaged_at": "2026-11-16T17:45:10Z"
+          },
           {
             "title": "fix(deps): upgrade dlclark/regexp2  to v2.13.0 (CVE-2026-77299) (#31005)",
             "url": "https://github.com/argoproj/argo-cd/pull/31025",
