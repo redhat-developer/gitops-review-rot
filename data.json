@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T14:16:22.023790227Z",
+  "generated_at": "2026-11-16T15:06:25.636513059Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1837,7 +1837,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-10T07:08:52Z",
-      "updated_at": "2026-11-16T12:25:39Z",
+      "updated_at": "2026-11-16T14:37:08Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1845,11 +1845,13 @@
       "reviews": {
         "count": 3,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 8,
       "labels": [
-        "kind/enhancement"
+        "kind/enhancement",
+        "lgtm",
+        "approved"
       ]
     },
     {
@@ -1887,7 +1889,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-11T11:15:42Z",
-      "updated_at": "2026-11-16T13:03:48Z",
+      "updated_at": "2026-11-16T14:39:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5777,11 +5779,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-18T14:14:05Z",
+    "since": "2026-08-18T15:04:24Z",
     "reviewers": [
       {
         "login": "chengfang",
-        "reviews": 128,
+        "reviews": 127,
         "prs": [
           {
             "title": "feat(tls): Configure TLS PQC work for gitops promoter",
@@ -5789,7 +5791,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1517,
             "author": "akhilnittala",
-            "engaged_at": "2026-11-15T15:44:24Z"
+            "engaged_at": "2026-11-16T14:36:57Z"
           },
           {
             "title": "chore(deps): bump go.opentelemetry.io/otel/sdk from 1.46.0 to 1.47.0",
@@ -6798,14 +6800,6 @@
             "number": 1781,
             "author": "LS80",
             "engaged_at": "2026-08-18T19:58:13Z"
-          },
-          {
-            "title": "fix(image): keep the library namespace for non-Docker Hub registries",
-            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1783",
-            "repo": "argoproj-labs/argocd-image-updater",
-            "number": 1783,
-            "author": "dr00tb",
-            "engaged_at": "2026-08-18T14:51:32Z"
           }
         ]
       },
