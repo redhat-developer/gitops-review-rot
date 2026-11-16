@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T16:05:55.931773352Z",
+  "generated_at": "2026-11-16T17:06:11.228789087Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1889,7 +1889,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-11T11:15:42Z",
-      "updated_at": "2026-11-16T15:25:37Z",
+      "updated_at": "2026-11-16T16:39:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -5780,7 +5780,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-18T16:03:52Z",
+    "since": "2026-08-18T17:04:07Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -7828,8 +7828,16 @@
       },
       {
         "login": "jannfis",
-        "reviews": 110,
+        "reviews": 111,
         "prs": [
+          {
+            "title": "fix(deps): upgrade dlclark/regexp2  to v2.13.0 (CVE-2026-77299) (#31005)",
+            "url": "https://github.com/argoproj/argo-cd/pull/31025",
+            "repo": "argoproj/argo-cd",
+            "number": 31025,
+            "author": "nmirasch",
+            "engaged_at": "2026-11-16T16:13:14Z"
+          },
           {
             "title": "test(application): add unit coverage for the application manager",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1205",
