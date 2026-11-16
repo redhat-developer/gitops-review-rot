@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T07:11:29.294917771Z",
+  "generated_at": "2026-11-16T08:15:10.013402667Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2446,18 +2446,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-13T23:34:27Z",
-      "updated_at": "2026-11-16T06:57:06Z",
+      "updated_at": "2026-11-16T08:02:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": []
+      "labels": [
+        "lgtm"
+      ]
     },
     {
       "title": "fix(namespace-management): check the target namespace's labels on cleanup",
@@ -5801,34 +5803,11 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-11-05T05:28:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-18T07:09:36Z",
+    "since": "2026-08-18T08:13:14Z",
     "reviewers": [
       {
         "login": "chengfang",
@@ -8794,8 +8773,16 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 106,
+        "reviews": 107,
         "prs": [
+          {
+            "title": "Update to latest commit of argo-rollouts-manager 'b9d5c7863c95df6d0e49d0fd7395db5c7d265a14'",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1562",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1562,
+            "author": "jgwest",
+            "engaged_at": "2026-11-16T08:01:54Z"
+          },
           {
             "title": "feat(util): add signedRevisionOnly option for source integrity",
             "url": "https://github.com/argoproj/argo-cd/pull/30033",
