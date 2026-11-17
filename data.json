@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T22:06:14.497123115Z",
+  "generated_at": "2026-11-17T23:06:09.960475626Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -936,7 +936,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-11-17T19:47:52Z",
-      "updated_at": "2026-11-17T21:36:57Z",
+      "updated_at": "2026-11-17T22:16:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -959,13 +959,82 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-11-17T21:46:54Z",
-      "updated_at": "2026-11-17T21:48:51Z",
+      "updated_at": "2026-11-17T22:15:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: bound sync-window duration parsing to prevent ReDoS ( v1.20 branch)",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/334",
+      "number": 334,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "aali309",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
+      },
+      "created_at": "2026-11-17T22:03:44Z",
+      "updated_at": "2026-11-17T22:03:53Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Gitops 12037 v1.22",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/335",
+      "number": 335,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "aali309",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
+      },
+      "created_at": "2026-11-17T22:09:52Z",
+      "updated_at": "2026-11-17T22:10:01Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: bound sync-window duration parsing to prevent ReDoS (v.1.21 branch)",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/336",
+      "number": 336,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "aali309",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
+      },
+      "created_at": "2026-11-17T22:11:57Z",
+      "updated_at": "2026-11-17T22:12:04Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -1821,81 +1890,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement"
-      ]
-    },
-    {
-      "title": "chore(e2e): Use DeferCleanup for namespace cleanup in parallel tests 1-091 to 1-144",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1534",
-      "number": 1534,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "Gabrielandre02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
-      },
-      "created_at": "2026-11-12T00:48:55Z",
-      "updated_at": "2026-11-17T14:00:31Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
-      ]
-    },
-    {
-      "title": "chore(e2e): Use DeferCleanup for namespace cleanup in parallel tests 1-001 to 1-009",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1535",
-      "number": 1535,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "Gabrielandre02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
-      },
-      "created_at": "2026-11-12T00:49:51Z",
-      "updated_at": "2026-11-17T20:07:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
-      ]
-    },
-    {
-      "title": "chore(e2e): Use DeferCleanup for namespace cleanup in sequential tests 1-083 to 1-135",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1537",
-      "number": 1537,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "Gabrielandre02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
-      },
-      "created_at": "2026-11-12T00:54:47Z",
-      "updated_at": "2026-11-17T20:11:41Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
       ]
     },
     {
@@ -3162,13 +3156,36 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-17T21:59:51Z",
-      "updated_at": "2026-11-17T22:01:16Z",
+      "updated_at": "2026-11-17T22:14:41Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore: upgrade v0.7.x branch to latest corresponding Argo CD dependency version to fix upstream vulns",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1240",
+      "number": 1240,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-11-17T22:19:50Z",
+      "updated_at": "2026-11-17T22:30:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -4365,6 +4382,29 @@
       "labels": []
     },
     {
+      "title": "feat: support CEL-based image update strategies",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1940",
+      "number": 1940,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "ezcolin2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/105545215?u=e460ca0f356f81923ad133b351648084c20614ed\u0026v=4"
+      },
+      "created_at": "2026-11-17T22:03:48Z",
+      "updated_at": "2026-11-17T22:14:34Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": []
+    },
+    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -5537,7 +5577,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-19T22:04:15Z",
+    "since": "2026-08-19T23:04:15Z",
     "reviewers": [
       {
         "login": "jgwest",
