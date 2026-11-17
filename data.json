@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T10:06:37.783304151Z",
+  "generated_at": "2026-11-17T11:06:33.262546597Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1294,10 +1294,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-15T17:56:05Z",
+      "updated_at": "2026-11-17T10:36:54Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1305,7 +1305,9 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 9,
-      "labels": []
+      "labels": [
+        "needs-rebase"
+      ]
     },
     {
       "title": "feat: add configurable replicas for backend and plugin deployments",
@@ -1411,86 +1413,6 @@
       ]
     },
     {
-      "title": "feat(tls): configure TLS Curve Preferences for argocd Repo-server and Server component",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1443",
-      "number": 1443,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "akhilnittala",
-        "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
-      },
-      "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-11-17T09:28:25Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "approved_count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/enhancement",
-        "approved"
-      ]
-    },
-    {
-      "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter in /",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1457",
-      "number": 1457,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-23T10:30:25Z",
-      "updated_at": "2026-11-16T14:00:42Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 3,
-      "labels": [
-        "ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
-      "title": "chore(deps): bump sigs.k8s.io/controller-runtime in /",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1459",
-      "number": 1459,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-23T10:30:56Z",
-      "updated_at": "2026-11-14T01:50:15Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 3,
-      "labels": [
-        "ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "chore(deps): bump library/golang from 1.26 to 1.27 in /argocd-operator/tests/auxiliary/smtplistener",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1469",
       "number": 1469,
@@ -1527,7 +1449,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-29T19:14:32Z",
-      "updated_at": "2026-11-14T01:34:00Z",
+      "updated_at": "2026-11-17T10:49:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1535,7 +1457,7 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -1781,10 +1703,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-05T19:14:31Z",
-      "updated_at": "2026-11-13T19:27:42Z",
+      "updated_at": "2026-11-17T10:49:23Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1822,32 +1744,6 @@
       "labels": [
         "kind/documentation",
         "kind/enhancement"
-      ]
-    },
-    {
-      "title": "feat(tls): Configure TLS PQC work for gitops promoter",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1517",
-      "number": 1517,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "akhilnittala",
-        "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
-      },
-      "created_at": "2026-11-10T07:08:52Z",
-      "updated_at": "2026-11-17T08:17:43Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 8,
-      "labels": [
-        "kind/enhancement",
-        "approved"
       ]
     },
     {
@@ -1898,31 +1794,6 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": [
-        "kind/enhancement"
-      ]
-    },
-    {
-      "title": "feat(tls): Configure TLS Parameters for Dex Component",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1527",
-      "number": 1527,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "akhilnittala",
-        "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
-      },
-      "created_at": "2026-11-11T15:19:30Z",
-      "updated_at": "2026-11-17T08:29:24Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
       ]
@@ -2138,7 +2009,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-13T10:09:08Z",
-      "updated_at": "2026-11-17T08:46:30Z",
+      "updated_at": "2026-11-17T10:45:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2148,7 +2019,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 20,
+      "unresolved_conversations": 18,
       "labels": []
     },
     {
@@ -2187,33 +2058,6 @@
       },
       "created_at": "2026-11-13T19:25:14Z",
       "updated_at": "2026-11-13T21:07:52Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
-      "title": "chore(deps): bump go.opentelemetry.io/otel/sdk from 1.46.0 to 1.47.0",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1556",
-      "number": 1556,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-13T19:25:17Z",
-      "updated_at": "2026-11-13T21:07:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3348,14 +3192,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-16T21:38:12Z",
-      "updated_at": "2026-11-16T21:54:03Z",
+      "updated_at": "2026-11-17T10:40:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
+        "count": 2,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5723,7 +5567,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-19T10:04:37Z",
+    "since": "2026-08-19T11:04:39Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -9559,7 +9403,7 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1443,
             "author": "akhilnittala",
-            "engaged_at": "2026-11-16T10:46:49Z"
+            "engaged_at": "2026-11-17T10:47:50Z"
           },
           {
             "title": "feat(tls): Configure TLS Parameters for Dex Component",
@@ -11779,8 +11623,16 @@
       },
       {
         "login": "chetan-rns",
-        "reviews": 26,
+        "reviews": 27,
         "prs": [
+          {
+            "title": "feat: add build/release of argocd-agent-cli windows binaries",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1233",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1233,
+            "author": "jgwest",
+            "engaged_at": "2026-11-17T10:40:20Z"
+          },
           {
             "title": "fix(agent): mark a managed deletion as expected when the update before it fails",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1229",
