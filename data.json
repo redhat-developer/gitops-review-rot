@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T19:06:50.542149251Z",
+  "generated_at": "2026-11-17T20:06:31.706405752Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -927,27 +927,29 @@
       "labels": []
     },
     {
-      "title": "fix: bound sync-window duration parsing to prevent ReDoS",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/329",
-      "number": 329,
+      "title": "fix: enable Topology Rollouts when ClusterVersion is unreadable",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/332",
+      "number": 332,
       "repo": "redhat-developer/gitops-console-plugin",
       "author": {
         "login": "aali309",
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
-      "created_at": "2026-11-16T22:03:51Z",
-      "updated_at": "2026-11-17T15:00:53Z",
-      "is_draft": false,
+      "created_at": "2026-11-17T19:47:52Z",
+      "updated_at": "2026-11-17T19:49:57Z",
+      "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 3,
-        "approved_count": 2,
+        "count": 1,
+        "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
-      "labels": []
+      "unresolved_conversations": 0,
+      "labels": [
+        "do-not-merge/work-in-progress"
+      ]
     },
     {
       "title": "chore(deps): update konflux references",
@@ -1911,7 +1913,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-13T10:09:08Z",
-      "updated_at": "2026-11-17T15:27:36Z",
+      "updated_at": "2026-11-17T19:42:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2052,6 +2054,31 @@
       "labels": [
         "do-not-merge/work-in-progress",
         "kind/failing-test"
+      ]
+    },
+    {
+      "title": "feat(tls): E2E test for TLS Parameters for ArgoCD components and gitops promoters",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1568",
+      "number": 1568,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "akhilnittala",
+        "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
+      },
+      "created_at": "2026-11-17T19:21:57Z",
+      "updated_at": "2026-11-17T19:40:30Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "kind/enhancement"
       ]
     },
     {
@@ -2976,7 +3003,7 @@
       "updated_at": "2026-11-17T18:27:53Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -3902,7 +3929,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/77643369?v=4"
       },
       "created_at": "2026-04-14T13:35:17Z",
-      "updated_at": "2026-04-16T15:26:29Z",
+      "updated_at": "2026-11-17T20:02:08Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5462,34 +5489,11 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-11-05T05:28:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-19T19:04:49Z",
+    "since": "2026-08-19T20:04:33Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -10711,7 +10715,7 @@
             "repo": "redhat-developer/gitops-console-plugin",
             "number": 329,
             "author": "aali309",
-            "engaged_at": "2026-11-17T14:38:02Z"
+            "engaged_at": "2026-11-17T19:40:05Z"
           },
           {
             "title": "Update pnpm to v10.34.5 [SECURITY]",
@@ -11021,7 +11025,7 @@
       },
       {
         "login": "aali309",
-        "reviews": 37,
+        "reviews": 36,
         "prs": [
           {
             "title": "chore: Update translated files (#11831)",
@@ -11310,14 +11314,6 @@
             "number": 279,
             "author": "keithchong",
             "engaged_at": "2026-08-21T20:39:26Z"
-          },
-          {
-            "title": "feat(reposerver): #25605 #12159 enable a multi-source application manifest to have same repoURL with different revision",
-            "url": "https://github.com/argoproj/argo-cd/pull/25664",
-            "repo": "argoproj/argo-cd",
-            "number": 25664,
-            "author": "jmmclean",
-            "engaged_at": "2026-08-19T19:20:39Z"
           }
         ]
       },
