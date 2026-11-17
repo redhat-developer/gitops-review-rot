@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T11:06:33.262546597Z",
+  "generated_at": "2026-11-17T12:07:06.197078566Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1449,7 +1449,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-29T19:14:32Z",
-      "updated_at": "2026-11-17T10:49:43Z",
+      "updated_at": "2026-11-17T11:05:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2009,7 +2009,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-13T10:09:08Z",
-      "updated_at": "2026-11-17T10:45:37Z",
+      "updated_at": "2026-11-17T11:02:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3028,7 +3028,7 @@
       "updated_at": "2026-11-11T17:15:26Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3120,15 +3120,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-13T23:52:05Z",
-      "updated_at": "2026-11-14T12:38:50Z",
+      "updated_at": "2026-11-17T11:13:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
+        "count": 2,
+        "approved_count": 1,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -3203,6 +3203,29 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat: improve Application CR annotation syncing",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1234",
+      "number": 1234,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-11-17T11:26:20Z",
+      "updated_at": "2026-11-17T11:50:01Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 4,
       "labels": []
     },
     {
@@ -5567,7 +5590,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-19T11:04:39Z",
+    "since": "2026-08-19T12:05:14Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -11623,8 +11646,16 @@
       },
       {
         "login": "chetan-rns",
-        "reviews": 27,
+        "reviews": 28,
         "prs": [
+          {
+            "title": "fix(principal): add the refresh annotation to an application that has no annotations",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1230",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1230,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-17T11:13:36Z"
+          },
           {
             "title": "feat: add build/release of argocd-agent-cli windows binaries",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1233",
@@ -11845,7 +11876,7 @@
       },
       {
         "login": "varshab1210",
-        "reviews": 22,
+        "reviews": 21,
         "prs": [
           {
             "title": "Gitops 9691 filter at scale",
@@ -12014,20 +12045,12 @@
             "number": 1209,
             "author": "alkakumari016",
             "engaged_at": "2026-09-03T05:49:52Z"
-          },
-          {
-            "title": "fix(e2e): Do not print secret value from secret.Fixture.HaveNonEmptyKeyValue",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1258",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1258,
-            "author": "olivergondza",
-            "engaged_at": "2026-08-19T11:17:35Z"
           }
         ]
       },
       {
         "login": "anandrkskd",
-        "reviews": 17,
+        "reviews": 16,
         "prs": [
           {
             "title": "Update to latest commit of argo-rollouts-manager 'b9d5c7863c95df6d0e49d0fd7395db5c7d265a14'",
@@ -12156,14 +12179,6 @@
             "number": 1283,
             "author": "alkakumari016",
             "engaged_at": "2026-09-09T03:54:13Z"
-          },
-          {
-            "title": "feat: decouple console plugin from default ArgoCD instance ",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1231",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1231,
-            "author": "Rizwana777",
-            "engaged_at": "2026-08-19T11:37:04Z"
           }
         ]
       },
