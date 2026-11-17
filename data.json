@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:07:06.197078566Z",
+  "generated_at": "2026-11-17T13:06:58.726086071Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1756,10 +1756,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-11T11:15:42Z",
-      "updated_at": "2026-11-17T06:40:26Z",
+      "updated_at": "2026-11-17T12:52:41Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 3,
@@ -2009,17 +2009,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-13T10:09:08Z",
-      "updated_at": "2026-11-17T11:02:34Z",
+      "updated_at": "2026-11-17T12:50:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 18,
+      "unresolved_conversations": 17,
       "labels": []
     },
     {
@@ -3028,7 +3028,7 @@
       "updated_at": "2026-11-11T17:15:26Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3218,7 +3218,7 @@
       "updated_at": "2026-11-17T11:50:01Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5590,7 +5590,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-19T12:05:14Z",
+    "since": "2026-08-19T13:04:54Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -12495,6 +12495,44 @@
         ]
       },
       {
+        "login": "nmirasch",
+        "reviews": 4,
+        "prs": [
+          {
+            "title": "feat(ai): AI-assisted Application troubleshooting via Lightspeed agentic runs",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1552",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1552,
+            "author": "Mangaal",
+            "engaged_at": "2026-11-17T12:29:16Z"
+          },
+          {
+            "title": "fix: throw an error if openshiftOAuth is used in xKS env",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1328",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1328,
+            "author": "anandrkskd",
+            "engaged_at": "2026-10-09T15:20:48Z"
+          },
+          {
+            "title": "fix(dex): fetching changes for mounting dex sa token as projected volume mount",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1322",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1322,
+            "author": "anandf",
+            "engaged_at": "2026-09-29T13:05:50Z"
+          },
+          {
+            "title": "fix: omit nonResourceURLs from namespaced Roles",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1278",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1278,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-07T09:47:02Z"
+          }
+        ]
+      },
+      {
         "login": "nodari-dev",
         "reviews": 4,
         "prs": [
@@ -12529,36 +12567,6 @@
             "number": 28849,
             "author": "toVersus",
             "engaged_at": "2026-11-10T13:14:27Z"
-          }
-        ]
-      },
-      {
-        "login": "nmirasch",
-        "reviews": 3,
-        "prs": [
-          {
-            "title": "fix: throw an error if openshiftOAuth is used in xKS env",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1328",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1328,
-            "author": "anandrkskd",
-            "engaged_at": "2026-10-09T15:20:48Z"
-          },
-          {
-            "title": "fix(dex): fetching changes for mounting dex sa token as projected volume mount",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1322",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1322,
-            "author": "anandf",
-            "engaged_at": "2026-09-29T13:05:50Z"
-          },
-          {
-            "title": "fix: omit nonResourceURLs from namespaced Roles",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1278",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1278,
-            "author": "alkakumari016",
-            "engaged_at": "2026-09-07T09:47:02Z"
           }
         ]
       },
