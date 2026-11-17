@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T08:07:37.350459842Z",
+  "generated_at": "2026-11-17T09:07:44.572141315Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1420,7 +1420,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-10-21T07:19:37Z",
-      "updated_at": "2026-11-17T07:22:41Z",
+      "updated_at": "2026-11-17T08:16:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1834,7 +1834,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-10T07:08:52Z",
-      "updated_at": "2026-11-17T07:09:29Z",
+      "updated_at": "2026-11-17T08:17:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1912,7 +1912,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-11T15:19:30Z",
-      "updated_at": "2026-11-17T07:17:06Z",
+      "updated_at": "2026-11-17T08:29:24Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2138,7 +2138,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-13T10:09:08Z",
-      "updated_at": "2026-11-17T03:21:09Z",
+      "updated_at": "2026-11-17T08:46:30Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -6525,7 +6525,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-19T08:05:43Z",
+    "since": "2026-08-19T09:05:56Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -9507,7 +9507,7 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 108,
+        "reviews": 105,
         "prs": [
           {
             "title": "Update sidecar image for 1-070 test",
@@ -10348,30 +10348,6 @@
             "number": 39,
             "author": "red-hat-konflux",
             "engaged_at": "2026-08-20T07:54:16Z"
-          },
-          {
-            "title": "feat: Replace SIGNATURE-KEYS with SOURCE-INTEGRITY in proj list ",
-            "url": "https://github.com/argoproj/argo-cd/pull/28920",
-            "repo": "argoproj/argo-cd",
-            "number": 28920,
-            "author": "kuci-JK",
-            "engaged_at": "2026-08-19T08:18:47Z"
-          },
-          {
-            "title": "fix: fix untar inbound check if dstPath is symlinked",
-            "url": "https://github.com/argoproj/argo-cd/pull/28881",
-            "repo": "argoproj/argo-cd",
-            "number": 28881,
-            "author": "kuci-JK",
-            "engaged_at": "2026-08-19T08:15:46Z"
-          },
-          {
-            "title": "test: fix Hydration check in TestHydratorHydratesAutomatically_NewCommit_WithChanges",
-            "url": "https://github.com/argoproj/argo-cd/pull/28878",
-            "repo": "argoproj/argo-cd",
-            "number": 28878,
-            "author": "kuci-JK",
-            "engaged_at": "2026-08-19T08:14:07Z"
           }
         ]
       },
