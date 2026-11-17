@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T15:07:29.665893654Z",
+  "generated_at": "2026-11-17T16:06:32.619731279Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -924,29 +924,6 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
-      "labels": []
-    },
-    {
-      "title": "fix: 4.18 - Encode the link to the metrics dashboard",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/328",
-      "number": 328,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "keithchong",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
-      },
-      "created_at": "2026-11-13T23:05:05Z",
-      "updated_at": "2026-11-16T22:28:15Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -1934,7 +1911,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-13T10:09:08Z",
-      "updated_at": "2026-11-17T14:41:34Z",
+      "updated_at": "2026-11-17T15:27:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2927,7 +2904,7 @@
       "updated_at": "2026-11-17T14:11:56Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3094,7 +3071,7 @@
       "updated_at": "2026-11-17T14:10:51Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -3102,6 +3079,52 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 4,
+      "labels": []
+    },
+    {
+      "title": "chore: upgrade v0.10.x branch to latest corresponding Argo CD dependency version to fix upstream vulns",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1237",
+      "number": 1237,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-11-17T15:05:35Z",
+      "updated_at": "2026-11-17T16:02:00Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "approved_count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore: upgrade v0.9.x branch to latest corresponding Argo CD dependency version to fix upstream vulns - #1237",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1238",
+      "number": 1238,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-11-17T15:31:25Z",
+      "updated_at": "2026-11-17T15:45:20Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -5466,11 +5489,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-19T15:05:19Z",
+    "since": "2026-08-19T16:04:19Z",
     "reviewers": [
       {
         "login": "jgwest",
-        "reviews": 132,
+        "reviews": 131,
         "prs": [
           {
             "title": "build(deps): Bump go.opentelemetry.io/otel/trace from 1.44.0 to 1.47.0 in /hack/sync-consistency-util",
@@ -6519,14 +6542,6 @@
             "number": 142,
             "author": "dependabot",
             "engaged_at": "2026-08-21T10:45:02Z"
-          },
-          {
-            "title": "build(deps): bump golang.org/x/net from 0.38.0 to 0.55.0",
-            "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/141",
-            "repo": "argoproj-labs/argo-rollouts-manager",
-            "number": 141,
-            "author": "dependabot",
-            "engaged_at": "2026-08-19T15:58:21Z"
           }
         ]
       },
@@ -7546,8 +7561,24 @@
       },
       {
         "login": "jannfis",
-        "reviews": 113,
+        "reviews": 115,
         "prs": [
+          {
+            "title": "chore: upgrade v0.10.x branch to latest corresponding Argo CD dependency version to fix upstream vulns",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1237",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1237,
+            "author": "jgwest",
+            "engaged_at": "2026-11-17T16:01:59Z"
+          },
+          {
+            "title": "fix(deps): upgrade dlclark/regexp2 from v1.12.0 to v2.13.0 (CVE-2026-77299) (cherry-pick #31005 for 3.6)",
+            "url": "https://github.com/argoproj/argo-cd/pull/31039",
+            "repo": "argoproj/argo-cd",
+            "number": 31039,
+            "author": "chengfang",
+            "engaged_at": "2026-11-17T15:56:00Z"
+          },
           {
             "title": "fix(deps): upgrade dlclark/regexp2 from v1.12.0 to v2.13.0 (CVE-2026-77299) (#31005)",
             "url": "https://github.com/argoproj/argo-cd/pull/31027",
