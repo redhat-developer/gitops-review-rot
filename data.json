@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T20:06:31.706405752Z",
+  "generated_at": "2026-11-17T21:05:41.061544362Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1735,7 +1735,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-11T11:15:42Z",
-      "updated_at": "2026-11-17T14:58:36Z",
+      "updated_at": "2026-11-17T20:54:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1837,7 +1837,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-12T00:49:51Z",
-      "updated_at": "2026-11-17T16:23:07Z",
+      "updated_at": "2026-11-17T20:07:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1862,7 +1862,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-12T00:54:47Z",
-      "updated_at": "2026-11-17T16:19:18Z",
+      "updated_at": "2026-11-17T20:11:41Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -3121,7 +3121,7 @@
       "updated_at": "2026-11-17T16:02:00Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -3929,17 +3929,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/77643369?v=4"
       },
       "created_at": "2026-04-14T13:35:17Z",
-      "updated_at": "2026-11-17T20:02:08Z",
+      "updated_at": "2026-11-17T20:59:38Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -5489,11 +5489,34 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-19T20:04:33Z",
+    "since": "2026-08-19T21:03:41Z",
     "reviewers": [
       {
         "login": "jgwest",
