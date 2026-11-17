@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T21:05:41.061544362Z",
+  "generated_at": "2026-11-17T22:06:14.497123115Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -936,8 +936,31 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-11-17T19:47:52Z",
-      "updated_at": "2026-11-17T19:49:57Z",
-      "is_draft": true,
+      "updated_at": "2026-11-17T21:36:57Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: bound sync-window duration parsing to prevent ReDoS to release-4.18 branch",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/333",
+      "number": 333,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "aali309",
+        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
+      },
+      "created_at": "2026-11-17T21:46:54Z",
+      "updated_at": "2026-11-17T21:48:51Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
@@ -947,9 +970,7 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": [
-        "do-not-merge/work-in-progress"
-      ]
+      "labels": []
     },
     {
       "title": "chore(deps): update konflux references",
@@ -1735,10 +1756,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-11T11:15:42Z",
-      "updated_at": "2026-11-17T20:54:44Z",
+      "updated_at": "2026-11-17T21:20:52Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 3,
@@ -3109,30 +3130,7 @@
       "labels": []
     },
     {
-      "title": "chore: upgrade v0.10.x branch to latest corresponding Argo CD dependency version to fix upstream vulns",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1237",
-      "number": 1237,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "jgwest",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
-      },
-      "created_at": "2026-11-17T15:05:35Z",
-      "updated_at": "2026-11-17T16:02:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore: upgrade v0.9.x branch to latest corresponding Argo CD dependency version to fix upstream vulns - #1237",
+      "title": "chore: upgrade v0.9.x branch to latest corresponding Argo CD dependency version to fix upstream vulns",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1238",
       "number": 1238,
       "repo": "argoproj-labs/argocd-agent",
@@ -3141,13 +3139,36 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-17T15:31:25Z",
-      "updated_at": "2026-11-17T15:45:20Z",
+      "updated_at": "2026-11-17T22:00:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
+        "approved_count": 0,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore: upgrade v0.8.x branch to latest corresponding Argo CD dependency version to fix upstream vulns",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1239",
+      "number": 1239,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-11-17T21:59:51Z",
+      "updated_at": "2026-11-17T22:01:16Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -3929,10 +3950,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/77643369?v=4"
       },
       "created_at": "2026-04-14T13:35:17Z",
-      "updated_at": "2026-11-17T20:59:38Z",
+      "updated_at": "2026-11-17T21:03:59Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5516,7 +5537,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-19T21:03:41Z",
+    "since": "2026-08-19T22:04:15Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -7588,7 +7609,7 @@
       },
       {
         "login": "jannfis",
-        "reviews": 115,
+        "reviews": 112,
         "prs": [
           {
             "title": "chore: upgrade v0.10.x branch to latest corresponding Argo CD dependency version to fix upstream vulns",
@@ -8485,30 +8506,6 @@
             "number": 1083,
             "author": "dependabot",
             "engaged_at": "2026-08-20T22:32:28Z"
-          },
-          {
-            "title": "docs: clarify hybrid architecture enables app-of-apps in managed mode",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1080",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1080,
-            "author": "mikeshng",
-            "engaged_at": "2026-08-19T21:24:20Z"
-          },
-          {
-            "title": "docs(kind): fix networkpolicy patch and update guide for destination-based mapping",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1079",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1079,
-            "author": "mikeshng",
-            "engaged_at": "2026-08-19T21:23:03Z"
-          },
-          {
-            "title": "fix: adopt pre-installed AppProject in-place instead of delete and recreate",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1072",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1072,
-            "author": "chetan-rns",
-            "engaged_at": "2026-08-19T21:21:43Z"
           }
         ]
       },
