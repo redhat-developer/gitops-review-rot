@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T14:07:14.905618614Z",
+  "generated_at": "2026-11-17T15:07:29.665893654Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -959,15 +959,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-11-16T22:03:51Z",
-      "updated_at": "2026-11-17T13:53:52Z",
+      "updated_at": "2026-11-17T15:00:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
+        "count": 3,
+        "approved_count": 2,
+        "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": []
@@ -1756,10 +1756,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-11T11:15:42Z",
-      "updated_at": "2026-11-17T12:52:41Z",
+      "updated_at": "2026-11-17T14:58:36Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 3,
@@ -1934,7 +1934,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-13T10:09:08Z",
-      "updated_at": "2026-11-17T13:50:21Z",
+      "updated_at": "2026-11-17T14:41:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1944,7 +1944,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 17,
+      "unresolved_conversations": 15,
       "labels": []
     },
     {
@@ -2924,36 +2924,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-11T17:15:15Z",
-      "updated_at": "2026-11-11T17:15:26Z",
+      "updated_at": "2026-11-17T14:11:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "github_actions"
-      ]
-    },
-    {
-      "title": "build(deps): Bump sigstore/cosign-installer from 4.1.0 to 4.1.3",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1221",
-      "number": 1221,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-11T17:15:17Z",
-      "updated_at": "2026-11-11T17:15:26Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3108,29 +3082,6 @@
       ]
     },
     {
-      "title": "feat: add build/release of argocd-agent-cli windows binaries",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1233",
-      "number": 1233,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "jgwest",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
-      },
-      "created_at": "2026-11-16T21:38:12Z",
-      "updated_at": "2026-11-17T10:40:21Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "feat: improve Application CR annotation syncing",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1234",
       "number": 1234,
@@ -3140,7 +3091,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-11-17T11:26:20Z",
-      "updated_at": "2026-11-17T13:56:55Z",
+      "updated_at": "2026-11-17T14:10:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -3152,58 +3103,6 @@
       },
       "unresolved_conversations": 4,
       "labels": []
-    },
-    {
-      "title": "build(deps): Bump go.opentelemetry.io/otel/trace from 1.44.0 to 1.47.0 in /hack/sync-consistency-util",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1235",
-      "number": 1235,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-17T13:40:15Z",
-      "updated_at": "2026-11-17T13:40:25Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
-    },
-    {
-      "title": "build(deps): Bump github.com/klauspost/compress from 1.18.0 to 1.18.7 in /hack/sync-consistency-util",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1236",
-      "number": 1236,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-17T13:40:26Z",
-      "updated_at": "2026-11-17T13:40:35Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
     },
     {
       "title": "Add OAuth support. It is need for access to Azure CR",
@@ -5567,12 +5466,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-19T14:05:13Z",
+    "since": "2026-08-19T15:05:19Z",
     "reviewers": [
       {
         "login": "jgwest",
-        "reviews": 131,
+        "reviews": 132,
         "prs": [
+          {
+            "title": "build(deps): Bump go.opentelemetry.io/otel/trace from 1.44.0 to 1.47.0 in /hack/sync-consistency-util",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1235",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1235,
+            "author": "dependabot",
+            "engaged_at": "2026-11-17T14:53:29Z"
+          },
           {
             "title": "chore(e2e): Use DeferCleanup for namespace cleanup in sequential tests 1-083 to 1-135",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1537",
@@ -10773,7 +10680,7 @@
             "repo": "redhat-developer/gitops-console-plugin",
             "number": 329,
             "author": "aali309",
-            "engaged_at": "2026-11-17T06:29:10Z"
+            "engaged_at": "2026-11-17T14:38:02Z"
           },
           {
             "title": "Update pnpm to v10.34.5 [SECURITY]",
@@ -11369,8 +11276,16 @@
       },
       {
         "login": "anandf",
-        "reviews": 31,
+        "reviews": 32,
         "prs": [
+          {
+            "title": "fix: bound sync-window duration parsing to prevent ReDoS",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/329",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 329,
+            "author": "aali309",
+            "engaged_at": "2026-11-17T15:00:53Z"
+          },
           {
             "title": "feat(tls): configure TLS Curve Preferences for argocd Repo-server and Server component",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1443",
@@ -11623,8 +11538,24 @@
       },
       {
         "login": "chetan-rns",
-        "reviews": 28,
+        "reviews": 30,
         "prs": [
+          {
+            "title": "build(deps): Bump github.com/klauspost/compress from 1.18.0 to 1.18.7 in /hack/sync-consistency-util",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1236",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1236,
+            "author": "dependabot",
+            "engaged_at": "2026-11-17T14:45:46Z"
+          },
+          {
+            "title": "build(deps): Bump sigstore/cosign-installer from 4.1.0 to 4.1.3",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1221",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1221,
+            "author": "dependabot",
+            "engaged_at": "2026-11-17T14:08:46Z"
+          },
           {
             "title": "fix(principal): add the refresh annotation to an application that has no annotations",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1230",
