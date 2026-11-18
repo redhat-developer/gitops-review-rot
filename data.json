@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T14:06:35.001635951Z",
+  "generated_at": "2026-11-18T15:05:57.717616608Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1216,10 +1216,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-07-28T11:01:31Z",
-      "updated_at": "2026-11-18T13:57:45Z",
+      "updated_at": "2026-11-18T14:47:40Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1293,10 +1293,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-18T13:44:20Z",
+      "updated_at": "2026-11-18T14:59:00Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1419,10 +1419,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-29T19:14:32Z",
-      "updated_at": "2026-11-18T13:58:07Z",
+      "updated_at": "2026-11-18T14:50:02Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1676,7 +1676,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-11T14:37:00Z",
-      "updated_at": "2026-11-18T12:00:24Z",
+      "updated_at": "2026-11-18T14:43:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1701,10 +1701,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-11T15:32:05Z",
-      "updated_at": "2026-11-18T13:28:15Z",
+      "updated_at": "2026-11-18T14:34:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1752,10 +1752,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-13T10:09:08Z",
-      "updated_at": "2026-11-18T12:32:11Z",
+      "updated_at": "2026-11-18T14:41:57Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2812,7 +2812,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-13T23:52:02Z",
-      "updated_at": "2026-11-17T18:27:53Z",
+      "updated_at": "2026-11-18T14:57:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2822,7 +2822,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 6,
       "labels": []
     },
     {
@@ -2861,7 +2861,7 @@
       "updated_at": "2026-11-18T13:39:15Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4141,7 +4141,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/4941953?u=f8265aa1b2c09ff11fefa581bb796f140921f152\u0026v=4"
       },
       "created_at": "2026-11-18T12:13:59Z",
-      "updated_at": "2026-11-18T13:55:40Z",
+      "updated_at": "2026-11-18T14:32:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4151,7 +4151,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 8,
+      "unresolved_conversations": 5,
       "labels": []
     },
     {
@@ -5327,7 +5327,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-20T14:04:31Z",
+    "since": "2026-08-20T15:04:06Z",
     "reviewers": [
       {
         "login": "jgwest",
