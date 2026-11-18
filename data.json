@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T13:05:58.36327692Z",
+  "generated_at": "2026-11-18T14:06:35.001635951Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1216,10 +1216,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-07-28T11:01:31Z",
-      "updated_at": "2026-11-04T21:27:39Z",
+      "updated_at": "2026-11-18T13:57:45Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1293,10 +1293,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-17T10:36:54Z",
+      "updated_at": "2026-11-18T13:44:20Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -1304,9 +1304,7 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 9,
-      "labels": [
-        "needs-rebase"
-      ]
+      "labels": []
     },
     {
       "title": "feat: add configurable replicas for backend and plugin deployments",
@@ -1370,7 +1368,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/87866840?v=4"
       },
       "created_at": "2026-10-15T05:36:12Z",
-      "updated_at": "2026-11-04T23:26:04Z",
+      "updated_at": "2026-11-18T13:38:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1421,10 +1419,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-29T19:14:32Z",
-      "updated_at": "2026-11-17T13:05:46Z",
+      "updated_at": "2026-11-18T13:58:07Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1448,15 +1446,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-29T19:14:47Z",
-      "updated_at": "2026-11-14T02:27:11Z",
+      "updated_at": "2026-11-18T13:42:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -1616,31 +1614,6 @@
       "labels": []
     },
     {
-      "title": "chore(e2e): add CreatePerTestNs and print debug output on every failed spec",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1504",
-      "number": 1504,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "Gabrielandre02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
-      },
-      "created_at": "2026-11-05T17:49:10Z",
-      "updated_at": "2026-11-16T13:07:20Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
-      ]
-    },
-    {
       "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring in /",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1505",
       "number": 1505,
@@ -1728,10 +1701,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-11T15:32:05Z",
-      "updated_at": "2026-11-18T12:22:19Z",
+      "updated_at": "2026-11-18T13:28:15Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1905,7 +1878,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-17T23:28:39Z",
-      "updated_at": "2026-11-18T12:25:46Z",
+      "updated_at": "2026-11-18T13:48:45Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2885,7 +2858,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
       },
       "created_at": "2026-11-16T10:33:15Z",
-      "updated_at": "2026-11-18T13:00:39Z",
+      "updated_at": "2026-11-18T13:39:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2895,7 +2868,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -4120,17 +4093,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/105545215?u=e460ca0f356f81923ad133b351648084c20614ed\u0026v=4"
       },
       "created_at": "2026-11-17T22:03:48Z",
-      "updated_at": "2026-11-18T13:01:56Z",
+      "updated_at": "2026-11-18T13:06:43Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "ok-to-test"
       ]
@@ -4145,7 +4118,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/8530854?v=4"
       },
       "created_at": "2026-11-18T09:59:23Z",
-      "updated_at": "2026-11-18T10:12:36Z",
+      "updated_at": "2026-11-18T13:21:17Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4159,7 +4132,7 @@
       "labels": []
     },
     {
-      "title": "feat: add writeBackImageName for images pulled through a mirror",
+      "title": "feat: add `deployedImageName` for images pulled through a mirror",
       "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1942",
       "number": 1942,
       "repo": "argoproj-labs/argocd-image-updater",
@@ -4168,8 +4141,8 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/4941953?u=f8265aa1b2c09ff11fefa581bb796f140921f152\u0026v=4"
       },
       "created_at": "2026-11-18T12:13:59Z",
-      "updated_at": "2026-11-18T13:01:12Z",
-      "is_draft": true,
+      "updated_at": "2026-11-18T13:55:40Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
@@ -4178,7 +4151,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 8,
       "labels": []
     },
     {
@@ -5354,12 +5327,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-20T13:04:01Z",
+    "since": "2026-08-20T14:04:31Z",
     "reviewers": [
       {
         "login": "jgwest",
         "reviews": 131,
         "prs": [
+          {
+            "title": "chore(deps): bump github.com/cert-manager/cert-manager in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1477",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1477,
+            "author": "dependabot",
+            "engaged_at": "2026-11-18T13:56:30Z"
+          },
           {
             "title": "chore(deps): bump go.opentelemetry.io/otel/trace from 1.46.0 to 1.47.0 in /argocd-operator",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1555",
@@ -5503,14 +5484,6 @@
             "number": 1556,
             "author": "dependabot",
             "engaged_at": "2026-11-13T19:57:45Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/cert-manager/cert-manager in /",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1477",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1477,
-            "author": "dependabot",
-            "engaged_at": "2026-11-13T19:42:11Z"
           },
           {
             "title": "chore(agents): Update agent definition",
@@ -8360,7 +8333,7 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 105,
+        "reviews": 106,
         "prs": [
           {
             "title": "chore: add retry to go mod download",
@@ -8368,7 +8341,31 @@
             "repo": "redhat-developer/gitops-operator",
             "number": 1570,
             "author": "jgwest",
-            "engaged_at": "2026-11-18T12:25:45Z"
+            "engaged_at": "2026-11-18T13:48:45Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/operator-framework/api in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1478",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1478,
+            "author": "dependabot",
+            "engaged_at": "2026-11-18T13:42:47Z"
+          },
+          {
+            "title": "add Ginkgo test for argocd CLI core mode app create",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1405",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1405,
+            "author": "Naveena-058",
+            "engaged_at": "2026-11-18T13:38:27Z"
+          },
+          {
+            "title": "chore(e2e): add CreatePerTestNs and print debug output on every failed spec",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1504",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1504,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-18T13:33:16Z"
           },
           {
             "title": "chore: update lint/gosec checks for github actions",
@@ -8441,14 +8438,6 @@
             "number": 1516,
             "author": "jgwest",
             "engaged_at": "2026-11-10T13:06:34Z"
-          },
-          {
-            "title": "chore(e2e): add CreatePerTestNs and print debug output on every failed spec",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1504",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1504,
-            "author": "Gabrielandre02",
-            "engaged_at": "2026-11-10T12:41:14Z"
           },
           {
             "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter in /",
@@ -8545,14 +8534,6 @@
             "number": 1461,
             "author": "jgwest",
             "engaged_at": "2026-10-24T10:51:08Z"
-          },
-          {
-            "title": "add Ginkgo test for argocd CLI core mode app create",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1405",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1405,
-            "author": "Naveena-058",
-            "engaged_at": "2026-10-23T10:48:48Z"
           },
           {
             "title": "chore: migrate old test/e2e tests to ginkgo bucket",
