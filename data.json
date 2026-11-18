@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T03:07:08.380460997Z",
+  "generated_at": "2026-11-18T04:06:18.857175157Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -959,14 +959,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
       },
       "created_at": "2026-11-18T01:43:10Z",
-      "updated_at": "2026-11-18T01:44:56Z",
+      "updated_at": "2026-11-18T03:53:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
+        "count": 2,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -1832,7 +1832,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-13T10:09:08Z",
-      "updated_at": "2026-11-18T03:01:22Z",
+      "updated_at": "2026-11-18T04:01:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1985,10 +1985,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/229764955?v=4"
       },
       "created_at": "2026-11-17T19:21:57Z",
-      "updated_at": "2026-11-17T19:40:30Z",
+      "updated_at": "2026-11-18T03:50:36Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1998,32 +1998,6 @@
       "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
-      ]
-    },
-    {
-      "title": "test(dex): use an unknown TLS group in the unsupported curves case",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1569",
-      "number": 1569,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "Gabrielandre02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
-      },
-      "created_at": "2026-11-17T23:23:01Z",
-      "updated_at": "2026-11-17T23:24:40Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-ok-to-test",
-        "kind/failing-test"
       ]
     },
     {
@@ -2061,10 +2035,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-18T02:20:17Z",
-      "updated_at": "2026-11-18T02:26:17Z",
+      "updated_at": "2026-11-18T04:01:06Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2926,7 +2900,7 @@
       "updated_at": "2026-11-17T14:11:56Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3053,32 +3027,6 @@
       },
       "unresolved_conversations": 3,
       "labels": []
-    },
-    {
-      "title": "build(deps): Bump golang.org/x/crypto from 0.58.0 to 0.59.0",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1232",
-      "number": 1232,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-16T17:13:01Z",
-      "updated_at": "2026-11-16T17:13:11Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
     },
     {
       "title": "feat: improve Application CR annotation syncing",
@@ -5490,7 +5438,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-20T03:05:15Z",
+    "since": "2026-08-20T04:04:25Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -7570,8 +7518,16 @@
       },
       {
         "login": "jannfis",
-        "reviews": 115,
+        "reviews": 116,
         "prs": [
+          {
+            "title": "build(deps): Bump golang.org/x/crypto from 0.58.0 to 0.59.0",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1232",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1232,
+            "author": "dependabot",
+            "engaged_at": "2026-11-18T03:46:12Z"
+          },
           {
             "title": "chore: upgrade v0.7.x branch to latest corresponding Argo CD dependency version to fix upstream vulns",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1240",
@@ -9342,8 +9298,16 @@
       },
       {
         "login": "svghadi",
-        "reviews": 79,
+        "reviews": 80,
         "prs": [
+          {
+            "title": "test(dex): use an unknown TLS group in the unsupported curves case",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1569",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1569,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-18T03:43:42Z"
+          },
           {
             "title": "feat(tls): configure TLS Curve Preferences for argocd Repo-server and Server component",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1443",
@@ -11062,8 +11026,16 @@
       },
       {
         "login": "aali309",
-        "reviews": 36,
+        "reviews": 37,
         "prs": [
+          {
+            "title": "fix: Incorrect link to resource (#12074)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/337",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 337,
+            "author": "keithchong",
+            "engaged_at": "2026-11-18T03:53:25Z"
+          },
           {
             "title": "chore: Update translated files (#11831)",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/331",
@@ -12282,8 +12254,16 @@
       },
       {
         "login": "akhilnittala",
-        "reviews": 11,
+        "reviews": 12,
         "prs": [
+          {
+            "title": "test(dex): use an unknown TLS group in the unsupported curves case",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1569",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1569,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-18T03:30:35Z"
+          },
           {
             "title": "Go runtime auto-tuning GOMEMLIMIT/GOMAXPROCS for application-controller",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1468",
