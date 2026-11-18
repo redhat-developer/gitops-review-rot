@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:06:42.227675293Z",
+  "generated_at": "2026-11-18T20:06:49.52503167Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1293,7 +1293,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-18T14:59:00Z",
+      "updated_at": "2026-11-18T19:42:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1623,13 +1623,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-05T19:14:31Z",
-      "updated_at": "2026-11-18T12:14:50Z",
+      "updated_at": "2026-11-18T19:16:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -1891,6 +1891,31 @@
       "unresolved_conversations": 6,
       "labels": [
         "kind/enhancement"
+      ]
+    },
+    {
+      "title": "chore: add E2E test data to secret scan ignore list",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1573",
+      "number": 1573,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-11-18T19:25:03Z",
+      "updated_at": "2026-11-18T19:40:07Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/cleanup"
       ]
     },
     {
@@ -2959,7 +2984,7 @@
       "updated_at": "2026-11-18T17:15:38Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -6161,12 +6186,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-20T19:04:36Z",
+    "since": "2026-08-20T20:04:48Z",
     "reviewers": [
       {
         "login": "jgwest",
-        "reviews": 131,
+        "reviews": 132,
         "prs": [
+          {
+            "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1505",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1505,
+            "author": "dependabot",
+            "engaged_at": "2026-11-18T19:16:33Z"
+          },
           {
             "title": "chore(deps): bump github.com/cert-manager/cert-manager in /",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1477",
