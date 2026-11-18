@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T21:06:34.106360342Z",
+  "generated_at": "2026-11-18T22:05:56.996460003Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1676,7 +1676,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-11T14:37:00Z",
-      "updated_at": "2026-11-18T18:33:27Z",
+      "updated_at": "2026-11-18T21:36:57Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1878,13 +1878,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-18T15:41:16Z",
-      "updated_at": "2026-11-18T15:48:04Z",
+      "updated_at": "2026-11-18T22:01:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -5453,7 +5453,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-20T21:04:43Z",
+    "since": "2026-08-20T22:04:06Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -10707,7 +10707,7 @@
       },
       {
         "login": "keithchong",
-        "reviews": 41,
+        "reviews": 40,
         "prs": [
           {
             "title": "fix: bound sync-window duration parsing to prevent ReDoS ( v1.20 branch)",
@@ -11028,21 +11028,21 @@
             "number": 274,
             "author": "aali309",
             "engaged_at": "2026-08-21T15:56:23Z"
-          },
-          {
-            "title": "Add Pagination in release branch 4.18",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/272",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 272,
-            "author": "aali309",
-            "engaged_at": "2026-08-20T21:06:48Z"
           }
         ]
       },
       {
         "login": "aali309",
-        "reviews": 37,
+        "reviews": 38,
         "prs": [
+          {
+            "title": "Rollouts extention UI test",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1572",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1572,
+            "author": "trdoyle81",
+            "engaged_at": "2026-11-18T22:01:53Z"
+          },
           {
             "title": "fix: Incorrect link to resource (#12074)",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/337",
