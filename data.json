@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T09:07:19.723938795Z",
+  "generated_at": "2026-11-18T10:06:49.131733638Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1578,14 +1578,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T09:44:01Z",
-      "updated_at": "2026-11-18T02:24:03Z",
+      "updated_at": "2026-11-18T09:15:20Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 1,
+        "count": 0,
+        "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
@@ -1695,33 +1695,6 @@
       ]
     },
     {
-      "title": "Gitops 9691 filter at scale",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1522",
-      "number": 1522,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "trdoyle81",
-        "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
-      },
-      "created_at": "2026-11-11T11:15:42Z",
-      "updated_at": "2026-11-18T08:50:51Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "approved_count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/enhancement",
-        "lgtm",
-        "approved"
-      ]
-    },
-    {
       "title": "cherry-pick: test: KinD E2E (for v1.22)",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1525",
       "number": 1525,
@@ -1731,10 +1704,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-11T14:37:00Z",
-      "updated_at": "2026-11-11T23:02:35Z",
+      "updated_at": "2026-11-18T09:56:31Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1807,7 +1780,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-13T10:09:08Z",
-      "updated_at": "2026-11-18T04:38:57Z",
+      "updated_at": "2026-11-18T09:44:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1815,7 +1788,7 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 8,
       "labels": []
@@ -4243,6 +4216,29 @@
       ]
     },
     {
+      "title": "feat: add pinDigest configuration",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1941",
+      "number": 1941,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "Baegi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8530854?v=4"
+      },
+      "created_at": "2026-11-18T09:59:23Z",
+      "updated_at": "2026-11-18T10:00:21Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -6194,7 +6190,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-20T09:05:18Z",
+    "since": "2026-08-20T10:04:53Z",
     "reviewers": [
       {
         "login": "jgwest",
