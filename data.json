@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T22:05:56.996460003Z",
+  "generated_at": "2026-11-18T23:05:18.926094265Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1623,10 +1623,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-05T19:14:31Z",
-      "updated_at": "2026-11-18T19:16:33Z",
+      "updated_at": "2026-11-18T22:23:44Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1878,7 +1878,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-18T15:41:16Z",
-      "updated_at": "2026-11-18T22:01:53Z",
+      "updated_at": "2026-11-18T22:16:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1888,7 +1888,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 6,
+      "unresolved_conversations": 4,
       "labels": [
         "kind/enhancement"
       ]
@@ -1903,7 +1903,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-18T19:25:03Z",
-      "updated_at": "2026-11-18T20:59:32Z",
+      "updated_at": "2026-11-18T22:46:49Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2739,7 +2739,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-10T19:16:33Z",
-      "updated_at": "2026-11-11T13:09:59Z",
+      "updated_at": "2026-11-18T22:11:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2918,84 +2918,6 @@
       },
       "unresolved_conversations": 4,
       "labels": []
-    },
-    {
-      "title": "build(deps): Bump azure/setup-helm from 5.0.0 to 5.1.0",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1241",
-      "number": 1241,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-18T17:15:20Z",
-      "updated_at": "2026-11-18T17:15:31Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "github_actions"
-      ]
-    },
-    {
-      "title": "build(deps): Bump golangci/golangci-lint-action from 8.0.0 to 9.3.0",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1242",
-      "number": 1242,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-18T17:15:24Z",
-      "updated_at": "2026-11-18T17:15:34Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "github_actions"
-      ]
-    },
-    {
-      "title": "build(deps): Bump actions/checkout from 4.3.1 to 7.0.1",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1243",
-      "number": 1243,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-18T17:15:29Z",
-      "updated_at": "2026-11-18T17:15:38Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "github_actions"
-      ]
     },
     {
       "title": "Add OAuth support. It is need for access to Azure CR",
@@ -5453,7 +5375,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-20T22:04:06Z",
+    "since": "2026-08-20T23:03:24Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -7533,8 +7455,32 @@
       },
       {
         "login": "jannfis",
-        "reviews": 116,
+        "reviews": 117,
         "prs": [
+          {
+            "title": "build(deps): Bump actions/checkout from 4.3.1 to 7.0.1",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1243",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1243,
+            "author": "dependabot",
+            "engaged_at": "2026-11-18T22:09:41Z"
+          },
+          {
+            "title": "build(deps): Bump golangci/golangci-lint-action from 8.0.0 to 9.3.0",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1242",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1242,
+            "author": "dependabot",
+            "engaged_at": "2026-11-18T22:09:08Z"
+          },
+          {
+            "title": "build(deps): Bump azure/setup-helm from 5.0.0 to 5.1.0",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1241",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1241,
+            "author": "dependabot",
+            "engaged_at": "2026-11-18T22:08:23Z"
+          },
           {
             "title": "build(deps): Bump golang.org/x/crypto from 0.58.0 to 0.59.0",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1232",
@@ -8446,22 +8392,6 @@
             "number": 1077,
             "author": "dependabot",
             "engaged_at": "2026-08-26T13:49:15Z"
-          },
-          {
-            "title": "fix: prevent unbounded growth in workqueue Add",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1078",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1078,
-            "author": "chetan-rns",
-            "engaged_at": "2026-08-20T22:35:09Z"
-          },
-          {
-            "title": "build(deps): Bump github.com/stretchr/testify from 1.12.0 to 1.12.1",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1083",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1083,
-            "author": "dependabot",
-            "engaged_at": "2026-08-20T22:32:28Z"
           }
         ]
       },
@@ -11033,15 +10963,23 @@
       },
       {
         "login": "aali309",
-        "reviews": 38,
+        "reviews": 39,
         "prs": [
+          {
+            "title": "feat(sourceintegrity): verify Helm chart provenance (#3833)",
+            "url": "https://github.com/argoproj/argo-cd/pull/30964",
+            "repo": "argoproj/argo-cd",
+            "number": 30964,
+            "author": "blakepettersson",
+            "engaged_at": "2026-11-18T22:32:02Z"
+          },
           {
             "title": "Rollouts extention UI test",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1572",
             "repo": "redhat-developer/gitops-operator",
             "number": 1572,
             "author": "trdoyle81",
-            "engaged_at": "2026-11-18T22:01:53Z"
+            "engaged_at": "2026-11-18T22:16:33Z"
           },
           {
             "title": "fix: Incorrect link to resource (#12074)",
