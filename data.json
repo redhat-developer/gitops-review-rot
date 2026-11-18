@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T02:07:38.551158094Z",
+  "generated_at": "2026-11-18T03:07:08.380460997Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -936,109 +936,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-11-17T19:47:52Z",
-      "updated_at": "2026-11-17T22:16:28Z",
+      "updated_at": "2026-11-18T02:07:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix: bound sync-window duration parsing to prevent ReDoS to release-4.18 branch",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/333",
-      "number": 333,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "aali309",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
-      },
-      "created_at": "2026-11-17T21:46:54Z",
-      "updated_at": "2026-11-17T22:15:07Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix: bound sync-window duration parsing to prevent ReDoS ( v1.20 branch)",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/334",
-      "number": 334,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "aali309",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
-      },
-      "created_at": "2026-11-17T22:03:44Z",
-      "updated_at": "2026-11-17T22:03:53Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "Gitops 12037 v1.22",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/335",
-      "number": 335,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "aali309",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
-      },
-      "created_at": "2026-11-17T22:09:52Z",
-      "updated_at": "2026-11-17T22:10:01Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix: bound sync-window duration parsing to prevent ReDoS (v.1.21 branch)",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/336",
-      "number": 336,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "aali309",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
-      },
-      "created_at": "2026-11-17T22:11:57Z",
-      "updated_at": "2026-11-17T22:12:04Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": []
     },
     {
@@ -1695,14 +1603,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T09:44:01Z",
-      "updated_at": "2026-11-16T13:12:15Z",
+      "updated_at": "2026-11-18T02:24:03Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
@@ -1924,7 +1832,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-13T10:09:08Z",
-      "updated_at": "2026-11-18T01:04:46Z",
+      "updated_at": "2026-11-18T03:01:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2141,6 +2049,31 @@
       "unresolved_conversations": 0,
       "labels": [
         "kind/failing-ci"
+      ]
+    },
+    {
+      "title": "chore: update lint/gosec checks for github actions",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1571",
+      "number": 1571,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-11-18T02:20:17Z",
+      "updated_at": "2026-11-18T02:26:17Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/cleanup"
       ]
     },
     {
@@ -2993,7 +2926,7 @@
       "updated_at": "2026-11-17T14:11:56Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3134,7 +3067,7 @@
       "updated_at": "2026-11-16T17:13:11Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -4369,7 +4302,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/105545215?u=e460ca0f356f81923ad133b351648084c20614ed\u0026v=4"
       },
       "created_at": "2026-11-17T22:03:48Z",
-      "updated_at": "2026-11-17T22:14:34Z",
+      "updated_at": "2026-11-18T02:53:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4380,7 +4313,9 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
-      "labels": []
+      "labels": [
+        "ok-to-test"
+      ]
     },
     {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
@@ -5555,12 +5490,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-20T02:05:30Z",
+    "since": "2026-08-20T03:05:15Z",
     "reviewers": [
       {
         "login": "jgwest",
-        "reviews": 131,
+        "reviews": 132,
         "prs": [
+          {
+            "title": "chore: Unify .github + move `hack/` to top level",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1495",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1495,
+            "author": "olivergondza",
+            "engaged_at": "2026-11-18T02:24:03Z"
+          },
           {
             "title": "chore(deps): bump library/golang from 1.26 to 1.27 in /argocd-operator/tests/auxiliary/smtplistener",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1469",
@@ -10769,8 +10712,48 @@
       },
       {
         "login": "keithchong",
-        "reviews": 38,
+        "reviews": 43,
         "prs": [
+          {
+            "title": "fix: bound sync-window duration parsing to prevent ReDoS ( v1.20 branch)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/334",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 334,
+            "author": "aali309",
+            "engaged_at": "2026-11-18T02:13:09Z"
+          },
+          {
+            "title": "fix: bound sync-window duration parsing to prevent ReDoS (v.1.21 branch)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/336",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 336,
+            "author": "aali309",
+            "engaged_at": "2026-11-18T02:12:24Z"
+          },
+          {
+            "title": "Gitops 12037 v1.22",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/335",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 335,
+            "author": "aali309",
+            "engaged_at": "2026-11-18T02:11:18Z"
+          },
+          {
+            "title": "fix: bound sync-window duration parsing to prevent ReDoS to release-4.18 branch",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/333",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 333,
+            "author": "aali309",
+            "engaged_at": "2026-11-18T02:09:51Z"
+          },
+          {
+            "title": "fix: enable Topology Rollouts when ClusterVersion is unreadable",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/332",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 332,
+            "author": "aali309",
+            "engaged_at": "2026-11-18T02:07:32Z"
+          },
           {
             "title": "fix: bound sync-window duration parsing to prevent ReDoS",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/329",
