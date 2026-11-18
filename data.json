@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T04:06:18.857175157Z",
+  "generated_at": "2026-11-18T05:06:08.35358844Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -936,7 +936,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
       },
       "created_at": "2026-11-17T19:47:52Z",
-      "updated_at": "2026-11-18T02:07:32Z",
+      "updated_at": "2026-11-18T04:21:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -944,7 +944,7 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 2,
       "labels": []
@@ -1832,7 +1832,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/44372157?u=ba2fa20315c453cfbe2124dfab5f8e96493c21c4\u0026v=4"
       },
       "created_at": "2026-11-13T10:09:08Z",
-      "updated_at": "2026-11-18T04:01:38Z",
+      "updated_at": "2026-11-18T04:38:57Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1840,9 +1840,9 @@
       "reviews": {
         "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 9,
+      "unresolved_conversations": 8,
       "labels": []
     },
     {
@@ -2035,10 +2035,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-18T02:20:17Z",
-      "updated_at": "2026-11-18T04:01:06Z",
+      "updated_at": "2026-11-18T04:41:12Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5438,7 +5438,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-20T04:04:25Z",
+    "since": "2026-08-20T05:04:17Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -9301,6 +9301,14 @@
         "reviews": 80,
         "prs": [
           {
+            "title": "feat(ai): AI-assisted Application troubleshooting via Lightspeed agentic runs",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1552",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1552,
+            "author": "Mangaal",
+            "engaged_at": "2026-11-18T04:25:28Z"
+          },
+          {
             "title": "test(dex): use an unknown TLS group in the unsupported curves case",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1569",
             "repo": "redhat-developer/gitops-operator",
@@ -9347,14 +9355,6 @@
             "number": 1526,
             "author": "anandrkskd",
             "engaged_at": "2026-11-16T05:51:41Z"
-          },
-          {
-            "title": "feat(ai): AI-assisted Application troubleshooting via Lightspeed agentic runs",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1552",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1552,
-            "author": "Mangaal",
-            "engaged_at": "2026-11-16T05:30:19Z"
           },
           {
             "title": "chore(deps): bump Argo CD to v3.6.1 and Image Updater to v1.5.0",
