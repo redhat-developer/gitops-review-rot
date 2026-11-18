@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T23:06:09.960475626Z",
+  "generated_at": "2026-11-18T00:10:18.49092142Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1482,33 +1482,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump library/golang from 1.26 to 1.27 in /argocd-operator/tests/auxiliary/smtplistener",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1469",
-      "number": 1469,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-26T19:17:23Z",
-      "updated_at": "2026-11-14T01:40:34Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test",
-        "dependencies",
-        "docker"
-      ]
-    },
-    {
       "title": "chore(deps): bump github.com/cert-manager/cert-manager in /",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1477",
       "number": 1477,
@@ -1912,7 +1885,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement",
         "needs-ok-to-test"
@@ -2094,6 +2067,57 @@
       "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
+      ]
+    },
+    {
+      "title": "test(dex): use an unknown TLS group in the unsupported curves case",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1569",
+      "number": 1569,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-11-17T23:23:01Z",
+      "updated_at": "2026-11-17T23:24:40Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "kind/failing-test"
+      ]
+    },
+    {
+      "title": "chore: add retry to go mod download",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1570",
+      "number": 1570,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-11-17T23:28:39Z",
+      "updated_at": "2026-11-17T23:33:43Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/failing-ci"
       ]
     },
     {
@@ -3136,7 +3160,7 @@
       "updated_at": "2026-11-17T22:00:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -3182,7 +3206,7 @@
       "updated_at": "2026-11-17T22:30:16Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5550,39 +5574,24 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-11-05T05:28:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-19T23:04:15Z",
+    "since": "2026-08-20T00:08:32Z",
     "reviewers": [
       {
         "login": "jgwest",
         "reviews": 131,
         "prs": [
+          {
+            "title": "chore(deps): bump library/golang from 1.26 to 1.27 in /argocd-operator/tests/auxiliary/smtplistener",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1469",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1469,
+            "author": "dependabot",
+            "engaged_at": "2026-11-17T23:59:26Z"
+          },
           {
             "title": "build(deps): Bump go.opentelemetry.io/otel/trace from 1.44.0 to 1.47.0 in /hack/sync-consistency-util",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1235",
@@ -5726,14 +5735,6 @@
             "number": 1477,
             "author": "dependabot",
             "engaged_at": "2026-11-13T19:42:11Z"
-          },
-          {
-            "title": "chore(deps): bump library/golang from 1.26 to 1.27 in /argocd-operator/tests/auxiliary/smtplistener",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1469",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1469,
-            "author": "dependabot",
-            "engaged_at": "2026-11-13T19:41:37Z"
           },
           {
             "title": "chore(agents): Update agent definition",
