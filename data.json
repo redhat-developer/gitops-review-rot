@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T22:05:44.739343695Z",
+  "generated_at": "2026-11-19T23:06:25.843193575Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -927,76 +927,7 @@
       "labels": []
     },
     {
-      "title": "fix: cherry-pick enable Topology Rollouts when ClusterVersion is unreadable to v1.20 branch",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/338",
-      "number": 338,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "aali309",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
-      },
-      "created_at": "2026-11-19T20:43:05Z",
-      "updated_at": "2026-11-19T20:43:15Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix: cherry-pick enable Topology Rollouts when ClusterVersion is unreadable to v1.21 branch",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/339",
-      "number": 339,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "aali309",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
-      },
-      "created_at": "2026-11-19T20:49:15Z",
-      "updated_at": "2026-11-19T20:49:22Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "Gitops topology flag v1.22",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/340",
-      "number": 340,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "aali309",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
-      },
-      "created_at": "2026-11-19T20:51:20Z",
-      "updated_at": "2026-11-19T20:51:31Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "fix: Incorrect link to resource (#12074)",
+      "title": "fix: Incorrect link to resource 1.22.z (#12074)",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/341",
       "number": 341,
       "repo": "redhat-developer/gitops-console-plugin",
@@ -1005,7 +936,30 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
       },
       "created_at": "2026-11-19T21:13:39Z",
-      "updated_at": "2026-11-19T21:14:14Z",
+      "updated_at": "2026-11-19T22:19:15Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: Incorrect link to resource 1.21.z (#12074)",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/342",
+      "number": 342,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "keithchong",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
+      },
+      "created_at": "2026-11-19T22:18:40Z",
+      "updated_at": "2026-11-19T22:31:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1668,7 +1622,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-05T19:14:31Z",
-      "updated_at": "2026-11-19T20:37:50Z",
+      "updated_at": "2026-11-19T22:12:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -1977,10 +1931,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-19T19:14:39Z",
-      "updated_at": "2026-11-19T20:36:39Z",
+      "updated_at": "2026-11-19T22:41:56Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5570,7 +5524,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-21T22:03:45Z",
+    "since": "2026-08-21T23:04:28Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -11230,8 +11184,32 @@
       },
       {
         "login": "keithchong",
-        "reviews": 37,
+        "reviews": 40,
         "prs": [
+          {
+            "title": "fix: cherry-pick enable Topology Rollouts when ClusterVersion is unreadable to v1.20 branch",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/338",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 338,
+            "author": "aali309",
+            "engaged_at": "2026-11-19T22:45:25Z"
+          },
+          {
+            "title": "fix: cherry-pick enable Topology Rollouts when ClusterVersion is unreadable to v1.21 branch",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/339",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 339,
+            "author": "aali309",
+            "engaged_at": "2026-11-19T22:42:38Z"
+          },
+          {
+            "title": "Gitops topology flag v1.22",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/340",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 340,
+            "author": "aali309",
+            "engaged_at": "2026-11-19T22:40:22Z"
+          },
           {
             "title": "fix: enable Topology Rollouts when ClusterVersion is unreadable",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/332",
