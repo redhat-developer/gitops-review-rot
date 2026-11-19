@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T16:05:56.873964322Z",
+  "generated_at": "2026-11-19T17:05:34.132433598Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1856,7 +1856,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-19T09:51:17Z",
-      "updated_at": "2026-11-19T15:49:59Z",
+      "updated_at": "2026-11-19T16:07:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4096,7 +4096,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/8530854?v=4"
       },
       "created_at": "2026-11-18T09:59:23Z",
-      "updated_at": "2026-11-18T13:21:17Z",
+      "updated_at": "2026-11-19T16:25:34Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4130,29 +4130,6 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 5,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): bump argocd from 3.3.19 to v3.3.20-0.20261116162109-d6de2f779004",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1949",
-      "number": 1949,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-11-19T03:37:13Z",
-      "updated_at": "2026-11-19T14:29:48Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -5351,7 +5328,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-21T16:03:44Z",
+    "since": "2026-08-21T17:03:33Z",
     "reviewers": [
       {
         "login": "jgwest",
