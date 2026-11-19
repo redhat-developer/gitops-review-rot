@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T19:06:46.488513431Z",
+  "generated_at": "2026-11-19T20:05:58.858626516Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -927,29 +927,6 @@
       "labels": []
     },
     {
-      "title": "fix: enable Topology Rollouts when ClusterVersion is unreadable",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/332",
-      "number": 332,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "aali309",
-        "avatar_url": "https://avatars.githubusercontent.com/u/56743004?u=3222329a3b1c66ff034ce7e0d4fbca2285ea848e\u0026v=4"
-      },
-      "created_at": "2026-11-17T19:47:52Z",
-      "updated_at": "2026-11-18T04:21:35Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 2,
-      "labels": []
-    },
-    {
       "title": "chore(deps): update konflux references",
       "url": "https://github.com/redhat-developer/gitops-must-gather/pull/53",
       "number": 53,
@@ -1869,6 +1846,195 @@
       "unresolved_conversations": 3,
       "labels": [
         "kind/cleanup"
+      ]
+    },
+    {
+      "title": "chore(deps): bump golang.org/x/crypto in /",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1576",
+      "number": 1576,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-19T19:14:35Z",
+      "updated_at": "2026-11-19T19:16:19Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "chore(deps): bump golang.org/x/mod in /",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1577",
+      "number": 1577,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-19T19:14:39Z",
+      "updated_at": "2026-11-19T19:17:04Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring from 0.73.2 to 0.95.2",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1578",
+      "number": 1578,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-19T19:15:07Z",
+      "updated_at": "2026-11-19T19:15:23Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "chore(deps): bump sigs.k8s.io/controller-runtime from 0.23.1 to 0.25.3",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1579",
+      "number": 1579,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-19T19:15:19Z",
+      "updated_at": "2026-11-19T19:15:38Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring from 0.74.0 to 0.95.2",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1580",
+      "number": 1580,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-19T19:15:20Z",
+      "updated_at": "2026-11-19T19:15:39Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "chore(deps): bump sigs.k8s.io/controller-runtime from 0.24.1 to 0.25.3",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1581",
+      "number": 1581,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-19T19:15:28Z",
+      "updated_at": "2026-11-19T19:15:44Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
+      ]
+    },
+    {
+      "title": "chore(deps): bump golang.org/x/crypto from 0.58.0 to 0.59.0",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1582",
+      "number": 1582,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-19T19:15:36Z",
+      "updated_at": "2026-11-19T19:15:50Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "go"
       ]
     },
     {
@@ -5278,34 +5444,11 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-11-05T05:28:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-21T19:04:42Z",
+    "since": "2026-08-21T20:03:58Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -10944,6 +11087,14 @@
         "reviews": 37,
         "prs": [
           {
+            "title": "fix: enable Topology Rollouts when ClusterVersion is unreadable",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/332",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 332,
+            "author": "aali309",
+            "engaged_at": "2026-11-19T19:27:17Z"
+          },
+          {
             "title": "fix: bound sync-window duration parsing to prevent ReDoS ( v1.20 branch)",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/334",
             "repo": "redhat-developer/gitops-console-plugin",
@@ -10974,14 +11125,6 @@
             "number": 333,
             "author": "aali309",
             "engaged_at": "2026-11-18T02:09:51Z"
-          },
-          {
-            "title": "fix: enable Topology Rollouts when ClusterVersion is unreadable",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/332",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 332,
-            "author": "aali309",
-            "engaged_at": "2026-11-18T02:07:32Z"
           },
           {
             "title": "fix: bound sync-window duration parsing to prevent ReDoS",
