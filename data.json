@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T21:05:43.74777493Z",
+  "generated_at": "2026-11-19T22:05:44.739343695Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -983,6 +983,29 @@
       },
       "created_at": "2026-11-19T20:51:20Z",
       "updated_at": "2026-11-19T20:51:31Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: Incorrect link to resource (#12074)",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/341",
+      "number": 341,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "keithchong",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
+      },
+      "created_at": "2026-11-19T21:13:39Z",
+      "updated_at": "2026-11-19T21:14:14Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2612,15 +2635,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-10-27T00:26:09Z",
-      "updated_at": "2026-11-04T19:03:31Z",
+      "updated_at": "2026-11-19T21:54:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 2,
+        "count": 3,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -4237,6 +4260,121 @@
       "labels": []
     },
     {
+      "title": "fix: build with patched Go toolchain for CVE-2026-78659",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1950",
+      "number": 1950,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-11-19T21:37:43Z",
+      "updated_at": "2026-11-19T21:42:55Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "fix: build with patched Go toolchain for CVE-2026-78659",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1951",
+      "number": 1951,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-11-19T21:40:02Z",
+      "updated_at": "2026-11-19T21:40:12Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: build with patched Go toolchain for CVE-2026-78659",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1952",
+      "number": 1952,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-11-19T21:40:04Z",
+      "updated_at": "2026-11-19T21:40:13Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: build with patched Go toolchain and x/net for CVE-2026-78659",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1953",
+      "number": 1953,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-11-19T21:40:07Z",
+      "updated_at": "2026-11-19T21:44:11Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: build with patched Go toolchain and x/net for CVE-2026-78659",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1954",
+      "number": 1954,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-11-19T21:40:09Z",
+      "updated_at": "2026-11-19T21:44:13Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -5405,16 +5543,47 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-21T21:03:43Z",
+    "since": "2026-08-21T22:03:45Z",
     "reviewers": [
       {
         "login": "jgwest",
-        "reviews": 134,
+        "reviews": 135,
         "prs": [
+          {
+            "title": "fix(redisproxy): resubscribe live view when an agent reconnects",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1171",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1171,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-19T21:54:04Z"
+          },
           {
             "title": "chore(deps): bump golang.org/x/crypto from 0.58.0 to 0.59.0",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1582",
