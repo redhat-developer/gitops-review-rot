@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T19:05:52.532340594Z",
+  "generated_at": "2026-11-20T20:06:39.720698517Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1982,7 +1982,7 @@
       "updated_at": "2025-10-11T12:26:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": null,
       "size": null,
       "reviews": {
         "count": 1,
@@ -5266,14 +5266,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-18T20:16:15Z",
-      "updated_at": "2026-11-18T20:32:13Z",
+      "updated_at": "2026-11-20T19:49:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
+        "count": 2,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5403,7 +5403,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-22T19:03:56Z",
+    "since": "2026-08-22T20:04:37Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -6541,8 +6541,16 @@
       },
       {
         "login": "chengfang",
-        "reviews": 125,
+        "reviews": 126,
         "prs": [
+          {
+            "title": "fix(image-updater): Privilege escalation via IMAGE_UPDATER_WATCH_NAMESPACES on namespace-scoped ArgoCD instances",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2425",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2425,
+            "author": "dkarpele",
+            "engaged_at": "2026-11-20T19:49:11Z"
+          },
           {
             "title": "feat(tls): Configure TLS PQC work for gitops promoter",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1517",
