@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T23:06:25.843193575Z",
+  "generated_at": "2026-11-20T00:10:03.569221742Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2658,17 +2658,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-05T17:47:59Z",
-      "updated_at": "2026-11-07T16:57:47Z",
+      "updated_at": "2026-11-20T00:02:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 6,
       "labels": []
     },
     {
@@ -5524,12 +5524,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-21T23:04:28Z",
+    "since": "2026-08-22T00:08:08Z",
     "reviewers": [
       {
         "login": "jgwest",
-        "reviews": 135,
+        "reviews": 136,
         "prs": [
+          {
+            "title": "docs: describe how to add agents declaratively",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1187",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1187,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-20T00:02:33Z"
+          },
           {
             "title": "fix(redisproxy): resubscribe live view when an agent reconnects",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1171",
