@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T22:05:49.114765884Z",
+  "generated_at": "2026-11-20T23:06:07.96540232Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -927,6 +927,29 @@
       "labels": []
     },
     {
+      "title": "fix: Bump up the version for 1.22.z",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/346",
+      "number": 346,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "keithchong",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
+      },
+      "created_at": "2026-11-20T22:40:46Z",
+      "updated_at": "2026-11-20T22:40:58Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "chore(deps): update konflux references",
       "url": "https://github.com/redhat-developer/gitops-must-gather/pull/53",
       "number": 53,
@@ -1247,10 +1270,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/32438959?u=fe451e4f44637ed6a3a7b117f7ef286e40f664ec\u0026v=4"
       },
       "created_at": "2026-09-25T12:48:59Z",
-      "updated_at": "2026-11-18T19:42:52Z",
+      "updated_at": "2026-11-20T22:58:40Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 2,
@@ -5331,34 +5354,11 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-11-05T05:28:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-22T22:03:53Z",
+    "since": "2026-08-22T23:04:10Z",
     "reviewers": [
       {
         "login": "jgwest",
