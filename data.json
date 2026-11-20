@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T17:05:45.982278888Z",
+  "generated_at": "2026-11-20T18:07:28.074917342Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2514,21 +2514,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-10-26T16:48:07Z",
-      "updated_at": "2026-11-07T16:31:33Z",
+      "updated_at": "2026-11-20T17:55:35Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
-      "title": "fix(redisproxy): resubscribe live view when an agent reconnects",
+      "title": "fix(redisproxy): resubscribe live view after an agent restart",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1171",
       "number": 1171,
       "repo": "argoproj-labs/argocd-agent",
@@ -2537,8 +2537,8 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-10-27T00:26:09Z",
-      "updated_at": "2026-11-19T21:54:04Z",
-      "is_draft": false,
+      "updated_at": "2026-11-20T17:47:49Z",
+      "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
@@ -2609,7 +2609,7 @@
       "updated_at": "2026-11-20T16:47:43Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
@@ -2655,7 +2655,7 @@
       "updated_at": "2026-11-20T16:39:01Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2796,7 +2796,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-13T23:52:02Z",
-      "updated_at": "2026-11-20T16:53:12Z",
+      "updated_at": "2026-11-20T17:16:57Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2806,7 +2806,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 6,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -2914,7 +2914,7 @@
       "updated_at": "2026-11-20T16:56:25Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5403,7 +5403,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-22T17:03:46Z",
+    "since": "2026-08-22T18:05:28Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -5466,7 +5466,7 @@
             "engaged_at": "2026-11-20T00:02:33Z"
           },
           {
-            "title": "fix(redisproxy): resubscribe live view when an agent reconnects",
+            "title": "fix(redisproxy): resubscribe live view after an agent restart",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1171",
             "repo": "argoproj-labs/argocd-agent",
             "number": 1171,
@@ -7894,7 +7894,7 @@
             "engaged_at": "2026-11-05T01:15:40Z"
           },
           {
-            "title": "fix(redisproxy): resubscribe live view when an agent reconnects",
+            "title": "fix(redisproxy): resubscribe live view after an agent restart",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1171",
             "repo": "argoproj-labs/argocd-agent",
             "number": 1171,
