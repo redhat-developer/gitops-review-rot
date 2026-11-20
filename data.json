@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T20:06:39.720698517Z",
+  "generated_at": "2026-11-20T21:06:04.969519255Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2005,7 +2005,7 @@
       "updated_at": "2025-10-24T12:08:17Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": null,
       "size": null,
       "reviews": {
         "count": 3,
@@ -5289,14 +5289,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-20T15:38:26Z",
-      "updated_at": "2026-11-20T15:38:37Z",
+      "updated_at": "2026-11-20T20:52:30Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5403,7 +5403,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-22T20:04:37Z",
+    "since": "2026-08-22T21:04:08Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -6541,8 +6541,16 @@
       },
       {
         "login": "chengfang",
-        "reviews": 126,
+        "reviews": 127,
         "prs": [
+          {
+            "title": "fix(image-updater): Privilege escalation via IMAGE_UPDATER_WATCH_NAME…",
+            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2426",
+            "repo": "argoproj-labs/argocd-operator",
+            "number": 2426,
+            "author": "dkarpele",
+            "engaged_at": "2026-11-20T20:52:30Z"
+          },
           {
             "title": "fix(image-updater): Privilege escalation via IMAGE_UPDATER_WATCH_NAMESPACES on namespace-scoped ArgoCD instances",
             "url": "https://github.com/argoproj-labs/argocd-operator/pull/2425",
