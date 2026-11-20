@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T06:09:01.979442923Z",
+  "generated_at": "2026-11-20T07:08:03.810874405Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -927,7 +927,7 @@
       "labels": []
     },
     {
-      "title": "Missing @types/jest dev dependency",
+      "title": "Missing @types/jest dev dependency for v1.20",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/343",
       "number": 343,
       "repo": "redhat-developer/gitops-console-plugin",
@@ -936,7 +936,30 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
       },
       "created_at": "2026-11-20T05:51:54Z",
-      "updated_at": "2026-11-20T05:55:14Z",
+      "updated_at": "2026-11-20T06:09:03Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Missing @types/jest dev dependency for v1.21",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/344",
+      "number": 344,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "keithchong",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
+      },
+      "created_at": "2026-11-20T06:08:44Z",
+      "updated_at": "2026-11-20T06:08:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5909,7 +5932,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-06-08T22:16:29Z",
-      "updated_at": "2026-11-06T19:33:55Z",
+      "updated_at": "2026-11-20T06:11:46Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -6182,11 +6205,34 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-22T06:07:08Z",
+    "since": "2026-08-22T07:06:09Z",
     "reviewers": [
       {
         "login": "jgwest",
