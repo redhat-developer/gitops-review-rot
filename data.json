@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T01:06:18.471383073Z",
+  "generated_at": "2026-11-20T02:06:52.106223765Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1528,14 +1528,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-04T09:44:01Z",
-      "updated_at": "2026-11-19T18:17:25Z",
+      "updated_at": "2026-11-20T02:00:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
@@ -1565,33 +1565,6 @@
       },
       "unresolved_conversations": 1,
       "labels": []
-    },
-    {
-      "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring in /",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1505",
-      "number": 1505,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-05T19:14:31Z",
-      "updated_at": "2026-11-19T22:12:18Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "needs-ok-to-test",
-        "dependencies",
-        "go"
-      ]
     },
     {
       "title": "chore(agents): Update agent definition",
@@ -2123,10 +2096,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-04-01T21:58:32Z",
-      "updated_at": "2026-06-15T18:52:44Z",
+      "updated_at": "2026-11-20T01:55:09Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2635,17 +2608,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-05T19:41:34Z",
-      "updated_at": "2026-11-07T00:18:03Z",
+      "updated_at": "2026-11-20T01:14:45Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": []
     },
     {
@@ -2669,29 +2642,6 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 1,
-      "labels": []
-    },
-    {
-      "title": "test(ctl): add unit coverage for the config commands and the root command",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1207",
-      "number": 1207,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "Gabrielandre02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
-      },
-      "created_at": "2026-11-09T03:09:00Z",
-      "updated_at": "2026-11-17T06:19:29Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -2802,13 +2752,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-13T00:31:44Z",
-      "updated_at": "2026-11-13T00:33:19Z",
+      "updated_at": "2026-11-20T01:51:45Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -4180,7 +4130,7 @@
       "updated_at": "2026-11-20T00:50:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5480,12 +5430,60 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-22T01:04:24Z",
+    "since": "2026-08-22T02:05:10Z",
     "reviewers": [
       {
         "login": "jgwest",
-        "reviews": 136,
+        "reviews": 141,
         "prs": [
+          {
+            "title": "chore: Unify .github + move `hack/` to top level",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1495",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1495,
+            "author": "olivergondza",
+            "engaged_at": "2026-11-20T02:00:33Z"
+          },
+          {
+            "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1505",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1505,
+            "author": "dependabot",
+            "engaged_at": "2026-11-20T01:58:17Z"
+          },
+          {
+            "title": "build(deps): Bump github.com/wI2L/jsondiff from 0.7.0 to 0.7.1",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/866",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 866,
+            "author": "dependabot",
+            "engaged_at": "2026-11-20T01:54:01Z"
+          },
+          {
+            "title": "docs: move shipped items in the roadmap to a completed section",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1227",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1227,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-20T01:51:45Z"
+          },
+          {
+            "title": "test(ctl): add unit coverage for the config commands and the root command",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1207",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1207,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-20T01:49:18Z"
+          },
+          {
+            "title": "docs: make the principal reachable in the Kubernetes getting started guide",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1189",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1189,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-20T01:14:45Z"
+          },
           {
             "title": "docs: describe how to add agents declaratively",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1187",
@@ -5517,14 +5515,6 @@
             "number": 1477,
             "author": "dependabot",
             "engaged_at": "2026-11-19T20:41:02Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring in /",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1505",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1505,
-            "author": "dependabot",
-            "engaged_at": "2026-11-19T20:37:50Z"
           },
           {
             "title": "chore(deps): bump golang.org/x/mod in /",
