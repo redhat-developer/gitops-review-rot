@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T06:08:45.328434362Z",
+  "generated_at": "2026-11-23T07:07:07.977116883Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1323,7 +1323,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/87866840?v=4"
       },
       "created_at": "2026-10-15T05:36:12Z",
-      "updated_at": "2026-11-23T05:32:05Z",
+      "updated_at": "2026-11-23T06:55:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1847,6 +1847,31 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "test: validate readOnlyRootFilesystem on GitOps workloads (GITOPS-7256)",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1585",
+      "number": 1585,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "Naveena-058",
+        "avatar_url": "https://avatars.githubusercontent.com/u/87866840?v=4"
+      },
+      "created_at": "2026-11-23T06:23:15Z",
+      "updated_at": "2026-11-23T06:31:06Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/enhancement"
+      ]
     },
     {
       "title": "feat: Add helm charts for principal",
@@ -3551,7 +3576,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/151507899?u=9178733ce8b82e687b55611578179ba2bb9b4440\u0026v=4"
       },
       "created_at": "2026-02-09T01:05:41Z",
-      "updated_at": "2026-11-11T20:16:53Z",
+      "updated_at": "2026-11-23T06:30:19Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5351,7 +5376,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-25T06:06:54Z",
+    "since": "2026-08-25T07:05:15Z",
     "reviewers": [
       {
         "login": "jgwest",
