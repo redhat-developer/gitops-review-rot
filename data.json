@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T08:07:38.669507892Z",
+  "generated_at": "2026-11-23T09:06:50.117409709Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2910,7 +2910,7 @@
       "updated_at": "2026-11-23T07:35:18Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5399,12 +5399,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-25T08:05:45Z",
+    "since": "2026-08-25T09:04:53Z",
     "reviewers": [
       {
         "login": "jgwest",
-        "reviews": 138,
+        "reviews": 139,
         "prs": [
+          {
+            "title": "fix(install): listen on all interfaces by default in the principal manifests",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1247",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1247,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-23T09:04:35Z"
+          },
           {
             "title": "chore(deps): bump golang.org/x/crypto from 0.58.0 to 0.59.0",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1582",
@@ -8480,6 +8488,14 @@
         "reviews": 102,
         "prs": [
           {
+            "title": "add Ginkgo test for argocd CLI core mode app create",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1405",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1405,
+            "author": "Naveena-058",
+            "engaged_at": "2026-11-23T09:04:45Z"
+          },
+          {
             "title": "chore: add E2E test data to secret scan ignore list",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1573",
             "repo": "redhat-developer/gitops-operator",
@@ -8502,14 +8518,6 @@
             "number": 1478,
             "author": "dependabot",
             "engaged_at": "2026-11-18T13:42:47Z"
-          },
-          {
-            "title": "add Ginkgo test for argocd CLI core mode app create",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1405",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1405,
-            "author": "Naveena-058",
-            "engaged_at": "2026-11-18T13:38:27Z"
           },
           {
             "title": "chore(e2e): add CreatePerTestNs and print debug output on every failed spec",
