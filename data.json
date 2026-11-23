@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T19:06:06.040269737Z",
+  "generated_at": "2026-11-23T20:05:46.649192941Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1784,7 +1784,7 @@
       "updated_at": "2026-11-23T13:06:54Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1806,17 +1806,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
       },
       "created_at": "2026-11-23T18:40:13Z",
-      "updated_at": "2026-11-23T18:54:22Z",
+      "updated_at": "2026-11-23T19:53:44Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 9,
       "labels": [
         "kind/bug"
       ]
@@ -5353,7 +5353,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-25T19:04:04Z",
+    "since": "2026-08-25T20:03:42Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -8439,7 +8439,7 @@
             "repo": "argoproj/argo-cd",
             "number": 30964,
             "author": "blakepettersson",
-            "engaged_at": "2026-11-23T18:18:34Z"
+            "engaged_at": "2026-11-23T19:59:12Z"
           },
           {
             "title": "chore: upgrade to Argo CD V3.6.2",
@@ -11093,7 +11093,7 @@
       },
       {
         "login": "keithchong",
-        "reviews": 39,
+        "reviews": 38,
         "prs": [
           {
             "title": "fix: cherry-pick enable Topology Rollouts when ClusterVersion is unreadable to v1.20 branch",
@@ -11398,14 +11398,6 @@
             "number": 29386,
             "author": "aali309",
             "engaged_at": "2026-08-25T20:34:43Z"
-          },
-          {
-            "title": "chore(deps): bump js-yaml to fix CVE-2026-59869",
-            "url": "https://github.com/argoproj/argo-cd/pull/28946",
-            "repo": "argoproj/argo-cd",
-            "number": 28946,
-            "author": "aali309",
-            "engaged_at": "2026-08-25T19:45:58Z"
           }
         ]
       },
