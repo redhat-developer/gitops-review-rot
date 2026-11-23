@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T10:06:04.038541524Z",
+  "generated_at": "2026-11-23T11:05:42.295187894Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1697,32 +1697,6 @@
       ]
     },
     {
-      "title": "Rollouts extention UI test",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1572",
-      "number": 1572,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "trdoyle81",
-        "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
-      },
-      "created_at": "2026-11-18T15:41:16Z",
-      "updated_at": "2026-11-23T09:38:31Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/enhancement",
-        "lgtm"
-      ]
-    },
-    {
       "title": "tests(E2E): Unify parallel unique tests",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1575",
       "number": 1575,
@@ -1785,7 +1759,7 @@
       "updated_at": "2026-11-23T04:37:31Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2854,7 +2828,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63845775?u=a8b33171de590f0455d11d0d4bc6cf4e9a1ac210\u0026v=4"
       },
       "created_at": "2026-11-23T09:41:33Z",
-      "updated_at": "2026-11-23T09:47:40Z",
+      "updated_at": "2026-11-23T10:15:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2864,7 +2838,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -4091,7 +4065,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/8530854?v=4"
       },
       "created_at": "2026-11-18T09:59:23Z",
-      "updated_at": "2026-11-23T09:45:56Z",
+      "updated_at": "2026-11-23T10:59:04Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5346,7 +5320,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-25T10:04:06Z",
+    "since": "2026-08-25T11:03:40Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -8432,8 +8406,16 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 102,
+        "reviews": 103,
         "prs": [
+          {
+            "title": "Rollouts extention UI test",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1572",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1572,
+            "author": "trdoyle81",
+            "engaged_at": "2026-11-23T10:56:47Z"
+          },
           {
             "title": "add Ginkgo test for argocd CLI core mode app create",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1405",
@@ -9254,7 +9236,7 @@
       },
       {
         "login": "svghadi",
-        "reviews": 81,
+        "reviews": 78,
         "prs": [
           {
             "title": "feat(ai): AI-assisted Application troubleshooting via Lightspeed agentic runs",
@@ -9879,30 +9861,6 @@
             "number": 1257,
             "author": "chengfang",
             "engaged_at": "2026-08-26T06:41:31Z"
-          },
-          {
-            "title": "added E2E for role ownership validation",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1213",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1213,
-            "author": "alkakumari016",
-            "engaged_at": "2026-08-25T10:24:16Z"
-          },
-          {
-            "title": "Added E2E for role ownership validation",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1210",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1210,
-            "author": "alkakumari016",
-            "engaged_at": "2026-08-25T10:23:43Z"
-          },
-          {
-            "title": "Added E2E for role ownership validation",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1209",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1209,
-            "author": "alkakumari016",
-            "engaged_at": "2026-08-25T10:23:20Z"
           }
         ]
       },
