@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T09:06:50.117409709Z",
+  "generated_at": "2026-11-23T10:06:04.038541524Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1323,7 +1323,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/87866840?v=4"
       },
       "created_at": "2026-10-15T05:36:12Z",
-      "updated_at": "2026-11-23T07:43:20Z",
+      "updated_at": "2026-11-23T09:04:45Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1331,9 +1331,9 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "kind/enhancement"
       ]
@@ -1516,32 +1516,6 @@
       },
       "unresolved_conversations": 1,
       "labels": []
-    },
-    {
-      "title": "chore(agents): Update agent definition",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1510",
-      "number": 1510,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "olivergondza",
-        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
-      },
-      "created_at": "2026-11-06T13:48:11Z",
-      "updated_at": "2026-11-18T12:02:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/documentation",
-        "kind/enhancement"
-      ]
     },
     {
       "title": "cherry-pick: test: KinD E2E (for v1.22)",
@@ -1732,13 +1706,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60603980?v=4"
       },
       "created_at": "2026-11-18T15:41:16Z",
-      "updated_at": "2026-11-20T21:21:05Z",
+      "updated_at": "2026-11-23T09:38:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 1,
         "has_new_commits": false
       },
@@ -1771,33 +1745,6 @@
       "unresolved_conversations": 3,
       "labels": [
         "kind/cleanup"
-      ]
-    },
-    {
-      "title": "chore(deps): bump golang.org/x/mod in /",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1577",
-      "number": 1577,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-19T19:14:39Z",
-      "updated_at": "2026-11-21T02:52:52Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test",
-        "dependencies",
-        "go"
       ]
     },
     {
@@ -2714,29 +2661,6 @@
       "labels": []
     },
     {
-      "title": "docs: remove shipped items from the roadmap",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1227",
-      "number": 1227,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "Gabrielandre02",
-        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
-      },
-      "created_at": "2026-11-13T00:31:44Z",
-      "updated_at": "2026-11-20T16:13:53Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "fix(agent): mark a managed deletion as expected when the update before it fails",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1229",
       "number": 1229,
@@ -2861,13 +2785,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
       },
       "created_at": "2026-11-20T16:39:13Z",
-      "updated_at": "2026-11-20T16:56:25Z",
+      "updated_at": "2026-11-23T09:04:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -2918,6 +2842,29 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(principal): require explicit HA replication allowlist",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1251",
+      "number": 1251,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "aloneangel45",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63845775?u=a8b33171de590f0455d11d0d4bc6cf4e9a1ac210\u0026v=4"
+      },
+      "created_at": "2026-11-23T09:41:33Z",
+      "updated_at": "2026-11-23T09:47:40Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -4144,7 +4091,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/8530854?v=4"
       },
       "created_at": "2026-11-18T09:59:23Z",
-      "updated_at": "2026-11-20T14:13:18Z",
+      "updated_at": "2026-11-23T09:45:56Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5399,12 +5346,36 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-25T09:04:53Z",
+    "since": "2026-08-25T10:04:06Z",
     "reviewers": [
       {
         "login": "jgwest",
         "reviews": 139,
         "prs": [
+          {
+            "title": "docs: remove shipped items from the roadmap",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1227",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1227,
+            "author": "Gabrielandre02",
+            "engaged_at": "2026-11-23T09:21:38Z"
+          },
+          {
+            "title": "chore(agents): Update agent definition",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1510",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1510,
+            "author": "olivergondza",
+            "engaged_at": "2026-11-23T09:11:51Z"
+          },
+          {
+            "title": "chore(deps): bump golang.org/x/mod in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1577",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1577,
+            "author": "dependabot",
+            "engaged_at": "2026-11-23T09:05:45Z"
+          },
           {
             "title": "fix(install): listen on all interfaces by default in the principal manifests",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1247",
@@ -5420,14 +5391,6 @@
             "number": 1582,
             "author": "dependabot",
             "engaged_at": "2026-11-21T00:18:14Z"
-          },
-          {
-            "title": "chore(deps): bump golang.org/x/mod in /",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1577",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1577,
-            "author": "dependabot",
-            "engaged_at": "2026-11-21T00:17:20Z"
           },
           {
             "title": "chore(deps): bump golang.org/x/crypto in /",
@@ -5460,14 +5423,6 @@
             "number": 866,
             "author": "dependabot",
             "engaged_at": "2026-11-20T01:54:01Z"
-          },
-          {
-            "title": "docs: remove shipped items from the roadmap",
-            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1227",
-            "repo": "argoproj-labs/argocd-agent",
-            "number": 1227,
-            "author": "Gabrielandre02",
-            "engaged_at": "2026-11-20T01:51:45Z"
           },
           {
             "title": "test(ctl): add unit coverage for the config commands and the root command",
@@ -5652,14 +5607,6 @@
             "number": 1556,
             "author": "dependabot",
             "engaged_at": "2026-11-13T19:57:45Z"
-          },
-          {
-            "title": "chore(agents): Update agent definition",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1510",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1510,
-            "author": "olivergondza",
-            "engaged_at": "2026-11-13T19:30:24Z"
           },
           {
             "title": "chore(deps): bump Argo CD to v3.6.1 and Image Updater to v1.5.0",
@@ -11925,8 +11872,16 @@
       },
       {
         "login": "varshab1210",
-        "reviews": 21,
+        "reviews": 22,
         "prs": [
+          {
+            "title": "Rollouts extention UI test",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1572",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1572,
+            "author": "trdoyle81",
+            "engaged_at": "2026-11-23T09:38:30Z"
+          },
           {
             "title": "Gitops 9691 filter at scale",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1522",
