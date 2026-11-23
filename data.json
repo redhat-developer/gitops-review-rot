@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T18:07:04.358385644Z",
+  "generated_at": "2026-11-23T19:06:06.040269737Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1797,6 +1797,31 @@
       ]
     },
     {
+      "title": "fix: prevent deletion of unrelated RBAC during namespaceManagement cleanup",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1587",
+      "number": 1587,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-11-23T18:40:13Z",
+      "updated_at": "2026-11-23T18:54:22Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 3,
+      "labels": [
+        "kind/bug"
+      ]
+    },
+    {
       "title": "feat: Add helm charts for principal",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/512",
       "number": 512,
@@ -2859,7 +2884,7 @@
       "updated_at": "2026-11-23T17:13:33Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5301,11 +5326,34 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-25T18:05:05Z",
+    "since": "2026-08-25T19:04:04Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -8391,7 +8439,7 @@
             "repo": "argoproj/argo-cd",
             "number": 30964,
             "author": "blakepettersson",
-            "engaged_at": "2026-11-23T17:39:25Z"
+            "engaged_at": "2026-11-23T18:18:34Z"
           },
           {
             "title": "chore: upgrade to Argo CD V3.6.2",
@@ -10321,7 +10369,7 @@
       },
       {
         "login": "ranakan19",
-        "reviews": 48,
+        "reviews": 47,
         "prs": [
           {
             "title": "feat: Expose API server warnings in Argo CD UI",
@@ -10698,14 +10746,6 @@
             "number": 28807,
             "author": "geojaz",
             "engaged_at": "2026-09-03T15:21:13Z"
-          },
-          {
-            "title": "added E2E for role ownership validation",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1213",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1213,
-            "author": "alkakumari016",
-            "engaged_at": "2026-08-25T18:29:45Z"
           }
         ]
       },
