@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T04:06:31.649869965Z",
+  "generated_at": "2026-11-23T05:07:43.546804588Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -635,7 +635,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:24:25Z",
-      "updated_at": "2026-11-23T01:17:26Z",
+      "updated_at": "2026-11-23T04:53:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -658,7 +658,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:30:16Z",
-      "updated_at": "2026-11-23T01:18:28Z",
+      "updated_at": "2026-11-23T04:54:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1801,7 +1801,7 @@
       ]
     },
     {
-      "title": "fix(appset): add replicas to be able to scale applicationset from argocd CR",
+      "title": "feat(appset): add replicas to be able to scale applicationset from argocd CR",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1583",
       "number": 1583,
       "repo": "redhat-developer/gitops-operator",
@@ -1810,7 +1810,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-11-21T00:01:59Z",
-      "updated_at": "2026-11-21T00:06:01Z",
+      "updated_at": "2026-11-23T05:00:18Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1822,9 +1822,31 @@
       },
       "unresolved_conversations": 3,
       "labels": [
-        "kind/bug",
         "kind/enhancement"
       ]
+    },
+    {
+      "title": "chore: upgrade to Argo CD V3.6.2",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1584",
+      "number": 1584,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-11-23T04:35:18Z",
+      "updated_at": "2026-11-23T04:37:31Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "feat: Add helm charts for principal",
@@ -5302,11 +5324,34 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-25T04:04:47Z",
+    "since": "2026-08-25T05:05:53Z",
     "reviewers": [
       {
         "login": "jgwest",
