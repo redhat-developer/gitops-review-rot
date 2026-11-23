@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T05:07:43.546804588Z",
+  "generated_at": "2026-11-23T06:08:45.328434362Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1323,15 +1323,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/87866840?v=4"
       },
       "created_at": "2026-10-15T05:36:12Z",
-      "updated_at": "2026-11-18T13:38:28Z",
+      "updated_at": "2026-11-23T05:32:05Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": [
@@ -4637,7 +4637,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/315658242?v=4"
       },
       "created_at": "2026-09-08T15:42:46Z",
-      "updated_at": "2026-11-19T04:38:16Z",
+      "updated_at": "2026-11-23T05:17:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5084,7 +5084,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/315658242?v=4"
       },
       "created_at": "2026-10-16T06:33:08Z",
-      "updated_at": "2026-11-19T04:38:14Z",
+      "updated_at": "2026-11-23T05:17:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5351,7 +5351,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-25T05:05:53Z",
+    "since": "2026-08-25T06:06:54Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -11655,7 +11655,7 @@
       },
       {
         "login": "chetan-rns",
-        "reviews": 29,
+        "reviews": 28,
         "prs": [
           {
             "title": "build(deps): Bump github.com/klauspost/compress from 1.18.0 to 1.18.7 in /hack/sync-consistency-util",
@@ -11880,14 +11880,6 @@
             "number": 1049,
             "author": "jparsai",
             "engaged_at": "2026-08-25T13:14:28Z"
-          },
-          {
-            "title": "Add threat model to documentation",
-            "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/137",
-            "repo": "argoproj-labs/argo-rollouts-manager",
-            "number": 137,
-            "author": "jgwest",
-            "engaged_at": "2026-08-25T06:05:12Z"
           }
         ]
       },
