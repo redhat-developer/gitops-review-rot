@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T07:07:07.977116883Z",
+  "generated_at": "2026-11-23T08:07:38.669507892Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1323,7 +1323,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/87866840?v=4"
       },
       "created_at": "2026-10-15T05:36:12Z",
-      "updated_at": "2026-11-23T06:55:54Z",
+      "updated_at": "2026-11-23T07:43:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -1858,10 +1858,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/87866840?v=4"
       },
       "created_at": "2026-11-23T06:23:15Z",
-      "updated_at": "2026-11-23T06:31:06Z",
+      "updated_at": "2026-11-23T08:03:45Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2891,6 +2891,29 @@
       "size": null,
       "reviews": {
         "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore: upgrade to newer go version and packages [0.7.x]",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1249",
+      "number": 1249,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "jgwest",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
+      },
+      "created_at": "2026-11-23T07:24:14Z",
+      "updated_at": "2026-11-23T07:35:18Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -5376,7 +5399,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-25T07:05:15Z",
+    "since": "2026-08-25T08:05:45Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -8454,7 +8477,7 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 104,
+        "reviews": 102,
         "prs": [
           {
             "title": "chore: add E2E test data to secret scan ignore list",
@@ -9271,22 +9294,6 @@
             "number": 46,
             "author": "red-hat-konflux",
             "engaged_at": "2026-08-31T06:48:03Z"
-          },
-          {
-            "title": "feat(reposerver): #25605 #12159 enable a multi-source application manifest to have same repoURL with different revision",
-            "url": "https://github.com/argoproj/argo-cd/pull/25664",
-            "repo": "argoproj/argo-cd",
-            "number": 25664,
-            "author": "jmmclean",
-            "engaged_at": "2026-08-25T07:39:53Z"
-          },
-          {
-            "title": "feat: implement wildcard support for IMAGE_UPDATER_WATCH_NAMESPACES",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2337",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2337,
-            "author": "dkarpele",
-            "engaged_at": "2026-08-25T07:33:30Z"
           }
         ]
       },
