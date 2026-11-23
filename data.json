@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T11:05:42.295187894Z",
+  "generated_at": "2026-11-23T12:07:47.909369546Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1323,10 +1323,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/87866840?v=4"
       },
       "created_at": "2026-10-15T05:36:12Z",
-      "updated_at": "2026-11-23T09:04:45Z",
+      "updated_at": "2026-11-23T11:30:36Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -1756,14 +1756,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-23T04:35:18Z",
-      "updated_at": "2026-11-23T04:37:31Z",
+      "updated_at": "2026-11-23T11:14:24Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -1779,17 +1779,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/87866840?v=4"
       },
       "created_at": "2026-11-23T06:23:15Z",
-      "updated_at": "2026-11-23T08:03:45Z",
+      "updated_at": "2026-11-23T11:09:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": [
         "kind/enhancement"
       ]
@@ -2789,29 +2789,6 @@
       "size": null,
       "reviews": {
         "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore: upgrade to newer go version and packages [0.7.x]",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1249",
-      "number": 1249,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "jgwest",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
-      },
-      "created_at": "2026-11-23T07:24:14Z",
-      "updated_at": "2026-11-23T07:35:18Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -5293,34 +5270,11 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-11-05T05:28:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-25T11:03:40Z",
+    "since": "2026-08-25T12:05:48Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -8406,8 +8360,24 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 103,
+        "reviews": 105,
         "prs": [
+          {
+            "title": "chore: upgrade to Argo CD V3.6.2",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1584",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1584,
+            "author": "jgwest",
+            "engaged_at": "2026-11-23T11:14:24Z"
+          },
+          {
+            "title": "test: validate readOnlyRootFilesystem on GitOps workloads (GITOPS-7256)",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1585",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1585,
+            "author": "Naveena-058",
+            "engaged_at": "2026-11-23T11:09:46Z"
+          },
           {
             "title": "Rollouts extention UI test",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1572",
@@ -11600,8 +11570,16 @@
       },
       {
         "login": "chetan-rns",
-        "reviews": 28,
+        "reviews": 29,
         "prs": [
+          {
+            "title": "chore: upgrade to newer go version and packages [0.7.x]",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1249",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1249,
+            "author": "jgwest",
+            "engaged_at": "2026-11-23T11:13:11Z"
+          },
           {
             "title": "build(deps): Bump github.com/klauspost/compress from 1.18.0 to 1.18.7 in /hack/sync-consistency-util",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1236",
