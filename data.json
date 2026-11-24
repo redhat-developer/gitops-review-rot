@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T18:07:29.730059057Z",
+  "generated_at": "2026-11-24T19:07:22.254501336Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -5319,7 +5319,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-26T18:05:28Z",
+    "since": "2026-08-26T19:05:17Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -10335,8 +10335,24 @@
       },
       {
         "login": "ranakan19",
-        "reviews": 47,
+        "reviews": 49,
         "prs": [
+          {
+            "title": "docs: warn about Gateway API same-host HTTP and gRPC routes",
+            "url": "https://github.com/argoproj/argo-cd/pull/31235",
+            "repo": "argoproj/argo-cd",
+            "number": 31235,
+            "author": "joshbarros",
+            "engaged_at": "2026-11-24T18:35:55Z"
+          },
+          {
+            "title": "fix(applicationset): log application names when refreshing",
+            "url": "https://github.com/argoproj/argo-cd/pull/31228",
+            "repo": "argoproj/argo-cd",
+            "number": 31228,
+            "author": "joshbarros",
+            "engaged_at": "2026-11-24T18:27:58Z"
+          },
           {
             "title": "feat: Expose API server warnings in Argo CD UI",
             "url": "https://github.com/argoproj/argo-cd/pull/28849",
