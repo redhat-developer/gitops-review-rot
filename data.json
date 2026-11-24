@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T09:07:44.41960029Z",
+  "generated_at": "2026-11-24T10:05:31.245076312Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1854,14 +1854,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-24T08:08:15Z",
-      "updated_at": "2026-11-24T08:10:47Z",
+      "updated_at": "2026-11-24T09:32:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5413,7 +5413,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-26T09:05:47Z",
+    "since": "2026-08-26T10:03:29Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -8515,8 +8515,16 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 106,
+        "reviews": 107,
         "prs": [
+          {
+            "title": "chore: add automatic retry of go dependency downloads",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1588",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1588,
+            "author": "jgwest",
+            "engaged_at": "2026-11-24T09:32:38Z"
+          },
           {
             "title": "feat(sourceintegrity): verify Helm chart provenance (#3833)",
             "url": "https://github.com/argoproj/argo-cd/pull/30964",
