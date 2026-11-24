@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T17:06:23.360457663Z",
+  "generated_at": "2026-11-24T18:07:29.730059057Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -5319,7 +5319,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-26T17:04:12Z",
+    "since": "2026-08-26T18:05:28Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -6441,7 +6441,7 @@
       },
       {
         "login": "chengfang",
-        "reviews": 127,
+        "reviews": 126,
         "prs": [
           {
             "title": "fix(image-updater): Privilege escalation via IMAGE_UPDATER_WATCH_NAME…",
@@ -7450,14 +7450,6 @@
             "number": 2340,
             "author": "dependabot",
             "engaged_at": "2026-08-27T19:09:38Z"
-          },
-          {
-            "title": "feat: install one of two versions of the Console Plugin (PatternFly5/6)",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1261",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1261,
-            "author": "dkarpele",
-            "engaged_at": "2026-08-26T17:37:39Z"
           }
         ]
       },
