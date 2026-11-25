@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T09:06:56.965510408Z",
+  "generated_at": "2026-11-25T10:06:21.527887621Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1752,7 +1752,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-19T09:51:17Z",
-      "updated_at": "2026-11-24T20:27:11Z",
+      "updated_at": "2026-11-25T09:10:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1927,7 +1927,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-11-25T07:54:37Z",
-      "updated_at": "2026-11-25T08:00:35Z",
+      "updated_at": "2026-11-25T09:09:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1940,6 +1940,32 @@
       "unresolved_conversations": 1,
       "labels": [
         "kind/bug"
+      ]
+    },
+    {
+      "title": "chore(ci): Adapt to new release branch naming pattern",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1592",
+      "number": 1592,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "olivergondza",
+        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
+      },
+      "created_at": "2026-11-25T09:28:31Z",
+      "updated_at": "2026-11-25T10:02:21Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/enhancement",
+        "lgtm"
       ]
     },
     {
@@ -2924,13 +2950,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-25T09:00:41Z",
-      "updated_at": "2026-11-25T09:00:53Z",
+      "updated_at": "2026-11-25T09:34:01Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -4182,14 +4208,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-25T02:30:32Z",
-      "updated_at": "2026-11-25T02:37:39Z",
+      "updated_at": "2026-11-25T09:15:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
+        "count": 2,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4207,14 +4233,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-25T02:30:36Z",
-      "updated_at": "2026-11-25T02:30:45Z",
+      "updated_at": "2026-11-25T09:16:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4230,14 +4256,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-25T02:30:40Z",
-      "updated_at": "2026-11-25T02:31:09Z",
+      "updated_at": "2026-11-25T09:16:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4253,14 +4279,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-25T02:30:45Z",
-      "updated_at": "2026-11-25T02:31:11Z",
+      "updated_at": "2026-11-25T09:16:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4276,14 +4302,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-25T02:30:49Z",
-      "updated_at": "2026-11-25T02:30:58Z",
+      "updated_at": "2026-11-25T09:17:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5596,11 +5622,34 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-27T09:04:51Z",
+    "since": "2026-08-27T10:04:26Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -9524,8 +9573,16 @@
       },
       {
         "login": "svghadi",
-        "reviews": 76,
+        "reviews": 77,
         "prs": [
+          {
+            "title": "chore(ci): Adapt to new release branch naming pattern",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1592",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1592,
+            "author": "olivergondza",
+            "engaged_at": "2026-11-25T10:02:14Z"
+          },
           {
             "title": "feat(ai): AI-assisted Application troubleshooting via Lightspeed agentic runs",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1552",
@@ -10138,8 +10195,48 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 60,
+        "reviews": 65,
         "prs": [
+          {
+            "title": "chore(deps): bump argocd from 3.4.14 to 3.4.15",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1977",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1977,
+            "author": "chengfang",
+            "engaged_at": "2026-11-25T09:17:00Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.8 to 3.5.9",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1976",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1976,
+            "author": "chengfang",
+            "engaged_at": "2026-11-25T09:16:47Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.5.8 to 3.5.9",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1975",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1975,
+            "author": "chengfang",
+            "engaged_at": "2026-11-25T09:16:32Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.6.2 to 3.6.3",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1974",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1974,
+            "author": "chengfang",
+            "engaged_at": "2026-11-25T09:16:09Z"
+          },
+          {
+            "title": "chore(deps): bump argocd from 3.6.2 to 3.6.3",
+            "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1973",
+            "repo": "argoproj-labs/argocd-image-updater",
+            "number": 1973,
+            "author": "chengfang",
+            "engaged_at": "2026-11-25T09:15:20Z"
+          },
           {
             "title": "chore(ci): Increase timeout for create-release-draft workflow [skip ci]",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1964",
