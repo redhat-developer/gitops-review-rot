@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T19:05:33.136176768Z",
+  "generated_at": "2026-11-25T20:06:58.215360644Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2200,10 +2200,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-25T12:42:47Z",
-      "updated_at": "2026-11-25T13:48:23Z",
+      "updated_at": "2026-11-25T19:59:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2298,6 +2298,31 @@
         "kind/failing-ci",
         "kind/failing-test",
         "kind/cleanup"
+      ]
+    },
+    {
+      "title": "feat(sandbox): Support scaling down components to zero when Idler adds annotation",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1607",
+      "number": 1607,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "ranakan19",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
+      },
+      "created_at": "2026-11-25T19:37:35Z",
+      "updated_at": "2026-11-25T20:00:13Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "kind/enhancement"
       ]
     },
     {
@@ -5945,7 +5970,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-27T19:03:39Z",
+    "since": "2026-08-27T20:04:49Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -7083,7 +7108,7 @@
       },
       {
         "login": "chengfang",
-        "reviews": 126,
+        "reviews": 124,
         "prs": [
           {
             "title": "fix(image-updater): Privilege escalation via IMAGE_UPDATER_WATCH_NAME…",
@@ -8076,22 +8101,6 @@
             "number": 1266,
             "author": "wtam2018",
             "engaged_at": "2026-09-01T13:41:24Z"
-          },
-          {
-            "title": "chore(deps): bump library/golang from 1.26 to 1.27 in /tests/auxiliary/smtplistener",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2338",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2338,
-            "author": "dependabot",
-            "engaged_at": "2026-08-27T19:11:17Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.36.0",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2340",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2340,
-            "author": "dependabot",
-            "engaged_at": "2026-08-27T19:09:38Z"
           }
         ]
       },
@@ -13223,7 +13232,7 @@
       },
       {
         "login": "cjcocokrisp",
-        "reviews": 7,
+        "reviews": 6,
         "prs": [
           {
             "title": "fix(resource): handle Elasticsearch health phases",
@@ -13272,14 +13281,6 @@
             "number": 1302,
             "author": "jsell-rh",
             "engaged_at": "2026-09-21T17:28:27Z"
-          },
-          {
-            "title": "chore(deps): bump github.com/argoproj-labs/gitops-promoter from 0.35.0 to 0.36.0",
-            "url": "https://github.com/argoproj-labs/argocd-operator/pull/2340",
-            "repo": "argoproj-labs/argocd-operator",
-            "number": 2340,
-            "author": "dependabot",
-            "engaged_at": "2026-08-27T19:22:17Z"
           }
         ]
       },
