@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T10:06:21.527887621Z",
+  "generated_at": "2026-11-25T11:05:51.439839077Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1777,17 +1777,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46766610?u=1b4a6ea1d1fb1cfded2ea3afc4ba955c1f868e0f\u0026v=4"
       },
       "created_at": "2026-11-21T00:01:59Z",
-      "updated_at": "2026-11-24T22:29:30Z",
+      "updated_at": "2026-11-25T10:08:57Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 3,
       "labels": [
         "kind/enhancement"
       ]
@@ -1927,7 +1927,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-11-25T07:54:37Z",
-      "updated_at": "2026-11-25T09:09:44Z",
+      "updated_at": "2026-11-25T10:58:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1952,14 +1952,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-25T09:28:31Z",
-      "updated_at": "2026-11-25T10:02:21Z",
+      "updated_at": "2026-11-25T10:58:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 1,
+        "count": 2,
+        "approved_count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -2904,13 +2904,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63845775?u=a8b33171de590f0455d11d0d4bc6cf4e9a1ac210\u0026v=4"
       },
       "created_at": "2026-11-23T09:41:33Z",
-      "updated_at": "2026-11-23T10:15:52Z",
+      "updated_at": "2026-11-25T11:00:26Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -2953,7 +2953,7 @@
       "updated_at": "2026-11-25T09:34:01Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5622,34 +5622,11 @@
         "dependencies",
         "go"
       ]
-    },
-    {
-      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
-      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
-      "number": 4763,
-      "repo": "argoproj/argo-rollouts",
-      "author": {
-        "login": "Rizwana777",
-        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
-      },
-      "created_at": "2026-06-02T10:07:56Z",
-      "updated_at": "2026-11-05T05:28:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-27T10:04:26Z",
+    "since": "2026-08-27T11:03:47Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -8711,8 +8688,16 @@
       },
       {
         "login": "olivergondza",
-        "reviews": 107,
+        "reviews": 108,
         "prs": [
+          {
+            "title": "feat(appset): add replicas to be able to scale applicationset from argocd CR",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1583",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1583,
+            "author": "ranakan19",
+            "engaged_at": "2026-11-25T10:08:56Z"
+          },
           {
             "title": "chore: add automatic retry of go dependency downloads",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1588",
@@ -12932,6 +12917,52 @@
         ]
       },
       {
+        "login": "nmirasch",
+        "reviews": 5,
+        "prs": [
+          {
+            "title": "chore(ci): Adapt to new release branch naming pattern",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1592",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1592,
+            "author": "olivergondza",
+            "engaged_at": "2026-11-25T10:10:22Z"
+          },
+          {
+            "title": "feat(ai): AI-assisted Application troubleshooting via Lightspeed agentic runs",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1552",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1552,
+            "author": "Mangaal",
+            "engaged_at": "2026-11-17T12:29:16Z"
+          },
+          {
+            "title": "fix: throw an error if openshiftOAuth is used in xKS env",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1328",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1328,
+            "author": "anandrkskd",
+            "engaged_at": "2026-10-09T15:20:48Z"
+          },
+          {
+            "title": "fix(dex): fetching changes for mounting dex sa token as projected volume mount",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1322",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1322,
+            "author": "anandf",
+            "engaged_at": "2026-09-29T13:05:50Z"
+          },
+          {
+            "title": "fix: omit nonResourceURLs from namespaced Roles",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1278",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1278,
+            "author": "alkakumari016",
+            "engaged_at": "2026-09-07T09:47:02Z"
+          }
+        ]
+      },
+      {
         "login": "kuci-JK",
         "reviews": 4,
         "prs": [
@@ -12966,44 +12997,6 @@
             "number": 29751,
             "author": "simpleqt",
             "engaged_at": "2026-09-21T11:14:26Z"
-          }
-        ]
-      },
-      {
-        "login": "nmirasch",
-        "reviews": 4,
-        "prs": [
-          {
-            "title": "feat(ai): AI-assisted Application troubleshooting via Lightspeed agentic runs",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1552",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1552,
-            "author": "Mangaal",
-            "engaged_at": "2026-11-17T12:29:16Z"
-          },
-          {
-            "title": "fix: throw an error if openshiftOAuth is used in xKS env",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1328",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1328,
-            "author": "anandrkskd",
-            "engaged_at": "2026-10-09T15:20:48Z"
-          },
-          {
-            "title": "fix(dex): fetching changes for mounting dex sa token as projected volume mount",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1322",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1322,
-            "author": "anandf",
-            "engaged_at": "2026-09-29T13:05:50Z"
-          },
-          {
-            "title": "fix: omit nonResourceURLs from namespaced Roles",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1278",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1278,
-            "author": "alkakumari016",
-            "engaged_at": "2026-09-07T09:47:02Z"
           }
         ]
       },
