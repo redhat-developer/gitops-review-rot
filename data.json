@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T13:06:35.815794856Z",
+  "generated_at": "2026-11-25T14:06:34.63515353Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2200,7 +2200,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-25T12:42:47Z",
-      "updated_at": "2026-11-25T13:01:52Z",
+      "updated_at": "2026-11-25T13:48:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -3105,7 +3105,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1692490?v=4"
       },
       "created_at": "2026-11-20T13:26:02Z",
-      "updated_at": "2026-11-25T13:01:31Z",
+      "updated_at": "2026-11-25T13:18:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -3185,29 +3185,6 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
-      "labels": []
-    },
-    {
-      "title": "chore: upgrade to Argo CD v3.6.3 [0.11.x]",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1261",
-      "number": 1261,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "jgwest",
-        "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
-      },
-      "created_at": "2026-11-25T09:00:41Z",
-      "updated_at": "2026-11-25T12:10:55Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -5805,17 +5782,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-25T08:19:20Z",
-      "updated_at": "2026-11-25T08:22:31Z",
+      "updated_at": "2026-11-25T13:45:01Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": []
     },
     {
@@ -5896,7 +5873,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-27T13:04:24Z",
+    "since": "2026-08-27T14:04:33Z",
     "reviewers": [
       {
         "login": "jgwest",
