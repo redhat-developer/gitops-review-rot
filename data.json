@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T01:06:38.247568376Z",
+  "generated_at": "2026-11-25T02:07:46.363429852Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -408,7 +408,7 @@
       "updated_at": "2026-11-25T00:59:19Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -419,7 +419,7 @@
       "labels": []
     },
     {
-      "title": "Update dependency redux to v4.2.1",
+      "title": "fix(deps): update dependency redux to v4.2.1",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/192",
       "number": 192,
       "repo": "redhat-developer/gitops-console-plugin",
@@ -428,7 +428,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-18T19:12:28Z",
-      "updated_at": "2026-11-11T02:47:21Z",
+      "updated_at": "2026-11-25T01:20:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -442,7 +442,7 @@
       "labels": []
     },
     {
-      "title": "Update dependency css-loader to v7",
+      "title": "chore(deps): update dependency css-loader to v7",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/196",
       "number": 196,
       "repo": "redhat-developer/gitops-console-plugin",
@@ -451,7 +451,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-19T05:48:47Z",
-      "updated_at": "2026-11-09T06:42:59Z",
+      "updated_at": "2026-11-25T01:20:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -465,7 +465,7 @@
       "labels": []
     },
     {
-      "title": "Update dependency eslint to v10",
+      "title": "chore(deps): update dependency eslint to v10",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/197",
       "number": 197,
       "repo": "redhat-developer/gitops-console-plugin",
@@ -474,7 +474,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-19T05:50:50Z",
-      "updated_at": "2026-11-21T04:13:43Z",
+      "updated_at": "2026-11-25T01:20:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -488,7 +488,7 @@
       "labels": []
     },
     {
-      "title": "Update dependency eslint-import-resolver-typescript to v4",
+      "title": "chore(deps): update dependency eslint-import-resolver-typescript to v4",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/199",
       "number": 199,
       "repo": "redhat-developer/gitops-console-plugin",
@@ -497,7 +497,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-19T10:31:52Z",
-      "updated_at": "2026-10-25T04:32:59Z",
+      "updated_at": "2026-11-25T01:20:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -511,7 +511,7 @@
       "labels": []
     },
     {
-      "title": "Update dependency eslint-plugin-chai-friendly to v1",
+      "title": "chore(deps): update dependency eslint-plugin-chai-friendly to v1",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/200",
       "number": 200,
       "repo": "redhat-developer/gitops-console-plugin",
@@ -520,7 +520,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-19T13:46:03Z",
-      "updated_at": "2026-08-03T15:03:23Z",
+      "updated_at": "2026-11-25T01:20:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -534,7 +534,7 @@
       "labels": []
     },
     {
-      "title": "Update dependency eslint-plugin-prettier to v5",
+      "title": "chore(deps): update dependency eslint-plugin-prettier to v5",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/207",
       "number": 207,
       "repo": "redhat-developer/gitops-console-plugin",
@@ -543,7 +543,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-25T09:36:13Z",
-      "updated_at": "2026-10-17T03:26:59Z",
+      "updated_at": "2026-11-25T01:21:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -557,7 +557,7 @@
       "labels": []
     },
     {
-      "title": "Update dependency http-server to v14",
+      "title": "chore(deps): update dependency http-server to v14",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/212",
       "number": 212,
       "repo": "redhat-developer/gitops-console-plugin",
@@ -566,7 +566,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-25T18:50:16Z",
-      "updated_at": "2026-08-07T18:03:36Z",
+      "updated_at": "2026-11-25T01:22:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -580,7 +580,7 @@
       "labels": []
     },
     {
-      "title": "Update dependency i18next-parser to v9",
+      "title": "chore(deps): update dependency i18next-parser to v9",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/214",
       "number": 214,
       "repo": "redhat-developer/gitops-console-plugin",
@@ -589,7 +589,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-02-25T21:39:20Z",
-      "updated_at": "2026-11-11T03:17:57Z",
+      "updated_at": "2026-11-25T01:22:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -626,7 +626,7 @@
       "labels": []
     },
     {
-      "title": "Update dependency @patternfly/react-core to v6.7.0",
+      "title": "chore(deps): update dependency @patternfly/react-core to v6.7.0",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/232",
       "number": 232,
       "repo": "redhat-developer/gitops-console-plugin",
@@ -635,30 +635,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:24:25Z",
-      "updated_at": "2026-11-24T03:27:10Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "Update dependency @patternfly/react-table to v6.7.0",
-      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/233",
-      "number": 233,
-      "repo": "redhat-developer/gitops-console-plugin",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-05-05T22:30:16Z",
-      "updated_at": "2026-11-24T03:28:10Z",
+      "updated_at": "2026-11-25T01:05:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -672,7 +649,30 @@
       "labels": []
     },
     {
-      "title": "Update dependency ts-loader to v9.6.2",
+      "title": "chore(deps): update dependency @patternfly/react-table to v6.7.0",
+      "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/233",
+      "number": 233,
+      "repo": "redhat-developer/gitops-console-plugin",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-05-05T22:30:16Z",
+      "updated_at": "2026-11-25T01:07:45Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore(deps): update dependency ts-loader to v9.6.2",
       "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/234",
       "number": 234,
       "repo": "redhat-developer/gitops-console-plugin",
@@ -681,7 +681,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-06T02:32:20Z",
-      "updated_at": "2026-11-11T02:48:03Z",
+      "updated_at": "2026-11-25T01:10:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -707,7 +707,7 @@
       "updated_at": "2026-11-25T01:01:31Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -730,7 +730,7 @@
       "updated_at": "2026-11-25T01:02:13Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -753,7 +753,7 @@
       "updated_at": "2026-11-25T01:02:53Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -776,7 +776,7 @@
       "updated_at": "2026-11-25T00:59:31Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -799,7 +799,7 @@
       "updated_at": "2026-11-25T00:57:29Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -822,7 +822,7 @@
       "updated_at": "2026-11-25T00:58:10Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -893,7 +893,7 @@
       "updated_at": "2026-11-25T00:56:37Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1911,6 +1911,31 @@
       "unresolved_conversations": 3,
       "labels": [
         "kind/bug"
+      ]
+    },
+    {
+      "title": "chore(deps): bump image-updater from 1.5.0 to 1.5.1",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1589",
+      "number": 1589,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-11-25T01:48:51Z",
+      "updated_at": "2026-11-25T01:51:34Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "kind/enhancement"
       ]
     },
     {
@@ -5334,6 +5359,29 @@
       "labels": []
     },
     {
+      "title": "chore(deps): bump image-updater from 1.1.4 to 1.1.5 and argocd from 3.3.19 to v3.3.20-0.20261116162109-d6de2f779004",
+      "url": "https://github.com/argoproj-labs/argocd-operator/pull/2432",
+      "number": 2432,
+      "repo": "argoproj-labs/argocd-operator",
+      "author": {
+        "login": "chengfang",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
+      },
+      "created_at": "2026-11-25T01:25:27Z",
+      "updated_at": "2026-11-25T01:25:37Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "fixes for Openshift deployment",
       "url": "https://github.com/argoproj-labs/argo-rollouts-manager/pull/89",
       "number": 89,
@@ -5434,7 +5482,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-27T01:04:39Z",
+    "since": "2026-08-27T02:06:01Z",
     "reviewers": [
       {
         "login": "jgwest",
