@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T14:06:34.63515353Z",
+  "generated_at": "2026-11-25T15:06:37.091829814Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1752,10 +1752,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-19T09:51:17Z",
-      "updated_at": "2026-11-25T12:30:05Z",
+      "updated_at": "2026-11-25T14:40:05Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1930,7 +1930,7 @@
       "updated_at": "2026-11-25T11:07:37Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2119,7 +2119,7 @@
       "updated_at": "2026-11-25T11:07:41Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3105,15 +3105,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1692490?v=4"
       },
       "created_at": "2026-11-20T13:26:02Z",
-      "updated_at": "2026-11-25T13:18:25Z",
+      "updated_at": "2026-11-25T14:49:33Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 2,
-        "approved_count": 0,
-        "has_new_commits": true
+        "approved_count": 1,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": []
@@ -5785,7 +5785,7 @@
       "updated_at": "2026-11-25T13:45:01Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5873,7 +5873,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-27T14:04:33Z",
+    "since": "2026-08-27T15:04:37Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -12931,7 +12931,7 @@
             "repo": "argoproj-labs/argocd-agent",
             "number": 1246,
             "author": "yellowhat",
-            "engaged_at": "2026-11-25T12:56:48Z"
+            "engaged_at": "2026-11-25T14:49:33Z"
           },
           {
             "title": "chore: upgrade to Argo CD v3.6.3 [0.11.x]",
