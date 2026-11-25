@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T18:08:14.757320144Z",
+  "generated_at": "2026-11-25T19:05:33.136176768Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1902,10 +1902,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-11-25T07:54:37Z",
-      "updated_at": "2026-11-25T12:26:40Z",
+      "updated_at": "2026-11-25T18:14:08Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3259,7 +3259,7 @@
       "updated_at": "2026-11-25T17:15:28Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3285,7 +3285,7 @@
       "updated_at": "2026-11-25T17:15:34Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -3311,7 +3311,7 @@
       "updated_at": "2026-11-25T17:15:36Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -4035,7 +4035,7 @@
       "updated_at": "2026-11-12T13:15:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": null,
       "size": null,
       "reviews": {
         "count": 4,
@@ -4606,123 +4606,6 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): bump argocd from 3.6.2 to 3.6.3",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1973",
-      "number": 1973,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-11-25T02:30:32Z",
-      "updated_at": "2026-11-25T09:15:20Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ok-to-test"
-      ]
-    },
-    {
-      "title": "chore(deps): bump argocd from 3.6.2 to 3.6.3",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1974",
-      "number": 1974,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-11-25T02:30:36Z",
-      "updated_at": "2026-11-25T09:16:09Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): bump argocd from 3.5.8 to 3.5.9",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1975",
-      "number": 1975,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-11-25T02:30:40Z",
-      "updated_at": "2026-11-25T09:16:32Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): bump argocd from 3.5.8 to 3.5.9",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1976",
-      "number": 1976,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-11-25T02:30:45Z",
-      "updated_at": "2026-11-25T09:16:47Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(deps): bump argocd from 3.4.14 to 3.4.15",
-      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1977",
-      "number": 1977,
-      "repo": "argoproj-labs/argocd-image-updater",
-      "author": {
-        "login": "chengfang",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
-      },
-      "created_at": "2026-11-25T02:30:49Z",
-      "updated_at": "2026-11-25T09:17:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -6035,11 +5918,34 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-27T18:06:06Z",
+    "since": "2026-08-27T19:03:39Z",
     "reviewers": [
       {
         "login": "jgwest",
