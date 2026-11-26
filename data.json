@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T11:06:53.087100172Z",
+  "generated_at": "2026-11-26T12:08:14.166091505Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1877,14 +1877,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-25T02:09:45Z",
-      "updated_at": "2026-11-25T12:31:12Z",
+      "updated_at": "2026-11-26T11:30:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
+        "count": 2,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -1927,48 +1927,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-25T11:05:54Z",
-      "updated_at": "2026-11-25T11:07:37Z",
+      "updated_at": "2026-11-26T11:35:11Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "github_actions"
-      ]
-    },
-    {
-      "title": "chore(deps): bump github.com/operator-framework/api from 0.17.5 to 0.47.1",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1594",
-      "number": 1594,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-25T11:06:11Z",
-      "updated_at": "2026-11-25T11:06:28Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-ok-to-test",
-        "dependencies",
-        "go"
       ]
     },
     {
@@ -2053,33 +2026,6 @@
       ]
     },
     {
-      "title": "chore(deps): bump github.com/operator-framework/api from 0.45.0 to 0.47.1",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1598",
-      "number": 1598,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-25T11:06:28Z",
-      "updated_at": "2026-11-25T11:06:47Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-ok-to-test",
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "chore(deps): bump github.com/operator-framework/api in /",
       "url": "https://github.com/redhat-developer/gitops-operator/pull/1599",
       "number": 1599,
@@ -2116,19 +2062,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-25T11:06:34Z",
-      "updated_at": "2026-11-25T11:07:41Z",
+      "updated_at": "2026-11-26T11:27:19Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "go"
       ]
@@ -2143,76 +2089,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-25T11:06:37Z",
-      "updated_at": "2026-11-25T11:06:53Z",
+      "updated_at": "2026-11-26T11:26:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-ok-to-test",
+        "ok-to-test",
         "dependencies",
         "go"
-      ]
-    },
-    {
-      "title": "chore(docs): Store and display link to the code coverage results",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1602",
-      "number": 1602,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "olivergondza",
-        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
-      },
-      "created_at": "2026-11-25T12:16:58Z",
-      "updated_at": "2026-11-25T12:18:48Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/bug",
-        "kind/documentation",
-        "kind/enhancement",
-        "kind/failing-ci",
-        "kind/failing-test",
-        "kind/cleanup"
-      ]
-    },
-    {
-      "title": "feat(ci): Move unittests to GH actions",
-      "url": "https://github.com/redhat-developer/gitops-operator/pull/1603",
-      "number": 1603,
-      "repo": "redhat-developer/gitops-operator",
-      "author": {
-        "login": "olivergondza",
-        "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
-      },
-      "created_at": "2026-11-25T12:42:47Z",
-      "updated_at": "2026-11-25T19:59:48Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "kind/enhancement"
       ]
     },
     {
@@ -2225,13 +2116,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2079251?u=12d9b80c1b4326526af95ed23bac78e073f4bf4a\u0026v=4"
       },
       "created_at": "2026-11-25T16:53:53Z",
-      "updated_at": "2026-11-25T17:06:31Z",
+      "updated_at": "2026-11-26T11:37:46Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 1,
         "has_new_commits": false
       },
@@ -2305,7 +2196,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60093147?u=6957230fa810734013212d32ccdc6fd13c659775\u0026v=4"
       },
       "created_at": "2026-11-26T10:52:30Z",
-      "updated_at": "2026-11-26T10:56:17Z",
+      "updated_at": "2026-11-26T12:02:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2315,7 +2206,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 3,
       "labels": [
         "kind/failing-test"
       ]
@@ -3277,58 +3168,6 @@
       },
       "created_at": "2026-11-25T17:15:17Z",
       "updated_at": "2026-11-25T17:15:28Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "github_actions"
-      ]
-    },
-    {
-      "title": "build(deps): Bump codecov/codecov-action from 4.6.0 to 7.1.1",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1263",
-      "number": 1263,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-25T17:15:23Z",
-      "updated_at": "2026-11-25T17:15:34Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "github_actions"
-      ]
-    },
-    {
-      "title": "build(deps): Bump docker/setup-qemu-action from 3.7.0 to 4.4.0",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1264",
-      "number": 1264,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-25T17:15:26Z",
-      "updated_at": "2026-11-25T17:15:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5851,17 +5690,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-25T08:19:20Z",
-      "updated_at": "2026-11-25T13:45:01Z",
+      "updated_at": "2026-11-26T12:02:00Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -5942,12 +5781,84 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-28T11:04:55Z",
+    "since": "2026-08-28T12:06:12Z",
     "reviewers": [
       {
         "login": "jgwest",
-        "reviews": 141,
+        "reviews": 150,
         "prs": [
+          {
+            "title": "build(deps): Bump docker/setup-qemu-action from 3.7.0 to 4.4.0",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1264",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1264,
+            "author": "dependabot",
+            "engaged_at": "2026-11-26T11:57:48Z"
+          },
+          {
+            "title": "build(deps): Bump codecov/codecov-action from 4.6.0 to 7.1.1",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1263",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1263,
+            "author": "dependabot",
+            "engaged_at": "2026-11-26T11:47:30Z"
+          },
+          {
+            "title": "chore(deps): bump image-updater from 1.3.3 to 1.3.4 and argocd from 3.5.7 to 3.5.8",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1604",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1604,
+            "author": "chengfang",
+            "engaged_at": "2026-11-26T11:37:46Z"
+          },
+          {
+            "title": "chore(docs): Store and display link to the code coverage results",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1602",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1602,
+            "author": "olivergondza",
+            "engaged_at": "2026-11-26T11:32:17Z"
+          },
+          {
+            "title": "feat(ci): Move unittests to GH actions",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1603",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1603,
+            "author": "olivergondza",
+            "engaged_at": "2026-11-26T11:31:44Z"
+          },
+          {
+            "title": "chore(deps): bump image-updater from 1.5.0 to 1.5.1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1590",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1590,
+            "author": "chengfang",
+            "engaged_at": "2026-11-26T11:30:00Z"
+          },
+          {
+            "title": "chore(deps): bump actions/setup-go from 7.0.0 to 7.1.0",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1593",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1593,
+            "author": "dependabot",
+            "engaged_at": "2026-11-26T11:27:55Z"
+          },
+          {
+            "title": "chore(deps): bump sigs.k8s.io/controller-runtime in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1600",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1600,
+            "author": "dependabot",
+            "engaged_at": "2026-11-26T11:27:16Z"
+          },
+          {
+            "title": "chore(deps): bump sigs.k8s.io/controller-runtime in /",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1601",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1601,
+            "author": "dependabot",
+            "engaged_at": "2026-11-26T11:26:54Z"
+          },
           {
             "title": "build(deps): Bump redhat-actions/podman-login from 1.7 to 2.0",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1220",
@@ -8996,7 +8907,7 @@
             "repo": "argoproj/argo-cd",
             "number": 28182,
             "author": "frankkerschbaumer",
-            "engaged_at": "2026-11-26T10:45:03Z"
+            "engaged_at": "2026-11-26T11:32:59Z"
           },
           {
             "title": "chore(deps): bump image-updater from 1.2.3 to 1.2.4 and argocd from 3.4.13 to 3.4.14",
