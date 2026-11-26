@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T19:05:28.323061052Z",
+  "generated_at": "2026-11-26T20:06:00.212371639Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2191,7 +2191,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60093147?u=6957230fa810734013212d32ccdc6fd13c659775\u0026v=4"
       },
       "created_at": "2026-11-26T10:52:30Z",
-      "updated_at": "2026-11-26T18:57:06Z",
+      "updated_at": "2026-11-26T19:14:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2241,10 +2241,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-26T13:29:57Z",
-      "updated_at": "2026-11-26T13:36:48Z",
+      "updated_at": "2026-11-26T19:25:04Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2279,6 +2279,33 @@
       "unresolved_conversations": 0,
       "labels": [
         "kind/enhancement"
+      ]
+    },
+    {
+      "title": "chore(deps): bump codecov/codecov-action from 5 to 7",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1612",
+      "number": 1612,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-11-26T19:14:53Z",
+      "updated_at": "2026-11-26T19:16:15Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-ok-to-test",
+        "dependencies",
+        "github_actions"
       ]
     },
     {
@@ -4535,6 +4562,29 @@
       "labels": []
     },
     {
+      "title": "fix(registry): request ACR token scopes for .azurecr.cn and .azurecr.us",
+      "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1978",
+      "number": 1978,
+      "repo": "argoproj-labs/argocd-image-updater",
+      "author": {
+        "login": "atiasadir",
+        "avatar_url": "https://avatars.githubusercontent.com/u/30810249?v=4"
+      },
+      "created_at": "2026-11-26T19:50:24Z",
+      "updated_at": "2026-11-26T19:58:59Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
       "title": "[WIP] ci: Run CI e2e tests on operator installed via OLM",
       "url": "https://github.com/argoproj-labs/argocd-operator/pull/970",
       "number": 970,
@@ -5822,7 +5872,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-28T19:03:31Z",
+    "since": "2026-08-28T20:04:06Z",
     "reviewers": [
       {
         "login": "jgwest",
