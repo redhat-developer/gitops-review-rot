@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T14:05:58.856778801Z",
+  "generated_at": "2026-11-26T15:06:07.268966638Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1752,17 +1752,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-19T09:51:17Z",
-      "updated_at": "2026-11-25T14:40:05Z",
+      "updated_at": "2026-11-26T14:32:06Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 3,
       "labels": [
         "kind/cleanup"
       ]
@@ -2191,7 +2191,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60093147?u=6957230fa810734013212d32ccdc6fd13c659775\u0026v=4"
       },
       "created_at": "2026-11-26T10:52:30Z",
-      "updated_at": "2026-11-26T13:42:36Z",
+      "updated_at": "2026-11-26T14:34:02Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2811,32 +2811,6 @@
       "labels": []
     },
     {
-      "title": "build(deps): Bump github.com/Shopify/toxiproxy/v2 from 2.12.0 to 2.13.0",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1158",
-      "number": 1158,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-10-19T17:13:36Z",
-      "updated_at": "2026-11-26T12:47:00Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go"
-      ]
-    },
-    {
       "title": "feat(release): bump Helm chart app versions on release",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/1169",
       "number": 1169,
@@ -3267,32 +3241,6 @@
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "github_actions"
-      ]
-    },
-    {
-      "title": "build(deps): Bump actions/setup-go from 5.0.0 to 7.1.0",
-      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1266",
-      "number": 1266,
-      "repo": "argoproj-labs/argocd-agent",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-11-25T17:15:52Z",
-      "updated_at": "2026-11-26T12:42:32Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4504,7 +4452,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/8530854?v=4"
       },
       "created_at": "2026-11-18T09:59:23Z",
-      "updated_at": "2026-11-26T12:33:21Z",
+      "updated_at": "2026-11-26T14:38:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4514,7 +4462,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -5783,10 +5731,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7594762?u=cc2e94a7b0179ab5da214f8065544c403343bb61\u0026v=4"
       },
       "created_at": "2026-11-25T08:19:20Z",
-      "updated_at": "2026-11-26T13:43:08Z",
+      "updated_at": "2026-11-26T14:51:34Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5847,23 +5795,54 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-28T14:03:53Z",
+    "since": "2026-08-28T15:03:56Z",
     "reviewers": [
       {
         "login": "jgwest",
-        "reviews": 151,
+        "reviews": 152,
         "prs": [
+          {
+            "title": "build(deps): Bump actions/setup-go from 5.0.0 to 7.1.0",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1266",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1266,
+            "author": "dependabot",
+            "engaged_at": "2026-11-26T14:45:04Z"
+          },
           {
             "title": "build(deps): Bump github.com/Shopify/toxiproxy/v2 from 2.12.0 to 2.13.0",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1158",
             "repo": "argoproj-labs/argocd-agent",
             "number": 1158,
             "author": "dependabot",
-            "engaged_at": "2026-11-26T12:47:00Z"
+            "engaged_at": "2026-11-26T14:44:27Z"
           },
           {
             "title": "build(deps): Bump docker/setup-qemu-action from 3.7.0 to 4.4.0",
