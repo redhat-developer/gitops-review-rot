@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T10:05:44.813763775Z",
+  "generated_at": "2026-11-26T11:06:53.087100172Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2293,6 +2293,31 @@
       "unresolved_conversations": 1,
       "labels": [
         "kind/enhancement"
+      ]
+    },
+    {
+      "title": "v1.23- Fix test failures in BeforeSuite",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1608",
+      "number": 1608,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "varshab1210",
+        "avatar_url": "https://avatars.githubusercontent.com/u/60093147?u=6957230fa810734013212d32ccdc6fd13c659775\u0026v=4"
+      },
+      "created_at": "2026-11-26T10:52:30Z",
+      "updated_at": "2026-11-26T10:56:17Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "kind/failing-test"
       ]
     },
     {
@@ -5890,11 +5915,34 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-28T10:03:40Z",
+    "since": "2026-08-28T11:04:55Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -8948,7 +8996,7 @@
             "repo": "argoproj/argo-cd",
             "number": 28182,
             "author": "frankkerschbaumer",
-            "engaged_at": "2026-11-26T10:03:18Z"
+            "engaged_at": "2026-11-26T10:45:03Z"
           },
           {
             "title": "chore(deps): bump image-updater from 1.2.3 to 1.2.4 and argocd from 3.4.13 to 3.4.14",
