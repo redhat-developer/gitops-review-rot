@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T15:06:07.268966638Z",
+  "generated_at": "2026-11-26T16:07:35.172576975Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1752,15 +1752,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/206841?v=4"
       },
       "created_at": "2026-11-19T09:51:17Z",
-      "updated_at": "2026-11-26T14:32:06Z",
+      "updated_at": "2026-11-26T15:04:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 3,
       "labels": [
@@ -1905,7 +1905,7 @@
       "updated_at": "2026-11-26T09:33:50Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -2191,10 +2191,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60093147?u=6957230fa810734013212d32ccdc6fd13c659775\u0026v=4"
       },
       "created_at": "2026-11-26T10:52:30Z",
-      "updated_at": "2026-11-26T14:34:02Z",
+      "updated_at": "2026-11-26T15:18:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4452,10 +4452,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/8530854?v=4"
       },
       "created_at": "2026-11-18T09:59:23Z",
-      "updated_at": "2026-11-26T14:38:28Z",
+      "updated_at": "2026-11-26T15:13:09Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5734,7 +5734,7 @@
       "updated_at": "2026-11-26T14:51:34Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5822,7 +5822,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-28T15:03:56Z",
+    "since": "2026-08-28T16:05:35Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -10520,8 +10520,16 @@
       },
       {
         "login": "dkarpele",
-        "reviews": 65,
+        "reviews": 66,
         "prs": [
+          {
+            "title": "tests(E2E): Unify parallel unique tests",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1575",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1575,
+            "author": "olivergondza",
+            "engaged_at": "2026-11-26T15:04:55Z"
+          },
           {
             "title": "chore(deps): bump argocd from 3.4.14 to 3.4.15",
             "url": "https://github.com/argoproj-labs/argocd-image-updater/pull/1977",
@@ -11447,6 +11455,14 @@
         "reviews": 47,
         "prs": [
           {
+            "title": "feat(ui): add source integrity to project settings",
+            "url": "https://github.com/argoproj/argo-cd/pull/29411",
+            "repo": "argoproj/argo-cd",
+            "number": 29411,
+            "author": "kuci-JK",
+            "engaged_at": "2026-11-26T16:05:41Z"
+          },
+          {
             "title": "fix(ui): select apps by identity in Sync/Refresh Apps panels (#20695,#22178) (#30557)",
             "url": "https://github.com/argoproj/argo-cd/pull/31273",
             "repo": "argoproj/argo-cd",
@@ -11525,14 +11541,6 @@
             "number": 30557,
             "author": "discostur",
             "engaged_at": "2026-11-24T13:30:49Z"
-          },
-          {
-            "title": "feat(ui): add source integrity to project settings",
-            "url": "https://github.com/argoproj/argo-cd/pull/29411",
-            "repo": "argoproj/argo-cd",
-            "number": 29411,
-            "author": "kuci-JK",
-            "engaged_at": "2026-11-24T06:24:14Z"
           },
           {
             "title": "fix: cherry-pick enable Topology Rollouts when ClusterVersion is unreadable to v1.20 branch",
