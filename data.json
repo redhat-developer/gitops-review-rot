@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T12:08:14.166091505Z",
+  "generated_at": "2026-11-26T13:06:36.902921402Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -1912,7 +1912,7 @@
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 1,
       "labels": [
         "kind/bug"
       ]
@@ -2196,10 +2196,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/60093147?u=6957230fa810734013212d32ccdc6fd13c659775\u0026v=4"
       },
       "created_at": "2026-11-26T10:52:30Z",
-      "updated_at": "2026-11-26T12:02:20Z",
+      "updated_at": "2026-11-26T12:12:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 0,
@@ -2750,15 +2750,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-10-19T17:13:36Z",
-      "updated_at": "2026-11-24T06:43:19Z",
+      "updated_at": "2026-11-26T12:47:00Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -3193,13 +3193,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-25T17:15:33Z",
-      "updated_at": "2026-11-25T17:15:43Z",
+      "updated_at": "2026-11-26T12:27:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -3219,13 +3219,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
       "created_at": "2026-11-25T17:15:52Z",
-      "updated_at": "2026-11-25T17:16:02Z",
+      "updated_at": "2026-11-26T12:42:32Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -3256,6 +3256,29 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix: stop closing terminal data channels on teardown",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1268",
+      "number": 1268,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "chetan-rns",
+        "avatar_url": "https://avatars.githubusercontent.com/u/21128732?u=4c36eed8613d77ab5740609fa73286ab4945e169\u0026v=4"
+      },
+      "created_at": "2026-11-26T12:32:26Z",
+      "updated_at": "2026-11-26T12:47:07Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -4411,17 +4434,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/8530854?v=4"
       },
       "created_at": "2026-11-18T09:59:23Z",
-      "updated_at": "2026-11-25T15:48:49Z",
+      "updated_at": "2026-11-26T12:33:21Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 1,
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -5693,7 +5716,7 @@
       "updated_at": "2026-11-26T12:02:00Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -5781,12 +5804,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-28T12:06:12Z",
+    "since": "2026-08-28T13:04:26Z",
     "reviewers": [
       {
         "login": "jgwest",
-        "reviews": 150,
+        "reviews": 151,
         "prs": [
+          {
+            "title": "build(deps): Bump github.com/Shopify/toxiproxy/v2 from 2.12.0 to 2.13.0",
+            "url": "https://github.com/argoproj-labs/argocd-agent/pull/1158",
+            "repo": "argoproj-labs/argocd-agent",
+            "number": 1158,
+            "author": "dependabot",
+            "engaged_at": "2026-11-26T12:47:00Z"
+          },
           {
             "title": "build(deps): Bump docker/setup-qemu-action from 3.7.0 to 4.4.0",
             "url": "https://github.com/argoproj-labs/argocd-agent/pull/1264",
