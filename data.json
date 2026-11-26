@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T21:06:27.737303387Z",
+  "generated_at": "2026-11-26T22:06:15.80195451Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -959,17 +959,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/56302307?u=a643359c520ea30b7910978db3f96f9a940e9675\u0026v=4"
       },
       "created_at": "2026-11-24T20:21:03Z",
-      "updated_at": "2026-11-25T15:48:37Z",
+      "updated_at": "2026-11-26T21:18:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": []
     },
     {
@@ -5872,7 +5872,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-28T21:04:31Z",
+    "since": "2026-08-28T22:04:21Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -11501,6 +11501,388 @@
         ]
       },
       {
+        "login": "aali309",
+        "reviews": 47,
+        "prs": [
+          {
+            "title": "feat: align ImageUpdater pages with prototypes",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/349",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 349,
+            "author": "dkarpele",
+            "engaged_at": "2026-11-26T21:18:11Z"
+          },
+          {
+            "title": "fix(applicationset): log application names when refreshing",
+            "url": "https://github.com/argoproj/argo-cd/pull/31228",
+            "repo": "argoproj/argo-cd",
+            "number": 31228,
+            "author": "joshbarros",
+            "engaged_at": "2026-11-25T17:32:07Z"
+          },
+          {
+            "title": "docs: note that deleting a child Application from the resource tree needs get and delete on the child (#26364)",
+            "url": "https://github.com/argoproj/argo-cd/pull/31268",
+            "repo": "argoproj/argo-cd",
+            "number": 31268,
+            "author": "ppapapetrou76",
+            "engaged_at": "2026-11-25T17:00:27Z"
+          },
+          {
+            "title": "Add UI test for Monitoring observibility and test harness",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1586",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1586,
+            "author": "trdoyle81",
+            "engaged_at": "2026-11-24T22:50:51Z"
+          },
+          {
+            "title": "feat(oci): verify Helm chart provenance for oci:// sources (#3833)",
+            "url": "https://github.com/argoproj/argo-cd/pull/30965",
+            "repo": "argoproj/argo-cd",
+            "number": 30965,
+            "author": "blakepettersson",
+            "engaged_at": "2026-11-23T22:42:02Z"
+          },
+          {
+            "title": "feat(sourceintegrity): verify Helm chart provenance (#3833)",
+            "url": "https://github.com/argoproj/argo-cd/pull/30964",
+            "repo": "argoproj/argo-cd",
+            "number": 30964,
+            "author": "blakepettersson",
+            "engaged_at": "2026-11-23T21:35:18Z"
+          },
+          {
+            "title": "fix: Bump up the version for 1.22.z",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/346",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 346,
+            "author": "keithchong",
+            "engaged_at": "2026-11-20T23:14:21Z"
+          },
+          {
+            "title": "fix: @types/jest is needed to build. Bump up version.",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/345",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 345,
+            "author": "keithchong",
+            "engaged_at": "2026-11-20T21:47:43Z"
+          },
+          {
+            "title": "Missing @types/jest dev dependency for v1.21",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/344",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 344,
+            "author": "keithchong",
+            "engaged_at": "2026-11-20T21:44:51Z"
+          },
+          {
+            "title": "Rollouts extention UI test",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1572",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1572,
+            "author": "trdoyle81",
+            "engaged_at": "2026-11-20T21:21:05Z"
+          },
+          {
+            "title": "fix: Incorrect link to resource 1.21.z (#12074)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/342",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 342,
+            "author": "keithchong",
+            "engaged_at": "2026-11-20T00:12:46Z"
+          },
+          {
+            "title": "fix: Incorrect link to resource 1.22.z (#12074)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/341",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 341,
+            "author": "keithchong",
+            "engaged_at": "2026-11-20T00:11:55Z"
+          },
+          {
+            "title": "fix: normalize app name handling for RBAC and update related tests",
+            "url": "https://github.com/argoproj/argo-cd/pull/31001",
+            "repo": "argoproj/argo-cd",
+            "number": 31001,
+            "author": "afzal442",
+            "engaged_at": "2026-11-18T23:58:37Z"
+          },
+          {
+            "title": "feat: add cluster metadata labels and annotations to ApplicationSet p…",
+            "url": "https://github.com/argoproj/argo-cd/pull/30330",
+            "repo": "argoproj/argo-cd",
+            "number": 30330,
+            "author": "afzal442",
+            "engaged_at": "2026-11-18T23:41:31Z"
+          },
+          {
+            "title": "fix: Incorrect link to resource (#12074)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/337",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 337,
+            "author": "keithchong",
+            "engaged_at": "2026-11-18T03:53:25Z"
+          },
+          {
+            "title": "chore: Update translated files (#11831)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/331",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 331,
+            "author": "keithchong",
+            "engaged_at": "2026-11-17T17:32:30Z"
+          },
+          {
+            "title": "chore: Update translated files (#11831)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/330",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 330,
+            "author": "keithchong",
+            "engaged_at": "2026-11-17T17:32:08Z"
+          },
+          {
+            "title": "fix: 4.18 - Encode the link to the metrics dashboard",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/328",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 328,
+            "author": "keithchong",
+            "engaged_at": "2026-11-16T22:28:14Z"
+          },
+          {
+            "title": "Gitops 9691 filter at scale",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1522",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1522,
+            "author": "trdoyle81",
+            "engaged_at": "2026-11-16T15:05:23Z"
+          },
+          {
+            "title": "fix: Encode the link to the metrics dashboard (#11491)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/327",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 327,
+            "author": "keithchong",
+            "engaged_at": "2026-11-13T21:48:38Z"
+          },
+          {
+            "title": "fix: backport access related fixes",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/326",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 326,
+            "author": "keithchong",
+            "engaged_at": "2026-11-13T19:01:45Z"
+          },
+          {
+            "title": "fix: Make access logic more readable and fix a bug (#11491)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/325",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 325,
+            "author": "keithchong",
+            "engaged_at": "2026-11-13T19:00:25Z"
+          },
+          {
+            "title": "fix: Add get AGR access check and simplify code (#11491)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/324",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 324,
+            "author": "keithchong",
+            "engaged_at": "2026-11-13T17:07:00Z"
+          },
+          {
+            "title": "fix(helm): use configured proxy for Azure ACR workload identity auth",
+            "url": "https://github.com/argoproj/argo-cd/pull/29675",
+            "repo": "argoproj/argo-cd",
+            "number": 29675,
+            "author": "Pratik-Redhat-Tech",
+            "engaged_at": "2026-11-13T16:58:07Z"
+          },
+          {
+            "title": "task: Backport dashboard overview changes to release-4.18 branch",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/322",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 322,
+            "author": "keithchong",
+            "engaged_at": "2026-11-12T21:22:07Z"
+          },
+          {
+            "title": "fix(ui): select apps by identity in Sync/Refresh Apps panels (#20695, #22178)",
+            "url": "https://github.com/argoproj/argo-cd/pull/30557",
+            "repo": "argoproj/argo-cd",
+            "number": 30557,
+            "author": "discostur",
+            "engaged_at": "2026-11-12T16:24:15Z"
+          },
+          {
+            "title": "feat: Add View AI Recommendation link to agentic run (#11491)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/317",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 317,
+            "author": "keithchong",
+            "engaged_at": "2026-11-10T20:55:19Z"
+          },
+          {
+            "title": "ci(renovate): allow storage.googleapis.com egress",
+            "url": "https://github.com/argoproj/argo-cd/pull/30919",
+            "repo": "argoproj/argo-cd",
+            "number": 30919,
+            "author": "rumstead",
+            "engaged_at": "2026-11-10T19:01:10Z"
+          },
+          {
+            "title": "App-history-and-ui-rollback-ui-test",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1497",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1497,
+            "author": "trdoyle81",
+            "engaged_at": "2026-11-10T15:39:09Z"
+          },
+          {
+            "title": "feat: Add Needs Attention, Recent Operations, Infrastructure cards to Dashboard (#11627)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/313",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 313,
+            "author": "keithchong",
+            "engaged_at": "2026-11-09T17:41:51Z"
+          },
+          {
+            "title": "fix: E2E tests failure improvements",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1509",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1509,
+            "author": "jgwest",
+            "engaged_at": "2026-11-09T13:47:46Z"
+          },
+          {
+            "title": "fix: Incorrect icon for Unknown sync status",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/312",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 312,
+            "author": "keithchong",
+            "engaged_at": "2026-11-02T23:13:15Z"
+          },
+          {
+            "title": "Create Dashboard with Sync and Health Status cards, Operational, Sync Activity and Reconciliation Metrics Cards (#11387)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/309",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 309,
+            "author": "keithchong",
+            "engaged_at": "2026-10-26T20:42:56Z"
+          },
+          {
+            "title": "feat(ui): add source integrity to project settings",
+            "url": "https://github.com/argoproj/argo-cd/pull/29411",
+            "repo": "argoproj/argo-cd",
+            "number": 29411,
+            "author": "kuci-JK",
+            "engaged_at": "2026-10-23T17:18:54Z"
+          },
+          {
+            "title": "fix(ImageUpdater): GITOPS-11648 zombie Git processes when the operator starts /manager as PID 1",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1352",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1352,
+            "author": "chengfang",
+            "engaged_at": "2026-10-22T18:16:42Z"
+          },
+          {
+            "title": "feat(syncPolicy): Allow to define prune by default for manual sync applications.",
+            "url": "https://github.com/argoproj/argo-cd/pull/30028",
+            "repo": "argoproj/argo-cd",
+            "number": 30028,
+            "author": "akhilnittala",
+            "engaged_at": "2026-10-22T14:40:24Z"
+          },
+          {
+            "title": "fix(repository): resolve race condition for same repo and revision in concurrent operations",
+            "url": "https://github.com/argoproj/argo-cd/pull/30346",
+            "repo": "argoproj/argo-cd",
+            "number": 30346,
+            "author": "afzal442",
+            "engaged_at": "2026-10-22T14:00:12Z"
+          },
+          {
+            "title": "fix(repo-server): Correctly inherit resources for init-container",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1397",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1397,
+            "author": "olivergondza",
+            "engaged_at": "2026-10-21T12:35:09Z"
+          },
+          {
+            "title": "feat: add OCI Generator for AppSet",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/307",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 307,
+            "author": "dkarpele",
+            "engaged_at": "2026-10-16T13:29:42Z"
+          },
+          {
+            "title": "release-4.18: return null from rollout decorator so Topology URL links render (#11176)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/300",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 300,
+            "author": "keithchong",
+            "engaged_at": "2026-09-03T14:10:07Z"
+          },
+          {
+            "title": "GITOPS-11176: return null from rollout decorator so Topology URL links render",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/299",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 299,
+            "author": "dipakkarde",
+            "engaged_at": "2026-09-03T13:10:22Z"
+          },
+          {
+            "title": "Add unit tests for health \u0026 application set status",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/290",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 290,
+            "author": "trdoyle81",
+            "engaged_at": "2026-09-02T17:11:56Z"
+          },
+          {
+            "title": "fix: enable Delete ApplicationSet (And Apps) for namespace-scoped users (GITOPS-10780)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/287",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 287,
+            "author": "keithchong",
+            "engaged_at": "2026-09-02T16:36:37Z"
+          },
+          {
+            "title": "Bump up version number for main",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/286",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 286,
+            "author": "keithchong",
+            "engaged_at": "2026-09-02T15:49:03Z"
+          },
+          {
+            "title": "fix: release-4.18: enable Delete ApplicationSet (and Apps) for namespace-scoped users (#10780)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/289",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 289,
+            "author": "keithchong",
+            "engaged_at": "2026-09-02T15:48:20Z"
+          },
+          {
+            "title": "fix: Use Link Icon instead to indicate new page will be opened (no jira)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/288",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 288,
+            "author": "keithchong",
+            "engaged_at": "2026-09-02T14:18:21Z"
+          },
+          {
+            "title": "WIP: Update Dynamic Plugin Version, Dependencies, Cleanup (#10305)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/283",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 283,
+            "author": "keithchong",
+            "engaged_at": "2026-09-01T15:25:19Z"
+          }
+        ]
+      },
+      {
         "login": "keithchong",
         "reviews": 47,
         "prs": [
@@ -11879,380 +12261,6 @@
             "number": 284,
             "author": "aali309",
             "engaged_at": "2026-09-01T14:50:21Z"
-          }
-        ]
-      },
-      {
-        "login": "aali309",
-        "reviews": 46,
-        "prs": [
-          {
-            "title": "fix(applicationset): log application names when refreshing",
-            "url": "https://github.com/argoproj/argo-cd/pull/31228",
-            "repo": "argoproj/argo-cd",
-            "number": 31228,
-            "author": "joshbarros",
-            "engaged_at": "2026-11-25T17:32:07Z"
-          },
-          {
-            "title": "docs: note that deleting a child Application from the resource tree needs get and delete on the child (#26364)",
-            "url": "https://github.com/argoproj/argo-cd/pull/31268",
-            "repo": "argoproj/argo-cd",
-            "number": 31268,
-            "author": "ppapapetrou76",
-            "engaged_at": "2026-11-25T17:00:27Z"
-          },
-          {
-            "title": "Add UI test for Monitoring observibility and test harness",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1586",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1586,
-            "author": "trdoyle81",
-            "engaged_at": "2026-11-24T22:50:51Z"
-          },
-          {
-            "title": "feat(oci): verify Helm chart provenance for oci:// sources (#3833)",
-            "url": "https://github.com/argoproj/argo-cd/pull/30965",
-            "repo": "argoproj/argo-cd",
-            "number": 30965,
-            "author": "blakepettersson",
-            "engaged_at": "2026-11-23T22:42:02Z"
-          },
-          {
-            "title": "feat(sourceintegrity): verify Helm chart provenance (#3833)",
-            "url": "https://github.com/argoproj/argo-cd/pull/30964",
-            "repo": "argoproj/argo-cd",
-            "number": 30964,
-            "author": "blakepettersson",
-            "engaged_at": "2026-11-23T21:35:18Z"
-          },
-          {
-            "title": "fix: Bump up the version for 1.22.z",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/346",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 346,
-            "author": "keithchong",
-            "engaged_at": "2026-11-20T23:14:21Z"
-          },
-          {
-            "title": "fix: @types/jest is needed to build. Bump up version.",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/345",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 345,
-            "author": "keithchong",
-            "engaged_at": "2026-11-20T21:47:43Z"
-          },
-          {
-            "title": "Missing @types/jest dev dependency for v1.21",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/344",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 344,
-            "author": "keithchong",
-            "engaged_at": "2026-11-20T21:44:51Z"
-          },
-          {
-            "title": "Rollouts extention UI test",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1572",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1572,
-            "author": "trdoyle81",
-            "engaged_at": "2026-11-20T21:21:05Z"
-          },
-          {
-            "title": "fix: Incorrect link to resource 1.21.z (#12074)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/342",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 342,
-            "author": "keithchong",
-            "engaged_at": "2026-11-20T00:12:46Z"
-          },
-          {
-            "title": "fix: Incorrect link to resource 1.22.z (#12074)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/341",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 341,
-            "author": "keithchong",
-            "engaged_at": "2026-11-20T00:11:55Z"
-          },
-          {
-            "title": "fix: normalize app name handling for RBAC and update related tests",
-            "url": "https://github.com/argoproj/argo-cd/pull/31001",
-            "repo": "argoproj/argo-cd",
-            "number": 31001,
-            "author": "afzal442",
-            "engaged_at": "2026-11-18T23:58:37Z"
-          },
-          {
-            "title": "feat: add cluster metadata labels and annotations to ApplicationSet p…",
-            "url": "https://github.com/argoproj/argo-cd/pull/30330",
-            "repo": "argoproj/argo-cd",
-            "number": 30330,
-            "author": "afzal442",
-            "engaged_at": "2026-11-18T23:41:31Z"
-          },
-          {
-            "title": "fix: Incorrect link to resource (#12074)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/337",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 337,
-            "author": "keithchong",
-            "engaged_at": "2026-11-18T03:53:25Z"
-          },
-          {
-            "title": "chore: Update translated files (#11831)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/331",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 331,
-            "author": "keithchong",
-            "engaged_at": "2026-11-17T17:32:30Z"
-          },
-          {
-            "title": "chore: Update translated files (#11831)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/330",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 330,
-            "author": "keithchong",
-            "engaged_at": "2026-11-17T17:32:08Z"
-          },
-          {
-            "title": "fix: 4.18 - Encode the link to the metrics dashboard",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/328",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 328,
-            "author": "keithchong",
-            "engaged_at": "2026-11-16T22:28:14Z"
-          },
-          {
-            "title": "Gitops 9691 filter at scale",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1522",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1522,
-            "author": "trdoyle81",
-            "engaged_at": "2026-11-16T15:05:23Z"
-          },
-          {
-            "title": "fix: Encode the link to the metrics dashboard (#11491)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/327",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 327,
-            "author": "keithchong",
-            "engaged_at": "2026-11-13T21:48:38Z"
-          },
-          {
-            "title": "fix: backport access related fixes",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/326",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 326,
-            "author": "keithchong",
-            "engaged_at": "2026-11-13T19:01:45Z"
-          },
-          {
-            "title": "fix: Make access logic more readable and fix a bug (#11491)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/325",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 325,
-            "author": "keithchong",
-            "engaged_at": "2026-11-13T19:00:25Z"
-          },
-          {
-            "title": "fix: Add get AGR access check and simplify code (#11491)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/324",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 324,
-            "author": "keithchong",
-            "engaged_at": "2026-11-13T17:07:00Z"
-          },
-          {
-            "title": "fix(helm): use configured proxy for Azure ACR workload identity auth",
-            "url": "https://github.com/argoproj/argo-cd/pull/29675",
-            "repo": "argoproj/argo-cd",
-            "number": 29675,
-            "author": "Pratik-Redhat-Tech",
-            "engaged_at": "2026-11-13T16:58:07Z"
-          },
-          {
-            "title": "task: Backport dashboard overview changes to release-4.18 branch",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/322",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 322,
-            "author": "keithchong",
-            "engaged_at": "2026-11-12T21:22:07Z"
-          },
-          {
-            "title": "fix(ui): select apps by identity in Sync/Refresh Apps panels (#20695, #22178)",
-            "url": "https://github.com/argoproj/argo-cd/pull/30557",
-            "repo": "argoproj/argo-cd",
-            "number": 30557,
-            "author": "discostur",
-            "engaged_at": "2026-11-12T16:24:15Z"
-          },
-          {
-            "title": "feat: Add View AI Recommendation link to agentic run (#11491)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/317",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 317,
-            "author": "keithchong",
-            "engaged_at": "2026-11-10T20:55:19Z"
-          },
-          {
-            "title": "ci(renovate): allow storage.googleapis.com egress",
-            "url": "https://github.com/argoproj/argo-cd/pull/30919",
-            "repo": "argoproj/argo-cd",
-            "number": 30919,
-            "author": "rumstead",
-            "engaged_at": "2026-11-10T19:01:10Z"
-          },
-          {
-            "title": "App-history-and-ui-rollback-ui-test",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1497",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1497,
-            "author": "trdoyle81",
-            "engaged_at": "2026-11-10T15:39:09Z"
-          },
-          {
-            "title": "feat: Add Needs Attention, Recent Operations, Infrastructure cards to Dashboard (#11627)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/313",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 313,
-            "author": "keithchong",
-            "engaged_at": "2026-11-09T17:41:51Z"
-          },
-          {
-            "title": "fix: E2E tests failure improvements",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1509",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1509,
-            "author": "jgwest",
-            "engaged_at": "2026-11-09T13:47:46Z"
-          },
-          {
-            "title": "fix: Incorrect icon for Unknown sync status",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/312",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 312,
-            "author": "keithchong",
-            "engaged_at": "2026-11-02T23:13:15Z"
-          },
-          {
-            "title": "Create Dashboard with Sync and Health Status cards, Operational, Sync Activity and Reconciliation Metrics Cards (#11387)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/309",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 309,
-            "author": "keithchong",
-            "engaged_at": "2026-10-26T20:42:56Z"
-          },
-          {
-            "title": "feat(ui): add source integrity to project settings",
-            "url": "https://github.com/argoproj/argo-cd/pull/29411",
-            "repo": "argoproj/argo-cd",
-            "number": 29411,
-            "author": "kuci-JK",
-            "engaged_at": "2026-10-23T17:18:54Z"
-          },
-          {
-            "title": "fix(ImageUpdater): GITOPS-11648 zombie Git processes when the operator starts /manager as PID 1",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1352",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1352,
-            "author": "chengfang",
-            "engaged_at": "2026-10-22T18:16:42Z"
-          },
-          {
-            "title": "feat(syncPolicy): Allow to define prune by default for manual sync applications.",
-            "url": "https://github.com/argoproj/argo-cd/pull/30028",
-            "repo": "argoproj/argo-cd",
-            "number": 30028,
-            "author": "akhilnittala",
-            "engaged_at": "2026-10-22T14:40:24Z"
-          },
-          {
-            "title": "fix(repository): resolve race condition for same repo and revision in concurrent operations",
-            "url": "https://github.com/argoproj/argo-cd/pull/30346",
-            "repo": "argoproj/argo-cd",
-            "number": 30346,
-            "author": "afzal442",
-            "engaged_at": "2026-10-22T14:00:12Z"
-          },
-          {
-            "title": "fix(repo-server): Correctly inherit resources for init-container",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1397",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1397,
-            "author": "olivergondza",
-            "engaged_at": "2026-10-21T12:35:09Z"
-          },
-          {
-            "title": "feat: add OCI Generator for AppSet",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/307",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 307,
-            "author": "dkarpele",
-            "engaged_at": "2026-10-16T13:29:42Z"
-          },
-          {
-            "title": "release-4.18: return null from rollout decorator so Topology URL links render (#11176)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/300",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 300,
-            "author": "keithchong",
-            "engaged_at": "2026-09-03T14:10:07Z"
-          },
-          {
-            "title": "GITOPS-11176: return null from rollout decorator so Topology URL links render",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/299",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 299,
-            "author": "dipakkarde",
-            "engaged_at": "2026-09-03T13:10:22Z"
-          },
-          {
-            "title": "Add unit tests for health \u0026 application set status",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/290",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 290,
-            "author": "trdoyle81",
-            "engaged_at": "2026-09-02T17:11:56Z"
-          },
-          {
-            "title": "fix: enable Delete ApplicationSet (And Apps) for namespace-scoped users (GITOPS-10780)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/287",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 287,
-            "author": "keithchong",
-            "engaged_at": "2026-09-02T16:36:37Z"
-          },
-          {
-            "title": "Bump up version number for main",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/286",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 286,
-            "author": "keithchong",
-            "engaged_at": "2026-09-02T15:49:03Z"
-          },
-          {
-            "title": "fix: release-4.18: enable Delete ApplicationSet (and Apps) for namespace-scoped users (#10780)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/289",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 289,
-            "author": "keithchong",
-            "engaged_at": "2026-09-02T15:48:20Z"
-          },
-          {
-            "title": "fix: Use Link Icon instead to indicate new page will be opened (no jira)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/288",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 288,
-            "author": "keithchong",
-            "engaged_at": "2026-09-02T14:18:21Z"
-          },
-          {
-            "title": "WIP: Update Dynamic Plugin Version, Dependencies, Cleanup (#10305)",
-            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/283",
-            "repo": "redhat-developer/gitops-console-plugin",
-            "number": 283,
-            "author": "keithchong",
-            "engaged_at": "2026-09-01T15:25:19Z"
           }
         ]
       },
