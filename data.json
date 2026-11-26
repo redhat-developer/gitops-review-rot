@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T08:07:19.043602199Z",
+  "generated_at": "2026-11-26T09:06:43.095199145Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -5993,7 +5993,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-28T08:05:20Z",
+    "since": "2026-08-28T09:04:39Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -9042,6 +9042,14 @@
         "reviews": 111,
         "prs": [
           {
+            "title": "feat(appset): add replicas to be able to scale applicationset from argocd CR",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1583",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1583,
+            "author": "ranakan19",
+            "engaged_at": "2026-11-26T09:04:10Z"
+          },
+          {
             "title": "chore(deps): bump image-updater from 1.3.3 to 1.3.4 and argocd from 3.5.7 to 3.5.8",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1604",
             "repo": "redhat-developer/gitops-operator",
@@ -9064,14 +9072,6 @@
             "number": 1589,
             "author": "chengfang",
             "engaged_at": "2026-11-25T12:19:41Z"
-          },
-          {
-            "title": "feat(appset): add replicas to be able to scale applicationset from argocd CR",
-            "url": "https://github.com/redhat-developer/gitops-operator/pull/1583",
-            "repo": "redhat-developer/gitops-operator",
-            "number": 1583,
-            "author": "ranakan19",
-            "engaged_at": "2026-11-25T12:10:58Z"
           },
           {
             "title": "chore: add automatic retry of go dependency downloads",
