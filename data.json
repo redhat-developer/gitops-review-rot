@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T04:07:09.717140148Z",
+  "generated_at": "2026-11-26T05:05:49.823129134Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -635,7 +635,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:24:25Z",
-      "updated_at": "2026-11-26T01:12:47Z",
+      "updated_at": "2026-11-26T04:58:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -658,7 +658,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T22:30:16Z",
-      "updated_at": "2026-11-26T01:14:04Z",
+      "updated_at": "2026-11-26T04:59:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -704,10 +704,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-06T02:41:51Z",
-      "updated_at": "2026-11-26T01:11:27Z",
+      "updated_at": "2026-11-26T04:57:04Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -1902,17 +1902,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/34443651?u=73a97604db6687fcb859258572a183ba9fcc8bb2\u0026v=4"
       },
       "created_at": "2026-11-25T07:54:37Z",
-      "updated_at": "2026-11-25T18:14:08Z",
+      "updated_at": "2026-11-26T04:39:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "kind/bug"
       ]
@@ -5993,7 +5993,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-28T04:05:18Z",
+    "since": "2026-08-28T05:03:54Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -9933,8 +9933,16 @@
       },
       {
         "login": "svghadi",
-        "reviews": 77,
+        "reviews": 78,
         "prs": [
+          {
+            "title": "fix(argocd): stop no-op updates on every reconcile",
+            "url": "https://github.com/redhat-developer/gitops-operator/pull/1591",
+            "repo": "redhat-developer/gitops-operator",
+            "number": 1591,
+            "author": "anandrkskd",
+            "engaged_at": "2026-11-26T04:39:10Z"
+          },
           {
             "title": "chore(ci): Adapt to new release branch naming pattern",
             "url": "https://github.com/redhat-developer/gitops-operator/pull/1592",
