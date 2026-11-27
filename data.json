@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T21:06:09.634472309Z",
+  "generated_at": "2026-11-27T22:05:38.341464258Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -982,14 +982,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
       },
       "created_at": "2026-11-27T20:13:34Z",
-      "updated_at": "2026-11-27T20:13:41Z",
+      "updated_at": "2026-11-27T21:07:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -1005,14 +1005,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
       },
       "created_at": "2026-11-27T20:19:33Z",
-      "updated_at": "2026-11-27T20:19:41Z",
+      "updated_at": "2026-11-27T21:09:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -1028,14 +1028,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/7726022?u=7fadde5d5e661e056f07a1f48de50cec431e3bbc\u0026v=4"
       },
       "created_at": "2026-11-27T20:49:16Z",
-      "updated_at": "2026-11-27T20:49:25Z",
+      "updated_at": "2026-11-27T21:10:45Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4698,7 +4698,7 @@
       "updated_at": "2026-11-27T21:01:58Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -6067,7 +6067,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-29T21:04:16Z",
+    "since": "2026-08-29T22:03:40Z",
     "reviewers": [
       {
         "login": "jgwest",
@@ -11339,8 +11339,32 @@
       },
       {
         "login": "aali309",
-        "reviews": 52,
+        "reviews": 55,
         "prs": [
+          {
+            "title": "fix: 1.21: Revisions tab not rendered due to undefined RS (#12243)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/363",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 363,
+            "author": "keithchong",
+            "engaged_at": "2026-11-27T21:10:45Z"
+          },
+          {
+            "title": "fix: v1.23-release-4.18: Revisions not rendered due to undefined RS (#12243)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/362",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 362,
+            "author": "keithchong",
+            "engaged_at": "2026-11-27T21:09:51Z"
+          },
+          {
+            "title": "fix: 1.23: Revisions tab not rendered due to undefined RS (#12243)",
+            "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/361",
+            "repo": "redhat-developer/gitops-console-plugin",
+            "number": 361,
+            "author": "keithchong",
+            "engaged_at": "2026-11-27T21:07:52Z"
+          },
           {
             "title": "fix: v1.22-release-4.18: Revisions not rendered due to undefined RS (#12243)",
             "url": "https://github.com/redhat-developer/gitops-console-plugin/pull/360",
