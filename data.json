@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T02:08:01.365245188Z",
+  "generated_at": "2026-11-27T03:07:30.083185282Z",
   "ui_settings": {
     "title": "OpenShift GitOps Review Rot",
     "logo": "images/GITOPS-logo.png",
@@ -2335,6 +2335,32 @@
       ]
     },
     {
+      "title": "chore(e2e): Resolve the default instance markers in the E2E tests",
+      "url": "https://github.com/redhat-developer/gitops-operator/pull/1614",
+      "number": 1614,
+      "repo": "redhat-developer/gitops-operator",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-11-27T02:07:47Z",
+      "updated_at": "2026-11-27T02:14:47Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "needs-ok-to-test",
+        "kind/cleanup"
+      ]
+    },
+    {
       "title": "feat: Add helm charts for principal",
       "url": "https://github.com/argoproj-labs/argocd-agent/pull/512",
       "number": 512,
@@ -2804,7 +2830,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3942683?u=038f901f9541001e86f098745d541daaaf7f2974\u0026v=4"
       },
       "created_at": "2026-10-02T21:54:47Z",
-      "updated_at": "2026-11-21T10:07:51Z",
+      "updated_at": "2026-11-27T02:11:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3342,7 +3368,7 @@
       "updated_at": "2026-11-27T01:50:52Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
@@ -3350,6 +3376,29 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "fix(helm): stop the principal's redis proxy when it is disabled",
+      "url": "https://github.com/argoproj-labs/argocd-agent/pull/1271",
+      "number": 1271,
+      "repo": "argoproj-labs/argocd-agent",
+      "author": {
+        "login": "Gabrielandre02",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89227472?u=ce9a3729b7d4b0db87c855151a3f15e859f0722d\u0026v=4"
+      },
+      "created_at": "2026-11-27T02:26:36Z",
+      "updated_at": "2026-11-27T02:42:30Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
       "labels": []
     },
     {
@@ -5871,11 +5920,34 @@
         "dependencies",
         "go"
       ]
+    },
+    {
+      "title": "fix: update yarn.lock with correct dependencies and  CI workflows to use Go 1.25 for v1.9.0",
+      "url": "https://github.com/argoproj/argo-rollouts/pull/4763",
+      "number": 4763,
+      "repo": "argoproj/argo-rollouts",
+      "author": {
+        "login": "Rizwana777",
+        "avatar_url": "https://avatars.githubusercontent.com/u/76523858?u=cfd6a8cab5391bcf5c7647179fe5ef2a70639539\u0026v=4"
+      },
+      "created_at": "2026-06-02T10:07:56Z",
+      "updated_at": "2026-11-05T05:28:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-08-29T02:06:07Z",
+    "since": "2026-08-29T03:05:30Z",
     "reviewers": [
       {
         "login": "jgwest",
